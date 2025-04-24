@@ -1,0 +1,3712 @@
+{
+  "https://developers.google.com/earth-engine/datasets/catalog/AAFC_ACI": {
+    "status": "success",
+    "filename": "AAFC_ACI.md",
+    "timestamp": "2025-04-22T14:30:44.776452"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v2_0": {
+    "status": "success",
+    "filename": "ACA_reef_habitat_v2_0.md",
+    "timestamp": "2025-04-22T14:30:46.166046"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/AHN_AHN2_05M_INT": {
+    "status": "success",
+    "filename": "AHN_AHN2_05M_INT.md",
+    "timestamp": "2025-04-22T14:30:47.525321"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/AHN_AHN2_05M_NON": {
+    "status": "success",
+    "filename": "AHN_AHN2_05M_NON.md",
+    "timestamp": "2025-04-22T14:30:48.823840"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/AHN_AHN2_05M_RUW": {
+    "status": "success",
+    "filename": "AHN_AHN2_05M_RUW.md",
+    "timestamp": "2025-04-22T14:30:50.287120"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/AHN_AHN3": {
+    "status": "success",
+    "filename": "AHN_AHN3.md",
+    "timestamp": "2025-04-22T14:30:51.468757"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/AHN_AHN4": {
+    "status": "success",
+    "filename": "AHN_AHN4.md",
+    "timestamp": "2025-04-22T14:30:53.194378"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ASTER_AST_L1T_003": {
+    "status": "success",
+    "filename": "ASTER_AST_L1T_003.md",
+    "timestamp": "2025-04-22T14:30:54.535382"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/AU_GA_AUSTRALIA_5M_DEM": {
+    "status": "success",
+    "filename": "AU_GA_AUSTRALIA_5M_DEM.md",
+    "timestamp": "2025-04-22T14:30:55.942931"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/AU_GA_DEM_1SEC_v10_DEM-H": {
+    "status": "success",
+    "filename": "AU_GA_DEM_1SEC_v10_DEM-H.md",
+    "timestamp": "2025-04-22T14:30:57.392736"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/AU_GA_DEM_1SEC_v10_DEM-S": {
+    "status": "success",
+    "filename": "AU_GA_DEM_1SEC_v10_DEM-S.md",
+    "timestamp": "2025-04-22T14:30:58.832745"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1": {
+    "status": "success",
+    "filename": "BIOPAMA_GlobalOilPalm_v1.md",
+    "timestamp": "2025-04-22T14:30:59.943953"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/BLM_AIM_v1_TerrADat_TerrestrialAIM": {
+    "status": "success",
+    "filename": "BLM_AIM_v1_TerrADat_TerrestrialAIM.md",
+    "timestamp": "2025-04-22T14:31:01.149740"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1": {
+    "status": "success",
+    "filename": "BNETD_land_cover_v1.md",
+    "timestamp": "2025-04-22T14:31:03.671485"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/BNU_FGS_CCNL_v1": {
+    "status": "success",
+    "filename": "BNU_FGS_CCNL_v1.md",
+    "timestamp": "2025-04-22T14:31:05.145340"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CANADA_NFIS_NTEMS_CA_FOREST_AGE": {
+    "status": "success",
+    "filename": "CANADA_NFIS_NTEMS_CA_FOREST_AGE.md",
+    "timestamp": "2025-04-22T14:31:06.528274"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CAS_IGSNRR_PML_V2_v018": {
+    "status": "success",
+    "filename": "CAS_IGSNRR_PML_V2_v018.md",
+    "timestamp": "2025-04-22T14:31:11.000083"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4": {
+    "status": "success",
+    "filename": "CGIAR_SRTM90_V4.md",
+    "timestamp": "2025-04-22T14:31:12.137048"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Basic_Demographic_Characteristics": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_Basic_Demographic_Characteristics.md",
+    "timestamp": "2025-04-22T14:31:15.313076"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Data_Context": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_Data_Context.md",
+    "timestamp": "2025-04-22T14:31:16.606155"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Land_Area": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_Land_Area.md",
+    "timestamp": "2025-04-22T14:31:23.139755"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Mean_Administrative_Unit_Area": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_Mean_Administrative_Unit_Area.md",
+    "timestamp": "2025-04-22T14:31:24.437406"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_National_Identifier_Grid": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_National_Identifier_Grid.md",
+    "timestamp": "2025-04-22T14:31:26.015449"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Population_Count": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_Population_Count.md",
+    "timestamp": "2025-04-22T14:31:27.383282"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Population_Density": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_Population_Density.md",
+    "timestamp": "2025-04-22T14:31:28.793995"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_UNWPP-Adjusted_Population_Count": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_UNWPP-Adjusted_Population_Count.md",
+    "timestamp": "2025-04-22T14:31:30.114899"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_UNWPP-Adjusted_Population_Density": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_UNWPP-Adjusted_Population_Density.md",
+    "timestamp": "2025-04-22T14:31:31.520127"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Water_Area": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_Water_Area.md",
+    "timestamp": "2025-04-22T14:31:32.747020"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Water_Mask": {
+    "status": "success",
+    "filename": "CIESIN_GPWv411_GPW_Water_Mask.md",
+    "timestamp": "2025-04-22T14:31:34.192354"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_CORINE_V20_100m": {
+    "status": "success",
+    "filename": "COPERNICUS_CORINE_V20_100m.md",
+    "timestamp": "2025-04-22T14:31:35.398927"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_DEM_GLO30": {
+    "status": "success",
+    "filename": "COPERNICUS_DEM_GLO30.md",
+    "timestamp": "2025-04-22T14:31:38.457462"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global": {
+    "status": "success",
+    "filename": "COPERNICUS_Landcover_100m_Proba-V-C3_Global.md",
+    "timestamp": "2025-04-22T14:31:40.014124"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD": {
+    "status": "success",
+    "filename": "COPERNICUS_S1_GRD.md",
+    "timestamp": "2025-04-22T14:31:41.133803"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY": {
+    "status": "success",
+    "filename": "COPERNICUS_S2_CLOUD_PROBABILITY.md",
+    "timestamp": "2025-04-22T14:31:42.306714"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED": {
+    "status": "success",
+    "filename": "COPERNICUS_S2_HARMONIZED.md",
+    "timestamp": "2025-04-22T14:31:43.813875"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED": {
+    "status": "success",
+    "filename": "COPERNICUS_S2_SR_HARMONIZED.md",
+    "timestamp": "2025-04-22T14:31:46.102675"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI": {
+    "status": "success",
+    "filename": "COPERNICUS_S3_OLCI.md",
+    "timestamp": "2025-04-22T14:31:47.783777"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_AI": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_NRTI_L3_AER_AI.md",
+    "timestamp": "2025-04-22T14:31:49.697491"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_LH": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_NRTI_L3_AER_LH.md",
+    "timestamp": "2025-04-22T14:31:51.037738"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CLOUD": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_NRTI_L3_CLOUD.md",
+    "timestamp": "2025-04-22T14:31:53.188552"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_NRTI_L3_CO.md",
+    "timestamp": "2025-04-22T14:31:59.460534"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_HCHO": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_NRTI_L3_HCHO.md",
+    "timestamp": "2025-04-22T14:32:00.854141"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_NO2": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_NRTI_L3_NO2.md",
+    "timestamp": "2025-04-22T14:32:02.127261"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_O3": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_NRTI_L3_O3.md",
+    "timestamp": "2025-04-22T14:32:03.742059"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_SO2": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_NRTI_L3_SO2.md",
+    "timestamp": "2025-04-22T14:32:04.860231"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_AER_AI": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_AER_AI.md",
+    "timestamp": "2025-04-22T14:32:07.220074"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_AER_LH": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_AER_LH.md",
+    "timestamp": "2025-04-22T14:32:08.480431"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_CH4.md",
+    "timestamp": "2025-04-22T14:32:09.817391"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_CLOUD.md",
+    "timestamp": "2025-04-22T14:32:11.218729"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CO": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_CO.md",
+    "timestamp": "2025-04-22T14:32:12.333951"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_HCHO": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_HCHO.md",
+    "timestamp": "2025-04-22T14:32:13.656614"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_NO2": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_NO2.md",
+    "timestamp": "2025-04-22T14:32:16.921496"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_O3.md",
+    "timestamp": "2025-04-22T14:32:18.203448"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3_TCL": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_O3_TCL.md",
+    "timestamp": "2025-04-22T14:32:19.800618"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_SO2": {
+    "status": "success",
+    "filename": "COPERNICUS_S5P_OFFL_L3_SO2.md",
+    "timestamp": "2025-04-22T14:32:20.933699"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CPOM_CryoSat2_ANTARCTICA_DEM": {
+    "status": "success",
+    "filename": "CPOM_CryoSat2_ANTARCTICA_DEM.md",
+    "timestamp": "2025-04-22T14:32:22.332142"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSIC_SPEI_2_10": {
+    "status": "success",
+    "filename": "CSIC_SPEI_2_10.md",
+    "timestamp": "2025-04-22T14:32:23.534254"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA": {
+    "status": "success",
+    "filename": "CSIRO_SLGA.md",
+    "timestamp": "2025-04-22T14:32:25.838969"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_CHILI": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_Global_ALOS_CHILI.md",
+    "timestamp": "2025-04-22T14:32:27.244005"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_landforms": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_Global_ALOS_landforms.md",
+    "timestamp": "2025-04-22T14:32:29.232508"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_mTPI": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_Global_ALOS_mTPI.md",
+    "timestamp": "2025-04-22T14:32:35.487052"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_topoDiversity": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_Global_ALOS_topoDiversity.md",
+    "timestamp": "2025-04-22T14:32:36.820404"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_SRTM_CHILI": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_Global_SRTM_CHILI.md",
+    "timestamp": "2025-04-22T14:32:37.957514"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_SRTM_landforms": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_Global_SRTM_landforms.md",
+    "timestamp": "2025-04-22T14:32:40.709566"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_SRTM_mTPI": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_Global_SRTM_mTPI.md",
+    "timestamp": "2025-04-22T14:32:41.817502"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_SRTM_topoDiversity": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_Global_SRTM_topoDiversity.md",
+    "timestamp": "2025-04-22T14:32:42.877200"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_US_CHILI": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_US_CHILI.md",
+    "timestamp": "2025-04-22T14:32:44.141991"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_US_landforms": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_US_landforms.md",
+    "timestamp": "2025-04-22T14:32:45.374311"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_US_lithology": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_US_lithology.md",
+    "timestamp": "2025-04-22T14:32:46.716558"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_US_mTPI": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_US_mTPI.md",
+    "timestamp": "2025-04-22T14:32:48.056840"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_US_physioDiversity": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_US_physioDiversity.md",
+    "timestamp": "2025-04-22T14:32:49.318730"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_US_physiography": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_US_physiography.md",
+    "timestamp": "2025-04-22T14:32:54.302029"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_US_topoDiversity": {
+    "status": "success",
+    "filename": "CSP_ERGo_1_0_US_topoDiversity.md",
+    "timestamp": "2025-04-22T14:32:57.829012"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/CSP_HM_GlobalHumanModification": {
+    "status": "success",
+    "filename": "CSP_HM_GlobalHumanModification.md",
+    "timestamp": "2025-04-22T14:32:58.961921"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/DLR_WSF_WSF2015_v1": {
+    "status": "success",
+    "filename": "DLR_WSF_WSF2015_v1.md",
+    "timestamp": "2025-04-22T14:33:00.262393"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/DOE_ORNL_LandScan_HD_Ukraine_202201": {
+    "status": "success",
+    "filename": "DOE_ORNL_LandScan_HD_Ukraine_202201.md",
+    "timestamp": "2025-04-22T14:33:01.670348"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT": {
+    "status": "success",
+    "filename": "ECMWF_CAMS_NRT.md",
+    "timestamp": "2025-04-22T14:33:02.946533"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY": {
+    "status": "success",
+    "filename": "ECMWF_ERA5_DAILY.md",
+    "timestamp": "2025-04-22T14:33:04.150243"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR": {
+    "status": "success",
+    "filename": "ECMWF_ERA5_LAND_DAILY_AGGR.md",
+    "timestamp": "2025-04-22T14:33:05.316535"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_HOURLY": {
+    "status": "success",
+    "filename": "ECMWF_ERA5_LAND_HOURLY.md",
+    "timestamp": "2025-04-22T14:33:06.964911"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_MONTHLY_AGGR": {
+    "status": "success",
+    "filename": "ECMWF_ERA5_LAND_MONTHLY_AGGR.md",
+    "timestamp": "2025-04-22T14:33:13.466924"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_MONTHLY_BY_HOUR": {
+    "status": "success",
+    "filename": "ECMWF_ERA5_LAND_MONTHLY_BY_HOUR.md",
+    "timestamp": "2025-04-22T14:33:14.655324"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY": {
+    "status": "success",
+    "filename": "ECMWF_ERA5_MONTHLY.md",
+    "timestamp": "2025-04-22T14:33:15.781817"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_NRT_FORECAST_IFS_OPER": {
+    "status": "success",
+    "filename": "ECMWF_NRT_FORECAST_IFS_OPER.md",
+    "timestamp": "2025-04-22T14:33:17.015161"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/EDF_MethaneSAT_MethaneAIR_L3concentration": {
+    "status": "success",
+    "filename": "EDF_MethaneSAT_MethaneAIR_L3concentration.md",
+    "timestamp": "2025-04-22T14:33:19.211872"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/EDF_MethaneSAT_MethaneAIR_L4area": {
+    "status": "success",
+    "filename": "EDF_MethaneSAT_MethaneAIR_L4area.md",
+    "timestamp": "2025-04-22T14:33:20.351523"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/EDF_MethaneSAT_MethaneAIR_L4point": {
+    "status": "success",
+    "filename": "EDF_MethaneSAT_MethaneAIR_L4point.md",
+    "timestamp": "2025-04-22T14:33:21.487416"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/EDF_OGIM_current": {
+    "status": "success",
+    "filename": "EDF_OGIM_current.md",
+    "timestamp": "2025-04-22T14:33:22.669523"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/EO1_HYPERION": {
+    "status": "success",
+    "filename": "EO1_HYPERION.md",
+    "timestamp": "2025-04-22T14:33:23.853035"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/EPA_Ecoregions_2013_L3": {
+    "status": "success",
+    "filename": "EPA_Ecoregions_2013_L3.md",
+    "timestamp": "2025-04-22T14:33:25.422471"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/EPA_Ecoregions_2013_L4": {
+    "status": "success",
+    "filename": "EPA_Ecoregions_2013_L4.md",
+    "timestamp": "2025-04-22T14:33:26.585012"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1": {
+    "status": "success",
+    "filename": "ESA_CCI_FireCCI_5_1.md",
+    "timestamp": "2025-04-22T14:33:28.347182"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ESA_GLOBCOVER_L4_200901_200912_V2_3": {
+    "status": "success",
+    "filename": "ESA_GLOBCOVER_L4_200901_200912_V2_3.md",
+    "timestamp": "2025-04-22T14:33:29.425968"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100": {
+    "status": "success",
+    "filename": "ESA_WorldCereal_2021_MARKERS_v100.md",
+    "timestamp": "2025-04-22T14:33:30.774019"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MODELS_v100": {
+    "status": "success",
+    "filename": "ESA_WorldCereal_2021_MODELS_v100.md",
+    "timestamp": "2025-04-22T14:33:32.719172"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_AEZ_v100": {
+    "status": "success",
+    "filename": "ESA_WorldCereal_AEZ_v100.md",
+    "timestamp": "2025-04-22T14:33:33.958990"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v100": {
+    "status": "success",
+    "filename": "ESA_WorldCover_v100.md",
+    "timestamp": "2025-04-22T14:33:35.064869"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v200": {
+    "status": "success",
+    "filename": "ESA_WorldCover_v200.md",
+    "timestamp": "2025-04-22T14:33:36.219187"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Estonia_Maamet_orthos_mono": {
+    "status": "success",
+    "filename": "Estonia_Maamet_orthos_mono.md",
+    "timestamp": "2025-04-22T14:33:37.326778"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Estonia_Maamet_orthos_mono_low_flying": {
+    "status": "success",
+    "filename": "Estonia_Maamet_orthos_mono_low_flying.md",
+    "timestamp": "2025-04-22T14:33:38.560498"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Estonia_Maamet_orthos_rgb": {
+    "status": "success",
+    "filename": "Estonia_Maamet_orthos_rgb.md",
+    "timestamp": "2025-04-22T14:33:44.877892"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Estonia_Maamet_orthos_rgb_low_flying": {
+    "status": "success",
+    "filename": "Estonia_Maamet_orthos_rgb_low_flying.md",
+    "timestamp": "2025-04-22T14:33:46.283134"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2015_level0": {
+    "status": "success",
+    "filename": "FAO_GAUL_2015_level0.md",
+    "timestamp": "2025-04-22T14:33:47.432775"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2015_level1": {
+    "status": "success",
+    "filename": "FAO_GAUL_2015_level1.md",
+    "timestamp": "2025-04-22T14:33:48.609218"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2015_level2": {
+    "status": "success",
+    "filename": "FAO_GAUL_2015_level2.md",
+    "timestamp": "2025-04-22T14:33:49.866627"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level0": {
+    "status": "success",
+    "filename": "FAO_GAUL_SIMPLIFIED_500m_2015_level0.md",
+    "timestamp": "2025-04-22T14:33:51.043632"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level1": {
+    "status": "success",
+    "filename": "FAO_GAUL_SIMPLIFIED_500m_2015_level1.md",
+    "timestamp": "2025-04-22T14:33:52.410679"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level2": {
+    "status": "success",
+    "filename": "FAO_GAUL_SIMPLIFIED_500m_2015_level2.md",
+    "timestamp": "2025-04-22T14:33:53.827535"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_GHG_1_DROSA_A": {
+    "status": "success",
+    "filename": "FAO_GHG_1_DROSA_A.md",
+    "timestamp": "2025-04-22T14:33:55.190551"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_GHG_1_DROSE_A": {
+    "status": "success",
+    "filename": "FAO_GHG_1_DROSE_A.md",
+    "timestamp": "2025-04-22T14:33:56.553699"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_SOFO_1_FPP": {
+    "status": "success",
+    "filename": "FAO_SOFO_1_FPP.md",
+    "timestamp": "2025-04-22T14:33:57.960343"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_SOFO_1_TPP": {
+    "status": "success",
+    "filename": "FAO_SOFO_1_TPP.md",
+    "timestamp": "2025-04-22T14:33:59.631124"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_AETI_D": {
+    "status": "success",
+    "filename": "FAO_WAPOR_2_L1_AETI_D.md",
+    "timestamp": "2025-04-22T14:34:02.586042"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_E_D": {
+    "status": "success",
+    "filename": "FAO_WAPOR_2_L1_E_D.md",
+    "timestamp": "2025-04-22T14:34:03.981311"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_I_D": {
+    "status": "success",
+    "filename": "FAO_WAPOR_2_L1_I_D.md",
+    "timestamp": "2025-04-22T14:34:05.142887"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_NPP_D": {
+    "status": "success",
+    "filename": "FAO_WAPOR_2_L1_NPP_D.md",
+    "timestamp": "2025-04-22T14:34:06.494676"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_RET_D": {
+    "status": "success",
+    "filename": "FAO_WAPOR_2_L1_RET_D.md",
+    "timestamp": "2025-04-22T14:34:07.873677"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_RET_E": {
+    "status": "success",
+    "filename": "FAO_WAPOR_2_L1_RET_E.md",
+    "timestamp": "2025-04-22T14:34:09.301297"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_T_D": {
+    "status": "success",
+    "filename": "FAO_WAPOR_2_L1_T_D.md",
+    "timestamp": "2025-04-22T14:34:10.513793"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/FIRMS": {
+    "status": "success",
+    "filename": "FIRMS.md",
+    "timestamp": "2025-04-22T14:34:11.857307"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Finland_MAVI_VV_50cm": {
+    "status": "success",
+    "filename": "Finland_MAVI_VV_50cm.md",
+    "timestamp": "2025-04-22T14:34:18.138730"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Finland_SMK_VV_50cm": {
+    "status": "success",
+    "filename": "Finland_SMK_VV_50cm.md",
+    "timestamp": "2025-04-22T14:34:19.423085"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Finland_SMK_V_50cm": {
+    "status": "success",
+    "filename": "Finland_SMK_V_50cm.md",
+    "timestamp": "2025-04-22T14:34:21.631480"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GFW_GFF_V1_fishing_hours": {
+    "status": "success",
+    "filename": "GFW_GFF_V1_fishing_hours.md",
+    "timestamp": "2025-04-22T14:34:22.732318"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GFW_GFF_V1_vessel_hours": {
+    "status": "success",
+    "filename": "GFW_GFF_V1_vessel_hours.md",
+    "timestamp": "2025-04-22T14:34:23.929873"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GLCF_GLS_WATER": {
+    "status": "success",
+    "filename": "GLCF_GLS_WATER.md",
+    "timestamp": "2025-04-22T14:34:25.197401"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GLIMS_20230607": {
+    "status": "success",
+    "filename": "GLIMS_20230607.md",
+    "timestamp": "2025-04-22T14:34:26.601379"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1": {
+    "status": "success",
+    "filename": "GLOBAL_FLOOD_DB_MODIS_EVENTS_V1.md",
+    "timestamp": "2025-04-22T14:34:27.857921"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_AirView_California_Unified_2015_2019": {
+    "status": "success",
+    "filename": "GOOGLE_AirView_California_Unified_2015_2019.md",
+    "timestamp": "2025-04-22T14:34:29.167467"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_CLOUD_SCORE_PLUS_V1_S2_HARMONIZED": {
+    "status": "success",
+    "filename": "GOOGLE_CLOUD_SCORE_PLUS_V1_S2_HARMONIZED.md",
+    "timestamp": "2025-04-22T14:34:30.416588"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1": {
+    "status": "success",
+    "filename": "GOOGLE_DYNAMICWORLD_V1.md",
+    "timestamp": "2025-04-22T14:34:31.599335"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_GLOBAL_CCDC_V1": {
+    "status": "success",
+    "filename": "GOOGLE_GLOBAL_CCDC_V1.md",
+    "timestamp": "2025-04-22T14:34:35.009810"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings-temporal_v1": {
+    "status": "success",
+    "filename": "GOOGLE_Research_open-buildings-temporal_v1.md",
+    "timestamp": "2025-04-22T14:34:36.527929"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons": {
+    "status": "success",
+    "filename": "GOOGLE_Research_open-buildings_v3_polygons.md",
+    "timestamp": "2025-04-22T14:34:37.911501"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT": {
+    "status": "success",
+    "filename": "GRIDMET_DROUGHT.md",
+    "timestamp": "2025-04-22T14:34:39.230613"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Germany_Brandenburg_orthos_20cm": {
+    "status": "success",
+    "filename": "Germany_Brandenburg_orthos_20cm.md",
+    "timestamp": "2025-04-22T14:34:40.595413"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_points": {
+    "status": "success",
+    "filename": "HU_BERLIN_EPFD_V2_points.md",
+    "timestamp": "2025-04-22T14:34:41.936773"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_polygons": {
+    "status": "success",
+    "filename": "HU_BERLIN_EPFD_V2_polygons.md",
+    "timestamp": "2025-04-22T14:34:44.220878"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/HYCOM_sea_surface_elevation": {
+    "status": "success",
+    "filename": "HYCOM_sea_surface_elevation.md",
+    "timestamp": "2025-04-22T14:34:45.361495"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/HYCOM_sea_temp_salinity": {
+    "status": "success",
+    "filename": "HYCOM_sea_temp_salinity.md",
+    "timestamp": "2025-04-22T14:34:46.543320"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/HYCOM_sea_water_velocity": {
+    "status": "success",
+    "filename": "HYCOM_sea_water_velocity.md",
+    "timestamp": "2025-04-22T14:34:53.079011"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_GRIDMET": {
+    "status": "success",
+    "filename": "IDAHO_EPSCOR_GRIDMET.md",
+    "timestamp": "2025-04-22T14:34:55.356610"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_MACAv2_METDATA": {
+    "status": "success",
+    "filename": "IDAHO_EPSCOR_MACAv2_METDATA.md",
+    "timestamp": "2025-04-22T14:34:56.897350"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY": {
+    "status": "success",
+    "filename": "IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY.md",
+    "timestamp": "2025-04-22T14:34:58.576423"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE": {
+    "status": "success",
+    "filename": "IDAHO_EPSCOR_TERRACLIMATE.md",
+    "timestamp": "2025-04-22T14:34:59.953886"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/IGN_RGE_ALTI_1M_2_0": {
+    "status": "success",
+    "filename": "IGN_RGE_ALTI_1M_2_0.md",
+    "timestamp": "2025-04-22T14:35:01.560041"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/IPCC_AR6_SLP": {
+    "status": "success",
+    "filename": "IPCC_AR6_SLP.md",
+    "timestamp": "2025-04-22T14:35:03.830122"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_aluminium_extractable": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_aluminium_extractable.md",
+    "timestamp": "2025-04-22T14:35:05.091090"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_bedrock_depth": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_bedrock_depth.md",
+    "timestamp": "2025-04-22T14:35:08.589474"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_bulk_density": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_bulk_density.md",
+    "timestamp": "2025-04-22T14:35:09.968582"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_calcium_extractable": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_calcium_extractable.md",
+    "timestamp": "2025-04-22T14:35:11.444814"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_carbon_organic": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_carbon_organic.md",
+    "timestamp": "2025-04-22T14:35:12.814430"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_carbon_total": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_carbon_total.md",
+    "timestamp": "2025-04-22T14:35:18.946949"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_cation_exchange_capacity": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_cation_exchange_capacity.md",
+    "timestamp": "2025-04-22T14:35:20.368925"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_clay_content": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_clay_content.md",
+    "timestamp": "2025-04-22T14:35:21.638225"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_fcc": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_fcc.md",
+    "timestamp": "2025-04-22T14:35:22.845830"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_iron_extractable": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_iron_extractable.md",
+    "timestamp": "2025-04-22T14:35:25.139737"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_magnesium_extractable": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_magnesium_extractable.md",
+    "timestamp": "2025-04-22T14:35:26.374390"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_nitrogen_total": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_nitrogen_total.md",
+    "timestamp": "2025-04-22T14:35:28.657221"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_ph": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_ph.md",
+    "timestamp": "2025-04-22T14:35:30.147434"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_phosphorus_extractable": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_phosphorus_extractable.md",
+    "timestamp": "2025-04-22T14:35:36.486278"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_potassium_extractable": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_potassium_extractable.md",
+    "timestamp": "2025-04-22T14:35:37.864576"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_sand_content": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_sand_content.md",
+    "timestamp": "2025-04-22T14:35:41.481811"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_silt_content": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_silt_content.md",
+    "timestamp": "2025-04-22T14:35:43.420934"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_stone_content": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_stone_content.md",
+    "timestamp": "2025-04-22T14:35:46.615736"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_sulphur_extractable": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_sulphur_extractable.md",
+    "timestamp": "2025-04-22T14:35:52.864755"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_texture_class": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_texture_class.md",
+    "timestamp": "2025-04-22T14:35:56.757051"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_zinc_extractable": {
+    "status": "success",
+    "filename": "ISDASOIL_Africa_v1_zinc_extractable.md",
+    "timestamp": "2025-04-22T14:35:58.248290"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v20": {
+    "status": "success",
+    "filename": "ISRIC_SoilGrids250m_v20.md",
+    "timestamp": "2025-04-22T14:36:00.048869"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/IUCN_GlobalEcosystemTypology_current": {
+    "status": "success",
+    "filename": "IUCN_GlobalEcosystemTypology_current.md",
+    "timestamp": "2025-04-22T14:36:01.292048"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AVNIR-2_ORI": {
+    "status": "success",
+    "filename": "JAXA_ALOS_AVNIR-2_ORI.md",
+    "timestamp": "2025-04-22T14:36:02.741249"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2": {
+    "status": "success",
+    "filename": "JAXA_ALOS_AW3D30_V3_2.md",
+    "timestamp": "2025-04-22T14:36:04.298811"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_1_StripMap_202401": {
+    "status": "success",
+    "filename": "JAXA_ALOS_PALSAR-2_Level2_1_StripMap_202401.md",
+    "timestamp": "2025-04-22T14:36:06.402699"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR": {
+    "status": "success",
+    "filename": "JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR.md",
+    "timestamp": "2025-04-22T14:36:08.904567"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_FNF4": {
+    "status": "success",
+    "filename": "JAXA_ALOS_PALSAR_YEARLY_FNF4.md",
+    "timestamp": "2025-04-22T14:36:11.391918"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_FNF": {
+    "status": "success",
+    "filename": "JAXA_ALOS_PALSAR_YEARLY_FNF.md",
+    "timestamp": "2025-04-22T14:36:13.271024"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_SAR": {
+    "status": "success",
+    "filename": "JAXA_ALOS_PALSAR_YEARLY_SAR.md",
+    "timestamp": "2025-04-22T14:36:14.507983"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH": {
+    "status": "success",
+    "filename": "JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH.md",
+    "timestamp": "2025-04-22T14:36:15.957846"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LAI_V1": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_LAND_LAI_V1.md",
+    "timestamp": "2025-04-22T14:36:17.253731"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LAI_V2": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_LAND_LAI_V2.md",
+    "timestamp": "2025-04-22T14:36:18.758371"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LAI_V3": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_LAND_LAI_V3.md",
+    "timestamp": "2025-04-22T14:36:25.034475"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V1": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_LAND_LST_V1.md",
+    "timestamp": "2025-04-22T14:36:26.494784"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V2": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_LAND_LST_V2.md",
+    "timestamp": "2025-04-22T14:36:27.862173"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V3": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_LAND_LST_V3.md",
+    "timestamp": "2025-04-22T14:36:29.361242"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_CHLA_V1": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_OCEAN_CHLA_V1.md",
+    "timestamp": "2025-04-22T14:36:30.885302"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_CHLA_V2": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_OCEAN_CHLA_V2.md",
+    "timestamp": "2025-04-22T14:36:32.225667"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_CHLA_V3": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_OCEAN_CHLA_V3.md",
+    "timestamp": "2025-04-22T14:36:33.584467"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_SST_V1": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_OCEAN_SST_V1.md",
+    "timestamp": "2025-04-22T14:36:34.741392"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_SST_V2": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_OCEAN_SST_V2.md",
+    "timestamp": "2025-04-22T14:36:36.118826"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_SST_V3": {
+    "status": "success",
+    "filename": "JAXA_GCOM-C_L3_OCEAN_SST_V3.md",
+    "timestamp": "2025-04-22T14:36:37.495538"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GPM_L3_GSMaP_v6_operational": {
+    "status": "success",
+    "filename": "JAXA_GPM_L3_GSMaP_v6_operational.md",
+    "timestamp": "2025-04-22T14:36:40.632143"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GPM_L3_GSMaP_v6_reanalysis": {
+    "status": "success",
+    "filename": "JAXA_GPM_L3_GSMaP_v6_reanalysis.md",
+    "timestamp": "2025-04-22T14:36:41.834586"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GPM_L3_GSMaP_v7_operational": {
+    "status": "success",
+    "filename": "JAXA_GPM_L3_GSMaP_v7_operational.md",
+    "timestamp": "2025-04-22T14:36:43.192852"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GPM_L3_GSMaP_v8_operational": {
+    "status": "success",
+    "filename": "JAXA_GPM_L3_GSMaP_v8_operational.md",
+    "timestamp": "2025-04-22T14:36:44.461064"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JCU_Murray_GIC_global_tidal_wetland_change_2019": {
+    "status": "success",
+    "filename": "JCU_Murray_GIC_global_tidal_wetland_change_2019.md",
+    "timestamp": "2025-04-22T14:36:45.891322"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_CEMS_GLOFAS_FloodHazard_v1": {
+    "status": "success",
+    "filename": "JRC_CEMS_GLOFAS_FloodHazard_v1.md",
+    "timestamp": "2025-04-22T14:36:48.753286"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_D5_EUCROPMAP_V1": {
+    "status": "success",
+    "filename": "JRC_D5_EUCROPMAP_V1.md",
+    "timestamp": "2025-04-22T14:36:49.979284"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_V2": {
+    "status": "success",
+    "filename": "JRC_GFC2020_V2.md",
+    "timestamp": "2025-04-22T14:36:53.370616"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V0": {
+    "status": "success",
+    "filename": "JRC_GFC2020_subtypes_V0.md",
+    "timestamp": "2025-04-22T14:36:54.857934"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_C": {
+    "status": "success",
+    "filename": "JRC_GHSL_P2023A_GHS_BUILT_C.md",
+    "timestamp": "2025-04-22T14:36:56.242299"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_H": {
+    "status": "success",
+    "filename": "JRC_GHSL_P2023A_GHS_BUILT_H.md",
+    "timestamp": "2025-04-22T14:37:02.696267"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_S": {
+    "status": "success",
+    "filename": "JRC_GHSL_P2023A_GHS_BUILT_S.md",
+    "timestamp": "2025-04-22T14:37:03.993171"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_S_10m": {
+    "status": "success",
+    "filename": "JRC_GHSL_P2023A_GHS_BUILT_S_10m.md",
+    "timestamp": "2025-04-22T14:37:05.388104"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_V": {
+    "status": "success",
+    "filename": "JRC_GHSL_P2023A_GHS_BUILT_V.md",
+    "timestamp": "2025-04-22T14:37:06.840511"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_POP": {
+    "status": "success",
+    "filename": "JRC_GHSL_P2023A_GHS_POP.md",
+    "timestamp": "2025-04-22T14:37:08.880113"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_SMOD_V2-0": {
+    "status": "success",
+    "filename": "JRC_GHSL_P2023A_GHS_SMOD_V2-0.md",
+    "timestamp": "2025-04-22T14:37:10.453894"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_GlobalSurfaceWater": {
+    "status": "success",
+    "filename": "JRC_GSW1_4_GlobalSurfaceWater.md",
+    "timestamp": "2025-04-22T14:37:11.673993"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_Metadata": {
+    "status": "success",
+    "filename": "JRC_GSW1_4_Metadata.md",
+    "timestamp": "2025-04-22T14:37:13.811592"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_MonthlyHistory": {
+    "status": "success",
+    "filename": "JRC_GSW1_4_MonthlyHistory.md",
+    "timestamp": "2025-04-22T14:37:15.059804"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_MonthlyRecurrence": {
+    "status": "success",
+    "filename": "JRC_GSW1_4_MonthlyRecurrence.md",
+    "timestamp": "2025-04-22T14:37:16.375520"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_YearlyHistory": {
+    "status": "success",
+    "filename": "JRC_GSW1_4_YearlyHistory.md",
+    "timestamp": "2025-04-22T14:37:17.944072"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_GWIS_GlobFire_v2_DailyPerimeters": {
+    "status": "success",
+    "filename": "JRC_GWIS_GlobFire_v2_DailyPerimeters.md",
+    "timestamp": "2025-04-22T14:37:19.362509"
+  },
+  "https://spdx.org/licenses/CC-BY-4.0.html": {
+    "status": "success",
+    "filename": "CC-BY-4.0.html.md",
+    "timestamp": "2025-04-22T14:37:20.730864"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018": {
+    "status": "success",
+    "filename": "JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018.md",
+    "timestamp": "2025-04-22T14:37:22.682114"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_THLOC_V1": {
+    "status": "success",
+    "filename": "JRC_LUCAS_HARMO_THLOC_V1.md",
+    "timestamp": "2025-04-22T14:37:24.892199"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1": {
+    "status": "success",
+    "filename": "KNTU_LiDARLab_IranLandCover_V1.md",
+    "timestamp": "2025-04-22T14:37:26.412227"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_FRG_v1_2_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Fire_FRG_v1_2_0.md",
+    "timestamp": "2025-04-22T14:37:27.767540"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_MFRI_v1_2_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Fire_MFRI_v1_2_0.md",
+    "timestamp": "2025-04-22T14:37:29.208673"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_PLS_v1_2_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Fire_PLS_v1_2_0.md",
+    "timestamp": "2025-04-22T14:37:30.423446"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_PMS_v1_2_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Fire_PMS_v1_2_0.md",
+    "timestamp": "2025-04-22T14:37:32.775439"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_PRS_v1_2_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Fire_PRS_v1_2_0.md",
+    "timestamp": "2025-04-22T14:37:39.145480"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_SClass_v1_4_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Fire_SClass_v1_4_0.md",
+    "timestamp": "2025-04-22T14:37:40.372177"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_VCC_v1_4_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Fire_VCC_v1_4_0.md",
+    "timestamp": "2025-04-22T14:37:41.559832"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_VDep_v1_4_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Fire_VDep_v1_4_0.md",
+    "timestamp": "2025-04-22T14:37:42.855128"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_BPS_v1_4_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Vegetation_BPS_v1_4_0.md",
+    "timestamp": "2025-04-22T14:37:45.217804"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_AK": {
+    "status": "success",
+    "filename": "LANDFIRE_Vegetation_ESP_v1_2_0_AK.md",
+    "timestamp": "2025-04-22T14:37:58.655464"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_CONUS": {
+    "status": "success",
+    "filename": "LANDFIRE_Vegetation_ESP_v1_2_0_CONUS.md",
+    "timestamp": "2025-04-22T14:38:10.671465"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_HI": {
+    "status": "success",
+    "filename": "LANDFIRE_Vegetation_ESP_v1_2_0_HI.md",
+    "timestamp": "2025-04-22T14:38:24.270332"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVC_v1_4_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Vegetation_EVC_v1_4_0.md",
+    "timestamp": "2025-04-22T14:38:25.735153"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVH_v1_4_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Vegetation_EVH_v1_4_0.md",
+    "timestamp": "2025-04-22T14:38:27.022710"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVT_v1_4_0": {
+    "status": "success",
+    "filename": "LANDFIRE_Vegetation_EVT_v1_4_0.md",
+    "timestamp": "2025-04-22T14:38:29.469109"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_BAI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_8DAY_BAI.md",
+    "timestamp": "2025-04-22T14:38:31.355635"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_EVI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_8DAY_EVI.md",
+    "timestamp": "2025-04-22T14:38:33.100518"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NBR": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NBR.md",
+    "timestamp": "2025-04-22T14:38:34.474858"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NDVI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NDVI.md",
+    "timestamp": "2025-04-22T14:38:35.776876"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NDWI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NDWI.md",
+    "timestamp": "2025-04-22T14:38:37.291962"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_BAI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_32DAY_BAI.md",
+    "timestamp": "2025-04-22T14:38:39.077202"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_EVI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_32DAY_EVI.md",
+    "timestamp": "2025-04-22T14:38:40.276991"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NBR": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NBR.md",
+    "timestamp": "2025-04-22T14:38:41.405911"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NDVI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NDVI.md",
+    "timestamp": "2025-04-22T14:38:42.577399"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NDWI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NDWI.md",
+    "timestamp": "2025-04-22T14:38:48.834463"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_BAI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_BAI.md",
+    "timestamp": "2025-04-22T14:38:54.398379"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_EVI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_EVI.md",
+    "timestamp": "2025-04-22T14:38:55.760798"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NBR": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NBR.md",
+    "timestamp": "2025-04-22T14:38:56.995888"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NDVI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NDVI.md",
+    "timestamp": "2025-04-22T14:38:58.608376"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NDWI": {
+    "status": "success",
+    "filename": "LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NDWI.md",
+    "timestamp": "2025-04-22T14:38:59.909060"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS1975": {
+    "status": "success",
+    "filename": "LANDSAT_GLS1975.md",
+    "timestamp": "2025-04-22T14:39:01.541175"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS1975_MOSAIC": {
+    "status": "success",
+    "filename": "LANDSAT_GLS1975_MOSAIC.md",
+    "timestamp": "2025-04-22T14:39:03.596163"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS2005": {
+    "status": "success",
+    "filename": "LANDSAT_GLS2005.md",
+    "timestamp": "2025-04-22T14:39:05.496292"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS2005_L5": {
+    "status": "success",
+    "filename": "LANDSAT_GLS2005_L5.md",
+    "timestamp": "2025-04-22T14:39:06.855624"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS2005_L7": {
+    "status": "success",
+    "filename": "LANDSAT_GLS2005_L7.md",
+    "timestamp": "2025-04-22T14:39:08.225561"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LC08_C02_T1.md",
+    "timestamp": "2025-04-22T14:39:11.887110"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LC08_C02_T1_L2.md",
+    "timestamp": "2025-04-22T14:39:13.209944"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_RT": {
+    "status": "success",
+    "filename": "LANDSAT_LC08_C02_T1_RT.md",
+    "timestamp": "2025-04-22T14:39:14.455833"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_RT_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LC08_C02_T1_RT_TOA.md",
+    "timestamp": "2025-04-22T14:39:15.819222"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LC08_C02_T1_TOA.md",
+    "timestamp": "2025-04-22T14:39:17.272114"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LC08_C02_T2.md",
+    "timestamp": "2025-04-22T14:39:21.339297"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LC08_C02_T2_L2.md",
+    "timestamp": "2025-04-22T14:39:22.643549"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LC08_C02_T2_TOA.md",
+    "timestamp": "2025-04-22T14:39:23.997390"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LC09_C02_T1.md",
+    "timestamp": "2025-04-22T14:39:25.159721"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LC09_C02_T1_L2.md",
+    "timestamp": "2025-04-22T14:39:31.654085"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LC09_C02_T1_TOA.md",
+    "timestamp": "2025-04-22T14:39:34.042898"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LC09_C02_T2.md",
+    "timestamp": "2025-04-22T14:39:35.505311"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T2_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LC09_C02_T2_L2.md",
+    "timestamp": "2025-04-22T14:39:36.839886"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T2_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LC09_C02_T2_TOA.md",
+    "timestamp": "2025-04-22T14:39:38.151005"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LE07_C02_T1.md",
+    "timestamp": "2025-04-22T14:39:39.561424"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LE07_C02_T1_L2.md",
+    "timestamp": "2025-04-22T14:39:40.807503"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_RT": {
+    "status": "success",
+    "filename": "LANDSAT_LE07_C02_T1_RT.md",
+    "timestamp": "2025-04-22T14:39:42.752509"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_RT_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LE07_C02_T1_RT_TOA.md",
+    "timestamp": "2025-04-22T14:39:48.713667"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LE07_C02_T1_TOA.md",
+    "timestamp": "2025-04-22T14:39:50.086587"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LE07_C02_T2.md",
+    "timestamp": "2025-04-22T14:39:51.983663"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T2_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LE07_C02_T2_L2.md",
+    "timestamp": "2025-04-22T14:39:53.176239"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T2_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LE07_C02_T2_TOA.md",
+    "timestamp": "2025-04-22T14:39:56.464621"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LM01_C02_T1.md",
+    "timestamp": "2025-04-22T14:39:57.729126"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LM01_C02_T2.md",
+    "timestamp": "2025-04-22T14:39:59.196922"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LM02_C02_T1.md",
+    "timestamp": "2025-04-22T14:40:00.593393"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LM02_C02_T2.md",
+    "timestamp": "2025-04-22T14:40:02.753035"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LM03_C02_T1.md",
+    "timestamp": "2025-04-22T14:40:04.534849"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LM03_C02_T2.md",
+    "timestamp": "2025-04-22T14:40:06.486962"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LM04_C02_T1.md",
+    "timestamp": "2025-04-22T14:40:07.882187"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LM04_C02_T2.md",
+    "timestamp": "2025-04-22T14:40:14.370241"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LM05_C02_T1.md",
+    "timestamp": "2025-04-22T14:40:17.881823"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LM05_C02_T2.md",
+    "timestamp": "2025-04-22T14:40:19.434458"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LT04_C02_T1.md",
+    "timestamp": "2025-04-22T14:40:21.024212"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LT04_C02_T1_L2.md",
+    "timestamp": "2025-04-22T14:40:22.467065"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LT04_C02_T1_TOA.md",
+    "timestamp": "2025-04-22T14:40:28.426843"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LT04_C02_T2.md",
+    "timestamp": "2025-04-22T14:40:29.795168"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T2_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LT04_C02_T2_L2.md",
+    "timestamp": "2025-04-22T14:40:34.692377"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T2_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LT04_C02_T2_TOA.md",
+    "timestamp": "2025-04-22T14:40:37.284853"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1": {
+    "status": "success",
+    "filename": "LANDSAT_LT05_C02_T1.md",
+    "timestamp": "2025-04-22T14:40:38.960205"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LT05_C02_T1_L2.md",
+    "timestamp": "2025-04-22T14:40:40.126993"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LT05_C02_T1_TOA.md",
+    "timestamp": "2025-04-22T14:40:41.510050"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T2": {
+    "status": "success",
+    "filename": "LANDSAT_LT05_C02_T2.md",
+    "timestamp": "2025-04-22T14:40:45.094255"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T2_L2": {
+    "status": "success",
+    "filename": "LANDSAT_LT05_C02_T2_L2.md",
+    "timestamp": "2025-04-22T14:40:46.633749"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T2_TOA": {
+    "status": "success",
+    "filename": "LANDSAT_LT05_C02_T2_TOA.md",
+    "timestamp": "2025-04-22T14:40:47.850503"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_MANGROVE_FORESTS": {
+    "status": "success",
+    "filename": "LANDSAT_MANGROVE_FORESTS.md",
+    "timestamp": "2025-04-22T14:40:50.275484"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI02_A_002.md",
+    "timestamp": "2025-04-22T14:40:53.457695"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002_INDEX": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI02_A_002_INDEX.md",
+    "timestamp": "2025-04-22T14:40:54.626800"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002_MONTHLY": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI02_A_002_MONTHLY.md",
+    "timestamp": "2025-04-22T14:40:55.879719"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI02_B_002.md",
+    "timestamp": "2025-04-22T14:40:57.059599"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002_INDEX": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI02_B_002_INDEX.md",
+    "timestamp": "2025-04-22T14:41:03.294915"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002_MONTHLY": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI02_B_002_MONTHLY.md",
+    "timestamp": "2025-04-22T14:41:04.817189"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI04_A_002.md",
+    "timestamp": "2025-04-22T14:41:06.281365"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI04_A_002_INDEX.md",
+    "timestamp": "2025-04-22T14:41:07.641697"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_MONTHLY": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI04_A_002_MONTHLY.md",
+    "timestamp": "2025-04-22T14:41:09.053578"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_B_002": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GEDI04_B_002.md",
+    "timestamp": "2025-04-22T14:41:10.550618"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM.md",
+    "timestamp": "2025-04-22T14:41:12.673397"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_6KM": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_6KM.md",
+    "timestamp": "2025-04-22T14:41:14.084740"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_12KM": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_12KM.md",
+    "timestamp": "2025-04-22T14:41:15.827389"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_V1_1KM": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GRIDDEDVEG_002_V1_1KM.md",
+    "timestamp": "2025-04-22T14:41:17.428830"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_V1_6KM": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GRIDDEDVEG_002_V1_6KM.md",
+    "timestamp": "2025-04-22T14:41:19.110895"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_V1_12KM": {
+    "status": "success",
+    "filename": "LARSE_GEDI_GRIDDEDVEG_002_V1_12KM.md",
+    "timestamp": "2025-04-22T14:41:20.483838"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Latvia_Maamet_orthos_cir": {
+    "status": "success",
+    "filename": "Latvia_Maamet_orthos_cir.md",
+    "timestamp": "2025-04-22T14:41:21.919216"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Latvia_Maamet_orthos_rgb": {
+    "status": "success",
+    "filename": "Latvia_Maamet_orthos_rgb.md",
+    "timestamp": "2025-04-22T14:41:23.304271"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MERIT_DEM_v1_0_3": {
+    "status": "success",
+    "filename": "MERIT_DEM_v1_0_3.md",
+    "timestamp": "2025-04-22T14:41:24.785248"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MERIT_Hydro_reduced_v1_0_1": {
+    "status": "success",
+    "filename": "MERIT_Hydro_reduced_v1_0_1.md",
+    "timestamp": "2025-04-22T14:41:26.355506"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MERIT_Hydro_v1_0_1": {
+    "status": "success",
+    "filename": "MERIT_Hydro_v1_0_1.md",
+    "timestamp": "2025-04-22T14:41:27.704178"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44W": {
+    "status": "success",
+    "filename": "MODIS_006_MOD44W.md",
+    "timestamp": "2025-04-22T14:41:29.480732"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MODOCGA": {
+    "status": "success",
+    "filename": "MODIS_006_MODOCGA.md",
+    "timestamp": "2025-04-22T14:41:31.317779"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MYDOCGA": {
+    "status": "success",
+    "filename": "MODIS_006_MYDOCGA.md",
+    "timestamp": "2025-04-22T14:41:32.609548"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12C1": {
+    "status": "success",
+    "filename": "MODIS_061_MCD12C1.md",
+    "timestamp": "2025-04-22T14:41:39.279130"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1": {
+    "status": "success",
+    "filename": "MODIS_061_MCD12Q1.md",
+    "timestamp": "2025-04-22T14:41:40.616269"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q2": {
+    "status": "success",
+    "filename": "MODIS_061_MCD12Q2.md",
+    "timestamp": "2025-04-22T14:41:42.541495"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD15A3H": {
+    "status": "success",
+    "filename": "MODIS_061_MCD15A3H.md",
+    "timestamp": "2025-04-22T14:41:43.756139"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A1_GRANULES": {
+    "status": "success",
+    "filename": "MODIS_061_MCD19A1_GRANULES.md",
+    "timestamp": "2025-04-22T14:41:45.172008"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A2_GRANULES": {
+    "status": "success",
+    "filename": "MODIS_061_MCD19A2_GRANULES.md",
+    "timestamp": "2025-04-22T14:41:46.389926"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A1": {
+    "status": "success",
+    "filename": "MODIS_061_MCD43A1.md",
+    "timestamp": "2025-04-22T14:41:47.843061"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A2": {
+    "status": "success",
+    "filename": "MODIS_061_MCD43A2.md",
+    "timestamp": "2025-04-22T14:41:49.048482"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A3": {
+    "status": "success",
+    "filename": "MODIS_061_MCD43A3.md",
+    "timestamp": "2025-04-22T14:41:50.513058"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A4": {
+    "status": "success",
+    "filename": "MODIS_061_MCD43A4.md",
+    "timestamp": "2025-04-22T14:41:52.640031"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43C3": {
+    "status": "success",
+    "filename": "MODIS_061_MCD43C3.md",
+    "timestamp": "2025-04-22T14:42:01.697710"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD64A1": {
+    "status": "success",
+    "filename": "MODIS_061_MCD64A1.md",
+    "timestamp": "2025-04-22T14:42:03.123014"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD08_M3": {
+    "status": "success",
+    "filename": "MODIS_061_MOD08_M3.md",
+    "timestamp": "2025-04-22T14:42:04.295293"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09A1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD09A1.md",
+    "timestamp": "2025-04-22T14:42:05.745331"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09CMG": {
+    "status": "success",
+    "filename": "MODIS_061_MOD09CMG.md",
+    "timestamp": "2025-04-22T14:42:07.196393"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09GA": {
+    "status": "success",
+    "filename": "MODIS_061_MOD09GA.md",
+    "timestamp": "2025-04-22T14:42:08.512856"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09GQ": {
+    "status": "success",
+    "filename": "MODIS_061_MOD09GQ.md",
+    "timestamp": "2025-04-22T14:42:09.841076"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09Q1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD09Q1.md",
+    "timestamp": "2025-04-22T14:42:11.258290"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD10A1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD10A1.md",
+    "timestamp": "2025-04-22T14:42:12.451155"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD10A2": {
+    "status": "success",
+    "filename": "MODIS_061_MOD10A2.md",
+    "timestamp": "2025-04-22T14:42:13.717143"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD11A1.md",
+    "timestamp": "2025-04-22T14:42:20.224148"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A2": {
+    "status": "success",
+    "filename": "MODIS_061_MOD11A2.md",
+    "timestamp": "2025-04-22T14:42:21.643439"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13A1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD13A1.md",
+    "timestamp": "2025-04-22T14:42:22.930400"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13A2": {
+    "status": "success",
+    "filename": "MODIS_061_MOD13A2.md",
+    "timestamp": "2025-04-22T14:42:24.562649"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13A3": {
+    "status": "success",
+    "filename": "MODIS_061_MOD13A3.md",
+    "timestamp": "2025-04-22T14:42:28.984042"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13C1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD13C1.md",
+    "timestamp": "2025-04-22T14:42:30.328036"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13Q1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD13Q1.md",
+    "timestamp": "2025-04-22T14:42:31.876944"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD14A1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD14A1.md",
+    "timestamp": "2025-04-22T14:42:34.392589"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD14A2": {
+    "status": "success",
+    "filename": "MODIS_061_MOD14A2.md",
+    "timestamp": "2025-04-22T14:42:35.778749"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD15A2H": {
+    "status": "success",
+    "filename": "MODIS_061_MOD15A2H.md",
+    "timestamp": "2025-04-22T14:42:37.215066"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2": {
+    "status": "success",
+    "filename": "MODIS_061_MOD16A2.md",
+    "timestamp": "2025-04-22T14:42:38.593827"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2GF": {
+    "status": "success",
+    "filename": "MODIS_061_MOD16A2GF.md",
+    "timestamp": "2025-04-22T14:42:39.789311"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2H": {
+    "status": "success",
+    "filename": "MODIS_061_MOD17A2H.md",
+    "timestamp": "2025-04-22T14:42:41.177139"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2HGF": {
+    "status": "success",
+    "filename": "MODIS_061_MOD17A2HGF.md",
+    "timestamp": "2025-04-22T14:42:42.359736"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A3HGF": {
+    "status": "success",
+    "filename": "MODIS_061_MOD17A3HGF.md",
+    "timestamp": "2025-04-22T14:42:43.514711"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1D": {
+    "status": "success",
+    "filename": "MODIS_061_MOD21A1D.md",
+    "timestamp": "2025-04-22T14:42:44.933896"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1N": {
+    "status": "success",
+    "filename": "MODIS_061_MOD21A1N.md",
+    "timestamp": "2025-04-22T14:42:46.305614"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21C1": {
+    "status": "success",
+    "filename": "MODIS_061_MOD21C1.md",
+    "timestamp": "2025-04-22T14:42:47.519602"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21C2": {
+    "status": "success",
+    "filename": "MODIS_061_MOD21C2.md",
+    "timestamp": "2025-04-22T14:42:48.737071"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21C3": {
+    "status": "success",
+    "filename": "MODIS_061_MOD21C3.md",
+    "timestamp": "2025-04-22T14:42:50.342488"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD44B": {
+    "status": "success",
+    "filename": "MODIS_061_MOD44B.md",
+    "timestamp": "2025-04-22T14:42:58.528449"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD08_M3": {
+    "status": "success",
+    "filename": "MODIS_061_MYD08_M3.md",
+    "timestamp": "2025-04-22T14:43:02.378867"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09A1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD09A1.md",
+    "timestamp": "2025-04-22T14:43:05.043128"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09CMG": {
+    "status": "success",
+    "filename": "MODIS_061_MYD09CMG.md",
+    "timestamp": "2025-04-22T14:43:06.438373"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GA": {
+    "status": "success",
+    "filename": "MODIS_061_MYD09GA.md",
+    "timestamp": "2025-04-22T14:43:07.941780"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GQ": {
+    "status": "success",
+    "filename": "MODIS_061_MYD09GQ.md",
+    "timestamp": "2025-04-22T14:43:09.316992"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09Q1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD09Q1.md",
+    "timestamp": "2025-04-22T14:43:12.850491"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD10A1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD10A1.md",
+    "timestamp": "2025-04-22T14:43:14.991585"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD11A1.md",
+    "timestamp": "2025-04-22T14:43:18.184243"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A2": {
+    "status": "success",
+    "filename": "MODIS_061_MYD11A2.md",
+    "timestamp": "2025-04-22T14:43:19.471691"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD13A1.md",
+    "timestamp": "2025-04-22T14:43:20.857881"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A2": {
+    "status": "success",
+    "filename": "MODIS_061_MYD13A2.md",
+    "timestamp": "2025-04-22T14:43:23.288622"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A3": {
+    "status": "success",
+    "filename": "MODIS_061_MYD13A3.md",
+    "timestamp": "2025-04-22T14:43:24.780332"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13C1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD13C1.md",
+    "timestamp": "2025-04-22T14:43:25.995837"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13Q1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD13Q1.md",
+    "timestamp": "2025-04-22T14:43:30.348382"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD14A1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD14A1.md",
+    "timestamp": "2025-04-22T14:43:31.883999"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD14A2": {
+    "status": "success",
+    "filename": "MODIS_061_MYD14A2.md",
+    "timestamp": "2025-04-22T14:43:33.685981"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD15A2H": {
+    "status": "success",
+    "filename": "MODIS_061_MYD15A2H.md",
+    "timestamp": "2025-04-22T14:43:34.959063"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A2H": {
+    "status": "success",
+    "filename": "MODIS_061_MYD17A2H.md",
+    "timestamp": "2025-04-22T14:43:36.441690"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A3HGF": {
+    "status": "success",
+    "filename": "MODIS_061_MYD17A3HGF.md",
+    "timestamp": "2025-04-22T14:43:38.299921"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21A1D": {
+    "status": "success",
+    "filename": "MODIS_061_MYD21A1D.md",
+    "timestamp": "2025-04-22T14:43:44.669048"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21A1N": {
+    "status": "success",
+    "filename": "MODIS_061_MYD21A1N.md",
+    "timestamp": "2025-04-22T14:43:46.037604"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C1": {
+    "status": "success",
+    "filename": "MODIS_061_MYD21C1.md",
+    "timestamp": "2025-04-22T14:43:47.449038"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C2": {
+    "status": "success",
+    "filename": "MODIS_061_MYD21C2.md",
+    "timestamp": "2025-04-22T14:43:50.419612"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C3": {
+    "status": "success",
+    "filename": "MODIS_061_MYD21C3.md",
+    "timestamp": "2025-04-22T14:43:51.794258"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_062_MCD18A1": {
+    "status": "success",
+    "filename": "MODIS_062_MCD18A1.md",
+    "timestamp": "2025-04-22T14:43:54.704485"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_062_MCD18C2": {
+    "status": "success",
+    "filename": "MODIS_062_MCD18C2.md",
+    "timestamp": "2025-04-22T14:43:55.848655"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_BAI": {
+    "status": "success",
+    "filename": "MODIS_MCD43A4_006_BAI.md",
+    "timestamp": "2025-04-22T14:43:57.364950"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_EVI": {
+    "status": "success",
+    "filename": "MODIS_MCD43A4_006_EVI.md",
+    "timestamp": "2025-04-22T14:43:58.786577"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_NDSI": {
+    "status": "success",
+    "filename": "MODIS_MCD43A4_006_NDSI.md",
+    "timestamp": "2025-04-22T14:44:01.301924"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_NDVI": {
+    "status": "success",
+    "filename": "MODIS_MCD43A4_006_NDVI.md",
+    "timestamp": "2025-04-22T14:44:02.665948"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_NDWI": {
+    "status": "success",
+    "filename": "MODIS_MCD43A4_006_NDWI.md",
+    "timestamp": "2025-04-22T14:44:04.158503"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_BAI": {
+    "status": "success",
+    "filename": "MODIS_MOD09GA_006_BAI.md",
+    "timestamp": "2025-04-22T14:44:05.457182"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_EVI": {
+    "status": "success",
+    "filename": "MODIS_MOD09GA_006_EVI.md",
+    "timestamp": "2025-04-22T14:44:06.731359"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_NDSI": {
+    "status": "success",
+    "filename": "MODIS_MOD09GA_006_NDSI.md",
+    "timestamp": "2025-04-22T14:44:09.046698"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_NDVI": {
+    "status": "success",
+    "filename": "MODIS_MOD09GA_006_NDVI.md",
+    "timestamp": "2025-04-22T14:44:10.377036"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_NDWI": {
+    "status": "success",
+    "filename": "MODIS_MOD09GA_006_NDWI.md",
+    "timestamp": "2025-04-22T14:44:12.279388"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD44W_MOD44W_005_2000_02_24": {
+    "status": "success",
+    "filename": "MODIS_MOD44W_MOD44W_005_2000_02_24.md",
+    "timestamp": "2025-04-22T14:44:13.587448"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MYD09GA_006_BAI": {
+    "status": "success",
+    "filename": "MODIS_MYD09GA_006_BAI.md",
+    "timestamp": "2025-04-22T14:44:15.010976"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MYD09GA_006_EVI": {
+    "status": "success",
+    "filename": "MODIS_MYD09GA_006_EVI.md",
+    "timestamp": "2025-04-22T14:44:17.283503"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MYD09GA_006_NDSI": {
+    "status": "success",
+    "filename": "MODIS_MYD09GA_006_NDSI.md",
+    "timestamp": "2025-04-22T14:44:24.471933"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MYD09GA_006_NDVI": {
+    "status": "success",
+    "filename": "MODIS_MYD09GA_006_NDVI.md",
+    "timestamp": "2025-04-22T14:44:25.909322"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_MYD09GA_006_NDWI": {
+    "status": "success",
+    "filename": "MODIS_MYD09GA_006_NDWI.md",
+    "timestamp": "2025-04-22T14:44:27.276007"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/MODIS_NTSG_MOD16A2_105": {
+    "status": "success",
+    "filename": "MODIS_NTSG_MOD16A2_105.md",
+    "timestamp": "2025-04-22T14:44:28.416431"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_ASTER_GED_AG100_003": {
+    "status": "success",
+    "filename": "NASA_ASTER_GED_AG100_003.md",
+    "timestamp": "2025-04-22T14:44:30.210441"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD": {
+    "status": "success",
+    "filename": "NASA_EMIT_L1B_RAD.md",
+    "timestamp": "2025-04-22T14:44:31.730229"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL": {
+    "status": "success",
+    "filename": "NASA_EMIT_L2A_RFL.md",
+    "timestamp": "2025-04-22T14:44:33.297304"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4ENH": {
+    "status": "success",
+    "filename": "NASA_EMIT_L2B_CH4ENH.md",
+    "timestamp": "2025-04-22T14:44:34.737413"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4PLM": {
+    "status": "error",
+    "error": "write() argument must be str, not None",
+    "timestamp": "2025-04-22T14:45:35.419493"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_FLDAS_NOAH01_C_GL_M_V001": {
+    "status": "success",
+    "filename": "NASA_FLDAS_NOAH01_C_GL_M_V001.md",
+    "timestamp": "2025-04-22T14:45:37.119879"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GDDP-CMIP6": {
+    "status": "success",
+    "filename": "NASA_GDDP-CMIP6.md",
+    "timestamp": "2025-04-22T14:45:38.503581"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_fcst_htf": {
+    "status": "success",
+    "filename": "NASA_GEOS-CF_v1_fcst_htf.md",
+    "timestamp": "2025-04-22T14:45:39.920906"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_fcst_tavg1hr": {
+    "status": "success",
+    "filename": "NASA_GEOS-CF_v1_fcst_tavg1hr.md",
+    "timestamp": "2025-04-22T14:45:42.430313"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_htf": {
+    "status": "success",
+    "filename": "NASA_GEOS-CF_v1_rpl_htf.md",
+    "timestamp": "2025-04-22T14:45:44.190609"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_tavg1hr": {
+    "status": "success",
+    "filename": "NASA_GEOS-CF_v1_rpl_tavg1hr.md",
+    "timestamp": "2025-04-22T14:45:46.475667"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GIMMS_3GV0": {
+    "status": "success",
+    "filename": "NASA_GIMMS_3GV0.md",
+    "timestamp": "2025-04-22T14:45:47.791613"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V20_NOAH_G025_T3H": {
+    "status": "success",
+    "filename": "NASA_GLDAS_V20_NOAH_G025_T3H.md",
+    "timestamp": "2025-04-22T14:45:49.784933"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H": {
+    "status": "success",
+    "filename": "NASA_GLDAS_V021_NOAH_G025_T3H.md",
+    "timestamp": "2025-04-22T14:45:51.257659"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D": {
+    "status": "success",
+    "filename": "NASA_GLDAS_V022_CLSM_G025_DA1D.md",
+    "timestamp": "2025-04-22T14:45:52.899118"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_MONTHLY_V06": {
+    "status": "success",
+    "filename": "NASA_GPM_L3_IMERG_MONTHLY_V06.md",
+    "timestamp": "2025-04-22T14:45:54.206796"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_MONTHLY_V07": {
+    "status": "success",
+    "filename": "NASA_GPM_L3_IMERG_MONTHLY_V07.md",
+    "timestamp": "2025-04-22T14:46:00.820057"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V07": {
+    "status": "success",
+    "filename": "NASA_GPM_L3_IMERG_V07.md",
+    "timestamp": "2025-04-22T14:46:02.064081"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_OCEAN_EOFR": {
+    "status": "success",
+    "filename": "NASA_GRACE_MASS_GRIDS_OCEAN_EOFR.md",
+    "timestamp": "2025-04-22T14:46:03.538717"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_V04_LAND": {
+    "status": "success",
+    "filename": "NASA_GRACE_MASS_GRIDS_V04_LAND.md",
+    "timestamp": "2025-04-22T14:46:04.918485"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_V04_MASCON": {
+    "status": "success",
+    "filename": "NASA_GRACE_MASS_GRIDS_V04_MASCON.md",
+    "timestamp": "2025-04-22T14:46:06.270659"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_V04_MASCON_CRI": {
+    "status": "success",
+    "filename": "NASA_GRACE_MASS_GRIDS_V04_MASCON_CRI.md",
+    "timestamp": "2025-04-22T14:46:07.433781"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_V04_OCEAN": {
+    "status": "success",
+    "filename": "NASA_GRACE_MASS_GRIDS_V04_OCEAN.md",
+    "timestamp": "2025-04-22T14:46:09.073406"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_2": {
+    "status": "success",
+    "filename": "NASA_GSFC_MERRA_aer_2.md",
+    "timestamp": "2025-04-22T14:46:10.375731"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_nv_2": {
+    "status": "success",
+    "filename": "NASA_GSFC_MERRA_aer_nv_2.md",
+    "timestamp": "2025-04-22T14:46:12.473643"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_flx_2": {
+    "status": "success",
+    "filename": "NASA_GSFC_MERRA_flx_2.md",
+    "timestamp": "2025-04-22T14:46:13.755124"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_lnd_2": {
+    "status": "success",
+    "filename": "NASA_GSFC_MERRA_lnd_2.md",
+    "timestamp": "2025-04-22T14:46:15.148664"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_rad_2": {
+    "status": "success",
+    "filename": "NASA_GSFC_MERRA_rad_2.md",
+    "timestamp": "2025-04-22T14:46:16.485735"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_slv_2": {
+    "status": "success",
+    "filename": "NASA_GSFC_MERRA_slv_2.md",
+    "timestamp": "2025-04-22T14:46:17.903712"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_HLS_HLSL30_v002": {
+    "status": "success",
+    "filename": "NASA_HLS_HLSL30_v002.md",
+    "timestamp": "2025-04-22T14:46:19.330002"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_HLS_HLSS30_v002": {
+    "status": "success",
+    "filename": "NASA_HLS_HLSS30_v002.md",
+    "timestamp": "2025-04-22T14:46:20.885846"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_JPL_global_forest_canopy_height_2005": {
+    "status": "success",
+    "filename": "NASA_JPL_global_forest_canopy_height_2005.md",
+    "timestamp": "2025-04-22T14:46:22.273250"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_LANCE_NOAA20_VIIRS_C2": {
+    "status": "success",
+    "filename": "NASA_LANCE_NOAA20_VIIRS_C2.md",
+    "timestamp": "2025-04-22T14:46:23.795531"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_LANCE_SNPP_VIIRS_C2": {
+    "status": "success",
+    "filename": "NASA_LANCE_SNPP_VIIRS_C2.md",
+    "timestamp": "2025-04-22T14:46:27.931078"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_MEASURES_GFCC_TC_v3": {
+    "status": "success",
+    "filename": "NASA_MEASURES_GFCC_TC_v3.md",
+    "timestamp": "2025-04-22T14:46:29.687731"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_NASADEM_HGT_001": {
+    "status": "success",
+    "filename": "NASA_NASADEM_HGT_001.md",
+    "timestamp": "2025-04-22T14:46:31.336872"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-DCP30": {
+    "status": "success",
+    "filename": "NASA_NEX-DCP30.md",
+    "timestamp": "2025-04-22T14:46:37.556065"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-DCP30_ENSEMBLE_STATS": {
+    "status": "success",
+    "filename": "NASA_NEX-DCP30_ENSEMBLE_STATS.md",
+    "timestamp": "2025-04-22T14:46:39.556133"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP": {
+    "status": "success",
+    "filename": "NASA_NEX-GDDP.md",
+    "timestamp": "2025-04-22T14:46:40.792328"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_NLDAS_FORA0125_H002": {
+    "status": "success",
+    "filename": "NASA_NLDAS_FORA0125_H002.md",
+    "timestamp": "2025-04-22T14:46:43.868679"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_MODIS-Aqua_L3SMI": {
+    "status": "success",
+    "filename": "NASA_OCEANDATA_MODIS-Aqua_L3SMI.md",
+    "timestamp": "2025-04-22T14:46:45.186762"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_MODIS-Terra_L3SMI": {
+    "status": "success",
+    "filename": "NASA_OCEANDATA_MODIS-Terra_L3SMI.md",
+    "timestamp": "2025-04-22T14:46:46.781672"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_SeaWiFS_L3SMI": {
+    "status": "success",
+    "filename": "NASA_OCEANDATA_SeaWiFS_L3SMI.md",
+    "timestamp": "2025-04-22T14:46:48.193176"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_DAYMET_V4": {
+    "status": "success",
+    "filename": "NASA_ORNL_DAYMET_V4.md",
+    "timestamp": "2025-04-22T14:46:53.940508"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_biomass_carbon_density_v1": {
+    "status": "success",
+    "filename": "NASA_ORNL_biomass_carbon_density_v1.md",
+    "timestamp": "2025-04-22T14:46:55.548914"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_global_forest_classification_2020_V1": {
+    "status": "success",
+    "filename": "NASA_ORNL_global_forest_classification_2020_V1.md",
+    "timestamp": "2025-04-22T14:46:57.037025"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL3SMP_E_005": {
+    "status": "success",
+    "filename": "NASA_SMAP_SPL3SMP_E_005.md",
+    "timestamp": "2025-04-22T14:46:59.746799"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL3SMP_E_006": {
+    "status": "success",
+    "filename": "NASA_SMAP_SPL3SMP_E_006.md",
+    "timestamp": "2025-04-22T14:47:01.379539"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_007": {
+    "status": "success",
+    "filename": "NASA_SMAP_SPL4SMGP_007.md",
+    "timestamp": "2025-04-22T14:47:04.729990"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP09GA.md",
+    "timestamp": "2025-04-22T14:47:06.088315"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09H1": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP09H1.md",
+    "timestamp": "2025-04-22T14:47:07.368176"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP13A1": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP13A1.md",
+    "timestamp": "2025-04-22T14:47:09.216860"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP14A1": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP14A1.md",
+    "timestamp": "2025-04-22T14:47:10.644193"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP15A2H": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP15A2H.md",
+    "timestamp": "2025-04-22T14:47:12.512478"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP21A1D": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP21A1D.md",
+    "timestamp": "2025-04-22T14:47:13.944524"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP21A1N": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP21A1N.md",
+    "timestamp": "2025-04-22T14:47:16.013136"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP43IA4": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP43IA4.md",
+    "timestamp": "2025-04-22T14:47:23.068125"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2": {
+    "status": "success",
+    "filename": "NASA_VIIRS_002_VNP46A2.md",
+    "timestamp": "2025-04-22T14:47:24.843453"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NCEP_RE_sea_level_pressure": {
+    "status": "success",
+    "filename": "NCEP_RE_sea_level_pressure.md",
+    "timestamp": "2025-04-22T14:47:26.492417"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NCEP_RE_surface_temp": {
+    "status": "success",
+    "filename": "NCEP_RE_surface_temp.md",
+    "timestamp": "2025-04-22T14:47:28.423494"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NCEP_RE_surface_wv": {
+    "status": "success",
+    "filename": "NCEP_RE_surface_wv.md",
+    "timestamp": "2025-04-22T14:47:29.757156"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_ATMOS_NEAR_SURFACE_V2": {
+    "status": "success",
+    "filename": "NOAA_CDR_ATMOS_NEAR_SURFACE_V2.md",
+    "timestamp": "2025-04-22T14:47:31.146629"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_AOT_V4": {
+    "status": "success",
+    "filename": "NOAA_CDR_AVHRR_AOT_V4.md",
+    "timestamp": "2025-04-22T14:47:32.506647"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_LAI_FAPAR_V5": {
+    "status": "success",
+    "filename": "NOAA_CDR_AVHRR_LAI_FAPAR_V5.md",
+    "timestamp": "2025-04-22T14:47:33.788510"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_NDVI_V5": {
+    "status": "success",
+    "filename": "NOAA_CDR_AVHRR_NDVI_V5.md",
+    "timestamp": "2025-04-22T14:47:35.182616"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_SR_V5": {
+    "status": "success",
+    "filename": "NOAA_CDR_AVHRR_SR_V5.md",
+    "timestamp": "2025-04-22T14:47:36.742680"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_GRIDSAT-B1_V2": {
+    "status": "success",
+    "filename": "NOAA_CDR_GRIDSAT-B1_V2.md",
+    "timestamp": "2025-04-22T14:47:39.100265"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_HEAT_FLUXES_V2": {
+    "status": "success",
+    "filename": "NOAA_CDR_HEAT_FLUXES_V2.md",
+    "timestamp": "2025-04-22T14:47:40.648282"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_OISST_V2_1": {
+    "status": "success",
+    "filename": "NOAA_CDR_OISST_V2_1.md",
+    "timestamp": "2025-04-22T14:47:42.171602"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_PATMOSX_V53": {
+    "status": "success",
+    "filename": "NOAA_CDR_PATMOSX_V53.md",
+    "timestamp": "2025-04-22T14:47:43.761569"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_SST_PATHFINDER_V53": {
+    "status": "success",
+    "filename": "NOAA_CDR_SST_PATHFINDER_V53.md",
+    "timestamp": "2025-04-22T14:47:45.098314"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_SST_WHOI_V2": {
+    "status": "success",
+    "filename": "NOAA_CDR_SST_WHOI_V2.md",
+    "timestamp": "2025-04-22T14:47:46.357127"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1": {
+    "status": "success",
+    "filename": "NOAA_CDR_VIIRS_LAI_FAPAR_V1.md",
+    "timestamp": "2025-04-22T14:47:47.798249"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_NDVI_V1": {
+    "status": "success",
+    "filename": "NOAA_CDR_VIIRS_NDVI_V1.md",
+    "timestamp": "2025-04-22T14:47:49.221813"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSR": {
+    "status": "success",
+    "filename": "NOAA_CFSR.md",
+    "timestamp": "2025-04-22T14:47:50.522257"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSV2_FOR6H": {
+    "status": "success",
+    "filename": "NOAA_CFSV2_FOR6H.md",
+    "timestamp": "2025-04-22T14:47:51.811645"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CPC_Precipitation": {
+    "status": "success",
+    "filename": "NOAA_CPC_Precipitation.md",
+    "timestamp": "2025-04-22T14:47:58.131245"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CPC_Temperature": {
+    "status": "success",
+    "filename": "NOAA_CPC_Temperature.md",
+    "timestamp": "2025-04-22T14:47:59.375839"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_DMSP-OLS_CALIBRATED_LIGHTS_V4": {
+    "status": "success",
+    "filename": "NOAA_DMSP-OLS_CALIBRATED_LIGHTS_V4.md",
+    "timestamp": "2025-04-22T14:48:01.112538"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_DMSP-OLS_NIGHTTIME_LIGHTS": {
+    "status": "success",
+    "filename": "NOAA_DMSP-OLS_NIGHTTIME_LIGHTS.md",
+    "timestamp": "2025-04-22T14:48:02.453456"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25": {
+    "status": "success",
+    "filename": "NOAA_GFS0P25.md",
+    "timestamp": "2025-04-22T14:48:03.759587"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_16_FDCC": {
+    "status": "success",
+    "filename": "NOAA_GOES_16_FDCC.md",
+    "timestamp": "2025-04-22T14:48:06.179425"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_16_FDCF": {
+    "status": "success",
+    "filename": "NOAA_GOES_16_FDCF.md",
+    "timestamp": "2025-04-22T14:48:08.395842"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_16_MCMIPC": {
+    "status": "success",
+    "filename": "NOAA_GOES_16_MCMIPC.md",
+    "timestamp": "2025-04-22T14:48:10.088234"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_16_MCMIPF": {
+    "status": "success",
+    "filename": "NOAA_GOES_16_MCMIPF.md",
+    "timestamp": "2025-04-22T14:48:11.695409"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_16_MCMIPM": {
+    "status": "success",
+    "filename": "NOAA_GOES_16_MCMIPM.md",
+    "timestamp": "2025-04-22T14:48:13.165207"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_FDCC": {
+    "status": "success",
+    "filename": "NOAA_GOES_17_FDCC.md",
+    "timestamp": "2025-04-22T14:48:14.676181"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_FDCF": {
+    "status": "success",
+    "filename": "NOAA_GOES_17_FDCF.md",
+    "timestamp": "2025-04-22T14:48:16.130679"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPC": {
+    "status": "success",
+    "filename": "NOAA_GOES_17_MCMIPC.md",
+    "timestamp": "2025-04-22T14:48:17.937772"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPF": {
+    "status": "success",
+    "filename": "NOAA_GOES_17_MCMIPF.md",
+    "timestamp": "2025-04-22T14:48:19.392936"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPM": {
+    "status": "success",
+    "filename": "NOAA_GOES_17_MCMIPM.md",
+    "timestamp": "2025-04-22T14:48:22.332951"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_18_FDCC": {
+    "status": "success",
+    "filename": "NOAA_GOES_18_FDCC.md",
+    "timestamp": "2025-04-22T14:48:26.650511"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_18_FDCF": {
+    "status": "success",
+    "filename": "NOAA_GOES_18_FDCF.md",
+    "timestamp": "2025-04-22T14:48:28.328127"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_18_MCMIPC": {
+    "status": "success",
+    "filename": "NOAA_GOES_18_MCMIPC.md",
+    "timestamp": "2025-04-22T14:48:29.910362"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_18_MCMIPF": {
+    "status": "success",
+    "filename": "NOAA_GOES_18_MCMIPF.md",
+    "timestamp": "2025-04-22T14:48:31.350048"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_18_MCMIPM": {
+    "status": "success",
+    "filename": "NOAA_GOES_18_MCMIPM.md",
+    "timestamp": "2025-04-22T14:48:32.825857"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC": {
+    "status": "success",
+    "filename": "NOAA_GOES_19_FDCC.md",
+    "timestamp": "2025-04-22T14:48:39.258386"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCF": {
+    "status": "success",
+    "filename": "NOAA_GOES_19_FDCF.md",
+    "timestamp": "2025-04-22T14:48:42.258637"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_MCMIPC": {
+    "status": "success",
+    "filename": "NOAA_GOES_19_MCMIPC.md",
+    "timestamp": "2025-04-22T14:48:43.785175"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_MCMIPF": {
+    "status": "success",
+    "filename": "NOAA_GOES_19_MCMIPF.md",
+    "timestamp": "2025-04-22T14:48:45.113854"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_MCMIPM": {
+    "status": "success",
+    "filename": "NOAA_GOES_19_MCMIPM.md",
+    "timestamp": "2025-04-22T14:48:46.656386"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_IBTrACS_v4": {
+    "status": "success",
+    "filename": "NOAA_IBTrACS_v4.md",
+    "timestamp": "2025-04-22T14:48:48.149160"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_NCEP_DOE_RE2_total_cloud_coverage": {
+    "status": "success",
+    "filename": "NOAA_NCEP_DOE_RE2_total_cloud_coverage.md",
+    "timestamp": "2025-04-22T14:48:49.486356"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_NGDC_ETOPO1": {
+    "status": "success",
+    "filename": "NOAA_NGDC_ETOPO1.md",
+    "timestamp": "2025-04-22T14:48:50.828931"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_NHC_HURDAT2_atlantic": {
+    "status": "success",
+    "filename": "NOAA_NHC_HURDAT2_atlantic.md",
+    "timestamp": "2025-04-22T14:48:52.750366"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_NHC_HURDAT2_pacific": {
+    "status": "success",
+    "filename": "NOAA_NHC_HURDAT2_pacific.md",
+    "timestamp": "2025-04-22T14:48:54.191370"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_NWS_RTMA": {
+    "status": "success",
+    "filename": "NOAA_NWS_RTMA.md",
+    "timestamp": "2025-04-22T14:48:55.538611"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_PERSIANN-CDR": {
+    "status": "success",
+    "filename": "NOAA_PERSIANN-CDR.md",
+    "timestamp": "2025-04-22T14:48:58.706242"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP22Q2": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_001_VNP22Q2.md",
+    "timestamp": "2025-04-22T14:49:00.015812"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP43IA1": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_001_VNP43IA1.md",
+    "timestamp": "2025-04-22T14:49:01.676333"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP43IA2": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_001_VNP43IA2.md",
+    "timestamp": "2025-04-22T14:49:03.077374"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP46A1": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_001_VNP46A1.md",
+    "timestamp": "2025-04-22T14:49:04.265388"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP64A1": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_001_VNP64A1.md",
+    "timestamp": "2025-04-22T14:49:05.730416"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_ANNUAL_V21": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_DNB_ANNUAL_V21.md",
+    "timestamp": "2025-04-22T14:49:06.963679"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_ANNUAL_V22": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_DNB_ANNUAL_V22.md",
+    "timestamp": "2025-04-22T14:49:08.357769"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMCFG": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_DNB_MONTHLY_V1_VCMCFG.md",
+    "timestamp": "2025-04-22T14:49:09.758732"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG": {
+    "status": "success",
+    "filename": "NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG.md",
+    "timestamp": "2025-04-22T14:49:16.122039"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/NRCan_CDEM": {
+    "status": "success",
+    "filename": "NRCan_CDEM.md",
+    "timestamp": "2025-04-22T14:49:17.597905"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Netherlands_Beeldmateriaal_LUCHTFOTO_RGB": {
+    "status": "success",
+    "filename": "Netherlands_Beeldmateriaal_LUCHTFOTO_RGB.md",
+    "timestamp": "2025-04-22T14:49:18.910128"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81d": {
+    "status": "success",
+    "filename": "OREGONSTATE_PRISM_AN81d.md",
+    "timestamp": "2025-04-22T14:49:20.312538"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m": {
+    "status": "success",
+    "filename": "OREGONSTATE_PRISM_AN81m.md",
+    "timestamp": "2025-04-22T14:49:24.043945"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_Norm91m": {
+    "status": "success",
+    "filename": "OREGONSTATE_PRISM_Norm91m.md",
+    "timestamp": "2025-04-22T14:49:26.679295"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_2000_ICE_OCEAN_MASK": {
+    "status": "success",
+    "filename": "OSU_GIMP_2000_ICE_OCEAN_MASK.md",
+    "timestamp": "2025-04-22T14:49:28.186683"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_2000_IMAGERY_MOSAIC": {
+    "status": "success",
+    "filename": "OSU_GIMP_2000_IMAGERY_MOSAIC.md",
+    "timestamp": "2025-04-22T14:49:29.590098"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_DEM": {
+    "status": "success",
+    "filename": "OSU_GIMP_DEM.md",
+    "timestamp": "2025-04-22T14:49:30.916181"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_ICE_VELOCITY_OPT": {
+    "status": "success",
+    "filename": "OSU_GIMP_ICE_VELOCITY_OPT.md",
+    "timestamp": "2025-04-22T14:49:32.315302"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenET_DISALEXI_CONUS_GRIDMET_MONTHLY_v2_0": {
+    "status": "success",
+    "filename": "OpenET_DISALEXI_CONUS_GRIDMET_MONTHLY_v2_0.md",
+    "timestamp": "2025-04-22T14:49:33.946465"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0": {
+    "status": "success",
+    "filename": "OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0.md",
+    "timestamp": "2025-04-22T14:49:35.851131"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0": {
+    "status": "success",
+    "filename": "OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0.md",
+    "timestamp": "2025-04-22T14:49:37.740094"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenET_GEESEBAL_CONUS_GRIDMET_MONTHLY_v2_0": {
+    "status": "success",
+    "filename": "OpenET_GEESEBAL_CONUS_GRIDMET_MONTHLY_v2_0.md",
+    "timestamp": "2025-04-22T14:49:40.398305"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0": {
+    "status": "success",
+    "filename": "OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0.md",
+    "timestamp": "2025-04-22T14:49:44.796105"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0": {
+    "status": "success",
+    "filename": "OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0.md",
+    "timestamp": "2025-04-22T14:49:48.519673"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenET_SSEBOP_CONUS_GRIDMET_MONTHLY_v2_0": {
+    "status": "success",
+    "filename": "OpenET_SSEBOP_CONUS_GRIDMET_MONTHLY_v2_0.md",
+    "timestamp": "2025-04-22T14:49:50.060371"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAYNIGHT_M_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_CLM_CLM_LST_MOD11A2-DAYNIGHT_M_v01.md",
+    "timestamp": "2025-04-22T14:49:52.746838"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01.md",
+    "timestamp": "2025-04-22T14:49:54.492201"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_SD_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_SD_v01.md",
+    "timestamp": "2025-04-22T14:49:56.086391"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01.md",
+    "timestamp": "2025-04-22T14:50:03.000704"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01.md",
+    "timestamp": "2025-04-22T14:50:04.197395"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01.md",
+    "timestamp": "2025-04-22T14:50:05.751422"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_BULKDENS-FINEEARTH_USDA-4A1H_M_v02": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_BULKDENS-FINEEARTH_USDA-4A1H_M_v02.md",
+    "timestamp": "2025-04-22T14:50:06.915586"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02.md",
+    "timestamp": "2025-04-22T14:50:08.829407"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01.md",
+    "timestamp": "2025-04-22T14:50:10.254255"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX_C_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX_C_v01.md",
+    "timestamp": "2025-04-22T14:50:12.080714"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_ORGANIC-CARBON_USDA-6A1C_M_v02": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_ORGANIC-CARBON_USDA-6A1C_M_v02.md",
+    "timestamp": "2025-04-22T14:50:13.700019"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_PH-H2O_USDA-4C1A2A_M_v02": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_PH-H2O_USDA-4C1A2A_M_v02.md",
+    "timestamp": "2025-04-22T14:50:15.353424"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_SAND-WFRACTION_USDA-3A1A1A_M_v02": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_SAND-WFRACTION_USDA-3A1A1A_M_v02.md",
+    "timestamp": "2025-04-22T14:50:16.812422"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_TEXTURE-CLASS_USDA-TT_M_v02": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_TEXTURE-CLASS_USDA-TT_M_v02.md",
+    "timestamp": "2025-04-22T14:50:19.420096"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01": {
+    "status": "success",
+    "filename": "OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01.md",
+    "timestamp": "2025-04-22T14:50:22.197729"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_EVI_5km_Monthly": {
+    "status": "success",
+    "filename": "Oxford_MAP_EVI_5km_Monthly.md",
+    "timestamp": "2025-04-22T14:50:23.869935"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual": {
+    "status": "success",
+    "filename": "Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual.md",
+    "timestamp": "2025-04-22T14:50:25.434384"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_LST_Day_5km_Monthly": {
+    "status": "success",
+    "filename": "Oxford_MAP_LST_Day_5km_Monthly.md",
+    "timestamp": "2025-04-22T14:50:26.653664"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_LST_Night_5km_Monthly": {
+    "status": "success",
+    "filename": "Oxford_MAP_LST_Night_5km_Monthly.md",
+    "timestamp": "2025-04-22T14:50:27.975506"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCB_5km_Monthly": {
+    "status": "success",
+    "filename": "Oxford_MAP_TCB_5km_Monthly.md",
+    "timestamp": "2025-04-22T14:50:29.391422"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCW_5km_Monthly": {
+    "status": "success",
+    "filename": "Oxford_MAP_TCW_5km_Monthly.md",
+    "timestamp": "2025-04-22T14:50:31.854144"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_accessibility_to_cities_2015_v1_0": {
+    "status": "success",
+    "filename": "Oxford_MAP_accessibility_to_cities_2015_v1_0.md",
+    "timestamp": "2025-04-22T14:50:33.342883"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_accessibility_to_healthcare_2019": {
+    "status": "success",
+    "filename": "Oxford_MAP_accessibility_to_healthcare_2019.md",
+    "timestamp": "2025-04-22T14:50:36.596267"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_friction_surface_2019": {
+    "status": "success",
+    "filename": "Oxford_MAP_friction_surface_2019.md",
+    "timestamp": "2025-04-22T14:50:42.996954"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017": {
+    "status": "success",
+    "filename": "RESOLVE_ECOREGIONS_2017.md",
+    "timestamp": "2025-04-22T14:50:44.355831"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/RUB_RUBCLIM_LCZ_global_lcz_map_latest": {
+    "status": "success",
+    "filename": "RUB_RUBCLIM_LCZ_global_lcz_map_latest.md",
+    "timestamp": "2025-04-22T14:50:46.306078"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_MULTISPECTRAL": {
+    "status": "success",
+    "filename": "SKYSAT_GEN-A_PUBLIC_ORTHO_MULTISPECTRAL.md",
+    "timestamp": "2025-04-22T14:50:48.203699"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_RGB": {
+    "status": "success",
+    "filename": "SKYSAT_GEN-A_PUBLIC_ORTHO_RGB.md",
+    "timestamp": "2025-04-22T14:50:53.526458"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/SNU_ESL_BESS_Rad_v1": {
+    "status": "success",
+    "filename": "SNU_ESL_BESS_Rad_v1.md",
+    "timestamp": "2025-04-22T14:51:02.098377"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Slovakia_orthos_25cm": {
+    "status": "success",
+    "filename": "Slovakia_orthos_25cm.md",
+    "timestamp": "2025-04-22T14:51:03.733579"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Spain_PNOA_PNOA10": {
+    "status": "success",
+    "filename": "Spain_PNOA_PNOA10.md",
+    "timestamp": "2025-04-22T14:51:05.638526"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Switzerland_SWISSIMAGE_orthos_10cm": {
+    "status": "success",
+    "filename": "Switzerland_SWISSIMAGE_orthos_10cm.md",
+    "timestamp": "2025-04-22T14:51:07.513640"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TERN_AET_CMRSET_LANDSAT_V2_2": {
+    "status": "success",
+    "filename": "TERN_AET_CMRSET_LANDSAT_V2_2.md",
+    "timestamp": "2025-04-22T14:51:09.655818"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_BG": {
+    "status": "success",
+    "filename": "TIGER_2010_BG.md",
+    "timestamp": "2025-04-22T14:51:12.302158"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_Blocks": {
+    "status": "success",
+    "filename": "TIGER_2010_Blocks.md",
+    "timestamp": "2025-04-22T14:51:15.673542"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_Tracts_DP1": {
+    "status": "success",
+    "filename": "TIGER_2010_Tracts_DP1.md",
+    "timestamp": "2025-04-22T14:51:16.851099"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5": {
+    "status": "success",
+    "filename": "TIGER_2010_ZCTA5.md",
+    "timestamp": "2025-04-22T14:51:18.200495"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties": {
+    "status": "success",
+    "filename": "TIGER_2016_Counties.md",
+    "timestamp": "2025-04-22T14:51:19.677454"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Roads": {
+    "status": "success",
+    "filename": "TIGER_2016_Roads.md",
+    "timestamp": "2025-04-22T14:51:22.212784"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_States": {
+    "status": "success",
+    "filename": "TIGER_2016_States.md",
+    "timestamp": "2025-04-22T14:51:23.441397"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2018_Counties": {
+    "status": "success",
+    "filename": "TIGER_2018_Counties.md",
+    "timestamp": "2025-04-22T14:51:24.842562"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2018_States": {
+    "status": "success",
+    "filename": "TIGER_2018_States.md",
+    "timestamp": "2025-04-22T14:51:26.176348"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2020_BG": {
+    "status": "success",
+    "filename": "TIGER_2020_BG.md",
+    "timestamp": "2025-04-22T14:51:27.569515"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2020_TABBLOCK20": {
+    "status": "success",
+    "filename": "TIGER_2020_TABBLOCK20.md",
+    "timestamp": "2025-04-22T14:51:34.034812"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2020_TRACT": {
+    "status": "success",
+    "filename": "TIGER_2020_TRACT.md",
+    "timestamp": "2025-04-22T14:51:35.312765"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TOMS_MERGED": {
+    "status": "success",
+    "filename": "TOMS_MERGED.md",
+    "timestamp": "2025-04-22T14:51:38.981922"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B42": {
+    "status": "success",
+    "filename": "TRMM_3B42.md",
+    "timestamp": "2025-04-22T14:51:40.127765"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B43V7": {
+    "status": "success",
+    "filename": "TRMM_3B43V7.md",
+    "timestamp": "2025-04-22T14:51:41.378661"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/TUBerlin_BigEarthNet_v1": {
+    "status": "success",
+    "filename": "TUBerlin_BigEarthNet_v1.md",
+    "timestamp": "2025-04-22T14:51:42.748926"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Tsinghua_DESS_ChinaTerraceMap_v1": {
+    "status": "success",
+    "filename": "Tsinghua_DESS_ChinaTerraceMap_v1.md",
+    "timestamp": "2025-04-22T14:51:44.462461"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/Tsinghua_FROM-GLC_GAIA_v10": {
+    "status": "success",
+    "filename": "Tsinghua_FROM-GLC_GAIA_v10.md",
+    "timestamp": "2025-04-22T14:51:47.970203"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY": {
+    "status": "success",
+    "filename": "UCSB-CHG_CHIRPS_DAILY.md",
+    "timestamp": "2025-04-22T14:51:49.163878"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_PENTAD": {
+    "status": "success",
+    "filename": "UCSB-CHG_CHIRPS_PENTAD.md",
+    "timestamp": "2025-04-22T14:51:51.190771"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRTS_DAILY": {
+    "status": "success",
+    "filename": "UCSB-CHG_CHIRTS_DAILY.md",
+    "timestamp": "2025-04-22T14:51:52.655549"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UK_EA_ENGLAND_1M_TERRAIN_2022": {
+    "status": "success",
+    "filename": "UK_EA_ENGLAND_1M_TERRAIN_2022.md",
+    "timestamp": "2025-04-22T14:51:53.829454"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMD_GLAD_PRIMARY_HUMID_TROPICAL_FORESTS_v1": {
+    "status": "success",
+    "filename": "UMD_GLAD_PRIMARY_HUMID_TROPICAL_FORESTS_v1.md",
+    "timestamp": "2025-04-22T14:51:55.012498"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2023_v1_11": {
+    "status": "success",
+    "filename": "UMD_hansen_global_forest_change_2023_v1_11.md",
+    "timestamp": "2025-04-22T14:51:56.236386"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_ArcticDEM_V3_2m": {
+    "status": "success",
+    "filename": "UMN_PGC_ArcticDEM_V3_2m.md",
+    "timestamp": "2025-04-22T14:51:57.599350"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_ArcticDEM_V3_2m_mosaic": {
+    "status": "success",
+    "filename": "UMN_PGC_ArcticDEM_V3_2m_mosaic.md",
+    "timestamp": "2025-04-22T14:51:58.878954"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_1_8m": {
+    "status": "success",
+    "filename": "UMN_PGC_REMA_V1_1_8m.md",
+    "timestamp": "2025-04-22T14:52:00.114654"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_2m": {
+    "status": "success",
+    "filename": "UMN_PGC_REMA_V1_2m.md",
+    "timestamp": "2025-04-22T14:52:01.450955"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_8m": {
+    "status": "success",
+    "filename": "UMN_PGC_REMA_V1_8m.md",
+    "timestamp": "2025-04-22T14:52:02.851521"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMT_Climate_IrrMapper_RF_v1_2": {
+    "status": "success",
+    "filename": "UMT_Climate_IrrMapper_RF_v1_2.md",
+    "timestamp": "2025-04-22T14:52:03.975777"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_LANDSAT_GPP": {
+    "status": "success",
+    "filename": "UMT_NTSG_v2_LANDSAT_GPP.md",
+    "timestamp": "2025-04-22T14:52:10.501449"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_LANDSAT_NPP": {
+    "status": "success",
+    "filename": "UMT_NTSG_v2_LANDSAT_NPP.md",
+    "timestamp": "2025-04-22T14:52:11.939727"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_MODIS_GPP": {
+    "status": "success",
+    "filename": "UMT_NTSG_v2_MODIS_GPP.md",
+    "timestamp": "2025-04-22T14:52:13.468351"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_MODIS_NPP": {
+    "status": "success",
+    "filename": "UMT_NTSG_v2_MODIS_NPP.md",
+    "timestamp": "2025-04-22T14:52:14.836811"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UN_Geodata_BNDA_simplified_current": {
+    "status": "success",
+    "filename": "UN_Geodata_BNDA_simplified_current.md",
+    "timestamp": "2025-04-22T14:52:16.318794"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UQ_murray_Intertidal_v1_1_data_mask": {
+    "status": "success",
+    "filename": "UQ_murray_Intertidal_v1_1_data_mask.md",
+    "timestamp": "2025-04-22T14:52:18.130684"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UQ_murray_Intertidal_v1_1_global_intertidal": {
+    "status": "success",
+    "filename": "UQ_murray_Intertidal_v1_1_global_intertidal.md",
+    "timestamp": "2025-04-22T14:52:19.262677"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UQ_murray_Intertidal_v1_1_qa_pixel_count": {
+    "status": "success",
+    "filename": "UQ_murray_Intertidal_v1_1_qa_pixel_count.md",
+    "timestamp": "2025-04-22T14:52:20.653127"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USDA_NAIP_DOQQ": {
+    "status": "success",
+    "filename": "USDA_NAIP_DOQQ.md",
+    "timestamp": "2025-04-22T14:52:21.884019"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL": {
+    "status": "success",
+    "filename": "USDA_NASS_CDL.md",
+    "timestamp": "2025-04-22T14:52:23.522466"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USDA_WRC_v0": {
+    "status": "success",
+    "filename": "USDA_WRC_v0.md",
+    "timestamp": "2025-04-22T14:52:24.892006"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_2017": {
+    "status": "success",
+    "filename": "USDOS_LSIB_2017.md",
+    "timestamp": "2025-04-22T14:52:26.253840"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017": {
+    "status": "success",
+    "filename": "USDOS_LSIB_SIMPLE_2017.md",
+    "timestamp": "2025-04-22T14:52:27.692151"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9": {
+    "status": "success",
+    "filename": "USFS_GTAC_LCMS_v2023-9.md",
+    "timestamp": "2025-04-22T14:52:29.031361"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_MTBS_annual_burn_severity_mosaics_v1": {
+    "status": "success",
+    "filename": "USFS_GTAC_MTBS_annual_burn_severity_mosaics_v1.md",
+    "timestamp": "2025-04-22T14:52:30.445594"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_MTBS_burned_area_boundaries_v1": {
+    "status": "success",
+    "filename": "USFS_GTAC_MTBS_burned_area_boundaries_v1.md",
+    "timestamp": "2025-04-22T14:52:31.922267"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2016": {
+    "status": "success",
+    "filename": "USFS_GTAC_TreeMap_v2016.md",
+    "timestamp": "2025-04-22T14:52:33.255675"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_1m": {
+    "status": "success",
+    "filename": "USGS_3DEP_1m.md",
+    "timestamp": "2025-04-22T14:52:34.658159"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m": {
+    "status": "success",
+    "filename": "USGS_3DEP_10m.md",
+    "timestamp": "2025-04-22T14:52:35.960260"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_metadata": {
+    "status": "success",
+    "filename": "USGS_3DEP_10m_metadata.md",
+    "timestamp": "2025-04-22T14:52:37.986087"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_AK_2001": {
+    "status": "success",
+    "filename": "USGS_GAP_AK_2001.md",
+    "timestamp": "2025-04-22T14:52:44.252131"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_CONUS_2011": {
+    "status": "success",
+    "filename": "USGS_GAP_CONUS_2011.md",
+    "timestamp": "2025-04-22T14:52:45.823800"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_HI_2001": {
+    "status": "success",
+    "filename": "USGS_GAP_HI_2001.md",
+    "timestamp": "2025-04-22T14:52:46.960980"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_designation": {
+    "status": "success",
+    "filename": "USGS_GAP_PAD-US_v20_designation.md",
+    "timestamp": "2025-04-22T14:52:48.221009"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_easement": {
+    "status": "success",
+    "filename": "USGS_GAP_PAD-US_v20_easement.md",
+    "timestamp": "2025-04-22T14:52:49.430350"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_fee": {
+    "status": "success",
+    "filename": "USGS_GAP_PAD-US_v20_fee.md",
+    "timestamp": "2025-04-22T14:52:50.805336"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_proclamation": {
+    "status": "success",
+    "filename": "USGS_GAP_PAD-US_v20_proclamation.md",
+    "timestamp": "2025-04-22T14:52:52.032526"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PR_2001": {
+    "status": "success",
+    "filename": "USGS_GAP_PR_2001.md",
+    "timestamp": "2025-04-22T14:52:53.510524"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GFSAD1000_V1": {
+    "status": "success",
+    "filename": "USGS_GFSAD1000_V1.md",
+    "timestamp": "2025-04-22T14:52:54.925212"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GMTED2010_FULL": {
+    "status": "success",
+    "filename": "USGS_GMTED2010_FULL.md",
+    "timestamp": "2025-04-22T14:52:56.624943"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_GTOPO30": {
+    "status": "success",
+    "filename": "USGS_GTOPO30.md",
+    "timestamp": "2025-04-22T14:52:57.919754"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_LIMA_MOSAIC": {
+    "status": "success",
+    "filename": "USGS_LIMA_MOSAIC.md",
+    "timestamp": "2025-04-22T14:52:59.139621"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_LIMA_SR": {
+    "status": "success",
+    "filename": "USGS_LIMA_SR.md",
+    "timestamp": "2025-04-22T14:53:00.265496"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_LIMA_SR_METADATA": {
+    "status": "success",
+    "filename": "USGS_LIMA_SR_METADATA.md",
+    "timestamp": "2025-04-22T14:53:01.664988"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD": {
+    "status": "success",
+    "filename": "USGS_NLCD_RELEASES_2019_REL_NLCD.md",
+    "timestamp": "2025-04-22T14:53:02.839109"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2020_REL_NALCMS": {
+    "status": "success",
+    "filename": "USGS_NLCD_RELEASES_2020_REL_NALCMS.md",
+    "timestamp": "2025-04-22T14:53:03.932918"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_NLCD": {
+    "status": "success",
+    "filename": "USGS_NLCD_RELEASES_2021_REL_NLCD.md",
+    "timestamp": "2025-04-22T14:53:05.268782"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4": {
+    "status": "success",
+    "filename": "USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4.md",
+    "timestamp": "2025-04-22T14:53:06.809230"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_COVER": {
+    "status": "success",
+    "filename": "USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_COVER.md",
+    "timestamp": "2025-04-22T14:53:08.089931"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_TRENDS": {
+    "status": "success",
+    "filename": "USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_TRENDS.md",
+    "timestamp": "2025-04-22T14:53:09.714390"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_TRENDS_YEAR": {
+    "status": "success",
+    "filename": "USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_TRENDS_YEAR.md",
+    "timestamp": "2025-04-22T14:53:16.050912"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003": {
+    "status": "success",
+    "filename": "USGS_SRTMGL1_003.md",
+    "timestamp": "2025-04-22T14:53:17.323614"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC02": {
+    "status": "success",
+    "filename": "USGS_WBD_2017_HUC02.md",
+    "timestamp": "2025-04-22T14:53:21.420756"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC04": {
+    "status": "success",
+    "filename": "USGS_WBD_2017_HUC04.md",
+    "timestamp": "2025-04-22T14:53:22.787619"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC06": {
+    "status": "success",
+    "filename": "USGS_WBD_2017_HUC06.md",
+    "timestamp": "2025-04-22T14:53:24.240143"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC08": {
+    "status": "success",
+    "filename": "USGS_WBD_2017_HUC08.md",
+    "timestamp": "2025-04-22T14:53:26.042339"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC10": {
+    "status": "success",
+    "filename": "USGS_WBD_2017_HUC10.md",
+    "timestamp": "2025-04-22T14:53:27.196092"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC12": {
+    "status": "success",
+    "filename": "USGS_WBD_2017_HUC12.md",
+    "timestamp": "2025-04-22T14:53:28.873753"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/UTOKYO_WTLAB_KBDI_v1": {
+    "status": "success",
+    "filename": "UTOKYO_WTLAB_KBDI_v1.md",
+    "timestamp": "2025-04-22T14:53:30.205344"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/VITO_PROBAV_C1_S1_TOC_100M": {
+    "status": "success",
+    "filename": "VITO_PROBAV_C1_S1_TOC_100M.md",
+    "timestamp": "2025-04-22T14:53:31.674022"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/VITO_PROBAV_C1_S1_TOC_333M": {
+    "status": "success",
+    "filename": "VITO_PROBAV_C1_S1_TOC_333M.md",
+    "timestamp": "2025-04-22T14:53:33.174599"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDOECM_current_points": {
+    "status": "success",
+    "filename": "WCMC_WDOECM_current_points.md",
+    "timestamp": "2025-04-22T14:53:34.556055"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDOECM_current_polygons": {
+    "status": "success",
+    "filename": "WCMC_WDOECM_current_polygons.md",
+    "timestamp": "2025-04-22T14:53:35.908119"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDPA_current_points": {
+    "status": "success",
+    "filename": "WCMC_WDPA_current_points.md",
+    "timestamp": "2025-04-22T14:53:37.256821"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDPA_current_polygons": {
+    "status": "success",
+    "filename": "WCMC_WDPA_current_polygons.md",
+    "timestamp": "2025-04-22T14:53:39.222000"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WCMC_biomass_carbon_density_v1_0": {
+    "status": "success",
+    "filename": "WCMC_biomass_carbon_density_v1_0.md",
+    "timestamp": "2025-04-22T14:53:43.118477"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WHBU_NBAR_1YEAR": {
+    "status": "success",
+    "filename": "WHBU_NBAR_1YEAR.md",
+    "timestamp": "2025-04-22T14:53:44.666194"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WHBU_NBAR_2YEAR": {
+    "status": "success",
+    "filename": "WHBU_NBAR_2YEAR.md",
+    "timestamp": "2025-04-22T14:53:46.110573"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WHBU_NBAR_3YEAR": {
+    "status": "success",
+    "filename": "WHBU_NBAR_3YEAR.md",
+    "timestamp": "2025-04-22T14:53:47.555383"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WHRC_biomass_tropical": {
+    "status": "success",
+    "filename": "WHRC_biomass_tropical.md",
+    "timestamp": "2025-04-22T14:53:48.788857"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WM_geoLab_geoBoundaries_600_ADM0": {
+    "status": "success",
+    "filename": "WM_geoLab_geoBoundaries_600_ADM0.md",
+    "timestamp": "2025-04-22T14:53:55.325196"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WM_geoLab_geoBoundaries_600_ADM1": {
+    "status": "success",
+    "filename": "WM_geoLab_geoBoundaries_600_ADM1.md",
+    "timestamp": "2025-04-22T14:54:00.412961"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WM_geoLab_geoBoundaries_600_ADM2": {
+    "status": "success",
+    "filename": "WM_geoLab_geoBoundaries_600_ADM2.md",
+    "timestamp": "2025-04-22T14:54:03.433537"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_BIO": {
+    "status": "success",
+    "filename": "WORLDCLIM_V1_BIO.md",
+    "timestamp": "2025-04-22T14:54:07.905391"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_MONTHLY": {
+    "status": "success",
+    "filename": "WORLDCLIM_V1_MONTHLY.md",
+    "timestamp": "2025-04-22T14:54:09.185971"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Flood_Hazard_Maps_V2": {
+    "status": "success",
+    "filename": "WRI_Aqueduct_Flood_Hazard_Maps_V2.md",
+    "timestamp": "2025-04-22T14:54:10.409258"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Water_Risk_V4_baseline_annual": {
+    "status": "success",
+    "filename": "WRI_Aqueduct_Water_Risk_V4_baseline_annual.md",
+    "timestamp": "2025-04-22T14:54:14.591900"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Water_Risk_V4_baseline_monthly": {
+    "status": "success",
+    "filename": "WRI_Aqueduct_Water_Risk_V4_baseline_monthly.md",
+    "timestamp": "2025-04-22T14:54:16.158758"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Water_Risk_V4_future_annual": {
+    "status": "success",
+    "filename": "WRI_Aqueduct_Water_Risk_V4_future_annual.md",
+    "timestamp": "2025-04-22T14:54:21.297314"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_GFW_FORMA_alerts": {
+    "status": "success",
+    "filename": "WRI_GFW_FORMA_alerts.md",
+    "timestamp": "2025-04-22T14:54:23.000629"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_GFW_FORMA_raw_output_firms": {
+    "status": "success",
+    "filename": "WRI_GFW_FORMA_raw_output_firms.md",
+    "timestamp": "2025-04-22T14:54:24.350533"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_GFW_FORMA_raw_output_ndvi": {
+    "status": "success",
+    "filename": "WRI_GFW_FORMA_raw_output_ndvi.md",
+    "timestamp": "2025-04-22T14:54:25.999625"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_GFW_FORMA_thresholds": {
+    "status": "success",
+    "filename": "WRI_GFW_FORMA_thresholds.md",
+    "timestamp": "2025-04-22T14:54:27.536688"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_GFW_FORMA_vegetation_tstats": {
+    "status": "success",
+    "filename": "WRI_GFW_FORMA_vegetation_tstats.md",
+    "timestamp": "2025-04-22T14:54:29.230696"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_GPPD_power_plants": {
+    "status": "success",
+    "filename": "WRI_GPPD_power_plants.md",
+    "timestamp": "2025-04-22T14:54:31.752782"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_SBTN_naturalLands_v1_1_2020": {
+    "status": "success",
+    "filename": "WRI_SBTN_naturalLands_v1_1_2020.md",
+    "timestamp": "2025-04-22T14:54:33.273348"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WRI_SBTN_naturalLands_v1_2020": {
+    "status": "success",
+    "filename": "WRI_SBTN_naturalLands_v1_2020.md",
+    "timestamp": "2025-04-22T14:54:34.877416"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level03": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level03.md",
+    "timestamp": "2025-04-22T14:54:36.479751"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level04": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level04.md",
+    "timestamp": "2025-04-22T14:54:38.261973"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level05": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level05.md",
+    "timestamp": "2025-04-22T14:54:43.042247"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level06": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level06.md",
+    "timestamp": "2025-04-22T14:54:49.579524"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level07": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level07.md",
+    "timestamp": "2025-04-22T14:54:51.474841"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level08": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level08.md",
+    "timestamp": "2025-04-22T14:54:53.294348"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level09": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level09.md",
+    "timestamp": "2025-04-22T14:54:55.059200"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level10": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level10.md",
+    "timestamp": "2025-04-22T14:54:56.771787"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level11": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level11.md",
+    "timestamp": "2025-04-22T14:54:58.695376"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level12": {
+    "status": "success",
+    "filename": "WWF_HydroATLAS_v1_Basins_level12.md",
+    "timestamp": "2025-04-22T14:55:00.313122"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_03CONDEM": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_03CONDEM.md",
+    "timestamp": "2025-04-22T14:55:01.615013"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_03DIR": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_03DIR.md",
+    "timestamp": "2025-04-22T14:55:03.382875"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_03VFDEM": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_03VFDEM.md",
+    "timestamp": "2025-04-22T14:55:04.915614"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_15ACC": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_15ACC.md",
+    "timestamp": "2025-04-22T14:55:06.174034"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_15CONDEM": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_15CONDEM.md",
+    "timestamp": "2025-04-22T14:55:07.957176"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_15DIR": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_15DIR.md",
+    "timestamp": "2025-04-22T14:55:09.454693"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_30ACC": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_30ACC.md",
+    "timestamp": "2025-04-22T14:55:11.057806"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_30CONDEM": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_30CONDEM.md",
+    "timestamp": "2025-04-22T14:55:13.581449"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_30DIR": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_30DIR.md",
+    "timestamp": "2025-04-22T14:55:15.907386"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_1": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_1.md",
+    "timestamp": "2025-04-22T14:55:17.206329"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_2": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_2.md",
+    "timestamp": "2025-04-22T14:55:18.621301"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_3": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_3.md",
+    "timestamp": "2025-04-22T14:55:20.306719"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_4": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_4.md",
+    "timestamp": "2025-04-22T14:55:21.928193"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_5": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_5.md",
+    "timestamp": "2025-04-22T14:55:28.336332"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_6": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_6.md",
+    "timestamp": "2025-04-22T14:55:29.774360"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_7": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_7.md",
+    "timestamp": "2025-04-22T14:55:31.151555"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_8": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_8.md",
+    "timestamp": "2025-04-22T14:55:32.572574"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_9": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_9.md",
+    "timestamp": "2025-04-22T14:55:34.387468"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_10": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_10.md",
+    "timestamp": "2025-04-22T14:55:35.842687"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_11": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_11.md",
+    "timestamp": "2025-04-22T14:55:37.946085"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_12": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_Basins_hybas_12.md",
+    "timestamp": "2025-04-22T14:55:39.223135"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_FreeFlowingRivers": {
+    "status": "success",
+    "filename": "WWF_HydroSHEDS_v1_FreeFlowingRivers.md",
+    "timestamp": "2025-04-22T14:55:40.688617"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop": {
+    "status": "success",
+    "filename": "WorldPop_GP_100m_pop.md",
+    "timestamp": "2025-04-22T14:55:42.084712"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop_age_sex": {
+    "status": "success",
+    "filename": "WorldPop_GP_100m_pop_age_sex.md",
+    "timestamp": "2025-04-22T14:55:44.107858"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop_age_sex_cons_unadj": {
+    "status": "success",
+    "filename": "WorldPop_GP_100m_pop_age_sex_cons_unadj.md",
+    "timestamp": "2025-04-22T14:55:46.196538"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/YALE_YCEO_UHI_Summer_UHI_yearly_pixel_v4": {
+    "status": "success",
+    "filename": "YALE_YCEO_UHI_Summer_UHI_yearly_pixel_v4.md",
+    "timestamp": "2025-04-22T14:55:47.520157"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/YALE_YCEO_UHI_UHI_all_averaged_v4": {
+    "status": "success",
+    "filename": "YALE_YCEO_UHI_UHI_all_averaged_v4.md",
+    "timestamp": "2025-04-22T14:55:49.270990"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/YALE_YCEO_UHI_UHI_monthly_averaged_v4": {
+    "status": "success",
+    "filename": "YALE_YCEO_UHI_UHI_monthly_averaged_v4.md",
+    "timestamp": "2025-04-22T14:55:50.807806"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/YALE_YCEO_UHI_UHI_yearly_averaged_v4": {
+    "status": "success",
+    "filename": "YALE_YCEO_UHI_UHI_yearly_averaged_v4.md",
+    "timestamp": "2025-04-22T14:55:52.534283"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/YALE_YCEO_UHI_UHI_yearly_pixel_v4": {
+    "status": "success",
+    "filename": "YALE_YCEO_UHI_UHI_yearly_pixel_v4.md",
+    "timestamp": "2025-04-22T14:55:53.966687"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/YALE_YCEO_UHI_Winter_UHI_yearly_pixel_v4": {
+    "status": "success",
+    "filename": "YALE_YCEO_UHI_Winter_UHI_yearly_pixel_v4.md",
+    "timestamp": "2025-04-22T14:55:55.281812"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L3concentration": {
+    "status": "success",
+    "filename": "projects_edf-methanesat-ee_assets_public-preview_L3concentration.md",
+    "timestamp": "2025-04-22T14:55:56.568975"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L4area": {
+    "status": "success",
+    "filename": "projects_edf-methanesat-ee_assets_public-preview_L4area.md",
+    "timestamp": "2025-04-22T14:55:57.811641"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L4point": {
+    "status": "success",
+    "filename": "projects_edf-methanesat-ee_assets_public-preview_L4point.md",
+    "timestamp": "2025-04-22T14:56:04.287811"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_cocoa_model_2024a": {
+    "status": "success",
+    "filename": "projects_forestdatapartnership_assets_cocoa_model_2024a.md",
+    "timestamp": "2025-04-22T14:56:05.707820"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_community_forests_ForestPersistence_2020": {
+    "status": "success",
+    "filename": "projects_forestdatapartnership_assets_community_forests_ForestPersistence_2020.md",
+    "timestamp": "2025-04-22T14:56:07.257599"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_palm_model_2024a": {
+    "status": "success",
+    "filename": "projects_forestdatapartnership_assets_palm_model_2024a.md",
+    "timestamp": "2025-04-22T14:56:08.773398"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_rubber_model_2024a": {
+    "status": "success",
+    "filename": "projects_forestdatapartnership_assets_rubber_model_2024a.md",
+    "timestamp": "2025-04-22T14:56:10.370163"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_59572747_4_0": {
+    "status": "success",
+    "filename": "projects_gcp-public-data-weathernext_assets_59572747_4_0.md",
+    "timestamp": "2025-04-22T14:56:11.632699"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_126478713_1_0": {
+    "status": "success",
+    "filename": "projects_gcp-public-data-weathernext_assets_126478713_1_0.md",
+    "timestamp": "2025-04-22T14:56:13.113302"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_global-pasture-watch_assets_ggc-30m_v1_cultiv-grassland_p": {
+    "status": "success",
+    "filename": "projects_global-pasture-watch_assets_ggc-30m_v1_cultiv-grassland_p.md",
+    "timestamp": "2025-04-22T14:56:14.913852"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_global-pasture-watch_assets_ggc-30m_v1_grassland_c": {
+    "status": "success",
+    "filename": "projects_global-pasture-watch_assets_ggc-30m_v1_grassland_c.md",
+    "timestamp": "2025-04-22T14:56:16.463152"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_global-pasture-watch_assets_ggc-30m_v1_nat-semi-grassland_p": {
+    "status": "success",
+    "filename": "projects_global-pasture-watch_assets_ggc-30m_v1_nat-semi-grassland_p.md",
+    "timestamp": "2025-04-22T14:56:18.052733"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_CHM_001": {
+    "status": "success",
+    "filename": "projects_neon-prod-earthengine_assets_CHM_001.md",
+    "timestamp": "2025-04-22T14:56:19.531921"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_DEM_001": {
+    "status": "success",
+    "filename": "projects_neon-prod-earthengine_assets_DEM_001.md",
+    "timestamp": "2025-04-22T14:56:21.752812"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_HSI_REFL_001": {
+    "status": "success",
+    "filename": "projects_neon-prod-earthengine_assets_HSI_REFL_001.md",
+    "timestamp": "2025-04-22T14:56:23.303695"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_HSI_REFL_002": {
+    "status": "success",
+    "filename": "projects_neon-prod-earthengine_assets_HSI_REFL_002.md",
+    "timestamp": "2025-04-22T14:56:25.004751"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_RGB_001": {
+    "status": "success",
+    "filename": "projects_neon-prod-earthengine_assets_RGB_001.md",
+    "timestamp": "2025-04-22T14:56:26.625418"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_ngis-cat_assets_DEA_NIDEM": {
+    "status": "success",
+    "filename": "projects_ngis-cat_assets_DEA_NIDEM.md",
+    "timestamp": "2025-04-22T14:56:28.375621"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_africa": {
+    "status": "success",
+    "filename": "projects_planet-nicfi_assets_basemaps_africa.md",
+    "timestamp": "2025-04-22T14:56:29.997791"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_americas": {
+    "status": "success",
+    "filename": "projects_planet-nicfi_assets_basemaps_americas.md",
+    "timestamp": "2025-04-22T14:56:31.325873"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_asia": {
+    "status": "success",
+    "filename": "projects_planet-nicfi_assets_basemaps_asia.md",
+    "timestamp": "2025-04-22T14:56:34.459400"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_GLOBathy_GLOBathy_bathymetry": {
+    "status": "success",
+    "filename": "projects_sat-io_open-datasets_GLOBathy_GLOBathy_bathymetry.md",
+    "timestamp": "2025-04-22T14:56:37.147760"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL": {
+    "status": "success",
+    "filename": "projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL.md",
+    "timestamp": "2025-04-22T14:56:43.987808"
+  },
+  "https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_us-drought-monitor": {
+    "status": "success",
+    "filename": "projects_sat-io_open-datasets_us-drought-monitor.md",
+    "timestamp": "2025-04-22T14:56:46.776482"
+  }
+}
