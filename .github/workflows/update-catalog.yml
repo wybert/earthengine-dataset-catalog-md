@@ -25,7 +25,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas crawl4ai
+        pip install pandas crawl4ai playwright
+        playwright install chromium
         
     - name: Download and check for changes
       run: |
