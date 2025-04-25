@@ -29,17 +29,27 @@ jobs:
         playwright install chromium
         
     - name: Download and check for changes
+      id: download
+      continue-on-error: true
       run: |
         # Run the download script
         python download_gee_catalog.py
         
+    - name: Force update on manual trigger
+      if: github.event_name == 'workflow_dispatch' && steps.download.outcome == 'failure'
+      run: |
+        python download_gee_catalog.py --force
+        
     - name: Commit and push if changed
       run: |
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        git add docs/
-        git add download_progress_datasets_catalog.json
-        
-        # Try to commit and push changes. Don't fail if there are no changes.
-        git commit -m "Update GEE catalog documentation" || exit 0
-        git push 
+        # Check if there are any changes to commit
+        if [[ -n "$(git status --porcelain docs/ download_progress_datasets_catalog.json)" ]]; then
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add docs/
+          git add download_progress_datasets_catalog.json
+          git commit -m "Update GEE catalog documentation"
+          git push
+        else
+          echo "No changes to commit"
+        fi 
