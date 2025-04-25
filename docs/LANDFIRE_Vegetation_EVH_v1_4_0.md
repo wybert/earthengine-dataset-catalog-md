@@ -1,6 +1,6 @@
  
 #  LANDFIRE EVH (Existing Vegetation Height) v1.4.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDFIRE/Vegetation/EVH/v1_4_0](https://developers.google.com/earth-engine/datasets/images/LANDFIRE/LANDFIRE_Vegetation_EVH_v1_4_0_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [doi](https://developers.google.com/earth-engine/datasets/tags/doi) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [landfire](https://developers.google.com/earth-engine/datasets/tags/landfire) [nature-conservancy](https://developers.google.com/earth-engine/datasets/tags/nature-conservancy) [usda](https://developers.google.com/earth-engine/datasets/tags/usda) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [wildfire](https://developers.google.com/earth-engine/datasets/tags/wildfire)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVH_v1_4_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVH_v1_4_0#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVH_v1_4_0#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVH_v1_4_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVH_v1_4_0#citations) More
+#### Description
 LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a shared program between the wildland fire management programs of the U.S. Department of Agriculture's Forest Service, U.S. Department of the Interior's Geological Survey, and The Nature Conservancy.
 LANDFIRE (LF) layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.
 Existing Vegetation Height (EVH) represents the average height of the dominant vegetation for a 30-m cell. Canopy height is generated separately for tree, shrub, and herbaceous lifeforms using training data and other geospatial layers. EVH is determined by the average height weighted by species cover and based on the Existing Vegetation Type (EVT) lifeform.
@@ -32,18 +32,22 @@ The LANDIFRE Vegetation datasets include:
   * Existing Vegetation Type (EVT) These layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Description  
 ---|---  
 `EVH` | Existing Vegetation Height  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 EVH_classes | DOUBLE | Class values of the Existing Vegetation Height.  
 EVH_names | STRING | Descriptive names of the Existing Vegetation Height.  
+### Terms of Use
 **Terms of Use**
 LANDFIRE data are public domain data with no use restrictions, though if modifications or derivatives of the product(s) are created, then please add some descriptive modifier to the data set to avoid confusion.
+### Citations
 Citations:
   * The suggested way to cite LANDFIRE products is specific to each product, so the model for citation is provided, with an example for a particular product. Producer. Year released. Product xxxxx:
     * Individual model name.
@@ -55,7 +59,7 @@ Example Citation: LANDFIRE Biophysical Settings. 2018. Biophysical setting 14420
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVH_v1_4_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDFIRE/Vegetation/EVH/v1_4_0');
 varvisualization={

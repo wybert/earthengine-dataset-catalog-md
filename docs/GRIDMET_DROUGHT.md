@@ -1,10 +1,10 @@
  
 #  GRIDMET DROUGHT: CONUS Drought Indices 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![GRIDMET/DROUGHT](https://developers.google.com/earth-engine/datasets/images/GRIDMET/GRIDMET_DROUGHT_sample.png) 
 
 Dataset Availability
-    1980-01-05T00:00:00Z–2025-04-15T06:00:00Z 
+    1980-01-05T00:00:00Z–2025-04-20T06:00:00Z 
 
 Dataset Provider
      [ University of California Merced ](http://www.climatologylab.org/gridmet.html) 
@@ -21,7 +21,7 @@ climatic-water-balance
 eddi
 spei
 spi
-[Description](https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT#citations) More
+#### Description
 This dataset contains drought indices derived from the 4-km daily Gridded Surface Meteorological (GRIDMET) dataset. The drought indices provided include the standardized precipitation index (SPI), the evaporative drought demand index (EDDI), the standardized precipitation evapotranspiration index (SPEI), the Palmer Drought Severity Index (PDSI) and Palmer Z Index (Z).
 SPI, EDDI, and SPEI are supplied on different time scales corresponding to the time aggregation of precipitation, reference evapotranspiration, and precipitation minus reference evapotranspiration, respectively. The time scales include 14 day, 30 day, 90 day, 180 day, 270 day, 1 year, 2 years and 5 years. The standardization is done by using a non-parametric standardized probability based method where plotting positions are used to obtain probabilities which are transformed to indices assuming an inverse-normal distribution. All data are standardized over a common time period of 1981-2016.
 PDSI and Z are calculated using a modified version of the Palmer formula which uses reference evapotranspiration and precipitation from GRIDMET, and a static soil water holding capacity layer (top 1500mm) from STATSGO. Modifications to the coefficients of the original Palmer formula are applied to calculate PDSI. The baseline period for PDSI and Z calculations is 1979-2018.
@@ -55,6 +55,7 @@ SPI/SPEI/EDDI:
 
 
 This dataset contains provisional products that are replaced with updated versions when the complete source data become available. Products can be distinguished by the value of the 'status' property. At first, assets are ingested with status='early'. After several days, they are replaced by assets with status='provisional'. After about 2 months, they are replaced by the final assets with status='permanent'.
+### Bands
 **Pixel Size** 4638.3 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -86,19 +87,22 @@ Name | Min | Max | Description
 `pdsi` |  -15*  |  15*  | Palmer Drought Severity Index  
 `z` |  -15*  |  15*  | Palmer Z Index  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 status | STRING | 'early', 'provisional', or 'permanent'  
+### Terms of Use
 **Terms of Use**
 This work (METDATA, by John Abatzoglou) is in the public domain and is free of known copyright restrictions. Users should properly cite the source used in the creation of any reports and publications resulting from the use of this dataset and note the date when the data was acquired.
+### Citations
 Citations:
   * Abatzoglou J. T., Development of gridded surface meteorological data for ecological applications and modelling, International Journal of Climatology. (2012) [doi:10.1002/joc.3413](https://doi.org/10.1002/joc.3413)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('GRIDMET/DROUGHT');
 print(collection);
@@ -149,7 +153,7 @@ Map.addLayer(ee.Image(EDDI2y.first()),colorbarOptions1,'EDDI-48months');
 [ GRIDMET DROUGHT: CONUS Drought Indices ](https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT)
 This dataset contains drought indices derived from the 4-km daily Gridded Surface Meteorological (GRIDMET) dataset. The drought indices provided include the standardized precipitation index (SPI), the evaporative drought demand index (EDDI), the standardized precipitation evapotranspiration index (SPEI), the Palmer Drought Severity Index (PDSI) and Palmer Z Index (Z). SPI, EDDI, …
 GRIDMET/DROUGHT, climate,conus,crop,drought,evapotranspiration,geophysical,gridmet,merced,metdata,palmer,pdsi,precipitation,surface-ground-water,water-vapor 
-1980-01-05T00:00:00Z/2025-04-15T06:00:00Z
+1980-01-05T00:00:00Z/2025-04-20T06:00:00Z
 24.9 -124.9 49.6 -66.8 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

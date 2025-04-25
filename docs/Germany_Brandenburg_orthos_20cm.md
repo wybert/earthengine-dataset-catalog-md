@@ -1,6 +1,6 @@
  
 #  Brandenburg (Germany) RGBN orthophotos 20 cm 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![Germany/Brandenburg/orthos/20cm](https://developers.google.com/earth-engine/datasets/images/Germany/Germany_Brandenburg_orthos_20cm_sample.png) 
 
 Dataset Availability
@@ -17,9 +17,10 @@ Tags
 brandenburg
 germany
 rgbn
-[Description](https://developers.google.com/earth-engine/datasets/catalog/Germany_Brandenburg_orthos_20cm#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/Germany_Brandenburg_orthos_20cm#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/Germany_Brandenburg_orthos_20cm#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/Germany_Brandenburg_orthos_20cm#citations) More
+#### Description
 Orthophotos are an aerial photo dataset covering the Brandenburg state of Germany. This data is provided by State government of Brandenburg ([LGB](https://geobasis-bb.de/lgb/de/)). Digital orthophotos are digitally corrected aerial photos and show all objects that are visible from the air at the time of recording in a parallel perspective. They have a high density of information on ecological, phenological, geographical and other topics.
 For more information, please see the [Brandenburg orthophotos documentation](https://geobasis-bb.de/lgb/de/geodaten/luftbilder/luftbilder-aktuell/)
+### Bands
 **Pixel Size** 0.2 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -28,6 +29,7 @@ Name | Min | Max | Description
 `R` |  0  |  255  | Red  
 `G` |  0  |  255  | Green  
 `B` |  0  |  255  | Blue  
+### Terms of Use
 **Terms of Use**
 The user must ensure that the source note contains the following information:
   1. the name of the provider,
@@ -37,13 +39,14 @@ The user must ensure that the source note contains the following information:
 
 Changes, editing, new designs or other amendments must be marked as such in the source note.
 For more details please see the [Terms of use](https://www.govdata.de/dl-de/by-2-0)
+### Citations
 Citations:
   * Data License Germany - Attribution - Version 2.0
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/Germany_Brandenburg_orthos_20cm#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('Germany/Brandenburg/orthos/20cm');
 Map.setCenter(13.386091,52.507899,18);

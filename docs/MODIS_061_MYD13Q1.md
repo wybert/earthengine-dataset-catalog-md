@@ -1,6 +1,6 @@
  
 #  MYD13Q1.061 Aqua Vegetation Indices 16-Day Global 250m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD13Q1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD13Q1_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ Cadence
 Tags
      [16-day](https://developers.google.com/earth-engine/datasets/tags/16-day) [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [evi](https://developers.google.com/earth-engine/datasets/tags/evi) [global](https://developers.google.com/earth-engine/datasets/tags/global) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [ndvi](https://developers.google.com/earth-engine/datasets/tags/ndvi) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [vegetation-indices](https://developers.google.com/earth-engine/datasets/tags/vegetation-indices)
 myd13q1
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13Q1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13Q1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13Q1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13Q1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13Q1#dois) More
+#### Description
 The MYD13Q1 V6.1 product provides a Vegetation Index (VI) value at a per pixel basis. There are two primary vegetation layers. The first is the Normalized Difference Vegetation Index (NDVI) which is referred to as the continuity index to the existing National Oceanic and Atmospheric Administration-Advanced Very High Resolution Radiometer (NOAA-AVHRR) derived NDVI. The second vegetation layer is the Enhanced Vegetation Index (EVI) that minimizes canopy background variations and maintains sensitivity over dense vegetation conditions. The EVI also uses the blue band to remove residual atmosphere contamination caused by smoke and sub-pixel thin cloud clouds. The MODIS NDVI and EVI products are computed from atmospherically corrected bi-directional surface reflectances that have been masked for water, clouds, heavy aerosols, and cloud shadows.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/103/MOD13_User_Guide_V6.pdf)
@@ -26,13 +26,14 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MOD13A2)
 
 
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Wavelength | Description  
 ---|---|---|---|---|---|---  
-`NDVI` |  -2000  |  10000  | 0.0001 | Normalized Difference Vegetation Index  
-`EVI` |  -2000  |  10000  | 0.0001 | Enhanced Vegetation Index  
-`DetailedQA` | VI quality indicators  
+`NDVI` |  |  -2000  |  10000  | 0.0001 |  | Normalized Difference Vegetation Index  
+`EVI` |  |  -2000  |  10000  | 0.0001 |  | Enhanced Vegetation Index  
+`DetailedQA` |  |  |  |  |  | VI quality indicators  
 Bitmask for DetailedQA
   * Bits 0-1: VI quality (MODLAND QA Bits) 
     * 0: VI produced with good quality
@@ -82,15 +83,15 @@ Bitmask for DetailedQA
     * 1: Yes
 
   
-`sur_refl_b01` |  0  |  10000  | 0.0001 | 645nm | Red surface reflectance  
-`sur_refl_b02` |  0  |  10000  | 0.0001 | 858nm | NIR surface reflectance  
-`sur_refl_b03` |  0  |  10000  | 0.0001 | 469nm | Blue surface reflectance  
-`sur_refl_b07` |  0  |  10000  | 0.0001 | 2130nm/2105 - 2155nm | MIR surface reflectance  
-`ViewZenith` | deg |  0  |  18000  | 0.01 | View zenith angle  
-`SolarZenith` | deg |  0  |  18000  | 0.01 | Solar zenith angle  
-`RelativeAzimuth` | deg |  -18000  |  18000  | 0.01 | Relative azimuth angle  
-`DayOfYear` |  1  |  366  | Julian day of year  
-`SummaryQA` | Quality reliability of VI pixel  
+`sur_refl_b01` |  |  0  |  10000  | 0.0001 | 645nm | Red surface reflectance  
+`sur_refl_b02` |  |  0  |  10000  | 0.0001 | 858nm | NIR surface reflectance  
+`sur_refl_b03` |  |  0  |  10000  | 0.0001 | 469nm | Blue surface reflectance  
+`sur_refl_b07` |  |  0  |  10000  | 0.0001 | 2130nm/2105 - 2155nm | MIR surface reflectance  
+`ViewZenith` | deg |  0  |  18000  | 0.01 |  | View zenith angle  
+`SolarZenith` | deg |  0  |  18000  | 0.01 |  | Solar zenith angle  
+`RelativeAzimuth` | deg |  -18000  |  18000  | 0.01 |  | Relative azimuth angle  
+`DayOfYear` |  |  1  |  366  |  |  | Julian day of year  
+`SummaryQA` |  |  |  |  |  | Quality reliability of VI pixel  
 Bitmask for SummaryQA
   * Bits 0-1: VI quality (MODLAND QA Bits) 
     * 0: Good data, use with confidence
@@ -99,18 +100,21 @@ Bitmask for SummaryQA
     * 3: Pixel is cloudy
 
   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD13Q1.061 ](https://doi.org/10.5067/MODIS/MYD13Q1.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13Q1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD13Q1')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

@@ -1,6 +1,6 @@
  
 #  United States Drought Monitor 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/sat-io/open-datasets/us-drought-monitor](https://developers.google.com/earth-engine/datasets/images/sat-io/projects_sat-io_open-datasets_us-drought-monitor_sample.png)
 info
 This dataset is part of a Community Catalog, and not managed by Google Earth Engine. Contact gee-community-catalog@googlegroups.com for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/community/sat-io) from the Awesome GEE Community Catalog Catalog. [Learn more about Community datasets](https://developers.google.com/earth-engine/datasets/community). 
@@ -10,7 +10,7 @@ Catalog Owner
     Awesome GEE Community Catalog 
 
 Dataset Availability
-    2000-01-04T00:00:00Z–2025-04-08T00:00:00Z 
+    2000-01-04T00:00:00Z–2025-04-15T00:00:00Z 
 
 Dataset Provider
      [ National Drought Mitigation Center ](https://drought.unl.edu/) 
@@ -21,22 +21,25 @@ Earth Engine Snippet
 Tags
      [community-dataset](https://developers.google.com/earth-engine/datasets/tags/community-dataset) [drought](https://developers.google.com/earth-engine/datasets/tags/drought) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [sat-io](https://developers.google.com/earth-engine/datasets/tags/sat-io) [usda](https://developers.google.com/earth-engine/datasets/tags/usda)
 ndmc
-[Description](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_us-drought-monitor#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_us-drought-monitor#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_us-drought-monitor#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_us-drought-monitor#citations) More
+#### Description
 The U.S. Drought Monitor is a map released every Thursday, showing parts of the U.S. that are in drought. The map uses five classifications: abnormally dry (D0), showing areas that may be going into or are coming out of drought, and four levels of drought: moderate (D1), severe (D2), extreme (D3) and exceptional (D4). The Drought Monitor has been a team effort since its inception in 1999, produced jointly by the National Drought Mitigation Center (NDMC) at the University of Nebraska-Lincoln, the National Oceanic and Atmospheric Administration (NOAA), and the U.S. Department of Agriculture (USDA). The NDMC hosts the web site of the drought monitor and the associated data, and provides the map and data to NOAA, USDA and other agencies. It is freely available at droughtmonitor.unl.edu.
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Min | Max | Description  
 ---|---|---|---  
 `DM` |  0  |  4  | Drought classes  
+### Terms of Use
 **Terms of Use**
 The work is licensed under an Open data license for use. The U.S. Drought Monitor is jointly produced by the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration. Map courtesy of NDMC.
+### Citations
 Citations:
   * National Drought Mitigation Center; U.S. Department of Agriculture; National Oceanic and Atmospheric Administration (2023). United States Drought Monitor. University of Nebraska-Lincoln. https://droughtmonitor.unl.edu/. Accessed 2023-09-17
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_us-drought-monitor#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varusdm=ee.ImageCollection(
 "projects/sat-io/open-datasets/us-drought-monitor"
@@ -129,7 +132,7 @@ usdm.get("system:index").getInfo()
 [ United States Drought Monitor ](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_us-drought-monitor)
 The U.S. Drought Monitor is a map released every Thursday, showing parts of the U.S. that are in drought. The map uses five classifications: abnormally dry (D0), showing areas that may be going into or are coming out of drought, and four levels of drought: moderate (D1), severe (D2), extreme …
 projects/sat-io/open-datasets/us-drought-monitor, community-dataset,drought,noaa,precipitation,sat-io,usda 
-2000-01-04T00:00:00Z/2025-04-08T00:00:00Z
+2000-01-04T00:00:00Z/2025-04-15T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

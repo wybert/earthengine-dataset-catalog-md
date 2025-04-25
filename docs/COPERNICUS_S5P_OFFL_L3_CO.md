@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S5P/OFFL/L3_CO](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_CO_sample.png) 
 
 Dataset Availability
-    2018-06-28T10:24:07Z–2025-04-19T18:39:13Z 
+    2018-06-28T10:24:07Z–2025-04-22T17:42:32Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -103,7 +103,7 @@ Map.setCenter(-25.01,-4.28,4);
 [ Sentinel-5P OFFL CO: Offline Carbon Monoxide ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CO)
 OFFL/L3_CO This dataset provides offline high-resolution imagery of CO concentrations. Carbon monoxide (CO) is an important atmospheric trace gas for understanding tropospheric chemistry. In certain urban areas, it is a major atmospheric pollutant. Main sources of CO are combustion of fossil fuels, biomass burning, and atmospheric oxidation of methane and …
 COPERNICUS/S5P/OFFL/L3_CO, air-quality,atmosphere,carbon-monoxide,copernicus,esa,eu,knmi,pollution,s5p,sentinel,sron,tropomi 
-2018-06-28T10:24:07Z/2025-04-19T18:39:13Z
+2018-06-28T10:24:07Z/2025-04-22T17:42:32Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

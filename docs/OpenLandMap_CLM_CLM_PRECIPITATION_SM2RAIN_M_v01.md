@@ -1,6 +1,6 @@
  
 #  OpenLandMap Precipitation Monthly 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/CLM/CLM_PRECIPITATION_SM2RAIN_M/v01](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [envirometrix](https://developers.google.com/earth-engine/datasets/tags/envirometrix) [imerg](https://developers.google.com/earth-engine/datasets/tags/imerg) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [opengeohub](https://developers.google.com/earth-engine/datasets/tags/opengeohub) [openlandmap](https://developers.google.com/earth-engine/datasets/tags/openlandmap) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01#dois) More
+#### Description
 Monthly precipitation in mm at 1 km resolution based on [SM2RAIN-ASCAT 2007-2018](https://doi.org/10.5281/zenodo.2615278), IMERG, CHELSA Climate, and WorldClim.
 [Downscaled to 1 km resolution using gdalwarp](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/clim1km) (cubic splines) and an average between [WorldClim](https://www.worldclim.org/data/worldclim21.html), [CHELSA Climate](https://chelsa-climate.org/), and [IMERG monthly product](https://gpm.nasa.gov/data/imerg) (see, e.g, "3B-MO-L.GIS.IMERG.20180601.V05B.tif"). 3x higher weight is given to the SM2RAIN-ASCAT data since it assumed to be more accurate. Processing steps are available [here](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/clim1km). Antarctica is not included.
 To access and visualize maps outside of Earth Engine, use [this page](https://opengeohub.org/about-openlandmap).
@@ -23,6 +23,7 @@ If you discover a bug, artifact or inconsistency in the LandGIS maps or if you h
   * [General questions and comments](https://disqus.com/home/forums/landgis/)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -40,6 +41,7 @@ Name | Units | Min | Max | Description
 `nov` | mm |  0*  |  380*  | Nov Precipitation monthly  
 `dec` | mm |  0*  |  380*  | Dec Precipitation monthly  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-sa/4.0/).
 You are free to - Share - copy and redistribute the material in any medium or format Adapt - remix, transform, and build upon the material for any purpose, even commercially.
@@ -47,16 +49,18 @@ This license is acceptable for Free Cultural Works. The licensor cannot revoke t
 Under the following terms - Attribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 ShareAlike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 No additional restrictions - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+### Citations
 Citations:
   * Monthly precipitation in mm at 1 km resolution based on SM2RAIN-ASCAT 2007-2018 and IMERG 2014-2018 [10.5281/zenodo.1435912](https://doi.org/10.5281/zenodo.1435912)
 
 
+### DOIs
   * [ https://doi.org/10.5281/zenodo.1435912 ](https://doi.org/10.5281/zenodo.1435912)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('OpenLandMap/CLM/CLM_PRECIPITATION_SM2RAIN_M/v01');
 varvisualization={

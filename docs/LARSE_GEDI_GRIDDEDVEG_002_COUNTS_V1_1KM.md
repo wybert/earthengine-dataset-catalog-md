@@ -1,6 +1,6 @@
  
 #  Gridded GEDI Vegetation Structure Metrics and Biomass Density with COUNTS metrics, 1KM pixel size 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GRIDDEDVEG_002/COUNTS/V1/1KM](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM_sample.png) 
 
 Dataset Availability
@@ -14,12 +14,13 @@ Earth Engine Snippet
 
 Tags
      [biomass](https://developers.google.com/earth-engine/datasets/tags/biomass) [canopy](https://developers.google.com/earth-engine/datasets/tags/canopy) [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [gedi](https://developers.google.com/earth-engine/datasets/tags/gedi) [larse](https://developers.google.com/earth-engine/datasets/tags/larse) [lidar](https://developers.google.com/earth-engine/datasets/tags/lidar) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM#citations) More
+#### Description
 This dataset consists of near-global, analysis-ready, multi-resolution gridded vegetation structure metrics derived from NASA Global Ecosystem Dynamics Investigation (GEDI) Level 2 and 4A products associated with 25-m diameter lidar footprints. This dataset provides a comprehensive representation of near-global vegetation structure that is inclusive of the entire vertical profile, based solely on GEDI lidar, and validated with independent data.
 The GEDI sensor, mounted on the International Space Station (ISS), uses eight laser beams spaced by 60 m along-track and 600 m across-track on the Earth surface to measure ground elevation and vegetation structure between approximately 52 degrees North and South latitude. Between April 17th 2019 and March 16th 2023, GEDI acquired 11 and 7.7 billion quality waveforms suitable for measuring ground elevation and vegetation structure, respectively.
 In addition to many of the standard L2 and L4A shot metrics, several additional metrics have been derived which may be particularly useful for applications in carbon and water cycling processes in earth system models, as well as forest management, biodiversity modeling, and habitat assessment. Variables include canopy height, canopy cover, plant area index, foliage height diversity, and plant area volume density at 5 m strata. Refer to the [Gridded GEDI Vegetation Structure Metrics and Biomass Density](https://daac.ornl.gov/VEGETATION/guides/GEDI_HighQuality_Shots_Rasters.html) for more information.
 Eight statistics are included for each GEDI shot metric: mean, bootstrapped standard error of the mean, median, standard deviation, interquartile range, 95th percentile, Shannon's diversity index, and shot count. Quality shot filtering methodology that aligns with the GEDI L4B Gridded Aboveground Biomass Density, Version 2.1 was used. In comparison to the corresponding GEDI L3 dataset, this dataset provides additional gridded metrics at multiple spatial resolutions and over several temporal periods (annual and the full mission duration).
 This dataset provides GEDI shot metrics aggregated into raster grids at three spatial resolutions: 1 km, 6 km, and 12 km. This dataset uses the pixel size of 1KM with counts metrics.
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Description  
@@ -28,15 +29,17 @@ Name | Description
 `orbits_uniq` | The number of unique orbits.  
 `tracks_uniq` | The number of unique tracks. A track is the combination of orbit and beam.  
 `shots_nni` | The Nearest Neighbor Index (Evans et al. 2023).  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * Burns, P., Hakkenberg, C.R. & Goetz, S.J. Multi-resolution gridded maps of vegetation structure from GEDI. Sci Data 11, 881 (2024). [doi:10.1038/s41597-024-03668-4](https://doi.org/10.1038/s41597-024-03668-4)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varpalettes=require('users/gena/packages:palettes');
 

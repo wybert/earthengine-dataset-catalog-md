@@ -1,6 +1,6 @@
  
 #  GEDI L2A Raster Canopy Top Height (Version 2) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI02_A_002_MONTHLY](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_A_002_MONTHLY_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [gedi](https://developers.google.com/earth-engine/datasets/tags/gedi) [larse](https://developers.google.com/earth-engine/datasets/tags/larse) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [tree-cover](https://developers.google.com/earth-engine/datasets/tags/tree-cover) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002_MONTHLY#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002_MONTHLY#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002_MONTHLY#terms-of-use) More
+#### Description
 GEDI's Level 2A Geolocated Elevation and Height Metrics Product (GEDI02_A) is primarily composed of 100 Relative Height (RH) metrics, which collectively describe the waveform collected by GEDI.
 The original GEDI02_A product is a table of point with a spatial resolution (average footprint) of 25 meters. The dataset LARSE/GEDI/GEDI02_A_002_MONTHLY is a raster version of the original GEDI02_A product. The raster images are organized as monthly composites of individual orbits in the corresponding month. Only root-level RH values and their associated quality flags and metadata are preserved as raster bands. Each GEDI02_A_002 raster has 136 bands.
 See [User Guide](https://lpdaac.usgs.gov/documents/986/GEDI02_UserGuide_V2.pdf) for more information.
@@ -31,12 +31,13 @@ L4A Biomass Vector | [LARSE/GEDI/GEDI04_A_002](https://developers.google.com/ear
 L4A Monthly raster | [LARSE/GEDI/GEDI04_A_002_MONTHLY](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_MONTHLY)  
 L4A table index | [LARSE/GEDI/GEDI04_A_002_INDEX](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX)  
 L4B Biomass | [LARSE/GEDI/GEDI04_B_002](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_B_002)  
+### Bands
 **Pixel Size** 25 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`beam` |  0  |  12  | Beam identifier  
-`degrade_flag` |  0  |  99  | Flag indicating degraded state of pointing and/or positioning information.
+`beam` |  |  0  |  12  | Beam identifier  
+`degrade_flag` |  |  0  |  99  | Flag indicating degraded state of pointing and/or positioning information.
   * 3X - ADF CHU solution unavailable (ST-2)
   * 4X - Platform attitude
   * 5X - Poor solution (filter covariance large)
@@ -55,43 +56,43 @@ Name | Units | Min | Max | Description
   * X9 - Other & GPS receiver clock drift
 
   
-`delta_time` | seconds | Time delta since Jan 1 00:00 2018  
-`digital_elevation_model` | m | TanDEM-X elevation at GEDI footprint location  
-`digital_elevation_model_srtm` | m | SRTM elevation at GEDI footprint location  
+`delta_time` | seconds |  |  | Time delta since Jan 1 00:00 2018  
+`digital_elevation_model` | m |  |  | TanDEM-X elevation at GEDI footprint location  
+`digital_elevation_model_srtm` | m |  |  | SRTM elevation at GEDI footprint location  
 `elev_highestreturn` | m |  -1000  |  25000  | Elevation of highest detected return relative to reference ellipsoid  
 `elev_lowestmode` | m |  -1000  |  25000  | Elevation of center of lowest mode relative to reference ellipsoid  
-`elevation_bias_flag` |  0  |  1  | Elevations potentially affected by 4bin (~60 cm) ranging error  
-`energy_total` |  -5000  |  5e+06  | Integrated counts in the return waveform relative to the mean noise level  
-`landsat_treecover` | % | Tree cover in the year 2010, defined as canopy closure for all vegetation taller than 5 m in height as a percentage per output grid cell  
-`landsat_water_persistence` |  0  |  100  | Percent UMD GLAD Landsat observations with classified surface water  
+`elevation_bias_flag` |  |  0  |  1  | Elevations potentially affected by 4bin (~60 cm) ranging error  
+`energy_total` |  |  -5000  |  5e+06  | Integrated counts in the return waveform relative to the mean noise level  
+`landsat_treecover` | % |  |  | Tree cover in the year 2010, defined as canopy closure for all vegetation taller than 5 m in height as a percentage per output grid cell  
+`landsat_water_persistence` |  |  0  |  100  | Percent UMD GLAD Landsat observations with classified surface water  
 `lat_highestreturn` | deg |  -55  |  55  | Latitude of highest detected return  
-`leaf_off_doy` |  1  |  365  | GEDI 1 km EASE 2.0 grid leaf-off start day-of-year  
-`leaf_off_flag` |  0  |  1  | GEDI 1 km EASE 2.0 grid flag  
-`leaf_on_cycle` |  1  |  2  | Flag that indicates the vegetation growing cycle for leaf-on observations  
-`leaf_on_doy` |  1  |  365  | GEDI 1 km EASE 2.0 grid leaf-on start day-of-year  
+`leaf_off_doy` |  |  1  |  365  | GEDI 1 km EASE 2.0 grid leaf-off start day-of-year  
+`leaf_off_flag` |  |  0  |  1  | GEDI 1 km EASE 2.0 grid flag  
+`leaf_on_cycle` |  |  1  |  2  | Flag that indicates the vegetation growing cycle for leaf-on observations  
+`leaf_on_doy` |  |  1  |  365  | GEDI 1 km EASE 2.0 grid leaf-on start day-of-year  
 `lon_highestreturn` | deg |  -180  |  180  | Longitude of highest detected return  
-`modis_nonvegetated` | % | Percent non-vegetated from MODIS MOD44B V6 data  
-`modis_nonvegetated_sd` | % | Percent non-vegetated standard deviation from MODIS MOD44B V6 data  
-`modis_treecover` | % | Percent tree cover from MODIS MOD44B V6 data  
-`modis_treecover_sd` | % | Percent tree cover standard deviation from MODIS MOD44B V6 data  
-`num_detectedmodes` |  0  |  20  | Number of detected modes in rxwaveform  
-`pft_class` |  0  |  11  | GEDI 1 km EASE 2.0 grid Plant Functional Type (PFT)  
-`quality_flag` |  0  |  1  | Flag indicating likely invalid waveform (1=valid, 0=invalid)  
-`region_class` |  0  |  7  | GEDI 1 km EASE 2.0 grid world continental regions  
-`selected_algorithm` |  1  |  6  | Identifier of algorithm selected as identifying the lowest non-noise mode  
-`selected_mode` |  0  |  20  | Identifier of mode selected as lowest non-noise mode  
-`selected_mode_flag` |  0  |  1  | Flag indicating status of selected_mode  
-`sensitivity` |  0  |  1  | Maxmimum canopy cover that can be penetrated. Valid range is [0, 1]. Values outside of this range may be present but must be ignored. They represent noise and non-land surface waveforms.  
-`solar_azimuth` | The azimuth of the sun position vector from the laser bounce point position in the local ENU frame. The angle is measured from North and is positive towards East.  
-`solar_elevation` | The elevation of the sun position vector from the laser bounce point position in the local ENU frame. The angle is measured from the East-North plane and is positive Up.  
-`surface_flag` |  0  |  1  | Indicates elev_lowestmode is within 300m of Digital Elevation Model (DEM) or Mean Sea Surface (MSS) elevation  
+`modis_nonvegetated` | % |  |  | Percent non-vegetated from MODIS MOD44B V6 data  
+`modis_nonvegetated_sd` | % |  |  | Percent non-vegetated standard deviation from MODIS MOD44B V6 data  
+`modis_treecover` | % |  |  | Percent tree cover from MODIS MOD44B V6 data  
+`modis_treecover_sd` | % |  |  | Percent tree cover standard deviation from MODIS MOD44B V6 data  
+`num_detectedmodes` |  |  0  |  20  | Number of detected modes in rxwaveform  
+`pft_class` |  |  0  |  11  | GEDI 1 km EASE 2.0 grid Plant Functional Type (PFT)  
+`quality_flag` |  |  0  |  1  | Flag indicating likely invalid waveform (1=valid, 0=invalid)  
+`region_class` |  |  0  |  7  | GEDI 1 km EASE 2.0 grid world continental regions  
+`selected_algorithm` |  |  1  |  6  | Identifier of algorithm selected as identifying the lowest non-noise mode  
+`selected_mode` |  |  0  |  20  | Identifier of mode selected as lowest non-noise mode  
+`selected_mode_flag` |  |  0  |  1  | Flag indicating status of selected_mode  
+`sensitivity` |  |  0  |  1  | Maxmimum canopy cover that can be penetrated. Valid range is [0, 1]. Values outside of this range may be present but must be ignored. They represent noise and non-land surface waveforms.  
+`solar_azimuth` |  |  |  | The azimuth of the sun position vector from the laser bounce point position in the local ENU frame. The angle is measured from North and is positive towards East.  
+`solar_elevation` |  |  |  | The elevation of the sun position vector from the laser bounce point position in the local ENU frame. The angle is measured from the East-North plane and is positive Up.  
+`surface_flag` |  |  0  |  1  | Indicates elev_lowestmode is within 300m of Digital Elevation Model (DEM) or Mean Sea Surface (MSS) elevation  
 `urban_focal_window_size` | pixel |  3  |  5  | The focal window size used to calculate urban_proportion. Values are 3 (3x3 pixel window size) or 5 (5x5 pixel window size).  
-`urban_proportion` |  0  |  100  | The percentage proportion of land area within a focal area surrounding each shot that is urban land cover.  
-`orbit_number` | Orbit number  
-`minor_frame_number` | Minor frame number 0-241()  
-`shot_number_within_beam` | Shot number within beam  
-`local_beam_azimuth` | rad | Azimuth in radians of the unit pointing vector for the laser in the local ENU frame. The angle is measured from North and positive towards East.  
-`local_beam_elevation` | rad | Elevation in radians of the unit pointing vector for the laser in the local ENU frame. The angle is measured from North and positive towards East.  
+`urban_proportion` |  |  0  |  100  | The percentage proportion of land area within a focal area surrounding each shot that is urban land cover.  
+`orbit_number` |  |  |  | Orbit number  
+`minor_frame_number` |  |  |  | Minor frame number 0-241()  
+`shot_number_within_beam` |  |  |  | Shot number within beam  
+`local_beam_azimuth` | rad |  |  | Azimuth in radians of the unit pointing vector for the laser in the local ENU frame. The angle is measured from North and positive towards East.  
+`local_beam_elevation` | rad |  |  | Elevation in radians of the unit pointing vector for the laser in the local ENU frame. The angle is measured from North and positive towards East.  
 `rh0` | m |  -213  |  213  | Relative height metrics at 0%  
 `rh1` | m |  -213  |  213  | Relative height metrics at 1%  
 `rh2` | m |  -213  |  213  | Relative height metrics at 2%  
@@ -193,11 +194,12 @@ Name | Units | Min | Max | Description
 `rh98` | m |  -213  |  213  | Relative height metrics at 98%  
 `rh99` | m |  -213  |  213  | Relative height metrics at 99%  
 `rh100` | m |  -213  |  213  | Relative height metrics at 100%  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002_MONTHLY#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varqualityMask=function(im){
 returnim.updateMask(im.select('quality_flag').eq(1))

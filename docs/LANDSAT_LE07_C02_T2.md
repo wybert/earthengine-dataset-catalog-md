@@ -32,7 +32,7 @@ Name | Pixel Size | Wavelength | Description
 `B6_VCID_2` |  60 meters  | 10.40 - 12.50 μm | High-gain Thermal Infrared 1. This band has higher radiometric resolution (sensitivity), although it has a more restricted dynamic range. Resampled from 60m to 30m.  
 `B7` |  30 meters  | 2.08 - 2.35 μm | Shortwave infrared 2  
 `B8` |  15 meters  | 0.52 - 0.90 μm | Panchromatic  
-`QA_PIXEL` |  30 meters  | Landsat Collection 2 TM/ETM QA Bitmask  
+`QA_PIXEL` |  30 meters  |  | Landsat Collection 2 TM/ETM QA Bitmask  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
     * 0: Image data
@@ -74,7 +74,7 @@ Bitmask for QA_PIXEL
   * Bits 14-15: Unused 
 
   
-`QA_RADSAT` |  30 meters  | Radiometric saturation QA  
+`QA_RADSAT` |  30 meters  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 
@@ -90,10 +90,10 @@ Bitmask for QA_RADSAT
     * 1: Detector does not have a value
 
   
-`SAA` |  30 meters  | Solar Azimuth Angle  
-`SZA` |  30 meters  | Solar Zenith Angle  
-`VAA` |  30 meters  | View Azimuth Angle  
-`VZA` |  30 meters  | View Zenith Angle  
+`SAA` |  30 meters  |  | Solar Azimuth Angle  
+`SZA` |  30 meters  |  | Solar Zenith Angle  
+`VAA` |  30 meters  |  | View Azimuth Angle  
+`VZA` |  30 meters  |  | View Zenith Angle  
 **Image Properties**
 Name | Type | Description  
 ---|---|---  

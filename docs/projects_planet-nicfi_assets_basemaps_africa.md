@@ -1,6 +1,6 @@
  
 #  NICFI Satellite Data Program Basemaps for Tropical Forest Monitoring - Africa 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/planet-nicfi/assets/basemaps/africa](https://developers.google.com/earth-engine/datasets/images/planet-nicfi/projects_planet-nicfi_assets_basemaps_africa_sample.png)
 info
 This dataset is part of a Publisher Catalog, and not managed by Google Earth Engine. Contact support@planet.com for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/publisher/planet-nicfi) from the Planet Catalog. [Learn more about Publisher datasets](https://developers.google.com/earth-engine/datasets/publisher). 
@@ -20,7 +20,7 @@ Earth Engine Snippet
 
 Tags
      [basemaps](https://developers.google.com/earth-engine/datasets/tags/basemaps) [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [nicfi](https://developers.google.com/earth-engine/datasets/tags/nicfi) [planet](https://developers.google.com/earth-engine/datasets/tags/planet) [planet-nicfi](https://developers.google.com/earth-engine/datasets/tags/planet-nicfi) [publisher-dataset](https://developers.google.com/earth-engine/datasets/tags/publisher-dataset) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr) [surface-reflectance](https://developers.google.com/earth-engine/datasets/tags/surface-reflectance) [tropics](https://developers.google.com/earth-engine/datasets/tags/tropics)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_africa#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_africa#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_africa#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_africa#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_africa#citations) More
+#### Description
 This image collection provides access to high-resolution satellite monitoring of the tropics for the primary purpose of reducing and reversing the loss of tropical forests, contributing to combating climate change, conserving biodiversity, contributing to forest regrowth, restoration and enhancement, and facilitating sustainable development, all of which must be Non-Commercial Use.
 To learn how to access the Basemaps, follow the [sign up instructions here](https://developers.planet.com/docs/integrations/gee/nicfi/).
 The NICFI Satellite Data Program mosaics (also referred to as Planet-NICFI mosaics) contain both monthly and biannual collections generated every 6 months. The type of the mosaic is stored in the image metadata field 'cadence'. Use that field along with the start and end date for each mosaic to find the desired imagery.
@@ -34,6 +34,7 @@ In support of NICFI's mission, you can use this data for a number of projects in
   * Innovate solutions towards reducing pressure on forests from global commodities and financial markets.
 
 
+### Bands
 **Pixel Size** 4.77 meters 
 **Bands**
 Name | Min | Max | Scale | Description  
@@ -42,21 +43,24 @@ Name | Min | Max | Scale | Description
 `G` |  0  |  10000  | 0.0001 | Green  
 `R` |  0  |  10000  | 0.0001 | Red  
 `N` |  0  |  10000  | 0.0001 | Near-infrared  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 cadence | STRING | The interval the mosaic covers: monthly or biannual  
+### Terms of Use
 **Terms of Use**
 This data has usage, reproduction, and distribution restrictions in support of the NICFI Satellite Data Program purpose. The full licensing agreement is available [here](https://assets.planet.com/docs/Planet_ParticipantLicenseAgreement_NICFI.pdf).
 Copyright notice:
 Image © 20xx Planet Labs PBC (where xx denotes the year of the content used)
+### Citations
 Citations:
   * Planet Team (2017). Planet Application Program Interface: In Space for Life on Earth. San Francisco, CA. <https://api.planet.com>
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/projects_planet-nicfi_assets_basemaps_africa#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // This collection is not publicly accessible. To sign up for access,
 // please see https://developers.planet.com/docs/integrations/gee/nicfi

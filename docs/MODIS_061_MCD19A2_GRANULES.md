@@ -1,10 +1,10 @@
  
 #  MCD19A2.061: Terra & Aqua MAIAC Land Aerosol Optical Depth Daily 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MCD19A2_GRANULES](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD19A2_GRANULES_sample.png) 
 
 Dataset Availability
-    2000-02-24T00:00:00Z–2025-04-18T23:55:00Z 
+    2000-02-24T00:00:00Z–2025-04-19T23:55:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MCD19A2.061) 
@@ -18,19 +18,20 @@ Cadence
 Tags
      [aerosol](https://developers.google.com/earth-engine/datasets/tags/aerosol) [aod](https://developers.google.com/earth-engine/datasets/tags/aod) [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [global](https://developers.google.com/earth-engine/datasets/tags/global) [maiac](https://developers.google.com/earth-engine/datasets/tags/maiac) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [terra](https://developers.google.com/earth-engine/datasets/tags/terra) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 mcd19a2
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A2_GRANULES#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A2_GRANULES#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A2_GRANULES#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A2_GRANULES#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A2_GRANULES#dois) More
+#### Description
 The MCD19A2 V6.1 data product is a MODIS Terra and Aqua combined Multi-angle Implementation of Atmospheric Correction (MAIAC) Land Aerosol Optical Depth (AOD) gridded Level 2 product produced daily at 1 km resolution. For more information see the [MAIAC user guide](https://lpdaac.usgs.gov/documents/1500/MCD19_User_Guide_V61.pdf).
 NOTE: This product has been released with the caveat that the reprocessing for the full mission is expected to continue through summer 2023.
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
 ---|---|---|---|---|---  
-`Optical_Depth_047` |  -100  |  8000  | 0.001 | Aerosol optical depth over land retrieved in the MODIS Blue band (0.47 μm). AOD is not received at high altitude (greater than 4.2 km) except when smoke or dust is detected; rather, we report a static value of 0.02 used for atmospheric correction.  
-`Optical_Depth_055` |  -100  |  8000  | 0.001 | Aerosol optical depth over land retrieved in the MODIS Green band (0.55 μm).  
-`AOD_Uncertainty` |  0  |  30000  | 0.0001 | AOD uncertainty based on blue-band surface brightness (reflectance)  
-`FineModeFraction` |  0  |  1000  | Fine mode fraction for ocean and large inland lakes  
+`Optical_Depth_047` |  |  -100  |  8000  | 0.001 | Aerosol optical depth over land retrieved in the MODIS Blue band (0.47 μm). AOD is not received at high altitude (greater than 4.2 km) except when smoke or dust is detected; rather, we report a static value of 0.02 used for atmospheric correction.  
+`Optical_Depth_055` |  |  -100  |  8000  | 0.001 | Aerosol optical depth over land retrieved in the MODIS Green band (0.55 μm).  
+`AOD_Uncertainty` |  |  0  |  30000  | 0.0001 | AOD uncertainty based on blue-band surface brightness (reflectance)  
+`FineModeFraction` |  |  0  |  1000  |  | Fine mode fraction for ocean and large inland lakes  
 `Column_WV` | cm |  0  |  30000  | 0.001 | Column water vapor over land, retrieved from MODIS near-IR bands at 0.94 μm. When reported for cloudy pixels, it represents water vapor above the cloud.  
-`AOD_QA` | AOD QA  
+`AOD_QA` |  |  |  |  | AOD QA  
 Bitmask for AOD_QA
   * Bits 0-2: Cloud mask 
     * 0: Undefined
@@ -76,25 +77,28 @@ Bitmask for AOD_QA
     * 1: Reserved for future use
 
   
-`Injection_Height` | m |  0  |  10000  | Smoke injection height  
-`AngstromExp_470-780` | 0.0001 | Angstrom exponent 470-780nm over the ocean  
-`cosSZA` |  0  |  10000  | 0.0001 | Cosine of solar zenith angle (5 km resolution)  
-`cosVZA` |  0  |  10000  | 0.0001 | Cosine view zenith angle (5 km resolution)  
-`RelAZ` |  -18000  |  18000  | 0.01 | Relative azimuth angle (5 km resolution)  
-`Scattering_Angle` |  -18000  |  18000  | 0.01 | Scattering angle (5 km resolution)  
-`Glint_Angle` |  -18000  |  18000  | 0.01 | Glint angle (5 km resolution)  
+`Injection_Height` | m |  0  |  10000  |  | Smoke injection height  
+`AngstromExp_470-780` |  |  |  | 0.0001 | Angstrom exponent 470-780nm over the ocean  
+`cosSZA` |  |  0  |  10000  | 0.0001 | Cosine of solar zenith angle (5 km resolution)  
+`cosVZA` |  |  0  |  10000  | 0.0001 | Cosine view zenith angle (5 km resolution)  
+`RelAZ` |  |  -18000  |  18000  | 0.01 | Relative azimuth angle (5 km resolution)  
+`Scattering_Angle` |  |  -18000  |  18000  | 0.01 | Scattering angle (5 km resolution)  
+`Glint_Angle` |  |  -18000  |  18000  | 0.01 | Glint angle (5 km resolution)  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MCD19A2.061 ](https://doi.org/10.5067/MODIS/MCD19A2.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A2_GRANULES#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('MODIS/061/MCD19A2_GRANULES')
 .select('Optical_Depth_047')
@@ -111,7 +115,7 @@ Map.setCenter(76,13,6);
 [ MCD19A2.061: Terra & Aqua MAIAC Land Aerosol Optical Depth Daily 1km ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A2_GRANULES)
 The MCD19A2 V6.1 data product is a MODIS Terra and Aqua combined Multi-angle Implementation of Atmospheric Correction (MAIAC) Land Aerosol Optical Depth (AOD) gridded Level 2 product produced daily at 1 km resolution. For more information see the MAIAC user guide. NOTE: This product has been released with the caveat …
 MODIS/061/MCD19A2_GRANULES, aerosol,aod,aqua,atmosphere,daily,global,maiac,modis,nasa,terra,usgs 
-2000-02-24T00:00:00Z/2025-04-18T23:55:00Z
+2000-02-24T00:00:00Z/2025-04-19T23:55:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

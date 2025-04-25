@@ -1,6 +1,6 @@
  
 #  iSDAsoil Depth to Bedrock 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ISDASOIL/Africa/v1/bedrock_depth](https://developers.google.com/earth-engine/datasets/images/ISDASOIL/ISDASOIL_Africa_v1_bedrock_depth_sample.png) 
 
 Dataset Availability

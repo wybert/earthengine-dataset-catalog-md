@@ -1,6 +1,6 @@
  
 #  FireCCI51: MODIS Fire_cci Burned Area Pixel Product, Version 5.1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ESA/CCI/FireCCI/5_1](https://developers.google.com/earth-engine/datasets/images/ESA/ESA_CCI_FireCCI_5_1_sample.png) 
 
 Dataset Availability
@@ -22,19 +22,20 @@ cci
 firecci
 firecci51
 gcos
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1#dois) More
+#### Description
 The MODIS Fire_cci Burned Area pixel product version 5.1 (FireCCI51) is a monthly global ~250m spatial resolution dataset containing information on burned area as well as ancillary data. It is based on surface reflectance in the Near Infrared (NIR) band from the MODIS instrument onboard the Terra satellite, as well as active fire information from the same sensor of the Terra and Aqua satellites.
 The burned area algorithm uses a two-phase hybrid approach. In a first step pixels with a high probability of being burned (called "seeds") are detected based on the active fires. In a second one, a contextual growing is applied to completely detect the fire patch. This growing phase is controlled by an adaptive thresholding, where thresholds are computed based on the specific characteristics of the area surrounding each seed. The variable used to guide the whole detection process is the NIR drop between pre- and post-fire images.
 The dataset includes for each pixel the estimated day of the first detection of the fire, the confidence level of that detection, and the land cover that has been burned (extracted from the ESA CCI Land Cover dataset v2.0.7). In addition, an observation flag is provided to identify the pixels that were not processed due to the lack of valid observations or because they belong to a non-burnable land cover.
 FireCCI51 was developed as part of the ESA Climate Change Initiative (CCI) Programme, and it is also part of the Copernicus Climate Change Service (C3S).
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`BurnDate` |  1  |  366  | Estimated day of the year of the first detection of the burn  
+`BurnDate` |  |  1  |  366  | Estimated day of the year of the first detection of the burn  
 `ConfidenceLevel` | % |  1  |  100  | Probability of detecting a pixel as burned, expressing the uncertainty of the detection for all pixels, even if they are classified as unburned.  
-`LandCover` | Land cover category of the burned pixels, extracted from the CCI LandCover v2.0.7 product. See Defourny, P., Lamarche, C., Bontemps, S., De Maet, T., Van Bogaert, E., Moreau, I., Brockmann, C., Boettcher, M., Kirches, G., Wevers, J., Santoro, M., Ramoino, F., & Arino, O. (2017). Land Cover Climate Change Initiative - Product User Guide v2. Issue 2.0. [online] Available at: <https://maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf> accessed: July 2020. © ESA Climate Change Initiative - Land Cover led by UCLouvain (2017).  
-`ObservedFlag` | Flags indicating why a pixel was not processed.
+`LandCover` |  |  |  | Land cover category of the burned pixels, extracted from the CCI LandCover v2.0.7 product. See Defourny, P., Lamarche, C., Bontemps, S., De Maet, T., Van Bogaert, E., Moreau, I., Brockmann, C., Boettcher, M., Kirches, G., Wevers, J., Santoro, M., Ramoino, F., & Arino, O. (2017). Land Cover Climate Change Initiative - Product User Guide v2. Issue 2.0. [online] Available at: <https://maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf> accessed: July 2020. © ESA Climate Change Initiative - Land Cover led by UCLouvain (2017).  
+`ObservedFlag` |  |  |  | Flags indicating why a pixel was not processed.
   * -2: the pixel is not burnable (water bodies, bare areas, urban areas, permanent snow and ice)
   * -1: the pixel has not been observed during the month (due to clouds, cloud shadows or sensor failure)
 
@@ -60,6 +61,7 @@ Value | Color | Description
 150 | #ffebaf | Sparse vegetation (tree, shrub, herbaceous cover) (<15%)  
 170 | #009678 | Tree cover, flooded, saline water  
 180 | #00dc82 | Shrub or herbaceous cover, flooded, fresh/saline/brackish water  
+### Terms of Use
 **Terms of Use**
 This dataset is free and open to all users for any purpose, with the following terms and conditions:
   * Users of the data are required to acknowledge the ESA Climate Change Initiative and the Fire CCI project together with the individual data providers if the data are used in a presentation or publication. Please also cite any relevant dataset DOIs.
@@ -67,18 +69,20 @@ This dataset is free and open to all users for any purpose, with the following t
   * Liability: no warranty is given as to the quality or the accuracy of the CCI data or its suitability for any use. All implied conditions relating to the quality or suitability of the information, and all liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.
 
 
+### Citations
 Citations:
   * Padilla Parellada, M. (2018): ESA Fire Climate Change Initiative (Fire_cci): MODIS Fire_cci Burned Area Pixel product, version 5.1. Centre for Environmental Data Analysis, 01 November 2018. <https://doi.org/10.5285/58f00d8814064b79a0c49662ad3af537>.
   * Related publication: Lizundia-Loiola, J., Otón, G., Ramo, R., Chuvieco, E. (2020): A spatio-temporal active-fire clustering approach for global burned area mapping at 250m from MODIS data. Remote Sensing of Environment, 236, 111493. <https://doi.org/10.1016/j.rse.2019.111493>
 
 
+### DOIs
   * [ https://doi.org/10.1016/j.rse.2019.111493 ](https://doi.org/10.1016/j.rse.2019.111493)
   * [ https://doi.org/10.5285/58f00d8814064b79a0c49662ad3af537 ](https://doi.org/10.5285/58f00d8814064b79a0c49662ad3af537)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Visualize FireCCI51 for one year
 vardataset=ee.ImageCollection('ESA/CCI/FireCCI/5_1')

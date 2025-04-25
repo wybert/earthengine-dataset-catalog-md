@@ -1,6 +1,6 @@
  
 #  OpenLandMap Soil Water Content at 33kPa (Field Capacity) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/SOL/SOL_WATERCONTENT-33KPA_USDA-4B1C_M/v01](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01_sample.png) 
 
 Dataset Availability
@@ -15,7 +15,7 @@ Earth Engine Snippet
 Tags
      [envirometrix](https://developers.google.com/earth-engine/datasets/tags/envirometrix) [opengeohub](https://developers.google.com/earth-engine/datasets/tags/opengeohub) [openlandmap](https://developers.google.com/earth-engine/datasets/tags/openlandmap) [soil](https://developers.google.com/earth-engine/datasets/tags/soil)
 watercontent
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01#dois) More
+#### Description
 Soil water content (volumetric %) for 33kPa and 1500kPa suctions predicted at 6 standard depths (0, 10, 30, 60, 100 and 200 cm) at 250 m resolution
 Training points are based on a global compilation of soil profiles:
   * [USDA NCSS](https://ncsslabdatamart.sc.egov.usda.gov/)
@@ -37,6 +37,7 @@ If you discover a bug, artifact or inconsistency in the LandGIS maps or if you h
   * [General questions and comments](https://disqus.com/home/forums/landgis/)
 
 
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -48,18 +49,21 @@ Name | Units | Min | Max | Description
 `b100` | % |  0*  |  52.974*  | Soil water content at 33kPa (field capacity) at 100 cm depth  
 `b200` | % |  0*  |  52.974*  | Soil water content at 33kPa (field capacity) at 200 cm depth  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html)
+### Citations
 Citations:
   * Tomislav Hengl, & Surya Gupta. (2019). Soil water content (volumetric %) for 33kPa and 1500kPa suctions predicted at 6 standard depths (0, 10, 30, 60, 100 and 200 cm) at 250 m resolution (Version v01) [Data set]. Zenodo. [10.5281/zenodo.2629589](https://doi.org/10.5281/zenodo.2629589)
 
 
+### DOIs
   * [ https://doi.org/10.5281/zenodo.2629589 ](https://doi.org/10.5281/zenodo.2629589)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_WATERCONTENT-33KPA_USDA-4B1C_M_v01#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('OpenLandMap/SOL/SOL_WATERCONTENT-33KPA_USDA-4B1C_M/v01');
 varvisualization={

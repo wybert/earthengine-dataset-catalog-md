@@ -1,6 +1,6 @@
  
 #  iSDAsoil pH 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![ISDASOIL/Africa/v1/ph](https://developers.google.com/earth-engine/datasets/images/ISDASOIL/ISDASOIL_Africa_v1_ph_sample.png) 
 
 Dataset Availability
@@ -14,12 +14,13 @@ Earth Engine Snippet
 
 Tags
      [africa](https://developers.google.com/earth-engine/datasets/tags/africa) [isda](https://developers.google.com/earth-engine/datasets/tags/isda) [ph](https://developers.google.com/earth-engine/datasets/tags/ph) [soil](https://developers.google.com/earth-engine/datasets/tags/soil)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_ph#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_ph#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_ph#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_ph#citations) More
+#### Description
 pH at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.
 Pixel values must be back-transformed with `x/10`.
 In areas of dense jungle (generally over central Africa), model accuracy is low and therefore artifacts such as banding (striping) might be seen.
 Soil property predictions were made by [Innovative Solutions for Decision Agriculture Ltd. (iSDA)](https://isda-africa.com/) at 30 m pixel size using machine learning coupled with remote sensing data and a training set of over 100,000 analyzed soil samples.
 Further information can be found in the [FAQ](https://www.isda-africa.com/isdasoil/faq/) and [technical information documentation](https://www.isda-africa.com/isdasoil/technical-information/). To submit an issue or request support, please visit [the iSDAsoil site](https://isda-africa.com/isdasoil).
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -28,15 +29,17 @@ Name | Min | Max | Description
 `mean_20_50` |  35  |  102  | pH, predicted mean at 20-50 cm depth  
 `stdev_0_20` |  0  |  18  | pH, standard deviation at 0-20 cm depth  
 `stdev_20_50` |  0  |  18  | pH, standard deviation at 20-50 cm depth  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Hengl, T., Miller, M.A.E., Križan, J., et al. African soil properties and nutrients mapped at 30 m spatial resolution using two-scale ensemble machine learning. Sci Rep 11, 6130 (2021). [doi:10.1038/s41598-021-85639-y](https://doi.org/10.1038/s41598-021-85639-y)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_ph#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varmean_0_20=
 '<RasterSymbolizer>'+

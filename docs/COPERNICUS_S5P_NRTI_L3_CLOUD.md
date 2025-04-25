@@ -1,10 +1,10 @@
  
 #  Sentinel-5P NRTI CLOUD: Near Real-Time Cloud Properties 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S5P/NRTI/L3_CLOUD](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_NRTI_L3_CLOUD_sample.png) 
 
 Dataset Availability
-    2018-07-05T23:24:16Z–2025-04-21T08:26:30Z 
+    2018-07-05T23:24:16Z–2025-04-24T09:11:30Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -17,7 +17,7 @@ Revisit Interval
 
 Tags
      [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [cloud](https://developers.google.com/earth-engine/datasets/tags/cloud) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [dlr](https://developers.google.com/earth-engine/datasets/tags/dlr) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [s5p](https://developers.google.com/earth-engine/datasets/tags/s5p) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel) [tropomi](https://developers.google.com/earth-engine/datasets/tags/tropomi)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CLOUD#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CLOUD#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CLOUD#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CLOUD#terms-of-use) More
+#### Description
 ### NRTI/L3_CLOUD
 This dataset provides near real-time high-resolution imagery of cloud parameters.
 The TROPOMI/S5P cloud properties retrieval is based on the OCRA and ROCINN algorithms currently being used in the operational GOME and GOME-2 products. OCRA retrieves the cloud fraction using measurements in the UV/VIS spectral regions and ROCINN retrieves the cloud height (pressure) and optical thickness (albedo) using measurements in and around the oxygen A-band at 760 nm. Version 3.0 of the algorithms are used, which are based on a more realistic treatment of clouds as optically uniform layers of light-scattering particles. Additionally, the cloud parameters are also provided for a cloud model which assumes the cloud to be a Lambertian reflecting boundary. [More information.](http://www.tropomi.eu/data-products/cloud)
@@ -25,6 +25,7 @@ The TROPOMI/S5P cloud properties retrieval is based on the OCRA and ROCINN algor
 To make our NRTI L3 products, we use [harpconvert](https://stcorp.github.io/harp/doc/html/harpconvert.html) to grid the data.
 Example harpconvert invocation for one tile: `harpconvert --format hdf5 --hdf5-compression 9 -a 'cloud_fraction>50;derive(datetime_stop {time}); bin_spatial(2001, 50.000000, 0.01, 2001, -120.000000, 0.01); keep(cloud_fraction,cloud_top_pressure,cloud_top_height, cloud_base_pressure,cloud_base_height,cloud_optical_depth,surface_albedo, sensor_azimuth_angle,sensor_zenith_angle,solar_azimuth_angle, solar_zenith_angle)' S5P_NRTI_L2__CLOUD__20190208T230503_20190208T231003_06860_01_010105_20190209T005255.nc output.h5`
 Assets between the dates 2018-07-10 and 2018-07-18 are missing due to non-standard structure of product files.
+### Bands
 **Pixel Size** 1113.2 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -34,13 +35,14 @@ Name | Units | Min | Max | Description
 `cloud_top_height` | m |  9*  |  15471*  | Retrieved altitude of the cloud top  
 `cloud_base_pressure` | Pa |  14169*  |  101299*  | Cloud base pressure  
 `cloud_base_height` | m |  9*  |  14545*  | Cloud base height  
-`cloud_optical_depth` |  1*  |  250*  | Retrieved cloud optical depth  
-`surface_albedo` |  0*  |  1*  | Surface albedo  
+`cloud_optical_depth` |  |  1*  |  250*  | Retrieved cloud optical depth  
+`surface_albedo` |  |  0*  |  1*  | Surface albedo  
 `sensor_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the satellite at the ground pixel location (WGS84); angle measured East-of-North.  
 `sensor_zenith_angle` | deg |  0.09*  |  67*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 `solar_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North.  
 `solar_zenith_angle` | deg |  8*  |  80*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -66,11 +68,12 @@ TIME_REFERENCE_JULIAN_DAY | DOUBLE | The Julian day number when the data was acq
 TRACKING_ID | STRING | UUID for the L2 product file.  
 CLOUD_MODE | STRING | Tells which model was used to generate this dataset, the CAL (Clouds As Layers) model or the CRB (Clouds as Reflecting Boundaries) model. Valid values of this property are "cal" or "crb", respectively, with "cal" being the default.  
 STATUS_MET_2D | STRING | This dataset uses some dynamic auxiliary data from the European Centre for Medium-Range Weather Forecasts. If the ECMWF data was used, this field will have the value 'Nominal'. If the ECMWF data was not used, a fallback solution was used, and this field will have the value of "Fallback".  
+### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CLOUD#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('COPERNICUS/S5P/NRTI/L3_CLOUD')
 .select('cloud_fraction')
@@ -87,7 +90,7 @@ Map.setCenter(-58.14,-10.47,2);
 [ Sentinel-5P NRTI CLOUD: Near Real-Time Cloud Properties ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CLOUD)
 NRTI/L3_CLOUD This dataset provides near real-time high-resolution imagery of cloud parameters. The TROPOMI/S5P cloud properties retrieval is based on the OCRA and ROCINN algorithms currently being used in the operational GOME and GOME-2 products. OCRA retrieves the cloud fraction using measurements in the UV/VIS spectral regions and ROCINN retrieves the …
 COPERNICUS/S5P/NRTI/L3_CLOUD, atmosphere,cloud,copernicus,dlr,esa,eu,s5p,sentinel,tropomi 
-2018-07-05T23:24:16Z/2025-04-21T08:26:30Z
+2018-07-05T23:24:16Z/2025-04-24T09:11:30Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

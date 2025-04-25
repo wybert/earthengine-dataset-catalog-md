@@ -1,10 +1,10 @@
  
 #  Sentinel-5P NRTI AER LH: Near Real-Time UV Aerosol Layer Height 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S5P/NRTI/L3_AER_LH](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_NRTI_L3_AER_LH_sample.png) 
 
 Dataset Availability
-    2018-07-10T11:17:44Z–2025-04-21T08:26:30Z 
+    2018-07-10T11:17:44Z–2025-04-24T09:11:30Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -17,7 +17,7 @@ Revisit Interval
 
 Tags
      [aerosol](https://developers.google.com/earth-engine/datasets/tags/aerosol) [air-quality](https://developers.google.com/earth-engine/datasets/tags/air-quality) [alh](https://developers.google.com/earth-engine/datasets/tags/alh) [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [knmi](https://developers.google.com/earth-engine/datasets/tags/knmi) [pollution](https://developers.google.com/earth-engine/datasets/tags/pollution) [s5p](https://developers.google.com/earth-engine/datasets/tags/s5p) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel) [tropomi](https://developers.google.com/earth-engine/datasets/tags/tropomi) [uvai](https://developers.google.com/earth-engine/datasets/tags/uvai)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_LH#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_LH#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_LH#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_LH#terms-of-use) More
+#### Description
 ### NRTI/L3_AER_LH
 This dataset provides offline high-resolution imagery of the UV Aerosol Index (UVAI), also called the Absorbing Layer Height (ALH).
 The ALH is very sensitive to cloud contamination. However, aerosols and clouds can be difficult to distinguish, and ALH is computed for all FRESCO effective cloud fractions smaller than 0.05. Cloud masks are available from FRESCO and VIIRS, and are strongly recommended to filter for residual clouds. A sunglint mask is also available to screen sunglint regions, which are not filtered beforehand.
@@ -37,6 +37,7 @@ The conversion to L3 is done by the [harpconvert](https://cdn.rawgit.com/stcorp/
 
 
 The O3_TCL product is ingested directly (without running harpconvert).
+### Bands
 **Pixel Size** 1113.2 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -49,6 +50,7 @@ Name | Units | Min | Max | Description
 `solar_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North.  
 `solar_zenith_angle` | deg |  12.93*  |  74.7*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -72,11 +74,12 @@ SPATIAL_RESOLUTION | STRING | Spatial resolution at nadir. For most products thi
 TIME_REFERENCE_DAYS_SINCE_1950 | INT | Days from 1 Jan 1950 to when the data was acquired.  
 TIME_REFERENCE_JULIAN_DAY | DOUBLE | The Julian day number when the data was acquired.  
 TRACKING_ID | STRING | UUID for the L2 product file.  
+### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_LH#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('COPERNICUS/S5P/NRTI/L3_AER_LH')
 .select('aerosol_height')
@@ -93,7 +96,7 @@ Map.setCenter(44.09,24.27,4);
 [ Sentinel-5P NRTI AER LH: Near Real-Time UV Aerosol Layer Height ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_LH)
 NRTI/L3_AER_LH This dataset provides offline high-resolution imagery of the UV Aerosol Index (UVAI), also called the Absorbing Layer Height (ALH). The ALH is very sensitive to cloud contamination. However, aerosols and clouds can be difficult to distinguish, and ALH is computed for all FRESCO effective cloud fractions smaller than 0.05. …
 COPERNICUS/S5P/NRTI/L3_AER_LH, aerosol,air-quality,alh,atmosphere,copernicus,esa,eu,knmi,pollution,s5p,sentinel,tropomi,uvai 
-2018-07-10T11:17:44Z/2025-04-21T08:26:30Z
+2018-07-10T11:17:44Z/2025-04-24T09:11:30Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

@@ -1,6 +1,6 @@
  
 #  YCEO Surface Urban Heat Islands: Spatially-Averaged Yearly Composites of Annual Daytime and Nighttime Intensity 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![YALE/YCEO/UHI/UHI_yearly_averaged/v4](https://developers.google.com/earth-engine/datasets/images/YALE/YALE_YCEO_UHI_UHI_yearly_averaged_v4_sample.png) 
 
 Dataset Availability

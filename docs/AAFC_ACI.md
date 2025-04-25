@@ -1,6 +1,6 @@
  
 #  Canada AAFC Annual Crop Inventory 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![AAFC/ACI](https://developers.google.com/earth-engine/datasets/images/AAFC/AAFC_ACI_sample.png) 
 
 Dataset Availability
@@ -18,9 +18,8 @@ Cadence
 Tags
      [agriculture](https://developers.google.com/earth-engine/datasets/tags/agriculture) [canada](https://developers.google.com/earth-engine/datasets/tags/canada) [crop](https://developers.google.com/earth-engine/datasets/tags/crop) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover)
 aafc
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/AAFC_ACI#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/AAFC_ACI#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/AAFC_ACI#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/AAFC_ACI#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/AAFC_ACI#citations) More
 Starting in 2009, the Earth Observation Team of the Science and Technology Branch (STB) at Agriculture and Agri-Food Canada (AAFC) began the process of generating annual crop type digital maps. Focusing on the Prairie Provinces in 2009 and 2010, a Decision Tree (DT) based methodology was applied using optical (Landsat-5, AWiFS, DMC) and radar (Radarsat-2) based satellite images. Beginning with the 2011 growing season, this activity has been extended to other provinces in support of a national crop inventory. To date this approach can consistently deliver a crop inventory that meets the overall target accuracy of at least 85% at a final spatial resolution of 30m (56m in 2009 and 2010).
-### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -101,24 +100,21 @@ Value | Color | Description
 210 | #006600 | Coniferous  
 220 | #00cc00 | Broadleaf  
 230 | #cc9900 | Mixedwood  
-### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 landcover_class_names | STRING_LIST | Array of cropland landcover classification names.  
 landcover_class_palette | STRING_LIST | Array of hex code color strings used for the classification palette.  
 landcover_class_values | INT_LIST | Value of the land cover classification.  
-### Terms of Use
 **Terms of Use**
 [OGL-Canada-2.0](https://spdx.org/licenses/OGL-Canada-2.0.html)
-### Citations
 Citations:
   * Agriculture and Agri-Food Canada Annual Crop Inventory. {YEAR}
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/AAFC_ACI#code-editor-javascript-sample) More
 ```
 vardataset=ee.ImageCollection('AAFC/ACI');
 varcrop2016=dataset

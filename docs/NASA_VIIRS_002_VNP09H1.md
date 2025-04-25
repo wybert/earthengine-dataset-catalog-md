@@ -1,6 +1,6 @@
  
 #  VNP09H1: VIIRS Surface Reflectance 8-Day L3 Global 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/VIIRS/002/VNP09H1](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP09H1_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [npp](https://developers.google.com/earth-engine/datasets/tags/npp) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09H1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09H1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09H1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09H1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09H1#dois) More
+#### Description
 The 8-day Visible Infrared Imaging Radiometer Suite (VIIRS) Surface Reflectance (VNP09H1) Version 1 composite product provides an estimate of land surface reflectance from the Suomi National Polar-orbiting Partnership (Suomi NPP) VIIRS sensor for three imagery bands (I1, I2, I3) at nominal 500m resolution (~463m). The 500m dataset is derived through resampling the native 375m VIIRS resolution in the L2 input product. The data are corrected for atmospheric conditions such as the effects of molecular gases, including ozone and water vapor, and for the effects of atmospheric aerosols. Each pixel represents the best possible Level 2G observation during an 8-day period, which is selected on the basis of high observation coverage, low sensor angle, the absence of clouds or cloud shadow, and aerosol loading. The three reflectance bands, this product includes a state quality assurance (QA) layer and a reflectance band quality layer.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/1657/VNP09_User_Guide_V2.pdf)
@@ -26,6 +26,7 @@ Documentation:
   * [Land Product Quality Assessment website](https://landweb.modaps.eosdis.nasa.gov/browse?sensor=VIIRS&sat=SNPP)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -33,7 +34,7 @@ Name | Min | Max | Description
 `SurfReflect_I1` |  -100  |  16000  | 500 m Surface Reflectance Band I1  
 `SurfReflect_I2` |  -100  |  16000  | 500 m Surface Reflectance Band I2  
 `SurfReflect_I3` |  -100  |  16000  | 500 m Surface Reflectance Band I3  
-`SurfReflect_QC_500m` | Surface Reflectance Band Quality Control (QC)  
+`SurfReflect_QC_500m` |  |  | Surface Reflectance Band Quality Control (QC)  
 Bitmask for SurfReflect_QC_500m
   * Bits 0-1: MODLAND QA bits 
     * 0: Corrected product produced at ideal quality all bands
@@ -78,7 +79,7 @@ Bitmask for SurfReflect_QC_500m
     * 1: Yes
 
   
-`SurfReflect_State_500m` | Surface Reflectance State Quality Assurance (QA)  
+`SurfReflect_State_500m` |  |  | Surface Reflectance State Quality Assurance (QA)  
 Bitmask for SurfReflect_State_500m
   * Bits 0-1: Cloud state 
     * 0: Clear
@@ -127,18 +128,21 @@ Bitmask for SurfReflect_State_500m
     * 1: Snow
 
   
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data)
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP09H1.002 ](https://doi.org/10.5067/VIIRS/VNP09H1.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09H1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/VIIRS/002/VNP09H1')
 .filter(ee.Filter.date('2017-05-01','2017-06-30'));

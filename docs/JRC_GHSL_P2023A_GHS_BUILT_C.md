@@ -1,6 +1,6 @@
  
 #  GHSL: Global settlement characteristics (10 m) 2018 (P2023A) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/GHSL/P2023A/GHS_BUILT_C](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GHSL_P2023A_GHS_BUILT_C_sample.png) 
 
 Dataset Availability
@@ -14,10 +14,11 @@ Earth Engine Snippet
 
 Tags
      [building](https://developers.google.com/earth-engine/datasets/tags/building) [built](https://developers.google.com/earth-engine/datasets/tags/built) [builtup](https://developers.google.com/earth-engine/datasets/tags/builtup) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [ghsl](https://developers.google.com/earth-engine/datasets/tags/ghsl) [height](https://developers.google.com/earth-engine/datasets/tags/height) [jrc](https://developers.google.com/earth-engine/datasets/tags/jrc) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [population](https://developers.google.com/earth-engine/datasets/tags/population) [roads](https://developers.google.com/earth-engine/datasets/tags/roads) [sdg](https://developers.google.com/earth-engine/datasets/tags/sdg) [sentinel2-derived](https://developers.google.com/earth-engine/datasets/tags/sentinel2-derived) [settlement](https://developers.google.com/earth-engine/datasets/tags/settlement) [urban](https://developers.google.com/earth-engine/datasets/tags/urban)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_C#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_C#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_C#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_C#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_C#dois) More
+#### Description
 This spatial raster dataset delineates human settlements at 10 m resolution, and describes their inner characteristics in terms of the functional and height-related components of the built environment.
 More information about the GHSL data products can be found in the [GHSL Data Package 2023 report](https://ghsl.jrc.ec.europa.eu/documents/GHSL_Data_Package_2023.pdf?t=1683540422)
 The Global Human Settlement Layer (GHSL) project is supported by the European Commission, Joint Research Centre, and Directorate-General for Regional and Urban Policy.
+### Bands
 **Pixel Size** 10 meters 
 **Bands**
 Name | Description  
@@ -41,20 +42,23 @@ Value | Color | Description
 23 | #f701ff | built spaces, non-residential, 6m < building height <= 15m  
 24 | #a601ff | built spaces, non-residential, 15m < building height <= 30m  
 25 | #6e00fe | built spaces, non-residential, building height > 30m  
+### Terms of Use
 **Terms of Use**
 The GHSL has been produced by the European Commission Joint Research Centre as open and free data. Reuse is authorised, provided the source is acknowledged. For more information, please read the use conditions ([European Commission Reuse and Copyright Notice](https://ec.europa.eu/info/legal-notice_en)).
+### Citations
 Citations:
   * Dataset : Pesaresi, Martino; Politis, Panagiotis (2023): GHS-BUILT-C R2023A - GHS Settlement Characteristics, derived from Sentinel2 composite (2018) and other GHS R2023A data. European Commission, Joint Research Centre (JRC) [PID: http://data.europa.eu/89h/3c60ddf6-0586-4190-854b-f6aa0edc2a30](http://data.europa.eu/89h/3c60ddf6-0586-4190-854b-f6aa0edc2a30) [doi:10.2905/3c60ddf6-0586-4190-854b-f6aa0edc2a30](https://doi.org/10.2905/3c60ddf6-0586-4190-854b-f6aa0edc2a30)
   * Methodology : Pesaresi, Martino, Marcello Schiavina, Panagiotis Politis, Sergio Freire, Katarzyna Krasnodebska, Johannes H. Uhl, Alessandra Carioli, et al. (2024). Advances on the Global Human Settlement Layer by Joint Assessment of Earth Observation and Population Survey Data. International Journal of Digital Earth 17(1). [doi:10.1080/17538947.2024.2390454](https://doi.org/10.1080/17538947.2024.2390454).
 
 
+### DOIs
   * [ https://doi.org/10.1080/17538947.2024.2390454 ](https://doi.org/10.1080/17538947.2024.2390454)
   * [ https://doi.org/10.2905/3c60ddf6-0586-4190-854b-f6aa0edc2a30 ](https://doi.org/10.2905/3c60ddf6-0586-4190-854b-f6aa0edc2a30)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_C#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varimage=ee.Image("JRC/GHSL/P2023A/GHS_BUILT_C/2018");
 varbuilt=image.select('built_characteristics');

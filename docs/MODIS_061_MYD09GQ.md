@@ -1,10 +1,10 @@
  
 #  MYD09GQ.061 Aqua Surface Reflectance Daily Global 250m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD09GQ](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD09GQ_sample.png) 
 
 Dataset Availability
-    2002-07-04T00:00:00Z–2025-04-19T00:00:00Z 
+    2002-07-04T00:00:00Z–2025-04-21T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MYD09GQ.061) 
@@ -18,7 +18,7 @@ Cadence
 Tags
      [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [global](https://developers.google.com/earth-engine/datasets/tags/global) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr) [surface-reflectance](https://developers.google.com/earth-engine/datasets/tags/surface-reflectance) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 myd09gq
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GQ#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GQ#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GQ#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GQ#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GQ#dois) More
+#### Description
 The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level data are corrected for atmospheric gases and aerosols. MYD09GQ version 6.1 provides bands 1 and 2 at a 250m resolution in a daily gridded L2G product in the Sinusoidal projection, including a QC and five observation layers. This product is meant to be used in conjunction with the MYD09GA where important quality and viewing geometry information is stored.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/306/MOD09_User_Guide_V6.pdf)
@@ -26,14 +26,15 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MYD09GQ)
 
 
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Min | Max | Scale | Wavelength | Description  
 ---|---|---|---|---|---  
-`num_observations` |  0  |  127  | Number of observations per 250m pixel  
+`num_observations` |  0  |  127  |  |  | Number of observations per 250m pixel  
 `sur_refl_b01` |  -100  |  16000  | 0.0001 | 620-670nm | Surface reflectance band 1  
 `sur_refl_b02` |  -100  |  16000  | 0.0001 | 841-876nm | Surface reflectance for band 2  
-`QC_250m` | Surface reflectance quality assurance  
+`QC_250m` |  |  |  |  | Surface reflectance quality assurance  
 Bitmask for QC_250m
   * Bits 0-1: MODLAND QA bits 
     * 0: Corrected product produced at ideal quality - all bands
@@ -74,22 +75,25 @@ Bitmask for QC_250m
     * 0: N/A
 
   
-`obscov` |  0  |  100  | 0.01 | Observation coverage percent  
-`iobs_res` |  0  |  254  | Observation number  
-`orbit_pnt` |  0  |  15  | Orbit pointer  
-`granule_pnt` |  0  |  254  | Granule pointer  
+`obscov` |  0  |  100  | 0.01 |  | Observation coverage percent  
+`iobs_res` |  0  |  254  |  |  | Observation number  
+`orbit_pnt` |  0  |  15  |  |  | Orbit pointer  
+`granule_pnt` |  0  |  254  |  |  | Granule pointer  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD09GQ.061 ](https://doi.org/10.5067/MODIS/MYD09GQ.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GQ#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD09GQ')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));
@@ -105,7 +109,7 @@ Map.addLayer(dataset,falseColorVis,'False Color');
 [ MYD09GQ.061 Aqua Surface Reflectance Daily Global 250m ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09GQ)
 The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level data are corrected for atmospheric gases and aerosols. MYD09GQ version 6.1 provides bands 1 and 2 at a 250m resolution …
 MODIS/061/MYD09GQ, aqua,daily,global,modis,nasa,satellite-imagery,sr,surface-reflectance,usgs 
-2002-07-04T00:00:00Z/2025-04-19T00:00:00Z
+2002-07-04T00:00:00Z/2025-04-21T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

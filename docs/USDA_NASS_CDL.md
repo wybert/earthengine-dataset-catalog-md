@@ -1,6 +1,6 @@
  
 #  USDA NASS Cropland Data Layers 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USDA/NASS/CDL](https://developers.google.com/earth-engine/datasets/images/USDA/USDA_NASS_CDL_sample.png) 
 
 Dataset Availability
@@ -19,7 +19,7 @@ Tags
      [agriculture](https://developers.google.com/earth-engine/datasets/tags/agriculture) [crop](https://developers.google.com/earth-engine/datasets/tags/crop) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [usda](https://developers.google.com/earth-engine/datasets/tags/usda)
 cdl
 nass
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL#citations) More
+#### Description
 The Cropland Data Layer (CDL) is a crop-specific land cover data layer created annually for the continental United States using moderate resolution satellite imagery and extensive agricultural ground truth. The CDL is created by the USDA, National Agricultural Statistics Service (NASS), Research and Development Division, Geospatial Information Branch, Spatial Analysis Research Section.
 For detailed FAQ please visit [CropScape and Cropland Data Layers - FAQs](https://www.nass.usda.gov/Research_and_Science/Cropland/sarsfaqs2.php).
 To explore details about the classification accuracies and utility of the data, see [state-level omission and commission errors by crop type and year](https://www.nass.usda.gov/Research_and_Science/Cropland/metadata/meta.php).
@@ -30,6 +30,7 @@ Some non-agricultural categories are duplicate due to [two very different epochs
 The non-ag codes 63-65 and 81-88 are holdovers from the older methodology and will only appear in CDLs from 2007 and earlier. The non-ag codes from 111-195 are from the current methodology which uses the USGS NLCD as non-ag training and will only appear in CDLs 2007 and newer.
 2007 was a transition year so there may be both sets of categories in the 2007 national product but will not appear within the same state.
 **Note:** The 2024 CDL only has the data band. The cultivated and confidence bands are yet to be released by the provider.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -179,6 +180,7 @@ Value | Color | Description
 ---|---|---  
 1 | #d3d3d3 | Non-cultivated  
 2 | #b1b58c | Cultivated  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -188,15 +190,17 @@ cropland_class_values | INT_LIST | Value of the land cover classification.
 cultivated_class_names | STRING_LIST | Array of cropland landcover classification names.  
 cultivated_class_palette | STRING_LIST | Array of hex code color strings used for the classification palette.  
 cultivated_class_values | INT_LIST | Value of the land cover classification.  
+### Terms of Use
 **Terms of Use**
 The NASS Cropland Data Layer has no copyright restrictions. The CDL is considered public domain and free to redistribute. However, NASS would appreciate acknowledgment for the usage of our CDL product.
+### Citations
 Citations:
   * USDA National Agricultural Statistics Service Cropland Data Layer. {YEAR}. Published crop-specific data layer [Online]. Available at <https://nassgeodata.gmu.edu/CropScape/> (accessed {DATE}; verified {DATE}). USDA-NASS, Washington, DC.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('USDA/NASS/CDL')
 .filter(ee.Filter.date('2018-01-01','2019-12-31'))

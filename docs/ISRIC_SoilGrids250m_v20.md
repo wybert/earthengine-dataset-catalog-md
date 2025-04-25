@@ -1,6 +1,6 @@
  
 #  SoilGrids250m 2.0 - Volumetric Water Content 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![ISRIC/SoilGrids250m/v20](https://developers.google.com/earth-engine/datasets/images/ISRIC/ISRIC_SoilGrids250m_v20_sample.png) 
 
 Dataset Availability
@@ -14,12 +14,13 @@ Earth Engine Snippet
 
 Tags
      [soil](https://developers.google.com/earth-engine/datasets/tags/soil) [soil-moisture](https://developers.google.com/earth-engine/datasets/tags/soil-moisture) [water](https://developers.google.com/earth-engine/datasets/tags/water)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v20#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v20#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v20#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v20#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v20#dois) More
+#### Description
 Volumetric Water Content at 10kPa, 33kPa, and 1500kPa suction in 10^-3 cm^3/cm^3 (0.1 v% or 1 mm/m) at 6 standard depths (0-5cm, 5-15cm, 15-30cm, 30-60cm, 60-100cm, 100-200cm). Predictions were derived using a digital soil mapping approach based on Quantile Random Forest, drawing on a global compilation of soil profile data and environmental layers. This dataset includes predictions for three different suction levels, providing insights into soil water availability.
 Documentation:
   * [Scientific Paper](https://www.sciencedirect.com/science/article/pii/S2095633922000636?via%3Dihub)
 
 
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Units | Description  
@@ -42,18 +43,21 @@ Name | Units | Description
 `wv1500_30-60cm` | cm^3/cm^3 | Volumetric Water Content at 1500kPa (30-60cm depth)  
 `wv1500_60-100cm` | cm^3/cm^3 | Volumetric Water Content at 1500kPa (60-100cm depth)  
 `wv1500_100-200cm` | cm^3/cm^3 | Volumetric Water Content at 1500kPa (100-200cm depth)  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Global mapping of volumetric water retention at 100, 330 and 15000 cm suction using the WoSIS database Turek M.E., Poggio L., Batjes N.H., Armindo R.A., de Jong van Lier Q., de Sousa L., Heuvelink G.B.M. (2023) International Soil and Water Conservation Research, 11 (2), pp. 225-239.
 
 
+### DOIs
   * [ https://doi.org/10.1016/j.iswcr.2022.08.001 ](https://doi.org/10.1016/j.iswcr.2022.08.001)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v20#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('ISRIC/SoilGrids250m/v20/Q0_95').select('wv0010_0-5cm');
 Map.setCenter(-105.25,52.5,3);

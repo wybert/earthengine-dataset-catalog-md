@@ -1,10 +1,10 @@
  
 #  VNP09GA: VIIRS Surface Reflectance Daily 500m and 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/VIIRS/002/VNP09GA](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP09GA_sample.png) 
 
 Dataset Availability
-    2012-01-19T00:00:00Z–2025-04-18T00:00:00Z 
+    2012-01-19T00:00:00Z–2025-04-21T00:00:00Z 
 
 Dataset Provider
      [ NASA Land SIPS ](https://doi.org/10.5067/VIIRS/VNP09GA.002) 
@@ -18,7 +18,7 @@ Cadence
 Tags
      [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [npp](https://developers.google.com/earth-engine/datasets/tags/npp) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
 vnp09ga
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA#dois) More
+#### Description
 The Visible Infrared Imaging Radiometer Suite (VIIRS) daily surface reflectance (VNP09GA) product provides an estimate of land surface reflectance from the Suomi National Polar-Orbiting Partnership (S-NPP) VIIRS sensor. Data are provided for three imagery bands (I1, I2, I3) at nominal 500 meter resolution (~463 meter) and nine moderate-resolution bands (M1, M2, M3, M4, M5, M7, M8, M10, M11) at nominal 1 kilometer (~926 meter) resolution. The 500 meter and 1 kilometer datasets are derived through resampling the native 375 meter and 750 meter VIIRS resolutions, respectively, in the L2 input product. These bands are corrected for atmospheric conditions to provide an estimate of the surface spectral reflectance as it would be measured at ground level.
 The data is temporally aggregated over each of the 16 possible passes per day. When multiple observations are present for each day, only the first of the highest-quality observations is included.
 The band scale factors are already applied.
@@ -28,32 +28,33 @@ Documentation:
   * [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/122/VNP09_ATBD.pdf)
 
 
+### Bands
 **Bands**
 Name | Units | Min | Max | Pixel Size | Wavelength | Description  
 ---|---|---|---|---|---|---  
-`M1` |  -0.01  |  1.6  |  1000 meters  | 0.402 - 0.422µm | 1km surface reflectance band M1  
-`M2` |  -0.01  |  1.6  |  1000 meters  | 0.436 - 0.454µm | 1km surface reflectance Band M2  
-`M3` |  -0.01  |  1.6  |  1000 meters  | 0.478 - 0.488µm | 1km surface reflectance band M3  
-`M4` |  -0.01  |  1.6  |  1000 meters  | 0.545 - 0.565µm | 1km surface reflectance band M4  
-`M5` |  -0.01  |  1.6  |  1000 meters  | 0.662 - 0.682µm | 1km surface reflectance band M5  
-`M7` |  -0.01  |  1.6  |  1000 meters  | 0.846 - 0.885µm | 1km surface reflectance band M7  
-`M8` |  -0.01  |  1.6  |  1000 meters  | 1.230 - 1.250µm | 1km surface reflectance band M8  
-`M10` |  -0.01  |  1.6  |  1000 meters  | 1.580 - 1.640µm | 1km surface reflectance band M10  
-`M11` |  -0.01  |  1.6  |  1000 meters  | 2.230 - 2.280µm | 1km surface reflectance band M11  
-`I1` |  -0.01  |  1.6  |  500 meters  | 0.600 - 0.680µm | 500m surface reflectance band I1  
-`I2` |  -0.01  |  1.6  |  500 meters  | 0.850 - 0.880µm | 500m surface reflectance band I2  
-`I3` |  -0.01  |  1.6  |  500 meters  | 1.580 - 1.640µm | 500m surface reflectance band I3  
-`SensorAzimuth` | deg |  -180  |  180  |  1000 meters  | Sensor azimuth angle  
-`SensorZenith` | deg |  0  |  180  |  1000 meters  | Sensor zenith angle  
-`SolarAzimuth` | deg |  -180  |  180  |  1000 meters  | Solar azimuth angle  
-`SolarZenith` | deg |  0  |  180  |  1000 meters  | Solar zenith angle  
-`iobs_res` |  0  |  254  |  500 meters  | Observation number  
-`num_observations_1km` |  0  |  127  |  1000 meters  | Number of observations 1km  
-`num_observations_500m` |  0  |  127  |  500 meters  | Number of observations 500m  
-`obscov_1km` | % |  0  |  100  |  1000 meters  | Observations coverage 1km  
-`obscov_500m` | % |  0  |  100  |  500 meters  | Observations coverage 500km  
-`orbit_pnt` |  0  |  15  |  1000 meters  | Orbit pointer  
-`QF1` |  1000 meters  | Quality flags 1  
+`M1` |  |  -0.01  |  1.6  |  1000 meters  | 0.402 - 0.422µm | 1km surface reflectance band M1  
+`M2` |  |  -0.01  |  1.6  |  1000 meters  | 0.436 - 0.454µm | 1km surface reflectance Band M2  
+`M3` |  |  -0.01  |  1.6  |  1000 meters  | 0.478 - 0.488µm | 1km surface reflectance band M3  
+`M4` |  |  -0.01  |  1.6  |  1000 meters  | 0.545 - 0.565µm | 1km surface reflectance band M4  
+`M5` |  |  -0.01  |  1.6  |  1000 meters  | 0.662 - 0.682µm | 1km surface reflectance band M5  
+`M7` |  |  -0.01  |  1.6  |  1000 meters  | 0.846 - 0.885µm | 1km surface reflectance band M7  
+`M8` |  |  -0.01  |  1.6  |  1000 meters  | 1.230 - 1.250µm | 1km surface reflectance band M8  
+`M10` |  |  -0.01  |  1.6  |  1000 meters  | 1.580 - 1.640µm | 1km surface reflectance band M10  
+`M11` |  |  -0.01  |  1.6  |  1000 meters  | 2.230 - 2.280µm | 1km surface reflectance band M11  
+`I1` |  |  -0.01  |  1.6  |  500 meters  | 0.600 - 0.680µm | 500m surface reflectance band I1  
+`I2` |  |  -0.01  |  1.6  |  500 meters  | 0.850 - 0.880µm | 500m surface reflectance band I2  
+`I3` |  |  -0.01  |  1.6  |  500 meters  | 1.580 - 1.640µm | 500m surface reflectance band I3  
+`SensorAzimuth` | deg |  -180  |  180  |  1000 meters  |  | Sensor azimuth angle  
+`SensorZenith` | deg |  0  |  180  |  1000 meters  |  | Sensor zenith angle  
+`SolarAzimuth` | deg |  -180  |  180  |  1000 meters  |  | Solar azimuth angle  
+`SolarZenith` | deg |  0  |  180  |  1000 meters  |  | Solar zenith angle  
+`iobs_res` |  |  0  |  254  |  500 meters  |  | Observation number  
+`num_observations_1km` |  |  0  |  127  |  1000 meters  |  | Number of observations 1km  
+`num_observations_500m` |  |  0  |  127  |  500 meters  |  | Number of observations 500m  
+`obscov_1km` | % |  0  |  100  |  1000 meters  |  | Observations coverage 1km  
+`obscov_500m` | % |  0  |  100  |  500 meters  |  | Observations coverage 500km  
+`orbit_pnt` |  |  0  |  15  |  1000 meters  |  | Orbit pointer  
+`QF1` |  |  |  |  1000 meters  |  | Quality flags 1  
 Bitmask for QF1
   * Bits 0-1: Cloud mask quality 
     * 0: Poor
@@ -78,7 +79,7 @@ Bitmask for QF1
     * 3: Geometry and wind speed based
 
   
-`QF2` |  1000 meters  | Quality flags 2  
+`QF2` |  |  |  |  1000 meters  |  | Quality flags 2  
 Bitmask for QF2
   * Bits 0-2: Land/water background 
     * 0: Land & desert
@@ -104,7 +105,7 @@ Bitmask for QF2
     * 1: Cloud
 
   
-`QF3` |  1000 meters  | Quality flags 3  
+`QF3` |  |  |  |  1000 meters  |  | Quality flags 3  
 Bitmask for QF3
   * Bit 0: Bad M1 SDR data 
     * 0: No
@@ -132,7 +133,7 @@ Bitmask for QF3
     * 1: Yes
 
   
-`QF4` |  1000 meters  | Quality flags 4  
+`QF4` |  |  |  |  1000 meters  |  | Quality flags 4  
 Bitmask for QF4
   * Bit 0: Bad M11 SDR data 
     * 0: No
@@ -160,7 +161,7 @@ Bitmask for QF4
     * 1: Yes
 
   
-`QF5` |  1000 meters  | Quality flags 5  
+`QF5` |  |  |  |  1000 meters  |  | Quality flags 5  
 Bitmask for QF5
   * Bit 0: Missing ozone input data 
     * 0: No
@@ -188,7 +189,7 @@ Bitmask for QF5
     * 1: Bad
 
   
-`QF6` |  1000 meters  | Quality flags 6  
+`QF6` |  |  |  |  1000 meters  |  | Quality flags 6  
 Bitmask for QF6
   * Bit 0: Overall quality M8 surface reflection data 
     * 0: Good
@@ -210,7 +211,7 @@ Bitmask for QF6
     * 1: Bad
 
   
-`QF7` |  1000 meters  | Quality flags 7  
+`QF7` |  |  |  |  1000 meters  |  | Quality flags 7  
 Bitmask for QF7
   * Bit 0: Snow present 
     * 0: No
@@ -228,7 +229,7 @@ Bitmask for QF7
     * 1: Yes
 
   
-`land_water_mask` |  0  |  7  |  1000 meters  | Land/water mask.  
+`land_water_mask` |  |  0  |  7  |  1000 meters  |  | Land/water mask.  
 **land_water_mask Class Table**
 Value | Color | Description  
 ---|---|---  
@@ -240,18 +241,21 @@ Value | Color | Description
 5 | #800000 | Deep_Inland  
 6 | #ff0000 | Continental  
 7 | #000080 | Deep_Ocean  
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Vermote, E., Franch, B., Claverie, M. (2023). VIIRS/NPP Surface Reflectance Daily L2G Global 1km and 500m SIN Grid V002 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center.
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP09GA.002 ](https://doi.org/10.5067/VIIRS/VNP09GA.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/VIIRS/002/VNP09GA')
 .filter(ee.Filter.date('2014-05-01','2014-05-31'));
@@ -267,7 +271,7 @@ Map.addLayer(rgb,rgbVis,'RGB');
 [ VNP09GA: VIIRS Surface Reflectance Daily 500m and 1km ](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA)
 The Visible Infrared Imaging Radiometer Suite (VIIRS) daily surface reflectance (VNP09GA) product provides an estimate of land surface reflectance from the Suomi National Polar-Orbiting Partnership (S-NPP) VIIRS sensor. Data are provided for three imagery bands (I1, I2, I3) at nominal 500 meter resolution (~463 meter) and nine moderate-resolution bands (M1, …
 NASA/VIIRS/002/VNP09GA, daily,nasa,noaa,npp,reflectance,satellite-imagery,sr,viirs 
-2012-01-19T00:00:00Z/2025-04-18T00:00:00Z
+2012-01-19T00:00:00Z/2025-04-21T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

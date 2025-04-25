@@ -1,6 +1,6 @@
  
 #  Greenland DEM - Greenland Mapping Project (GIMP) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OSU/GIMP/DEM](https://developers.google.com/earth-engine/datasets/images/OSU/OSU_GIMP_DEM_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [arctic](https://developers.google.com/earth-engine/datasets/tags/arctic) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [gimp](https://developers.google.com/earth-engine/datasets/tags/gimp) [greenland](https://developers.google.com/earth-engine/datasets/tags/greenland) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [polar](https://developers.google.com/earth-engine/datasets/tags/polar)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_DEM#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_DEM#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_DEM#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_DEM#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_DEM#dois) More
+#### Description
 This Digital Elevation Model (DEM) is constructed from a combination of ASTER and SPOT-5 DEM's for the ice sheet periphery and margin (i.e. below the equilbrium line elevation) south of approximately 82.5°N and AVHRR photoclinometry in the ice sheet interior and far north (Scambos and Haran, 2002).
 SPOT-5 DEM's were produced and distributed as part of the Spot5 stereoscopic survey of Polar Ice: Reference Images & Topographies (SPIRIT) project (Korona et al., 2009). Ocean surfaces were masked using the GIMP Land Classification mask and replaced with the CNES CLS11 mean sea surface height (Schaeffer et al., 2012).
 **Note**
@@ -24,22 +24,26 @@ SPOT-5 DEM's were produced and distributed as part of the Spot5 stereoscopic sur
 
 
 [General documentation](https://doi.org/10.5067/NV34YUIXLP9W)
+### Bands
 **Bands**
 Name | Units | Pixel Size | Description  
 ---|---|---|---  
 `elevation` | m |  30 meters  | Elevation  
+### Terms of Use
 **Terms of Use**
 As a condition of using these data, you must cite the use of this data set using the given citation.
+### Citations
 Citations:
   * Howat, I.M., A. Negrete, B.E. Smith, 2014, The Greenland Ice Mapping Project (GIMP) land classification and surface elevation datasets, The Cryosphere, 8, 1509-1518, [doi:10.5194/tc-8-1509-2014](https://doi.org/10.5194/tc-8-1509-2014) [article pdf](https://www.the-cryosphere.net/8/1509/2014/tc-8-1509-2014.pdf)
 
 
+### DOIs
   * [ https://doi.org/10.5067/NV34YUIXLP9W ](https://doi.org/10.5067/NV34YUIXLP9W)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OSU_GIMP_DEM#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('OSU/GIMP/DEM');
 varelevation=dataset.select('elevation');

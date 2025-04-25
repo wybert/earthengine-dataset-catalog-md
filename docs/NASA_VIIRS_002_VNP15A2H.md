@@ -1,6 +1,6 @@
  
 #  VNP15A2H: LAI/FPAR 8-Day L4 Global 500m SIN Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/VIIRS/002/VNP15A2H](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP15A2H_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [land](https://developers.google.com/earth-engine/datasets/tags/land) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [surface](https://developers.google.com/earth-engine/datasets/tags/surface) [vegetation-indices](https://developers.google.com/earth-engine/datasets/tags/vegetation-indices) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP15A2H#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP15A2H#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP15A2H#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP15A2H#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP15A2H#dois) More
+#### Description
 The Visible Infrared Imaging Radiometer Suite (VIIRS) Leaf Area Index (LAI) and Fraction of Photosynthetically Active Radiation (FPAR) Version 1 data product provides information about the vegetative canopy layer at 500 meter resolution (VNP15A2H). The VIIRS sensor is located onboard the NOAA/NASA joint Suomi National Polar-Orbiting Partnership (Suomi NPP) satellite. LAI is an index that quantifies the one-sided leaf area of a canopy, while FPAR is the fraction of incoming solar energy absorbed through photosynthesis at 400 to 700 nanometers. This product is intentionally designed after the Terra and Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) LAI/FPAR operational algorithm to promote the continuity of the Earth Observation System (EOS) mission.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/126/VNP15_User_Guide.pdf)
@@ -26,12 +26,13 @@ Documentation:
   * [Land Product Quality Assessment website](https://landweb.modaps.eosdis.nasa.gov/browse?sensor=VIIRS&sat=SNPP)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
-`Fpar` | Fraction of Photosynthetically Active Radiation.  
-`FparExtra_QC` | Pass-through Quality Control (QC) for FPAR  
+`Fpar` |  | Fraction of Photosynthetically Active Radiation.  
+`FparExtra_QC` |  | Pass-through Quality Control (QC) for FPAR  
 Bitmask for FparExtra_QC
   * Bits 0-1: Cloud detection and confidence 
     * 0: Confident clear
@@ -54,7 +55,7 @@ Bitmask for FparExtra_QC
     * 1: Yes
 
   
-`FparLai_QC` | Quality for LAI and FPAR  
+`FparLai_QC` |  | Quality for LAI and FPAR  
 Bitmask for FparLai_QC
   * Bits 0-2: SCF_QC 
     * 0: Main (RT) method used, best result possible (no saturation)
@@ -81,21 +82,24 @@ Bitmask for FparLai_QC
     * 12: Filled Value
 
   
-`FparStdDev` | Standard deviation of FPAR  
+`FparStdDev` |  | Standard deviation of FPAR  
 `Lai` | Area fraction | Leaf Area Index  
 `LaiStdDev` | Area fraction | Standard deviation for LAI  
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP15A2H.002 ](https://doi.org/10.5067/VIIRS/VNP15A2H.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP15A2H#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/VIIRS/002/VNP15A2H')
 .filter(ee.Filter.date('2022-11-01','2022-12-01'));

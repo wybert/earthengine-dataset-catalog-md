@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![NASA/GSFC/MERRA/lnd/2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GSFC_MERRA_lnd_2_sample.png) 
 
 Dataset Availability
-    1980-01-01T00:00:00Z–2025-03-01T23:00:00Z 
+    1980-01-01T00:00:00Z–2025-04-01T23:00:00Z 
 
 Dataset Provider
      [ NASA/MERRA ](https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/) 
@@ -32,16 +32,16 @@ Name | Units | Min | Max | Description
 `EVPSBLN` | W/m^2 |  -310.134*  |  729.17*  | Snow ice evaporation energy flux  
 `EVPSOIL` | W/m^2 |  -0.588216*  |  1217.36*  | Baresoil evaporation energy flux  
 `EVPTRNS` | W/m^2 |  -0.882528*  |  1635.84*  | Transpiration energy flux  
-`FRSAT` |  0*  |  0.983076*  | Fractional area of saturated zone  
-`FRSNO` |  0*  |  1*  | Fractional area of land snowcover  
-`FRUNST` |  0*  |  0.999996*  | Fractional area of unsaturated zone  
-`FRWLT` |  0*  |  1*  | Fractional area of wilting zone  
+`FRSAT` |  |  0*  |  0.983076*  | Fractional area of saturated zone  
+`FRSNO` |  |  0*  |  1*  | Fractional area of land snowcover  
+`FRUNST` |  |  0*  |  0.999996*  | Fractional area of unsaturated zone  
+`FRWLT` |  |  0*  |  1*  | Fractional area of wilting zone  
 `GHLAND` | W/m^2 |  -245.165*  |  304.675*  | Ground heating land  
-`GRN` |  0*  |  0.990087*  | Greeness fraction  
-`GWETPROF` |  0.086402*  |  0.99997*  | Average prof soil moisture  
-`GWETROOT` |  0.085486*  |  1*  | Root zone soil wetness  
-`GWETTOP` |  0.010069*  |  1*  | Surface soil wetness  
-`LAI` |  0*  |  8.07408*  | Leaf area index  
+`GRN` |  |  0*  |  0.990087*  | Greeness fraction  
+`GWETPROF` |  |  0.086402*  |  0.99997*  | Average prof soil moisture  
+`GWETROOT` |  |  0.085486*  |  1*  | Root zone soil wetness  
+`GWETTOP` |  |  0.010069*  |  1*  | Surface soil wetness  
+`LAI` |  |  0*  |  8.07408*  | Leaf area index  
 `LHLAND` | W/m^2 |  -308.962*  |  1682.57*  | Latent heat flux land  
 `LWLAND` | W/m^2 |  -318.505*  |  47.5398*  | Net longwave land  
 `PARDFLAND` | W/m^2 |  0*  |  277.006*  | Surface downwelling photosynthetic active radiation diffuse flux  
@@ -97,7 +97,7 @@ Map.addLayer(baseflow_flux,bfVis,'Baseflow flux');
 [ MERRA-2 M2T1NXLND: Land Surface Diagnostics V5.12.4 ](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_lnd_2)
 M2T1NXLND (or tavg1_2d_lnd_Nx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of land surface diagnostics, such a baseflow flux, runoff, surface soil wetness, root zone soil wetness, water at surface layer, water at root zone layer, and soil …
 NASA/GSFC/MERRA/lnd/2, climate,cryosphere,evaporation,ice,merra,precipitation,soil,temperature,water-vapor 
-1980-01-01T00:00:00Z/2025-03-01T23:00:00Z
+1980-01-01T00:00:00Z/2025-04-01T23:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

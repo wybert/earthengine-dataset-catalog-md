@@ -1,6 +1,6 @@
  
 #  Open Buildings V3 Polygons 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![GOOGLE/Research/open-buildings/v3/polygons](https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_Research_open-buildings_v3_polygons_sample.png) 
 
 Dataset Availability
@@ -15,12 +15,13 @@ Earth Engine Snippet
 Tags
      [africa](https://developers.google.com/earth-engine/datasets/tags/africa) [asia](https://developers.google.com/earth-engine/datasets/tags/asia) [building](https://developers.google.com/earth-engine/datasets/tags/building) [built-up](https://developers.google.com/earth-engine/datasets/tags/built-up) [open-buildings](https://developers.google.com/earth-engine/datasets/tags/open-buildings) [population](https://developers.google.com/earth-engine/datasets/tags/population) [south-asia](https://developers.google.com/earth-engine/datasets/tags/south-asia) [southeast-asia](https://developers.google.com/earth-engine/datasets/tags/southeast-asia) [table](https://developers.google.com/earth-engine/datasets/tags/table)
 structure
-[Description](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons#citations) More
+#### Description
 This large-scale open dataset consists of outlines of buildings derived from high-resolution 50 cm satellite imagery. It contains 1.8B building detections in Africa, Latin America, Caribbean, South Asia and Southeast Asia. The inference spanned an area of 58M km².
 For each building in this dataset we include the polygon describing its footprint on the ground, a confidence score indicating how sure we are that this is a building, and a [Plus Code](https://plus.codes/) corresponding to the center of the building. There is no information about the type of building, its street address, or any details other than its geometry.
 Building footprints are useful for a range of important applications: from population estimation, urban planning and humanitarian response to environmental and climate science. The project is based in Ghana, with an initial focus on the continent of Africa and new updates on South Asia, South-East Asia, Latin America and the Caribbean.
 Inference was carried out during May 2023.
 For more details see the official [website](https://sites.research.google/open-buildings/) of the Open Buildings dataset.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -28,15 +29,17 @@ area_in_meters | DOUBLE | Area in square meters of the polygon.
 confidence | DOUBLE | Confidence score [0.65;1.0] assigned by the model.  
 full_plus_code | STRING | The full [Plus Code](https://plus.codes/) at the building polygon centroid.  
 longitude_latitude | GEOMETRY | Centroid of the polygon.  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * W. Sirko, S. Kashubin, M. Ritter, A. Annkah, Y.S.E. Bouchareb, Y. Dauphin, D. Keysers, M. Neumann, M. Cisse, J.A. Quinn. Continental-scale building detection from high resolution satellite imagery. [arXiv:2107.12283](https://arxiv.org/abs/2107.12283), 2021.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Visualization of GOOGLE/Research/open-buildings/v3/polygons.
 vart=ee.FeatureCollection('GOOGLE/Research/open-buildings/v3/polygons');
@@ -53,7 +56,7 @@ Map.setOptions('SATELLITE');
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer(
 'GOOGLE/Research/open-buildings/v3/polygons_FeatureView');

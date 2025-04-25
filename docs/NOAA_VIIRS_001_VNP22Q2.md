@@ -1,6 +1,6 @@
  
 #  VNP22Q2: Land Surface Phenology Yearly L3 Global 500m SIN Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/001/VNP22Q2](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP22Q2_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [land](https://developers.google.com/earth-engine/datasets/tags/land) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [ndvi](https://developers.google.com/earth-engine/datasets/tags/ndvi) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [npp](https://developers.google.com/earth-engine/datasets/tags/npp) [onset-greenness](https://developers.google.com/earth-engine/datasets/tags/onset-greenness) [phenology](https://developers.google.com/earth-engine/datasets/tags/phenology) [surface](https://developers.google.com/earth-engine/datasets/tags/surface) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP22Q2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP22Q2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP22Q2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP22Q2#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP22Q2#dois) More
+#### Description
 The Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Land Cover Dynamics data product provides global land surface phenology (GLSP) metrics at yearly intervals. The VNP22Q2 data product is derived from time series of the two-band Enhanced Vegetation Index (EVI2) calculated from VIIRS Nadir Bidirectional Reflectance Distribution Function (BRDF)-Adjusted Reflectance (NBAR). Vegetation phenology metrics at 500 meter spatial resolution are identified for up to two detected growing cycles per year.
 The product contains six phenological transition dates: onset of greenness increase, onset of greenness maximum, onset of greenness decrease, onset of greenness minimum, dates of mid-greenup, and senescence phases. The product also includes the growing season length. The greenness-related metrics consist of EVI2 onset of greenness increase, EVI2 onset of greenness maximum, EVI2 growing season, rate of greenness increase, and rate of greenness decrease. The confidence of phenology detection is provided as greenness agreement growing season, proportion of good quality (PGQ) growing season, PGQ onset greenness increase, PGQ onset greenness maximum, PGQ onset greenness decrease, and PGQ onset greenness minimum. The final layer is quality control specifying the overall quality of the product.
 Documentation:
@@ -27,6 +27,7 @@ Documentation:
   * [Land Product Quality Assessment website](https://landweb.modaps.eosdis.nasa.gov/browse?sensor=VIIRS&sat=SNPP)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Description  
@@ -107,18 +108,21 @@ Bitmask for GLSP_QC_2
 `PGQ_Onset_Greenness_Minimum_2` | Proportion of good quality around dormancy onset  
 `Rate_Greenness_Decrease_2` | Rates of change in EVI2 values during a senescence phase  
 `Rate_Greenness_Increase_2` | Rates of change in EVI2 values during a greenup phase  
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP22Q2.001 ](https://doi.org/10.5067/VIIRS/VNP22Q2.001)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP22Q2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NOAA/VIIRS/001/VNP22Q2')
 .filter(ee.Filter.date('2017-01-01','2017-12-31'));

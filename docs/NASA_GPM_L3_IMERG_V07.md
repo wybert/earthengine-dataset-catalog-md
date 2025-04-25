@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![NASA/GPM_L3/IMERG_V07](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GPM_L3_IMERG_V07_sample.png) 
 
 Dataset Availability
-    2000-06-01T00:00:00Z–2025-04-19T11:30:00Z 
+    2000-06-01T00:00:00Z–2025-04-23T19:30:00Z 
 
 Dataset Provider
      [ NASA GES DISC at NASA Goddard Space Flight Center ](https://doi.org/10.5067/GPM/IMERG/3B-HH/07) 
@@ -43,7 +43,7 @@ This collection contains data from:
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `MWobservationTime` | min. into half hour |  0*  |  29*  | PMW source time  
-`MWprecipSource` | PMW source sensor identifier  
+`MWprecipSource` |  |  |  | PMW source sensor identifier  
 Bitmask for MWprecipSource
   * Bits 0-3: PMW source sensor identifier 
     * 0: No observation
@@ -108,7 +108,7 @@ Map.setCenter(-76,33,3);
 [ GPM: Global Precipitation Measurement (GPM) Release 07 ](https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V07)
 Global Precipitation Measurement (GPM) is an international satellite mission to provide next-generation observations of rain and snow worldwide every three hours. The Integrated Multi-satellitE Retrievals for GPM (IMERG) is the unified algorithm that provides rainfall estimates combining data from all passive-microwave instruments in the GPM Constellation. This algorithm is intended …
 NASA/GPM_L3/IMERG_V07, climate,geophysical,gpm,imerg,jaxa,nasa,precipitation,weather 
-2000-06-01T00:00:00Z/2025-04-19T11:30:00Z
+2000-06-01T00:00:00Z/2025-04-23T19:30:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

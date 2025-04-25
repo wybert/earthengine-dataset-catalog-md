@@ -26,7 +26,7 @@ GIMMS NDVI is generated from several NOAA's AVHRR sensors for a global 1/12-degr
 Name | Min | Max | Description  
 ---|---|---|---  
 `ndvi` |  -1  |  1  | NDVI  
-`qa` | QA flag  
+`qa` |  |  | QA flag  
 Bitmask for qa
   * Bits 0-2: QA flag values 
     * 1: Good value

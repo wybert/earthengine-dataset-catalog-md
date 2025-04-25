@@ -1,10 +1,10 @@
  
 #  Sentinel-5P OFFL AER AI: Offline UV Aerosol Index 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S5P/OFFL/L3_AER_AI](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_AER_AI_sample.png) 
 
 Dataset Availability
-    2018-07-04T13:34:21Z–2025-04-19T18:39:13Z 
+    2018-07-04T13:34:21Z–2025-04-22T19:24:03Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -52,7 +52,7 @@ The O3_TCL product is ingested directly (without running harpconvert).
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`absorbing_aerosol_index` |  -21*  |  39*  | A measure of the prevalence of aerosols in the atmosphere. The UVAI index is based on spectral contrast in the ultraviolet (UV) spectral range for a given wavelength pair, where the difference between observed and modeled reflectance results in a residual value. When this residual is positive it indicates the presence of UV-absorbing aerosols, like dust and smoke, and is often referred to as the Absorbing Aerosol Index (AAI). Clouds yield near-zero residual values and strongly negative residual values can be indicative of the presence of non-absorbing aerosols including sulfate aerosols. Unlike satellite-based aerosol optical thickness measurements, AAI can also be calculated in the presence of clouds so that daily, global coverage is possible. This is ideal for tracking the evolution of episodic aerosol plumes consisting of desert dust, ash from volcanic eruptions, and smoke from biomass burning. See further details in the [ATBD](https://sentinel.esa.int/documents/247904/2476257/Sentinel-5P-TROPOMI-ATBD-UV-Aerosol-Index.pdf).  
+`absorbing_aerosol_index` |  |  -21*  |  39*  | A measure of the prevalence of aerosols in the atmosphere. The UVAI index is based on spectral contrast in the ultraviolet (UV) spectral range for a given wavelength pair, where the difference between observed and modeled reflectance results in a residual value. When this residual is positive it indicates the presence of UV-absorbing aerosols, like dust and smoke, and is often referred to as the Absorbing Aerosol Index (AAI). Clouds yield near-zero residual values and strongly negative residual values can be indicative of the presence of non-absorbing aerosols including sulfate aerosols. Unlike satellite-based aerosol optical thickness measurements, AAI can also be calculated in the presence of clouds so that daily, global coverage is possible. This is ideal for tracking the evolution of episodic aerosol plumes consisting of desert dust, ash from volcanic eruptions, and smoke from biomass burning. See further details in the [ATBD](https://sentinel.esa.int/documents/247904/2476257/Sentinel-5P-TROPOMI-ATBD-UV-Aerosol-Index.pdf).  
 `sensor_altitude` | m |  828543*  |  856078*  | Altitude of the satellite with respect to the geodetic sub-satellite point (WGS84).  
 `sensor_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the satellite at the ground pixel location (WGS84); angle measured East-of-North.  
 `sensor_zenith_angle` | deg |  0.098*  |  66.87*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
@@ -103,7 +103,7 @@ Map.setCenter(-118.82,36.1,5);
 [ Sentinel-5P OFFL AER AI: Offline UV Aerosol Index ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_AER_AI)
 OFFL/L3_AER_AI This dataset provides offline high-resolution imagery of the UV Aerosol Index (UVAI), also called the Absorbing Aerosol Index (AAI). The AAI is based on wavelength-dependent changes in Rayleigh scattering in the UV spectral range for a pair of wavelengths. The difference between observed and modelled reflectance results in the …
 COPERNICUS/S5P/OFFL/L3_AER_AI, aai,aerosol,air-quality,atmosphere,copernicus,esa,eu,knmi,pollution,s5p,sentinel,tropomi,uvai 
-2018-07-04T13:34:21Z/2025-04-19T18:39:13Z
+2018-07-04T13:34:21Z/2025-04-22T19:24:03Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

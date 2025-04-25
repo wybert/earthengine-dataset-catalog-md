@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![LANDSAT/LC09/C02/T2_TOA](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC09_C02_T2_TOA_sample.png) 
 
 Dataset Availability
-    2021-11-02T01:06:10Z–2025-04-20T08:10:33.488000Z 
+    2021-11-02T01:06:10Z–2025-04-24T12:20:29.558000Z 
 
 Dataset Provider
      [ USGS/Google ](https://www.usgs.gov/land-resources/nli/landsat/landsat-8-data-users-handbook) 
@@ -33,7 +33,7 @@ Name | Pixel Size | Wavelength | Description
 `B9` |  30 meters  | 1.36 - 1.38 μm | Cirrus  
 `B10` |  30 meters  | 10.60 - 11.19 μm | Thermal infrared 1, resampled from 100m to 30m  
 `B11` |  30 meters  | 11.50 - 12.51 μm | Thermal infrared 2, resampled from 100m to 30m  
-`QA_PIXEL` |  30 meters  | Landsat Collection 2 OLI/TIRS QA Bitmask  
+`QA_PIXEL` |  30 meters  |  | Landsat Collection 2 OLI/TIRS QA Bitmask  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
     * 0: Image data
@@ -81,7 +81,7 @@ Bitmask for QA_PIXEL
     * 3: High confidence
 
   
-`QA_RADSAT` |  30 meters  | Radiometric saturation QA  
+`QA_RADSAT` |  30 meters  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 
@@ -98,10 +98,10 @@ Bitmask for QA_RADSAT
     * 1: Terrain occlusion
 
   
-`SAA` |  30 meters  | Solar Azimuth Angle  
-`SZA` |  30 meters  | Solar Zenith Angle  
-`VAA` |  30 meters  | View Azimuth Angle  
-`VZA` |  30 meters  | View Zenith Angle  
+`SAA` |  30 meters  |  | Solar Azimuth Angle  
+`SZA` |  30 meters  |  | Solar Zenith Angle  
+`VAA` |  30 meters  |  | View Azimuth Angle  
+`VZA` |  30 meters  |  | View Zenith Angle  
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -270,7 +270,7 @@ Map.addLayer(trueColor432,trueColor432Vis,'True Color (432)');
 [ USGS Landsat 9 Collection 2 Tier 2 TOA Reflectance ](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T2_TOA)
 Landsat 9 Collection 2 Tier 2 calibrated top-of-atmosphere (TOA) reflectance. Calibration coefficients are extracted from the image metadata. See Chander et al. (2009) for details on the TOA computation. Scenes not meeting Tier 1 criteria during processing are assigned to Tier 2. This includes Systematic terrain (L1GT) and Systematic (L1GS) …
 LANDSAT/LC09/C02/T2_TOA, c2,global,l9,landsat,lc9,satellite-imagery,toa,usgs 
-2021-11-02T01:06:10Z/2025-04-20T08:10:33.488000Z
+2021-11-02T01:06:10Z/2025-04-24T12:20:29.558000Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

@@ -1,6 +1,6 @@
  
 #  REMA Strips 8m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![UMN/PGC/REMA/V1/8m](https://developers.google.com/earth-engine/datasets/images/UMN/UMN_PGC_REMA_V1_8m_sample.png) 
 
 Dataset Availability
@@ -14,35 +14,39 @@ Earth Engine Snippet
 
 Tags
      [dem](https://developers.google.com/earth-engine/datasets/tags/dem) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [pgc](https://developers.google.com/earth-engine/datasets/tags/pgc) [rema](https://developers.google.com/earth-engine/datasets/tags/rema) [umn](https://developers.google.com/earth-engine/datasets/tags/umn)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_8m#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_8m#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_8m#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_8m#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_8m#dois) More
+#### Description
 The Reference Elevation Model of Antarctica (REMA) is a high resolution, time-stamped Digital Surface Model (DSM) of Antarctica at 2-meter and 8-meter spatial resolutions.
 Strip DEM files correspond to the overlapping area of the input stereoscopic imagery pair strips as they are collected by DigitalGlobe's constellation of polar-orbiting satellites. Strip DEM dimensions will vary according to the satellite sensor that acquired the images and the off-nadir angle of collection. Most strips are between 13 km and 17 km in width, and 110 km and 120 km in length.
+### Bands
 **Pixel Size** 8 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `elevation` | m | Elevation  
-`matchtag` | Bitmask raster indicating DEM pixels processing  
+`matchtag` |  | Bitmask raster indicating DEM pixels processing  
 Bitmask for matchtag
   * Bit 0: Pixel processing 
     * 0: Pixels have been interpolated
     * 1: Pixels are derived from a stereo match
 
   
+### Terms of Use
 **Terms of Use**
 National Science Foundation (PGC's primary funding source) policy requires researchers to acknowledge NSF support in all publications, web pages, and media interviews.
 By using PGC data in Earth Engine, users agree to cite PGC and its sponsorship by the NSF. The original source of any third-party data supplied by PGC must also be properly attributed.
 For more information see the PGC's [Acknowledgement Policy](https://www.pgc.umn.edu/guides/user-services/acknowledgement-policy/).
+### Citations
 Citations:
   * Howat, I. M., Porter, C., Smith, B. E., Noh, M.-J., and Morin, P.: The Reference Elevation Model of Antarctica, The Cryosphere, 13, 665-674, 2019.
 
 
+### DOIs
   * [ https://doi.org/10.5194/tc-13-665-2019 ](https://doi.org/10.5194/tc-13-665-2019)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_REMA_V1_8m#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('UMN/PGC/REMA/V1/8m');
 Map.setCenter(-63.16,-75,3);

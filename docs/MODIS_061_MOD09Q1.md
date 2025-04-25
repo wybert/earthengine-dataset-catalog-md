@@ -1,6 +1,6 @@
  
 #  MOD09Q1.061 Terra Surface Reflectance 8-Day Global 250m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD09Q1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD09Q1_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [8-day](https://developers.google.com/earth-engine/datasets/tags/8-day) [global](https://developers.google.com/earth-engine/datasets/tags/global) [mod09q1](https://developers.google.com/earth-engine/datasets/tags/mod09q1) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr) [surface-reflectance](https://developers.google.com/earth-engine/datasets/tags/surface-reflectance) [terra](https://developers.google.com/earth-engine/datasets/tags/terra) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09Q1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09Q1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09Q1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09Q1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09Q1#dois) More
+#### Description
 The MOD09Q1 product provides an estimate of the surface spectral reflectance of bands 1 and 2 at 250m resolution and corrected for atmospheric conditions such as gasses, aerosols, and Rayleigh scattering. Along with the two reflectance bands, a quality layer is also included. For each pixel, a value is selected from all the acquisitions within the 8-day composite on the basis of high observation coverage, low view angle, the absence of clouds or cloud shadow, and aerosol loading.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/306/MOD09_User_Guide_V6.pdf)
@@ -25,13 +25,14 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MOD09Q1)
 
 
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Min | Max | Scale | Wavelength | Description  
 ---|---|---|---|---|---  
 `sur_refl_b01` |  -100  |  16000  | 0.0001 | 620-670nm | Surface reflectance band 1  
 `sur_refl_b02` |  -100  |  16000  | 0.0001 | 841-876nm | Surface reflectance for band 2  
-`State` | Surface reflectance 250m state flags  
+`State` |  |  |  |  | Surface reflectance 250m state flags  
 Bitmask for State
   * Bits 0-1: Cloud state 
     * 0: Clear
@@ -80,7 +81,7 @@ Bitmask for State
     * 1: Snow
 
   
-`QA` | Surface reflectance 250m band quality control flags  
+`QA` |  |  |  |  | Surface reflectance 250m band quality control flags  
 Bitmask for QA
   * Bits 0-1: MODLAND QA bits 
     * 0: Corrected product produced at ideal quality - all bands
@@ -124,18 +125,21 @@ Bitmask for QA
     * 0: N/A
 
   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MOD09Q1.061 ](https://doi.org/10.5067/MODIS/MOD09Q1.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09Q1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MOD09Q1')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

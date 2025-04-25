@@ -1,6 +1,6 @@
  
 #  GPWv411: Water Mask (Gridded Population of the World Version 4.11) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![CIESIN/GPWv411/GPW_Water_Mask](https://developers.google.com/earth-engine/datasets/images/CIESIN/CIESIN_GPWv411_GPW_Water_Mask_sample.png) 
 
 Dataset Availability
@@ -14,15 +14,16 @@ Earth Engine Snippet
 
 Tags
      [ciesin](https://developers.google.com/earth-engine/datasets/tags/ciesin) [gpw](https://developers.google.com/earth-engine/datasets/tags/gpw) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [population](https://developers.google.com/earth-engine/datasets/tags/population) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Water_Mask#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Water_Mask#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Water_Mask#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Water_Mask#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Water_Mask#dois) More
+#### Description
 This dataset identifies water pixels; non-water pixels are masked. The water mask was used to exclude areas of water and permanent ice from the population allocation.
 [General Documentation](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-basic-demographic-characteristics-rev11/docs)
 The Gridded Population of World Version 4 (GPWv4), Revision 11 models the distribution of global human population for the years 2000, 2005, 2010, 2015, and 2020 on 30 arc-second (approximately 1 km) grid cells. Population is distributed to cells using proportional allocation of population from census and administrative units. Population input data are collected at the most detailed spatial resolution available from the results of the 2010 round of censuses, which occurred between 2005 and 2014. The input data are extrapolated to produce population estimates for each modeled year.
+### Bands
 **Pixel Size** 927.67 meters 
 **Bands**
 Name | Min | Max | Description  
 ---|---|---|---  
-`water_mask` | Water mask  
+`water_mask` |  |  | Water mask  
 Bitmask for water_mask
   * Bits 0-1: Identifies water pixels; non-water pixels are masked 
     * 0: Total water pixels that are completely water and/or permanent ice.
@@ -32,18 +33,21 @@ Bitmask for water_mask
 
   
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Center for International Earth Science Information Network - CIESIN - Columbia University. 2018. Gridded Population of the World, Version 4 (GPWv4): Water Mask, Revision 11. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). <https://doi.org/10.7927/H42Z13KG>. Accessed DAY MONTH YEAR.
 
 
+### DOIs
   * [ https://doi.org/10.7927/H42Z13KG ](https://doi.org/10.7927/H42Z13KG)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Water_Mask#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('CIESIN/GPWv411/GPW_Water_Mask');
 varraster=dataset.select('water_mask');

@@ -1,6 +1,6 @@
  
 #  iSDAsoil Fertility Capability Classification 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![ISDASOIL/Africa/v1/fcc](https://developers.google.com/earth-engine/datasets/images/ISDASOIL/ISDASOIL_Africa_v1_fcc_sample.png) 
 
 Dataset Availability
@@ -15,12 +15,13 @@ Earth Engine Snippet
 Tags
      [africa](https://developers.google.com/earth-engine/datasets/tags/africa) [isda](https://developers.google.com/earth-engine/datasets/tags/isda) [soil](https://developers.google.com/earth-engine/datasets/tags/soil)
 fcc
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_fcc#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_fcc#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_fcc#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_fcc#citations) More
+#### Description
 Soil fertility capability classification derived using slope, chemical, and physical soil properties. For more information about this layer, please visit [this page](https://www.isda-africa.com/isdasoil/faq/#faq7).
 The classes for the 'fcc' band apply to pixel values that must be back-transformed with `x modulo 3000`.
 In areas of dense jungle (generally over central Africa), model accuracy is low and therefore artifacts such as banding (striping) might be seen.
 Soil property predictions were made by [Innovative Solutions for Decision Agriculture Ltd. (iSDA)](https://isda-africa.com/) at 30 m pixel size using machine learning coupled with remote sensing data and a training set of over 100,000 analyzed soil samples.
 Further information can be found in the [FAQ](https://www.isda-africa.com/isdasoil/faq/) and [technical information documentation](https://www.isda-africa.com/isdasoil/technical-information/). To submit an issue or request support, please visit [the iSDAsoil site](https://isda-africa.com/isdasoil).
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -248,15 +249,17 @@ Value | Color | Description
 1845 | #d7191c | Shallow, Slope, High erosion risk: shallow depth, High erosion risk: steep slope, Calcareous, Low K, High leaching potential   
 1847 | #d7191c | Shallow, Gravel, Slope, High erosion risk: shallow depth, High erosion risk: steep slope, Calcareous, Low K, High leaching potential   
 1853 | #d7191c | Shallow, Slope, High erosion risk: textual contrast, High erosion risk: shallow depth, High erosion risk: steep slope, Calcareous, Low K, High leaching potential   
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Hengl, T., Miller, M.A.E., Križan, J., et al. African soil properties and nutrients mapped at 30 m spatial resolution using two-scale ensemble machine learning. Sci Rep 11, 6130 (2021). [doi:10.1038/s41598-021-85639-y](https://doi.org/10.1038/s41598-021-85639-y)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_fcc#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varraw=ee.Image("ISDASOIL/Africa/v1/fcc").select(0);
 varconverted=ee.Image(raw.mod(3000).copyProperties(raw));

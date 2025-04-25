@@ -1,6 +1,6 @@
  
 #  RESOLVE Ecoregions 2017 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![RESOLVE/ECOREGIONS/2017](https://developers.google.com/earth-engine/datasets/images/RESOLVE/RESOLVE_ECOREGIONS_2017_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Tags
 habitats
 protection
 resolve
-[Description](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017#citations) More
+#### Description
 The RESOLVE Ecoregions dataset, updated in 2017, offers a depiction of the 846 terrestrial ecoregions that represent our living planet. View the stylized map at <https://ecoregions2017.appspot.com/> or in [Earth Engine](https://code.earthengine.google.com/b961ab2adfcb03c920aab63d86c49eb2).
 Ecoregions, in the simplest definition, are ecosystems of regional extent. Specifically, ecoregions represent distinct assemblages of biodiversity-all taxa, not just vegetation-whose boundaries include the space required to sustain ecological processes. Ecoregions provide a useful basemap for conservation planning in particular because they draw on natural, rather than political, boundaries, define distinct biogeographic assemblages and ecological habitats within biomes, and assist in representation of Earth's biodiversity.
 This dataset is based on recent advances in biogeography - the science concerning the distribution of plants and animals. The original ecoregions dataset has been widely used since its introduction in 2001, underpinning the most recent analyses of the effects of global climate change on nature by ecologists to the distribution of the world's beetles to modern conservation planning.
@@ -30,6 +30,7 @@ The 846 terrestrial ecoregions are grouped into 14 biomes and 8 realms. Six of t
 
 The updated Ecoregions 2017 is the most-up-to-date (as of February 2018) dataset on remaining habitat in each terrestrial ecoregion. It was released to chart progress towards achieving the visionary goal of [Nature Needs Half](https://natureneedshalf.org/), to protect half of all the land on Earth to save a living terrestrial biosphere.
 Note - a number of ecoregions are very complex polygons with over a million vertices, such as Rock & Ice. These ecoregions were split when necessary, with attributes like Eco_ID being preserved. If you'd like to see all ecoregions that have been split, please [run this script](https://code.earthengine.google.com/7a437c78fc8cb46ec586bb4e2c10e526).
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -47,15 +48,17 @@ OBJECTID | DOUBLE | Object id
 REALM | STRING | Realm name  
 SHAPE_AREA | DOUBLE | Area of ecoregion polygon in square degrees  
 SHAPE_LENG | DOUBLE | Length of ecoregion polygon in degrees  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * [Bioscience, An Ecoregions-Based Approach to Protecting Half the Terrestrial Realm](https://academic.oup.com/bioscience/article/67/6/534/3102935) [doi:10.1093/biosci/bix014](https://doi.org/10.1093/biosci/bix014)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varecoRegions=ee.FeatureCollection('RESOLVE/ECOREGIONS/2017');
 // patch updated colors
@@ -96,7 +99,7 @@ Map.addLayer(imageRGB,{},'RESOLVE/ECOREGIONS/2017');
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('RESOLVE/ECOREGIONS/2017_FeatureView');
 varvisParams={

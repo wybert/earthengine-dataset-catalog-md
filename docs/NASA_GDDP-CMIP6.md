@@ -1,6 +1,6 @@
  
 #  NEX-GDDP-CMIP6: NASA Earth Exchange Global Daily Downscaled Climate Projections 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GDDP-CMIP6](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GDDP-CMIP6_sample.png) 
 
 Dataset Availability
@@ -17,12 +17,13 @@ Cadence
 
 Tags
      [cag](https://developers.google.com/earth-engine/datasets/tags/cag) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [gddp](https://developers.google.com/earth-engine/datasets/tags/gddp) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [ipcc](https://developers.google.com/earth-engine/datasets/tags/ipcc) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [nex](https://developers.google.com/earth-engine/datasets/tags/nex) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_GDDP-CMIP6#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_GDDP-CMIP6#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_GDDP-CMIP6#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_GDDP-CMIP6#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_GDDP-CMIP6#citations) More
+#### Description
 The NEX-GDDP-CMIP6 dataset is comprised of global downscaled climate scenarios derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 6 (CMIP6, see [Thrasher et al. 2022](https://doi.org/10.7917/OFSG3345)) and across two of the four "Tier 1" greenhouse gas emissions scenarios known as Shared Socioeconomic Pathways (SSPs).
 The CMIP6 GCM runs were developed in support of the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR6). This dataset includes downscaled projections from ScenarioMIP model runs for which daily scenarios were produced and distributed through the Earth System Grid Federation.
 This collection contains 34 different models. One model, "GFDL-CM4," has data for two different configurations that can be differentiated by further filtering on the _grid_label_ property.
 See also [the provider tech note](https://www.nccs.nasa.gov/sites/default/files/NEX-GDDP-CMIP6-Tech_Note.pdf).
 [You can submit data questions about CMIP6 to the provider](https://airtable.com/shr01weJfA7DYq6jf) and [see their answers](https://airtable.com/shrX4mj20TLSH0r2y/tblUMAYpCfCCwucSV).
+### Bands
 **Pixel Size** 27830 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -37,6 +38,7 @@ Name | Units | Min | Max | Description
 `tasmin` | K |  163.66*  |  334.92*  | Daily minimum near-surface air temperature. Not present in these models: 'CESM2', 'CESM2-WACCM', 'IITM-ESM', 'TaiESM1' (only for scenario 'ssp585' in 2093).  
 `tasmax` | K |  202.09*  |  352.77*  | Daily maximum near-surface air temperature. Not present in these models: 'CESM2', 'CESM2-WACCM', 'IITM-ESM'.  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -97,16 +99,18 @@ license | STRING | The license under which a model is released. It will be one o
 
   
 interpolated | STRING | Present and 'true' if data for a particular day has been filled in using the value from the previous day. This happens when the simulation does not produce a data band for every day in the year. The following models always duplicate the last day in leap years because they only yield 365 bands: 'BCC-CSM2-MR', 'CanESM5', 'CESM2', 'CESM2-WACCM', 'CMCC-CM2-SR5', 'CMCC-ESM2', 'FGOALS-g3', 'GFDL-CM4', 'GFDL-ESM4', 'GISS-E2-1-G', 'INM-CM4-8', 'INM-CM5-0', 'KIOST-ESM', 'NorESM2-LM', 'NorESM2-MM', 'TaiESM1'. These models yield 360 bands per year and have the outstanding 5 or 6 days filled by duplicating one every 60-70 days: 'HadGEM3-GC31-LL', 'HadGEM3-GC31-MM', 'KACE-1-0-G', 'UKESM1-0-LL'. 'IITM-ESM' only has 364 bands in years divisible by 5 (and does not have data for 2100 at all), so the final day is always duplicated, plus the midpoint day in leap years.  
+### Terms of Use
 **Terms of Use**
 All CMIP6 GCM model inputs and any derivatives work, such as this dataset, are governed by the original [Terms of use](https://pcmdi.llnl.gov/CMIP6/TermsOfUse/TermsOfUse6-1.html) and may have some restrictions on usage. See the "license" property on each EE Image that notes the specific license the data may fall under.
 (Note that while the official Terms of Use mention that some models are restricted under 'CC-BY-SA-4.0' (Creative Commons Attribution Share Alike 4.0 International), models available in EarthEngine either fall under 'CC-BY-4.0' (Creative Commons Attribution 4.0 International) or 'CC0-1.0' (Creative Commons Zero v1.0 Universal).)
+### Citations
 Citations:
   * Thrasher, B., Maurer, E. P., McKellar, C., & Duffy, P. B., 2012: Technical Note: Bias correcting climate model simulated daily temperature extremes with quantile mapping. Hydrology and Earth System Sciences, 16(9), 3309-3314. [doi:10.5194/hess-16-3309-2012](https://doi.org/10.5194/hess-16-3309-2012)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_GDDP-CMIP6#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/GDDP-CMIP6')
 .filter(ee.Filter.date('2014-07-01','2014-07-02'))

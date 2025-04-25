@@ -1,10 +1,10 @@
  
 #  MCD43A2.061 MODIS BRDF-Albedo Quality Daily 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MCD43A2](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD43A2_sample.png) 
 
 Dataset Availability
-    2000-02-24T00:00:00Z–2025-04-07T00:00:00Z 
+    2000-02-24T00:00:00Z–2025-04-14T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MCD43A2.061) 
@@ -18,7 +18,7 @@ Cadence
 Tags
      [albedo](https://developers.google.com/earth-engine/datasets/tags/albedo) [brdf](https://developers.google.com/earth-engine/datasets/tags/brdf) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [global](https://developers.google.com/earth-engine/datasets/tags/global) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 quality
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A2#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A2#dois) More
+#### Description
 The MCD43A2 V6.1 Bidirectional Reflectance Distribution Function and Albedo (BRDF/Albedo) Quality dataset is a 500 meter daily 16-day product. It contains all the quality information for the corresponding 16-day MCD43A3 Albedo and the MCD43A4 Nadir-BRDF (NBAR) products.
 The MCD43A2 contains individual band quality and observation information for the MODIS land bands 1-7, along with the overall BRDF/Albedo quality information.
 See [dataset user guide](https://www.umb.edu/spectralmass/terra_aqua_modis/v006/mcd43a2_albedo_product) for more information.
@@ -28,18 +28,19 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MCD43A2)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
 ---|---|---|---|---|---  
-`Snow_BRDF_Albedo` | Snow-free or snow BRDF/albedo retrieved  
+`Snow_BRDF_Albedo` |  |  |  |  | Snow-free or snow BRDF/albedo retrieved  
 Bitmask for Snow_BRDF_Albedo
   * Bit 0: Mandatory QA 
     * 0: Snow-free albedo retrieved
     * 1: Snow albedo retrieved
 
   
-`BRDF_Albedo_Platform` | BRDF albedo platform information  
+`BRDF_Albedo_Platform` |  |  |  |  | BRDF albedo platform information  
 Bitmask for BRDF_Albedo_Platform
   * Bits 0-1: Platform 
     * 0: Terra
@@ -47,7 +48,7 @@ Bitmask for BRDF_Albedo_Platform
     * 2: Aqua
 
   
-`BRDF_Albedo_LandWaterType` | Land/water type  
+`BRDF_Albedo_LandWaterType` |  |  |  |  | Land/water type  
 Bitmask for BRDF_Albedo_LandWaterType
   * Bits 0-2: Land/water type 
     * 0: Shallow ocean
@@ -60,8 +61,8 @@ Bitmask for BRDF_Albedo_LandWaterType
     * 7: Deep ocean
 
   
-`BRDF_Albedo_LocalSolarNoon` | deg |  0  |  254  | Solar zenith angle of local solar noon  
-`BRDF_Albedo_ValidObs_Band1` | Valid observation for band 1  
+`BRDF_Albedo_LocalSolarNoon` | deg |  0  |  254  |  | Solar zenith angle of local solar noon  
+`BRDF_Albedo_ValidObs_Band1` |  |  |  |  | Valid observation for band 1  
 Bitmask for BRDF_Albedo_ValidObs_Band1
   * Bit 0: Day 1 reflectance quality 
     * 0: Observation not used
@@ -113,13 +114,13 @@ Bitmask for BRDF_Albedo_ValidObs_Band1
     * 1: Valid clear observation
 
   
-`BRDF_Albedo_ValidObs_Band2` | Valid observation for band 2 (same bit meaning as in band 1)  
-`BRDF_Albedo_ValidObs_Band3` | Valid observation for band 3 (same bit meaning as in band 1)  
-`BRDF_Albedo_ValidObs_Band4` | Valid observation for band 4 (same bit meaning as in band 1)  
-`BRDF_Albedo_ValidObs_Band5` | Valid observation for band 5 (same bit meaning as in band 1)  
-`BRDF_Albedo_ValidObs_Band6` | Valid observation for band 6 (same bit meaning as in band 1)  
-`BRDF_Albedo_ValidObs_Band7` | Valid observation for band 7 (same bit meaning as in band 1)  
-`BRDF_Albedo_Band_Quality_Band1` | BRDF inversion information for band 1  
+`BRDF_Albedo_ValidObs_Band2` |  |  |  |  | Valid observation for band 2 (same bit meaning as in band 1)  
+`BRDF_Albedo_ValidObs_Band3` |  |  |  |  | Valid observation for band 3 (same bit meaning as in band 1)  
+`BRDF_Albedo_ValidObs_Band4` |  |  |  |  | Valid observation for band 4 (same bit meaning as in band 1)  
+`BRDF_Albedo_ValidObs_Band5` |  |  |  |  | Valid observation for band 5 (same bit meaning as in band 1)  
+`BRDF_Albedo_ValidObs_Band6` |  |  |  |  | Valid observation for band 6 (same bit meaning as in band 1)  
+`BRDF_Albedo_ValidObs_Band7` |  |  |  |  | Valid observation for band 7 (same bit meaning as in band 1)  
+`BRDF_Albedo_Band_Quality_Band1` |  |  |  |  | BRDF inversion information for band 1  
 Bitmask for BRDF_Albedo_Band_Quality_Band1
   * Bits 0-2: BRDF inversion information for band 1 
     * 0: Best quality, full inversion (WoDs and RMSE are good)
@@ -129,7 +130,7 @@ Bitmask for BRDF_Albedo_Band_Quality_Band1
     * 4: Fill value
 
   
-`BRDF_Albedo_Band_Quality_Band2` | BRDF inversion information for band 2  
+`BRDF_Albedo_Band_Quality_Band2` |  |  |  |  | BRDF inversion information for band 2  
 Bitmask for BRDF_Albedo_Band_Quality_Band2
   * Bits 0-2: BRDF inversion information for band 2 
     * 0: Best quality, full inversion (WoDs and RMSE are good)
@@ -139,7 +140,7 @@ Bitmask for BRDF_Albedo_Band_Quality_Band2
     * 4: Fill value
 
   
-`BRDF_Albedo_Band_Quality_Band3` | BRDF inversion information for band 3  
+`BRDF_Albedo_Band_Quality_Band3` |  |  |  |  | BRDF inversion information for band 3  
 Bitmask for BRDF_Albedo_Band_Quality_Band3
   * Bits 0-2: BRDF inversion information for band 3 
     * 0: Best quality, full inversion (WoDs and RMSE are good)
@@ -149,7 +150,7 @@ Bitmask for BRDF_Albedo_Band_Quality_Band3
     * 4: Fill value
 
   
-`BRDF_Albedo_Band_Quality_Band4` | BRDF inversion information for band 4  
+`BRDF_Albedo_Band_Quality_Band4` |  |  |  |  | BRDF inversion information for band 4  
 Bitmask for BRDF_Albedo_Band_Quality_Band4
   * Bits 0-2: BRDF inversion information for band 4 
     * 0: Best quality, full inversion (WoDs and RMSE are good)
@@ -159,7 +160,7 @@ Bitmask for BRDF_Albedo_Band_Quality_Band4
     * 4: Fill value
 
   
-`BRDF_Albedo_Band_Quality_Band5` | BRDF inversion information for band 5  
+`BRDF_Albedo_Band_Quality_Band5` |  |  |  |  | BRDF inversion information for band 5  
 Bitmask for BRDF_Albedo_Band_Quality_Band5
   * Bits 0-2: BRDF inversion information for band 5 
     * 0: Best quality, full inversion (WoDs and RMSE are good)
@@ -169,7 +170,7 @@ Bitmask for BRDF_Albedo_Band_Quality_Band5
     * 4: Fill value
 
   
-`BRDF_Albedo_Band_Quality_Band6` | BRDF inversion information for band 6  
+`BRDF_Albedo_Band_Quality_Band6` |  |  |  |  | BRDF inversion information for band 6  
 Bitmask for BRDF_Albedo_Band_Quality_Band6
   * Bits 0-2: BRDF inversion information for band 6 
     * 0: Best quality, full inversion (WoDs and RMSE are good)
@@ -179,7 +180,7 @@ Bitmask for BRDF_Albedo_Band_Quality_Band6
     * 4: Fill value
 
   
-`BRDF_Albedo_Band_Quality_Band7` | BRDF inversion information for band 7  
+`BRDF_Albedo_Band_Quality_Band7` |  |  |  |  | BRDF inversion information for band 7  
 Bitmask for BRDF_Albedo_Band_Quality_Band7
   * Bits 0-2: BRDF inversion information for band 7 
     * 0: Best quality, full inversion (WoDs and RMSE are good)
@@ -189,19 +190,22 @@ Bitmask for BRDF_Albedo_Band_Quality_Band7
     * 4: Fill value
 
   
-`BRDF_Albedo_Uncertainty` |  0  |  32766  | 0.001 | BRDF inversion information  
+`BRDF_Albedo_Uncertainty` |  |  0  |  32766  | 0.001 | BRDF inversion information  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MCD43A2.061 ](https://doi.org/10.5067/MODIS/MCD43A2.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MCD43A2')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));
@@ -218,7 +222,7 @@ defaultVisualization,defaultVisualizationVis,'Default visualization');
 [ MCD43A2.061 MODIS BRDF-Albedo Quality Daily 500m ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A2)
 The MCD43A2 V6.1 Bidirectional Reflectance Distribution Function and Albedo (BRDF/Albedo) Quality dataset is a 500 meter daily 16-day product. It contains all the quality information for the corresponding 16-day MCD43A3 Albedo and the MCD43A4 Nadir-BRDF (NBAR) products. The MCD43A2 contains individual band quality and observation information for the MODIS land …
 MODIS/061/MCD43A2, albedo,brdf,daily,global,modis,nasa,reflectance,satellite-imagery,usgs 
-2000-02-24T00:00:00Z/2025-04-07T00:00:00Z
+2000-02-24T00:00:00Z/2025-04-14T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

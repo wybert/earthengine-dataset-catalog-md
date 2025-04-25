@@ -1,6 +1,6 @@
  
 #  Proclamation: USGS GAP PAD-US v2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/GAP/PAD-US/v20/proclamation](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_GAP_PAD-US_v20_proclamation_sample.png) 
 
 Dataset Availability
@@ -14,11 +14,12 @@ Earth Engine Snippet
 
 Tags
      [conservation-easements](https://developers.google.com/earth-engine/datasets/tags/conservation-easements) [designation](https://developers.google.com/earth-engine/datasets/tags/designation) [infrastructure-boundaries](https://developers.google.com/earth-engine/datasets/tags/infrastructure-boundaries) [management](https://developers.google.com/earth-engine/datasets/tags/management) [ownership](https://developers.google.com/earth-engine/datasets/tags/ownership) [protected-areas](https://developers.google.com/earth-engine/datasets/tags/protected-areas) [public-lands](https://developers.google.com/earth-engine/datasets/tags/public-lands) [table](https://developers.google.com/earth-engine/datasets/tags/table) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_proclamation#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_proclamation#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_proclamation#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_proclamation#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_proclamation#dois) More
+#### Description
 PAD-US is America's official national inventory of U.S. terrestrial and marine protected areas that are dedicated to the preservation of biological diversity and to other natural, recreation and cultural uses, managed for these purposes through legal or other effective means. This database is separated into 4 separate table assets: designation, easement, fee, and proclamation.
 The 'Proclamation' asset includes boundaries that provide additional context for the features in the 'Fee', 'Designation', or 'Easement' assets, suitable for display as an outline because internal ownership is not represented. These include Military Lands, Proclamation Boundaries (National Park Service and Forest Service), or Approved Acquisition Boundaries (U.S. Fish and Wildlife Service).
 The PAD-US database strives to be a complete inventory of areas dedicated to the preservation of biological diversity, and other natural (including extraction), recreational or cultural uses, managed for these purposes through legal or other effective means. PAD-US is an aggregation of "best available" spatial data provided by agencies and organizations at a point in time. This includes both fee ownership of lands as well as management through leases, easements, or other binding agreements. The data also tracks Congressional designations, Executive designations, and administrative designations identified in management plans (e.g. Bureau of Land Management's 'Area of Environmental Concern'). These factors provide for a robust dataset offering a spatial representation of the complex U.S. protected areas network. It is important to have in mind a specific analysis question when approaching how to work with the data. As a full inventory of areas aggregated from authoritative source data, PAD-US includes overlapping designation types and small boundary discrepancies between agency datasets. Overlapping designations largely occur in the Federal estate of the 'Designation' or 'Combined' feature classes (e.g. 'Wilderness Area' over a 'Wild and Scenic River' and 'National Forest').
 It is important to note the presence of overlaps, especially when trying to calculate area statistics; overlapping boundaries count the same area of ground multiple times. While minor boundary discrepancies remain, most major overlaps have been removed from the 'Fee' asset and this is the best source for overall land area calculations by land manager ('Manager Name') within the PAD-US database (data gaps limit calculations by fee ownership or 'Owner Name'). Statistics summarizing 'Public Access' or Protection Status ('GAP Status Code') by managing agency or organization from an analysis of the PAD-US 1.4 'Combined' feature class are [available](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap/science/pad-us-statistics-and-reports) and will be updated with PAD-US 2.0. As the PAD-US database is a direct aggregation of source data, the PAD-US development team does not alter spatial linework. The exception is to "clip" lands data along State boundary lines (using the authoritative State boundary file provided by the U.S. Census Bureau) and remove the small segments of boundaries created by this process associated with State or local lands (not Federal or nonprofit lands). Some boundary discrepancies (or slivers) remain in the dataset. Data overlaps have been identified and are shared, along with the U.S. Census Bureau State jurisdictional boundary file, with agency data stewards to facilitate edits in source files that will then be incorporated in subsequent PAD-US versions over time. The PAD-US database is built in collaboration with many partners and data stewards. [Information regarding data stewards is available](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap/science/pad-us-data-stewards).
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -69,18 +70,21 @@ ID | STRING | The id of the protected area.
 State_Nm | STRING | State names in two letter abbreviations  
 Unit_Nm | STRING | Units name  
 WDPA_Cd | STRING | The site code associated with the WDPA dataset.  
+### Terms of Use
 **Terms of Use**
 The Digital Object Identifier [doi:10.5066/P955KPLE](https://doi.org/10.5066/P955KPLE) for PAD-US 2.0 provides the persistent reference that should be used to obtain the data for use. The U.S. Geological Survey and all contributing data partners shall not be held liable for improper or incorrect use of the data described and (or) contained herein. All information is created with a specific end use or uses in mind. This is especially true for GIS data, which is expensive to produce and must be directed to meet the immediate program needs. These data were created with the expectation that they would be used for other applications; however, inappropriate uses are listed below. This list is in no way exhaustive but should serve as a guide to assess whether a proposed use can or cannot be supported by these data. For many uses, it is unlikely that PAD-US will provide the only data needed, and for uses with a regulatory outcome, authoritative agency data and field surveys should verify the result. PAD-US is recommended for users seeking basic information about more than one agency or organizations lands. Users should seek authoritative source data directly to answer questions regarding one agency or those requiring more frequent updates. Ultimately, it will be the responsibility of each data user to determine if these data can answer the question being asked. Inappropriate uses include: Using PAD-US for applications or analyses associated with one agency or a particular unit (agencies are always the best and authoritative source of their lands data and many publish updates more frequently than PAD-US). Using some data to map small areas (less than thousands of hectares), typically requiring mapping resolution at 1:24,000 scale (as boundary quality varies by data source) and using aerial photographs or ground surveys in areas where data are incomplete. Combining these data with other data finer than 1:100,000 scale to produce new hybrid maps or answer queries. Generating specific areal measurements from the data finer than the nearest thousand hectares. Representing boundaries as a legal representation for regulation or acquisition. Establishing definite occurrence or non-occurrence of any feature for an exact geographic area. Determining abundance, health, or condition of any feature. Using the data without acquiring and reviewing the metadata.
+### Citations
 Citations:
   * U.S. Geological Survey (USGS) Gap Analysis Project (GAP), 2018, Protected Areas Database of the United States (PAD-US): U.S. Geological Survey data release, [doi:10.5066/P955KPLE](https://doi.org/10.5066/P955KPLE).
 
 
+### DOIs
   * [ https://doi.org/10.5066/P955KPLE ](https://doi.org/10.5066/P955KPLE)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_proclamation#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('USGS/GAP/PAD-US/v20/proclamation');
 // Encode 'GAP_Sts' (protection level) as a number for visualization.
@@ -102,7 +106,7 @@ Map.addLayer(dataset,null,'FeatureCollection',false);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_PAD-US_v20_proclamation#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer(
 'USGS/GAP/PAD-US/v20/proclamation_FeatureView');

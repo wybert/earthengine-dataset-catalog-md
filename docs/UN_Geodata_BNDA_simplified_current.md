@@ -1,6 +1,6 @@
  
 #  United Nations Geospatial Data: BNDA_simplified 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![UN/Geodata/BNDA_simplified/current](https://developers.google.com/earth-engine/datasets/images/UN/UN_Geodata_BNDA_simplified_current_sample.png) 
 
 Dataset Availability
@@ -14,10 +14,11 @@ Earth Engine Snippet
 
 Tags
      [borders](https://developers.google.com/earth-engine/datasets/tags/borders) [countries](https://developers.google.com/earth-engine/datasets/tags/countries) [infrastructure-boundaries](https://developers.google.com/earth-engine/datasets/tags/infrastructure-boundaries) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/UN_Geodata_BNDA_simplified_current#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/UN_Geodata_BNDA_simplified_current#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/UN_Geodata_BNDA_simplified_current#terms-of-use) More
+#### Description
 The United Nations Geospatial Data, or Geodata, is a worldwide geospatial dataset of the United Nations.
 The United Nations Geodata is provided to facilitate the preparation of cartographic materials in the United Nations includes geometry, attributes and labels to facilitate the adequate depiction and naming of geographic features for the preparation of maps in accordance with United Nations policies and practices.
 The geospatial dataset include polygons/areas of countries (BNDA_simplified). Please refer this [page](https://geoportal.un.org/arcgis/home/item.html?id=e4ee80edac9d4e08b8303522dd4a5fc1) for more information.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -49,12 +50,13 @@ stscod | INT | Sovereignty status code:
   
 sub_cd | INT | UN M49 sub-region code  
 subreg | STRING | UN M49 sub-region  
+### Terms of Use
 **Terms of Use**
 The UN Geodata is a global geospatial database available for use by the UN Secretariat and external users. It can be used for various purposes, but commercial use is prohibited. The UN retains ownership of the data, and users must credit the UN as the source in their creations. The data is provided "as is" without warranties, and the UN is not liable for any damages or losses arising from its use. Please refer this [page](https://developers.google.com/earth-engine/datasets/papers/BNDA_terms_of_use.pdf) for more information.
 **Note:** Users of the Data that are not subject to the administrative instruction ("Outside Users") may only use the Data for the purpose for which the Data is suitable, as identified by the Geospatial Information Section upon transmission of or granting access to the Data. Intellectual property over the Data shall at all times vest with the United Nations. Intellectual property over the products created using the Data shall vest with the Outside User. The United Nations shall be recognized as the source of the Data in any products created by Outside Users using the Data, unless the Outside Users alter the Data or combine the Data with other data sets. In case of doubt regarding crediting the United Nations as the Data source, please contact: geospatial@un.org. Outside Users acknowledge that any right to access and use the Data is revocable and non-transferable. Under no circumstances may the Data be used for commercial purposes.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/UN_Geodata_BNDA_simplified_current#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('UN/Geodata/BNDA_simplified/current');
 varstyleParams={

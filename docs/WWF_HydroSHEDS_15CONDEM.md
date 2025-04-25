@@ -1,6 +1,6 @@
  
 #  WWF HydroSHEDS Hydrologically Conditioned DEM, 15 Arc-Seconds 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WWF/HydroSHEDS/15CONDEM](https://developers.google.com/earth-engine/datasets/images/WWF/WWF_HydroSHEDS_15CONDEM_sample.png) 
 
 Dataset Availability

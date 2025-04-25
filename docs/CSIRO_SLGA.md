@@ -136,24 +136,24 @@ Name | Units | Description
 `NTO_100_200_EV` | % | The soil attribute's estimated value at depth 100-200cm  
 `NTO_100_200_05` | % | The soil attribute's 5th percentile confidence limit at depth 100-200cm  
 `NTO_100_200_95` | % | The soil attribute's 95th percentile confidence limit at depth 100-200cm  
-`pHc_000_005_EV` | The soil attribute's estimated value at depth 0-5cm  
-`pHc_000_005_05` | The soil attribute's 5th percentile confidence limit at depth 0-5cm  
-`pHc_000_005_95` | The soil attribute's 95th percentile confidence limit at depth 0-5cm  
-`pHc_005_015_EV` | The soil attribute's estimated value at depth 5-15cm  
-`pHc_005_015_05` | The soil attribute's 5th percentile confidence limit at depth 5-15cm  
-`pHc_005_015_95` | The soil attribute's 95th percentile confidence limit at depth 5-15cm  
-`pHc_015_030_EV` | The soil attribute's estimated value at depth 15-30cm  
-`pHc_015_030_05` | The soil attribute's 5th percentile confidence limit at depth 15-30cm  
-`pHc_015_030_95` | The soil attribute's 95th percentile confidence limit at depth 15-30cm  
-`pHc_030_060_EV` | The soil attribute's estimated value at depth 30-60cm  
-`pHc_030_060_05` | The soil attribute's 5th percentile confidence limit at depth 30-60cm  
-`pHc_030_060_95` | The soil attribute's 95th percentile confidence limit at depth 30-60cm  
-`pHc_060_100_EV` | The soil attribute's estimated value at depth 60-100cm  
-`pHc_060_100_05` | The soil attribute's 5th percentile confidence limit at depth 60-100cm  
-`pHc_060_100_95` | The soil attribute's 95th percentile confidence limit at depth 60-100cm  
-`pHc_100_200_EV` | The soil attribute's estimated value at depth 100-200cm  
-`pHc_100_200_05` | The soil attribute's 5th percentile confidence limit at depth 100-200cm  
-`pHc_100_200_95` | The soil attribute's 95th percentile confidence limit at depth 100-200cm  
+`pHc_000_005_EV` |  | The soil attribute's estimated value at depth 0-5cm  
+`pHc_000_005_05` |  | The soil attribute's 5th percentile confidence limit at depth 0-5cm  
+`pHc_000_005_95` |  | The soil attribute's 95th percentile confidence limit at depth 0-5cm  
+`pHc_005_015_EV` |  | The soil attribute's estimated value at depth 5-15cm  
+`pHc_005_015_05` |  | The soil attribute's 5th percentile confidence limit at depth 5-15cm  
+`pHc_005_015_95` |  | The soil attribute's 95th percentile confidence limit at depth 5-15cm  
+`pHc_015_030_EV` |  | The soil attribute's estimated value at depth 15-30cm  
+`pHc_015_030_05` |  | The soil attribute's 5th percentile confidence limit at depth 15-30cm  
+`pHc_015_030_95` |  | The soil attribute's 95th percentile confidence limit at depth 15-30cm  
+`pHc_030_060_EV` |  | The soil attribute's estimated value at depth 30-60cm  
+`pHc_030_060_05` |  | The soil attribute's 5th percentile confidence limit at depth 30-60cm  
+`pHc_030_060_95` |  | The soil attribute's 95th percentile confidence limit at depth 30-60cm  
+`pHc_060_100_EV` |  | The soil attribute's estimated value at depth 60-100cm  
+`pHc_060_100_05` |  | The soil attribute's 5th percentile confidence limit at depth 60-100cm  
+`pHc_060_100_95` |  | The soil attribute's 95th percentile confidence limit at depth 60-100cm  
+`pHc_100_200_EV` |  | The soil attribute's estimated value at depth 100-200cm  
+`pHc_100_200_05` |  | The soil attribute's 5th percentile confidence limit at depth 100-200cm  
+`pHc_100_200_95` |  | The soil attribute's 95th percentile confidence limit at depth 100-200cm  
 `PTO_000_005_EV` | % | The soil attribute's estimated value at depth 0-5cm  
 `PTO_000_005_05` | % | The soil attribute's 5th percentile confidence limit at depth 0-5cm  
 `PTO_000_005_95` | % | The soil attribute's 95th percentile confidence limit at depth 0-5cm  

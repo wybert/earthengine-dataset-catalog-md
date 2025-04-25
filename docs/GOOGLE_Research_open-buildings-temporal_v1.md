@@ -33,9 +33,9 @@ Example scripts:
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`building_fractional_count` |  0  |  0.0216  | Source data for deriving building counts for a given AOI. Please see accompanying example scripts.  
+`building_fractional_count` |  |  0  |  0.0216  | Source data for deriving building counts for a given AOI. Please see accompanying example scripts.  
 `building_height` | m |  0  |  100  | Building height relative to the terrain in range [0m, 100m].  
-`building_presence` |  0  |  1  | Model confidence values (i.e. how confident a model is that the pixel is part of a building) in range [0.0, 1.0]. Note that model confidence values are uncalibrated, meaning, if model confidence for a certain pixel is 0.8, it doesn't mean the actual likelihood of building presence is 80%. As such, confidence values can only be used for relative ranking (eg. thresholding) of pixels. Also, the model confidence can vary across location and time based on a number of factors such as cloud cover, imagery misalignment, etc.  
+`building_presence` |  |  0  |  1  | Model confidence values (i.e. how confident a model is that the pixel is part of a building) in range [0.0, 1.0]. Note that model confidence values are uncalibrated, meaning, if model confidence for a certain pixel is 0.8, it doesn't mean the actual likelihood of building presence is 80%. As such, confidence values can only be used for relative ranking (eg. thresholding) of pixels. Also, the model confidence can vary across location and time based on a number of factors such as cloud cover, imagery misalignment, etc.  
 **Image Properties**
 Name | Type | Description  
 ---|---|---  

@@ -1,6 +1,6 @@
  
 #  ERA5 Daily Aggregates - Latest Climate Reanalysis Produced by ECMWF / Copernicus Climate Change Service 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ECMWF/ERA5/DAILY](https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_ERA5_DAILY_sample.png) 
 
 Dataset Availability
@@ -17,11 +17,12 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [dewpoint](https://developers.google.com/earth-engine/datasets/tags/dewpoint) [ecmwf](https://developers.google.com/earth-engine/datasets/tags/ecmwf) [era5](https://developers.google.com/earth-engine/datasets/tags/era5) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [pressure](https://developers.google.com/earth-engine/datasets/tags/pressure) [reanalysis](https://developers.google.com/earth-engine/datasets/tags/reanalysis) [surface](https://developers.google.com/earth-engine/datasets/tags/surface) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [wind](https://developers.google.com/earth-engine/datasets/tags/wind)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#citations) More
+#### Description
 ERA5 is the fifth generation ECMWF atmospheric reanalysis of the global climate. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset. ERA5 replaces its predecessor, the ERA-Interim reanalysis.
 ERA5 DAILY provides aggregated values for each day for seven ERA5 climate reanalysis parameters: 2m air temperature, 2m dewpoint temperature, total precipitation, mean sea level pressure, surface pressure, 10m u-component of wind and 10m v-component of wind. Additionally, daily minimum and maximum air temperature at 2m has been calculated based on the hourly 2m air temperature data. Daily total precipitation values are given as daily sums. All other parameters are provided as daily averages.
 ERA5 data is available from 1979 to three months from real-time. More information and more ERA5 atmospheric parameters can be found at the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu).
 Provider's Note: Daily aggregates have been calculated based on the ERA5 hourly values of each parameter.
+### Bands
 **Pixel Size** 27830 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -36,12 +37,14 @@ Name | Units | Min | Max | Description
 `u_component_of_wind_10m` | m/s |  -11.4*  |  11.4*  | 10m u-component of wind (daily average)  
 `v_component_of_wind_10m` | m/s |  -10.1*  |  10.1*  | 10m v-component of wind (daily average)  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 month | INT | Month of the data  
 year | INT | Year of the data  
 day | INT | Day of the data  
+### Terms of Use
 **Terms of Use**
 Please acknowledge the use of ERA5 as stated in the [Copernicus C3S/CAMS License agreement](https://apps.ecmwf.int/datasets/licences/copernicus/):
   * 5.1.1 Where the Licensee communicates or distributes Copernicus Products to the public, the Licensee shall inform the recipients of the source by using the following or any similar notice: "Generated using Copernicus Climate Change Service information (Year)".
@@ -49,13 +52,14 @@ Please acknowledge the use of ERA5 as stated in the [Copernicus C3S/CAMS License
   * 5.1.3 Any such publication or distribution covered by clauses 5.1.1 and 5.1.2 shall state that neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or Data it contains.
 
 
+### Citations
 Citations:
   * Copernicus Climate Change Service (C3S) (2017): ERA5: Fifth generation of ECMWF atmospheric reanalyses of the global climate. Copernicus Climate Change Service Climate Data Store (CDS), (date of access), <https://cds.climate.copernicus.eu/cdsapp#!/home>
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#code-editor-javascript-sample)[Colab (Python)](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY#colab-python-sample) More
+### Code Editor (JavaScript)
 ```
 // Example script to load and visualize ERA5 climate reanalysis parameters in
 // Google Earth Engine
@@ -149,6 +153,8 @@ See the [ Python Environment](https://developers.google.com/earth-engine/guides/
 importee
 importgeemap.coreasgeemap
 ```
+
+### Colab (Python)
 ```
 # Example script to load and visualize ERA5 climate reanalysis parameters in
 # Google Earth Engine

@@ -1,10 +1,10 @@
  
 #  MOD21A1D.061 Terra Land Surface Temperature and 3-Band Emissivity Daily Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD21A1D](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD21A1D_sample.png) 
 
 Dataset Availability
-    2000-02-24T00:00:00Z–2025-04-19T00:00:00Z 
+    2000-02-24T00:00:00Z–2025-04-21T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MOD21A1D.061) 
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [emissivity](https://developers.google.com/earth-engine/datasets/tags/emissivity) [global](https://developers.google.com/earth-engine/datasets/tags/global) [lst](https://developers.google.com/earth-engine/datasets/tags/lst) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [surface-temperature](https://developers.google.com/earth-engine/datasets/tags/surface-temperature) [terra](https://developers.google.com/earth-engine/datasets/tags/terra) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1D#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1D#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1D#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1D#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1D#dois) More
+#### Description
 The MOD21A1D dataset is produced daily from daytime Level 2 Gridded (L2G) intermediate LST products at a spatial resolution of 1,000 meters. The L2G process maps the daily MOD21 swath granules onto a sinusoidal MODIS grid and stores all observations falling over a gridded cell for a given day. The MOD21A1 algorithm sorts through these observations for each cell and estimates the final LST value as an average from all observations that are cloud free and have good LST&E accuracies. The daytime average is weighted by the observation coverage for that cell. Only observations having an observation coverage greater than a 15% threshold are considered. The MOD21A1D product contains the calculated LST as well as quality control, the three emissivity bands, view zenith angle, and time of observation.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/1398/MOD21_User_Guide_V61.pdf)
@@ -25,12 +25,13 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MOD21A1D)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Offset | Description  
 ---|---|---|---|---|---|---  
-`LST_1KM` | K |  7500  |  65535  | 0.02 | Land Surface Temperature  
-`QC` | Quality Control  
+`LST_1KM` | K |  7500  |  65535  | 0.02 |  | Land Surface Temperature  
+`QC` |  |  |  |  |  | Quality Control  
 Bitmask for QC
   * Bits 0-1: Mandatory QA flags 
     * 0: Pixel produced, good quality, no further QA info necessary
@@ -78,23 +79,26 @@ Bitmask for QC
     * 3: <1 K (Excellent performance)
 
   
-`Emis_29` |  0  |  255  | 0.002 | 0.49 | Band 29 emissivity  
-`Emis_31` |  1  |  255  | 0.002 | 0.49 | Band 31 emissivity  
-`Emis_32` |  1  |  255  | 0.002 | 0.49 | Band 32 emissivity  
-`View_Angle` | deg |  0  |  130  | -65 | MODIS view zenith angle  
-`View_Time` | h |  0  |  240  | 0.1 | Time of MODIS observation  
+`Emis_29` |  |  0  |  255  | 0.002 | 0.49 | Band 29 emissivity  
+`Emis_31` |  |  1  |  255  | 0.002 | 0.49 | Band 31 emissivity  
+`Emis_32` |  |  1  |  255  | 0.002 | 0.49 | Band 32 emissivity  
+`View_Angle` | deg |  0  |  130  |  | -65 | MODIS view zenith angle  
+`View_Time` | h |  0  |  240  | 0.1 |  | Time of MODIS observation  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MOD21A1D.061 ](https://doi.org/10.5067/MODIS/MOD21A1D.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1D#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MOD21A1D')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));
@@ -119,7 +123,7 @@ landSurfaceTemperature,landSurfaceTemperatureVis,
 [ MOD21A1D.061 Terra Land Surface Temperature and 3-Band Emissivity Daily Global 1km ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD21A1D)
 The MOD21A1D dataset is produced daily from daytime Level 2 Gridded (L2G) intermediate LST products at a spatial resolution of 1,000 meters. The L2G process maps the daily MOD21 swath granules onto a sinusoidal MODIS grid and stores all observations falling over a gridded cell for a given day. The …
 MODIS/061/MOD21A1D, climate,daily,emissivity,global,lst,nasa,surface-temperature,terra,usgs 
-2000-02-24T00:00:00Z/2025-04-19T00:00:00Z
+2000-02-24T00:00:00Z/2025-04-21T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

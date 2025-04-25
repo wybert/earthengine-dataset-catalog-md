@@ -1,10 +1,10 @@
  
 #  USGS Landsat 9 Collection 2 Tier 1 Raw Scenes 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LC09/C02/T1](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC09_C02_T1_sample.png) 
 
 Dataset Availability
-    2021-10-31T00:00:00Z–2025-04-22T06:57:06.279000Z 
+    2021-10-31T00:00:00Z–2025-04-24T11:33:22.526000Z 
 
 Dataset Provider
      [ USGS ](https://www.usgs.gov/land-resources/nli/landsat/landsat-8-data-users-handbook) 
@@ -17,9 +17,10 @@ Revisit Interval
 
 Tags
      [c2](https://developers.google.com/earth-engine/datasets/tags/c2) [global](https://developers.google.com/earth-engine/datasets/tags/global) [l9](https://developers.google.com/earth-engine/datasets/tags/l9) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [lc9](https://developers.google.com/earth-engine/datasets/tags/lc9) [oli-tirs](https://developers.google.com/earth-engine/datasets/tags/oli-tirs) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [t1](https://developers.google.com/earth-engine/datasets/tags/t1) [tier1](https://developers.google.com/earth-engine/datasets/tags/tier1) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1#terms-of-use) More
+#### Description
 Landsat 9 Collection 2 Tier 1 DN values, representing scaled, calibrated at-sensor radiance.
 Landsat scenes with the highest available data quality are placed into Tier 1 and are considered suitable for time-series processing analysis. Tier 1 includes Level-1 Precision Terrain (L1TP) processed data that have well-characterized radiometry and are inter-calibrated across the different Landsat sensors. The georegistration of Tier 1 scenes will be consistent and within prescribed tolerances [<=12 m root mean square error (RMSE)]. All Tier 1 Landsat data can be considered consistent and inter-calibrated (regardless of sensor) across the full collection. See more information [in the USGS docs](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collections).
+### Bands
 **Bands**
 Name | Pixel Size | Wavelength | Description  
 ---|---|---|---  
@@ -34,7 +35,7 @@ Name | Pixel Size | Wavelength | Description
 `B9` |  30 meters  | 1.36 - 1.38 μm | Cirrus  
 `B10` |  30 meters  | 10.60 - 11.19 μm | Thermal infrared 1, resampled from 100m to 30m  
 `B11` |  30 meters  | 11.50 - 12.51 μm | Thermal infrared 2, resampled from 100m to 30m  
-`QA_PIXEL` |  30 meters  | Landsat Collection 2 OLI/TIRS QA Bitmask  
+`QA_PIXEL` |  30 meters  |  | Landsat Collection 2 OLI/TIRS QA Bitmask  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
     * 0: Image data
@@ -82,7 +83,7 @@ Bitmask for QA_PIXEL
     * 3: High confidence
 
   
-`QA_RADSAT` |  30 meters  | Radiometric saturation QA  
+`QA_RADSAT` |  30 meters  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 
@@ -99,10 +100,11 @@ Bitmask for QA_RADSAT
     * 1: Terrain occlusion
 
   
-`SAA` |  30 meters  | Solar Azimuth Angle  
-`SZA` |  30 meters  | Solar Zenith Angle  
-`VAA` |  30 meters  | View Azimuth Angle  
-`VZA` |  30 meters  | View Zenith Angle  
+`SAA` |  30 meters  |  | Solar Azimuth Angle  
+`SZA` |  30 meters  |  | Solar Zenith Angle  
+`VAA` |  30 meters  |  | View Azimuth Angle  
+`VZA` |  30 meters  |  | View Zenith Angle  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -247,6 +249,7 @@ UTM_ZONE | DOUBLE | UTM zone number used in product map projection.
 WRS_PATH | DOUBLE | The WRS orbital path number (001 - 251).  
 WRS_ROW | DOUBLE | Landsat satellite WRS row (001-248).  
 WRS_TYPE | DOUBLE | World Reference System (WRS) type used for the collection of this scene.  
+### Terms of Use
 **Terms of Use**
 Landsat datasets are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.
 Acknowledgement or credit of the USGS as data source should be provided by including a line of text citation such as the example shown below.
@@ -255,7 +258,7 @@ Example: Landsat-7 image courtesy of the U.S. Geological Survey
 See the [USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system) for further details on proper citation and acknowledgement of USGS products.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDSAT/LC09/C02/T1')
 .filterDate('2022-01-01','2022-02-01');
@@ -271,7 +274,7 @@ Map.addLayer(trueColor432,trueColor432Vis,'True Color (432)');
 [ USGS Landsat 9 Collection 2 Tier 1 Raw Scenes ](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1)
 Landsat 9 Collection 2 Tier 1 DN values, representing scaled, calibrated at-sensor radiance. Landsat scenes with the highest available data quality are placed into Tier 1 and are considered suitable for time-series processing analysis. Tier 1 includes Level-1 Precision Terrain (L1TP) processed data that have well-characterized radiometry and are inter-calibrated …
 LANDSAT/LC09/C02/T1, c2,global,l9,landsat,lc9,oli-tirs,radiance,satellite-imagery,t1,tier1,usgs 
-2021-10-31T00:00:00Z/2025-04-22T06:57:06.279000Z
+2021-10-31T00:00:00Z/2025-04-24T11:33:22.526000Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

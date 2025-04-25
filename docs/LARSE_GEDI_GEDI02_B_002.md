@@ -1,6 +1,6 @@
  
 #  GEDI L2B Vector Canopy Cover Vertical Profile Metrics (Version 2) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI02_B_002](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_B_002_sample.png) 
 
 Dataset Availability
@@ -11,7 +11,7 @@ Dataset Provider
 
 Tags
      [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [gedi](https://developers.google.com/earth-engine/datasets/tags/gedi) [larse](https://developers.google.com/earth-engine/datasets/tags/larse) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [tree-cover](https://developers.google.com/earth-engine/datasets/tags/tree-cover) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002#dois) More
+#### Description
 GEDI Level 2B Canopy Cover and Vertical Profile Metrics product (GEDI02_B) extracts biophysical metrics from each GEDI waveform. These metrics are based on the directional gap probability profile derived from the L1B waveform.
 The vertical step between foliage profile measurements (known as dZ in GEDI documentation) is always 5 meters. The original GEDI02_B product is a table of points with a spatial resolution (average footprint) of 25 meters.
 Please see [User Guide](https://lpdaac.usgs.gov/documents/986/GEDI02_UserGuide_V2.pdf) for more information.
@@ -28,6 +28,7 @@ L4A Biomass Vector | [LARSE/GEDI/GEDI04_A_002](https://developers.google.com/ear
 L4A Monthly raster | [LARSE/GEDI/GEDI04_A_002_MONTHLY](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_MONTHLY)  
 L4A table index | [LARSE/GEDI/GEDI04_A_002_INDEX](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX)  
 L4B Biomass | [LARSE/GEDI/GEDI04_B_002](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_B_002)  
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -167,18 +168,21 @@ pavd_z27 | INT | Plant Area Volume Density profile in 27 m²/m³
 pavd_z28 | INT | Plant Area Volume Density profile in 28 m²/m³  
 pavd_z29 | INT | Plant Area Volume Density profile in 29 m²/m³  
 pavd_z30 | INT | Plant Area Volume Density profile in 30 m²/m³  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level - GEDI02_B Dubayah, R., H. Tang, J. Armston, S. Luthcke, M. Hofton, J. Blair. GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002. 2021, distributed by NASA EOSDIS Land Processes DAAC. Accessed YYYY-MM-DD.
 
 
+### DOIs
   * [ https://doi.org/10.5067/GEDI/GEDI02_B.002 ](https://doi.org/10.5067/GEDI/GEDI02_B.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection(
 'LARSE/GEDI/GEDI02_B_002/GEDI02_B_2021043114136_O12295_03_T07619_02_003_01_V002');

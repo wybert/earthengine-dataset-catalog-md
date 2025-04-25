@@ -1,6 +1,6 @@
  
 #  Land Cover of North America at 30 meters, 2020 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2020_REL/NALCMS](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2020_REL_NALCMS_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [nlcd](https://developers.google.com/earth-engine/datasets/tags/nlcd) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2020_REL_NALCMS#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2020_REL_NALCMS#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2020_REL_NALCMS#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2020_REL_NALCMS#citations) More
+#### Description
 The 2020 North American Land Cover 30-meter dataset was produced as part of the North American Land Change Monitoring System (NALCMS), a trilateral effort between Natural Resources Canada, the United States Geological Survey, and three Mexican organizations including the National Institute of Statistics and Geography (Instituto Nacional de Estadística y Geografía), National Commission for the Knowledge and Use of the Biodiversity (Comisión Nacional Para el Conocimiento y Uso de la Biodiversidad), and the National Forestry Commission of Mexico (Comisión Nacional Forestal). The collaboration is facilitated by the Commission for Environmental Cooperation, an international organization created by the Canada, Mexico, and United States governments under the North American Agreement on Environmental Cooperation to promote environmental collaboration between the three countries.
 The general objective of NALCMS is to devise, through collective effort, a harmonized multi-scale land cover monitoring approach which ensures high accuracy and consistency in monitoring land cover changes at the North American scale and which meets each country's specific requirements.
 This 30-meter dataset of North American Land Cover reflects land cover information for 2020 from Mexico and Canada, 2019 over the conterminous United States and 2021 over Alaska. Each country developed its own classification method to identify Land Cover classes and then provided an input layer to produce a continental Land Cover map across North America. Canada, Mexico, and the United States developed their own 30-meter land cover products; see specific sections on data generation below.
@@ -26,6 +26,7 @@ See also:
   * The U.S. Geological Survey has North American Land Cover information available online at [www.mrlc.gov](https://www.mrlc.gov)
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -53,15 +54,17 @@ Value | Color | Description
 17 | #db2126 | Urban and built-up. Areas that contain at least 30 percent or greater urban constructed materials for human activities (cities, towns, transportation etc.)   
 18 | #4c73a1 | Water. Areas of open water, generally with less than 25 percent cover of non-water cover types. This class refers to areas that are consistently covered by water.   
 19 | #fff7fe | Snow and ice. Areas characterized by a perennial cover of ice and/or snow, generally greater than 25 percent of total cover.   
+### Terms of Use
 **Terms of Use**
 This work was authored as part of the Contributor's official duties as an Employee of the United States Government and is therefore a work of the United States Government. In accordance with 17 U.S.C. 105, no copyright protection is available for such works under U.S. Law. This is an Open Access article that has been identified as being free of known restrictions under copyright law, including all related and neighboring rights <https://creativecommons.org/publicdomain/mark/1.0/>. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+### Citations
 Citations:
   * North American Land Change Monitoring System download webpage. [www.cec.org/north-american-land-change-monitoring-system](http://www.cec.org/north-american-land-change-monitoring-system/)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2020_REL_NALCMS#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Import the NALCMS image.
 varimage=ee.Image('USGS/NLCD_RELEASES/2020_REL/NALCMS');

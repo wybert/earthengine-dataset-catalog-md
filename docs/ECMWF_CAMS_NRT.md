@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![ECMWF/CAMS/NRT](https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_CAMS_NRT_sample.png) 
 
 Dataset Availability
-    2016-06-22T12:00:00Z–2025-04-26T12:00:00Z 
+    2016-06-22T12:00:00Z–2025-04-28T12:00:00Z 
 
 Dataset Provider
      [ European Centre for Medium-Range Weather Forecasts (ECMWF) ](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts) 
@@ -25,36 +25,36 @@ Prior to 2021-07-01 only two parameters were available, 1. Total Aerosol Optical
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`total_aerosol_optical_depth_at_550nm_surface` |  9.6e-05*  |  3.58255*  | Total Aerosol Optical Depth at 550 nm  
+`total_aerosol_optical_depth_at_550nm_surface` |  |  9.6e-05*  |  3.58255*  | Total Aerosol Optical Depth at 550 nm  
 `particulate_matter_d_less_than_25_um_surface` | kg/m^3 |  0*  |  7.6e-05*  | Particulate matter d < 2.5 um  
-`total_column_nitrogen_dioxide_surface` | kg/m^2 | Total column Nitrogen dioxide surface  
-`total_column_sulphur_dioxide_surface` | kg/m^2 | Total column Sulfur dioxide surface  
-`total_column_carbon_monoxide_surface` | kg/m^2 | Total column Carbon monoxide surface  
-`total_column_formaldehyde_surface` | kg/m^2 | Total column Formaldehyde surface  
-`gems_total_column_ozone_surface` | Gems Total column ozone surface  
-`sea_salt_aerosol_optical_depth_at_550nm_surface` | Sea Salt Aerosol Optical Depth at 550 nm surface  
-`dust_aerosol_optical_depth_at_550nm_surface` | Dust Aerosol Optical Depth at 550 nm surface  
-`organic_matter_aerosol_optical_depth_at_550nm_surface` | Organic Matter Aerosol Optical Depth at 550 nm surface  
-`black_carbon_aerosol_optical_depth_at_550nm_surface` | Black Carbon Aerosol Optical Depth at 550 nm surface  
-`sulphate_aerosol_optical_depth_at_550nm_surface` | Sulfate Aerosol Optical Depth at 550 nm surface  
-`total_aerosol_optical_depth_at_469nm_surface` | Total Aerosol Optical Depth at 469 nm surface  
-`total_aerosol_optical_depth_at_670nm_surface` | Total Aerosol Optical Depth at 670 nm surface  
-`total_aerosol_optical_depth_at_865nm_surface` | Total Aerosol Optical Depth at 865nm surface  
-`total_aerosol_optical_depth_at_1240nm_surface` | Total Aerosol Optical Depth at 1240 nm surface  
-`var98-0-210-250_surface` | Nitrate aerosol optical depth at 550 nm  
-`var98-0-210-251_surface` | Ammonium aerosol optical depth at 550 nm  
-`particulate_matter_d_less_than_1_um_surface` | kg/m^3 | Particulate matter d < 1 um surface  
-`particulate_matter_d_less_than_10_um_surface` | kg/m^3 | Particulate matter d < 10 um surface  
-`uv_biologically_effective_dose_surface` | W/m^2 | UV biologically effective dose surface  
-`total_column__peroxyacetyl_nitrate_surface` | kg/m^2 | Total column peroxyacetyl nitrate surface  
-`total_column__isoprene_surface` | kg/m^2 | Total column isoprene surface  
-`total_column_nitrogen_monoxide_surface` | kg/m^2 | Total column nitrogen monoxide surface  
-`total_column_hydrogen_peroxide_surface` | kg/m^2 | Total column hydrogen peroxide surface  
-`total_column_hydroxyl_radical_surface` | kg/m^2 | Total column hydroxyl radical surface  
-`total_column_methane_surface` | kg/m^2 | Total column methane surface  
-`total_column__ethane_surface` | Total column ethane surface  
-`total_column_propane_surface` | kg/m^2 | Total column propane surface  
-`total_column_nitric_acid_surface` | kg/m^2 | Total column nitric acid surface  
+`total_column_nitrogen_dioxide_surface` | kg/m^2 |  |  | Total column Nitrogen dioxide surface  
+`total_column_sulphur_dioxide_surface` | kg/m^2 |  |  | Total column Sulfur dioxide surface  
+`total_column_carbon_monoxide_surface` | kg/m^2 |  |  | Total column Carbon monoxide surface  
+`total_column_formaldehyde_surface` | kg/m^2 |  |  | Total column Formaldehyde surface  
+`gems_total_column_ozone_surface` |  |  |  | Gems Total column ozone surface  
+`sea_salt_aerosol_optical_depth_at_550nm_surface` |  |  |  | Sea Salt Aerosol Optical Depth at 550 nm surface  
+`dust_aerosol_optical_depth_at_550nm_surface` |  |  |  | Dust Aerosol Optical Depth at 550 nm surface  
+`organic_matter_aerosol_optical_depth_at_550nm_surface` |  |  |  | Organic Matter Aerosol Optical Depth at 550 nm surface  
+`black_carbon_aerosol_optical_depth_at_550nm_surface` |  |  |  | Black Carbon Aerosol Optical Depth at 550 nm surface  
+`sulphate_aerosol_optical_depth_at_550nm_surface` |  |  |  | Sulfate Aerosol Optical Depth at 550 nm surface  
+`total_aerosol_optical_depth_at_469nm_surface` |  |  |  | Total Aerosol Optical Depth at 469 nm surface  
+`total_aerosol_optical_depth_at_670nm_surface` |  |  |  | Total Aerosol Optical Depth at 670 nm surface  
+`total_aerosol_optical_depth_at_865nm_surface` |  |  |  | Total Aerosol Optical Depth at 865nm surface  
+`total_aerosol_optical_depth_at_1240nm_surface` |  |  |  | Total Aerosol Optical Depth at 1240 nm surface  
+`var98-0-210-250_surface` |  |  |  | Nitrate aerosol optical depth at 550 nm  
+`var98-0-210-251_surface` |  |  |  | Ammonium aerosol optical depth at 550 nm  
+`particulate_matter_d_less_than_1_um_surface` | kg/m^3 |  |  | Particulate matter d < 1 um surface  
+`particulate_matter_d_less_than_10_um_surface` | kg/m^3 |  |  | Particulate matter d < 10 um surface  
+`uv_biologically_effective_dose_surface` | W/m^2 |  |  | UV biologically effective dose surface  
+`total_column__peroxyacetyl_nitrate_surface` | kg/m^2 |  |  | Total column peroxyacetyl nitrate surface  
+`total_column__isoprene_surface` | kg/m^2 |  |  | Total column isoprene surface  
+`total_column_nitrogen_monoxide_surface` | kg/m^2 |  |  | Total column nitrogen monoxide surface  
+`total_column_hydrogen_peroxide_surface` | kg/m^2 |  |  | Total column hydrogen peroxide surface  
+`total_column_hydroxyl_radical_surface` | kg/m^2 |  |  | Total column hydroxyl radical surface  
+`total_column_methane_surface` | kg/m^2 |  |  | Total column methane surface  
+`total_column__ethane_surface` |  |  |  | Total column ethane surface  
+`total_column_propane_surface` | kg/m^2 |  |  | Total column propane surface  
+`total_column_nitric_acid_surface` | kg/m^2 |  |  | Total column nitric acid surface  
 * estimated min or max value 
 **Image Properties**
 Name | Type | Description  
@@ -117,7 +117,7 @@ Map.addLayer(hour21,visParams,'Total Aerosal Optical Depth - H21',true,0.8);
 [ Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time ](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
 The Copernicus Atmosphere Monitoring Service provides the capacity to continuously monitor the composition of the Earth's atmosphere at global and regional scales. The main global near-real-time production system is a data assimilation and forecasting suite providing two 5-day forecasts per day for aerosols and chemical compounds that are part of …
 ECMWF/CAMS/NRT, aerosol,atmosphere,climate,copernicus,ecmwf,forecast 
-2016-06-22T12:00:00Z/2025-04-26T12:00:00Z
+2016-06-22T12:00:00Z/2025-04-28T12:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

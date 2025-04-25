@@ -28,37 +28,37 @@ NOAA's Office of Satellite and Product Operations has a [General Satellite Messa
 Name | Units | Min | Max | Wavelength | Description  
 ---|---|---|---|---|---  
 `CMI_C01` | Reflectance factor |  0  |  1.3  | 0.45-0.49µm | Visible - Blue Daytime aerosol over land, coastal water mapping.  
-`DQF_C01` |  0  |  4  | Data quality flags  
+`DQF_C01` |  |  0  |  4  |  | Data quality flags  
 `CMI_C02` | Reflectance factor |  0  |  1.3  | 0.59-0.69µm | Visible - Red Daytime clouds, fog, insolation, winds  
-`DQF_C02` |  0  |  4  | Data quality flags  
+`DQF_C02` |  |  0  |  4  |  | Data quality flags  
 `CMI_C03` | Reflectance factor |  0  |  1.3  | 0.846-0.885µm | Near-IR - Veggie Daytime vegetation, burn scar, aerosol over water, winds  
-`DQF_C03` |  0  |  4  | Data quality flags  
+`DQF_C03` |  |  0  |  4  |  | Data quality flags  
 `CMI_C04` | Reflectance factor |  0  |  1.3  | 1.371-1.386µm | Near-IR - Cirrus Daytime cirrus cloud  
-`DQF_C04` |  0  |  4  | Data quality flags  
+`DQF_C04` |  |  0  |  4  |  | Data quality flags  
 `CMI_C05` | Reflectance factor |  0  |  1.3  | 1.58-1.64µm | Near-IR - Snow/Ice Daytime cloud-top phase and particle size, snow  
-`DQF_C05` |  0  |  4  | Data quality flags  
+`DQF_C05` |  |  0  |  4  |  | Data quality flags  
 `CMI_C06` | Reflectance factor |  0  |  1.3  | 2.225-2.275µm | Near IR - Cloud Particle Size Daytime land, cloud properties, particle size, vegetation, snow  
-`DQF_C06` |  0  |  4  | Data quality flags  
+`DQF_C06` |  |  0  |  4  |  | Data quality flags  
 `CMI_C07` | K |  197.31  |  411.86  | 3.80-4.00µm | Infrared - Shortwave Window Brightness  
-`DQF_C07` |  0  |  4  | Data quality flags  
+`DQF_C07` |  |  0  |  4  |  | Data quality flags  
 `CMI_C08` | K |  138.05  |  311.06  | 5.77-6.6µm | Infrared - Upper-level water vapor High-level atmospheric water vapor, winds, rainfall Brightness  
-`DQF_C08` |  0  |  4  | Data quality flags  
+`DQF_C08` |  |  0  |  4  |  | Data quality flags  
 `CMI_C09` | K |  137.7  |  311.08  | 6.75-7.15µm | Infrared - Mid-level water vapor Mid-level atmospheric water vapor, winds, rainfall Brightness  
-`DQF_C09` |  0  |  4  | Data quality flags  
+`DQF_C09` |  |  0  |  4  |  | Data quality flags  
 `CMI_C10` | K |  126.91  |  331.2  | 7.24-7.44µm | Infrared - Lower-level water vapor Lower-level water vapor, winds, and sulfur dioxide Brightness  
-`DQF_C10` |  0  |  4  | Data quality flags  
+`DQF_C10` |  |  0  |  4  |  | Data quality flags  
 `CMI_C11` | K |  127.69  |  341.3  | 8.3-8.7µm | Infrared - Cloud-top phase Total water for stability, cloud phase, dust, sulfur dioxide, rainfall Brightness  
-`DQF_C11` |  0  |  4  | Data quality flags  
+`DQF_C11` |  |  0  |  4  |  | Data quality flags  
 `CMI_C12` | K |  117.49  |  311.06  | 9.42-9.8µm | Infrared - Ozone Total ozone, turbulence, winds  
-`DQF_C12` |  0  |  4  | Data quality flags  
+`DQF_C12` |  |  0  |  4  |  | Data quality flags  
 `CMI_C13` | K |  89.62  |  341.27  | 10.1-10.6µm | Infrared - "Clean" longwave window Surface and clouds Brightness  
-`DQF_C13` |  0  |  4  | Data quality flags  
+`DQF_C13` |  |  0  |  4  |  | Data quality flags  
 `CMI_C14` | K |  96.19  |  341.28  | 10.8-11.6µm | Infrared - Longwave window Imagery, sea surface temperature, clouds, rainfall Brightness  
-`DQF_C14` |  0  |  4  | Data quality flags  
+`DQF_C14` |  |  0  |  4  |  | Data quality flags  
 `CMI_C15` | K |  97.38  |  341.28  | 11.8-12.8µm | Infrared "Dirty" longwave Total water, volcanic ash, sea surface temperature Brightness  
-`DQF_C15` |  0  |  4  | Data quality flags  
+`DQF_C15` |  |  0  |  4  |  | Data quality flags  
 `CMI_C16` | K |  92.7  |  318.26  | 13.0-13.6µm | Infrared - CO_2 longwave Air temperature, cloud heights Brightness  
-`DQF_C16` |  0  |  4  | Data quality flags  
+`DQF_C16` |  |  0  |  4  |  | Data quality flags  
 **DQF_C01 Class Table**
 Value | Color | Description  
 ---|---|---  

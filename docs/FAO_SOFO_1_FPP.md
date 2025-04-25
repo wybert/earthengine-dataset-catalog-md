@@ -1,6 +1,6 @@
  
 #  Forest proximate people (FPP) 1.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![FAO/SOFO/1/FPP](https://developers.google.com/earth-engine/datasets/images/FAO/FAO_SOFO_1_FPP_sample.png) 
 
 Dataset Availability
@@ -17,27 +17,31 @@ Cadence
 
 Tags
      [agriculture](https://developers.google.com/earth-engine/datasets/tags/agriculture) [fao](https://developers.google.com/earth-engine/datasets/tags/fao) [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [global](https://developers.google.com/earth-engine/datasets/tags/global) [plant-productivity](https://developers.google.com/earth-engine/datasets/tags/plant-productivity) [population](https://developers.google.com/earth-engine/datasets/tags/population) [rural-area](https://developers.google.com/earth-engine/datasets/tags/rural-area)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/FAO_SOFO_1_FPP#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/FAO_SOFO_1_FPP#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/FAO_SOFO_1_FPP#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/FAO_SOFO_1_FPP#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/FAO_SOFO_1_FPP#dois) More
+#### Description
 The "Forest Proximate People" (FPP) dataset is one of the data layers contributing to the development of indicator #13, "number of forest-dependent people in extreme poverty," of the Collaborative Partnership on Forests (CPF) Global Core Set of forest-related indicators (GCS). The FPP dataset provides an estimate of the number of people living in or within 1 kilometer of forests (forest-proximate people) for the year 2019 with a pixel size of 100 meters at a global level. [Find out more about the dataset.](https://data.apps.fao.org/catalog/dcat/forest-proximate-people)
+### Bands
 **Pixel Size** 0.0009 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `FPP_1km` | Number of people/ha | Number of people living in or within 1 kilometer of forests.  
 `FPP_5km` | Number of people/ha | Number of people living in or within 5 kilometer of forests.  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * FAO 2022. The State of the World's Forests (SOFO) - Forest pathways for green recovery and building inclusive, resilient and sustainable economies. FAO, Rome. <https://www.fao.org/documents/card/en/c/cb9360en>
   * Newton, P., Castle, S.E., Kinzer, A.T., Miller, D.C., Oldekop, J.A., Linhares-Juvenal, T., Pina, L., Madrid, M., & de Lamo, J. 2022. The number of forest- and tree-proximate people: a new methodology and global estimates, One Earth, 2020 [doi:10.1016/j.oneear.2020.08.016](https://doi.org/10.1016/j.oneear.2020.08.016),
 
 
+### DOIs
   * [ https://doi.org/10.1016/j.oneear.2020.08.016 ](https://doi.org/10.1016/j.oneear.2020.08.016)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/FAO_SOFO_1_FPP#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcoll=ee.ImageCollection('FAO/SOFO/1/FPP');
 varimage=coll.first().select('FPP_1km');

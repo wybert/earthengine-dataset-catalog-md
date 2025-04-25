@@ -1,10 +1,10 @@
  
 #  GFS: Global Forecast System 384-Hour Predicted Atmosphere Data 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GFS0P25](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GFS0P25_sample.png) 
 
 Dataset Availability
-    2015-07-01T00:00:00Z–2025-04-22T06:00:00Z 
+    2015-07-01T00:00:00Z–2025-04-24T18:00:00Z 
 
 Dataset Provider
      [ NOAA/NCEP/EMC ](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) 
@@ -19,7 +19,7 @@ Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [cloud](https://developers.google.com/earth-engine/datasets/tags/cloud) [flux](https://developers.google.com/earth-engine/datasets/tags/flux) [forecast](https://developers.google.com/earth-engine/datasets/tags/forecast) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [humidity](https://developers.google.com/earth-engine/datasets/tags/humidity) [ncep](https://developers.google.com/earth-engine/datasets/tags/ncep) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [radiation](https://developers.google.com/earth-engine/datasets/tags/radiation) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [vapor](https://developers.google.com/earth-engine/datasets/tags/vapor) [weather](https://developers.google.com/earth-engine/datasets/tags/weather) [wind](https://developers.google.com/earth-engine/datasets/tags/wind)
 emc
 gfs
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25#dois) More
+#### Description
 The Global Forecast System (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP). The GFS dataset consists of selected model outputs (described below) as gridded forecast variables. The 384-hour forecasts, with 1-hour (up to 120 hours) and 3-hour (after 120 hours) forecast intervals, are made at 6-hour temporal resolution (i.e. updated four times daily). Use the 'creation_time' and 'forecast_time' properties to select data of interest.
 The GFS is a coupled model, composed of an atmosphere model, an ocean model, a land/soil model, and a sea ice model which work together to provide an accurate picture of weather conditions. Note that this model may change; see [history of recent modifications to the global forecast/analysis system](https://www.emc.ncep.noaa.gov/gmb/STATS/html/model_changes.html) and the [documentation](https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/gfs.php) for more information. There may be significant hour-to-hour and day-to-day fluctuations that require noise-reduction techniques to be applied to bands before analysis.
 Note that the available forecast hours and intervals have changed over time:
@@ -29,6 +29,7 @@ Note that the available forecast hours and intervals have changed over time:
 
 
 Some bands are only available starting on 2025/01/15 as noted in the band descriptions.
+### Bands
 **Pixel Size** 27830 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -47,7 +48,7 @@ Name | Units | Min | Max | Description
 `v_component_of_wind_planetary_boundary_layer` | m/s |  -63.08*  |  57.6*  | V component of wind planetary boundary layer (available starting from 2025/01/15)  
 `gust` | m/s |  0*  |  57.41*  | Wind Speed (Gust) (available starting from 2025/01/15)  
 `precipitation_rate` | kg/m^2/s |  0*  |  0.032*  | Precipitation Rate (available starting from 2025/01/15)  
-`haines_index` |  2*  |  6*  | Haines Index (available starting from 2025/01/15)  
+`haines_index` |  |  2*  |  6*  | Haines Index (available starting from 2025/01/15)  
 `ventilation_rate` | m^2/s |  0*  |  234000*  | Ventilation Rate (available starting from 2025/01/15)  
 `total_cloud_cover_entire_atmosphere` | % |  0*  |  100*  | Total cloud cover for entire atmosphere (previously only for assets with forecast_hours > 0, but available for those with forecast_hours == 0 starting from 2025/01/15)  
 `downward_shortwave_radiation_flux` | W/m^2 |  0*  |  1230*  | Downward shortwave radiation flux (only for assets with forecast_hours > 0)  
@@ -56,14 +57,17 @@ Name | Units | Min | Max | Description
 `upward_longwave_radiation_flux` | W/m^2 |  0*  |  100*  | Upward longwave radiation flux (available starting from 2025/01/15, but only for assets with forecast_hours > 0)  
 `planetary_boundary_layer_height` | m |  7.77*  |  6312.67*  | Planetary boundary layer height (available starting from 2025/01/15)  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 creation_time | DOUBLE | Time of creation  
 forecast_hours | DOUBLE | Forecast hours  
 forecast_time | DOUBLE | Forecast time  
+### Terms of Use
 **Terms of Use**
 NOAA data, information, and products, regardless of the method of delivery, are not subject to copyright and carry no restrictions on their subsequent use by the public. Once obtained, they may be put to any lawful use. The forgoing data is in the public domain and is being provided without restriction on use and distribution.
+### Citations
 Citations:
   * Alpert, J., 2006 Sub-Grid Scale Mountain Blocking at NCEP, 20th Conf. WAF/16 Conf. NWP P2.4.
   * Alpert, J. C., S-Y. Hong and Y-J. Kim: 1996, Sensitivity of cyclogenesis to lower troposphere enhancement of gravity wave drag using the EMC MRF", Proc. 11 Conf. On NWP, Norfolk, 322-323.
@@ -93,12 +97,13 @@ Citations:
   * Yang, F., K. Mitchell, Y. Hou, Y. Dai, X. Zeng, Z. Wang, and X. Liang, 2008: Dependence of land surface albedo on solar zenith angle: observations and model parameterizations. Journal of Applied Meteorology and Climatology.No.11, Vol 47, 2963-2982.
 
 
+### DOIs
   * [ https://doi.org/10.1016/j.jqsrt.2004.05.058 ](https://doi.org/10.1016/j.jqsrt.2004.05.058)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NOAA/GFS0P25')
 .filter(ee.Filter.date('2018-03-01','2018-03-02'));
@@ -115,7 +120,7 @@ Map.addLayer(temperatureAboveGround,visParams,'Temperature Above Ground');
 [ GFS: Global Forecast System 384-Hour Predicted Atmosphere Data ](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25)
 The Global Forecast System (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP). The GFS dataset consists of selected model outputs (described below) as gridded forecast variables. The 384-hour forecasts, with 1-hour (up to 120 hours) and 3-hour (after 120 hours) forecast intervals, are …
 NOAA/GFS0P25, climate,cloud,flux,forecast,geophysical,humidity,ncep,noaa,precipitation,radiation,temperature,vapor,weather,wind 
-2015-07-01T00:00:00Z/2025-04-22T06:00:00Z
+2015-07-01T00:00:00Z/2025-04-24T18:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

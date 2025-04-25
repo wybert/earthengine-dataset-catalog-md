@@ -1,6 +1,6 @@
  
 #  RCMAP Rangeland Component Timeseries (1985-2023), v06 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2023_REL/RCMAP/V6/COVER](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_COVER_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [climate-change](https://developers.google.com/earth-engine/datasets/tags/climate-change) [disturbance](https://developers.google.com/earth-engine/datasets/tags/disturbance) [landsat-derived](https://developers.google.com/earth-engine/datasets/tags/landsat-derived) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [nlcd](https://developers.google.com/earth-engine/datasets/tags/nlcd) [rangeland](https://developers.google.com/earth-engine/datasets/tags/rangeland) [trends](https://developers.google.com/earth-engine/datasets/tags/trends)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_COVER#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_COVER#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_COVER#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_COVER#citations) More
+#### Description
 'The RCMAP (Rangeland Condition Monitoring Assessment and Projection) dataset quantifies the percent cover of rangeland components across western North America using Landsat imagery from 1985-2023. The RCMAP product suite consists of ten fractional components: annual herbaceous, bare ground, herbaceous, litter, non-sagebrush shrub, perennial herbaceous, sagebrush, shrub, tree, and shrub height in addition to the temporal trends of each component. Several enhancements were made to the RCMAP process relative to prior generations. First, high-resolution training was revised using an improved neural-net classifier and modelling approach. These data serve as foundation to the RCMAP approach. The training database was further improved by incorporating additional datasets. Next, the Landsat compositing approach was improved to better capture the range of conditions from across each year and through time. These composites are based on Collection 2 Landsat data with improved geolocation accuracy and dynamic range. Finally, the Canadian portion of the sagebrush biome was included, which expanded the study area by 29,199 km2.
 Processing efficiency has been increased using open-source software and USGS High-Performance Computing (HPC) resources. The mapping area included eight regions which were subsequently mosaicked. These data can be used to answer critical questions regarding the influence of climate change and the suitability of management practices. Component products can be downloaded at [Multi-Resolution Land Characteristics Consortium](https://www.mrlc.gov/data).
 See also:
@@ -26,6 +26,7 @@ See also:
   * Rigge, M., C. Homer, H. Shi, D. Meyer, B. Bunde, B. Granneman, K. Postma, P. Danielson, A. Case, and G. Xian. 2021. Rangeland Fractional Components Across the Western United States from 1985 to 2018. Remote Sensing 13:813. [doi:10.3390/rs13040813](https://doi.org/10.3390/rs13040813).',
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -40,15 +41,17 @@ Name | Units | Min | Max | Description
 `rangeland_shrub_height` | cm |  0  |  500  | Average height of shrubs in centimeters.  
 `rangeland_perennial_herbaceous` | % |  0  |  100  | Percent of the pixel covered by perennial herbaceous vegetation.  
 `rangeland_tree` | % |  0  |  100  | Percent of the pixel covered by tree.  
+### Terms of Use
 **Terms of Use**
 This work was authored as part of the Contributor's official duties as an Employee of the United States Government and is therefore a work of the United States Government. In accordance with 17 U.S.C. 105, no copyright protection is available for such works under U.S. Law. This is an Open Access article that has been identified as being free of known restrictions under copyright law, including all related and neighboring rights (https://creativecommons.org/publicdomain/mark/1.0/). You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+### Citations
 Citations:
   * Rigge, M.B., Bunde, B., Postma, K., and Shi, H., 2024, Rangeland Condition Monitoring Assessment and Projection (RCMAP) Fractional Component Time-Series Across the Western U.S. 1985-2023: U.S. Geological Survey data release, [doi:10.5066/P9SJXUI1](https://doi.org/10.5066/P9SJXUI1).
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_COVER#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Import the NLCD RCMAP collection.
 vardataset=ee.ImageCollection('USGS/NLCD_RELEASES/2023_REL/RCMAP/V6/COVER');

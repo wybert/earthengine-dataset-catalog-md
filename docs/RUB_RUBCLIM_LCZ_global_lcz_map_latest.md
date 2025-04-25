@@ -1,6 +1,6 @@
  
 #  Global map of Local Climate Zones, latest version 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![RUB/RUBCLIM/LCZ/global_lcz_map/latest](https://developers.google.com/earth-engine/datasets/images/RUB/RUB_RUBCLIM_LCZ_global_lcz_map_latest_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [urban](https://developers.google.com/earth-engine/datasets/tags/urban)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/RUB_RUBCLIM_LCZ_global_lcz_map_latest#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/RUB_RUBCLIM_LCZ_global_lcz_map_latest#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/RUB_RUBCLIM_LCZ_global_lcz_map_latest#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/RUB_RUBCLIM_LCZ_global_lcz_map_latest#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/RUB_RUBCLIM_LCZ_global_lcz_map_latest#dois) More
+#### Description
 Since their introduction in 2012, Local Climate Zones (LCZs) emerged as a new standard for characterizing urban landscapes, providing a holistic classification approach that takes into account micro-scale land-cover and associated physical properties.
 This global map of Local Climate Zones, at 100m pixel size and representative for the nominal year 2018, is derived from multiple earth observation datasets and expert LCZ class labels. LCZ_Filter is the recommended band for most users. The other classification band, LCZ, is only provided as it is used to calculate the LCZ_Probability band.
 The LCZ scheme complements other land use / land cover schemes by its focus on urban and rural landscape types, which can be described by any of the 17 classes in the LCZ scheme. Out of the 17 LCZ classes, 10 reflect the 'built' environment, and each LCZ type is associated with generic numerical descriptions of key urban canopy parameters critical to model atmospheric responses to urbanisation. In addition, since LCZs were originally designed as a new framework for urban heat island studies, they also contain a limited set (7) of 'natural' land-cover classes that can be used as 'control' or 'natural reference' areas.
@@ -26,12 +26,13 @@ See also:
   * [LCZ Gaussian filtering](https://doi.org/10.1038/s41597-020-00605-z)
 
 
+### Bands
 **Pixel Size** 100 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
-`LCZ` | The raw, pixel-based global LCZ map with LCZ classes  
-`LCZ_Filter` | The recommended global LCZ map with LCZ classes. LCZ labels are obtained after applying the morphological Gaussian filter described in Demuzere et al. (2020)  
+`LCZ` |  | The raw, pixel-based global LCZ map with LCZ classes  
+`LCZ_Filter` |  | The recommended global LCZ map with LCZ classes. LCZ labels are obtained after applying the morphological Gaussian filter described in Demuzere et al. (2020)  
 `LCZ_Probability` | % | A probability layer that identifies how often the modal LCZ was chosen per pixel (e.g. a probability of 60% means that the modal LCZ class was mapped 30 times out of 50 LCZ models). This is a pixel-based probability derived from the LCZ layer  
 **LCZ Class Table**
 Value | Color | Description  
@@ -73,18 +74,21 @@ Value | Color | Description
 15 | #000000 | Bare rock or paved (LCZ E)  
 16 | #fbf7ae | Bare soil or sand (LCZ F)  
 17 | #6a6aff | Water (LCZ G)  
+### Terms of Use
 **Terms of Use**
 [proprietary](https://developers.google.com/earth-engine/datasets/catalog/Use%20a%20custom%20URL%20for%20the%20non-standard%20license)
+### Citations
 Citations:
   * Demuzere M.; Kittner J.; Martilli A.; Mills, G.; Moede, C.; Stewart, I.D.; van Vliet, J.; Bechtel, B. A global map of local climate zones to support earth system modelling and urban-scale environmental science. Earth System Science Data 2022, 14 Volume 8: 3835-3873. [doi:10.5194/essd-14-3835-2022](https://doi.org/10.5194/essd-14-3835-2022)
 
 
+### DOIs
   * [ https://doi.org/10.5281/zenodo.6364593 ](https://doi.org/10.5281/zenodo.6364593)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/RUB_RUBCLIM_LCZ_global_lcz_map_latest#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('RUB/RUBCLIM/LCZ/global_lcz_map/latest')
 .mosaic();

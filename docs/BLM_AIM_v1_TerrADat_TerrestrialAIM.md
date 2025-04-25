@@ -1,6 +1,6 @@
  
 #  BLM AIM TerrADat TerrestrialAIM Point v1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![BLM/AIM/v1/TerrADat/TerrestrialAIM](https://developers.google.com/earth-engine/datasets/images/BLM/BLM_AIM_v1_TerrADat_TerrestrialAIM_sample.png) 
 
 Dataset Availability
@@ -25,11 +25,12 @@ range
 terradat
 terrestrialaim
 wildlife
-[Description](https://developers.google.com/earth-engine/datasets/catalog/BLM_AIM_v1_TerrADat_TerrestrialAIM#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/BLM_AIM_v1_TerrADat_TerrestrialAIM#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/BLM_AIM_v1_TerrADat_TerrestrialAIM#terms-of-use) More
+#### Description
 Since 2011, the Bureau of Land Management (BLM) has collected field information to inform land health through its Assessment Inventory and Monitoring (AIM) strategy. To date, more than 6,000 terrestrial AIM field plots have been collected over BLM lands. The BLM AIM data archive is updated annually. Standardized core indicators are collected at each plot that are known to be both ecologically relevant and clearly tied to rangeland health. These indicators inform biotic integrity, soil and site stability, and hydrologic function. The terrestrial plot measurements include fractional bare ground cover, vegetation composition and height, plants of management concern, non-native invasive species, plant canopy gaps, species richness, and soil aggregate stability. AIM represents one of the most extensive publicly available plot measurement datasets across Western US federal lands, which can be integrated with remotely sensed imagery and other geospatial information for a range of analysis, classification, and validation purposes.
 This dataset was created to monitor the status, condition and trend of national BLM resources in accordance with BLM policies. The methodology used for the collection of these data can be found on [the Landscape Toolbox](https://landscapetoolbox.org) and the Monitoring Manual, 2nd Edition. These data should not be used for statistical or spatial inferences without knowledge of how the sample design was drawn or without calculating spatial weights for the points based on the sample design.
 This feature class includes monitoring data collected nationally to understand the status, condition, and trend of resources on BLM lands. Data are collected in accordance with the BLM Assessment, Inventory, and Monitoring (AIM) Strategy. The AIM Strategy specifies a probabilistic sampling design, standard core indicators and methods, electronic data capture and management, and integration with remote sensing. Attributes include the BLM terrestrial core indicators: bare ground, vegetation composition, plant species of management concern, non-native invasive species, and percent canopy gaps (see Entity/Attribute Section for exact details on attributes). Data were collected and managed by BLM Field Offices, BLM Districts, and/or affiliated field crews with support from the BLM National Operations Center. Data are stored in a centralized database (TerrADat) at the BLM National Operations Center.
 Data were collected by trained data collectors with the BLM and partner organizations. They followed the BLM core terrestrial data [collection protocols](https://www.ntc.blm.gov/krc/viewresource.php?courseID=281&programAreaId=148). Data were captured electronically using the [Database for Inventory, Monitoring, and Assessment](https://jornada.nmsu.edu/tools/dima). They were managed by the data collectors, with oversight from BLM field offices, state offices, and the National Operations Center. This dataset has undergone rigorous QA/QC to ensure data quality.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -81,13 +82,14 @@ SoilStability_Protected | DOUBLE | The average soil aggregate stability of sampl
 SoilStability_Unprotected | DOUBLE | The average soil aggregate stability of samples collected between plant canopies (e.g., with no cover directly above them) in the plot. This indicator is measured using the Soil Aggregate Stability Test (up to 18 samples per plot). In this test, stability ranges from 1-6, with 1 being the least stable and 6 being the most stable.  
 TotalFoliarCover_FH | DOUBLE | The foliar cover of plants in the plot. This indicator is derived from the Line Point Intercept Method (150 points on three transects per plot).  
 WoodyHgt_Avg | DOUBLE | Average height of woody plants in the plot. This was collected using the Vegetation Height Method (30 points on 3 transects per plot).  
+### Terms of Use
 **Terms of Use**
 These data are considered public domain.
 These data are provided by Bureau of Land Management (BLM) "as is" and might contain errors or omissions. The User assumes the entire risk associated with its use of these data and bears all responsibility in determining whether these data are fit for the User's intended use. The information contained in these data is dynamic and may change over time. The data are not better than the sources from which they were derived, and both scale and accuracy may vary across the data set. These data might not have the accuracy, resolution, completeness, timeliness, or other characteristics appropriate for applications that potential users of the data may contemplate. The User is encouraged to carefully consider the content of the metadata file associated with these data. These data are neither legal documents nor land surveys, and must not be used as such. Official records may be referenced at most BLM offices. Please report any errors in the data to the BLM office from which it was obtained. The BLM should be cited as the data source in any products derived from these data. Any Users wishing to modify the data should describe the types of modifications they have performed. The User should not misrepresent the data, nor imply that changes made were approved or endorsed by BLM. This data may be updated by the BLM without notification.
 The BLM assumes no responsibility for errors or omissions. No warranty is made by the BLM as to the accuracy, reliability, or completeness of these data for individual use or aggregate use with other data; nor shall the act of distribution to contractors, partners, or beyond, constitute any such warranty for individual or aggregate data use with other data. Although these data have been processed successfully on computers of BLM, no warranty, expressed or implied, is made by BLM regarding the use of these data on any other system, or for general or scientific purposes, nor does the fact of distribution constitute or imply any such warranty. In no event shall the BLM have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic data or arising out of the delivery, installation, operation, or support by BLM.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/BLM_AIM_v1_TerrADat_TerrestrialAIM#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vargreens=ee.List([
 '#00441B','#00682A','#37A055','#5DB96B','#AEDEA7','#E7F6E2','#F7FCF5'
@@ -122,7 +124,7 @@ Map.setCenter(-110,40,6);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/BLM_AIM_v1_TerrADat_TerrestrialAIM#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer(
 'BLM/AIM/v1/TerrADat/TerrestrialAIM_FeatureView');

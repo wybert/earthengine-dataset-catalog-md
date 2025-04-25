@@ -1,6 +1,6 @@
  
 #  MCD12Q1.061 MODIS Land Cover Type Yearly Global 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MCD12Q1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD12Q1_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [yearly](https://developers.google.com/earth-engine/datasets/tags/yearly)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1#dois) More
+#### Description
 The Terra and Aqua combined Moderate Resolution Imaging Spectroradiometer (MODIS) Land Cover Type (MCD12Q1) Version 6.1 data product provides global land cover types at yearly intervals. The MCD12Q1 Version 6.1 data product is derived using supervised classifications of MODIS Terra and Aqua reflectance data. Land cover types are derived from the International Geosphere-Biosphere Programme (IGBP), University of Maryland (UMD), Leaf Area Index (LAI), BIOME-Biogeochemical Cycles (BGC), and Plant Functional Types (PFT) classification schemes. The supervised classifications then underwent additional post-processing that incorporate prior knowledge and ancillary information to further refine specific classes. Additional land cover property assessment layers are provided by the Food and Agriculture Organization (FAO) Land Cover Classification System (LCCS) for land cover, land use, and surface hydrology.
 Layers for Land Cover Type 1-5, Land Cover Property 1-3, Land Cover Property Assessment 1-3, Land Cover Quality Control (QC), and a Land Water Mask are also provided.
 Documentation:
@@ -26,23 +26,24 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MCD12Q1)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`LC_Type1` | Land Cover Type 1: Annual International Geosphere-Biosphere Programme (IGBP) classification  
-`LC_Type2` | Land Cover Type 2: Annual University of Maryland (UMD) classification  
-`LC_Type3` | Land Cover Type 3: Annual Leaf Area Index (LAI) classification  
-`LC_Type4` | Land Cover Type 4: Annual BIOME-Biogeochemical Cycles (BGC) classification  
-`LC_Type5` | Land Cover Type 5: Annual Plant Functional Types classification  
+`LC_Type1` |  |  |  | Land Cover Type 1: Annual International Geosphere-Biosphere Programme (IGBP) classification  
+`LC_Type2` |  |  |  | Land Cover Type 2: Annual University of Maryland (UMD) classification  
+`LC_Type3` |  |  |  | Land Cover Type 3: Annual Leaf Area Index (LAI) classification  
+`LC_Type4` |  |  |  | Land Cover Type 4: Annual BIOME-Biogeochemical Cycles (BGC) classification  
+`LC_Type5` |  |  |  | Land Cover Type 5: Annual Plant Functional Types classification  
 `LC_Prop1_Assessment` | % |  0  |  100  | LCCS1 land cover layer confidence  
 `LC_Prop2_Assessment` | % |  0  |  100  | LCCS2 land use layer confidence  
 `LC_Prop3_Assessment` | % |  0  |  100  | LCCS3 surface hydrology layer confidence  
-`LC_Prop1` | FAO-Land Cover Classification System 1 (LCCS1) land cover layer  
-`LC_Prop2` | FAO-LCCS2 land use layer  
-`LC_Prop3` | FAO-LCCS3 surface hydrology layer  
-`QC` | Product quality flags  
-`LW` | Binary land (class 2) / water (class 1) mask derived from MOD44W  
+`LC_Prop1` |  |  |  | FAO-Land Cover Classification System 1 (LCCS1) land cover layer  
+`LC_Prop2` |  |  |  | FAO-LCCS2 land use layer  
+`LC_Prop3` |  |  |  | FAO-LCCS3 surface hydrology layer  
+`QC` |  |  |  | Product quality flags  
+`LW` |  |  |  | Binary land (class 2) / water (class 1) mask derived from MOD44W  
 **LC_Type1 Class Table**
 Value | Color | Description  
 ---|---|---  
@@ -172,33 +173,36 @@ Value | Color | Description
 **QC Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | Classified land: has a classification label and is land according to the water mask.  
-1 | Unclassified land: not classified because of missing data but land according to the water mask, labeled as barren.   
-2 | Classified water: has a classification label and is water according to the water mask.  
-3 | Unclassified water: not classified because of missing data but water according to the water mask.  
-4 | Classified sea ice: classified as snow/ice but water mask says it is water and less than 100m elevation, switched to water.   
-5 | Misclassified water: classified as water but water mask says it is land, switched to secondary label.  
-6 | Omitted snow/ice: land according to the water mask that was classified as something other than snow but with a maximum annual temperature below 1°C, relabeled as snow/ice.   
-7 | Misclassified snow/ice: land according to the water mask that was classified as snow but with a minimum annual temperature greater than 1°C, relabeled as barren.   
-8 | Backfilled label: missing label from stabilization, filled with the pre-stabilized result.  
-9 | Forest type changed: climate-based change to forest class.  
+0 |  | Classified land: has a classification label and is land according to the water mask.  
+1 |  | Unclassified land: not classified because of missing data but land according to the water mask, labeled as barren.   
+2 |  | Classified water: has a classification label and is water according to the water mask.  
+3 |  | Unclassified water: not classified because of missing data but water according to the water mask.  
+4 |  | Classified sea ice: classified as snow/ice but water mask says it is water and less than 100m elevation, switched to water.   
+5 |  | Misclassified water: classified as water but water mask says it is land, switched to secondary label.  
+6 |  | Omitted snow/ice: land according to the water mask that was classified as something other than snow but with a maximum annual temperature below 1°C, relabeled as snow/ice.   
+7 |  | Misclassified snow/ice: land according to the water mask that was classified as snow but with a minimum annual temperature greater than 1°C, relabeled as barren.   
+8 |  | Backfilled label: missing label from stabilization, filled with the pre-stabilized result.  
+9 |  | Forest type changed: climate-based change to forest class.  
 **LW Class Table**
 Value | Color | Description  
 ---|---|---  
 1 | #1c0dff | Water  
 2 | #f9ffa4 | Land,  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MCD12Q1.061 ](https://doi.org/10.5067/MODIS/MCD12Q1.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MCD12Q1');
 varigbpLandCover=dataset.select('LC_Type1');

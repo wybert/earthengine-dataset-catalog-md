@@ -31,8 +31,8 @@ Documentation:
 **Bands**
 Name | Units | Min | Max | Scale | Offset | Description  
 ---|---|---|---|---|---|---  
-`LST_Day_1km` | K |  7500  |  65535  | 0.02 | Day land surface temperature  
-`QC_Day` | Daytime LST quality indicators  
+`LST_Day_1km` | K |  7500  |  65535  | 0.02 |  | Day land surface temperature  
+`QC_Day` |  |  |  |  |  | Daytime LST quality indicators  
 Bitmask for QC_Day
   * Bits 0-1: Mandatory QA flags 
     * 0: Pixel produced, good quality, not necessary to examine more detailed QA
@@ -56,10 +56,10 @@ Bitmask for QC_Day
     * 3: Average LST error > 3K
 
   
-`Day_view_time` | h |  0  |  240  | 0.1 | Local time of day observation  
-`Day_view_angl` | deg |  0  |  130  | -65 | View zenith angle of day observation  
-`LST_Night_1km` | K |  7500  |  65635  | 0.02 | Night land surface temperature  
-`QC_Night` | Nighttime LST quality indicators  
+`Day_view_time` | h |  0  |  240  | 0.1 |  | Local time of day observation  
+`Day_view_angl` | deg |  0  |  130  |  | -65 | View zenith angle of day observation  
+`LST_Night_1km` | K |  7500  |  65635  | 0.02 |  | Night land surface temperature  
+`QC_Night` |  |  |  |  |  | Nighttime LST quality indicators  
 Bitmask for QC_Night
   * Bits 0-1: Mandatory QA flags 
     * 0: Pixel produced, good quality, not necessary to examine more detailed QA
@@ -83,11 +83,11 @@ Bitmask for QC_Night
     * 3: Average LST error > 3K
 
   
-`Night_view_time` | h |  0  |  240  | 0.1 | Local time of night observation  
-`Night_view_angl` | deg |  0  |  130  | -65 | View zenith angle of night observation  
-`Emis_31` |  1  |  255  | 0.002 | 0.49 | Band 31 emissivity  
-`Emis_32` |  1  |  255  | 0.002 | 0.49 | Band 32 emissivity  
-`Clear_sky_days` | Days in clear-sky conditions  
+`Night_view_time` | h |  0  |  240  | 0.1 |  | Local time of night observation  
+`Night_view_angl` | deg |  0  |  130  |  | -65 | View zenith angle of night observation  
+`Emis_31` |  |  1  |  255  | 0.002 | 0.49 | Band 31 emissivity  
+`Emis_32` |  |  1  |  255  | 0.002 | 0.49 | Band 32 emissivity  
+`Clear_sky_days` |  |  |  |  |  | Days in clear-sky conditions  
 Bitmask for Clear_sky_days
   * Bit 0: Day 1 clear sky flag 
     * 0: Day 1 is not clear-sky
@@ -115,7 +115,7 @@ Bitmask for Clear_sky_days
     * 1: Day 8 is clear-sky
 
   
-`Clear_sky_nights` | Nights in clear-sky conditions  
+`Clear_sky_nights` |  |  |  |  |  | Nights in clear-sky conditions  
 Bitmask for Clear_sky_nights
   * Bit 0: Night 1 clear sky flag 
     * 0: Night 1 is not clear-sky

@@ -1,6 +1,6 @@
  
 #  WWF HydroSHEDS Free Flowing Rivers Network v1 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![WWF/HydroSHEDS/v1/FreeFlowingRivers](https://developers.google.com/earth-engine/datasets/images/WWF/WWF_HydroSHEDS_v1_FreeFlowingRivers_sample.png) 
 
 Dataset Availability

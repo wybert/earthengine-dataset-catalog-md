@@ -1,6 +1,6 @@
  
 #  DEM-H: Australian SRTM Hydrologically Enforced Digital Elevation Model 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![AU/GA/DEM_1SEC/v10/DEM-H](https://developers.google.com/earth-engine/datasets/images/AU/AU_GA_DEM_1SEC_v10_DEM-H_sample.png) 
 
 Dataset Availability

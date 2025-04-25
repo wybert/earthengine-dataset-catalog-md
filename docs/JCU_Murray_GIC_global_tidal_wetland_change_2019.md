@@ -1,6 +1,6 @@
  
 #  Murray Global Tidal Wetland Change v1.0 (1999-2019) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JCU/Murray/GIC/global_tidal_wetland_change/2019](https://developers.google.com/earth-engine/datasets/images/JCU/JCU_Murray_GIC_global_tidal_wetland_change_2019_sample.png) 
 
 Dataset Availability
@@ -17,11 +17,12 @@ Tags
 saltmarsh
 tidal-flat
 tidal-marsh
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JCU_Murray_GIC_global_tidal_wetland_change_2019#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/JCU_Murray_GIC_global_tidal_wetland_change_2019#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JCU_Murray_GIC_global_tidal_wetland_change_2019#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/JCU_Murray_GIC_global_tidal_wetland_change_2019#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/JCU_Murray_GIC_global_tidal_wetland_change_2019#dois) More
+#### Description
 The Murray Global Tidal Wetland Change Dataset contains maps of the global extent of tidal wetlands and their change. The maps were developed from a three stage classification that sought to (i) estimate the global distribution of tidal wetlands (defined as either tidal marsh, tidal flat or mangrove ecosystems), (ii) detect their change over the study period, and (iii) estimate the ecosystem type and timing of tidal wetland change events.
 The dataset was produced by combining observations from 1,166,385 satellite images acquired by Landsat 5 to 8 with environmental data of variables known to influence the distributions of each ecosystem type, including temperature, slope, and elevation. The image contains bands for a tidal wetland extent product (random forest probability of tidal wetland occurrence) for the start and end time-steps of the study period and a tidal wetland change product over the full study period (loss and gain of tidal wetlands).
 Please see the [usage notes](https://www.globalintertidalchange.org/data-usage) on the [project website](https://www.globalintertidalchange.org/). A full description of the methods, validation, and limitations of the data produced by this software is available in the associated scientific paper.
 See also [UQ/murray/Intertidal/v1_1/global_intertidal](https://developers.google.com/earth-engine/datasets/catalog/UQ_murray_Intertidal_v1_1_global_intertidal) for global maps of the distribution of tidal flat ecosystems.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Description  
@@ -44,18 +45,21 @@ Name | Description
   
 `twprobabilityStart` | Random forest agreement of the overarching tidal wetland class for the first time step (1999-2001). Integer between 0 and 100.  
 `twprobabilityEnd` | Random forest agreement of the overarching tidal wetland class for the last time step (2017-2019). Integer between 0 and 100.  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Murray, N.J., Worthington, T.A., Bunting, P., Duce, S., Hagger, V., Lovelock, C.E., Lucas, R., Saunders, M.I., Sheaves, M., Spalding, M., Waltham, N.J., Lyons, M.B., 2022. High-resolution mapping of losses and gains of Earth's tidal wetlands. _Science_. [doi:10.1126/science.abm9583](https://doi.org/10.1126/science.abm9583)
 
 
+### DOIs
   * [ https://doi.org/10.1126/science.abm9583 ](https://doi.org/10.1126/science.abm9583)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JCU_Murray_GIC_global_tidal_wetland_change_2019#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('JCU/Murray/GIC/global_tidal_wetland_change/2019');
 Map.setCenter(103.7,1.3,12);

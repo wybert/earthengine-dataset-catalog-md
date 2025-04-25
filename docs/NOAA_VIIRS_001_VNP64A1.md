@@ -1,6 +1,6 @@
  
 #  VNP64A1: Burned Area Monthly L4 Global 500m SIN Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/001/VNP64A1](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP64A1_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [burn](https://developers.google.com/earth-engine/datasets/tags/burn) [change-detection](https://developers.google.com/earth-engine/datasets/tags/change-detection) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [land](https://developers.google.com/earth-engine/datasets/tags/land) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [surface](https://developers.google.com/earth-engine/datasets/tags/surface) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP64A1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP64A1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP64A1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP64A1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP64A1#dois) More
+#### Description
 The daily Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Burned Area (VNP64A1) Version 1 data product is a monthly, global gridded 500m product containing per-pixel burned area and quality information. The VNP64 burned area mapping approach employs 750m VIIRS imagery coupled with 750m VIIRS active fire observations.
 VIIRS bands that are both sensitive and insensitive to biomass burning are used to detect changes caused by fire and to differentiate them from other types of change.
 Documentation:
@@ -27,13 +27,14 @@ Documentation:
   * [Land Product Quality Assessment website](https://landweb.modaps.eosdis.nasa.gov/browse?sensor=VIIRS&sat=SNPP)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
-`Burn_Date` | Ordinal day of burn (1-366) for each 500-m grid cell.  
+`Burn_Date` |  | Ordinal day of burn (1-366) for each 500-m grid cell.  
 `Burn_Date_Uncertainty` | % | Estimated uncertainty in date of burn, in days. Unburned, unmapped, and water grid cells are masked out.  
-`QA` | Quality Assurance Indicators  
+`QA` |  | Quality Assurance Indicators  
 Bitmask for QA
   * Bit 0: land/water state 
     * 0: water grid cell
@@ -60,20 +61,23 @@ Bitmask for QA
     * 7: Reserved for future use
 
   
-`First_Day` | First day of the year of reliable change detection  
-`Last_Day` | Last day of the year of reliable change detection  
+`First_Day` |  | First day of the year of reliable change detection  
+`Last_Day` |  | Last day of the year of reliable change detection  
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP64A1.001 ](https://doi.org/10.5067/VIIRS/VNP64A1.001)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP64A1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varimage=ee.Image('NOAA/VIIRS/001/VNP64A1/2018_12_01');
 varvisualization={

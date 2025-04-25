@@ -1,6 +1,6 @@
  
 #  Oxford MAP: Malaria Atlas Project Fractional International Geosphere-Biosphere Programme Landcover 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![Oxford/MAP/IGBP_Fractional_Landcover_5km_Annual](https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual_sample.png) 
 
 Dataset Availability
@@ -18,14 +18,15 @@ Cadence
 Tags
      [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [map](https://developers.google.com/earth-engine/datasets/tags/map) [oxford](https://developers.google.com/earth-engine/datasets/tags/oxford)
 igbp
-[Description](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual#citations) More
+#### Description
 The underlying dataset for this landcover product is the IGBP layer found within the MODIS annual landcover product (MCD12Q1). This data was converted from its categorical format, which has a ≈500 meter resolution, to a fractional product indicating the integer percentage (0-100) of the output pixel covered by each of the 17 landcover classes (1 per band).
 This dataset was produced by Harry Gibson and Daniel Weiss of the Malaria Atlas Project (Big Data Institute, University of Oxford, United Kingdom, <https://malariaatlas.org/>).
+### Bands
 **Pixel Size** 5000 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`Overall_Class` |  0  |  17  | Dominant class of each resulting pixel  
+`Overall_Class` |  |  0  |  17  | Dominant class of each resulting pixel  
 `Water` | % |  0  |  100  | Percentage of water  
 `Evergreen_Needleleaf_Forest` | % |  0  |  100  | Percentage of evergreen needleleaf forest  
 `Evergreen_Broadleaf_Forest` | % |  0  |  100  | Percentage of evergreen broadleaf forest  
@@ -66,15 +67,17 @@ Value | Color | Description
 15 | #ffffff | Snow_and_Ice  
 16 | #feffc0 | Barren_Or_Sparsely_Vegetated  
 17 | #020202 | Unclassified  
+### Terms of Use
 **Terms of Use**
 [CC-BY-NC-SA-4.0](https://spdx.org/licenses/CC-BY-NC-SA-4.0.html)
+### Citations
 Citations:
   * Weiss, D.J., P.M. Atkinson, S. Bhatt, B. Mappin, S.I. Hay & P.W. Gething (2014) An effective approach for gap-filling continental scale remotely sensed time-series. ISPRS Journal of Photogrammetry and Remote Sensing, 98, 106-118.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=
 ee.ImageCollection('Oxford/MAP/IGBP_Fractional_Landcover_5km_Annual')

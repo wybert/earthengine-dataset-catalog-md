@@ -1,6 +1,6 @@
  
 #  MOD44W.006 Terra Land Water Mask Derived From MODIS and SRTM Yearly Global 250m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/006/MOD44W](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_006_MOD44W_sample.png) 
 
 Dataset Availability
@@ -17,8 +17,9 @@ Cadence
 
 Tags
      [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [mod44w](https://developers.google.com/earth-engine/datasets/tags/mod44w) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [srtm](https://developers.google.com/earth-engine/datasets/tags/srtm) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [water-mask](https://developers.google.com/earth-engine/datasets/tags/water-mask)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44W#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44W#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44W#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44W#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44W#dois) More
+#### Description
 The MOD44W V6 land/water mask 250m product is derived using a decision tree classifier trained with MODIS data and validated with the MOD44W V5 product. A series of masks are applied to address known issues caused by terrain shadow, burn scars, cloudiness, or ice cover in oceans.
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Description  
@@ -44,18 +45,21 @@ Bitmask for water_mask_QA
     * 10: No data (outside of projected area)
 
   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MOD44W.006 ](https://doi.org/10.5067/MODIS/MOD44W.006)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44W#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/006/MOD44W')
 .filter(ee.Filter.date('2015-01-01','2015-05-01'));

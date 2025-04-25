@@ -27,7 +27,7 @@ Contact the data provider for more information about the project at this link: <
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `XCH4` | ppb |  1894*  |  2114.65*  | Retrieved column-averaged dry-air CH4 mole fraction.  
-`albedo` |  0  |  1  | Ratio of solar radiance at the ground to observed radiance at the sensor.  
+`albedo` |  |  0  |  1  | Ratio of solar radiance at the ground to observed radiance at the sensor.  
 `surface_pressure` | hPa |  725.95*  |  1011.33*  | Air pressure at the surface.  
 `terrain_height` | km |  0.026*  |  2.915*  | Elevation with respect to WGS84 reference ellipsoid.  
 * estimated min or max value 

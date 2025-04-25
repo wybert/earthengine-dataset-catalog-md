@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S5P/OFFL/L3_NO2](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_NO2_sample.png) 
 
 Dataset Availability
-    2018-06-28T10:24:07Z–2025-04-12T22:32:56Z 
+    2018-06-28T10:24:07Z–2025-04-15T21:36:17Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -107,7 +107,7 @@ Map.setCenter(65.27,24.11,4);
 [ Sentinel-5P OFFL NO2: Offline Nitrogen Dioxide ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_NO2)
 OFFL/L3_NO2 This dataset provides offline high-resolution imagery of NO2 concentrations. Nitrogen oxides (NO2 and NO) are important trace gases in the Earth's atmosphere, present in both the troposphere and the stratosphere. They enter the atmosphere as a result of anthropogenic activities (notably fossil fuel combustion and biomass burning) and natural …
 COPERNICUS/S5P/OFFL/L3_NO2, air-quality,atmosphere,copernicus,esa,eu,knmi,nitrogen-dioxide,no2,pollution,s5p,sentinel,tropomi 
-2018-06-28T10:24:07Z/2025-04-12T22:32:56Z
+2018-06-28T10:24:07Z/2025-04-15T21:36:17Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

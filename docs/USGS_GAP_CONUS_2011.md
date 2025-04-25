@@ -1,6 +1,6 @@
  
 #  USGS GAP CONUS 2011 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/GAP/CONUS/2011](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_GAP_CONUS_2011_sample.png) 
 
 Dataset Availability
@@ -14,8 +14,9 @@ Earth Engine Snippet
 
 Tags
      [ecosystems](https://developers.google.com/earth-engine/datasets/tags/ecosystems) [gap](https://developers.google.com/earth-engine/datasets/tags/gap) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landfire](https://developers.google.com/earth-engine/datasets/tags/landfire) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_CONUS_2011#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_CONUS_2011#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_CONUS_2011#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_CONUS_2011#citations) More
+#### Description
 The GAP/LANDFIRE National Terrestrial Ecosystems data represents a detailed vegetation and land cover classification for the Conterminous U.S., Alaska, Hawaii, and Puerto Rico.GAP/LF 2011 Ecosystems for the Conterminous U.S. is an update of the National Gap Analysis Program Land Cover Data - Version 2.2. Alaska ecosystems have been updated by LANDFIRE to 2012 conditions (LANDFIRE 2012). Hawaii and Puerto Rico data represent the 2001 time-frame (Gon et al. 2006, Gould et al. 2008). The classification scheme used for the Alaska and the lower 48 states is based on NatureServe's Ecological System Classification (Comer et al. 2003), while Puerto Rico and Hawaii's map legend are based on island specific classification systems (Gon et al. 2006, Gould et al. 2008).
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -608,15 +609,17 @@ Value | Color | Description
 582 | #c94c41 | Developed, Low Intensity  
 583 | #c94c41 | Developed, Medium Intensity  
 584 | #c94c41 | Developed, High Intensity  
+### Terms of Use
 **Terms of Use**
 Most U.S. Geological Survey (USGS) information resides in the public domain and may be used without restriction. Additional information on [Acknowledging or Crediting USGS as Information Source](https://www.usgs.gov/information-policies-and-instructions/crediting-usgs) is available.
+### Citations
 Citations:
   * Homer, C.G., Dewitz, J.A., Yang, L., Jin, S., Danielson, P., Xian, G., Coulston, J., Herold, N.D., Wickham, J.D., and Megown, K., 2015,Completion of the 2011 National Land Cover Database for the conterminous United States-Representing a decade of land cover change information. Photogrammetric Engineering and Remote Sensing, v. 81, no. 5, p. 345-354. <https://www.asprs.org/a/publications/pers/2015journals/PERS_May_2015/HTML/index.html>
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_GAP_CONUS_2011#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('USGS/GAP/CONUS/2011');
 varvisualization={

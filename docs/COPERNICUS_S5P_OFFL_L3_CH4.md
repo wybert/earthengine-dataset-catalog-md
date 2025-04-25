@@ -1,10 +1,10 @@
  
 #  Sentinel-5P OFFL CH4: Offline Methane 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S5P/OFFL/L3_CH4](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_CH4_sample.png) 
 
 Dataset Availability
-    2019-02-08T08:13:16Z–2025-04-19T15:16:13Z 
+    2019-02-08T08:13:16Z–2025-04-22T16:01:02Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -17,7 +17,7 @@ Revisit Interval
 
 Tags
      [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [knmi](https://developers.google.com/earth-engine/datasets/tags/knmi) [methane](https://developers.google.com/earth-engine/datasets/tags/methane) [s5p](https://developers.google.com/earth-engine/datasets/tags/s5p) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel) [sron](https://developers.google.com/earth-engine/datasets/tags/sron) [tropomi](https://developers.google.com/earth-engine/datasets/tags/tropomi)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4#terms-of-use) More
+#### Description
 ### OFFL/L3_CH4
 This dataset provides offline high-resolution imagery of methane concentrations.
 Methane (CH4) is, after carbon dioxide (CO2), the most important contributor to the anthropogenically enhanced greenhouse effect. Roughly three-quarters of methane emissions are anthropogenic and as such, it is important to continue the record of satellite based measurements. TROPOMI aims at providing CH4 column concentrations with high sensitivity to the Earth's surface, good spatiotemporal coverage, and sufficient accuracy to facilitate inverse modeling of sources and sinks. TROPOMI uses absorption information from the Oxygen-A Band (760nm) and the SWIR spectral range to monitor CH4 abundances in the Earth's atmosphere. [More information.](http://www.tropomi.eu/data-products/methane)
@@ -55,13 +55,14 @@ The conversion to L3 is done by the [harpconvert](https://cdn.rawgit.com/stcorp/
 
 
 The O3_TCL product is ingested directly (without running harpconvert).
+### Bands
 **Pixel Size** 1113.2 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `CH4_column_volume_mixing_ratio_dry_air` | Mol fraction |  1285*  |  2405*  | Column-averaged dry air mixing ratio of methane, as parts-per-billion  
 `aerosol_height` | m |  906*  |  11251*  | Aerosol height parameter in the CH4 retrieval  
-`aerosol_optical_depth` |  0.00032*  |  0.2405*  | aerosol optical thickness in the SWIR band  
+`aerosol_optical_depth` |  |  0.00032*  |  0.2405*  | aerosol optical thickness in the SWIR band  
 `sensor_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the satellite at the ground pixel location (WGS84); angle measured East-of-North.  
 `sensor_zenith_angle` | deg |  1*  |  60*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 `solar_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North.  
@@ -69,6 +70,7 @@ Name | Units | Min | Max | Description
 `CH4_column_volume_mixing_ratio_dry_air_bias_corrected` | Mol fraction |  1295*  |  2432*  | Column-averaged dry air mixing ratio of methane, as parts-per-billion, corrected for surface albedo  
 `CH4_column_volume_mixing_ratio_dry_air_uncertainty` | Mol fraction |  0*  |  10*  | Uncertainty of the column averaged dry air mixing ratio of methane (1 sigma error)  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -92,11 +94,12 @@ SPATIAL_RESOLUTION | STRING | Spatial resolution at nadir. For most products thi
 TIME_REFERENCE_DAYS_SINCE_1950 | INT | Days from 1 Jan 1950 to when the data was acquired.  
 TIME_REFERENCE_JULIAN_DAY | DOUBLE | The Julian day number when the data was acquired.  
 TRACKING_ID | STRING | UUID for the L2 product file.  
+### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('COPERNICUS/S5P/OFFL/L3_CH4')
 .select('CH4_column_volume_mixing_ratio_dry_air')
@@ -113,7 +116,7 @@ Map.setCenter(0.0,0.0,2);
 [ Sentinel-5P OFFL CH4: Offline Methane ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4)
 OFFL/L3_CH4 This dataset provides offline high-resolution imagery of methane concentrations. Methane (CH4) is, after carbon dioxide (CO2), the most important contributor to the anthropogenically enhanced greenhouse effect. Roughly three-quarters of methane emissions are anthropogenic and as such, it is important to continue the record of satellite based measurements. TROPOMI aims …
 COPERNICUS/S5P/OFFL/L3_CH4, atmosphere,climate,copernicus,esa,eu,knmi,methane,s5p,sentinel,sron,tropomi 
-2019-02-08T08:13:16Z/2025-04-19T15:16:13Z
+2019-02-08T08:13:16Z/2025-04-22T16:01:02Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

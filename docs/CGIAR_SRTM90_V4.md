@@ -1,6 +1,6 @@
  
 #  SRTM Digital Elevation Data Version 4 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![CGIAR/SRTM90_V4](https://developers.google.com/earth-engine/datasets/images/CGIAR/CGIAR_SRTM90_V4_sample.png) 
 
 Dataset Availability

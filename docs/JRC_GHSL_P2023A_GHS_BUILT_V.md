@@ -1,6 +1,6 @@
  
 #  GHSL: Global building volume 1975-2030 (P2023A) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/GHSL/P2023A/GHS_BUILT_V](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GHSL_P2023A_GHS_BUILT_V_sample.png) 
 
 Dataset Availability
@@ -14,30 +14,34 @@ Earth Engine Snippet
 
 Tags
      [alos](https://developers.google.com/earth-engine/datasets/tags/alos) [building](https://developers.google.com/earth-engine/datasets/tags/building) [built-environment](https://developers.google.com/earth-engine/datasets/tags/built-environment) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [dem](https://developers.google.com/earth-engine/datasets/tags/dem) [ghsl](https://developers.google.com/earth-engine/datasets/tags/ghsl) [jrc](https://developers.google.com/earth-engine/datasets/tags/jrc) [population](https://developers.google.com/earth-engine/datasets/tags/population) [sdg](https://developers.google.com/earth-engine/datasets/tags/sdg) [sentinel2-derived](https://developers.google.com/earth-engine/datasets/tags/sentinel2-derived) [srtm](https://developers.google.com/earth-engine/datasets/tags/srtm) [urban](https://developers.google.com/earth-engine/datasets/tags/urban)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_V#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_V#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_V#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_V#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_V#dois) More
+#### Description
 This raster dataset depicts the global distribution of building volume, expressed in cubic metres per 100 m grid cell. The dataset measures the total building volume and the building volume allocated to grid cells of predominant non-residential (NRES) use. Estimates are based on the [built-up surface](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_S) and [building height](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_H) products.
 More information about the GHSL data products can be found in the [GHSL Data Package 2023 report](https://ghsl.jrc.ec.europa.eu/documents/GHSL_Data_Package_2023.pdf?t=1683540422)
 The Global Human Settlement Layer (GHSL) project is supported by the European Commission, Joint Research Centre, and Directorate-General for Regional and Urban Policy.
+### Bands
 **Pixel Size** 100 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `built_volume_total` | m^3 | Total building volume per grid cell  
 `built_volume_nres` | m^3 | Non-residential building volume per grid cell  
+### Terms of Use
 **Terms of Use**
 The GHSL has been produced by the European Commission Joint Research Centre as open and free data. Reuse is authorised, provided the source is acknowledged. For more information, please read the use conditions ([European Commission Reuse and Copyright Notice](https://ec.europa.eu/info/legal-notice_en)).
+### Citations
 Citations:
   * Dataset : Pesaresi, Martino; Politis, Panagiotis (2023):GHS-BUILT-V R2023A - GHS built-up volume grids derived from joint assessment of Sentinel2, Landsat, and global DEM data, multitemporal (1975-2030). European Commission, Joint Research Centre (JRC) [PID: http://data.europa.eu/89h/ab2f107a-03cd-47a3-85e5-139d8ec63283](http://data.europa.eu/89h/ab2f107a-03cd-47a3-85e5-139d8ec63283) [doi:10.2905/AB2F107A-03CD-47A3-85E5-139D8EC63283](https://doi.org/10.2905/AB2F107A-03CD-47A3-85E5-139D8EC63283)
   * Methodology : Pesaresi, Martino, Marcello Schiavina, Panagiotis Politis, Sergio Freire, Katarzyna Krasnodebska, Johannes H. Uhl, Alessandra Carioli, et al. (2024). Advances on the Global Human Settlement Layer by Joint Assessment of Earth Observation and Population Survey Data. International Journal of Digital Earth 17(1). [doi:10.1080/17538947.2024.2390454](https://doi.org/10.1080/17538947.2024.2390454).
 
 
+### DOIs
   * [ https://doi.org/10.1080/17538947.2024.2390454 ](https://doi.org/10.1080/17538947.2024.2390454)
   * [ https://doi.org/10.2905/AB2F107A-03CD-47A3-85E5-139D8EC63283 ](https://doi.org/10.2905/AB2F107A-03CD-47A3-85E5-139D8EC63283)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_V#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varimage_1975=ee.Image('JRC/GHSL/P2023A/GHS_BUILT_V/1975');
 varimage_2020=ee.Image('JRC/GHSL/P2023A/GHS_BUILT_V/2020');

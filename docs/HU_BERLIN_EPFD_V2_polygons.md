@@ -1,6 +1,6 @@
  
 #  European Primary Forest Dataset - Polygons 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![HU_BERLIN/EPFD/V2/polygons](https://developers.google.com/earth-engine/datasets/images/HU_BERLIN/HU_BERLIN_EPFD_V2_polygons_sample.png) 
 
 Dataset Availability
@@ -14,9 +14,10 @@ Earth Engine Snippet
 
 Tags
      [europe](https://developers.google.com/earth-engine/datasets/tags/europe) [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_polygons#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_polygons#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_polygons#terms-of-use) More
+#### Description
 European primary forest data harmonizes 48 different, mostly field-based datasets of primary forests, and contains 18,411 individual patches (41.1 Mha) spread across 33 countries. It includes includes mainly old-growth, late-successional forests, but also some early seral stages and young forests that originated after natural disturbances and natural regeneration, without subsequent management.
 For more information, including a complete list of authors and their affiliations, please see the [dataset documentation](https://www.nature.com/articles/s41597-021-00988-7) This dataset is a polygon-based, where each polygon represents a primary forest with boundaries.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -125,11 +126,12 @@ THREATS_2 | INT | Threat (if any) that is most likely to endanger the primary fo
 Area_ha | DOUBLE | Area of the forest polygon in ha  
 SHAPE_Area | DOUBLE | Area of the polygon  
 SHAPE_Leng | DOUBLE | Length of the polygon  
+### Terms of Use
 **Terms of Use**
 European primary forest datasets are provided under the CC BY 4.0 license, which allows for most commmercial, noncommercial, and academic uses. See [provider terms of use](https://www.nature.com/articles/s41597-021-00988-7#Tab3:%7E:text=Full%20size%20table-,Rights%20and%20permissions,-Open%20Access%20This).
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_polygons#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('HU_BERLIN/EPFD/V2/polygons');
 Map.setCenter(39.64,61.11,4);

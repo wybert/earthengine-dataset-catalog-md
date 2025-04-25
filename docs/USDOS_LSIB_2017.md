@@ -1,6 +1,6 @@
  
 #  LSIB 2017: Large Scale International Boundary Polygons, Detailed 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USDOS/LSIB/2017](https://developers.google.com/earth-engine/datasets/images/USDOS/USDOS_LSIB_2017_sample.png) 
 
 Dataset Availability
@@ -14,18 +14,20 @@ Earth Engine Snippet
 
 Tags
      [borders](https://developers.google.com/earth-engine/datasets/tags/borders) [countries](https://developers.google.com/earth-engine/datasets/tags/countries) [dos](https://developers.google.com/earth-engine/datasets/tags/dos) [infrastructure-boundaries](https://developers.google.com/earth-engine/datasets/tags/infrastructure-boundaries) [political](https://developers.google.com/earth-engine/datasets/tags/political) [table](https://developers.google.com/earth-engine/datasets/tags/table) [usdos](https://developers.google.com/earth-engine/datasets/tags/usdos)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_2017#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_2017#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_2017#terms-of-use) More
+#### Description
 The United States Office of the Geographer provides the Large Scale International Boundary (LSIB) dataset. It is derived from two other datasets: a LSIB line vector file and the World Vector Shorelines (WVS) from the National Geospatial-Intelligence Agency (NGA). The interior boundaries reflect U.S. government policies on boundaries, boundary disputes, and sovereignty. The exterior boundaries are derived from the WVS; however, the WVS coastline data is outdated and generally shifted from between several hundred meters to over a kilometer. Each feature is the polygonal area enclosed by interior boundaries and exterior coastlines where applicable, and many countries consist of multiple features, one per disjoint region. Each of the 180,741 features is a part of the geometry of one of the 284 countries described in this dataset.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
 OBJECTID | STRING | Object ID  
 COUNTRY_NA | STRING | US-recognized country name  
+### Terms of Use
 **Terms of Use**
 There are no restrictions on use of this US public domain data.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_2017#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('USDOS/LSIB/2017');
 varstyleParams={
@@ -41,7 +43,7 @@ Map.addLayer(countries,{},'USDOS/LSIB/2017',true,0.8);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_2017#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('USDOS/LSIB/2017_FeatureView');
 varvisParams={

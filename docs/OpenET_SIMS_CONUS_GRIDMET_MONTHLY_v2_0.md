@@ -1,6 +1,6 @@
  
 #  OpenET SIMS Monthly Evapotranspiration v2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenET/SIMS/CONUS/GRIDMET/MONTHLY/v2_0](https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0_sample.png) 
 
 Dataset Availability
@@ -17,16 +17,18 @@ Cadence
 
 Tags
      [evapotranspiration](https://developers.google.com/earth-engine/datasets/tags/evapotranspiration) [gridmet-derived](https://developers.google.com/earth-engine/datasets/tags/gridmet-derived) [landsat-derived](https://developers.google.com/earth-engine/datasets/tags/landsat-derived) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [openet](https://developers.google.com/earth-engine/datasets/tags/openet) [water](https://developers.google.com/earth-engine/datasets/tags/water) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0#dois) More
+#### Description
 Satellite Irrigation Management Support
 The NASA Satellite Irrigation Management Support (SIMS) model was originally developed to support satellite mapping of crop coefficients and evapotranspiration (ET) from irrigated lands and to increase access to this data to support use in irrigation scheduling and regional assessment of agricultural water needs (Melton et al., 2012). SIMS uses a reflectance based approach and incorporates the density coefficient described by Allen and Pereira (2009) and Pereira et al. (2020) to compute basal crop coefficients for each 30 x 30 m pixel. The primary change from the most recent SIMS publication (Pereira et al., 2020) for implementation in OpenET is the integration of a gridded soil water balance model to account for soil evaporation following precipitation events. Results of the OpenET Phase I intercomparison and accuracy assessment (Melton et al., 2022) showed that SIMS generally performed well for cropland sites during the growing season, but had a persistent low bias during the winter months or other time periods with frequent precipitation. This result was anticipated, since the reflectance-based approach used by SIMS is not sensitive to soil evaporation. To correct for this underestimation, a soil water balance model based on FAO-56 (Allen et al., 1998) was implemented on Google Earth Engine and driven with gridded precipitation data from gridMET to estimate soil evaporation coefficients. These coefficients were then combined with the basal crop coefficients calculated by SIMS to calculate total crop evapotranspiration using the dual crop coefficient approach. In addition, a modest positive bias was observed in the SIMS data for periods with low or sparse vegetative cover. To correct for this bias, updates were made to the equations that calculate the minimum basal crop coefficient to allow lower minimum basal crop coefficient values to be achieved. Full documentation of the SIMS model, current algorithms, and details and equations used in the soil water balance model are included in the SIMS user manual.
 The SIMS model calculates ET under well-watered conditions for the current crop growth stage and condition as measured by the satellite data, and SIMS is generally expected to have a positive bias for deficit irrigated crops and croplands with short-term or intermittent crop water stress. At present, SIMS is only implemented for croplands, and non-agricultural lands are masked out in this data collection. Future research will extend the vegetation density-crop coefficient approach used within SIMS to other land cover types. [Additional information](https://openetdata.org/methodologies/)
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `et` | mm | SIMS ET value  
 `count` | count | Number of cloud free values  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -47,8 +49,10 @@ model_version | STRING | OpenET model version
 scale_factor_count | DOUBLE | Scaling factor that should be applied to the count band  
 scale_factor_et | DOUBLE | Scaling factor that should be applied to the et band  
 start_date | STRING | Start date of month  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Melton, F., Huntington, J., Grimm, R., Herring, J., Hall, M., Rollison, D., Erickson, T., Allen, R., Anderson, M., Fisher, J., Kilic, A., Senay, G., volk, J., Hain, C., Johnson, L., Ruhoff, A., Blanenau, P., Bromley, M., Carrara, W., Daudert, B., Doherty, C., Dunkerly, C., Friedrichs, M., Guzman, A., Halverson, G., Hansen, J., Harding, J., Kang, Y., Ketchum, D., Minor, B., Morton, C., Revelle, P., Ortega-Salazar, S., Ott, T., Ozdogon, M., Schull, M., Wang, T., Yang, Y., Anderson, R., 2021. "OpenET: Filling a Critical Data Gap in Water Management for the Western United States. "Journal of the American Water Resources Association, 58(6), pp.971-994. [doi:10.1111/1752-1688.12956](https://doi.org/10.1111/1752-1688.12956)
   * Pereira, L.S., P. Paredes, F.S. Melton, L.F. Johnson, R. López-Urrea, J. Cancela, and R.G. Allen. 2020. "Prediction of Basal Crop Coefficients from Fraction of Ground Cover and Height." Agricultural Water Management, Special Issue on Updates to the FAO56 Crop Water Requirements Method 241, 106197. [doi:10.1016/j.agwat.2020.106197](https://doi.org/10.1016/j.agwat.2020.106197)
@@ -57,12 +61,13 @@ Citations:
   * Allen, R.G., Pereira, L.S., Raes, D. and Smith, M., 1998. Crop evapotranspiration-Guidelines for computing crop water requirements-FAO Irrigation and drainage paper 56. Fao, Rome, 300 (9), p.D05109. <https://www.fao.org/3/x0490e/x0490e00.htm>
 
 
+### DOIs
   * [ https://doi.org/10.1111/1752-1688.12956 ](https://doi.org/10.1111/1752-1688.12956)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('OpenET/SIMS/CONUS/GRIDMET/MONTHLY/v2_0')
 .filterDate('2020-01-01','2021-01-01');

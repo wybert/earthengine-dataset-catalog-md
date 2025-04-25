@@ -1,6 +1,6 @@
  
 #  Global ALOS Topographic Diversity 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![CSP/ERGo/1_0/Global/ALOS_topoDiversity](https://developers.google.com/earth-engine/datasets/images/CSP/CSP_ERGo_1_0_Global_ALOS_topoDiversity_sample.png) 
 
 Dataset Availability

@@ -1,10 +1,10 @@
  
 #  MERRA-2 M2T1NXFLX: Surface Flux Diagnostics V5.12.4 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GSFC/MERRA/flx/2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GSFC_MERRA_flx_2_sample.png) 
 
 Dataset Availability
-    1980-01-01T00:00:00Z–2025-03-01T23:00:00Z 
+    1980-01-01T00:00:00Z–2025-04-01T23:00:00Z 
 
 Dataset Provider
      [ NASA/MERRA ](https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/) 
@@ -17,9 +17,10 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [merra](https://developers.google.com/earth-engine/datasets/tags/merra) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [sea-salt](https://developers.google.com/earth-engine/datasets/tags/sea-salt) [so2](https://developers.google.com/earth-engine/datasets/tags/so2) [so4](https://developers.google.com/earth-engine/datasets/tags/so4) [soil-moisture](https://developers.google.com/earth-engine/datasets/tags/soil-moisture)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_flx_2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_flx_2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_flx_2#terms-of-use) More
+#### Description
 M2T1NXFLX (or tavg1_2d_flx_Nx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of assimilated surface flux diagnostics, such as total precipitation, bias corrected total precipitation, surface air temperature, surface specific humidity, surface wind speed, and evaporation from turbulence. The "surface" in this data collection is the model surface layer. The heights of the model surface layer (HLML) vary with time and location, with the value of ~60 meters above ground. The data field is time-stamped with the central time of an hour starting from 00:30 UTC, e.g.: 00:30, 01:30, ... , 23:30 UTC.
 MERRA-2 is the latest version of global atmospheric reanalysis for the satellite era produced by [NASA Global Modeling and Assimilation Office (GMAO)](https://gmao.gsfc.nasa.gov/) using the [Goddard Earth Observing System Model (GEOS)](https://gmao.gsfc.nasa.gov/GEOS_systems/) version 5.12.4. The dataset covers the period of 1980-present with the latency of ~3 weeks after the end of a month.
+### Bands
 **Pixel Size** 69375 meters 
 **Y Pixel Size** 55000 meters 
 **Bands**
@@ -29,14 +30,14 @@ Name | Units | Min | Max | Description
 `CDH` | kg/m^2/s |  8e-06*  |  0.522482*  | Surface exchange coefficient for heat  
 `CDM` | kg/m^2/s |  5e-06*  |  0.518079*  | Surface exchange coefficient for momentum  
 `CDQ` | kg/m^2/s |  8e-06*  |  0.522482*  | Surface exchange coefficient for moisture  
-`CN` |  0.000646*  |  0.032227*  | Surface neutral drag coefficient  
+`CN` |  |  0.000646*  |  0.032227*  | Surface neutral drag coefficient  
 `DISPH` | m |  0*  |  23.0781*  | Zero plane displacement height  
 `EFLUX` | W/m^2 |  -308.949*  |  1655.85*  | Total latent energy flux  
 `EVAP` | kg/m^2/s |  -0.00011*  |  0.000673*  | Evaporation from turbulence  
-`FRCAN` |  0*  |  1*  | Areal fraction of anvil showers  
-`FRCCN` |  0*  |  0.423096*  | Areal fraction of convective showers  
-`FRCLS` |  0*  |  1*  | Areal fraction of nonanvil large scale showers  
-`FRSEAICE` |  0*  |  1*  | Ice covered fraction of tile  
+`FRCAN` |  |  0*  |  1*  | Areal fraction of anvil showers  
+`FRCCN` |  |  0*  |  0.423096*  | Areal fraction of convective showers  
+`FRCLS` |  |  0*  |  1*  | Areal fraction of nonanvil large scale showers  
+`FRSEAICE` |  |  0*  |  1*  | Ice covered fraction of tile  
 `GHTSKIN` | W/m^2 |  -245.078*  |  1e+15*  | Ground heating for skin temperature  
 `HFLUX` | W/m^2 |  -1181.24*  |  686.742*  | Sensible heat flux from turbulence  
 `HLML` | m |  42.3642*  |  71.0599*  | Surface layer height  
@@ -51,11 +52,11 @@ Name | Units | Min | Max | Description
 `PRECTOTCORR` | kg/m^2/s |  0*  |  0.110565*  | Total precipitation  
 `PRECTOT` | kg/m^2/s |  0*  |  0.017509*  | Total precipitation  
 `PREVTOT` | kg/m^2/s |  0*  |  0.001474*  | Total column re-evaporation/sublimation of precipitation  
-`QLML` |  0*  |  0.034333*  | Surface specific humidity  
+`QLML` |  |  0*  |  0.034333*  | Surface specific humidity  
 `QSH` | Mass fraction |  0*  |  0.044069*  | Effective surface specific humidity  
 `QSTAR` | Mass fraction |  -0.000139*  |  0.005463*  | Surface moisture scale  
 `RHOA` | kg/m^3 |  0.658498*  |  1.68283*  | Air density at surface  
-`RISFC` |  -318.273*  |  578.05*  | Surface bulk Richardson number  
+`RISFC` |  |  -318.273*  |  578.05*  | Surface bulk Richardson number  
 `SPEEDMAX` | m/s |  0.074227*  |  49.4767*  | Surface wind speed  
 `SPEED` | m/s |  0.061141*  |  49.3541*  | Surface wind speed  
 `TAUGWX` | N/m^2 |  -3.06294*  |  5.8716*  | Surface eastward gravity wave stress  
@@ -72,11 +73,12 @@ Name | Units | Min | Max | Description
 `Z0H` | m |  1e-05*  |  4.54622*  | Surface roughness for heat  
 `Z0M` | m |  1e-05*  |  4.54622*  | Surface roughness  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 NASA promotes the full and open sharing of all data with research and applications communities, private industry, academia, and the general public.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_flx_2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/GSFC/MERRA/flx/2')
 .filter(ee.Filter.date('2022-02-01','2022-02-02'));
@@ -93,7 +95,7 @@ Map.addLayer(surface_buoyancy_scale,sbsVis,'Surface buoyancy scale');
 [ MERRA-2 M2T1NXFLX: Surface Flux Diagnostics V5.12.4 ](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_flx_2)
 M2T1NXFLX (or tavg1_2d_flx_Nx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of assimilated surface flux diagnostics, such as total precipitation, bias corrected total precipitation, surface air temperature, surface specific humidity, surface wind speed, and evaporation from turbulence. The …
 NASA/GSFC/MERRA/flx/2, climate,merra,precipitation,sea-salt,so2,so4,soil-moisture 
-1980-01-01T00:00:00Z/2025-03-01T23:00:00Z
+1980-01-01T00:00:00Z/2025-04-01T23:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

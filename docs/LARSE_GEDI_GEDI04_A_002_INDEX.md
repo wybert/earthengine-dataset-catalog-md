@@ -1,6 +1,6 @@
  
 #  GEDI L4A table index 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI04_A_002_INDEX](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI04_A_002_INDEX_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [gedi](https://developers.google.com/earth-engine/datasets/tags/gedi) [larse](https://developers.google.com/earth-engine/datasets/tags/larse) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [table](https://developers.google.com/earth-engine/datasets/tags/table) [tree-cover](https://developers.google.com/earth-engine/datasets/tags/tree-cover) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX#citations) More
+#### Description
 This is a feature collection created from the geometries of L4A tables in [LARSE/GEDI/GEDI04_A_002](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002). Each feature is a polygon footprint of a source table with its asset id and start/end timestamps.
 Please see [User Guide](https://daac.ornl.gov/GEDI/guides/GEDI_L4A_AGB_Density_V2_1.html) for more information.
 The Global Ecosystem Dynamics Investigation [GEDI](https://gedi.umd.edu/) mission aims to characterize ecosystem structure and dynamics to enable radically improved quantification and understanding of the Earth's carbon cycle and biodiversity. The GEDI instrument, attached to the International Space Station (ISS), collects data globally between 51.6° N and 51.6° S latitudes at the highest resolution and densest sampling of the 3-dimensional structure of the Earth. The GEDI instrument consists of three lasers producing a total of eight beam ground transects, which instantaneously sample eight ~25 m footprints spaced approximately every 60 m along-track.
@@ -30,21 +30,24 @@ L4A Biomass Vector | [LARSE/GEDI/GEDI04_A_002](https://developers.google.com/ear
 L4A Monthly raster | [LARSE/GEDI/GEDI04_A_002_MONTHLY](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_MONTHLY)  
 L4A table index | [LARSE/GEDI/GEDI04_A_002_INDEX](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX)  
 L4B Biomass | [LARSE/GEDI/GEDI04_B_002](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_B_002)  
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
 table_id | STRING | GEDI L4A table collection Ids  
 time_start | STRING | GEDI L4A table start time in the ISO 8601 format  
 time_end | STRING | GEDI L4A table end time in the ISO 8601 format  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * GEDI L4A Footprint Level Aboveground Biomass Density, Version 2.1. Dubayah, R.O., J. Armston, J.R. Kellner, L. Duncanson, S.P. Healey, P.L. Patterson, S. Hancock, H. Tang, J. Bruening, M.A. Hofton, J.B. Blair, and S.B. Luthcke. 2022. ORNL DAAC, Oak Ridge, Tennessee, USA. [doi:10.3334/ORNLDAAC/2056](https://doi.org/10.3334/ORNLDAAC/2056)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varrectangle=ee.Geometry.Rectangle([
 -111.22,24.06,-6.54,51.9

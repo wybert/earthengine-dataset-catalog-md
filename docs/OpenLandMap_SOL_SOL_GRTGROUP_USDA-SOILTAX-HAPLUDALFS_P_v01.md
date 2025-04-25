@@ -1,6 +1,6 @@
  
 #  OpenLandMap Predicted Hapludalfs Probability 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/SOL/SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P/v01](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01_sample.png) 
 
 Dataset Availability
@@ -16,7 +16,7 @@ Tags
      [envirometrix](https://developers.google.com/earth-engine/datasets/tags/envirometrix) [opengeohub](https://developers.google.com/earth-engine/datasets/tags/opengeohub) [openlandmap](https://developers.google.com/earth-engine/datasets/tags/openlandmap) [soil](https://developers.google.com/earth-engine/datasets/tags/soil)
 argillic
 hapludalfs
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01#dois) More
+#### Description
 Predicted USDA soil great groups at 250 m (probabilities).
 Distribution of the USDA soil great groups based on machine learning predictions from global compilation of soil profiles. To learn more about soil great groups please refer to the [Illustrated Guide to Soil Taxonomy - NRCS - USDA](https://www.nrcs.usda.gov/wps/PA_NRCSConsumption/download/?cid=stelprdb1247203.pdf).
   * Processing steps are described in detail [here](https://gitlab.com/openlandmap/global-layers/tree/master/soil)
@@ -29,24 +29,28 @@ If you discover a bug, artifact or inconsistency in the LandGIS maps or if you h
   * [General questions and comments](https://disqus.com/home/forums/landgis/)
 
 
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `grtgroup` | % |  0*  |  35*  | Predicted Hapludalfs probability  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html)
+### Citations
 Citations:
   * Tomislav Hengl, & Travis Nauman. (2018). Predicted USDA soil great groups at 250 m (probabilities) (Version v01) [Data set]. Zenodo. [10.5281/zenodo.1476844](https://doi.org/10.5281/zenodo.1476844)
 
 
+### DOIs
   * [ https://doi.org/10.5281/zenodo.1476844 ](https://doi.org/10.5281/zenodo.1476844)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P_v01#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('OpenLandMap/SOL/SOL_GRTGROUP_USDA-SOILTAX-HAPLUDALFS_P/v01');
 varvisualization={

@@ -28,9 +28,9 @@ See also:
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`discrete_classification` |  0  |  200  | Land cover classification  
+`discrete_classification` |  |  0  |  200  | Land cover classification  
 `discrete_classification-proba` | % |  0  |  100  | Quality indicator (classification probability) of the discrete classification  
-`forest_type` |  0  |  5  | Forest type for all pixels with tree percentage vegetation cover bigger than 1 %  
+`forest_type` |  |  0  |  5  | Forest type for all pixels with tree percentage vegetation cover bigger than 1 %  
 `bare-coverfraction` | % |  0  |  100  | Percent vegetation cover for bare-sparse-vegetation land cover class  
 `crops-coverfraction` | % |  0  |  100  | Percent vegetation cover for cropland land cover class  
 `grass-coverfraction` | % |  0  |  100  | Percent vegetation cover for herbaceous vegetation land cover class  
@@ -41,8 +41,8 @@ Name | Units | Min | Max | Description
 `urban-coverfraction` | % |  0  |  100  | Percent ground cover for built-up land cover class  
 `water-permanent-coverfraction` | % |  0  |  100  | Percent ground cover for permanent water land cover class  
 `water-seasonal-coverfraction` | % |  0  |  100  | Percent ground cover for seasonal water land cover class  
-`data-density-indicator` |  0  |  100  | Data density indicator for algorithm input data  
-`change-confidence` |  0  |  3  | This layer is only provided for years after the BaseYear 2015.
+`data-density-indicator` |  |  0  |  100  | Data density indicator for algorithm input data  
+`change-confidence` |  |  0  |  3  | This layer is only provided for years after the BaseYear 2015.
   * 0 - No change. No change in discrete class between year and previous year detected.
   * 1 - Potential change. BFASTmon detected break in second half of NRT year - potential change.
   * 2 - Medium confidence. Imprint of urban, permanent water, snow or wetland OR change detected by BFAST but HMM model didn't confirm this break in higher resolution OR change detected by BFASTmon in the first half of NRT year.

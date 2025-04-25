@@ -1,6 +1,6 @@
  
 #  OGIM: Oil and Gas Infrastructure Mapping Database v2.5.1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![EDF/OGIM/current](https://developers.google.com/earth-engine/datasets/images/EDF/EDF_OGIM_current_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [edf](https://developers.google.com/earth-engine/datasets/tags/edf) [emissions](https://developers.google.com/earth-engine/datasets/tags/emissions) [ghg](https://developers.google.com/earth-engine/datasets/tags/ghg) [infrastructure-boundaries](https://developers.google.com/earth-engine/datasets/tags/infrastructure-boundaries) [methane](https://developers.google.com/earth-engine/datasets/tags/methane) [methaneair](https://developers.google.com/earth-engine/datasets/tags/methaneair) [methanesat](https://developers.google.com/earth-engine/datasets/tags/methanesat) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/EDF_OGIM_current#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/EDF_OGIM_current#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/EDF_OGIM_current#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/EDF_OGIM_current#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/EDF_OGIM_current#dois) More
+#### Description
 This dataset provides the locations of oil and gas (O&G) related infrastructure globally.
 The Oil and Gas Infrastructure Mapping (OGIM) database is a project developed by the Environmental Defense Fund (EDF) and [MethaneSAT LLC](https://www.methanesat.org/), a wholly-owned subsidiary of EDF. The primary objective of developing a standardized O&G infrastructure database such as OGIM is to support MethaneSAT's emission quantification, source characterization, and other scientific- or advocacy-relevant analyses of methane emissions from the oil and gas sector. The OGIM database is developed based on the acquisition, analysis, and quality assurance of publicly available geospatial data sources of O&G facilities, which are combined within one standard data schema and coordinate reference system.
 This dataset contains the spatial locations of the following types of infrastructure assets:
@@ -42,6 +42,7 @@ Important notes about the attributes associated with these facility locations:
 For more information about the OGIM database, including methods used in its development and key applications of the database, please refer to the recent publication by [Omara et al, 2023](https://doi.org/10.5194/essd-15-3761-2023).
 Contact the data provider for more information about the project at this link: <https://www.methanesat.org/contact/>
 This dataset will be updated in-place with the new versions.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -72,18 +73,21 @@ FAC_STATUS | STRING | Operational status of the infrastructure asset, according 
 FAC_TYPE | STRING | Detailed information on type of facility.  
 OGIM_STATUS | STRING | Standardized version of the facility status reported by the original data source. The original statuses were binned into one of 12 categories defined by EDF.  
 OPERATOR | STRING | Name of the facility's operator, according to the original source at time of publication.  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Omara, M., Gautam, R., O'Brien, M., Himmelberger, A., Franco, A., Meisenhelder, K., Hauser, G., Lyon, D., Chulakadaba, A., Miller, C. and Franklin, J., 2023. Developing a spatially explicit global oil and gas infrastructure database for characterizing methane emission sources at high resolution. Earth System Science Data Discussions, 2023, pp.1-35. [doi:10.5194/essd-15-3761-2023](https://doi.org/10.5194/essd-15-3761-2023),
 
 
+### DOIs
   * [ https://doi.org/10.5194/essd-15-3761-2023 ](https://doi.org/10.5194/essd-15-3761-2023)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/EDF_OGIM_current#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection("EDF/OGIM/current");
 vardatasetVis=dataset.style({
@@ -100,7 +104,7 @@ Map.addLayer(datasetVis,{},'oil and gas infrastructure');
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/EDF_OGIM_current#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('EDF/OGIM/current_FeatureView');
 varvisParams={

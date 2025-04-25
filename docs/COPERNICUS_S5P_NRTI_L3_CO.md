@@ -1,10 +1,10 @@
  
 #  Sentinel-5P NRTI CO: Near Real-Time Carbon Monoxide 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S5P/NRTI/L3_CO](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_NRTI_L3_CO_sample.png) 
 
 Dataset Availability
-    2018-11-22T12:00:13Z–2025-04-21T08:26:30Z 
+    2018-11-22T12:00:13Z–2025-04-24T09:11:30Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -17,7 +17,7 @@ Revisit Interval
 
 Tags
      [air-quality](https://developers.google.com/earth-engine/datasets/tags/air-quality) [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [carbon-monoxide](https://developers.google.com/earth-engine/datasets/tags/carbon-monoxide) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [knmi](https://developers.google.com/earth-engine/datasets/tags/knmi) [pollution](https://developers.google.com/earth-engine/datasets/tags/pollution) [s5p](https://developers.google.com/earth-engine/datasets/tags/s5p) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel) [sron](https://developers.google.com/earth-engine/datasets/tags/sron) [tropomi](https://developers.google.com/earth-engine/datasets/tags/tropomi)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO#terms-of-use) More
+#### Description
 ### NRTI/L3_CO
 This dataset provides near real-time high-resolution imagery of CO concentrations.
 Carbon monoxide (CO) is an important atmospheric trace gas for understanding tropospheric chemistry. In certain urban areas, it is a major atmospheric pollutant. Main sources of CO are combustion of fossil fuels, biomass burning, and atmospheric oxidation of methane and other hydrocarbons. Whereas fossil fuel combustion is the main source of CO at northern mid-latitudes, the oxidation of isoprene and biomass burning play an important role in the tropics. TROPOMI on the Sentinel 5 Precursor (S5P) satellite observes the CO global abundance exploiting clear-sky and cloudy-sky Earth radiance measurements in the 2.3 μm spectral range of the shortwave infrared (SWIR) part of the solar spectrum. TROPOMI clear sky observations provide CO total columns with sensitivity to the tropospheric boundary layer. For cloudy atmospheres, the column sensitivity changes according to the light path. [More information.](http://www.tropomi.eu/data-products/carbon-monoxide)
@@ -37,6 +37,7 @@ The conversion to L3 is done by the [harpconvert](https://cdn.rawgit.com/stcorp/
 
 
 The O3_TCL product is ingested directly (without running harpconvert).
+### Bands
 **Pixel Size** 1113.2 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -50,6 +51,7 @@ Name | Units | Min | Max | Description
 `solar_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North.  
 `solar_zenith_angle` | deg |  9*  |  80*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -73,11 +75,12 @@ SPATIAL_RESOLUTION | STRING | Spatial resolution at nadir. For most products thi
 TIME_REFERENCE_DAYS_SINCE_1950 | INT | Days from 1 Jan 1950 to when the data was acquired.  
 TIME_REFERENCE_JULIAN_DAY | DOUBLE | The Julian day number when the data was acquired.  
 TRACKING_ID | STRING | UUID for the L2 product file.  
+### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('COPERNICUS/S5P/NRTI/L3_CO')
 .select('CO_column_number_density')
@@ -94,7 +97,7 @@ Map.setCenter(-25.01,-4.28,4);
 [ Sentinel-5P NRTI CO: Near Real-Time Carbon Monoxide ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO)
 NRTI/L3_CO This dataset provides near real-time high-resolution imagery of CO concentrations. Carbon monoxide (CO) is an important atmospheric trace gas for understanding tropospheric chemistry. In certain urban areas, it is a major atmospheric pollutant. Main sources of CO are combustion of fossil fuels, biomass burning, and atmospheric oxidation of methane …
 COPERNICUS/S5P/NRTI/L3_CO, air-quality,atmosphere,carbon-monoxide,copernicus,esa,eu,knmi,pollution,s5p,sentinel,sron,tropomi 
-2018-11-22T12:00:13Z/2025-04-21T08:26:30Z
+2018-11-22T12:00:13Z/2025-04-24T09:11:30Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

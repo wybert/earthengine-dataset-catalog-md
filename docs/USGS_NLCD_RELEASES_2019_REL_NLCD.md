@@ -1,6 +1,6 @@
  
 #  NLCD 2019: USGS National Land Cover Database, 2019 release 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2019_REL/NLCD](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2019_REL_NLCD_sample.png) 
 
 Dataset Availability
@@ -14,17 +14,18 @@ Earth Engine Snippet
 
 Tags
      [blm](https://developers.google.com/earth-engine/datasets/tags/blm) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [mrlc](https://developers.google.com/earth-engine/datasets/tags/mrlc) [nlcd](https://developers.google.com/earth-engine/datasets/tags/nlcd) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD#dois) More
+#### Description
 NLCD (the National Land Cover Database) is a 30-m Landsat-based land cover database spanning 8 epochs (2001, 2004, 2006, 2008, 2011, 2013, 2016, and 2019). A ninth epoch for 2021 is also available [here](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_NLCD). The images rely on the imperviousness data layer for the urban classes and on a decision-tree classification for the rest.
 This dataset has one image for the continental US for each epoch. Alaska, Hawaii, and Puerto Rico data can be found in the previous [2016 NLCD release](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2016_REL).
 NLCD products are created by the Multi-Resolution Land Characteristics (MRLC) Consortium, a partnership of federal agencies led by the U.S. Geological Survey.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`landcover` |  11  |  95  | All images include the landcover classification scheme described in the [Product Legend](https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description). The legends are also available as metadata on each image. The classes in the product legend are given below.  
+`landcover` |  |  11  |  95  | All images include the landcover classification scheme described in the [Product Legend](https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description). The legends are also available as metadata on each image. The classes in the product legend are given below.  
 `impervious` | % |  0  |  100  | Percent of the pixel covered by developed impervious surface.  
-`impervious_descriptor` |  1  |  12  | Defines which impervious layer pixels are roads and provides the best fit description for impervious pixels that are not roads.  
+`impervious_descriptor` |  |  1  |  12  | Defines which impervious layer pixels are roads and provides the best fit description for impervious pixels that are not roads.  
 **landcover Class Table**
 Value | Color | Description  
 ---|---|---  
@@ -62,6 +63,7 @@ Value | Color | Description
 27 | #40dfd0 | Wind turbines. Pixels derived from the US Wind Turbine Dataset, accessed on 1/9/2020.   
 28 | #79ff00 | Well pads. Pixels derived from the 2019 Oil and Natural Gas Wells dataset from the Oak Ridge National Laboratory.   
 29 | #005f00 | Other energy production. Areas previously identified as well pads and wind turbines and classified in coordination with the Landfire project.   
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -71,18 +73,21 @@ landcover_class_values | DOUBLE | Landcover class values
 impervious_descriptor_class_names | DOUBLE | Impervious descriptor class names  
 impervious_descriptor_class_palette | DOUBLE | Impervious descriptor class palette  
 impervious_descriptor_class_values | DOUBLE | Impervious descriptor class values  
+### Terms of Use
 **Terms of Use**
 Most U.S. Geological Survey (USGS) information is federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction. Additional information on [Acknowledging or Crediting USGS as Information Source](https://www.usgs.gov/centers/eros/data-citation) is available.
+### Citations
 Citations:
   * Dewitz, J., and U.S. Geological Survey, 2021, National Land Cover Database (NLCD) 2019 Products (ver. 2.0, June 2021): U.S. Geological Survey data release, [doi:10.5066/P9KZCM54](https://doi.org/10.5066/P9KZCM54)
 
 
+### DOIs
   * [ https://doi.org/10.5066/P9KZCM54 ](https://doi.org/10.5066/P9KZCM54)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Import the NLCD collection.
 vardataset=ee.ImageCollection('USGS/NLCD_RELEASES/2019_REL/NLCD');

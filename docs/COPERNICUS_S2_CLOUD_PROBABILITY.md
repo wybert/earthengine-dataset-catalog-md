@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S2_CLOUD_PROBABILITY](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_CLOUD_PROBABILITY_sample.png) 
 
 Dataset Availability
-    2015-06-27T00:00:00Z–2025-04-22T14:17:39Z 
+    2015-06-27T00:00:00Z–2025-04-24T19:58:59Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus/SentinelHub ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/processing-levels/level-1) 
@@ -77,7 +77,7 @@ true);
 [ Sentinel-2: Cloud Probability ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY)
 The S2 cloud probability is created with the sentinel2-cloud-detector library (using LightGBM). All bands are upsampled using bilinear interpolation to 10m resolution before the gradient boost base algorithm is applied. The resulting 0..1 floating point probability is scaled to 0..100 and stored as an UINT8. Areas missing any or all …
 COPERNICUS/S2_CLOUD_PROBABILITY, cloud,copernicus,esa,eu,msi,radiance,satellite-imagery,sentinel 
-2015-06-27T00:00:00Z/2025-04-22T14:17:39Z
+2015-06-27T00:00:00Z/2025-04-24T19:58:59Z
 -56 -180 83 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

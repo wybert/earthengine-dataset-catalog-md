@@ -1,6 +1,6 @@
  
 #  NEX-DCP30: Ensemble Stats for NASA Earth Exchange Downscaled Climate Projections 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/NEX-DCP30_ENSEMBLE_STATS](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_NEX-DCP30_ENSEMBLE_STATS_sample.png) 
 
 Dataset Availability

@@ -1,10 +1,10 @@
  
 #  MCD19A1.061: Land Surface BRF Daily L2G Global 500m and 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MCD19A1_GRANULES](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD19A1_GRANULES_sample.png) 
 
 Dataset Availability
-    2000-12-21T00:00:00Z–2025-04-18T23:55:00Z 
+    2000-12-21T00:00:00Z–2025-04-19T23:55:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MCD19A1.061) 
@@ -17,8 +17,9 @@ Cadence
 
 Tags
      [aerosol](https://developers.google.com/earth-engine/datasets/tags/aerosol) [aod](https://developers.google.com/earth-engine/datasets/tags/aod) [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [global](https://developers.google.com/earth-engine/datasets/tags/global) [maiac](https://developers.google.com/earth-engine/datasets/tags/maiac) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [terra](https://developers.google.com/earth-engine/datasets/tags/terra) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A1_GRANULES#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A1_GRANULES#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A1_GRANULES#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A1_GRANULES#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A1_GRANULES#dois) More
+#### Description
 The MCD19A1 Version 6.1 data product is a Moderate Resolution Imaging Spectroradiometer (MODIS) Terra and Aqua combined Land Surface Bidirectional Reflectance Factor (BRF) gridded Level 2 product produced daily at 500 meter and 1 kilometer resolution. For more information see the [MAIAC user guide](https://lpdaac.usgs.gov/documents/1500/MCD19_User_Guide_V61.pdf).
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Min | Max | Scale | Description  
@@ -37,7 +38,7 @@ Name | Min | Max | Scale | Description
 `Sur_refl12` |  -100  |  16000  | 0.0001 | Surface reflectance at 1km for band 12.  
 `Sigma_BRFn1` |  -100  |  16000  | 0.0001 | BRFn uncertainty over time at 1km, for band 1  
 `Sigma_BRFn2` |  -100  |  16000  | 0.0001 | BRFn uncertainty over time at 1km, for band 2  
-`Status_QA` | QA bits  
+`Status_QA` |  |  |  | QA bits  
 Bitmask for Status_QA
   * Bits 0-2: Cloud mask 
     * 0: Undefined
@@ -87,20 +88,23 @@ Bitmask for Status_QA
 `SAZ` |  -18000  |  18000  | 0.01 | Solar Azimuth Angle (5 km resolution)  
 `VAZ` |  -18000  |  18000  | 0.01 | View Azimuth Angle (5 km resolution)  
 `Glint_Angle` |  -18000  |  18000  | 0.01 | Glint angle (5 km resolution)  
-`Fv` |  -100  |  100  | RTLS volumetric kernel (5 km resolution)  
-`Fg` |  -100  |  100  | RTLS geometric kernel (5 km resolution)  
+`Fv` |  -100  |  100  |  | RTLS volumetric kernel (5 km resolution)  
+`Fg` |  -100  |  100  |  | RTLS geometric kernel (5 km resolution)  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MCD19A1.061 ](https://doi.org/10.5067/MODIS/MCD19A1.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A1_GRANULES#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('MODIS/061/MCD19A1_GRANULES')
 .select('Sur_refl1')
@@ -117,7 +121,7 @@ Map.setCenter(76,13,6);
 [ MCD19A1.061: Land Surface BRF Daily L2G Global 500m and 1km ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD19A1_GRANULES)
 The MCD19A1 Version 6.1 data product is a Moderate Resolution Imaging Spectroradiometer (MODIS) Terra and Aqua combined Land Surface Bidirectional Reflectance Factor (BRF) gridded Level 2 product produced daily at 500 meter and 1 kilometer resolution. For more information see the MAIAC user guide.
 MODIS/061/MCD19A1_GRANULES, aerosol,aod,aqua,daily,global,maiac,modis,nasa,satellite-imagery,terra,usgs 
-2000-12-21T00:00:00Z/2025-04-18T23:55:00Z
+2000-12-21T00:00:00Z/2025-04-19T23:55:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

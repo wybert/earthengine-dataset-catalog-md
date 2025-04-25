@@ -1,6 +1,6 @@
  
 #  WRI Aqueduct Floods Hazard Maps Version 2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WRI/Aqueduct_Flood_Hazard_Maps/V2](https://developers.google.com/earth-engine/datasets/images/WRI/WRI_Aqueduct_Flood_Hazard_Maps_V2_sample.png) 
 
 Dataset Availability
@@ -14,16 +14,18 @@ Earth Engine Snippet
 
 Tags
      [flood](https://developers.google.com/earth-engine/datasets/tags/flood) [monitoring](https://developers.google.com/earth-engine/datasets/tags/monitoring) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water) [wri](https://developers.google.com/earth-engine/datasets/tags/wri)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Flood_Hazard_Maps_V2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Flood_Hazard_Maps_V2#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Flood_Hazard_Maps_V2#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Flood_Hazard_Maps_V2#terms-of-use) More
+#### Description
 Aqueduct Floods data measures riverine and coastal food risks under both current baseline conditions and future projections in 2030, 2050, and 2080. In addition to providing hazard maps and assessing risks, Aqueduct Floods helps to conduct comprehensive cost-benefit analysis to evaluate the value of dike flood protection strategies.
 Aqueduct Floods aims to empower disaster risk analysts and managers with quantitative information on food risks and adaptation strategy costs, and to help inform policy and investment decision-making.
 [This](https://files.wri.org/d8/s3fs-public/aqueduct-floods-methodology.pdf) technical note explains in detail the framework, methodology, and data used in developing Aqueduct Floods.
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `inundation_depth` | m |  0*  |  32.05*  | Flood inundation depth  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -59,11 +61,12 @@ model | STRING | Applies only for inunriver flood type, represents type of model
 
   
 year | INT | Flood occurence year  
+### Terms of Use
 **Terms of Use**
 The WRI datasets are available without restriction on use or distribution. WRI does request that the user give proper attribution and identify WRI, where applicable, as the source of the data. For more information check [WRI's open data commitment](https://www.wri.org/data/open-data-commitment),
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Flood_Hazard_Maps_V2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('WRI/Aqueduct_Flood_Hazard_Maps/V2');
 varinundationDepth=dataset.select('inundation_depth');

@@ -26,7 +26,7 @@ Name | Pixel Size | Wavelength | Description
 `B2` |  60 meters  | 0.6 - 0.7 μm | Red  
 `B3` |  60 meters  | 0.7 - 0.8 μm | Near Infrared 1  
 `B4` |  30 meters  | 0.8 - 1.1 μm | Near Infrared 2  
-`QA_PIXEL` |  30 meters  | Landsat Collection 2 MSS QA Bitmask  
+`QA_PIXEL` |  30 meters  |  | Landsat Collection 2 MSS QA Bitmask  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
     * 0: Image data
@@ -43,7 +43,7 @@ Bitmask for QA_PIXEL
     * 3: High confidence
 
   
-`QA_RADSAT` |  30 meters  | Radiometric saturation QA  
+`QA_RADSAT` |  30 meters  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 

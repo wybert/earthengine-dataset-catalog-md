@@ -1,6 +1,6 @@
  
 #  MYD14A2.061: Aqua Thermal Anomalies & Fire 8-Day Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD14A2](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD14A2_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ Cadence
 Tags
      [8-day](https://developers.google.com/earth-engine/datasets/tags/8-day) [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [global](https://developers.google.com/earth-engine/datasets/tags/global) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 myd14a2
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD14A2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD14A2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD14A2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD14A2#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD14A2#dois) More
+#### Description
 The MYD14A2 V6.1 dataset provides 8-day fire mask composites at 1km resolution. It contains the maximum value of the individual pixel classes over the compositing period. Along with the fire mask, an associated quality information layer is also provided.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/88/MOD14_User_Guide_v6.pdf)
@@ -26,6 +26,7 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MYD14A2)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Description  
@@ -56,18 +57,21 @@ Bitmask for QA
     * 1: Day
 
   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD14A2.061 ](https://doi.org/10.5067/MODIS/MYD14A2.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD14A2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD14A2')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

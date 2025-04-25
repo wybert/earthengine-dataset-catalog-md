@@ -1,6 +1,6 @@
  
 #  USGS Landsat 7 Collection 2 Tier 1 and Real-Time data Raw Scenes 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LE07/C02/T1_RT](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T1_RT_sample.png) 
 
 Dataset Availability
@@ -17,11 +17,12 @@ Revisit Interval
 
 Tags
      [c2](https://developers.google.com/earth-engine/datasets/tags/c2) [etm](https://developers.google.com/earth-engine/datasets/tags/etm) [global](https://developers.google.com/earth-engine/datasets/tags/global) [l7](https://developers.google.com/earth-engine/datasets/tags/l7) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [le7](https://developers.google.com/earth-engine/datasets/tags/le7) [nrt](https://developers.google.com/earth-engine/datasets/tags/nrt) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [rt](https://developers.google.com/earth-engine/datasets/tags/rt) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [t1](https://developers.google.com/earth-engine/datasets/tags/t1) [tier1](https://developers.google.com/earth-engine/datasets/tags/tier1) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_RT#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_RT#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_RT#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_RT#terms-of-use) More
+#### Description
 Landsat 7 Collection 2 Tier 1 and Real-Time data DN values, representing scaled, calibrated at-sensor radiance.
 Landsat scenes with the highest available data quality are placed into Tier 1 and are considered suitable for time-series processing analysis. Tier 1 includes Level-1 Precision Terrain (L1TP) processed data that have well-characterized radiometry and are inter-calibrated across the different Landsat sensors. The georegistration of Tier 1 scenes will be consistent and within prescribed tolerances [<=12 m root mean square error (RMSE)]. All Tier 1 Landsat data can be considered consistent and inter-calibrated (regardless of sensor) across the full collection. See more information [in the USGS docs](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collections).
 The T1_RT collection contains both Tier 1 and Real-Time (RT) assets. Newly-acquired Landsat 7 ETM+ and Landsat 8 OLI/TIRS data are processed upon downlink but use predicted ephemeris, initial bumper mode parameters, or initial TIRS line of sight model parameters. The data is placed in the Real-Time tier and made available for immediate download. Once the data have been reprocessed with definitive ephemeris, updated bumper mode parameters and refined TIRS parameters, the products are transitioned to either Tier 1 or Tier 2 and removed from the Real-Time tier. The transition delay from Real-Time to Tier 1 or Tier 2 is between 14 and 26 days.
 Note that [Landsat 7's orbit has been drifting to an earlier acquisition time since 2017](https://www.sciencedirect.com/science/article/pii/S2666017221000134?via%3Dihub).
+### Bands
 **Bands**
 Name | Pixel Size | Wavelength | Description  
 ---|---|---|---  
@@ -34,7 +35,7 @@ Name | Pixel Size | Wavelength | Description
 `B6_VCID_2` |  60 meters  | 10.40 - 12.50 μm | High-gain Thermal Infrared 1. This band has higher radiometric resolution (sensitivity), although it has a more restricted dynamic range. Resampled from 60m to 30m.  
 `B7` |  30 meters  | 2.08 - 2.35 μm | Shortwave infrared 2  
 `B8` |  15 meters  | 0.52 - 0.90 μm | Panchromatic  
-`QA_PIXEL` |  30 meters  | Landsat Collection 2 TM/ETM QA Bitmask  
+`QA_PIXEL` |  30 meters  |  | Landsat Collection 2 TM/ETM QA Bitmask  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
     * 0: Image data
@@ -76,7 +77,7 @@ Bitmask for QA_PIXEL
   * Bits 14-15: Unused 
 
   
-`QA_RADSAT` |  30 meters  | Radiometric saturation QA  
+`QA_RADSAT` |  30 meters  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 
@@ -92,10 +93,11 @@ Bitmask for QA_RADSAT
     * 1: Detector does not have a value
 
   
-`SAA` |  30 meters  | Solar Azimuth Angle  
-`SZA` |  30 meters  | Solar Zenith Angle  
-`VAA` |  30 meters  | View Azimuth Angle  
-`VZA` |  30 meters  | View Zenith Angle  
+`SAA` |  30 meters  |  | Solar Azimuth Angle  
+`SZA` |  30 meters  |  | Solar Zenith Angle  
+`VAA` |  30 meters  |  | View Azimuth Angle  
+`VZA` |  30 meters  |  | View Zenith Angle  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -271,6 +273,7 @@ UTM_ZONE | DOUBLE | UTM zone number used in product map projection.
 WRS_PATH | DOUBLE | The WRS orbital path number (001 - 251).  
 WRS_ROW | DOUBLE | Landsat satellite WRS row (001-248).  
 WRS_TYPE | STRING | World Reference System (WRS) type used for the collection of this scene.  
+### Terms of Use
 **Terms of Use**
 Landsat datasets are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.
 Acknowledgement or credit of the USGS as data source should be provided by including a line of text citation such as the example shown below.
@@ -279,7 +282,7 @@ Example: Landsat-7 image courtesy of the U.S. Geological Survey
 See the [USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system) for further details on proper citation and acknowledgement of USGS products.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_RT#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDSAT/LE07/C02/T1_RT')
 .filterDate('1999-01-01','2002-12-31');

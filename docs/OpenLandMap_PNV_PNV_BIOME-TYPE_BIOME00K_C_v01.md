@@ -1,6 +1,6 @@
  
 #  OpenLandMap Potential Distribution of Biomes 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/PNV/PNV_BIOME-TYPE_BIOME00K_C/v01](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01_sample.png) 
 
 Dataset Availability
@@ -15,7 +15,7 @@ Earth Engine Snippet
 Tags
      [ecosystems](https://developers.google.com/earth-engine/datasets/tags/ecosystems) [envirometrix](https://developers.google.com/earth-engine/datasets/tags/envirometrix) [opengeohub](https://developers.google.com/earth-engine/datasets/tags/opengeohub) [openlandmap](https://developers.google.com/earth-engine/datasets/tags/openlandmap) [potential](https://developers.google.com/earth-engine/datasets/tags/potential)
 biome
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01#dois) More
+#### Description
 Potential Natural Vegetation biomes global predictions of classes (based on predictions using the BIOMES 6000 dataset's 'current biomes' category.)
 Potential Natural Vegetation (PNV) is the vegetation cover in equilibrium with climate that would exist at a given location non-impacted by human activities. PNV is useful for raising public awareness about land degradation and for estimating land potential. This dataset contains results of predictions of - (1) global distribution of biomes based on the BIOME 6000 data set (8057 modern pollen-based site reconstructions), - (2) distribution of forest tree species in Europe based on detailed occurrence records (1,546,435 ground observations), and - (3) global monthly Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) values (30,301 randomly-sampled points).
 To report an issue or artifact in data, please use [this link](https://github.com/envirometrix/PNVmaps/issues).
@@ -25,6 +25,7 @@ If you discover a bug, artifact or inconsistency in the LandGIS maps or if you h
   * [General questions and comments](https://disqus.com/home/forums/landgis/)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Description  
@@ -53,6 +54,7 @@ Value | Color | Description
 30 | #798649 | erect dwarf shrub tundra  
 31 | #65ff9a | low and high shrub tundra  
 32 | #d29e96 | prostrate dwarf shrub tundra  
+### Terms of Use
 **Terms of Use**
 This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-sa/4.0/).
 You are free to - Share - copy and redistribute the material in any medium or format Adapt - remix, transform, and build upon the material for any purpose, even commercially.
@@ -60,16 +62,18 @@ This license is acceptable for Free Cultural Works. The licensor cannot revoke t
 Under the following terms - Attribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 ShareAlike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 No additional restrictions - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+### Citations
 Citations:
   * Hengl T, Walsh MG, Sanderman J, Wheeler I, Harrison SP, Prentice IC. (2018) Global Mapping of Potential Natural Vegetation: An Assessment of Machine Learning Algorithms for Estimating Land Potential. PeerJ Preprints. [10.7287/peerj.preprints.26811v1](https://doi.org/10.7910/DVN/QQHCIK)
 
 
+### DOIs
   * [ https://doi.org/10.7910/DVN/QQHCIK ](https://doi.org/10.7910/DVN/QQHCIK)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_BIOME-TYPE_BIOME00K_C_v01#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('OpenLandMap/PNV/PNV_BIOME-TYPE_BIOME00K_C/v01');
 varvisualization={

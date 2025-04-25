@@ -1,6 +1,6 @@
  
 #  Global Flood Database v1 (2000-2018) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![GLOBAL_FLOOD_DB/MODIS_EVENTS/V1](https://developers.google.com/earth-engine/datasets/images/GLOBAL_FLOOD_DB/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1_sample.png) 
 
 Dataset Availability
@@ -20,15 +20,16 @@ dartmouth
 dfo
 gfd
 inundation
-[Description](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1#citations) More
+#### Description
 The Global Flood Database contains maps of the extent and temporal distribution of 913 flood events occurring between 2000-2018. For more information, see [the associated journal article](https://doi.org/10.1038/s41586-021-03695-w).
 Flood events were collected from the [Dartmouth Flood Observatory](https://floodobservatory.colorado.edu/) and used to collect MODIS imagery. The selected 913 events are those that were successfully mapped (passed quality control as having significant inundation beyond permanent water) using 12,719 scenes from Terra and Aqua MODIS sensors. Each pixel was classified as water or non-water at 250-meter resolution during the full date range of each flood event and subsequent data products were generated including maximum flood extent ("flooded" band) and the duration of inundation in days ("duration" band). Water and non-water classifications during a flood event include permanent water (here resampling the 30-meter [JRC Global Surface Water dataset](https://global-surface-water.appspot.com/) representing permanent water to 250-meter resolution), which can be masked out to isolate flood water using the "jrc_perm_water" band. Extra data quality bands were added representing cloud conditions during the flood event (e.g., "clear_views" representing the number of clear days the flood was observed between its start and end dates and "clear_perc" representing the percentage of clear day observation of the total event duration in days).
 Each image in the ImageCollection represents the map of an individual flood. The collection can be filtered by date, country, or Dartmouth Flood Observatory original ID.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`flooded` |  0  |  1  | Maximum extent of flood water during an event.
+`flooded` |  |  0  |  1  | Maximum extent of flood water during an event.
   * 1 - area of surface water
   * 0 - no water
 
@@ -36,11 +37,12 @@ Name | Units | Min | Max | Description
 `duration` | d |  0  |  65535  | Duration of surface water during an event in days. Pixel values indicate the number of composite days a pixel's area was considered water during an event. 3-day MODIS composites were used.  
 `clear_views` | d |  0  |  65535  | Number of cloud-free observations in days between the start and end day of each event. Cloud coverage is determined by the MODIS Quality Assurance band ('state_1km').  
 `clear_perc` | % |  0  |  100  | Percentage of clear view observations during a given flood event. This is equivalent to the 'clear_views' band but normalized to the number of MODIS images per flood event. Cloud coverage is determined by the MODIS Quality Assurance band ('state_1km').  
-`jrc_perm_water` |  0  |  1  | Permanent water determined by the JRC Global Surface Water dataset using the 'transition' band. Resolution is maintained as the original 30-meter resolution of the JRC dataset.
+`jrc_perm_water` |  |  0  |  1  | Permanent water determined by the JRC Global Surface Water dataset using the 'transition' band. Resolution is maintained as the original 30-meter resolution of the JRC dataset.
   * 1 - permanent water
   * 0 - non-water.
 
   
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -70,15 +72,17 @@ threshold_b1b2 | DOUBLE | Threshold value applied to the b2b1-ratio used in the 
 threshold_b7 | DOUBLE | Threshold value applied to band 7 (SWIR) used in the water detection algorithm.  
 otsu_sample_res | DOUBLE | Spatial resolution (in m) of the reducer used to build MODIS mosaic from which to then sample and estimate an otsu threshold (only available for flood events which used an otsu and not the default threshold).  
 slope_threshold | DOUBLE | Value used to mask steep areas from water detection algorithm to minimize error from terrain shadows.  
+### Terms of Use
 **Terms of Use**
 This work is licensed under the Creative Commons Attribution Non Commercial 4.0 International license.
+### Citations
 Citations:
   * Tellman, B., J.A. Sullivan, C. Kuhn, A.J. Kettner, C.S. Doyle, G.R. Brakenridge, T. Erickson, D.A. Slayback. (Accepted.) Satellites observe increasing proportion of population exposed to floods. Nature. [doi:10.1038/s41586-021-03695-w](https://doi.org/10.1038/s41586-021-03695-w)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vargfd=ee.ImageCollection('GLOBAL_FLOOD_DB/MODIS_EVENTS/V1');
 // An individual flood event - flooding due to Hurricane Isaac in the USA.

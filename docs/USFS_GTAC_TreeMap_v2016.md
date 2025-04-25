@@ -1,6 +1,6 @@
  
 #  USFS TreeMap v2016 (Conterminous United States) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USFS/GTAC/TreeMap/v2016](https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_TreeMap_v2016_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Tags
 forest-inventory-and-analysis
 forest-type
 treemap
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2016#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2016#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2016#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2016#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2016#citations) More
+#### Description
 This product is part of the TreeMap data suite. It provides detailed spatial information on forest characteristics including number of live and dead trees, biomass, and carbon across the entire forested extent of the continental United States in 2016.
 TreeMap v2016 contains one image, a 22-band 30 x 30m resolution gridded map of the forests of the continental United States circa 2016, with each band representing an attribute derived from select FIA data (and one band representing the TreeMap ID). Examples of attributes include forest type, canopy cover percent, live tree stocking, live/dead tree biomass, and carbon in live/dead trees.
 TreeMap products are the output of a random forest machine learning algorithm that assigns the most similar Forest Inventory Analysis (FIA) plot to each pixel of gridded LANDFIRE input data. The objective is to combine the complimentary strengths of detailed-but-spatially-sparse FIA data with less-detailed-but-spatially-comprehensive LANDFIRE data to produce better estimations of forest characteristics at a variety of scales. TreeMap is being used in both the private and public sectors for projects including fuel treatment planning, snag hazard mapping, and estimation of terrestrial carbon resources.
@@ -38,6 +38,7 @@ Contact sm.fs.treemaphelp@usda.gov with any questions or specific data requests.
   * **Wilson, B Tyler, Andrew J Lister, and Rachel I Riemann. 2012.** A Nearest-Neighbor Imputation Approach to Mapping Tree Species over Large Areas Using Forest Inventory Plots and Moderate Resolution Raster Data. Forest Ecol. Manag. 271:182-198. [doi: 10.1016/j. foreco.2012.02.002](https://doi.org/10.1016/j.foreco.2012.02.002).
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Description  
@@ -50,17 +51,17 @@ Name | Units | Description
 `CARBON_L` | tons/acre | Carbon, Live Above Ground. Calculated via the following FIA query: Sum (DRYBIO_BOLE, DRYBIO_TOP, DRYBIO_STUMP, DRYBIO_SAPLING, DRYBIO_WDLD_SPP) / 2 /2000*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1))  
 `DRYBIO_D` | tons/acre | Dry Standing Dead Tree Biomass, Above Ground. Calculated via the following FIA query: Sum (DRYBIO_BOLE, DRYBIO_TOP, DRYBIO_STUMP, DRYBIO_SAPLING, DRYBIO_WDLD_SPP) /2000*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=2) AND ((TREE.DIA)>=5) AND ((TREE.STANDING_DEAD_CD)=1))  
 `DRYBIO_L` | tons/acre | Dry Live Tree Biomass, Above Ground. Calculated via the following FIA query: Sum (DRYBIO_BOLE, DRYBIO_TOP, DRYBIO_STUMP, DRYBIO_SAPLING, DRYBIO_WDLD_SPP) /2000*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1))  
-`FLDSZCD` | Field Stand-Size Class Code - Field-assigned classification of the predominant (based on stocking) diameter class of live trees within the condition.  
-`FLDTYPCD` | Field Forest Type Code - A code indicating the forest type, assigned by the field crew, based on the tree species or species groups forming a plurality of all live stocking. The field crew assesses the forest type based on the acre of forest land around the plot, in addition to the species sampled on the condition.  
-`FORTYPCD` | Algorithm Forest Type Code - This is the forest type used for reporting purposes. It is primarily derived using a computer algorithm, except when less than 25 percent of the plot samples a particular forest condition or in a few other cases.  
+`FLDSZCD` |  | Field Stand-Size Class Code - Field-assigned classification of the predominant (based on stocking) diameter class of live trees within the condition.  
+`FLDTYPCD` |  | Field Forest Type Code - A code indicating the forest type, assigned by the field crew, based on the tree species or species groups forming a plurality of all live stocking. The field crew assesses the forest type based on the acre of forest land around the plot, in addition to the species sampled on the condition.  
+`FORTYPCD` |  | Algorithm Forest Type Code - This is the forest type used for reporting purposes. It is primarily derived using a computer algorithm, except when less than 25 percent of the plot samples a particular forest condition or in a few other cases.  
 `GSSTK` | % | Growing-Stock Stocking. The sum of stocking percent values of all growing-stock trees on the condition.  
 `QMD_RMRS` | in | Stand Quadratic Mean Diameter. Rocky Mountain Research Station. The quadratic mean diameter, or the diameter of the tree of average basal area, on the condition. Based on live trees ≥1.0 inch d.b.h./d.r.c. Only collected by certain FIA work units.  
 `SDIPCT_RMRS` | % | Stand Density Index. Rocky Mountain Research Station. A relative measure of stand density for live trees (≥1.0 inch d.b.h./d.r.c.) on the condition, expressed as a percentage of the maximum stand density index (SDI). Only collected by certain FIA work units.  
 `STANDHT` | ft | Height of dominant trees. Derived from the Forest Vegetation Simulator.  
-`STDSZCD` | Algorithm Stand-Size Class Code - A classification of the predominant (based on stocking) diameter class of live trees within the condition assigned using an algorithm.  
+`STDSZCD` |  | Algorithm Stand-Size Class Code - A classification of the predominant (based on stocking) diameter class of live trees within the condition assigned using an algorithm.  
 `TPA_DEAD` | count/acre | Dead Trees Per Acre. Number of dead standing trees per acre (DIA >= 5”). Calculated via the following FIA query: Sum TREE.TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=2) AND ((TREE.DIA)>=5) AND ((TREE.STANDING_DEAD_CD)=1))  
 `TPA_LIVE` | count/acre | Live Trees Per Acre. Number of live trees per acre (DIA > 1"). Calculated via the following FIA query: Sum TREE.TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1) AND ((TREE.DIA)>=1))  
-`Value` | Raw TreeMap identifier dataset values. This dataset is useful to see spatial groupings of individual modeled plot values.  
+`Value` |  | Raw TreeMap identifier dataset values. This dataset is useful to see spatial groupings of individual modeled plot values.  
 `VOLBFNET_L` | sawlog-board-ft/acre | Volume, Live (log rule: Int’l ¼ inch). Calculated via the following FIA query: Sum VOLBFNET * TPA_UNADJ WHERE (((TREE.TREECLCD)=2) AND ((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1))  
 `VOLCFNET_D` | ft^3/acre | Volume, Standing Dead. Calculated via the following FIA query: Sum VOLCFNET*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=2) AND ((TREE.DIA)>=5) AND ((TREE.STANDING_DEAD_CD)=1))  
 `VOLCFNET_L` | ft^3/acre | Volume, Live. Calculated via the following FIA query: Sum VOLCFNET*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1))  
@@ -368,21 +369,24 @@ Value | Color | Description
 2 | #ffff00 | Medium diameter - Stands with an all live stocking value of at least 10 (base 100); with more than 50 percent of the stocking in medium and large diameter trees; and with the stocking of large diameter trees less than the stocking of medium diameter trees.  
 3 | #feba12 | Small diameter - Stands with an all live stocking value of at least 10 (base 100) on which at least 50 percent of the stocking is in small diameter trees.  
 5 | #c62363 | Nonstocked - Forest land with all live stocking value less than 10.  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 year | INT | Year of the product.  
 landfire_ver | STRING | Landfire version used as reference and target data for imputation.  
+### Terms of Use
 **Terms of Use**
 The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Natural hazards may or may not be depicted on the data and maps, and land users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly.
 These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the appropriate citation.
+### Citations
 Citations:
   * Riley, Karin L.; Grenfell, Isaac C.; Finney, Mark A.; Shaw, John D. 2021. TreeMap 2016: A tree-level model of the forests of the conterminous United States circa 2016. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2021-0074.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2016#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Load the full dataset
 vardataset=ee.ImageCollection('USFS/GTAC/TreeMap/v2016');

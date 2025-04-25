@@ -1,6 +1,6 @@
  
 #  Ocean Color SMI: Standard Mapped Image SeaWiFS Data 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/OCEANDATA/SeaWiFS/L3SMI](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_OCEANDATA_SeaWiFS_L3SMI_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ Cadence
 Tags
      [biology](https://developers.google.com/earth-engine/datasets/tags/biology) [chlorophyll](https://developers.google.com/earth-engine/datasets/tags/chlorophyll) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [ocean](https://developers.google.com/earth-engine/datasets/tags/ocean) [oceandata](https://developers.google.com/earth-engine/datasets/tags/oceandata) [oceans](https://developers.google.com/earth-engine/datasets/tags/oceans) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
 seawifs
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_SeaWiFS_L3SMI#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_SeaWiFS_L3SMI#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_SeaWiFS_L3SMI#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_SeaWiFS_L3SMI#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_SeaWiFS_L3SMI#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_SeaWiFS_L3SMI#dois) More
+#### Description
 This level 3 product includes ocean color and satellite ocean biology data produced or collected under [EOSDIS](https://earthdata.nasa.gov/about).
 This dataset may be used for studying the biology and hydrology of coastal zones, changes in the diversity and geographical distribution of coastal marine habitats, biogeochemical fluxes and their influence in Earth's oceans and climate over time, and finally the impact of climate and environmental variability and change on ocean ecosystems and the biodiversity they support.
 Scale factor and offset are already applied.
@@ -34,12 +34,13 @@ Documentation:
   * The estimated values for POC might be a result of the data being generated without a scale. For more information, visit the [SeaWiFS OceanData](https://oceancolor.gsfc.nasa.gov/about/missions/seawifs)
 
 
+### Bands
 **Pixel Size** 9200 meters 
 **Bands**
 Name | Units | Min | Max | Wavelength | Description  
 ---|---|---|---|---|---  
-`chlor_a` | mg/m^3 |  0*  |  99.99*  | Chlorophyll a concentration  
-`poc` | mg/m^3 | Particulate organic carbon  
+`chlor_a` | mg/m^3 |  0*  |  99.99*  |  | Chlorophyll a concentration  
+`poc` | mg/m^3 |  |  |  | Particulate organic carbon  
 `Rrs_412` | sr-1 |  0*  |  0.11*  | 412nm | Remote sensing reflectance at band 412nm  
 `Rrs_443` | sr-1 |  0*  |  0.11*  | 443nm | Remote sensing reflectance at band 443nm  
 `Rrs_490` | sr-1 |  0*  |  0.11*  | 490nm | Remote sensing reflectance at band 469nm  
@@ -47,6 +48,7 @@ Name | Units | Min | Max | Wavelength | Description
 `Rrs_555` | sr-1 |  0*  |  0.11*  | 555nm | Remote sensing reflectance at band 555nm  
 `Rrs_670` | sr-1 |  0*  |  0.11*  | 670nm | Remote sensing reflectance at band 531nm  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -74,14 +76,17 @@ Rrs_510_software_version | STRING | Version of the software used to create this 
 Rrs_670_lastModified | STRING | Last date this product was modified  
 Rrs_670_software_name | STRING | 'smigen' or 'l3mapgen'; name of the software used to create this product  
 Rrs_670_software_version | STRING | Version of the software used to create this product  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * NASA Goddard Space Flight Center, Ocean Ecology Laboratory, Ocean Biology Processing Group. Sea-viewing Wide Field-of-view Sensor (SeaWiFS) Data, NASA OB.DAAC, Greenbelt, MD, USA. [doi:10.5067/ORBVIEW-2/SEAWIFS/L1/DATA/1](https://doi.org/10.5067/ORBVIEW-2/SEAWIFS/L1/DATA/1)
   * NASA Ocean Biology Processing Group. (2018). _SEAWIFS-ORBVIEW-2 Level 3 Mapped Particulate Organic Carbon Data Version R2018.0_ [Data set]. NASA Ocean Biology DAAC.
   * NASA Ocean Biology Processing Group. (2018). _SEAWIFS-ORBVIEW-2 Level 3 Mapped Remote-Sensing Reflectance Data Version R2018.0_ [Data set]. NASA Ocean Biology DAAC.
 
 
+### DOIs
   * [ https://doi.org/10.5067/ORBVIEW-2/SEAWIFS/L3M/CHL/2018 ](https://doi.org/10.5067/ORBVIEW-2/SEAWIFS/L3M/CHL/2018)
   * [ https://doi.org/10.5067/ORBVIEW-2/SEAWIFS/L3M/POC/2018 ](https://doi.org/10.5067/ORBVIEW-2/SEAWIFS/L3M/POC/2018)
   * [ https://doi.org/10.5067/ORBVIEW-2/SEAWIFS/L3M/RRS/2018 ](https://doi.org/10.5067/ORBVIEW-2/SEAWIFS/L3M/RRS/2018)
@@ -89,7 +94,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_SeaWiFS_L3SMI#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/OCEANDATA/SeaWiFS/L3SMI')
 .filter(ee.Filter.date('2009-07-01','2009-08-30'));

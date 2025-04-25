@@ -1,6 +1,6 @@
  
 #  MERIT DEM: Multi-Error-Removed Improved-Terrain DEM 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MERIT/DEM/v1_0_3](https://developers.google.com/earth-engine/datasets/images/MERIT/MERIT_DEM_v1_0_3_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [dem](https://developers.google.com/earth-engine/datasets/tags/dem) [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [merit](https://developers.google.com/earth-engine/datasets/tags/merit) [topography](https://developers.google.com/earth-engine/datasets/tags/topography)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MERIT_DEM_v1_0_3#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MERIT_DEM_v1_0_3#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MERIT_DEM_v1_0_3#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MERIT_DEM_v1_0_3#citations) More
+#### Description
 MERIT DEM a high accuracy global DEM at 3 arc second resolution (~90 m at the equator) produced by eliminating major error components from existing DEMs (NASA SRTM3 DEM, JAXA AW3D DEM, Viewfinder Panoramas DEM).
 MERIT DEM separates absolute bias, stripe noise, speckle noise and tree height bias using multiple satellite datasets and filtering techniques. After the error removal, land areas mapped with 2 m or better vertical accuracy were increased from 39% to 58%. Significant improvements were found in flat regions where height errors larger than topography variability, and landscapes such as river networks and hill-valley structures became clearly represented.
 'MERIT DEM was developed by processing the following products as baseline data:
@@ -30,10 +30,12 @@ In addition to the above baseline dems, these products were used as supplementar
   * [JAMSTEC/U-Tokyo G3WBM water body data](http://hydro.iis.u-tokyo.ac.jp/%7Eyamadai/G3WBM/index.html)
 
 
+### Bands
 **Bands**
 Name | Pixel Size | Description  
 ---|---|---  
 `dem` |  92.77 meters  | Elevation in meters, referenced to EGM96 geoid model.  
+### Terms of Use
 **Terms of Use**
 Citation to the paper is adequate if you simply use MERIT DEM. If you asked for help for additional handling/editing of the dataset, or if your research outcome highly depends on the product, the developer would request co-authorship.
 MERIT DEM is licensed under a Creative Commons "CC-BY-NC 4.0" or Open Data Commons "Open Database License (ODbL 1.0)". With a dual license, you can choose an appropriate license for you.
@@ -45,6 +47,7 @@ To view a copy of these license, please visit:
 Note that the above license terms are applied to the "derived data" based on MERIT DEM, while they are not applied to "produced work / artwork" created with MERIT DEM (such as figures in a journal paper). The users may have a copyright of the artwork and may assign any license, when the produced work is not considered as "derived data".
 By downloading and using the data the user agrees to the terms and conditions of one of these licenses. Notwithstanding this free license, we ask users to refrain from redistributing the data in whole in its original format on other websites without the explicit written permission from the authors.
 The copyright of MERIT DEM is held by the developers, 2018, all rights reserved.
+### Citations
 Citations:
   * Yamazaki D., D. Ikeshima, R. Tawatari, T. Yamaguchi, F. O'Loughlin, J.C. Neal, C.C. Sampson, S. Kanae & P.D. Bates. A high accuracy map of global terrain elevations. Geophysical Research Letters, vol.44, pp.5844-5853, 2017.
 [doi:10.1002/2017GL072874](https://doi.org/10.1002/2017GL072874)
@@ -52,7 +55,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MERIT_DEM_v1_0_3#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('MERIT/DEM/v1_0_3');
 varvisualization={

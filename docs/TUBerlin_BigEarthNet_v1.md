@@ -1,6 +1,6 @@
  
 #  TUBerlin/BigEarthNet/v1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![TUBerlin/BigEarthNet/v1](https://developers.google.com/earth-engine/datasets/images/TUBerlin/TUBerlin_BigEarthNet_v1_sample.png) 
 
 Dataset Availability
@@ -19,8 +19,9 @@ corine-derived
 label
 ml
 tile
-[Description](https://developers.google.com/earth-engine/datasets/catalog/TUBerlin_BigEarthNet_v1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/TUBerlin_BigEarthNet_v1#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/TUBerlin_BigEarthNet_v1#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/TUBerlin_BigEarthNet_v1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/TUBerlin_BigEarthNet_v1#citations) More
+#### Description
 BigEarthNet is a new large-scale Sentinel-2 benchmark archive, consisting of 590,326 Sentinel-2 image patches. To construct BigEarthNet, 125 Sentinel-2 tiles were acquired between June 2017 and May 2018 over the 10 countries (Austria, Belgium, Finland, Ireland, Kosovo, Lithuania, Luxembourg, Portugal, Serbia, Switzerland) of Europe. All the tiles were atmospherically corrected by the Sentinel-2 Level 2A product generation and formatting tool (sen2cor). Then, they were divided into 590,326 non-overlapping image patches. Each image patch was annotated by the multiple land-cover classes (i.e., multi-labels) that were provided from the CORINE Land Cover database of the year 2018 (CLC 2018).
+### Bands
 **Bands**
 Name | Scale | Pixel Size | Wavelength | Description  
 ---|---|---|---|---  
@@ -37,6 +38,7 @@ Name | Scale | Pixel Size | Wavelength | Description
 `B11` | 0.0001 |  20 meters  | 1613.7nm (S2A) / 1610.4nm (S2B) | SWIR 1  
 `B12` | 0.0001 |  20 meters  | 2202.4nm (S2A) / 2185.7nm (S2B) | SWIR 2  
 `B8A` | 0.0001 |  20 meters  | 864.8nm (S2A) / 864nm (S2B) | Red Edge 4  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -44,15 +46,17 @@ labels | STRING_LIST | List of landcover types found in this image
 source | STRING | Product ID of the corresponding Sentinel-2 1C image  
 tile_x | DOUBLE | X coordinate of tile in source image  
 tile_y | DOUBLE | Y coordinate of tile in source image  
+### Terms of Use
 **Terms of Use**
 The BigEarthNet Archive is licensed under the Community Data License Agreement - Permissive, Version 1.0. For more information, please refer to [https://cdla.dev/permissive-1-0](https://cdla.dev/permissive-1-0/).
+### Citations
 Citations:
   * G. Sumbul, M. Charfuelan, B. Demir, V. Markl, BigEarthNet: A Large-Scale Benchmark Archive for Remote Sensing Image Understanding, IEEE International Conference on Geoscience and Remote Sensing Symposium, pp. 5901-5904, Yokohama, Japan, 2019.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/TUBerlin_BigEarthNet_v1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vargeometry=ee.Geometry.Polygon(
 [[

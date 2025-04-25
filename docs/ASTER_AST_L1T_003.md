@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![ASTER/AST_L1T_003](https://developers.google.com/earth-engine/datasets/images/ASTER/ASTER_AST_L1T_003_sample.png) 
 
 Dataset Availability
-    2000-03-04T00:00:00Z–2025-04-18T22:27:11Z 
+    2000-03-04T00:00:00Z–2025-04-22T23:25:24Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/ASTER/AST_L1T.003) 
@@ -164,7 +164,7 @@ Map.addLayer(falseColor.median(),falseColorVis,'False Color');
 [ ASTER L1T Radiance ](https://developers.google.com/earth-engine/datasets/catalog/ASTER_AST_L1T_003)
 Note: Data collection has been paused as of November 28, 2024, due to technical issues with the ASTER instrument. See the USGS announcement for more information. The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) is a multispectral imager that was launched on board NASA's Terra spacecraft in December, 1999. …
 ASTER/AST_L1T_003, aster,imagery,nasa,nir,radiance,satellite-imagery,swir,terra,thermal,toa,usgs 
-2000-03-04T00:00:00Z/2025-04-18T22:27:11Z
+2000-03-04T00:00:00Z/2025-04-22T23:25:24Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

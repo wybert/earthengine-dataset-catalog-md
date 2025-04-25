@@ -1,6 +1,6 @@
  
 #  OpenLandMap Potential FAPAR Monthly 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/PNV/PNV_FAPAR_PROBA-V_D/v01](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [envirometrix](https://developers.google.com/earth-engine/datasets/tags/envirometrix) [fapar](https://developers.google.com/earth-engine/datasets/tags/fapar) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [opengeohub](https://developers.google.com/earth-engine/datasets/tags/opengeohub) [openlandmap](https://developers.google.com/earth-engine/datasets/tags/openlandmap) [plant-productivity](https://developers.google.com/earth-engine/datasets/tags/plant-productivity) [potential](https://developers.google.com/earth-engine/datasets/tags/potential)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01#dois) More
+#### Description
 Potential Natural Vegetation FAPAR predicted monthly median (based on PROB-V FAPAR 2014-2017). [Description](https://gitlab.com/openlandmap/global-layers/#potential-natural-vegetation).
 To access and visualize maps outside of Earth Engine, use [this page](https://opengeohub.org/about-openlandmap).
 If you discover a bug, artifact or inconsistency in the LandGIS maps or if you have a question please use the following channels:
@@ -22,6 +22,7 @@ If you discover a bug, artifact or inconsistency in the LandGIS maps or if you h
   * [General questions and comments](https://disqus.com/home/forums/landgis/)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -41,6 +42,7 @@ Name | Units | Min | Max | Description
 `annual` | Fraction |  0*  |  220*  | Anuual Potential FAPAR monthly  
 `annualdiff` | Fraction |  0*  |  220*  | Annual Difference Potential FAPAR monthly  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-sa/4.0/).
 You are free to - Share - copy and redistribute the material in any medium or format Adapt - remix, transform, and build upon the material for any purpose, even commercially.
@@ -48,16 +50,18 @@ This license is acceptable for Free Cultural Works. The licensor cannot revoke t
 Under the following terms - Attribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 ShareAlike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 No additional restrictions - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+### Citations
 Citations:
   * Hengl T, Walsh MG, Sanderman J, Wheeler I, Harrison SP, Prentice IC. (2018) Global Mapping of Potential Natural Vegetation: An Assessment of Machine Learning Algorithms for Estimating Land Potential. PeerJ Preprints. [10.7287/peerj.preprints.26811v5](https://doi.org/10.7910/DVN/QQHCIK)
 
 
+### DOIs
   * [ https://doi.org/10.7910/DVN/QQHCIK ](https://doi.org/10.7910/DVN/QQHCIK)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_PNV_PNV_FAPAR_PROBA-V_D_v01#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('OpenLandMap/PNV/PNV_FAPAR_PROBA-V_D/v01');
 varvisualization={

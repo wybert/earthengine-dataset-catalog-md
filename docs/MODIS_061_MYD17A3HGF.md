@@ -1,6 +1,6 @@
  
 #  MYD17A3HGF.061: Aqua Net Primary Production Gap-Filled Yearly Global 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD17A3HGF](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD17A3HGF_sample.png) 
 
 Dataset Availability
@@ -17,27 +17,31 @@ Cadence
 
 Tags
      [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [global](https://developers.google.com/earth-engine/datasets/tags/global) [gpp](https://developers.google.com/earth-engine/datasets/tags/gpp) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [npp](https://developers.google.com/earth-engine/datasets/tags/npp) [photosynthesis](https://developers.google.com/earth-engine/datasets/tags/photosynthesis) [plant-productivity](https://developers.google.com/earth-engine/datasets/tags/plant-productivity) [productivity](https://developers.google.com/earth-engine/datasets/tags/productivity) [psn](https://developers.google.com/earth-engine/datasets/tags/psn) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [yearly](https://developers.google.com/earth-engine/datasets/tags/yearly)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A3HGF#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A3HGF#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A3HGF#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A3HGF#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A3HGF#dois) More
+#### Description
 The MYD17A3HGF V6.1 product provides information about annual Gross and Net Primary Productivity (GPP and NPP) at 500m pixel resolution. Annual NPP is derived from the sum of all 8-day Net Photosynthesis(PSN) products (MYD17A2H) from the given year. The PSN value is the difference of the Gross Primary Productivity (GPP) and the Maintenance Respiration (MR) (GPP-MR).
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
 ---|---|---|---|---|---  
 `Gpp` | kg*C/m^2 |  0  |  65500  | 0.0001 | Gross primary productivity  
 `Npp` | kg*C/m^2 |  -30000  |  32700  | 0.0001 | Net primary productivity  
-`Npp_QC` | % |  0  |  100  | Quality control percentage  
+`Npp_QC` | % |  0  |  100  |  | Quality control percentage  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD17A3HGF.061 ](https://doi.org/10.5067/MODIS/MYD17A3HGF.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A3HGF#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD17A3HGF');
 varvisualization={

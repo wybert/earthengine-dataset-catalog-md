@@ -1,10 +1,10 @@
  
 #  Dynamic World V1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![GOOGLE/DYNAMICWORLD/V1](https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_DYNAMICWORLD_V1_sample.png) 
 
 Dataset Availability
-    2015-06-27T00:00:00Z–2025-04-22T12:37:01.494000Z 
+    2015-06-27T00:00:00Z–2025-04-24T16:56:21.594000Z 
 
 Dataset Provider
      [ World Resources Institute ](https://www.wri.org/) [ Google ](https://research.google.com/) 
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [global](https://developers.google.com/earth-engine/datasets/tags/global) [google](https://developers.google.com/earth-engine/datasets/tags/google) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse](https://developers.google.com/earth-engine/datasets/tags/landuse) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [nrt](https://developers.google.com/earth-engine/datasets/tags/nrt) [sentinel2-derived](https://developers.google.com/earth-engine/datasets/tags/sentinel2-derived)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1#dois) More
+#### Description
 Dynamic World is a 10m near-real-time (NRT) Land Use/Land Cover (LULC) dataset that includes class probabilities and label information for nine classes.
 Dynamic World predictions are available for the Sentinel-2 L1C collection from 2015-06-27 to present. The revisit frequency of Sentinel-2 is between 2-5 days depending on latitude. Dynamic World predictions are generated for Sentinel-2 L1C images with CLOUDY_PIXEL_PERCENTAGE <= 35%. Predictions are masked to remove clouds and cloud shadows using a combination of S2 Cloud Probability, Cloud Displacement Index, and Directional Distance Transform.
 Images in the Dynamic World collection have names matching the individual Sentinel-2 L1C asset names from which they were derived, e.g:
@@ -24,6 +24,7 @@ All probability bands except the "label" band collectively sum to 1.
 To learn more about the Dynamic World dataset and see examples for generating composites, calculating regional statistics, and working with the time series, see the [Introduction to Dynamic World](https://developers.google.com/earth-engine/tutorials/community/introduction-to-dynamic-world-pt-1) tutorial series.
 Given Dynamic World class estimations are derived from single images using a spatial context from a small moving window, top-1 "probabilities" for predicted land covers that are in-part defined by cover over time, like crops, can be comparatively low in the absence of obvious distinguishing features. High-return surfaces in arid climates, sand, sunglint, etc may also exhibit this phenomenon.
 To select only pixels that confidently belong to a Dynamic World class, it is recommended to mask Dynamic World outputs by thresholding the estimated "probability" of the top-1 prediction.
+### Bands
 **Pixel Size** 10 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -50,24 +51,28 @@ Value | Color | Description
 6 | #c4281b | built  
 7 | #a59b8f | bare  
 8 | #b39fe1 | snow_and_ice  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 dynamicworld_algorithm_version | STRING | The version string uniquely identifying the Dynamic World model and inference process used to produce the image.  
 qa_algorithm_version | STRING | The version string uniquely identifying the cloud masking process used to produce the image.  
+### Terms of Use
 **Terms of Use**
 This dataset is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) and requires the following attribution: "This dataset is produced for the Dynamic World Project by Google in partnership with National Geographic Society and the World Resources Institute."
 Contains modified Copernicus Sentinel data [2015-present]. See the [Sentinel Data Legal Notice](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice).
+### Citations
 Citations:
   * Brown, C.F., Brumby, S.P., Guzder-Williams, B. et al. Dynamic World, Near real-time global 10 m land use land cover mapping. Sci Data 9, 251 (2022). [doi:10.1038/s41597-022-01307-4](https://doi.org/10.1038/s41597-022-01307-4)
 
 
+### DOIs
   * [ https://doi.org/10.1038/s41597-022-01307-4 ](https://doi.org/10.1038/s41597-022-01307-4)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1#code-editor-javascript-sample)[Colab (Python)](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1#colab-python-sample) More
+### Code Editor (JavaScript)
 ```
 // Construct a collection of corresponding Dynamic World and Sentinel-2 for
 // inspection. Filter by region and date.
@@ -110,12 +115,15 @@ linkedImg,{min:0,max:3000,bands:['B4','B3','B2']},'Sentinel-2 L1C');
 Map.addLayer(
 dwRgbHillshade,{min:0,max:0.65},'Dynamic World V1 - label hillshade');
 ```
+
 Python setup
 See the [ Python Environment](https://developers.google.com/earth-engine/guides/python_install) page for information on the Python API and using `geemap` for interactive development.
 ```
 importee
 importgeemap.coreasgeemap
 ```
+
+### Colab (Python)
 ```
 # Construct a collection of corresponding Dynamic World and Sentinel-2 for
 # inspection. Filter by region and date.
@@ -186,7 +194,7 @@ m
 [ Dynamic World V1 ](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1)
 Dynamic World is a 10m near-real-time (NRT) Land Use/Land Cover (LULC) dataset that includes class probabilities and label information for nine classes. Dynamic World predictions are available for the Sentinel-2 L1C collection from 2015-06-27 to present. The revisit frequency of Sentinel-2 is between 2-5 days depending on latitude. Dynamic World …
 GOOGLE/DYNAMICWORLD/V1, global,google,landcover,landuse,landuse-landcover,nrt,sentinel2-derived 
-2015-06-27T00:00:00Z/2025-04-22T12:37:01.494000Z
+2015-06-27T00:00:00Z/2025-04-24T16:56:21.594000Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

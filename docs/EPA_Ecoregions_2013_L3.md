@@ -1,6 +1,6 @@
  
 #  US EPA Ecoregions (Level III) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![EPA/Ecoregions/2013/L3](https://developers.google.com/earth-engine/datasets/images/EPA/EPA_Ecoregions_2013_L3_sample.png) 
 
 Dataset Availability
@@ -14,11 +14,12 @@ Earth Engine Snippet
 
 Tags
      [ecoregions](https://developers.google.com/earth-engine/datasets/tags/ecoregions) [ecosystems](https://developers.google.com/earth-engine/datasets/tags/ecosystems) [epa](https://developers.google.com/earth-engine/datasets/tags/epa) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/EPA_Ecoregions_2013_L3#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/EPA_Ecoregions_2013_L3#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/EPA_Ecoregions_2013_L3#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/EPA_Ecoregions_2013_L3#citations) More
+#### Description
 The U.S. Environmental Protection Agency (USEPA) provides the Ecoregions dataset to serve as a spatial framework for the research, assessment, management, and monitoring of ecosystems and ecosystem components. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. These general-purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and nongovernmental organizations that are responsible for different types of resources within the same geographical areas.
 The approach used to compile this map is based on the premise that ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another.
 This dataset includes the USEPA ecoregions classification scheme, as well as the scheme from the Commission for Environmental Cooperation (CEC). Ecoregions are hierarchical, with Level IV being the most detailed and Level I defining the broadest classifications. Because of this hierarchy, Level III features retain information from Levels I and II. The CEC divided all of North America in distinct ecoregions for Levels I, II, and III, while the USEPA did so only for the United States at Level III and Level IV. The columns starting with 'us _' belong to the USEPA scheme, and the columns starting with 'na_ ' belong to the CEC scheme. The ingested version of this dataset contains features for the conterminous United States only (that is, Alaska and Hawaii are not included). Methods used to define the ecoregions are explained in Omernik (1995, 2004), Omernik and others (2000), and Gallant and others (1989).
 *Calculated by the data provider.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -35,8 +36,10 @@ shape_area | DOUBLE | Area of the feature's geometry in its original format
 shape_leng | DOUBLE | Length of the edges in the feature's geometry in its original format  
 us_l3code | STRING | Code for Level III Ecoregion (US/USEPA)  
 us_l3name | STRING | Name for Level III Ecoregion (US/USEPA)  
+### Terms of Use
 **Terms of Use**
 There are no restrictions on use of this US public domain data.
+### Citations
 Citations:
   * Commission for Environmental Cooperation. 1997. Ecological regions of North America: toward a common perspective. Commission for Environmental Cooperation, Montreal, Quebec, Canada. 71p. Map (scale 1:12,500,000). Revised 2006.
   * McMahon, G., S.M. Gregonis, S.W. Waltman, J.M. Omernik, T.D. Thorson, J.A. Freeouf, A.H. Rorick, and J.E. Keys. 2001. Developing a spatial framework of common ecological regions for the conterminous United States. Environmental Management 28(3):293-316.
@@ -48,7 +51,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/EPA_Ecoregions_2013_L3#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('EPA/Ecoregions/2013/L3');
 varvisParams={
@@ -66,7 +69,7 @@ Map.addLayer(dataset,null,'for Inspector',false);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/EPA_Ecoregions_2013_L3#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('EPA/Ecoregions/2013/L3_FeatureView');
 varvisParams={

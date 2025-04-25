@@ -1,10 +1,10 @@
  
 #  Sentinel-5P OFFL CLOUD: Offline Cloud Properties 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S5P/OFFL/L3_CLOUD](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_CLOUD_sample.png) 
 
 Dataset Availability
-    2018-07-04T11:34:21Z–2025-04-19T16:57:43Z 
+    2018-07-04T11:34:21Z–2025-04-22T17:42:32Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -17,7 +17,7 @@ Revisit Interval
 
 Tags
      [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [cloud](https://developers.google.com/earth-engine/datasets/tags/cloud) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [dlr](https://developers.google.com/earth-engine/datasets/tags/dlr) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [s5p](https://developers.google.com/earth-engine/datasets/tags/s5p) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel) [tropomi](https://developers.google.com/earth-engine/datasets/tags/tropomi)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD#terms-of-use) More
+#### Description
 ### OFFL/L3_CLOUD
 This dataset provides offline high-resolution imagery of cloud parameters.
 The TROPOMI/S5P cloud properties retrieval is based on the OCRA and ROCINN algorithms currently being used in the operational GOME and GOME-2 products. OCRA retrieves the cloud fraction using measurements in the UV/VIS spectral regions and ROCINN retrieves the cloud height (pressure) and optical thickness (albedo) using measurements in and around the oxygen A-band at 760 nm. Version 3.0 of the algorithms are used, which are based on a more realistic treatment of clouds as optically uniform layers of light-scattering particles. Additionally, the cloud parameters are also provided for a cloud model which assumes the cloud to be a Lambertian reflecting boundary. [More information.](http://www.tropomi.eu/data-products/cloud)
@@ -46,6 +46,7 @@ The conversion to L3 is done by the [harpconvert](https://cdn.rawgit.com/stcorp/
 
 
 The O3_TCL product is ingested directly (without running harpconvert).
+### Bands
 **Pixel Size** 1113.2 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -55,13 +56,14 @@ Name | Units | Min | Max | Description
 `cloud_top_height` | m |  9*  |  15455*  | Retrieved altitude of the cloud top  
 `cloud_base_pressure` | Pa |  14170*  |  101299*  | Cloud base pressure  
 `cloud_base_height` | m |  9*  |  14540*  | Cloud base height  
-`cloud_optical_depth` |  1*  |  250*  | Retrieved cloud optical depth  
-`surface_albedo` |  3.95845e-11*  |  1*  | Surface albedo  
+`cloud_optical_depth` |  |  1*  |  250*  | Retrieved cloud optical depth  
+`surface_albedo` |  |  3.95845e-11*  |  1*  | Surface albedo  
 `sensor_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the satellite at the ground pixel location (WGS84); angle measured East-of-North.  
 `sensor_zenith_angle` | deg |  0.09*  |  66.44*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 `solar_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North.  
 `solar_zenith_angle` | deg |  8*  |  80*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -87,11 +89,12 @@ TIME_REFERENCE_JULIAN_DAY | DOUBLE | The Julian day number when the data was acq
 TRACKING_ID | STRING | UUID for the L2 product file.  
 CLOUD_MODE | STRING | Tells which model was used to generate this dataset, the CAL (Clouds As Layers) model or the CRB (Clouds as Reflecting Boundaries) model. Valid values of this property are "cal" or "crb", respectively, with "cal" being the default.  
 STATUS_MET_2D | STRING | This dataset uses some dynamic auxiliary data from the European Centre for Medium-Range Weather Forecasts. If the ECMWF data was used, this field will have the value 'Nominal'. If the ECMWF data was not used, a fallback solution was used, and this field will have the value of "Fallback".  
+### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('COPERNICUS/S5P/OFFL/L3_CLOUD')
 .select('cloud_fraction')
@@ -108,7 +111,7 @@ Map.setCenter(-58.14,-10.47,2);
 [ Sentinel-5P OFFL CLOUD: Offline Cloud Properties ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD)
 OFFL/L3_CLOUD This dataset provides offline high-resolution imagery of cloud parameters. The TROPOMI/S5P cloud properties retrieval is based on the OCRA and ROCINN algorithms currently being used in the operational GOME and GOME-2 products. OCRA retrieves the cloud fraction using measurements in the UV/VIS spectral regions and ROCINN retrieves the cloud …
 COPERNICUS/S5P/OFFL/L3_CLOUD, atmosphere,cloud,copernicus,dlr,esa,eu,s5p,sentinel,tropomi 
-2018-07-04T11:34:21Z/2025-04-19T16:57:43Z
+2018-07-04T11:34:21Z/2025-04-22T17:42:32Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

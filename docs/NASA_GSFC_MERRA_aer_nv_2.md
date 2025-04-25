@@ -1,10 +1,10 @@
  
 #  MERRA-2 M2I3NVAER: Aerosol Mixing Ratio V5.12.4 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GSFC/MERRA/aer_nv/2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GSFC_MERRA_aer_nv_2_sample.png) 
 
 Dataset Availability
-    1980-01-01T00:00:00Z–2025-03-01T21:00:00Z 
+    1980-01-01T00:00:00Z–2025-04-01T21:00:00Z 
 
 Dataset Provider
      [ NASA/MERRA ](https://disc.gsfc.nasa.gov/datasets/M2I3NVAER_5.12.4/summary) 
@@ -17,9 +17,10 @@ Cadence
 
 Tags
      [aerosol](https://developers.google.com/earth-engine/datasets/tags/aerosol) [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [dust](https://developers.google.com/earth-engine/datasets/tags/dust) [mass](https://developers.google.com/earth-engine/datasets/tags/mass) [merra](https://developers.google.com/earth-engine/datasets/tags/merra) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [sea-salt](https://developers.google.com/earth-engine/datasets/tags/sea-salt) [so2](https://developers.google.com/earth-engine/datasets/tags/so2) [so4](https://developers.google.com/earth-engine/datasets/tags/so4)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_nv_2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_nv_2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_nv_2#terms-of-use) More
+#### Description
 M2I3NVAER (or inst3_3d_aer_Nv) is an instantaneous 3-dimensional 3-hourly data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of assimilations of aerosol mixing ratio parameters at 72 model layers, such as dust, sulphur dioxide, sea salt, black carbon, and organic carbon. The data field is available every three hour starting from 00:00 UTC, e.g.: 00:00, 03:00,... ,21:00 UTC. Section 4.2 of the [MERRA-2 File Specification document](https://gmao.gsfc.nasa.gov/pubs/docs/Bosilovich785.pdf) provides pressure values nominal for a 1000 hPa surface pressure and refers to the top edge of the layer. The lev=1 is for the top layer, and lev=72 is for the bottom (or surface) model layer.
 MERRA-2 is the latest version of global atmospheric reanalysis for the satellite era produced by NASA Global Modeling and Assimilation Office (GMAO) using the Goddard Earth Observing System Model (GEOS) version 5.12.4. The dataset covers the period of 1980-present with the latency of ~3 weeks after the end of a month.
+### Bands
 **Pixel Size** 69375 meters 
 **Y Pixel Size** 55000 meters 
 **Bands**
@@ -1537,13 +1538,14 @@ Name | Units | Description
 `BCPHILIC_72` | Mass fraction | Hydrophilic Black Carbon  
 `MSA_72` | Mass fraction | Methanesulphonic acid  
 `SS001_72` | Mass fraction | Sea Salt Mixing Ratio (bin 001)  
-`LWI` | land(1)_water(0)_ice(2)_flag  
-`RH` | relative_humidity_after_moist  
+`LWI` |  | land(1)_water(0)_ice(2)_flag  
+`RH` |  | relative_humidity_after_moist  
+### Terms of Use
 **Terms of Use**
 NASA promotes the full and open sharing of all data with research and applications communities, private industry, academia, and the general public.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_nv_2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/GSFC/MERRA/aer_nv/2')
 .filter(ee.Filter.date('1985-02-01','1985-02-02'));
@@ -1561,7 +1563,7 @@ Map.addLayer(pressure_thickness,bccVis);
 [ MERRA-2 M2I3NVAER: Aerosol Mixing Ratio V5.12.4 ](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_nv_2)
 M2I3NVAER (or inst3_3d_aer_Nv) is an instantaneous 3-dimensional 3-hourly data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of assimilations of aerosol mixing ratio parameters at 72 model layers, such as dust, sulphur dioxide, sea salt, black carbon, and organic carbon. The data field …
 NASA/GSFC/MERRA/aer_nv/2, aerosol,atmosphere,dust,mass,merra,nasa,sea-salt,so2,so4 
-1980-01-01T00:00:00Z/2025-03-01T21:00:00Z
+1980-01-01T00:00:00Z/2025-04-01T21:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

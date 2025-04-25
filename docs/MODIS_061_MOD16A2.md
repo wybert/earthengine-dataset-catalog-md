@@ -1,10 +1,10 @@
  
 #  MOD16A2.061: Terra Net Evapotranspiration 8-Day Global 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD16A2](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD16A2_sample.png) 
 
 Dataset Availability
-    2001-01-01T00:00:00Z–2025-03-30T00:00:00Z 
+    2001-01-01T00:00:00Z–2025-04-07T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MOD16A2.061) 
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [8-day](https://developers.google.com/earth-engine/datasets/tags/8-day) [evapotranspiration](https://developers.google.com/earth-engine/datasets/tags/evapotranspiration) [global](https://developers.google.com/earth-engine/datasets/tags/global) [mod16a2](https://developers.google.com/earth-engine/datasets/tags/mod16a2) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2#dois) More
+#### Description
 The MOD16A2 Version 6.1 Evapotranspiration/Latent Heat Flux product is an 8-day composite product produced at 500 meter pixel resolution. The algorithm used for the MOD16 data product collection is based on the logic of the Penman-Monteith equation, which includes inputs of daily meteorological reanalysis data along with MODIS remotely sensed data products such as vegetation property dynamics, albedo, and land cover.
 The pixel values for the two Evapotranspiration layers (ET & PET) are the sum of all eight days within the composite period. The pixel values for the two Latent Heat layers (LE & PLE) are the average of all eight days within the composite period. Note that the last 8-day period of each year is a 5 or 6-day composite period, depending on the year.
 Class assignment in fill values 32761 through 32767 might be inaccurate. They are not included in the EE assets.
@@ -28,6 +28,7 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MOD16A2)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
@@ -36,7 +37,7 @@ Name | Units | Min | Max | Scale | Description
 `LE` | J/m^2/day |  -32767  |  32700  | 10000 | Average latent heat flux  
 `PET` | kg/m^2/8day |  -32767  |  32700  | 0.1 | Total potential evapotranspiration  
 `PLE` | J/m^2/day |  -32767  |  32700  | 10000 | Average potential latent heat flux  
-`ET_QC` | Evapotranspiration quality control flags  
+`ET_QC` |  |  |  |  | Evapotranspiration quality control flags  
 Bitmask for ET_QC
   * Bit 0: MODLAND_QC bits 
     * 0: Good quality (main algorithm with or without saturation)
@@ -60,18 +61,21 @@ Bitmask for ET_QC
     * 4: Pixel not produced at all, value couldn't be retrieved (possible reasons: bad L1B data, unusable MOD09GA data)
 
   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MOD16A2.061 ](https://doi.org/10.5067/MODIS/MOD16A2.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MOD16A2')
 .filter(ee.Filter.date('2022-01-01','2022-05-01'));
@@ -91,7 +95,7 @@ Map.addLayer(evapotranspiration,evapotranspirationVis,'Evapotranspiration');
 [ MOD16A2.061: Terra Net Evapotranspiration 8-Day Global 500m ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD16A2)
 The MOD16A2 Version 6.1 Evapotranspiration/Latent Heat Flux product is an 8-day composite product produced at 500 meter pixel resolution. The algorithm used for the MOD16 data product collection is based on the logic of the Penman-Monteith equation, which includes inputs of daily meteorological reanalysis data along with MODIS remotely sensed …
 MODIS/061/MOD16A2, 8-day,evapotranspiration,global,mod16a2,modis,nasa,water-vapor 
-2001-01-01T00:00:00Z/2025-03-30T00:00:00Z
+2001-01-01T00:00:00Z/2025-04-07T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

@@ -1,6 +1,6 @@
  
 #  Tsinghua FROM-GLC Year of Change to Impervious Surface 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![Tsinghua/FROM-GLC/GAIA/v10](https://developers.google.com/earth-engine/datasets/images/Tsinghua/Tsinghua_FROM-GLC_GAIA_v10_sample.png) 
 
 Dataset Availability
@@ -16,8 +16,9 @@ Tags
      [built](https://developers.google.com/earth-engine/datasets/tags/built) [population](https://developers.google.com/earth-engine/datasets/tags/population) [tsinghua](https://developers.google.com/earth-engine/datasets/tags/tsinghua) [urban](https://developers.google.com/earth-engine/datasets/tags/urban)
 development
 impervious
-[Description](https://developers.google.com/earth-engine/datasets/catalog/Tsinghua_FROM-GLC_GAIA_v10#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/Tsinghua_FROM-GLC_GAIA_v10#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/Tsinghua_FROM-GLC_GAIA_v10#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/Tsinghua_FROM-GLC_GAIA_v10#citations) More
+#### Description
 This dataset contains annual change information of global impervious surface area from 1985 to 2018 at a 30m resolution. Change from pervious to impervious was determined using a combined approach of supervised classification and temporal consistency checking. Impervious pixels are defined as above 50% impervious. The year of the transition (from pervious to impervious) can be identified from the pixel value, ranging from 34 (year: 1985) to 1 (year: 2018). For example, the impervious surface in 1990 can be revealed as the pixel value greater than 29 (see the lookup table). This dataset is temporally consistent, following the conversion from pervious (e.g., non-urban) to impervious (e.g., urban) monotonically. For more information about the mapping approach and assessment, see [Annual maps of global artificial impervious area (GAIA) between 1985 and 2018 (Gong et al. 2020)](https://doi.org/10.1016/j.rse.2019.111510).
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -61,15 +62,17 @@ Value | Color | Description
 32 | #223ab0 | 1987  
 33 | #b692ac | 1986  
 34 | #2de3f4 | 1985  
+### Terms of Use
 **Terms of Use**
 This work is licensed under a Creative Commons Attribution 4.0 International License. <https://creativecommons.org/licenses/by/4.0/>
+### Citations
 Citations:
   * Gong, P., Li, X., Wang, J., Bai, Y., Chen, B., Hu, T., ... & Zhou, Y. (2020). Annual maps of global artificial impervious area (GAIA) between 1985 and 2018. Remote Sensing of Environment, 236, 111510.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/Tsinghua_FROM-GLC_GAIA_v10#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('Tsinghua/FROM-GLC/GAIA/v10');
 varvisualization={

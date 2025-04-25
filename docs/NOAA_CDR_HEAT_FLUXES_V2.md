@@ -1,6 +1,6 @@
  
 #  NOAA CDR: Ocean Heat Fluxes, Version 2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/CDR/HEAT_FLUXES/V2](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CDR_HEAT_FLUXES_V2_sample.png) 
 
 Dataset Availability
@@ -26,7 +26,7 @@ Name | Units | Min | Max | Description
 ---|---|---|---|---  
 `surface_upward_latent_heat_flux` | W/m^2 |  -50*  |  500*  | Flux of heat from the Earth's surface to the atmosphere which causes a change in phase of matter, e.g. evaporation of water at the surface and subsequent condensation of water vapor in the troposphere  
 `surface_upward_sensible_heat_flux` | W/m^2 |  -299.99*  |  1499.93*  | Flux of heat from the Earth's surface to the atmosphere which causes a change in air temperature, primarily through conduction and convection  
-`fill_missing_qc` | Quality control flags  
+`fill_missing_qc` |  |  |  | Quality control flags  
 Bitmask for fill_missing_qc
   * Bits 0-2: Quality control flags 
     * 0: Pixel values from neural network

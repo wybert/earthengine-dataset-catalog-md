@@ -1,6 +1,6 @@
  
 #  TRMM 3B43: Monthly Precipitation Estimates 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![TRMM/3B43V7](https://developers.google.com/earth-engine/datasets/images/TRMM/TRMM_3B43V7_sample.png) 
 
 Dataset Availability
@@ -17,12 +17,13 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [jaxa](https://developers.google.com/earth-engine/datasets/tags/jaxa) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [rainfall](https://developers.google.com/earth-engine/datasets/tags/rainfall) [trmm](https://developers.google.com/earth-engine/datasets/tags/trmm) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B43V7#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B43V7#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B43V7#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B43V7#citations) More
+#### Description
 **This collection is no longer being updated. See[IMERG monthly](https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_MONTHLY_V06)**
 This dataset algorithmically merges microwave data from multiple satellites, including SSMI, SSMIS, MHS, AMSU-B and AMSR-E, each inter-calibrated to the TRMM Combined Instrument.
 Algorithm 3B43 is executed once per calendar month to produce the single, best-estimate precipitation rate and RMS precipitation-error estimate field (3B43) by combining the 3-hourly merged high-quality/IR estimates (3B42) with the monthly accumulated Global Precipitation Climatology Centre (GPCC) rain gauge analysis.
 All of the global precipitation datasets have some calibrating data source, which is necessary to control bias differences between contributing satellites. The multi-satellite data are averaged to the monthly scale and combined with the Global Precipitation Climatology Centre's (GPCC) monthly surface precipitation gauge analysis. In each case the multi-satellite data are adjusted to the large-area mean of the gauge analysis, where available (mostly over land), and then combined with the gauge analysis using a simple inverse estimated-random-error variance weighting. Regions with poor gauge coverage, like central Africa and the oceans, have a higher weighting on the satellite input.
 See the [algorithm description](https://trmm.gsfc.nasa.gov/3b43.html) and the [file specification](https://pps.gsfc.nasa.gov/Documents/filespec.TRMM.V7.pdf) for details.
+### Bands
 **Pixel Size** 27830 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -31,8 +32,10 @@ Name | Units | Min | Max | Description
 `relativeError` | mm/hr |  0.001*  |  16.36*  | Merged microwave/IR precipitation random error estimate  
 `gaugeRelativeWeighting` | % |  0*  |  100*  | Relative weighting of the rain gauges used in calibration  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * Adler, R.F., G.J. Huffman, A. Chang, R. Ferraro, P. Xie, J. Janowiak, B. Rudolf, U. Schneider, S. Curtis, D. Bolvin, A. Gruber, J. Susskind, P. Arkin, E.J. Nelkin, 2003: The Version 2 Global Precipitation Climatology Project (GPCP) Monthly Precipitation Analysis (1979-Present). J. Hydrometeor., 4(6), 1147-1167.
   * Huffman, G.J., 1997: Estimates of Root-Mean-Square Random Error for Finite Samples of Estimated Precipitation, J. Appl. Meteor., 1191-1201.
@@ -45,7 +48,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B43V7#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('TRMM/3B43V7')
 .filter(ee.Filter.date('2018-04-01','2018-05-01'));

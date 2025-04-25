@@ -1,6 +1,6 @@
  
 #  IUCN Global Ecosystem Typology Level 3: 1.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![IUCN/GlobalEcosystemTypology/current](https://developers.google.com/earth-engine/datasets/images/IUCN/IUCN_GlobalEcosystemTypology_current_sample.png) 
 
 Dataset Availability
@@ -14,11 +14,12 @@ Earth Engine Snippet
 
 Tags
      [ecosystem](https://developers.google.com/earth-engine/datasets/tags/ecosystem) [ecosystems](https://developers.google.com/earth-engine/datasets/tags/ecosystems) [global](https://developers.google.com/earth-engine/datasets/tags/global) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/IUCN_GlobalEcosystemTypology_current#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/IUCN_GlobalEcosystemTypology_current#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/IUCN_GlobalEcosystemTypology_current#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/IUCN_GlobalEcosystemTypology_current#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/IUCN_GlobalEcosystemTypology_current#dois) More
+#### Description
 The Global Ecosystem Typology is a taxonomy of ecosystems based on their unique characteristics. It is a global classification system that provides a consistent framework for describing and classifying ecological ecosystems.
 The Global Ecosystem Typology has six levels. The top three levels (realms, functional biomes, and ecosystem functional groups) classify ecosystems based on their overall characteristics, such as their location, dominant plant life, and ecological processes. The bottom three levels (regional ecosystem subgroups, global ecosystem types, and subglobal ecosystem types) focus on specific geographic variants within ecosystem functional groups and complexes of organisms and their associated physical environment, providing a more detailed understanding of particular ecosystems.
 This dataset focuses on the third level of the Global Ecosystem Typology: Ecosystem Functional Group. It's defined as a group of related ecosystems within a biome that share common ecological drivers, which in turn promote similar biotic traits that characterise the group. Derived from the top-down by subdivision of biomes.
 NOTE: Due to the size of some geometries, a simpification algorithm was applied to each one to reduce their complexity. As many vertices as possible were discarded without moving the distance from the original shape more than 100 m. As a result, approximately two dozen rows in the table collapsed into geometries with 0 area and were removed.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -26,18 +27,21 @@ efg_code | STRING | Ecosystem functional group code (e.g., "T1.1" = Tropical/Sub
 map_code | STRING | Map code  
 map_version | STRING | Map version  
 occurrence | INT | It indicates whether the specified region contains major occurrences (1) or minor occurrences (2) of the functional group."  
+### Terms of Use
 **Terms of Use**
 Global Ecosystem Typology datasets are provided under the CC BY 4.0 license, which allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.
+### Citations
 Citations:
   * RT Pennington, J Franklin, NA Brummitt, A Etter, KR Young, RT Corlett and DA Keith. (2022). T1.2 Tropical/Subtropical dry forests and thickets. In: Keith, D.A., Ferrer-Paris, J.R., Nicholson, E. et al. (2022). A function-based typology for Earth's ecosystems - Appendix S4. The IUCN Global Ecosystem Typology v2.1: Descriptive profiles for Biomes and Ecosystem Functional Groups.
 
 
+### DOIs
   * [ https://doi.org/10.1038/s41586-022-05318-4 ](https://doi.org/10.1038/s41586-022-05318-4)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/IUCN_GlobalEcosystemTypology_current#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varecosystemTypology=
 ee.FeatureCollection('IUCN/GlobalEcosystemTypology/current');

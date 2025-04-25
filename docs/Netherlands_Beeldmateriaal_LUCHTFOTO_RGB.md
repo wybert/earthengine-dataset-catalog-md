@@ -1,6 +1,6 @@
  
 #  Netherlands orthophotos 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![Netherlands/Beeldmateriaal/LUCHTFOTO_RGB](https://developers.google.com/earth-engine/datasets/images/Netherlands/Netherlands_Beeldmateriaal_LUCHTFOTO_RGB_sample.png) 
 
 Dataset Availability
@@ -14,9 +14,10 @@ Earth Engine Snippet
 
 Tags
      [netherlands](https://developers.google.com/earth-engine/datasets/tags/netherlands) [orthophotos](https://developers.google.com/earth-engine/datasets/tags/orthophotos) [rgb](https://developers.google.com/earth-engine/datasets/tags/rgb)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/Netherlands_Beeldmateriaal_LUCHTFOTO_RGB#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/Netherlands_Beeldmateriaal_LUCHTFOTO_RGB#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/Netherlands_Beeldmateriaal_LUCHTFOTO_RGB#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/Netherlands_Beeldmateriaal_LUCHTFOTO_RGB#citations) More
+#### Description
 Orthophotos of Netherlands is a set of color orthoimages. Two nationwide aerial photographs are collected per year: a leafless image at 7.5 cm resolution in the spring and one with leaves on trees at 25 cm resolution in the summer.
 For more information, please see the [Netherlands orthophotos documentation](https://opendata.beeldmateriaal.nl/)
+### Bands
 **Pixel Size** 0.08 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -24,15 +25,17 @@ Name | Units | Min | Max | Description
 `R` | dn |  0  |  255  | Red  
 `G` | dn |  0  |  255  | Green  
 `B` | dn |  0  |  255  | Blue  
+### Terms of Use
 **Terms of Use**
 The images are made available with a CC BY 4.0 license. The user is required to add a reference to the datasource as "opendata.beeldmaterial.nl".
+### Citations
 Citations:
   * opendata.beeldmaterial.nl
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/Netherlands_Beeldmateriaal_LUCHTFOTO_RGB#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('Netherlands/Beeldmateriaal/LUCHTFOTO_RGB');
 Map.setCenter(5.54,51.88,15);

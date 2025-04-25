@@ -1,6 +1,6 @@
  
 #  Allen Coral Atlas (ACA) - Geomorphic Zonation and Benthic Habitat - v2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ACA/reef_habitat/v2_0](https://developers.google.com/earth-engine/datasets/images/ACA/ACA_reef_habitat_v2_0_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ coral
 planet-derived
 reef
 seagrass
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v2_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v2_0#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v2_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v2_0#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v2_0#dois) More
+#### Description
 The [Allen Coral Atlas](https://allencoralatlas.org/) dataset maps the geomorphic zonation and benthic habitat for the world's shallow coral reefs at 5 m pixel resolution. Also included is a global reef extent product that maps additional reef areas unable to be explicitly included in the geomorphic and benthic mapping. The underlying satellite image data are temporal composites of [PlanetScope satellite](https://www.planet.com/products/basemap/) imagery spanning 2018-2020. The habitat maps are created via a machine learning approach with contextual editing, using a range of imagery, bathymetry and derived products as input data, trained via a globally consistent reference data set. A full description of the methods and approaches can be found in the methods section of the [Allen Coral Atlas website](https://allencoralatlas.org/methods/).
 The first version ([v1.0](https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v1_0)) of the Allen Coral Atlas was completed in Q4 2021, and this new version (v2.0) has a wide range of improvements across the globe that incorporated both user feedback on v1.0 and new technical developments in mapping methodology. A brief overview of the changes can be found [here](https://allencoralatlas.org/blog/geomorphic-and-benthic-maps-2022-update/) and a more comprehensive technical summary can be found [here](https://storage.googleapis.com/coral-atlas-static-files/resources-page-materials/Allen_Coral_Atlas_2022_habitat_map_revisions.pdf).
 The Allen Coral Atlas was funded by [Vulcan Inc.](https://vulcan.com/) and is managed by the [Arizona State University Center for Global Discovery and Conservation Science](https://gdcs.asu.edu/). Partners include [Planet](https://www.planet.com/), the [University of Queensland](https://www.uq.edu.au/), and the [Coral Reef Alliance](https://coral.org/en/).
@@ -31,6 +31,7 @@ Scientific background publications:
 
 
 Allen Coral Atlas maps, bathymetry and map statistics are © 2023 Allen Coral Atlas Partnership and Vulcan, Inc.
+### Bands
 **Pixel Size** 5 meters 
 **Bands**
 Name | Description  
@@ -68,18 +69,21 @@ Value | Color | Description
 ---|---|---  
 0 | #000000 | Not reef  
 1 | #ffffff | Reef  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Allen Coral Atlas (2020). Imagery, maps and monitoring of the world's tropical coral reefs. Zenodo. [doi:10.5281/zenodo.3833242](https://doi.org/10.5281/zenodo.3833242)
 
 
+### DOIs
   * [ https://doi.org/10.5281/zenodo.3833242 ](https://doi.org/10.5281/zenodo.3833242)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v2_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('ACA/reef_habitat/v2_0');
 // Teti'aroa, an atoll in French Polynesia.

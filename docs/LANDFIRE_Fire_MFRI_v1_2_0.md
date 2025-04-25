@@ -1,6 +1,6 @@
  
 #  LANDFIRE MFRI (Mean Fire Return Interval) v1.2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDFIRE/Fire/MFRI/v1_2_0](https://developers.google.com/earth-engine/datasets/images/LANDFIRE/LANDFIRE_Fire_MFRI_v1_2_0_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [doi](https://developers.google.com/earth-engine/datasets/tags/doi) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [landfire](https://developers.google.com/earth-engine/datasets/tags/landfire) [nature-conservancy](https://developers.google.com/earth-engine/datasets/tags/nature-conservancy) [usda](https://developers.google.com/earth-engine/datasets/tags/usda) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [wildfire](https://developers.google.com/earth-engine/datasets/tags/wildfire)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_MFRI_v1_2_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_MFRI_v1_2_0#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_MFRI_v1_2_0#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_MFRI_v1_2_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_MFRI_v1_2_0#citations) More
+#### Description
 LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a shared program between the wildland fire management programs of the U.S. Department of Agriculture's Forest Service, U.S. Department of the Interior's Geological Survey, and The Nature Conservancy.
 Landfire (LF) Historical fire regimes, intervals, and vegetation conditions are mapped using the Vegetation Dynamics Development Tool (VDDT). These data support fire and landscape management planning goals in the National Cohesive Wildland Fire Management Strategy, the Federal Wildland Fire Management Policy, and the Healthy Forests Restoration Act.
 The Mean Fire Return Interval (MFRI) layer quantifies the average period between fires under the presumed historical fire regime. MFRI is intended to describe one component of historical fire regime characteristics in the context of the broader historical time period represented by the LANDFIRE (LF) Biophysical Settings (BPS) layer and BPS Model documentation. MFRI is derived from the vegetation and disturbance dynamics model VDDT (Vegetation Dynamics Development Tool) (LF 1.0.0 CONUS only used the vegetation and disturbance dynamics model LANDSUM). This layer is created by linking the BpS Group attribute in the BpS layer with the Refresh Model Tracker (RMT) data and assigning the MFRI attribute. This geospatial product should display a reasonable approximation of MFRI, as documented in the RMT. MFRI is used in landscape assessments.
@@ -29,6 +29,7 @@ The LANDIFRE Fire datasets include:
   * Vegetation Departure (VDep) indicates how different current vegetation on a landscape is from estimated historical conditions. VDep is based on changes to species composition, structural stage, and canopy closure.
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Description  
@@ -64,13 +65,16 @@ Value | Color | Description
 131 | #4e4e4e | Barren  
 132 | #b2b2b2 | Sparsely Vegetated  
 133 | #e1e1e1 | Indeterminate Fire Regime Characteristics  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 MFRI_classes | DOUBLE | Class values of the mean fire return interval.  
 MFRI_names | STRING | Descriptive names of the mean fire return interval.  
+### Terms of Use
 **Terms of Use**
 LANDFIRE data are public domain data with no use restrictions, though if modifications or derivatives of the product(s) are created, then please add some descriptive modifier to the data set to avoid confusion.
+### Citations
 Citations:
   * The suggested way to cite LANDFIRE products is specific to each product, so the model for citation is provided, with an example for a particular product. Producer. Year released. Product xxxxx:
     * Individual model name.
@@ -82,7 +86,7 @@ Example Citation: LANDFIRE Biophysical Settings. 2018. Biophysical setting 14420
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_MFRI_v1_2_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDFIRE/Fire/MFRI/v1_2_0');
 varvisualization={

@@ -1,6 +1,6 @@
  
 #  International Best Track Archive for Climate Stewardship Project 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/IBTrACS/v4](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_IBTrACS_v4_sample.png) 
 
 Dataset Availability
@@ -14,8 +14,9 @@ Earth Engine Snippet
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [hurricane](https://developers.google.com/earth-engine/datasets/tags/hurricane) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [table](https://developers.google.com/earth-engine/datasets/tags/table) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_IBTrACS_v4#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/NOAA_IBTrACS_v4#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_IBTrACS_v4#terms-of-use) More
+#### Description
 The International Best Track Archive for Climate Stewardship (IBTrACS) provides location and intensity for global tropical cyclones. The data span from the 1840s to present, generally providing data at 3-hour intervals. While the best track data is focused on position and intensity (maximum sustained wind speed or minimum central pressure), other parameters are provided by some agencies (e.g., radius of maximum winds, environmental pressure, radius of hurricane force winds, etc.) and are likewise provided in IBTrACS. Files are available subset by Basin or time period, where basins include: East Pacific, North Atlantic, North Indian, South Atlantic, South Indian, South Pacific, and the West Pacific.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -360,7 +361,7 @@ BOM_POS_METHOD | STRING | This indicates the tools that were used to derive the 
   
 BOM_PRES_METHOD | STRING | This code may need to be expanded to handle new systems in the future, and also to differentiate between pressure-wind relationships used to derive the central pressure. | ADAM Code | Method | WMO Code  
 ---|---|---  
-NULL | Unknown or N/A  
+NULL | Unknown or N/A |   
 1 | Aircraft or Dropsonde observation | 1  
 2 | Over water observation (e.g. buoy) | 2  
 3 | Over land observation | 3  
@@ -437,11 +438,12 @@ USA_SEARAD_SW | DOUBLE | Radial extent of seas (as defined in SEAHGT) extending 
 USA_SEARAD_NW | DOUBLE | Radial extent of seas (as defined in SEAHGT) extending from storm center to the Northwest.  
 STORM_SPEED | DOUBLE | Translation speed of the system as calculated from the positions in LAT and LON  
 STORM_DIR | DOUBLE | Translation direction of the system as calculated from the positions in LAT and LON. Direction is moving toward the vector pointing in degrees east of north [range = 0-360 deg]  
+### Terms of Use
 **Terms of Use**
 NOAA data, information, and products, regardless of the method of delivery, are not subject to copyright and carry no restrictions on their subsequent use by the public. Once obtained, they may be put to any lawful use.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_IBTrACS_v4#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('NOAA/IBTrACS/v4');
 varwaterLand=ee.Image('NOAA/NGDC/ETOPO1').select('bedrock').gt(0.0);
@@ -470,7 +472,7 @@ Map.setCenter(-53,36,5);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_IBTrACS_v4#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('NOAA/IBTrACS/v4_FeatureView');
 varvisParams={

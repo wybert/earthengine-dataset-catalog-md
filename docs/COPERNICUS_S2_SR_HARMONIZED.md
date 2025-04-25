@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S2_SR_HARMONIZED](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_SR_HARMONIZED_sample.png) 
 
 Dataset Availability
-    2017-03-28T00:00:00Z–2025-04-22T14:21:05.411000Z 
+    2017-03-28T00:00:00Z–2025-04-24T20:04:00.881000Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/processing-levels/level-2) 
@@ -29,29 +29,29 @@ For more details on Sentinel-2 radiometric resolution, [see this page](https://s
 **Bands**
 Name | Units | Min | Max | Scale | Pixel Size | Wavelength | Description  
 ---|---|---|---|---|---|---|---  
-`B1` | 0.0001 |  60 meters  | 443.9nm (S2A) / 442.3nm (S2B) | Aerosols  
-`B2` | 0.0001 |  10 meters  | 496.6nm (S2A) / 492.1nm (S2B) | Blue  
-`B3` | 0.0001 |  10 meters  | 560nm (S2A) / 559nm (S2B) | Green  
-`B4` | 0.0001 |  10 meters  | 664.5nm (S2A) / 665nm (S2B) | Red  
-`B5` | 0.0001 |  20 meters  | 703.9nm (S2A) / 703.8nm (S2B) | Red Edge 1  
-`B6` | 0.0001 |  20 meters  | 740.2nm (S2A) / 739.1nm (S2B) | Red Edge 2  
-`B7` | 0.0001 |  20 meters  | 782.5nm (S2A) / 779.7nm (S2B) | Red Edge 3  
-`B8` | 0.0001 |  10 meters  | 835.1nm (S2A) / 833nm (S2B) | NIR  
-`B8A` | 0.0001 |  20 meters  | 864.8nm (S2A) / 864nm (S2B) | Red Edge 4  
-`B9` | 0.0001 |  60 meters  | 945nm (S2A) / 943.2nm (S2B) | Water vapor  
-`B11` | 0.0001 |  20 meters  | 1613.7nm (S2A) / 1610.4nm (S2B) | SWIR 1  
-`B12` | 0.0001 |  20 meters  | 2202.4nm (S2A) / 2185.7nm (S2B) | SWIR 2  
-`AOT` | 0.001 |  10 meters  | Aerosol Optical Thickness  
-`WVP` | cm | 0.001 |  10 meters  | Water Vapor Pressure. The height the water would occupy if the vapor were condensed into liquid and spread evenly across the column.  
-`SCL` |  1  |  11  |  20 meters  | Scene Classification Map (The "No Data" value of 0 is masked out)  
-`TCI_R` |  10 meters  | True Color Image, Red channel  
-`TCI_G` |  10 meters  | True Color Image, Green channel  
-`TCI_B` |  10 meters  | True Color Image, Blue channel  
-`MSK_CLDPRB` |  0  |  100  |  20 meters  | Cloud Probability Map (missing in some products)  
-`MSK_SNWPRB` |  0  |  100  |  10 meters  | Snow Probability Map (missing in some products)  
-`QA10` |  10 meters  | Always empty  
-`QA20` |  20 meters  | Always empty  
-`QA60` |  60 meters  | Cloud mask. Masked out between 2022-01-25 to 2024-02-28 inclusive.  
+`B1` |  |  |  | 0.0001 |  60 meters  | 443.9nm (S2A) / 442.3nm (S2B) | Aerosols  
+`B2` |  |  |  | 0.0001 |  10 meters  | 496.6nm (S2A) / 492.1nm (S2B) | Blue  
+`B3` |  |  |  | 0.0001 |  10 meters  | 560nm (S2A) / 559nm (S2B) | Green  
+`B4` |  |  |  | 0.0001 |  10 meters  | 664.5nm (S2A) / 665nm (S2B) | Red  
+`B5` |  |  |  | 0.0001 |  20 meters  | 703.9nm (S2A) / 703.8nm (S2B) | Red Edge 1  
+`B6` |  |  |  | 0.0001 |  20 meters  | 740.2nm (S2A) / 739.1nm (S2B) | Red Edge 2  
+`B7` |  |  |  | 0.0001 |  20 meters  | 782.5nm (S2A) / 779.7nm (S2B) | Red Edge 3  
+`B8` |  |  |  | 0.0001 |  10 meters  | 835.1nm (S2A) / 833nm (S2B) | NIR  
+`B8A` |  |  |  | 0.0001 |  20 meters  | 864.8nm (S2A) / 864nm (S2B) | Red Edge 4  
+`B9` |  |  |  | 0.0001 |  60 meters  | 945nm (S2A) / 943.2nm (S2B) | Water vapor  
+`B11` |  |  |  | 0.0001 |  20 meters  | 1613.7nm (S2A) / 1610.4nm (S2B) | SWIR 1  
+`B12` |  |  |  | 0.0001 |  20 meters  | 2202.4nm (S2A) / 2185.7nm (S2B) | SWIR 2  
+`AOT` |  |  |  | 0.001 |  10 meters  |  | Aerosol Optical Thickness  
+`WVP` | cm |  |  | 0.001 |  10 meters  |  | Water Vapor Pressure. The height the water would occupy if the vapor were condensed into liquid and spread evenly across the column.  
+`SCL` |  |  1  |  11  |  |  20 meters  |  | Scene Classification Map (The "No Data" value of 0 is masked out)  
+`TCI_R` |  |  |  |  |  10 meters  |  | True Color Image, Red channel  
+`TCI_G` |  |  |  |  |  10 meters  |  | True Color Image, Green channel  
+`TCI_B` |  |  |  |  |  10 meters  |  | True Color Image, Blue channel  
+`MSK_CLDPRB` |  |  0  |  100  |  |  20 meters  |  | Cloud Probability Map (missing in some products)  
+`MSK_SNWPRB` |  |  0  |  100  |  |  10 meters  |  | Snow Probability Map (missing in some products)  
+`QA10` |  |  |  |  |  10 meters  |  | Always empty  
+`QA20` |  |  |  |  |  20 meters  |  | Always empty  
+`QA60` |  |  |  |  |  60 meters  |  | Cloud mask. Masked out between 2022-01-25 to 2024-02-28 inclusive.  
 Bitmask for QA60
   * Bits 0-9: Unused 
   * Bit 10: Opaque clouds 
@@ -62,9 +62,9 @@ Bitmask for QA60
     * 1: Cirrus clouds present
 
   
-`MSK_CLASSI_OPAQUE` |  60 meters  | Opaque clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
-`MSK_CLASSI_CIRRUS` |  60 meters  | Cirrus clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
-`MSK_CLASSI_SNOW_ICE` |  60 meters  | Snow/ice classification band (0=no snow/ice, 1=snow/ice). Masked out before February 2024.  
+`MSK_CLASSI_OPAQUE` |  |  |  |  |  60 meters  |  | Opaque clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
+`MSK_CLASSI_CIRRUS` |  |  |  |  |  60 meters  |  | Cirrus clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
+`MSK_CLASSI_SNOW_ICE` |  |  |  |  |  60 meters  |  | Snow/ice classification band (0=no snow/ice, 1=snow/ice). Masked out before February 2024.  
 **SCL Class Table**
 Value | Color | Description  
 ---|---|---  
@@ -239,7 +239,7 @@ m
 [ Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-2A (SR) ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED)
 After 2022-01-25, Sentinel-2 scenes with PROCESSING_BASELINE '04.00' or above have their DN (value) range shifted by 1000. The HARMONIZED collection shifts data in newer scenes to be in the same range as in older scenes. Sentinel-2 is a wide-swath, high-resolution, multi-spectral imaging mission supporting Copernicus Land Monitoring studies, including the …
 COPERNICUS/S2_SR_HARMONIZED, copernicus,esa,eu,msi,reflectance,satellite-imagery,sentinel,sr 
-2017-03-28T00:00:00Z/2025-04-22T14:21:05.411000Z
+2017-03-28T00:00:00Z/2025-04-24T20:04:00.881000Z
 -56 -180 83 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

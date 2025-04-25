@@ -1,6 +1,6 @@
  
 #  MOD16A2: MODIS Global Terrestrial Evapotranspiration 8-Day Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/NTSG/MOD16A2/105](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_NTSG_MOD16A2_105_sample.png) 
 
 Dataset Availability
@@ -17,13 +17,14 @@ Cadence
 
 Tags
      [8-day](https://developers.google.com/earth-engine/datasets/tags/8-day) [evapotranspiration](https://developers.google.com/earth-engine/datasets/tags/evapotranspiration) [global](https://developers.google.com/earth-engine/datasets/tags/global) [mod16a2](https://developers.google.com/earth-engine/datasets/tags/mod16a2) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_NTSG_MOD16A2_105#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_NTSG_MOD16A2_105#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/MODIS_NTSG_MOD16A2_105#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_NTSG_MOD16A2_105#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_NTSG_MOD16A2_105#citations) More
+#### Description
 The MOD16A2 V105 product provides information about 8-day global terrestrial evapotranspiration at 1km pixel resolution. Evapotranspiration (ET) is the sum of evaporation and plant transpiration from the Earth's surface to the atmosphere. With long-term ET data, the effects of changes in climate, land use, and ecosystems disturbances can be quantified.
 The MOD16A2 product is produced by the Numerical Terradynamic Simulation Group [NTSG](https://www.ntsg.umt.edu/), University of Montana (UMT) in conjunction with NASA Earth Observing System. For more details about the algorithm used see the [algorithm theoretical basis document](https://scholarworks.umt.edu/cgi/viewcontent.cgi?article=1267&context=ntsg_pubs).
   * The period of coverage is 8 days with the exception of the last period at the end of the year which is either 5 or 6 days. ET/PET units are 0.1mm/5-day for December 27-31 of 2001, 2002, 2003, 2005, 2006, 2007, 2009, 2010, and 0.1mm/6-day for December 26-31 of 2000, 2004, 2008 (leap years).
 
 
 ** For some pixels in African rainforest, the MODIS albedo data from MCD43B2/MCD43B3 have no cloud-free data throughout an entire year. As a result, pixels for that year in all data bands are masked out.
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
@@ -32,7 +33,7 @@ Name | Units | Min | Max | Scale | Description
 `LE` | J/m^2/day |  -20*  |  1671*  | 10000 | Latent heat flux, averaged daily over the period of coverage.  
 `PET` | kg/m^2 |  -8*  |  793*  | 0.1 | Potential evapotranspiration, aggregated for period of coverage.  
 `PLE` | J/m^2/day |  -40*  |  3174*  | 10000 | Potential Latent Heat Flux, averaged daily over the period ofcoverage.  
-`ET_QC` | ET quality control.  
+`ET_QC` |  |  |  |  | ET quality control.  
 Bitmask for ET_QC
   * Bit 0: MODLAND_QC bits 
     * 0: Good quality (main algorithm with or without saturation)
@@ -57,19 +58,22 @@ Bitmask for ET_QC
 
   
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 days_of_coverage | DOUBLE | Number of days covered by each image since the period of coverage for the last asset of the year can be of varying length  
+### Terms of Use
 **Terms of Use**
 All NTSG data distributed through this [site](http://files.ntsg.umt.edu/) has no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Qiaozhen Mu, Maosheng Zhao, Steven W. Running and Numerical Terradynamic Simulation Group (2014): MODIS Global Terrestrial Evapotranspiration (ET) Product MOD16A2 Collection 5.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_NTSG_MOD16A2_105#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/NTSG/MOD16A2/105')
 .filter(ee.Filter.date('2014-04-01','2014-06-01'));

@@ -1,6 +1,6 @@
  
 #  VNP43IA1: BRDF/Albedo Model Parameters Daily L3 Global 500m SIN Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/001/VNP43IA1](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP43IA1_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [land](https://developers.google.com/earth-engine/datasets/tags/land) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [surface](https://developers.google.com/earth-engine/datasets/tags/surface) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP43IA1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP43IA1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP43IA1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP43IA1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP43IA1#dois) More
+#### Description
 The Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Bidirectional Reflectance Distribution Function (BRDF) and Albedo Model Parameters (VNP43IA1) Version 1 product provides kernel weights (parameters) at 500 resolution. The VNP43IA1 product is produced daily using 16 days of VIIRS data, temporally weighted to the ninth day, which is reflected in the file name. The VNP43IA1 product provides three spectrally dependent kernel weights, also known as model parameters: isotropic (fiso), volumetric (fvol), and geometric (fgeo), which can be used to model anisotropic effects of the Earth's surface. All VNP43 data products are designed to promote the continuity of NASA's Moderate Resolution Imaging Spectroradiometer (MODIS) BRDF/Albedo data product suite.
 Documentation:
   * [User's Guide](https://www.umb.edu/spectralmass/viirs-user-guide/vnp43ia1-and-vnp43ma1-brdf-albedo-model-parameters)
@@ -26,6 +26,7 @@ Documentation:
   * [Land Product Quality Assessment website](https://landweb.modaps.eosdis.nasa.gov/browse?sensor=VIIRS&sat=SNPP)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Description  
@@ -45,30 +46,33 @@ Name | Description
 **BRDF_Albedo_Band_Mandatory_Quality_I1 Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | Full BRDF inversions  
-1 | Magnitude BRDF inversions  
+0 |  | Full BRDF inversions  
+1 |  | Magnitude BRDF inversions  
 **BRDF_Albedo_Band_Mandatory_Quality_I2 Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | Full BRDF inversions  
-1 | Magnitude BRDF inversions  
+0 |  | Full BRDF inversions  
+1 |  | Magnitude BRDF inversions  
 **BRDF_Albedo_Band_Mandatory_Quality_I3 Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | Full BRDF inversions  
-1 | Magnitude BRDF inversions  
+0 |  | Full BRDF inversions  
+1 |  | Magnitude BRDF inversions  
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP43IA1.001 ](https://doi.org/10.5067/VIIRS/VNP43IA1.001)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP43IA1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NOAA/VIIRS/001/VNP43IA1')
 .filter(ee.Filter.date('2017-03-10','2017-03-11'));

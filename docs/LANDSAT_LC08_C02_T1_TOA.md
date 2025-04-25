@@ -1,6 +1,6 @@
  
 #  USGS Landsat 8 Collection 2 Tier 1 TOA Reflectance 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LC08/C02/T1_TOA](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T1_TOA_sample.png) 
 
 Dataset Availability
@@ -17,10 +17,11 @@ Revisit Interval
 
 Tags
      [c2](https://developers.google.com/earth-engine/datasets/tags/c2) [global](https://developers.google.com/earth-engine/datasets/tags/global) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [toa](https://developers.google.com/earth-engine/datasets/tags/toa) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#terms-of-use) More
+#### Description
 Landsat 8 Collection 2 Tier 1 calibrated top-of-atmosphere (TOA) reflectance. Calibration coefficients are extracted from the image metadata. See [Chander et al. (2009)](https://www.sciencedirect.com/science/article/pii/S0034425709000169) for details on the TOA computation.
 Landsat scenes with the highest available data quality are placed into Tier 1 and are considered suitable for time-series processing analysis. Tier 1 includes Level-1 Precision Terrain (L1TP) processed data that have well-characterized radiometry and are inter-calibrated across the different Landsat sensors. The georegistration of Tier 1 scenes will be consistent and within prescribed tolerances [<=12 m root mean square error (RMSE)]. All Tier 1 Landsat data can be considered consistent and inter-calibrated (regardless of sensor) across the full collection. See more information [in the USGS docs](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collections).
 The T1_RT collection contains both Tier 1 and Real-Time (RT) assets. Newly-acquired Landsat 7 ETM+ and Landsat 8 OLI/TIRS data are processed upon downlink but use predicted ephemeris, initial bumper mode parameters, or initial TIRS line of sight model parameters. The data is placed in the Real-Time tier and made available for immediate download. Once the data have been reprocessed with definitive ephemeris, updated bumper mode parameters and refined TIRS parameters, the products are transitioned to either Tier 1 or Tier 2 and removed from the Real-Time tier. The transition delay from Real-Time to Tier 1 or Tier 2 is between 14 and 26 days.
+### Bands
 **Bands**
 Name | Pixel Size | Wavelength | Description  
 ---|---|---|---  
@@ -35,7 +36,7 @@ Name | Pixel Size | Wavelength | Description
 `B9` |  30 meters  | 1.36 - 1.38 μm | Cirrus  
 `B10` |  30 meters  | 10.60 - 11.19 μm | Thermal infrared 1, resampled from 100m to 30m  
 `B11` |  30 meters  | 11.50 - 12.51 μm | Thermal infrared 2, resampled from 100m to 30m  
-`QA_PIXEL` |  30 meters  | Landsat Collection 2 OLI/TIRS QA Bitmask  
+`QA_PIXEL` |  30 meters  |  | Landsat Collection 2 OLI/TIRS QA Bitmask  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
     * 0: Image data
@@ -83,7 +84,7 @@ Bitmask for QA_PIXEL
     * 3: High confidence
 
   
-`QA_RADSAT` |  30 meters  | Radiometric saturation QA  
+`QA_RADSAT` |  30 meters  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 
@@ -100,10 +101,11 @@ Bitmask for QA_RADSAT
     * 1: Terrain occlusion
 
   
-`SAA` |  30 meters  | Solar Azimuth Angle  
-`SZA` |  30 meters  | Solar Zenith Angle  
-`VAA` |  30 meters  | View Azimuth Angle  
-`VZA` |  30 meters  | View Zenith Angle  
+`SAA` |  30 meters  |  | Solar Azimuth Angle  
+`SZA` |  30 meters  |  | Solar Zenith Angle  
+`VAA` |  30 meters  |  | View Azimuth Angle  
+`VZA` |  30 meters  |  | View Zenith Angle  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -248,6 +250,7 @@ UTM_ZONE | DOUBLE | UTM zone number used in product map projection.
 WRS_PATH | DOUBLE | The WRS orbital path number (001 - 251).  
 WRS_ROW | DOUBLE | Landsat satellite WRS row (001-248).  
 WRS_TYPE | DOUBLE | World Reference System (WRS) type used for the collection of this scene.  
+### Terms of Use
 **Terms of Use**
 Landsat datasets are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.
 Acknowledgement or credit of the USGS as data source should be provided by including a line of text citation such as the example shown below.
@@ -256,7 +259,7 @@ Example: Landsat-7 image courtesy of the U.S. Geological Survey
 See the [USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system) for further details on proper citation and acknowledgement of USGS products.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#code-editor-javascript-sample)[Colab (Python)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#colab-python-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDSAT/LC08/C02/T1_TOA')
 .filterDate('2017-01-01','2017-12-31');
@@ -274,6 +277,8 @@ See the [ Python Environment](https://developers.google.com/earth-engine/guides/
 importee
 importgeemap.coreasgeemap
 ```
+
+### Colab (Python)
 ```
 dataset = ee.ImageCollection('LANDSAT/LC08/C02/T1_TOA').filterDate(
   '2017-01-01', '2017-12-31'

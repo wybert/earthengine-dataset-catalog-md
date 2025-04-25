@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![NASA/VIIRS/002/VNP21A1N](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP21A1N_sample.png) 
 
 Dataset Availability
-    2012-01-19T00:00:00Z–2025-04-18T00:00:00Z 
+    2012-01-19T00:00:00Z–2025-04-21T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/VIIRS/VNP21A1N.002) 
@@ -32,7 +32,7 @@ Documentation:
 Name | Units | Description  
 ---|---|---  
 `LST_1KM` | K | Daily 1 km Land Surface Temperature.  
-`QC` | Daily Quality control for LST and emissivity  
+`QC` |  | Daily Quality control for LST and emissivity  
 Bitmask for QC
   * Bits 0-1: Mandatory QA flags 
     * 0: Pixel produced, good quality, no further QA info necessary
@@ -76,9 +76,9 @@ Bitmask for QC
     * 3: <1K (Excellent performance)
 
   
-`Emis_14` | Daily M14 emissivity  
-`Emis_15` | Daily M15 emissivity  
-`Emis_16` | Daily M16 emissivity  
+`Emis_14` |  | Daily M14 emissivity  
+`Emis_15` |  | Daily M15 emissivity  
+`Emis_16` |  | Daily M16 emissivity  
 `View_Angle` | deg | View zenith angle of LST  
 `View_Time` | h | Time of LST observation  
 **Terms of Use**
@@ -121,7 +121,7 @@ Map.addLayer(dataset,visualization,'LST');
 [ VNP21A1N.002: Night Land Surface Temperature and Emissivity Daily 1km ](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP21A1N)
 The NASA Suomi National Polar-Orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Land Surface Temperature and Emissivity (LST&E) Night Version 1 product (VNP21A1N) is compiled daily from nighttime Level 2 Gridded (L2G) intermediate products. The L2G process maps the daily VNP21 swath granules onto a sinusoidal MODIS grid …
 NASA/VIIRS/002/VNP21A1N, climate,daily,land,nasa,night,noaa,surface,temperature,viirs 
-2012-01-19T00:00:00Z/2025-04-18T00:00:00Z
+2012-01-19T00:00:00Z/2025-04-21T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

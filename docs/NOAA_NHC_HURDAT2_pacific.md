@@ -1,6 +1,6 @@
  
 #  NOAA NHC HURDAT2 Pacific Hurricane Catalog 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/NHC/HURDAT2/pacific](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_NHC_HURDAT2_pacific_sample.png) 
 
 Dataset Availability
@@ -14,9 +14,10 @@ Earth Engine Snippet
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [hurricane](https://developers.google.com/earth-engine/datasets/tags/hurricane) [nhc](https://developers.google.com/earth-engine/datasets/tags/nhc) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [table](https://developers.google.com/earth-engine/datasets/tags/table) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NHC_HURDAT2_pacific#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NHC_HURDAT2_pacific#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NHC_HURDAT2_pacific#terms-of-use) More
+#### Description
 Hurricane best track database (HURDAT2).
 Pacific basin 1949-2018.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -70,11 +71,12 @@ basin | STRING | Ocean basin. Always one of:
   
 id | STRING | Code for a particular hurricane. Basic code followed by a 2 digit cyclone number followed by a 4-digit year. e.g. "CP011993"  
 year | DOUBLE | Year in which the hurricane occurred  
+### Terms of Use
 **Terms of Use**
 NOAA data, information, and products, regardless of the method of delivery, are not subject to copyright and carry no restrictions on their subsequent use by the public. Once obtained, they may be put to any lawful use.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NHC_HURDAT2_pacific#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Show hurricane tracks and points for 1993.
 varhurricanes=ee.FeatureCollection('NOAA/NHC/HURDAT2/pacific');
@@ -101,7 +103,7 @@ Map.setCenter(210,30,3);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NHC_HURDAT2_pacific#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('NOAA/NHC/HURDAT2/pacific_FeatureView');
 varvisParams={

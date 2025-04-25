@@ -1,10 +1,10 @@
  
 #  MYD09CMG.061 Aqua Surface Reflectance Daily L3 Global 0.05 Deg CMG 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD09CMG](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD09CMG_sample.png) 
 
 Dataset Availability
-    2002-07-04T00:00:00Z–2025-04-19T00:00:00Z 
+    2002-07-04T00:00:00Z–2025-04-22T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MYD09CMG.061) 
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [brightness-temperature](https://developers.google.com/earth-engine/datasets/tags/brightness-temperature) [ozone](https://developers.google.com/earth-engine/datasets/tags/ozone) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [surface-reflectance](https://developers.google.com/earth-engine/datasets/tags/surface-reflectance)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09CMG#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09CMG#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09CMG#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09CMG#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09CMG#dois) More
+#### Description
 The MYD09CMG Version 6.1 product provides an estimate of the surface spectral reflectance of Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Bands 1 through 7, resampled to 5600 meter pixel resolution and corrected for atmospheric conditions such as gasses, aerosols, and Rayleigh scattering. The MYD09CMG data product provides 25 layers including MODIS bands 1 through 7; Brightness Temperature data from thermal bands 20, 21, 31, and 32; along with Quality Assurance (QA) and observation bands. This product is based on a Climate Modeling Grid (CMG) for use in climate simulation models.
 This dataset has a striping issue originating from Band 5’s dead detector 20. The MYD09/Band 5 show the dead detector striping in band 5, but it has been properly flagged in the QA layer. The science team has been notified and the issue will be addressed in the Collection 7. More details can be found on [the known issue page](https://landweb.modaps.eosdis.nasa.gov/displayissue?id=939).
 Documentation:
@@ -26,6 +26,7 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MYD09CMG)
 
 
+### Bands
 **Pixel Size** 5600 meters 
 **Bands**
 Name | Units | Min | Max | Wavelength | Description  
@@ -37,17 +38,17 @@ Name | Units | Min | Max | Wavelength | Description
 `Coarse_Resolution_Surface_Reflectance_Band_5` | Dimensionless |  -0.01  |  1.6  | 1230-1250nm | Surface reflectance for band 5  
 `Coarse_Resolution_Surface_Reflectance_Band_6` | Dimensionless |  -0.01  |  1.6  | 1628-1652nm | Surface reflectance for band 6  
 `Coarse_Resolution_Surface_Reflectance_Band_7` | Dimensionless |  -0.01  |  1.6  | 2105-2155nm | Surface reflectance for band 7  
-`Coarse_Resolution_Solar_Zenith_Angle` | deg |  0  |  180  | Solar Zenith Angle  
-`Coarse_Resolution_View_Zenith_Angle` | deg |  0  |  180  | View Zenith Angle  
-`Coarse_Resolution_Relative_Azimuth_Angle` | deg |  -180  |  180  | Relative Azimuth Angle  
-`Coarse_Resolution_Ozone` | atm cm |  0.0025  |  0.6375  | Ozone Resolution  
+`Coarse_Resolution_Solar_Zenith_Angle` | deg |  0  |  180  |  | Solar Zenith Angle  
+`Coarse_Resolution_View_Zenith_Angle` | deg |  0  |  180  |  | View Zenith Angle  
+`Coarse_Resolution_Relative_Azimuth_Angle` | deg |  -180  |  180  |  | Relative Azimuth Angle  
+`Coarse_Resolution_Ozone` | atm cm |  0.0025  |  0.6375  |  | Ozone Resolution  
 `Coarse_Resolution_Brightness_Temperature_Band_20` | K |  0.01  |  400  | 3.360-3.840µm | Band 20 Brightness Temperature  
 `Coarse_Resolution_Brightness_Temperature_Band_21` | K |  0.01  |  400  | 3.929-3.989µm | Band 21 Brightness Temperature  
 `Coarse_Resolution_Brightness_Temperature_Band_31` | K |  0.01  |  400  | 10.780-11.280µm | Band 31 Brightness Temperature  
 `Coarse_Resolution_Brightness_Temperature_Band_32` | K |  0.01  |  400  | 11.770-12.270µm | Band 32 Brightness Temperature  
-`Coarse_Resolution_Granule_Time` |  1  |  2355  | Granule time of day, as HHMM  
-`Coarse_Resolution_Band_3_Path_Radiance` | Dimensionless |  -0.01  |  1.6  | Band 3 Radiance  
-`Coarse_Resolution_QA` | Quality Assurance  
+`Coarse_Resolution_Granule_Time` |  |  1  |  2355  |  | Granule time of day, as HHMM  
+`Coarse_Resolution_Band_3_Path_Radiance` | Dimensionless |  -0.01  |  1.6  |  | Band 3 Radiance  
+`Coarse_Resolution_QA` |  |  |  |  | Quality Assurance  
 Bitmask for Coarse_Resolution_QA
   * Bits 0-1: MODLAND QA bits 
     * 0: Corrected product produced at ideal quality - all bands
@@ -139,7 +140,7 @@ Bitmask for Coarse_Resolution_QA
     * 1: Yes
 
   
-`Coarse_Resolution_Internal_CM` | Internal Cloud Mask  
+`Coarse_Resolution_Internal_CM` |  |  |  |  | Internal Cloud Mask  
 Bitmask for Coarse_Resolution_Internal_CM
   * Bit 0: Cloudy 
     * 0: No
@@ -190,7 +191,7 @@ Bitmask for Coarse_Resolution_Internal_CM
     * 1: Yes
 
   
-`Coarse_Resolution_State_QA` | State Quality Assurance  
+`Coarse_Resolution_State_QA` |  |  |  |  | State Quality Assurance  
 Bitmask for Coarse_Resolution_State_QA
   * Bits 0-1: Cloud state 
     * 0: Clear
@@ -239,7 +240,7 @@ Bitmask for Coarse_Resolution_State_QA
     * 1: Snow
 
   
-`Coarse_Resolution_Number_Mapping` | Number Mapping Cloud/Snow  
+`Coarse_Resolution_Number_Mapping` |  |  |  |  | Number Mapping Cloud/Snow  
 Bitmask for Coarse_Resolution_Number_Mapping
   * Bits 0-7: Number of pixel mapping flagged as cloudy 
   * Bits 8-15: Number of pixel mapping flagged as cloud shadow 
@@ -247,22 +248,25 @@ Bitmask for Coarse_Resolution_Number_Mapping
   * Bits 24-31: Number of pixel mapping flagged for snow 
 
   
-`number_of_500m_pixels_averaged_b3` |  1  |  200  | Number of 500m pixels used in average  
-`number_of_500m_rej_detector` |  1  |  100  | Number of 500m pixels rejected for use  
-`number_of_250m_pixels_averaged_b1-2` |  1  |  640  | Number of 250m pixels used in b1-2 average  
-`n_pixels_averaged` |  1  |  40  | Number of pixels used in average  
+`number_of_500m_pixels_averaged_b3` |  |  1  |  200  |  | Number of 500m pixels used in average  
+`number_of_500m_rej_detector` |  |  1  |  100  |  | Number of 500m pixels rejected for use  
+`number_of_250m_pixels_averaged_b1-2` |  |  1  |  640  |  | Number of 250m pixels used in b1-2 average  
+`n_pixels_averaged` |  |  1  |  40  |  | Number of pixels used in average  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD09CMG.061 ](https://doi.org/10.5067/MODIS/MYD09CMG.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09CMG#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD09CMG')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));
@@ -283,7 +287,7 @@ Map.addLayer(trueColor,trueColorVis,'True Color');
 [ MYD09CMG.061 Aqua Surface Reflectance Daily L3 Global 0.05 Deg CMG ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD09CMG)
 The MYD09CMG Version 6.1 product provides an estimate of the surface spectral reflectance of Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Bands 1 through 7, resampled to 5600 meter pixel resolution and corrected for atmospheric conditions such as gasses, aerosols, and Rayleigh scattering. The MYD09CMG data product provides 25 layers including …
 MODIS/061/MYD09CMG, aqua,brightness-temperature,ozone,satellite-imagery,surface-reflectance 
-2002-07-04T00:00:00Z/2025-04-19T00:00:00Z
+2002-07-04T00:00:00Z/2025-04-22T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

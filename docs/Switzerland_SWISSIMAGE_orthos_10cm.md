@@ -1,6 +1,6 @@
  
 #  SWISSIMAGE 10 cm RGB imagery 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![Switzerland/SWISSIMAGE/orthos/10cm](https://developers.google.com/earth-engine/datasets/images/Switzerland/Switzerland_SWISSIMAGE_orthos_10cm_sample.png) 
 
 Dataset Availability
@@ -16,10 +16,11 @@ Tags
      [orthophotos](https://developers.google.com/earth-engine/datasets/tags/orthophotos) [rgb](https://developers.google.com/earth-engine/datasets/tags/rgb)
 swissimage
 swisstopo
-[Description](https://developers.google.com/earth-engine/datasets/catalog/Switzerland_SWISSIMAGE_orthos_10cm#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/Switzerland_SWISSIMAGE_orthos_10cm#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/Switzerland_SWISSIMAGE_orthos_10cm#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/Switzerland_SWISSIMAGE_orthos_10cm#citations) More
+#### Description
 The SWISSIMAGE 10 cm orthophoto mosaic is an assembly of new color digital aerial images over the whole of Switzerland with a ground resolution of 10 cm in the plains and the main alpine valleys and 25 cm in the Alps. It is updated annually.
 For more information, please see the [SWISSIMAGE10cm_FR documentation](https://backend.swisstopo.admin.ch/fileservice/sdweb-docs-prod-swisstopoch-files/files/2023/11/14/a84642dc-5feb-48e5-af6b-55df4ae7a10b.pdf)
 This RGB collection contains digital aerial images with three bands. Standard deviation for the precision in position: +/- 0.15 m for the ground sample distance of 0.1 m.
+### Bands
 **Pixel Size** 0.1 meters 
 **Bands**
 Name | Min | Max | Wavelength | Description  
@@ -27,16 +28,18 @@ Name | Min | Max | Wavelength | Description
 `R` |  0  |  255  | 619-651nm | Red  
 `G` |  0  |  255  | 525-585nm | Green  
 `B` |  0  |  255  | 435-495nm | Blue  
+### Terms of Use
 **Terms of Use**
 The free geodata and geoservices of swisstopo may be used, distributed and made accessible. Furthermore, they may be enriched and processed and also used commercially.
 A reference to the source is mandatory. please see the [Terms of use](https://www.swisstopo.admin.ch/en/terms-and-conditions)
+### Citations
 Citations:
   * Copyright Federal Office of Topography swisstopo
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/Switzerland_SWISSIMAGE_orthos_10cm#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('Switzerland/SWISSIMAGE/orthos/10cm/2017');
 Map.setCenter(7.75,46.02,18);

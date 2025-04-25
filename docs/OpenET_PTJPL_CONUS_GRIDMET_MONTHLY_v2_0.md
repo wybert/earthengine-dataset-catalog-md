@@ -1,6 +1,6 @@
  
 #  OpenET PT-JPL Monthly Evapotranspiration v2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenET/PTJPL/CONUS/GRIDMET/MONTHLY/v2_0](https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0_sample.png) 
 
 Dataset Availability
@@ -17,16 +17,18 @@ Cadence
 
 Tags
      [evapotranspiration](https://developers.google.com/earth-engine/datasets/tags/evapotranspiration) [gridmet-derived](https://developers.google.com/earth-engine/datasets/tags/gridmet-derived) [landsat-derived](https://developers.google.com/earth-engine/datasets/tags/landsat-derived) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [openet](https://developers.google.com/earth-engine/datasets/tags/openet) [water](https://developers.google.com/earth-engine/datasets/tags/water) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0#dois) More
+#### Description
 Priestley-Taylor Jet Propulsion Laboratory (PT-JPL)
 The core formulation of the PT-JPL model within the OpenET framework has not changed from the original formulation detailed in Fisher et al. (2008). However, enhancements and updates to model inputs and time integration for PT-JPL were made to take advantage of contemporary gridded weather datasets, provide consistency with other models, improve open water evaporation estimates, and account for advection over crop and wetland areas in semiarid and arid environments. These changes include the use of Landsat surface reflectance and thermal radiation for calculating net radiation, photosynthetically active radiation, plant canopy and moisture variables, and use of NLDAS, Spatial CIMIS, and gridMET weather data for estimating insolation and ASCE reference ET. Similar to the implementation of other OpenET models, estimation of daily and monthly time integrated ET is based on the fraction of ASCE reference ET. Open water evaporation is estimated following a surface energy balance approach of Abdelrady et al. (2016) that is specific for water bodies by accounting for water heat flux as opposed to soil heat flux.
 [Additional information](https://openetdata.org/methodologies/)
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `et` | mm | PT-JPL ET value  
 `count` | count | Number of cloud free values  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -47,19 +49,22 @@ model_version | STRING | OpenET model version
 scale_factor_count | DOUBLE | Scaling factor that should be applied to the count band  
 scale_factor_et | DOUBLE | Scaling factor that should be applied to the et band  
 start_date | STRING | Start date of month  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Fisher, J.B., Tu, K.P. and Baldocchi, D.D., 2008. Global estimates of the land–atmosphere water flux based on monthly AVHRR and ISLSCP-II data, validated at 16 FLUXNET sites. Remote Sensing of Environment, 112(3), pp.901-919. [doi:10.1016/j.rse.2007.06.025](https://doi.org/10.1016/j.rse.2007.06.025)
   * Abdelrady, A., Timmermans, J., Vekerdy, Z. and Salama, M., 2016. Surface energy balance of fresh and saline waters: AquaSEBS. Remote sensing, 8(7), p.583. [doi:10.3390/rs8070583](https://doi.org/10.3390/rs8070583)
 
 
+### DOIs
   * [ https://doi.org/10.1016/j.rse.2007.06.025 ](https://doi.org/10.1016/j.rse.2007.06.025)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('OpenET/PTJPL/CONUS/GRIDMET/MONTHLY/v2_0')
 .filterDate('2020-01-01','2021-01-01');

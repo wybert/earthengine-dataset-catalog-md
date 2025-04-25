@@ -1,6 +1,6 @@
  
 #  LUCAS Harmonized (Theoretical Location, 2006-2018) V1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/LUCAS_HARMO/THLOC/V1](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_LUCAS_HARMO_THLOC_V1_sample.png) 
 
 Dataset Availability
@@ -14,11 +14,12 @@ Earth Engine Snippet
 
 Tags
      [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [jrc](https://developers.google.com/earth-engine/datasets/tags/jrc) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse](https://developers.google.com/earth-engine/datasets/tags/landuse) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [lucas](https://developers.google.com/earth-engine/datasets/tags/lucas) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_THLOC_V1#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_THLOC_V1#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_THLOC_V1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_THLOC_V1#citations) More
+#### Description
 The [Land Use/Cover Area frame Survey (LUCAS)](https://ec.europa.eu/eurostat/web/lucas) in the European Union (EU) was set up to provide statistical information. It represents a triennial in-situ landcover and land-use data-collection exercise that extends over the whole of the EU's territory. LUCAS collects information on land cover and land use, agro-environmental variables, soil, and grassland. The surveys also provide spatial information to analyse the mutual influences between agriculture, environment, and countryside, such as irrigation and land management.
 The dataset presented here is the harmonized version of all yearly LUCAS surveys with a total of 106 attributes. Each point's location is using the fields 'th_lat' and 'th_lon', that is, the LUCAS theoretical location (THLOC), as prescribed by the LUCAS grid. For more information please see Citations. Note that not every field is present for every year - see the "Years" section in property descriptions.
 The text "C1 (Instructions)" in the table schema descriptions refers to [this document](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/LUCAS/LUCAS_harmonised/3_supporting/LUCAS2018-C1-Instructions.pdf).
 See also [the 2018 LUCAS polygons dataset](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018).
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -452,15 +453,17 @@ obs_radius | DOUBLE | The radius of observation - whether the near or the extend
   * null if not relevant
 
 Source: C1(Instructions) Years: 2006, 2009, 2012, 2015  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * d'Andrimont, R., Yordanov, M., Martinez-Sanchez, L. et al. Harmonised LUCAS in-situ land cover and use database for field surveys from 2006 to 2018 in the European Union. Sci Data 7, 352 (2020). [doi:10.1038/s41597-020-00675-z](https://doi.org/10.1038/s41597-020-00675-z)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_THLOC_V1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('JRC/LUCAS_HARMO/THLOC/V1');
 // For the Inspector
@@ -476,7 +479,7 @@ Map.addLayer(dataset,{},'LUCAS Points (styled green)');
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_THLOC_V1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('JRC/LUCAS_HARMO/THLOC/V1_FeatureView');
 varvisParams={
