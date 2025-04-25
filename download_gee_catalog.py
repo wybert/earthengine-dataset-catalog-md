@@ -3,13 +3,56 @@ import asyncio
 import os
 import re
 import json
+import requests
+from datetime import datetime, timezone
+import sys
 from crawl4ai import AsyncWebCrawler
 
-df = pd.read_csv("https://raw.githubusercontent.com/samapriya/Earth-Engine-Datasets-List/master/gee_catalog.csv")
+def check_last_update():
+    # GitHub API endpoint for the file's commit history
+    api_url = "https://api.github.com/repos/samapriya/Earth-Engine-Datasets-List/commits"
+    params = {
+        "path": "gee_catalog.csv",
+        "per_page": 1
+    }
 
-# df['asset_url'].to_csv("docs/interim/gee_catalog_urls.txt", index=False,header=False)
-
-
+    try:
+        # Get the last commit info
+        response = requests.get(api_url, params=params)
+        response.raise_for_status()  # Raise an exception for bad status codes
+        
+        # Parse the response
+        commits = response.json()
+        if not commits:
+            print("No commit history found")
+            return False
+            
+        # Get the last commit date
+        last_commit_date = datetime.strptime(
+            commits[0]['commit']['committer']['date'],
+            '%Y-%m-%dT%H:%M:%SZ'
+        ).replace(tzinfo=timezone.utc)
+        
+        # Get current time in UTC
+        current_time = datetime.now(timezone.utc)
+        
+        # Calculate time difference
+        time_diff = current_time - last_commit_date
+        hours_diff = time_diff.total_seconds() / 3600  # Convert to hours
+        
+        print(f"Last commit: {last_commit_date}")
+        print(f"Current time: {current_time}")
+        print(f"Hours since last update: {hours_diff:.2f}")
+        
+        # Return True if more than 24 hours have passed
+        return hours_diff > 24
+        
+    except requests.exceptions.RequestException as e:
+        print(f"Error accessing GitHub API: {e}")
+        return False
+    except (KeyError, ValueError) as e:
+        print(f"Error parsing response: {e}")
+        return False
 
 # Configuration
 BATCH_SIZE = 20  # Number of URLs to process in one batch
@@ -20,8 +63,20 @@ DOCS_DIR = "docs"
 os.makedirs(DOCS_DIR, exist_ok=True)
 
 async def main():
-    # Load URLs from file
+    # First check if we need to update
+    print("Checking if update is needed...")
+    if not check_last_update() and '--force' not in sys.argv:
+        print("No update needed - source file hasn't changed in the last 24 hours.")
+        print("Use --force flag to run anyway.")
+        sys.exit(1)
+
+    print("Update needed or forced. Proceeding with download...")
+    
+    # Load and process the CSV file
+    print("Downloading catalog CSV...")
+    df = pd.read_csv("https://raw.githubusercontent.com/samapriya/Earth-Engine-Datasets-List/master/gee_catalog.csv")
     urls_to_process = df['asset_url'].tolist()
+    
     # Process in batches
     total_batches = (len(urls_to_process) + BATCH_SIZE - 1) // BATCH_SIZE
     processed_urls = {}
