@@ -1,4 +1,8 @@
-This is markdown versions of the [Google Earth Engine Datasets Catalog documentation](https://developers.google.com/earth-engine/datasets/catalog).
+## What's this for?
+
+This is markdown versions of the [Google Earth Engine Datasets Catalog documentation](https://developers.google.com/earth-engine/datasets/catalog). It aims to provide an automated way to generate updated markdown files from the original documentation. It could serve as a knowledge base for LLMs and other AI models. It could be integrated with Context7.
+
+
 
 ## License
 
