@@ -1,6 +1,6 @@
  
 #  WAPOR Dekadal Evaporation 2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![FAO/WAPOR/2/L1_E_D](https://developers.google.com/earth-engine/datasets/images/FAO/FAO_WAPOR_2_L1_E_D_sample.png) 
 
 Dataset Availability

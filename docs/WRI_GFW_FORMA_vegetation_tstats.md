@@ -1,6 +1,6 @@
  
 #  FORMA Vegetation T-Statistics 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![WRI/GFW/FORMA/vegetation_tstats](https://developers.google.com/earth-engine/datasets/images/WRI/WRI_GFW_FORMA_vegetation_tstats_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  MERIT Hydro: Supplementary Visualization Layers 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MERIT/Hydro_reduced/v1_0_1](https://developers.google.com/earth-engine/datasets/images/MERIT/MERIT_Hydro_reduced_v1_0_1_sample.png) 
 
 Dataset Availability

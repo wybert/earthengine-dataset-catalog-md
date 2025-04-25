@@ -1,6 +1,6 @@
  
 #  CFSV2: NCEP Climate Forecast System Version 2, 6-Hourly Products 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/CFSV2/FOR6H](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CFSV2_FOR6H_sample.png) 
 
 Dataset Availability

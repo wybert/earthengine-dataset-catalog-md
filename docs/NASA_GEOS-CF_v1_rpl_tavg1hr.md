@@ -1,6 +1,6 @@
  
 #  GEOS-CF rpl tavg1hr v1: Goddard Earth Observing System Composition Forecast 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GEOS-CF/v1/rpl/tavg1hr](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GEOS-CF_v1_rpl_tavg1hr_sample.png) 
 
 Dataset Availability

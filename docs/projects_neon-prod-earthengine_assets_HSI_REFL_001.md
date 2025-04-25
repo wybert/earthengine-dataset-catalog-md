@@ -1,6 +1,6 @@
  
 #  NEON Surface Directional Reflectance 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/neon-prod-earthengine/assets/HSI_REFL/001](https://developers.google.com/earth-engine/datasets/images/neon-prod-earthengine/projects_neon-prod-earthengine_assets_HSI_REFL_001_sample.png)
 info
 This dataset is part of a Publisher Catalog, and not managed by Google Earth Engine. Contact listaopgee@battelleecology.org for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/publisher/neon-prod-earthengine) from the National Ecological Observatory Network Catalog. [Learn more about Publisher datasets](https://developers.google.com/earth-engine/datasets/publisher). 

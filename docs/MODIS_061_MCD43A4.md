@@ -1,6 +1,6 @@
  
 #  MCD43A4.061 MODIS Nadir BRDF-Adjusted Reflectance Daily 500m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MCD43A4](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD43A4_sample.png) 
 
 Dataset Availability

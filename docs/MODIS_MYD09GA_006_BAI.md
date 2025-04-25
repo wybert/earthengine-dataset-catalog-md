@@ -1,6 +1,6 @@
  
 #  MODIS Aqua Daily BAI 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/MYD09GA_006_BAI](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MYD09GA_006_BAI_sample.png) 
 
 Dataset Availability

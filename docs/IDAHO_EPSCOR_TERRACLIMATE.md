@@ -1,6 +1,6 @@
  
 #  TerraClimate: Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces, University of Idaho 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![IDAHO_EPSCOR/TERRACLIMATE](https://developers.google.com/earth-engine/datasets/images/IDAHO_EPSCOR/IDAHO_EPSCOR_TERRACLIMATE_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [drought](https://developers.google.com/earth-engine/datasets/tags/drought) [evapotranspiration](https://developers.google.com/earth-engine/datasets/tags/evapotranspiration) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [global](https://developers.google.com/earth-engine/datasets/tags/global) [merced](https://developers.google.com/earth-engine/datasets/tags/merced) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [palmer](https://developers.google.com/earth-engine/datasets/tags/palmer) [pdsi](https://developers.google.com/earth-engine/datasets/tags/pdsi) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [runoff](https://developers.google.com/earth-engine/datasets/tags/runoff) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [vapor](https://developers.google.com/earth-engine/datasets/tags/vapor) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor) [wind](https://developers.google.com/earth-engine/datasets/tags/wind)
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE#citations) More
 TerraClimate is a dataset of monthly climate and climatic water balance for global terrestrial surfaces. It uses climatically aided interpolation, combining high-spatial resolution climatological normals from the [WorldClim dataset](https://www.worldclim.org/), with coarser spatial resolution, but time-varying data from [CRU Ts4.0](https://data.ceda.ac.uk/badc/cru/data/cru_ts/) and the [Japanese 55-year Reanalysis (JRA55)](https://jra.kishou.go.jp/JRA-55/index_en.html). Conceptually, the procedure applies interpolated time-varying anomalies from CRU Ts4.0/JRA55 to the high-spatial resolution climatology of WorldClim to create a high-spatial resolution dataset that covers a broader temporal record.
 Temporal information is inherited from CRU Ts4.0 for most global land surfaces for temperature, precipitation, and vapor pressure. However, JRA55 data is used for regions where CRU data had zero climate stations contributing (including all of Antarctica, and parts of Africa, South America, and scattered islands). For primary climate variables of temperature, vapor pressure, and precipitation, the University of Idaho provides additional data on the number of stations (between 0 and 8) that contributed to the CRU Ts4.0 data used by TerraClimate. JRA55 was used exclusively for solar radiation and wind speeds.
 TerraClimate additionally produces monthly surface water balance datasets using a water balance model that incorporates reference evapotranspiration, precipitation, temperature, and interpolated plant extractable soil water capacity. A modified Thornthwaite-Mather climatic water-balance model and extractable soil water storage capacity data was used at a 0.5° grid from Wang-Erlandsson et al. (2016).
@@ -28,7 +28,6 @@ Data Limitations:
   4. Limited validation in data-sparse regions (e.g., Antarctica).
 
 
-### Bands
 **Pixel Size** 4638.3 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
@@ -48,22 +47,19 @@ Name | Units | Min | Max | Scale | Description
 `vpd` | kPa |  0*  |  1113*  | 0.01 | Vapor pressure deficit  
 `vs` | m/s |  0*  |  2923*  | 0.01 | Wind-speed at 10m  
 * estimated min or max value 
-### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 status | STRING | 'provisional' or 'permanent'  
-### Terms of Use
 **Terms of Use**
 The data set is in the public domain as licensed under the Creative Commons Public Domain (CC0) license.
-### Citations
 Citations:
   * Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch, 2018, Terraclimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958-2015, Scientific Data 5:170191, [doi:10.1038/sdata.2017.191](https://doi.org/10.1038/sdata.2017.191)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE#code-editor-javascript-sample)[Colab (Python)](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE#colab-python-sample) More
 ```
 vardataset=ee.ImageCollection('IDAHO_EPSCOR/TERRACLIMATE')
 .filter(ee.Filter.date('2017-07-01','2017-08-01'));
@@ -80,15 +76,12 @@ palette:[
 Map.setCenter(71.72,52.48,3);
 Map.addLayer(maximumTemperature,maximumTemperatureVis,'Maximum Temperature');
 ```
-
 Python setup
 See the [ Python Environment](https://developers.google.com/earth-engine/guides/python_install) page for information on the Python API and using `geemap` for interactive development.
 ```
 importee
 importgeemap.coreasgeemap
 ```
-
-### Colab (Python)
 ```
 dataset = ee.ImageCollection('IDAHO_EPSCOR/TERRACLIMATE').filter(
   ee.Filter.date('2017-07-01', '2017-08-01')

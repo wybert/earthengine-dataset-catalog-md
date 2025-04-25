@@ -1,6 +1,6 @@
  
 #  TRMM 3B42: 3-Hourly Precipitation Estimates 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![TRMM/3B42](https://developers.google.com/earth-engine/datasets/images/TRMM/TRMM_3B42_sample.png) 
 
 Dataset Availability

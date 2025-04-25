@@ -1,6 +1,6 @@
  
 #  Actual Evapotranspiration for Australia (CMRSET Landsat V2.2) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![TERN/AET/CMRSET_LANDSAT_V2_2](https://developers.google.com/earth-engine/datasets/images/TERN/TERN_AET_CMRSET_LANDSAT_V2_2_sample.png) 
 
 Dataset Availability

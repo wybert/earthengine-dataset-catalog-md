@@ -1,6 +1,6 @@
  
 #  IrrMapper Irrigated Lands, Version 1.2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![UMT/Climate/IrrMapper_RF/v1_2](https://developers.google.com/earth-engine/datasets/images/UMT/UMT_Climate_IrrMapper_RF_v1_2_sample.png) 
 
 Dataset Availability

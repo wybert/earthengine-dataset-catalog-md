@@ -1,6 +1,6 @@
  
 #  SLGA: Soil and Landscape Grid of Australia (Soil Attributes) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![CSIRO/SLGA](https://developers.google.com/earth-engine/datasets/images/CSIRO/CSIRO_SLGA_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ digital-soil-mapping
 globalsoilmap
 slga
 soil-depth
-[Description](https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA#dois) More
+#### Description
 The Soil and Landscape Grid of Australia (SLGA) is a comprehensive dataset of soil attributes across Australia at 3 arc-second resolution (~90m pixels). The surfaces are the outcomes from modelling that describe the spatial distribution of the soil attributes using existing soil data and environmental covariates. See [Viscarra Rossel et al (2015)](https://www.publish.csiro.au/sr/SR14366) for further details. The SLGA can be used in studies of vadose zone processes, including solute transport, groundwater and nutrient fluxes beyond the root zone, as well as a wide spectrum of ecological, hydrological, and broader environmental applications.
 Each product contains six digital soil attribute maps and their upper and lower confidence limits, representing the soil attribute at six depths: 0-5cm, 5-15cm, 15-30cm, 30-60cm, 60-100cm, and 100-200cm. These depths and soil attributes are consistent with the specifications of [GlobalSoilMap](https://www.isric.org/projects/globalsoilmapnet).
 This collection has 12 images. Ten of them contain data for GSM primary soil attributes; the other two contain regolith depth and soil depth GSM attributes.
@@ -36,6 +36,7 @@ Total Phosphorus | Mass fraction of total phosphorus in the soil by weight | PTO
 Effective Cation Exchange Capacity | Cations extracted using barium chloride (BaCl2) plus exchangeable H + Al | ECE | 18  
 Depth of Regolith | Depth to hard rock. Depth is inclusive of all regolith. | DER | 3  
 Depth of Soil | Depth of soil profile (A & B horizons) | DES | 3  
+### Bands
 **Pixel Size** 92.77 meters 
 **Bands**
 Name | Units | Description  
@@ -226,6 +227,7 @@ Name | Units | Description
 `SOC_100_200_EV` | % | The soil attribute's estimated value at depth 100-200cm  
 `SOC_100_200_05` | % | The soil attribute's 5th percentile confidence limit at depth 100-200cm  
 `SOC_100_200_95` | % | The soil attribute's 95th percentile confidence limit at depth 100-200cm  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -251,8 +253,10 @@ project | STRING | ' National Soil Attribute Maps - Composite product', 'Austral
 project_code | STRING | 'NAT', 'TRN', 'WAT', 'SAT', or 'TAS'  
 provider_url | STRING | Provider URL  
 rights_statement | STRING | Rights statement  
+### Terms of Use
 **Terms of Use**
 All products developed by the Soil and Landscape Grid of Australia are available at no cost under a [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/) (CC BY) and users should read the [Disclaimer](https://www.clw.csiro.au/aclep/soilandlandscapegrid/About-Disclaimer.html).
+### Citations
 Citations:
   * Viscarra Rossel, Raphael; Chen, Charlie; Grundy, Mike; Searle, Ross; Clifford, David; Odgers, Nathan; Holmes, Karen; Griffin, Ted; Liddicoat, Craig; Kidd, Darren (2014): Soil and Landscape Grid National Soil Attribute Maps - SOIL ATTRIBUTE Release 1. v2. CSIRO. Data Collection [doi:10.1071/SR14366](https://doi.org/10.1071/SR14366).
   * Viscarra Rossel, R., Chen, C., Grundy, M., Searle, R., Clifford, D., Odgers, N., Holmes, K., Griffin, T., Liddicoat, C., & Kidd, D. (2014). _Soil and Landscape Grid National Soil Attribute Maps - Bulk Density - Whole Earth (3" resolution) - Release 1_ [Data set]. CSIRO.
@@ -268,6 +272,7 @@ Citations:
   * Wilford, J., Searle, R., Thomas, M., & Grundy, M. (2015). _Soil and Landscape Grid National Soil Attribute Maps - Depth of Regolith (3" resolution) - Release 2_ [Data set]. CSIRO.
 
 
+### DOIs
   * [ https://doi.org/10.4225/08/546ED604ADD8A ](https://doi.org/10.4225/08/546ED604ADD8A)
   * [ https://doi.org/10.4225/08/546EE212B0048 ](https://doi.org/10.4225/08/546EE212B0048)
   * [ https://doi.org/10.4225/08/546EEE35164BF ](https://doi.org/10.4225/08/546EEE35164BF)
@@ -284,7 +289,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('CSIRO/SLGA')
 .filter(ee.Filter.eq('attribute_code','DES'));

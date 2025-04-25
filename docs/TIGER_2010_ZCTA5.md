@@ -1,6 +1,6 @@
  
 #  TIGER: US Census 5-digit ZIP Code Tabulation Areas 2010 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![TIGER/2010/ZCTA5](https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2010_ZCTA5_sample.png) 
 
 Dataset Availability

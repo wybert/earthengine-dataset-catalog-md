@@ -1,6 +1,6 @@
  
 #  Copernicus DEM GLO-30: Global 30m Digital Elevation Model 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![COPERNICUS/DEM/GLO30](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_DEM_GLO30_sample.png) 
 
 Dataset Availability
@@ -14,12 +14,11 @@ Earth Engine Snippet
 
 Tags
      [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [dem](https://developers.google.com/earth-engine/datasets/tags/dem) [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical)
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_DEM_GLO30#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_DEM_GLO30#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_DEM_GLO30#terms-of-use) More
 The Copernicus DEM is a Digital Surface Model (DSM) which represents the surface of the Earth including buildings, infrastructure and vegetation. This DEM is derived from an edited DSM named WorldDEM&trade, i.e. flattening of water bodies and consistent flow of rivers has been included. Editing of shore- and coastlines, special features such as airports and implausible terrain structures has also been applied.
 The WorldDEM product is based on the radar satellite data acquired during the TanDEM-X Mission, which is funded by a Public Private Partnership between the German State, represented by the German Aerospace Centre (DLR) and Airbus Defence and Space. More details are available in the dataset [documentation](https://spacedata.copernicus.eu/documents/20123/121239/GEO1988-CopernicusDEM-SPE-002_ProductHandbook_I4.0.pdf).
 Earth Engine asset has been ingested from the DGED files.
 **Note:** See the code example for the recommended way of computing slope. Unlike most DEMs in Earth Engine, this is an image collection due to multiple resolutions of source files that make it impossible to mosaic them into a single asset, so the slope computations need a reprojection.
-### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -68,12 +67,11 @@ Value | Color | Description
 1 |  | Ocean  
 2 |  | Lake  
 3 |  | River  
-### Terms of Use
 **Terms of Use**
 The GLO-30 dataset is available worldwide with a free license with the exception of two countries (Armenia and Azerbaijan). [License for Copernicus DEM](https://docs.sentinel-hub.com/api/latest/static/files/data/dem/resources/license/License-COPDEM-30.pdf).
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_DEM_GLO30#code-editor-javascript-sample) More
 ```
 vardataset=ee.ImageCollection('COPERNICUS/DEM/GLO30');
 varelevation=dataset.select('DEM');

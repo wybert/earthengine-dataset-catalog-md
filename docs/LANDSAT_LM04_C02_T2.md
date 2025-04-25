@@ -1,6 +1,6 @@
  
 #  USGS Landsat 4 MSS Collection 2 Tier 2 Raw Scenes 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LM04/C02/T2](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM04_C02_T2_sample.png) 
 
 Dataset Availability
@@ -17,8 +17,9 @@ Revisit Interval
 
 Tags
      [c2](https://developers.google.com/earth-engine/datasets/tags/c2) [global](https://developers.google.com/earth-engine/datasets/tags/global) [l4](https://developers.google.com/earth-engine/datasets/tags/l4) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [lm4](https://developers.google.com/earth-engine/datasets/tags/lm4) [mss](https://developers.google.com/earth-engine/datasets/tags/mss) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [t2](https://developers.google.com/earth-engine/datasets/tags/t2) [tier2](https://developers.google.com/earth-engine/datasets/tags/tier2) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T2#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T2#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T2#terms-of-use) More
+#### Description
 Landsat 4 MSS Collection 2 Tier 2 DN values, representing scaled, calibrated at-sensor radiance. Scenes not meeting Tier 1 criteria during processing are assigned to Tier 2. This includes Systematic terrain (L1GT) and Systematic (L1GS) processed scenes, as well as any L1TP scenes that do not meet the Tier 1 specifications due to significant cloud cover, insufficient ground control, and other factors. Users interested in Tier 2 scenes can analyze the RMSE and other properties to determine the suitability for use in individual applications and studies. See more information [in the USGS docs](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collections).
+### Bands
 **Bands**
 Name | Pixel Size | Wavelength | Description  
 ---|---|---|---  
@@ -57,6 +58,7 @@ Bitmask for QA_RADSAT
     * 1: Detector does not have a value
 
   
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -173,6 +175,7 @@ UTM_ZONE | DOUBLE | UTM zone number used in product map projection.
 WRS_PATH | DOUBLE | The WRS orbital path number (001 - 251).  
 WRS_ROW | DOUBLE | Landsat satellite WRS row (001-248).  
 WRS_TYPE | DOUBLE | World Reference System (WRS) type used for the collection of this scene.  
+### Terms of Use
 **Terms of Use**
 Landsat datasets are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.
 Acknowledgement or credit of the USGS as data source should be provided by including a line of text citation such as the example shown below.
@@ -181,7 +184,7 @@ Example: Landsat-7 image courtesy of the U.S. Geological Survey
 See the [USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system) for further details on proper citation and acknowledgement of USGS products.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDSAT/LM04/C02/T2')
 .filterDate('1989-01-01','1992-12-31');

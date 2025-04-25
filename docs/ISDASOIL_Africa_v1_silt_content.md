@@ -1,6 +1,6 @@
  
 #  iSDAsoil Silt Content 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![ISDASOIL/Africa/v1/silt_content](https://developers.google.com/earth-engine/datasets/images/ISDASOIL/ISDASOIL_Africa_v1_silt_content_sample.png) 
 
 Dataset Availability

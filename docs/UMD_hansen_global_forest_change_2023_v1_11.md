@@ -1,6 +1,6 @@
  
 #  Hansen Global Forest Change v1.11 (2000-2023) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![UMD/hansen/global_forest_change_2023_v1_11](https://developers.google.com/earth-engine/datasets/images/UMD/UMD_hansen_global_forest_change_2023_v1_11_sample.png) 
 
 Dataset Availability

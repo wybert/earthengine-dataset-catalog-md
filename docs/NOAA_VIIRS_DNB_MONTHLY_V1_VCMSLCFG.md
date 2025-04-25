@@ -1,6 +1,6 @@
  
 #  VIIRS Stray Light Corrected Nighttime Day/Night Band Composites Version 1 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/DNB/MONTHLY_V1/VCMSLCFG](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG_sample.png) 
 
 Dataset Availability

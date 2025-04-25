@@ -1,6 +1,6 @@
  
 #  GFW (Global Fishing Watch) Daily Vessel Hours 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![GFW/GFF/V1/vessel_hours](https://developers.google.com/earth-engine/datasets/images/GFW/GFW_GFF_V1_vessel_hours_sample.png) 
 
 Dataset Availability

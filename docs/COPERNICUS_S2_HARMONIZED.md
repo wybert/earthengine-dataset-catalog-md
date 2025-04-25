@@ -1,6 +1,6 @@
  
 #  Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-1C (TOA) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![COPERNICUS/S2_HARMONIZED](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_HARMONIZED_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Revisit Interval
 
 Tags
      [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [msi](https://developers.google.com/earth-engine/datasets/tags/msi) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel)
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED#terms-of-use) More
 After 2022-01-25, Sentinel-2 scenes with PROCESSING_BASELINE '04.00' or above have their DN (value) range shifted by 1000. The HARMONIZED collection shifts data in newer scenes to be in the same range as in older scenes.
 Sentinel-2 is a wide-swath, high-resolution, multi-spectral imaging mission supporting Copernicus Land Monitoring studies, including the monitoring of vegetation, soil and water cover, as well as observation of inland waterways and coastal areas.
 The Sentinel-2 data contain 13 UINT16 spectral bands representing TOA reflectance scaled by 10000. See the [Sentinel-2 User Handbook](https://sentinel.esa.int/documents/247904/685211/Sentinel-2_User_Handbook) for details. QA60 is a bitmask band that contained rasterized cloud mask polygons until Feb 2022, when these polygons stopped being produced. Starting in February 2024, legacy-consistent QA60 bands are constructed from the MSK_CLASSI cloud classification bands. For more details, [see the full explanation of how cloud masks are computed.](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-1c/cloud-masks).
@@ -25,7 +25,6 @@ Each Sentinel-2 product (zip archive) may contain multiple granules. Each granul
 The Level-2 data produced by ESA can be found in the collection [COPERNICUS/S2_SR](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR).
 For datasets to assist with cloud and/or cloud shadow detection, see [COPERNICUS/S2_CLOUD_PROBABILITY](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY) and [GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_CLOUD_SCORE_PLUS_V1_S2_HARMONIZED).
 For more details on Sentinel-2 radiometric resolution, [see this page](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/radiometric).
-### Bands
 **Bands**
 Name | Scale | Pixel Size | Wavelength | Description  
 ---|---|---|---|---  
@@ -58,7 +57,6 @@ Bitmask for QA60
 `MSK_CLASSI_OPAQUE` |  |  60 meters  |  | Opaque clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
 `MSK_CLASSI_CIRRUS` |  |  60 meters  |  | Cirrus clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
 `MSK_CLASSI_SNOW_ICE` |  |  60 meters  |  | Snow/ice classification band (0=no snow/ice, 1=snow/ice). Masked out before February 2024.  
-### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -123,12 +121,11 @@ SOLAR_IRRADIANCE_B10 | DOUBLE | Mean solar exoatmospheric irradiance for band B1
 SOLAR_IRRADIANCE_B11 | DOUBLE | Mean solar exoatmospheric irradiance for band B11  
 SOLAR_IRRADIANCE_B12 | DOUBLE | Mean solar exoatmospheric irradiance for band B12  
 SPACECRAFT_NAME | STRING | Sentinel-2 spacecraft name: Sentinel-2A, Sentinel-2B  
-### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED#code-editor-javascript-sample)[Colab (Python)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED#colab-python-sample) More
 ```
 /**
  * Function to mask clouds using the Sentinel-2 QA band
@@ -161,15 +158,12 @@ bands:['B4','B3','B2'],
 Map.setCenter(-9.1695,38.6917,12);
 Map.addLayer(dataset.median(),rgbVis,'RGB');
 ```
-
 Python setup
 See the [ Python Environment](https://developers.google.com/earth-engine/guides/python_install) page for information on the Python API and using `geemap` for interactive development.
 ```
 importee
 importgeemap.coreasgeemap
 ```
-
-### Colab (Python)
 ```
 defmask_s2_clouds(image):
 """Masks clouds in a Sentinel-2 image using the QA band.

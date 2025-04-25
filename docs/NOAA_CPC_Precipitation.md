@@ -1,6 +1,6 @@
  
 #  CPC Global Unified Gauge-Based Analysis of Daily Precipitation 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/CPC/Precipitation](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CPC_Precipitation_sample.png) 
 
 Dataset Availability

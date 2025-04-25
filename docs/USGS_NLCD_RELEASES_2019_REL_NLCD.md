@@ -1,6 +1,6 @@
  
 #  NLCD 2019: USGS National Land Cover Database, 2019 release 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2019_REL/NLCD](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2019_REL_NLCD_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  MOD13C1.061: Terra Vegetation Indices 16-Day L3 Global 0.05 Deg Climate Modeling Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD13C1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD13C1_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  OpenLandMap Soil pH in H2O 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/SOL/SOL_PH-H2O_USDA-4C1A2A_M/v02](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_SOL_SOL_PH-H2O_USDA-4C1A2A_M_v02_sample.png) 
 
 Dataset Availability

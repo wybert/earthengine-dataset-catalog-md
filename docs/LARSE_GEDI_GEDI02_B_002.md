@@ -1,6 +1,6 @@
  
 #  GEDI L2B Vector Canopy Cover Vertical Profile Metrics (Version 2) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI02_B_002](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_B_002_sample.png) 
 
 Dataset Availability

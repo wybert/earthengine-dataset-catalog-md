@@ -1,6 +1,6 @@
  
 #  ALOS/AVNIR-2 ORI 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/ALOS/AVNIR-2/ORI](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_AVNIR-2_ORI_sample.png) 
 
 Dataset Availability

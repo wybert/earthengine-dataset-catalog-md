@@ -1,6 +1,6 @@
  
 #  Latvia RGB orthophotos 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![Latvia/Maamet/orthos/rgb](https://developers.google.com/earth-engine/datasets/images/Latvia/Latvia_Maamet_orthos_rgb_sample.png) 
 
 Dataset Availability

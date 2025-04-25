@@ -1,6 +1,6 @@
  
 #  MYD14A2.061: Aqua Thermal Anomalies & Fire 8-Day Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD14A2](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD14A2_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  WWF HydroSHEDS Free Flowing Rivers Network v1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![WWF/HydroSHEDS/v1/FreeFlowingRivers](https://developers.google.com/earth-engine/datasets/images/WWF/WWF_HydroSHEDS_v1_FreeFlowingRivers_sample.png) 
 
 Dataset Availability
@@ -16,13 +16,12 @@ Tags
      [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [hydrography](https://developers.google.com/earth-engine/datasets/tags/hydrography) [hydrology](https://developers.google.com/earth-engine/datasets/tags/hydrology) [hydrosheds](https://developers.google.com/earth-engine/datasets/tags/hydrosheds) [srtm](https://developers.google.com/earth-engine/datasets/tags/srtm) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water) [table](https://developers.google.com/earth-engine/datasets/tags/table) [water](https://developers.google.com/earth-engine/datasets/tags/water) [wwf](https://developers.google.com/earth-engine/datasets/tags/wwf)
 flow-regulation
 river-networks
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_FreeFlowingRivers#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_FreeFlowingRivers#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_FreeFlowingRivers#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_FreeFlowingRivers#citations) More
 HydroSHEDS is a mapping product that provides hydrographic information for regional and global-scale applications in a consistent format. It offers a suite of geo-referenced datasets (vector and raster) at various scales, including river networks, watershed boundaries, drainage directions, and flow accumulations. HydroSHEDS is based on elevation data obtained in 2000 by NASA's Shuttle Radar Topography Mission (SRTM).
 This dataset provides polylines that represent river networks, derived from and consistent with other HydroSHEDS datasets. These data are based on 15 arc-seconds (approx. 500 m at the equator) resolution raster data.
 [Mapping the world's free-flowing rivers: data set and technical documentation](https://figshare.com/articles/Mapping_the_world_s_free-flowing_rivers_data_set_and_technical_documentation/7688801)
 Note that the quality of the HydroSHEDS data is significantly lower for regions above 60 degrees northern latitude as there is no underlying SRTM elevation data available and thus a coarser-resolution DEM was (HYDRO1k provided by USGS).
 HydroSHEDS was developed by the World Wildlife Fund (WWF) Conservation Science Program in partnership with the U.S. Geological Survey, the International Centre for Tropical Agriculture, The Nature Conservancy, and the Center for Environmental Systems Research of the University of Kassel, Germany.
-### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -64,10 +63,8 @@ UPLAND_SKM | DOUBLE | Upstream watershed area of river reach in square kilometer
 URB | DOUBLE | Urbanization. Index from 0 to 100% (see extended Data figure 5f of manuscript).  
 USE | DOUBLE | Water consumption. Index from 0 to 100% (see extended Data figure 5d of manuscript).  
 VOLUME_TCM | DOUBLE | Volume of the reach channel in thousand cubic meters (TCM). Calculated using width, length and depth of river channel.  
-### Terms of Use
 **Terms of Use**
 HydroSHEDS data are free for non-commercial and commercial use. For more information, please refer to the [License Agreement](https://www.hydrosheds.org/page/license).
-### Citations
 Citations:
   * Lehner, B., Verdin, K., Jarvis, A. (2008): New global hydrography derived from spaceborne elevation data. Eos, Transactions, AGU, 89(10): 93-94.
   * Grill, G., Lehner, B., Thieme, M., Geenen, B., Tickner, D., Antonelli, F., Babu, S., Borrelli, P., Cheng, L., Crochetiere, H. and Macedo, H.E., 2019. Mapping the world's free-flowing rivers. Nature, 569(7755), p.215. Data is available at www.hydrosheds.org
@@ -75,7 +72,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_FreeFlowingRivers#code-editor-javascript-sample) More
 ```
 vardataset=ee.FeatureCollection('WWF/HydroSHEDS/v1/FreeFlowingRivers');
 // Paint 'RIV_ORD' (river order) value to an image for visualization.
@@ -93,7 +90,7 @@ Map.addLayer(dataset,null,'FeatureCollection',false);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_FreeFlowingRivers#code-editor-javascript-sample) More
 ```
 varfvLayer=ui.Map.FeatureViewLayer(
 'WWF/HydroSHEDS/v1/FreeFlowingRivers_FeatureView');

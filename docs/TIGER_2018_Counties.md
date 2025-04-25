@@ -1,6 +1,6 @@
  
 #  TIGER: US Census Counties 2018 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![TIGER/2018/Counties](https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2018_Counties_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  USGS Landsat 8 Collection 2 Tier 1 TOA Reflectance 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LC08/C02/T1_TOA](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T1_TOA_sample.png) 
 
 Dataset Availability
@@ -271,6 +271,7 @@ max:0.4,
 Map.setCenter(6.746,46.529,6);
 Map.addLayer(trueColor432,trueColor432Vis,'True Color (432)');
 ```
+
 Python setup
 See the [ Python Environment](https://developers.google.com/earth-engine/guides/python_install) page for information on the Python API and using `geemap` for interactive development.
 ```

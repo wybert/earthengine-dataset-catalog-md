@@ -1,6 +1,6 @@
  
 #  GHSL: Global population surfaces 1975-2030 (P2023A) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/GHSL/P2023A/GHS_POP](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GHSL_P2023A_GHS_POP_sample.png) 
 
 Dataset Availability

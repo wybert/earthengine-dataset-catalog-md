@@ -1,6 +1,6 @@
  
 #  US EPA Ecoregions (Level III) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![EPA/Ecoregions/2013/L3](https://developers.google.com/earth-engine/datasets/images/EPA/EPA_Ecoregions_2013_L3_sample.png) 
 
 Dataset Availability

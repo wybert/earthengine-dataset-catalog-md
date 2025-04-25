@@ -1,6 +1,6 @@
  
 #  VNP43IA1: BRDF/Albedo Model Parameters Daily L3 Global 500m SIN Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/001/VNP43IA1](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP43IA1_sample.png) 
 
 Dataset Availability

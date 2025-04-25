@@ -1,6 +1,6 @@
  
 #  NOAA NHC HURDAT2 Pacific Hurricane Catalog 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/NHC/HURDAT2/pacific](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_NHC_HURDAT2_pacific_sample.png) 
 
 Dataset Availability

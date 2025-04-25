@@ -1,6 +1,6 @@
  
 #  FAO GAUL 500m Simplified: Global Administrative Unit Layers 2015, Second-Level Administrative Units 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![FAO/GAUL_SIMPLIFIED_500m/2015/level2](https://developers.google.com/earth-engine/datasets/images/FAO/FAO_GAUL_SIMPLIFIED_500m_2015_level2_sample.png) 
 
 Dataset Availability

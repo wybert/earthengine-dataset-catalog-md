@@ -1,6 +1,6 @@
  
 #  WRI Aqueduct Future Annual Version 4.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WRI/Aqueduct_Water_Risk/V4/future_annual](https://developers.google.com/earth-engine/datasets/images/WRI/WRI_Aqueduct_Water_Risk_V4_future_annual_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  GOES-19 MCMIPF Series ABI Level 2 Cloud and Moisture Imagery Full Disk 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GOES/19/MCMIPF](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GOES_19_MCMIPF_sample.png) 
 
 Dataset Availability

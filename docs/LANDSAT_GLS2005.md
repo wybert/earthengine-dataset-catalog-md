@@ -1,6 +1,6 @@
  
 #  Landsat Global Land Survey 2005, Landsat 5+7 scenes 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/GLS2005](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_GLS2005_sample.png) 
 
 Dataset Availability

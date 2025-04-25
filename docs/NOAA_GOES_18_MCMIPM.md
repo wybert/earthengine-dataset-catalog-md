@@ -1,6 +1,6 @@
  
 #  GOES-18 MCMIPM Series ABI Level 2 Cloud and Moisture Imagery Full Disk 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GOES/18/MCMIPM](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GOES_18_MCMIPM_sample.png) 
 
 Dataset Availability

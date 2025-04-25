@@ -1,6 +1,6 @@
  
 #  GEOS-CF fcst tavg1hr v1: Goddard Earth Observing System Composition Forecast 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GEOS-CF/v1/fcst/tavg1hr](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GEOS-CF_v1_fcst_tavg1hr_sample.png) 
 
 Dataset Availability

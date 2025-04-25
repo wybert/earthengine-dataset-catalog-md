@@ -1,6 +1,6 @@
  
 #  MYD09GQ.061 Aqua Surface Reflectance Daily Global 250m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD09GQ](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD09GQ_sample.png) 
 
 Dataset Availability

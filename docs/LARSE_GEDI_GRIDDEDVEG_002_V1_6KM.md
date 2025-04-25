@@ -1,6 +1,6 @@
  
 #  Gridded GEDI Vegetation Structure Metrics and Biomass Density, 6KM pixel size 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GRIDDEDVEG_002/V1/6KM](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GRIDDEDVEG_002_V1_6KM_sample.png) 
 
 Dataset Availability

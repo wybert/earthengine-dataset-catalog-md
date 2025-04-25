@@ -1,6 +1,6 @@
  
 #  LANDFIRE VDep (Vegetation Departure) v1.4.0 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDFIRE/Fire/VDep/v1_4_0](https://developers.google.com/earth-engine/datasets/images/LANDFIRE/LANDFIRE_Fire_VDep_v1_4_0_sample.png) 
 
 Dataset Availability

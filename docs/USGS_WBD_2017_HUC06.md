@@ -1,6 +1,6 @@
  
 #  HUC06: USGS Watershed Boundary Dataset of Basins 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/WBD/2017/HUC06](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_WBD_2017_HUC06_sample.png) 
 
 Dataset Availability

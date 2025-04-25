@@ -1,6 +1,6 @@
  
 #  Landsat Global Land Survey 1975 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/GLS1975](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_GLS1975_sample.png) 
 
 Dataset Availability

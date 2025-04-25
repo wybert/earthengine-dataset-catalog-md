@@ -1,6 +1,6 @@
  
 #  MYD09CMG.061 Aqua Surface Reflectance Daily L3 Global 0.05 Deg CMG 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD09CMG](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD09CMG_sample.png) 
 
 Dataset Availability

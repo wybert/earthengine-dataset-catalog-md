@@ -1,6 +1,6 @@
  
 #  USDA NASS Cropland Data Layers 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USDA/NASS/CDL](https://developers.google.com/earth-engine/datasets/images/USDA/USDA_NASS_CDL_sample.png) 
 
 Dataset Availability

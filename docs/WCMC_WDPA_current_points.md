@@ -1,6 +1,6 @@
  
 #  WDPA: World Database on Protected Areas (points) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WCMC/WDPA/current/points](https://developers.google.com/earth-engine/datasets/images/WCMC/WCMC_WDPA_current_points_sample.png) 
 
 Dataset Availability

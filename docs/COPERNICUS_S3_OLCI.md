@@ -1,6 +1,6 @@
  
 #  Sentinel-3 OLCI EFR: Ocean and Land Color Instrument Earth Observation Full Resolution 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![COPERNICUS/S3/OLCI](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S3_OLCI_sample.png) 
 
 Dataset Availability
@@ -18,12 +18,11 @@ Revisit Interval
 Tags
      [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel) [toa](https://developers.google.com/earth-engine/datasets/tags/toa)
 olci
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI#terms-of-use) More
 The Ocean and Land Color Instrument (OLCI) Earth Observation Full Resolution (EFR) dataset contains top of atmosphere radiances at 21 spectral bands with center wavelengths ranging between 0.4µm and 1.02µm at spatial resolution of 300m with worldwide coverage every ~2 days.
 OLCI is one of the instruments in the ESA/EUMETSAT Sentinel-3 mission for measuring sea-surface topography, sea- and land-surface temperature, ocean color and land color with high-end accuracy and reliability to support ocean forecasting systems, as well as environmental and climate monitoring.
 The Sentinel-3 OLCI instrument is based on the optomechanical and imaging design of ENVISAT's MERIS. It is designed to retrieve the spectral distribution of upwelling radiance just above the sea surface (the water-leaving radiance).
 OLCI observation is performed simultaneously in 21 spectral bands ranging from the visible to the near-infrared (400 to 1029 nm).
-### Bands
 **Pixel Size** 300 meters 
 **Bands**
 Name | Units | Scale | Wavelength | Description  
@@ -149,7 +148,6 @@ Bitmask for quality_flags
     * 1: Pixel is over land
 
   
-### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -183,12 +181,11 @@ cosmeticPixelsPercent | DOUBLE | Pixel quality information
 duplicatedPixelsPercent | DOUBLE | Pixel quality information  
 dubiousSamplesPercent | DOUBLE | Pixel quality information  
 saturatedPixelsPercent | DOUBLE | Pixel quality information  
-### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI#code-editor-javascript-sample) More
 ```
 vardataset=ee.ImageCollection('COPERNICUS/S3/OLCI')
 .filterDate('2018-04-01','2018-04-04');

@@ -1,6 +1,6 @@
  
 #  MOD09CMG.061 Terra Surface Reflectance Daily L3 Global 0.05 Deg CMG 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![MODIS/061/MOD09CMG](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD09CMG_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [brightness-temperature](https://developers.google.com/earth-engine/datasets/tags/brightness-temperature) [ozone](https://developers.google.com/earth-engine/datasets/tags/ozone) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [surface-reflectance](https://developers.google.com/earth-engine/datasets/tags/surface-reflectance) [terra](https://developers.google.com/earth-engine/datasets/tags/terra)
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09CMG#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09CMG#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09CMG#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09CMG#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09CMG#dois) More
 The MOD09CMG Version 6.1 product provides an estimate of the surface spectral reflectance of Terra Moderate Resolution Imaging Spectroradiometer (MODIS) Bands 1 through 7, resampled to 5600 meter pixel resolution and corrected for atmospheric conditions such as gasses, aerosols, and Rayleigh scattering. The MOD09CMG data product provides 25 layers including MODIS bands 1 through 7; Brightness Temperature data from thermal bands 20, 21, 31, and 32; along with Quality Assurance (QA) and observation bands. This product is based on a Climate Modeling Grid (CMG) for use in climate simulation models.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/925/MOD09_User_Guide_V61.pdf)
@@ -25,7 +25,6 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MOD09CMG)
 
 
-### Bands
 **Pixel Size** 5600 meters 
 **Bands**
 Name | Units | Min | Max | Wavelength | Description  
@@ -251,21 +250,18 @@ Bitmask for Coarse_Resolution_Number_Mapping
 `number_of_500m_rej_detector` |  |  1  |  100  |  | Number of 500m pixels rejected for use  
 `number_of_250m_pixels_averaged_b1-2` |  |  1  |  640  |  | Number of 250m pixels used in b1-2 average  
 `n_pixels_averaged` |  |  1  |  40  |  | Number of pixels used in average  
-### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
-### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
-### DOIs
   * [ https://doi.org/10.5067/MODIS/MOD09CMG.061 ](https://doi.org/10.5067/MODIS/MOD09CMG.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09CMG#code-editor-javascript-sample) More
 ```
 vardataset=ee.ImageCollection('MODIS/061/MOD09CMG')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

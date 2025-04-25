@@ -1,6 +1,6 @@
  
 #  European Primary Forest Dataset - Polygons 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![HU_BERLIN/EPFD/V2/polygons](https://developers.google.com/earth-engine/datasets/images/HU_BERLIN/HU_BERLIN_EPFD_V2_polygons_sample.png) 
 
 Dataset Availability

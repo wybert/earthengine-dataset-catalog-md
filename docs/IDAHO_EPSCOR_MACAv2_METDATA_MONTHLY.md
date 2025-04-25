@@ -1,6 +1,6 @@
  
 #  MACAv2-METDATA Monthly Summaries: University of Idaho, Multivariate Adaptive Constructed Analogs Applied to Global Climate Models 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![IDAHO_EPSCOR/MACAv2_METDATA_MONTHLY](https://developers.google.com/earth-engine/datasets/images/IDAHO_EPSCOR/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY_sample.png) 
 
 Dataset Availability

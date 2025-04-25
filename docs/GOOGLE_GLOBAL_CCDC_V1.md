@@ -1,6 +1,6 @@
  
 #  Google Global Landsat-based CCDC Segments (1999-2019) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![GOOGLE/GLOBAL_CCDC/V1](https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_GLOBAL_CCDC_V1_sample.png) 
 
 Dataset Availability

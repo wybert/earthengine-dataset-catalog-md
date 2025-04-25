@@ -1,6 +1,6 @@
  
 #  Global Flood Database v1 (2000-2018) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![GLOBAL_FLOOD_DB/MODIS_EVENTS/V1](https://developers.google.com/earth-engine/datasets/images/GLOBAL_FLOOD_DB/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1_sample.png) 
 
 Dataset Availability

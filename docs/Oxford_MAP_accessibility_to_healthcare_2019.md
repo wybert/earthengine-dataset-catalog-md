@@ -1,6 +1,6 @@
  
 #  Accessibility to Healthcare 2019 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![Oxford/MAP/accessibility_to_healthcare_2019](https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_accessibility_to_healthcare_2019_sample.png) 
 
 Dataset Availability

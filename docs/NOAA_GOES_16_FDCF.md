@@ -1,6 +1,6 @@
  
 #  GOES-16 FDCF Series ABI Level 2 Fire/Hot Spot Characterization Full Disk 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GOES/16/FDCF](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GOES_16_FDCF_sample.png) 
 
 Dataset Availability

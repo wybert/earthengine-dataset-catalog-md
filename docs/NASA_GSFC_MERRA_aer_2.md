@@ -1,6 +1,6 @@
  
 #  MERRA-2 M2T1NXAER: Aerosol Diagnostics V5.12.4 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GSFC/MERRA/aer/2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GSFC_MERRA_aer_2_sample.png) 
 
 Dataset Availability

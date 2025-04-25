@@ -1,6 +1,6 @@
  
 #  MYD10A1.061 Aqua Snow Cover Daily Global 500m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD10A1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD10A1_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  geoBoundaries: Political administrative boundaries at Country level (ADM0), v6.0.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WM/geoLab/geoBoundaries/600/ADM0](https://developers.google.com/earth-engine/datasets/images/WM/WM_geoLab_geoBoundaries_600_ADM0_sample.png) 
 
 Dataset Availability

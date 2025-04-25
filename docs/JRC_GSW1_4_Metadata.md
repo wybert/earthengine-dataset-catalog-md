@@ -1,6 +1,6 @@
  
 #  JRC Global Surface Water Metadata, v1.4 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/GSW1_4/Metadata](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GSW1_4_Metadata_sample.png) 
 
 Dataset Availability

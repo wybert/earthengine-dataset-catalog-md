@@ -1,6 +1,6 @@
  
 #  VNP09GA: VIIRS Surface Reflectance Daily 500m and 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/VIIRS/002/VNP09GA](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP09GA_sample.png) 
 
 Dataset Availability

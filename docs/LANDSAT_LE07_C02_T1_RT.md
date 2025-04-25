@@ -1,6 +1,6 @@
  
 #  USGS Landsat 7 Collection 2 Tier 1 and Real-Time data Raw Scenes 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LE07/C02/T1_RT](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T1_RT_sample.png) 
 
 Dataset Availability

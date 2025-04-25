@@ -1,6 +1,6 @@
  
 #  United Nations Geospatial Data: BNDA_simplified 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![UN/Geodata/BNDA_simplified/current](https://developers.google.com/earth-engine/datasets/images/UN/UN_Geodata_BNDA_simplified_current_sample.png) 
 
 Dataset Availability

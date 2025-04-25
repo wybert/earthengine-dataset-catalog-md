@@ -1,6 +1,6 @@
  
 #  FORMA Raw Output FIRMS 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![WRI/GFW/FORMA/raw_output_firms](https://developers.google.com/earth-engine/datasets/images/WRI/WRI_GFW_FORMA_raw_output_firms_sample.png) 
 
 Dataset Availability

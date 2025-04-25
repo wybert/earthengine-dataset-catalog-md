@@ -1,6 +1,6 @@
  
 #  MYD11A2.061 Aqua Land Surface Temperature and Emissivity 8-Day Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD11A2](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD11A2_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ Cadence
 Tags
      [8-day](https://developers.google.com/earth-engine/datasets/tags/8-day) [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [emissivity](https://developers.google.com/earth-engine/datasets/tags/emissivity) [global](https://developers.google.com/earth-engine/datasets/tags/global) [lst](https://developers.google.com/earth-engine/datasets/tags/lst) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [surface-temperature](https://developers.google.com/earth-engine/datasets/tags/surface-temperature) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 myd11a2
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A2#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A2#dois) More
+#### Description
 The MYD11A2 V6.1 product provides an average 8-day land surface temperature (LST) in a 1200 x 1200 kilometer grid. Each pixel value in MYD11A2 is a simple average of all the corresponding MYD11A1 LST pixels collected within that 8 day period. The MYD11A2 does a simple averaging of all daily LST values, without any filtering for specific QA bits. Each of the MYD11A2 QA values are set based on what majority of input daily QA values are for any given pixel.
 The 8 day compositing period was chosen because twice that period is the exact ground track repeat period of the Terra and Aqua platforms. In this product, along with both the day- and night-time surface temperature bands and their quality indicator (QC) layers, are also MODIS bands 31 and 32 and eight observation layers.
 Documentation:
@@ -27,6 +27,7 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MYD11A2)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Offset | Description  
@@ -143,18 +144,21 @@ Bitmask for Clear_sky_nights
     * 1: Night 8 is clear-sky
 
   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD11A2.061 ](https://doi.org/10.5067/MODIS/MYD11A2.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD11A2')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

@@ -1,6 +1,6 @@
  
 #  GSMaP Operational: Global Satellite Mapping of Precipitation - V7 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/GPM_L3/GSMaP/v7/operational](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_GPM_L3_GSMaP_v7_operational_sample.png) 
 
 Dataset Availability

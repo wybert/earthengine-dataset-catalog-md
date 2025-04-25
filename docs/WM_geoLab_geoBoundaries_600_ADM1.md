@@ -1,6 +1,6 @@
  
 #  geoBoundaries: Political administrative boundaries at District level (ADM1), v6.0.0 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![WM/geoLab/geoBoundaries/600/ADM1](https://developers.google.com/earth-engine/datasets/images/WM/WM_geoLab_geoBoundaries_600_ADM1_sample.png) 
 
 Dataset Availability

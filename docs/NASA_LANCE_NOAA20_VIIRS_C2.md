@@ -1,6 +1,6 @@
  
 #  VJ114IMGTDL_NRT Daily Raster: VIIRS (NOAA-20) Band 375m Active Fire 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/LANCE/NOAA20_VIIRS/C2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_LANCE_NOAA20_VIIRS_C2_sample.png) 
 
 Dataset Availability
@@ -17,10 +17,11 @@ Cadence
 
 Tags
      [eosdis](https://developers.google.com/earth-engine/datasets/tags/eosdis) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [firms](https://developers.google.com/earth-engine/datasets/tags/firms) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [hotspot](https://developers.google.com/earth-engine/datasets/tags/hotspot) [lance](https://developers.google.com/earth-engine/datasets/tags/lance) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [thermal](https://developers.google.com/earth-engine/datasets/tags/thermal) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_LANCE_NOAA20_VIIRS_C2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_LANCE_NOAA20_VIIRS_C2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_LANCE_NOAA20_VIIRS_C2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_LANCE_NOAA20_VIIRS_C2#citations) More
+#### Description
 NOAA-20 (JPSS-1) Visible Infrared Imaging Radiometer Suite (VIIRS) Active Fire detection product is based on the instrument's 375m nominal resolution data. Compared to other coarser resolution (≥ 1km) satellite fire detection products, the improved 375 m data provide greater response over fires of relatively small areas, as well as improved mapping of large fire perimeters. Consequently, the data are well suited for use in support of fire management (e.g., near real-time alert systems), as well as other science applications requiring improved fire mapping fidelity.
 The data in the near-real-time dataset are not considered to be of science quality.
 Additional information can be found [here](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms).
+### Bands
 **Pixel Size** 375 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -34,16 +35,18 @@ Name | Units | Min | Max | Description
 `acq_time` | seconds |  |  | The time of day in seconds since midnight  
 `DayNight` |  |  |  | 1= Daytime fire, 0= Nighttime fire  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 NASA promotes the full and open sharing of all data with the research and applications communities, private industry, academia, and the general public. Read the [NASA Data and Information Policy](https://www.earthdata.nasa.gov/learn/use-data/data-use-policy).
 If you provide the [Land, Atmosphere Near real-time Capability for EOS (LANCE) / Fire Information for Resource Management System (FIRMS)](https://earthdata.nasa.gov/earth-observation-data/near-real-time) data to a third party, follow the guidelines in the [LANCE Citation, Acknowledgements, and Disclaimer](https://earthdata.nasa.gov/earth-observation-data/near-real-time/citation#ed-lance-disclaimer) site and replicate or provide a link to the [disclaimer](https://earthdata.nasa.gov/earth-observation-data/near-real-time/citation#ed-lance-disclaimer).
+### Citations
 Citations:
   * NRT VIIRS 375 m Active Fire product VJ114IMGTDL_NRT distributed from NASA FIRMS. Available on-line https://earthdata.nasa.gov/firms. [doi:10.5067/FIRMS/VIIRS/VJ114IMGT_NRT.002](https://doi.org/10.5067/FIRMS/VIIRS/VJ114IMGT_NRT.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_LANCE_NOAA20_VIIRS_C2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varnoaa_viirs=ee.ImageCollection('NASA/LANCE/NOAA20_VIIRS/C2')
 .filter(ee.Filter.date('2023-10-08','2023-10-30'))

@@ -1,6 +1,6 @@
  
 #  iSDAsoil Effective Cation Exchange Capacity 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ISDASOIL/Africa/v1/cation_exchange_capacity](https://developers.google.com/earth-engine/datasets/images/ISDASOIL/ISDASOIL_Africa_v1_cation_exchange_capacity_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  LANDFIRE EVH (Existing Vegetation Height) v1.4.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDFIRE/Vegetation/EVH/v1_4_0](https://developers.google.com/earth-engine/datasets/images/LANDFIRE/LANDFIRE_Vegetation_EVH_v1_4_0_sample.png) 
 
 Dataset Availability

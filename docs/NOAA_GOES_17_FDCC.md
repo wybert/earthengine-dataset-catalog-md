@@ -1,6 +1,6 @@
  
 #  GOES-17 FDCC Series ABI Level 2 Fire/Hot Spot Characterization CONUS 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GOES/17/FDCC](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GOES_17_FDCC_sample.png) 
 
 Dataset Availability

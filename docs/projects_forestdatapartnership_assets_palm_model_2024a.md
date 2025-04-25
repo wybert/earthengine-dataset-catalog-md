@@ -1,6 +1,6 @@
  
 #  Palm Probability model 2024a 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/forestdatapartnership/assets/palm/model_2024a](https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_palm_model_2024a_sample.png)
 info
 This dataset is part of a Publisher Catalog, and not managed by Google Earth Engine. Contact forestdatapartnership@googlegroups.com for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/publisher/forestdatapartnership) from the Forest Data Partnership Catalog. [Learn more about Publisher datasets](https://developers.google.com/earth-engine/datasets/publisher). 

@@ -1,6 +1,6 @@
  
 #  MCD12Q1.061 MODIS Land Cover Type Yearly Global 500m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MCD12Q1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD12Q1_sample.png) 
 
 Dataset Availability

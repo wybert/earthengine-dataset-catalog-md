@@ -1,6 +1,6 @@
  
 #  MODIS Combined 16-Day NDSI 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/MCD43A4_006_NDSI](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MCD43A4_006_NDSI_sample.png) 
 
 Dataset Availability

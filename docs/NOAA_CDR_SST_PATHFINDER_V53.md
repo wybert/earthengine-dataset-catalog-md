@@ -1,6 +1,6 @@
  
 #  NOAA AVHRR Pathfinder Version 5.3 Collated Global 4km Sea Surface Temperature 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/CDR/SST_PATHFINDER/V53](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CDR_SST_PATHFINDER_V53_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  CHIRTS-daily: Climate Hazards Center InfraRed Temperature with Stations daily temperature data product 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![UCSB-CHG/CHIRTS/DAILY](https://developers.google.com/earth-engine/datasets/images/UCSB-CHG/UCSB-CHG_CHIRTS_DAILY_sample.png) 
 
 Dataset Availability

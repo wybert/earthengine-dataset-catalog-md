@@ -1,6 +1,6 @@
  
 #  Global Forest Cover Change (GFCC) Tree Cover Multi-Year Global 30m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/MEASURES/GFCC/TC/v3](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_MEASURES_GFCC_TC_v3_sample.png) 
 
 Dataset Availability

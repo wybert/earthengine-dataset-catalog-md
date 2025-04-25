@@ -1,6 +1,6 @@
  
 #  MYD15A2H.061: Aqua Leaf Area Index/FPAR 8-Day Global 500m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD15A2H](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD15A2H_sample.png) 
 
 Dataset Availability

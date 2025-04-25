@@ -1,6 +1,6 @@
  
 #  VIIRS Nighttime Day/Night Annual Band Composites V2.2 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/DNB/ANNUAL_V22](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_DNB_ANNUAL_V22_sample.png) 
 
 Dataset Availability

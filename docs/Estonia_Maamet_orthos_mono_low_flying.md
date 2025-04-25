@@ -1,6 +1,6 @@
  
 #  Estonia mono low flying orthophotos 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![Estonia/Maamet/orthos/mono_low_flying](https://developers.google.com/earth-engine/datasets/images/Estonia/Estonia_Maamet_orthos_mono_low_flying_sample.png) 
 
 Dataset Availability

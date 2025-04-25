@@ -1,6 +1,6 @@
  
 #  LSIB 2017: Large Scale International Boundary Polygons, Simplified 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USDOS/LSIB_SIMPLE/2017](https://developers.google.com/earth-engine/datasets/images/USDOS/USDOS_LSIB_SIMPLE_2017_sample.png) 
 
 Dataset Availability

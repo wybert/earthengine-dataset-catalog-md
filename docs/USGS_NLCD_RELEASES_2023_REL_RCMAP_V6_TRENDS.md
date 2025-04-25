@@ -1,6 +1,6 @@
  
 #  RCMAP Rangeland Trends for Component Timeseries (1985-2023), v06 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2023_REL/RCMAP/V6/TRENDS](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2023_REL_RCMAP_V6_TRENDS_sample.png) 
 
 Dataset Availability

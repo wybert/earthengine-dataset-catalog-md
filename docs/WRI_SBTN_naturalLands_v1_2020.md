@@ -1,6 +1,6 @@
  
 #  SBTN Natural Lands Map v1 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![WRI/SBTN/naturalLands/v1/2020](https://developers.google.com/earth-engine/datasets/images/WRI/WRI_SBTN_naturalLands_v1_2020_sample.png) 
 
 Dataset Availability

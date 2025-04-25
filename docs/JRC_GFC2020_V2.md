@@ -1,6 +1,6 @@
  
 #  EC JRC global map of forest cover 2020, V2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/GFC2020/V2](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_V2_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  TIGER: US Census States 2016 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![TIGER/2016/States](https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2016_States_sample.png) 
 
 Dataset Availability

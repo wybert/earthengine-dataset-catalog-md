@@ -1,6 +1,6 @@
  
 #  MYDOCGA.006 Aqua Ocean Reflectance Daily Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/006/MYDOCGA](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_006_MYDOCGA_sample.png) 
 
 Dataset Availability

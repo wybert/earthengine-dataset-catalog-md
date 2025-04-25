@@ -1,6 +1,6 @@
  
 #  Global 2020 Forest Classification for IPCC Aboveground Biomass Tier 1 Estimates, V1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/ORNL/global_forest_classification_2020/V1](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_ORNL_global_forest_classification_2020_V1_sample.png) 
 
 Dataset Availability

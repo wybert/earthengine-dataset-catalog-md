@@ -1,6 +1,6 @@
  
 #  WeatherNext Gen Forecasts 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/gcp-public-data-weathernext/assets/126478713_1_0](https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_126478713_1_0_sample.png)
 info
 This dataset is part of a Publisher Catalog, and not managed by Google Earth Engine. Contact weathernext@google.com for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/publisher/gcp-public-data-weathernext) from the WeatherNext Catalog. [Learn more about Publisher datasets](https://developers.google.com/earth-engine/datasets/publisher). 

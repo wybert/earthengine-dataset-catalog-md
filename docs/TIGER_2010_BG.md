@@ -1,6 +1,6 @@
  
 #  TIGER: US Census Block Groups (BG) 2010 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![TIGER/2010/BG](https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2010_BG_sample.png) 
 
 Dataset Availability

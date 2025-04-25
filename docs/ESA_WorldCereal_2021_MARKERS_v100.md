@@ -1,6 +1,6 @@
  
 #  ESA WorldCereal Active Cropland 10 m v100 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ESA/WorldCereal/2021/MARKERS/v100](https://developers.google.com/earth-engine/datasets/images/ESA/ESA_WorldCereal_2021_MARKERS_v100_sample.png) 
 
 Dataset Availability

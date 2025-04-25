@@ -1,6 +1,6 @@
  
 #  REMA Strips 8m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![UMN/PGC/REMA/V1/8m](https://developers.google.com/earth-engine/datasets/images/UMN/UMN_PGC_REMA_V1_8m_sample.png) 
 
 Dataset Availability

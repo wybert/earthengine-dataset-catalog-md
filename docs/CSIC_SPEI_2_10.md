@@ -1,6 +1,6 @@
  
 #  SPEIbase: Standardised Precipitation-Evapotranspiration Index database, Version 2.10 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![CSIC/SPEI/2_10](https://developers.google.com/earth-engine/datasets/images/CSIC/CSIC_SPEI_2_10_sample.png) 
 
 Dataset Availability

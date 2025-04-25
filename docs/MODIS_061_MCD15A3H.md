@@ -1,6 +1,6 @@
  
 #  MCD15A3H.061 MODIS Leaf Area Index/FPAR 4-Day Global 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![MODIS/061/MCD15A3H](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD15A3H_sample.png) 
 
 Dataset Availability
@@ -19,7 +19,7 @@ Tags
      [fpar](https://developers.google.com/earth-engine/datasets/tags/fpar) [global](https://developers.google.com/earth-engine/datasets/tags/global) [lai](https://developers.google.com/earth-engine/datasets/tags/lai) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [plant-productivity](https://developers.google.com/earth-engine/datasets/tags/plant-productivity) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation)
 4-day
 mcd15a3h
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD15A3H#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD15A3H#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD15A3H#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD15A3H#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD15A3H#dois) More
 The MCD15A3H Version 6.1 Moderate Resolution Imaging Spectroradiometer (MODIS) Level 4, Combined Fraction of Photosynthetically Active Radiation (FPAR), and Leaf Area Index (LAI) product is a 4-day composite data set with 500 meter pixel size. The algorithm chooses the best pixel available from all the acquisitions of both MODIS sensors located on NASA's Terra and Aqua satellites from within the 4-day period.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/624/MOD15_User_Guide_V6.pdf)
@@ -27,7 +27,6 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MCD15A3H)
 
 
-### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Min | Max | Scale | Wavelength | Description  
@@ -87,21 +86,18 @@ Bitmask for FparExtra_QC
   
 `FparStdDev` |  0  |  100  | 0.01 |  | Standard deviation of Fpar  
 `LaiStdDev` |  0  |  100  | 0.1 |  | Standard deviation for Lai  
-### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
-### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
-### DOIs
   * [ https://doi.org/10.5067/MODIS/MCD15A3H.061 ](https://doi.org/10.5067/MODIS/MCD15A3H.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD15A3H#code-editor-javascript-sample) More
 ```
 vardataset=ee.ImageCollection('MODIS/061/MCD15A3H');
 vardefaultVisualization=dataset.first().select('Fpar');

@@ -1,6 +1,6 @@
  
 #  Sentinel-1 SAR GRD: C-band Synthetic Aperture Radar Ground Range Detected, log scaling 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![COPERNICUS/S1_GRD](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S1_GRD_sample.png) 
 
 Dataset Availability
@@ -19,7 +19,7 @@ Tags
      [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [radar](https://developers.google.com/earth-engine/datasets/tags/radar) [sar](https://developers.google.com/earth-engine/datasets/tags/sar) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel)
 backscatter
 polarization
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD#terms-of-use) More
 The Sentinel-1 mission provides data from a dual-polarization C-band Synthetic Aperture Radar (SAR) instrument at 5.405GHz (C band). This collection includes the S1 Ground Range Detected (GRD) scenes, processed using the Sentinel-1 Toolbox to generate a calibrated, ortho-corrected product. The collection is updated daily. New assets are ingested within two days after they become available.
 This collection contains all of the GRD scenes. Each scene has one of 3 resolutions (10, 25 or 40 meters), 4 band combinations (corresponding to scene polarization) and 3 instrument modes. Use of the collection in a mosaic context will likely require filtering down to a homogeneous set of bands and parameters. See [this article](https://developers.google.com/earth-engine/sentinel1) for details of collection use and preprocessing. Each scene contains either 1 or 2 out of 4 possible polarization bands, depending on the instrument's polarization settings. The possible combinations are single band VV, single band HH, dual band VV+VH, and dual band HH+HV:
   1. VV: single co-polarization, vertical transmit/vertical receive
@@ -37,7 +37,6 @@ Each scene was pre-processed with [Sentinel-1 Toolbox](https://sentinel.esa.int/
 
 For more information about these pre-processing steps, please refer to the [Sentinel-1 Pre-processing article](https://developers.google.com/earth-engine/sentinel1). For further advice on working with Sentinel-1 imagery, see [Guido Lemoine's tutorial on SAR basics](https://developers.google.com/earth-engine/tutorials/community/sar-basics) and [Mort Canty's tutorial on SAR change detection](https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-1).
 This collection is computed on-the-fly. If you want to use the underlying collection with raw power values (which is updated faster), see COPERNICUS/S1_GRD_FLOAT.
-### Bands
 **Bands**
 Name | Units | Min | Max | Pixel Size | Description  
 ---|---|---|---|---|---  
@@ -47,7 +46,6 @@ Name | Units | Min | Max | Pixel Size | Description
 `VH` | dB |  -50*  |  1*  |  10 meters  | Dual-band cross-polarization, vertical transmit/horizontal receive  
 `angle` | deg |  0*  |  90*  |  20000 meters  | Approximate incidence angle from ellipsoid  
 * estimated min or max value 
-### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -101,12 +99,11 @@ sliceProductFlag | STRING | True if this is a slice from a larger product or fal
 segmentStartTime | DOUBLE | Sensing start time of the segment to which this slice belongs. This field is only present if sliceProductFlag = true  
 sliceNumber | DOUBLE | Absolute slice number of this slice starting at 1. This field is only present if sliceProductFlag = true.  
 totalSlices | DOUBLE | Total number of slices in the complete data take. This field is only present if sliceProductFlag = true.  
-### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/Sentinel_Data_Terms_and_Conditions.pdf)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD#code-editor-javascript-sample)[Colab (Python)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD#colab-python-sample) More
 ```
 varimgVV=ee.ImageCollection('COPERNICUS/S1_GRD')
 .filter(ee.Filter.listContains('transmitterReceiverPolarisation','VV'))
@@ -134,15 +131,12 @@ Map.setCenter(5.2013,47.3277,12);
 Map.addLayer(ascChange,{min:-25,max:5},'Multi-T Mean ASC',true);
 Map.addLayer(descChange,{min:-25,max:5},'Multi-T Mean DESC',true);
 ```
-
 Python setup
 See the [ Python Environment](https://developers.google.com/earth-engine/guides/python_install) page for information on the Python API and using `geemap` for interactive development.
 ```
 importee
 importgeemap.coreasgeemap
 ```
-
-### Colab (Python)
 ```
 defmask_edge(image):
  edge = image.lt(-30.0)

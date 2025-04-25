@@ -1,6 +1,6 @@
  
 #  GEDI L2A Raster Canopy Top Height (Version 2) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI02_A_002_MONTHLY](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_A_002_MONTHLY_sample.png) 
 
 Dataset Availability

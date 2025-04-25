@@ -1,6 +1,6 @@
  
 #  GPM: Monthly Global Precipitation Measurement (GPM) v6 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GPM_L3/IMERG_MONTHLY_V06](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GPM_L3_IMERG_MONTHLY_V06_sample.png) 
 
 Dataset Availability

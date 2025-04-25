@@ -1,6 +1,6 @@
  
 #  USFS Tree Canopy Cover v2021-4 (CONUS and OCONUS) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2021_REL/TCC/v2021-4](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4_sample.png) 
 
 Dataset Availability

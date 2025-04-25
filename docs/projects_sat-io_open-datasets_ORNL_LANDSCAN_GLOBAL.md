@@ -1,6 +1,6 @@
  
 #  LandScan Population Data Global 1km 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL](https://developers.google.com/earth-engine/datasets/images/sat-io/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL_sample.png)
 info
 This dataset is part of a Community Catalog, and not managed by Google Earth Engine. Contact gee-community-catalog@googlegroups.com for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/community/sat-io) from the Awesome GEE Community Catalog Catalog. [Learn more about Community datasets](https://developers.google.com/earth-engine/datasets/community). 

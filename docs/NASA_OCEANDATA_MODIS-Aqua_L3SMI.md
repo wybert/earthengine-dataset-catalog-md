@@ -1,6 +1,6 @@
  
 #  Ocean Color SMI: Standard Mapped Image MODIS Aqua Data 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/OCEANDATA/MODIS-Aqua/L3SMI](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_OCEANDATA_MODIS-Aqua_L3SMI_sample.png) 
 
 Dataset Availability

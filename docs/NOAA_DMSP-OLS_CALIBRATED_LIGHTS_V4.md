@@ -1,6 +1,6 @@
  
 #  DMSP OLS: Global Radiance-Calibrated Nighttime Lights Version 4, Defense Meteorological Program Operational Linescan System 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/DMSP-OLS/CALIBRATED_LIGHTS_V4](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_DMSP-OLS_CALIBRATED_LIGHTS_V4_sample.png) 
 
 Dataset Availability

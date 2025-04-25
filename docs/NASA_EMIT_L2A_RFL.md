@@ -1,6 +1,6 @@
  
 #  EMIT L2A Estimated Surface Reflectance and Uncertainty and Masks 60 m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/EMIT/L2A/RFL](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_EMIT_L2A_RFL_sample.png) 
 
 Dataset Availability

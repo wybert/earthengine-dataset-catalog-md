@@ -1,6 +1,6 @@
  
 #  Tree proximate people (TPP) 1.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![FAO/SOFO/1/TPP](https://developers.google.com/earth-engine/datasets/images/FAO/FAO_SOFO_1_TPP_sample.png) 
 
 Dataset Availability

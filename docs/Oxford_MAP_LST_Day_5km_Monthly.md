@@ -1,6 +1,6 @@
  
 #  Oxford MAP LST: Malaria Atlas Project Gap-Filled Daytime Land Surface Temperature 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![Oxford/MAP/LST_Day_5km_Monthly](https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_LST_Day_5km_Monthly_sample.png) 
 
 Dataset Availability

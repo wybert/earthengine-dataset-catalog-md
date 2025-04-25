@@ -1,6 +1,6 @@
  
 #  ERA5 Daily Aggregates - Latest Climate Reanalysis Produced by ECMWF / Copernicus Climate Change Service 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![ECMWF/ERA5/DAILY](https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_ERA5_DAILY_sample.png) 
 
 Dataset Availability
@@ -147,6 +147,7 @@ era5_sp.filter(ee.Filter.date('2019-07-15')),visPressure,
 'Daily mean surface pressure');
 Map.setCenter(21.2,22.2,2);
 ```
+
 Python setup
 See the [ Python Environment](https://developers.google.com/earth-engine/guides/python_install) page for information on the Python API and using `geemap` for interactive development.
 ```

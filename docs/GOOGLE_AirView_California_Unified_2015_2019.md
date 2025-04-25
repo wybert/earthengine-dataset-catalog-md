@@ -1,6 +1,6 @@
  
 #  Google Street View Air Quality: High Resolution Air Pollution Mapping in California 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![GOOGLE/AirView/California_Unified_2015_2019](https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_AirView_California_Unified_2015_2019_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [air-quality](https://developers.google.com/earth-engine/datasets/tags/air-quality) [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [nitrogen-dioxide](https://developers.google.com/earth-engine/datasets/tags/nitrogen-dioxide) [pollution](https://developers.google.com/earth-engine/datasets/tags/pollution) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_AirView_California_Unified_2015_2019#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_AirView_California_Unified_2015_2019#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_AirView_California_Unified_2015_2019#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_AirView_California_Unified_2015_2019#citations) More
 This large vector dataset contains high resolution air pollution mapping of NO, NO2, O3, CH4, CO2, BC, PN2.5, and UFP concentrations in California between June 2015 and June 2019.
 The dataset consists of measurements collected using four Google Street View vehicles equipped with the Aclima mobile measurement and data integration platform from 2015-05-28 to 2019-06-07. Not all four cars were actively mapping over the entire time frame. Note that there may be gaps in the data when an individual car was not mapping due to operational, mechanical, or system difficulties.
 Dates of operation for each of the four cars:
@@ -26,7 +26,6 @@ Dates of operation for each of the four cars:
 
 Data was collected in several geographic regions of California including the San Francisco Bay Area, Los Angeles, and the northern San Joaquin Valley. Mapping occurred in targeted neighborhoods or cities within these regions. The data set contains a table titled "California_Unified_2015_2019" which consists of the concentration of the pollutants Ozone (O3), Nitrogen Dioxide (NO2), Nitrogen Monoxide (NO), Methane (CH4), Carbon Dioxide (CO2), Black Carbon (BC), particle number less than 2.5 micrometers in size (PN2.5), and Ultrafine Particles (UFP) measured using four Google Street View cars equipped with fast time-response, laboratory-grade instruments. The data was collected at 1-Hz time resolution from 20150528 to 20190607 for roads in three regions of California - the San Francisco Bay area, Los Angeles, and the northern San Joaquin Valley. Specific areas mapped varied by region based on desired spatial data coverage and science questions. Each data point is geolocated with latitude and longitude as well as the identity and speed of the car.
 For details including methodologies, standards, data providers, metadata field definitions and descriptions, refer to the [metadata](https://docs.google.com/document/d/1If15JccoJcN01Jg3ljN3V-qUFS0HywKAd4OsQ-_JXJo/view).
-### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -50,10 +49,8 @@ PN5 | DOUBLE | Particle number concentration between 1.5 and 2.5 μm
 PN_Overrange | STRING | Boolean flag indicating the measured value was higher than the operating range of the instrument's specification. This field can be empty.  
 UFP | DOUBLE | Total particle number concentration greater than 3 nm  
 UFP_Overrange | STRING | Boolean flag indicating the measured value was higher than the operating range of the instrument's specification. This field can be empty.  
-### Terms of Use
 **Terms of Use**
 [CC-BY-NC-4.0](https://spdx.org/licenses/CC-BY-NC-4.0.html)
-### Citations
 Citations:
   * with the text "Air Quality Data from Google and Aclima"
 Citation for publications: Google and Aclima 2019: Project Air View California 2015-2019
@@ -61,7 +58,7 @@ Citation for publications: Google and Aclima 2019: Project Air View California 2
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_AirView_California_Unified_2015_2019#code-editor-javascript-sample) More
 ```
 varfc=ee.FeatureCollection('GOOGLE/AirView/California_Unified_2015_2019');
 varnormal=fc.filter('NO2 >= 0 && NO2 < 1');

@@ -1,6 +1,6 @@
  
 #  Global 3-class PALSAR-2/PALSAR Forest/Non-Forest Map 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/ALOS/PALSAR/YEARLY/FNF](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_PALSAR_YEARLY_FNF_sample.png) 
 
 Dataset Availability

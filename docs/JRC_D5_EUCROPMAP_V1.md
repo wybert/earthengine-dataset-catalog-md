@@ -1,6 +1,6 @@
  
 #  EUCROPMAP 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/D5/EUCROPMAP/V1](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_D5_EUCROPMAP_V1_sample.png) 
 
 Dataset Availability

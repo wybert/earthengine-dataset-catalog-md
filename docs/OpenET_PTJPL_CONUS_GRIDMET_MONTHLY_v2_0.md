@@ -1,6 +1,6 @@
  
 #  OpenET PT-JPL Monthly Evapotranspiration v2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenET/PTJPL/CONUS/GRIDMET/MONTHLY/v2_0](https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  VNP43IA2: BRDF/Albedo Quality Daily L3 Global 500m SIN Grid 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/001/VNP43IA2](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP43IA2_sample.png) 
 
 Dataset Availability

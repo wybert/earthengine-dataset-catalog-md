@@ -1,6 +1,6 @@
  
 #  HLSS30: HLS Sentinel-2 Multi-spectral Instrument Surface Reflectance Daily Global 30m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/HLS/HLSS30/v002](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_HLS_HLSS30_v002_sample.png) 
 
 Dataset Availability

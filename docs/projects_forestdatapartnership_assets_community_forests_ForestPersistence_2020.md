@@ -1,6 +1,6 @@
  
 #  Forest Persistence v0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/forestdatapartnership/assets/community_forests/ForestPersistence_2020](https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_community_forests_ForestPersistence_2020_sample.png)
 info
 This dataset is part of a Publisher Catalog, and not managed by Google Earth Engine. Contact forestdatapartnership@googlegroups.com for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/publisher/forestdatapartnership) from the Forest Data Partnership Catalog. [Learn more about Publisher datasets](https://developers.google.com/earth-engine/datasets/publisher). 

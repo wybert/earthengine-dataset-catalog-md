@@ -1,6 +1,6 @@
  
 #  USGS 3DEP 10m National Map Seamless (1/3 Arc-Second) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/3DEP/10m](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_3DEP_10m_sample.png) 
 
 Dataset Availability

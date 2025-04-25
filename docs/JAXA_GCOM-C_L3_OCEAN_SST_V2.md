@@ -1,6 +1,6 @@
  
 #  GCOM-C/SGLI L3 Sea Surface Temperature (V2) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/GCOM-C/L3/OCEAN/SST/V2](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_GCOM-C_L3_OCEAN_SST_V2_sample.png) 
 
 Dataset Availability

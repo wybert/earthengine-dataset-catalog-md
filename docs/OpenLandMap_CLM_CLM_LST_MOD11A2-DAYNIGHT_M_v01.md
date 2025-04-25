@@ -1,6 +1,6 @@
  
 #  OpenLandMap Long-term Land Surface Temperature Monthly Day-Night Difference 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/CLM/CLM_LST_MOD11A2-DAYNIGHT_M/v01](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_CLM_CLM_LST_MOD11A2-DAYNIGHT_M_v01_sample.png) 
 
 Dataset Availability

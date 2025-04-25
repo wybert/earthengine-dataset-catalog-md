@@ -1,6 +1,6 @@
  
 #  NICFI Satellite Data Program Basemaps for Tropical Forest Monitoring - Africa 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/planet-nicfi/assets/basemaps/africa](https://developers.google.com/earth-engine/datasets/images/planet-nicfi/projects_planet-nicfi_assets_basemaps_africa_sample.png)
 info
 This dataset is part of a Publisher Catalog, and not managed by Google Earth Engine. Contact support@planet.com for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/publisher/planet-nicfi) from the Planet Catalog. [Learn more about Publisher datasets](https://developers.google.com/earth-engine/datasets/publisher). 

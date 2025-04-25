@@ -1,6 +1,6 @@
  
 #  VIIRS Nighttime Day/Night Band Composites Version 1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_DNB_MONTHLY_V1_VCMCFG_sample.png) 
 
 Dataset Availability

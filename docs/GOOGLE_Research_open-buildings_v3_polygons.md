@@ -1,6 +1,6 @@
  
 #  Open Buildings V3 Polygons 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![GOOGLE/Research/open-buildings/v3/polygons](https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_Research_open-buildings_v3_polygons_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  ALOS-2 PALSAR-2 StripMap Level 2.1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/ALOS/PALSAR-2/Level2_1/StripMap_202401](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_PALSAR-2_Level2_1_StripMap_202401_sample.png) 
 
 Dataset Availability

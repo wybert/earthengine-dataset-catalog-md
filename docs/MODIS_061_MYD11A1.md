@@ -1,6 +1,6 @@
  
 #  MYD11A1.061 Aqua Land Surface Temperature and Emissivity Daily Global 1km 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD11A1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD11A1_sample.png) 
 
 Dataset Availability

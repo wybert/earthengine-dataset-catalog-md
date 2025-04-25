@@ -1,6 +1,6 @@
  
 #  GOES-16 MCMIPC Series ABI Level 2 Cloud and Moisture Imagery CONUS 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GOES/16/MCMIPC](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GOES_16_MCMIPC_sample.png) 
 
 Dataset Availability

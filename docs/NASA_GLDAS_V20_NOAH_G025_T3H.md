@@ -1,6 +1,6 @@
  
 #  Reprocessed GLDAS-2.0: Global Land Data Assimilation System 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GLDAS/V20/NOAH/G025/T3H](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GLDAS_V20_NOAH_G025_T3H_sample.png) 
 
 Dataset Availability

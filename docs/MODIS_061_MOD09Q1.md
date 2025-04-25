@@ -1,6 +1,6 @@
  
 #  MOD09Q1.061 Terra Surface Reflectance 8-Day Global 250m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD09Q1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD09Q1_sample.png) 
 
 Dataset Availability

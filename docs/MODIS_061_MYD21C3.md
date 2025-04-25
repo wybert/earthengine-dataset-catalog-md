@@ -1,6 +1,6 @@
  
 #  MYD21C3.061 Aqua Land Surface Temperature and 3-Band Emissivity Monthly L3 Global 0.05 Deg CMG 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![MODIS/061/MYD21C3](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD21C3_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [emissivity](https://developers.google.com/earth-engine/datasets/tags/emissivity) [global](https://developers.google.com/earth-engine/datasets/tags/global) [lst](https://developers.google.com/earth-engine/datasets/tags/lst) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [surface-temperature](https://developers.google.com/earth-engine/datasets/tags/surface-temperature) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C3#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C3#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C3#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C3#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C3#dois) More
 The MYD21C3 dataset is a monthly composite LST product that uses an algorithm based on a simple averaging method. The algorithm calculates the average from all the cloud free MYD21A1D and MYD21A1N daily acquisitions from the 8-day period. Unlike the MYD21A1 data sets where the daytime and nighttime acquisitions are separate products, the MYD21A2 contains both daytime and nighttime acquisitions. The LST, Quality Control (QC), view zenith angle, and viewing time have separate day and night bands, while the values for the MODIS emissivity bands 29, 31, and 32 are the average of both the nighttime and daytime acquisitions.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/1398/MOD21_User_Guide_V61.pdf)
@@ -25,7 +25,6 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MYD21C3)
 
 
-### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Offset | Description  
@@ -108,21 +107,18 @@ Bitmask for QC_Night
 `Percent_land_in_grid` | % |  1  |  100  |  |  | Percent of Land Detections in Grid Cell  
 `Clear_sky_days` |  |  0  |  2.14748e+09  |  |  | Bitmap of Clear Sky Days (1 = clear, LSB = 1st day)  
 `Clear_sky_nights` |  |  0  |  2.14748e+09  |  |  | Bitmap of Clear Sky Nights (1 = clear, LSB = 1st day)  
-### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
-### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
-### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD21C3.061 ](https://doi.org/10.5067/MODIS/MYD21C3.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD21C3#code-editor-javascript-sample) More
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD21C3')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

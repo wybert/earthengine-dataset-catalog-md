@@ -1,6 +1,6 @@
  
 #  MERRA-2 M2T1NXSLV: Single-Level Diagnostics V5.12.4 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GSFC/MERRA/slv/2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GSFC_MERRA_slv_2_sample.png) 
 
 Dataset Availability

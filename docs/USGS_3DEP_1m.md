@@ -1,6 +1,6 @@
  
 #  USGS 3DEP 1m National Map 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/3DEP/1m](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_3DEP_1m_sample.png) 
 
 Dataset Availability

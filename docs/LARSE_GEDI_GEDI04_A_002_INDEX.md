@@ -1,6 +1,6 @@
  
 #  GEDI L4A table index 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI04_A_002_INDEX](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI04_A_002_INDEX_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  TIGER: US Census Blocks 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![TIGER/2010/Blocks](https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2010_Blocks_sample.png) 
 
 Dataset Availability

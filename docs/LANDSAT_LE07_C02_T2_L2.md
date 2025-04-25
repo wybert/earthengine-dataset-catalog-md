@@ -1,6 +1,6 @@
  
 #  USGS Landsat 7 Level 2, Collection 2, Tier 2 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LE07/C02/T2_L2](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T2_L2_sample.png) 
 
 Dataset Availability

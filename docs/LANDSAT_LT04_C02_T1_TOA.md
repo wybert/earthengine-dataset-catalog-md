@@ -1,6 +1,6 @@
  
 #  USGS Landsat 4 TM Collection 2 Tier 1 TOA Reflectance 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LT04/C02/T1_TOA](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT04_C02_T1_TOA_sample.png) 
 
 Dataset Availability

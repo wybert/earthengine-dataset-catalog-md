@@ -1,6 +1,6 @@
  
 #  MOD13A3.061 Vegetation Indices Monthly L3 Global 1 km SIN Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD13A3](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD13A3_sample.png) 
 
 Dataset Availability

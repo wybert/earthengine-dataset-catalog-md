@@ -1,6 +1,6 @@
  
 #  Murray Global Tidal Wetland Change v1.0 (1999-2019) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JCU/Murray/GIC/global_tidal_wetland_change/2019](https://developers.google.com/earth-engine/datasets/images/JCU/JCU_Murray_GIC_global_tidal_wetland_change_2019_sample.png) 
 
 Dataset Availability

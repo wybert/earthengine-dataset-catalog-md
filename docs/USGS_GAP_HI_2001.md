@@ -1,6 +1,6 @@
  
 #  USGS GAP Hawaii 2001 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/GAP/HI/2001](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_GAP_HI_2001_sample.png) 
 
 Dataset Availability

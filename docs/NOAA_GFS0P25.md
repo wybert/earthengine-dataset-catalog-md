@@ -1,6 +1,6 @@
  
 #  GFS: Global Forecast System 384-Hour Predicted Atmosphere Data 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GFS0P25](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GFS0P25_sample.png) 
 
 Dataset Availability

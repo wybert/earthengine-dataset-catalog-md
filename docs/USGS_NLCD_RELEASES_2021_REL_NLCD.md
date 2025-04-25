@@ -1,6 +1,6 @@
  
 #  NLCD 2021: USGS National Land Cover Database, 2021 release 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2021_REL/NLCD](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2021_REL_NLCD_sample.png) 
 
 Dataset Availability

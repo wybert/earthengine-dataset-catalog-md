@@ -1,6 +1,6 @@
  
 #  England 1m Composite DTM/DSM (Environment Agency) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![UK/EA/ENGLAND_1M_TERRAIN/2022](https://developers.google.com/earth-engine/datasets/images/UK/UK_EA_ENGLAND_1M_TERRAIN_2022_sample.png) 
 
 Dataset Availability

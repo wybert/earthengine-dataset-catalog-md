@@ -1,6 +1,6 @@
  
 #  Global PALSAR-2/PALSAR Yearly Mosaic, version 2 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/ALOS/PALSAR/YEARLY/SAR_EPOCH](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH_sample.png) 
 
 Dataset Availability

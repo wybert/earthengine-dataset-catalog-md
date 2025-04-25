@@ -1,6 +1,6 @@
  
 #  Sentinel-5P OFFL CH4: Offline Methane 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S5P/OFFL/L3_CH4](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_CH4_sample.png) 
 
 Dataset Availability

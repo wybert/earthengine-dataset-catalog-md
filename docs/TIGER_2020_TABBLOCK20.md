@@ -1,6 +1,6 @@
  
 #  TIGER: 2020 Tabulation (Census) Block 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![TIGER/2020/TABBLOCK20](https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2020_TABBLOCK20_sample.png) 
 
 Dataset Availability

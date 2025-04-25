@@ -1,6 +1,6 @@
  
 #  JRC Monthly Water Recurrence, v1.4 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/GSW1_4/MonthlyRecurrence](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GSW1_4_MonthlyRecurrence_sample.png) 
 
 Dataset Availability

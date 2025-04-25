@@ -1,6 +1,6 @@
  
 #  Drained Organic Soils Emissions (Annual) 1.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![FAO/GHG/1/DROSE_A](https://developers.google.com/earth-engine/datasets/images/FAO/FAO_GHG_1_DROSE_A_sample.png) 
 
 Dataset Availability

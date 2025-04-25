@@ -1,6 +1,6 @@
  
 #  Landsat Collection 2 Tier 1 Level 2 32-Day NBR Composite 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NBR](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NBR_sample.png) 
 
 Dataset Availability

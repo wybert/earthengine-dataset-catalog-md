@@ -1,6 +1,6 @@
  
 #  NEX-GDDP-CMIP6: NASA Earth Exchange Global Daily Downscaled Climate Projections 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GDDP-CMIP6](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GDDP-CMIP6_sample.png) 
 
 Dataset Availability

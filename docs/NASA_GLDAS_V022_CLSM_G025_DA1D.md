@@ -1,6 +1,6 @@
  
 #  GLDAS-2.2: Global Land Data Assimilation System 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GLDAS/V022/CLSM/G025/DA1D](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GLDAS_V022_CLSM_G025_DA1D_sample.png) 
 
 Dataset Availability

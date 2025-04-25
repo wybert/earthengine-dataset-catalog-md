@@ -1,6 +1,6 @@
  
 #  GHSL: Degree of Urbanization 1975-2030 V2-0 (P2023A) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/GHSL/P2023A/GHS_SMOD_V2-0](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GHSL_P2023A_GHS_SMOD_V2-0_sample.png) 
 
 Dataset Availability

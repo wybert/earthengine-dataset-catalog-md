@@ -1,6 +1,6 @@
  
 #  IPCC AR6 Sea Level Projections Regional (Medium Confidence) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
 ![IPCC/AR6/SLP](https://developers.google.com/earth-engine/datasets/images/IPCC/IPCC_AR6_SLP_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ Cadence
 Tags
      [ipcc](https://developers.google.com/earth-engine/datasets/tags/ipcc) [ocean](https://developers.google.com/earth-engine/datasets/tags/ocean) [oceans](https://developers.google.com/earth-engine/datasets/tags/oceans)
 sea-level-changes
-#### Description
+[Description](https://developers.google.com/earth-engine/datasets/catalog/IPCC_AR6_SLP#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/IPCC_AR6_SLP#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/IPCC_AR6_SLP#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/IPCC_AR6_SLP#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/IPCC_AR6_SLP#dois) More
 The dataset provided by the IPCC features comprehensive global and regional sea level projections from the IPCC 6th Assessment Report (AR6). This collection contains assets for the medium confidence sea level rise projections. The dataset spans from 2020 to 2150 and includes projections for various future scenarios outlined in the AR6. It offers a detailed breakdown of individual processes contributing to sea level changes, alongside globally averaged projections, regional projections on a regular global grid. These projections align with those in the IPCC AR6 report, ensuring consistency and reliability. (Local projections at specific tide gauge locations are not included because they are not on a regular grid.)
 The following are summaries of the future scenarios included in the dataset:
   * SSP1-1.9 holds warming to approximately 1.5°C above 1850-1900 in 2100 after slight overshoot (median) and implies net zero CO2 emissions around the middle of the century.
@@ -38,7 +38,6 @@ glaciers | Glaciers
 landwaterstorage | Land Water Storage  
 oceandynamics | Ocean Dynamics (includes Thermal Expansion)  
 verticallandmotion | Vertical Land Motion (non-climatic processes)  
-### Bands
 **Pixel Size** 111.32 meters 
 **Bands**
 Name | Units | Description  
@@ -1541,17 +1540,14 @@ Name | Units | Description
 `verticallandmotion_values_quantile_0_995` | mm | Vertical land motion values for the quantile 0.995  
 `verticallandmotion_values_quantile_0_999` | mm | Vertical land motion values for the quantile 0.999  
 `verticallandmotion_values_quantile_1` | mm | Vertical land motion values for the quantile 1  
-### Terms of Use
 **Terms of Use**
 This dataset is made available publicly under the Creative Commons by Attribution license(CC-BY-4.0).
-### Citations
 Citations:
   * Garner, G. G., T. Hermans, R. E. Kopp, A. B. A. Slangen, T. L. Edwards, A. Levermann, S. Nowikci, M. D. Palmer, C. Smith, B. Fox-Kemper, H. T. Hewitt, C. Xiao, G. Aðalgeirsdóttir, S. S. Drijfhout, T. L. Edwards, N. R. Golledge, M. Hemer, G. Krinner, A. Mix, D. Notz, S. Nowicki, I. S. Nurhati, L. Ruiz, J-B. Sallée, Y. Yu, L. Hua, T. Palmer, B. Pearson, 2021. IPCC AR6 Sea Level Projections. Version 20210809. Dataset accessed [YYYY-MM-DD] at [10.5281/zenodo.5914709](https://doi.org/10.5281/zenodo.5914709)
   * Fox-Kemper, B., et al., 2021: Ocean, Cryosphere and Sea Level Change. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the IPCC [Masson-Delmotte, V., et al. (eds.)]. Cambridge University Press, pp. 1211-1362. [doi:10.1017/9781009157896.011](https://doi.org/10.1017/9781009157896.011).
   * Kopp, R. E., Garner, G. G., Hermans, T. H. J., Jha, S., Kumar, P., Reedy, A., Slangen, A. B. A., Turilli, M., Edwards, T. L., Gregory, J. M., Koubbe, G., Levermann, A., Merzky, A., Nowicki, S., Palmer, M. D., & Smith, C. (2023). The Framework for Assessing Changes To Sea-Level (FACTS) v1.0, 16, 7461-7489. [10.5194/gmd-16-7461-2023](https://doi.org/10.5194/gmd-16-7461-2023)
 
 
-### DOIs
   * [ https://doi.org/10.1017/9781009157896.011 ](https://doi.org/10.1017/9781009157896.011)
   * [ https://doi.org/10.5194/gmd-16-7461-2023 ](https://doi.org/10.5194/gmd-16-7461-2023)
   * [ https://doi.org/10.5281/zenodo.5914709 ](https://doi.org/10.5281/zenodo.5914709)
@@ -1559,7 +1555,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-### Code Editor (JavaScript)
+[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/IPCC_AR6_SLP#code-editor-javascript-sample) More
 ```
 varimage=
 ee.Image('IPCC/AR6/SLP/ssp126_2030').select('total_values_quantile_0_5');

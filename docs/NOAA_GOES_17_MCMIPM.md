@@ -1,6 +1,6 @@
  
 #  GOES-17 MCMIPM Series ABI Level 2 Cloud and Moisture Imagery Full Disk 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GOES/17/MCMIPM](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GOES_17_MCMIPM_sample.png) 
 
 Dataset Availability
@@ -17,12 +17,13 @@ Cadence
 
 Tags
      [abi](https://developers.google.com/earth-engine/datasets/tags/abi) [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [goes](https://developers.google.com/earth-engine/datasets/tags/goes) [goes-17](https://developers.google.com/earth-engine/datasets/tags/goes-17) [goes-s](https://developers.google.com/earth-engine/datasets/tags/goes-s) [mcmip](https://developers.google.com/earth-engine/datasets/tags/mcmip) [nesdis](https://developers.google.com/earth-engine/datasets/tags/nesdis) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [ospo](https://developers.google.com/earth-engine/datasets/tags/ospo) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPM#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPM#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPM#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPM#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPM#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPM#dois) More
+#### Description
 The Cloud and Moisture Imagery products are all at 2km resolution. Bands 1-6 are reflective. The dimensionless "reflectance factor" quantity is normalized by the solar zenith angle. These bands support the characterization of clouds, vegetation, snow/ice, and aerosols. Bands 7-16 are emissive. The brightness temperature at the Top-Of-Atmosphere (TOA) is measured in Kelvin. These bands support the characterization of the surface, clouds, water vapor, ozone, volcanic ash, and dust based on emissive properties.
 The locations of domains 1 and 2 change over time.
 [README](https://www.ncei.noaa.gov/products/satellite/goes-r-series)
 Formerly known as "GOES West." Satellite is in storage.
 NOAA's Office of Satellite and Product Operations has a [General Satellite Messages](https://www.ospo.noaa.gov/Operations/messages.html) channel with status updates.
+### Bands
 **Pixel Size** 2000 meters 
 **Bands**
 Name | Units | Min | Max | Wavelength | Description  
@@ -187,6 +188,7 @@ Value | Color | Description
 2 | #0000ff | Out of range pixels  
 3 | #00ffff | No value pixels  
 4 | #ffff00 | Focal plane temperature threshold exceeded  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -222,20 +224,23 @@ CMI_C15_offset | DOUBLE | Offset to add to scaled CMI_C15 values
 CMI_C15_scale | DOUBLE | Scale to multiply with raw CMI_C15 values  
 CMI_C16_offset | DOUBLE | Offset to add to scaled CMI_C16 values  
 CMI_C16_scale | DOUBLE | Scale to multiply with raw CMI_C16 values  
+### Terms of Use
 **Terms of Use**
 NOAA data, information, and products, regardless of the method of delivery, are not subject to copyright and carry no restrictions on their subsequent use by the public. Once obtained, they may be put to any lawful use.
+### Citations
 Citations:
   * Bah, Gunshor, Schmit, Generation of GOES-16 True Color Imagery without a Green Band, 2018. [doi:10.1029/2018EA000379](https://doi.org/10.1029/2018EA000379)
   * Product User Guide (PUG) Volume 5, [L2+ Products](https://www.goes-r.gov/products/docs/PUG-L2+-vol5.pdf).
   * Schmit, T., Griffith, P., et al, (2016), A closer look at the ABI on the GOES-R series, Bull. Amer. Meteor. Soc., 98(4), 681-698. [doi:10.1175/BAMS-D-15-00230.1](https://doi.org/10.1175/BAMS-D-15-00230.1)
 
 
+### DOIs
   * [ https://doi.org/10.1175/BAMS-D-15-00230.1 ](https://doi.org/10.1175/BAMS-D-15-00230.1)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_MCMIPM#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Demonstrates displaying GOES-17 Mesoscale images.
 // Band names.

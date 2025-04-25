@@ -1,6 +1,6 @@
  
 #  US NED Landforms 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![CSP/ERGo/1_0/US/landforms](https://developers.google.com/earth-engine/datasets/images/CSP/CSP_ERGo_1_0_US_landforms_sample.png) 
 
 Dataset Availability

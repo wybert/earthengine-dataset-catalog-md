@@ -1,6 +1,6 @@
  
 #  Landsat Image Mosaic of Antarctica (LIMA) - Processed Landsat Scenes (16 bit) Metadata 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/LIMA/SR_METADATA](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_LIMA_SR_METADATA_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  MODIS Terra Daily NDWI 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/MOD09GA_006_NDWI](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MOD09GA_006_NDWI_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  MERIT DEM: Multi-Error-Removed Improved-Terrain DEM 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MERIT/DEM/v1_0_3](https://developers.google.com/earth-engine/datasets/images/MERIT/MERIT_DEM_v1_0_3_sample.png) 
 
 Dataset Availability

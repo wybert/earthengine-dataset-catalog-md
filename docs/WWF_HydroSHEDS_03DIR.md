@@ -1,6 +1,6 @@
  
 #  WWF HydroSHEDS Drainage Direction, 3 Arc-Seconds 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![WWF/HydroSHEDS/03DIR](https://developers.google.com/earth-engine/datasets/images/WWF/WWF_HydroSHEDS_03DIR_sample.png) 
 
 Dataset Availability

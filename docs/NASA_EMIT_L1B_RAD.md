@@ -1,6 +1,6 @@
  
 #  EMIT L1B At-Sensor Calibrated Radiance and Geolocation Data 60 m 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/EMIT/L1B/RAD](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_EMIT_L1B_RAD_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  SPL3SMP_E.005 SMAP L3 Radiometer Global Daily 9 km Soil Moisture 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/SMAP/SPL3SMP_E/005](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_SMAP_SPL3SMP_E_005_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  2000 Greenland Mosaic - Greenland Ice Mapping Project (GIMP) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OSU/GIMP/2000_IMAGERY_MOSAIC](https://developers.google.com/earth-engine/datasets/images/OSU/OSU_GIMP_2000_IMAGERY_MOSAIC_sample.png) 
 
 Dataset Availability

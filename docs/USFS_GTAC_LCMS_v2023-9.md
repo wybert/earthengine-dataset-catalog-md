@@ -1,6 +1,6 @@
  
 #  USFS Landscape Change Monitoring System v2023.9 (CONUS and OCONUS) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USFS/GTAC/LCMS/v2023-9](https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_LCMS_v2023-9_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [change-detection](https://developers.google.com/earth-engine/datasets/tags/change-detection) [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [gtac](https://developers.google.com/earth-engine/datasets/tags/gtac) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [landuse](https://developers.google.com/earth-engine/datasets/tags/landuse) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel) [time-series](https://developers.google.com/earth-engine/datasets/tags/time-series) [usda](https://developers.google.com/earth-engine/datasets/tags/usda) [usfs](https://developers.google.com/earth-engine/datasets/tags/usfs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9#dois) More
+#### Description
 This product is part of the Landscape Change Monitoring System (LCMS) data suite. It shows LCMS-modeled change, land cover, and/or land use classes for each year that covers the Conterminous United States (CONUS) and areas outside the CONUS (OCONUS) that include Southeastern Alaska (SEAK), Puerto Rico-US Virgin Islands (PRUSVI), and Hawaii (HI). 
 LCMS is a remote sensing-based system for mapping and monitoring landscape change across the United States. Its objective is to develop a consistent approach using the latest technology and advancements in change detection to produce a "best available" map of landscape change.
 Outputs include three annual products: change, land cover, and land use. Change relates specifically to vegetation cover and includes slow loss, fast loss (which also includes hydrologic changes such as inundation or desiccation), and gain. These values are predicted for each year of the Landsat time series and serve as the foundational products for LCMS. Land cover and land use maps depict life-form level land cover and broad-level land use for each year.
@@ -35,6 +35,7 @@ Random Forests models (Breiman, 2001) were trained using reference data from Tim
 
 
 Contact sm.fs.lcms@usda.gov with any questions or specific data requests.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Description  
@@ -130,11 +131,13 @@ Value | Color | Description
 5 | #a1a1a1 | Other  
 6 | #c2b34a | Rangeland or Pasture  
 7 | #1b1716 | Non-Processing Area Mask  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 study_area | STRING | LCMS currently covers the conterminous United States, Southeastern Alaska, Puerto Rico-US Virgin Islands, and Hawaii. This version contains outputs across conterminous United States, Southeastern Alaska, Puerto Rico-US Virgin Islands, and Hawaii. Possible values: 'CONUS, SEAK, PRUSVI, HI'  
 year | INT | Year of the product  
+### Terms of Use
 **Terms of Use**
 The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Natural hazards may or may not be depicted on the data and maps, and land users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly.
 These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation:
@@ -143,6 +146,7 @@ Note
   * <https://data.fs.usda.gov/geodata/rastergateway/LCMS/index.php> is the preferred link for citations
 
 
+### Citations
 Citations:
   * USDA Forest Service. 2024. USFS Landscape Change Monitoring System v2023.9 (Conterminous United States and Outer Conterminous United States). Salt Lake City, Utah.
   * Breiman, L., 2001. Random Forests. In Machine Learning. Springer, 45: 5-32. [doi:10.1023/A:1010933404324](https://doi.org/10.1023/A:1010933404324)
@@ -161,6 +165,7 @@ Citations:
   * Zhu, Z., and Woodcock, C. E., 2014. Continuous change detection and classification of land cover using all available Landsat data. In Remote Sensing of Environment. Science Direct, 144: 152-171. [doi:10.1016/j.rse.2014.01.011](https://doi.org/10.1016/j.rse.2014.01.011)
 
 
+### DOIs
   * [ https://doi.org/10.1016/j.rse.2010.07.008 ](https://doi.org/10.1016/j.rse.2010.07.008)
   * [ https://doi.org/10.1016/j.rse.2010.07.010 ](https://doi.org/10.1016/j.rse.2010.07.010)
   * [ https://doi.org/10.1016/j.rse.2011.10.028 ](https://doi.org/10.1016/j.rse.2011.10.028)
@@ -175,7 +180,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('USFS/GTAC/LCMS/v2023-9');
 varlcms=dataset.filterDate('2021','2022')// range: [1985, 2023]

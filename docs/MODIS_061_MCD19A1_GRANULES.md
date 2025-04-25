@@ -1,6 +1,6 @@
  
 #  MCD19A1.061: Land Surface BRF Daily L2G Global 500m and 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MCD19A1_GRANULES](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD19A1_GRANULES_sample.png) 
 
 Dataset Availability

@@ -1,6 +1,6 @@
  
 #  MERRA-2 M2T1NXLND: Land Surface Diagnostics V5.12.4 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GSFC/MERRA/lnd/2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GSFC_MERRA_lnd_2_sample.png) 
 
 Dataset Availability
@@ -17,9 +17,10 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [cryosphere](https://developers.google.com/earth-engine/datasets/tags/cryosphere) [evaporation](https://developers.google.com/earth-engine/datasets/tags/evaporation) [ice](https://developers.google.com/earth-engine/datasets/tags/ice) [merra](https://developers.google.com/earth-engine/datasets/tags/merra) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [soil](https://developers.google.com/earth-engine/datasets/tags/soil) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_lnd_2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_lnd_2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_lnd_2#terms-of-use) More
+#### Description
 M2T1NXLND (or tavg1_2d_lnd_Nx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of land surface diagnostics, such a baseflow flux, runoff, surface soil wetness, root zone soil wetness, water at surface layer, water at root zone layer, and soil temperature at six layers. The data field is time-stamped with the central time of an hour starting from 00:30 UTC, e.g.: 00:30, 01:30, ... , 23:30 UTC.
 MERRA-2 is the latest version of global atmospheric reanalysis for the satellite era produced by NASA Global Modeling and Assimilation Office (GMAO) using the Goddard Earth Observing System Model (GEOS) version 5.12.4. The dataset covers the period of 1980-present with the latency of ~3 weeks after the end of a month.
+### Bands
 **Pixel Size** 69375 meters 
 **Y Pixel Size** 55000 meters 
 **Bands**
@@ -76,11 +77,12 @@ Name | Units | Min | Max | Description
 `TWLT` | K |  231.303*  |  341.939*  | Surface temperature of wilted zone  
 `WCHANGE` | kg/m^2/s |  -0.001769*  |  0.012293*  | Rate of change of total land water  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 NASA promotes the full and open sharing of all data with research and applications communities, private industry, academia, and the general public.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_lnd_2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/GSFC/MERRA/lnd/2')
 .filter(ee.Filter.date('2022-02-01','2022-02-02'));

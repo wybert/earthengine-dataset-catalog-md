@@ -1,6 +1,6 @@
  
 #  HYCOM: Hybrid Coordinate Ocean Model, Water Temperature and Salinity 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![HYCOM/sea_temp_salinity](https://developers.google.com/earth-engine/datasets/images/HYCOM/HYCOM_sea_temp_salinity_sample.png) 
 
 Dataset Availability

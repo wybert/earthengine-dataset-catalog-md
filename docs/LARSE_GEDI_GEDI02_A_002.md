@@ -1,6 +1,6 @@
  
 #  GEDI L2A Vector Canopy Top Height (Version 2) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI02_A_002](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_A_002_sample.png) 
 
 Dataset Availability

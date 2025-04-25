@@ -1,6 +1,6 @@
  
 #  WWF HydroATLAS Basins Level 05 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WWF/HydroATLAS/v1/Basins/level05](https://developers.google.com/earth-engine/datasets/images/WWF/WWF_HydroATLAS_v1_Basins_level05_sample.png) 
 
 Dataset Availability

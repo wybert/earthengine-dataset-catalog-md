@@ -1,6 +1,6 @@
  
 #  ArcticDEM Mosaic 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![UMN/PGC/ArcticDEM/V3/2m_mosaic](https://developers.google.com/earth-engine/datasets/images/UMN/UMN_PGC_ArcticDEM_V3_2m_mosaic_sample.png) 
 
 Dataset Availability

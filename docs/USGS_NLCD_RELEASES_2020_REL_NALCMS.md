@@ -1,6 +1,6 @@
  
 #  Land Cover of North America at 30 meters, 2020 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2020_REL/NALCMS](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2020_REL_NALCMS_sample.png) 
 
 Dataset Availability

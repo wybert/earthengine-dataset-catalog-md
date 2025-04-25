@@ -1,6 +1,6 @@
  
 #  Cote d'Ivoire BNETD 2020 Land Cover Map 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![BNETD/land_cover/v1](https://developers.google.com/earth-engine/datasets/images/BNETD/BNETD_land_cover_v1_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [classification](https://developers.google.com/earth-engine/datasets/tags/classification) [deforestation](https://developers.google.com/earth-engine/datasets/tags/deforestation) [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1#citations) More
+#### Description
 The Cote d'Ivoire BNETD 2020 Land Cover Map was produced by the Ivorian Government through a national institution, the Center for Geographic Information and Digital from the National Study Office Techniques and Development (BNETD-CIGN), with technical and financial support from the European Union. The methodology used to produce the map was transparent, participatory and in line with international standards.
 To develop this map, a mosaic of satellite images (Sentinel 2) from 2020 was processed via Google Earth Engine and supplemented with data collected in the field, to train a supervised classification algorithm (Random Forest). Two field campaigns were conducted, from 10 November to 9 December 2022 and from 26 January to 13 February 2023, throughout the country. These missions involved 33 people from multiple partner organizations because the data collection methods and definitions of certain land use classes adopted by stakeholders may sometimes differ.
 As part of the EUDR due diligence process, geolocation data for plots of land producing EUDR-relevant products could be overlaid with 2020 forest cover data in order to assess the risk that the plot is located in an area that was forested before the 2020 cut-off date. To do this, forest cover data aligned with the FAO definition of forests and the 2020 cut-off date is required. The 2020 land cover map of Cote d'Ivoire meets these needs. Indeed, the classes in the land cover map can be combined to create a forest/non-forest map that is aligned with the FAO definition of forests.
@@ -28,6 +28,7 @@ Documentation:
   * [Methodology in French](https://africageoportal.maps.arcgis.com/sharing/rest/content/items/76dc18767b89472eb89e8aa54e08a6c9/data)
 
 
+### Bands
 **Pixel Size** 10 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -59,15 +60,17 @@ Value | Color | Description
 21 | #D20A02 | Human habitat, Infrastructure (Habitat humain, Infrastructures)  
 22 | #DBECEF | Rocky outcrop (Affleurement rocheux)  
 23 | #DCDCDC | Bare ground (Sol nu)  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * BNETD Land Cover Map 2020.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/BNETD_land_cover_v1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('BNETD/land_cover/v1/2020').select('classification');
 Map.setCenter(-5.4400,7.5500,7);

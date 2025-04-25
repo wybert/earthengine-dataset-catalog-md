@@ -1,6 +1,6 @@
  
 #  iSDAsoil Fertility Capability Classification 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ISDASOIL/Africa/v1/fcc](https://developers.google.com/earth-engine/datasets/images/ISDASOIL/ISDASOIL_Africa_v1_fcc_sample.png) 
 
 Dataset Availability

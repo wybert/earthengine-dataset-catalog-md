@@ -1,6 +1,6 @@
  
 #  Monitoring Trends in Burn Severity (MTBS) Burn Severity Images 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![USFS/GTAC/MTBS/annual_burn_severity_mosaics/v1](https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_MTBS_annual_burn_severity_mosaics_v1_sample.png) 
 
 Dataset Availability
