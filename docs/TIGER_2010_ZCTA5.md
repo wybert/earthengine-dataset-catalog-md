@@ -1,6 +1,6 @@
  
 #  TIGER: US Census 5-digit ZIP Code Tabulation Areas 2010 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![TIGER/2010/ZCTA5](https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2010_ZCTA5_sample.png) 
 
 Dataset Availability
@@ -16,11 +16,12 @@ Tags
      [census](https://developers.google.com/earth-engine/datasets/tags/census) [infrastructure-boundaries](https://developers.google.com/earth-engine/datasets/tags/infrastructure-boundaries) [table](https://developers.google.com/earth-engine/datasets/tags/table) [tiger](https://developers.google.com/earth-engine/datasets/tags/tiger) [us](https://developers.google.com/earth-engine/datasets/tags/us)
 zcta
 zip-code
-[Description](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5#citations) More
+#### Description
 ZIP Code tabulation areas (ZCTAs) are approximate area representations of U.S. Postal Service (USPS) 5-digit ZIP Codes. The Census Bureau defines ZCTAs by allocating each Census block that contains addresses to a single ZIP Code tabulation area, usually to the ZCTA that reflects the most frequently occurring ZIP Code for the addresses within that block. Blocks that do not contain addresses but that are completely surrounded by a single ZIP Code tabulation area (enclaves) are assigned to the surrounding ZCTA; those surrounded by multiple ZCTAs will be added to a single ZCTA based on the longest shared border.
 The Census Bureau identifies 5-digit ZIP Code tabulation areas using a 5- character numeric code that represents the most frequently occurring USPS ZIP Code within that ZCTA. This code may contain leading zeros.
 Data users should not use ZCTAs to identify the official USPS ZIP Code for mail delivery. The USPS makes periodic changes to ZIP Codes to support more efficient mail delivery. ZIP Codes that cover primarily nonresidential or post office box addresses may not have a corresponding ZCTA because the delineation process uses primarily residential addresses, resulting in a bias towards ZIP Codes used for city-style mail delivery.
 For full technical details on all TIGER 2010 products, see the [TIGER technical documentation](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2010/TGRSHP10SF1.pdf).
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -33,15 +34,17 @@ INTPTLAT10 | STRING | 2010 Census latitude of the internal point
 INTPTLON10 | STRING | 2010 Census longitude of the internal point  
 MTFCC10 | STRING | MAF/TIGER feature class code (Always "G6350".)  
 ZCTA5CE10 | STRING | 2010 Census 5-digit ZIP Code Tabulation Area code  
+### Terms of Use
 **Terms of Use**
 The U.S. Census Bureau offers some of its public data in machine-readable format via an Application Programming Interface (API). All of the content, documentation, code and related materials made available to you through the API are subject to [these terms and conditions](https://www.census.gov/data/developers/about/terms-of-service.html).
+### Citations
 Citations:
   * For the creation of any reports, publications, new data sets, derived products, or services resulting from the data set, users should [cite the US Census Bureau](https://www.census.gov/about/policies/citation.html).
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('TIGER/2010/ZCTA5');
 varvisParams={
@@ -64,7 +67,7 @@ Map.addLayer(dataset,{},'for Inspector',false);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('TIGER/2010/ZCTA5_FeatureView');
 varvisParams={

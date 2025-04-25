@@ -1,6 +1,6 @@
  
 #  Forest proximate people (FPP) 1.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![FAO/SOFO/1/FPP](https://developers.google.com/earth-engine/datasets/images/FAO/FAO_SOFO_1_FPP_sample.png) 
 
 Dataset Availability

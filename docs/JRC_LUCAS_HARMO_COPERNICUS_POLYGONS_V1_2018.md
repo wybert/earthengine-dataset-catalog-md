@@ -1,6 +1,6 @@
  
 #  LUCAS Copernicus (Polygons with attributes, 2018) V1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JRC/LUCAS_HARMO/COPERNICUS_POLYGONS/V1/2018](https://developers.google.com/earth-engine/datasets/images/JRC/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018_sample.png) 
 
 Dataset Availability
@@ -14,11 +14,12 @@ Earth Engine Snippet
 
 Tags
      [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [jrc](https://developers.google.com/earth-engine/datasets/tags/jrc) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse](https://developers.google.com/earth-engine/datasets/tags/landuse) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [lucas](https://developers.google.com/earth-engine/datasets/tags/lucas) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018#citations) More
+#### Description
 The [Land Use/Cover Area frame Survey (LUCAS)](https://ec.europa.eu/eurostat/web/lucas) in the European Union (EU) was set up to provide statistical information. It represents a triennial in-situ landcover and land-use data-collection exercise that extends over the whole of the EU's territory. LUCAS collects information on land cover and land use, agro-environmental variables, soil, and grassland. The surveys also provide spatial information to analyse the mutual influences between agriculture, environment, and countryside, such as irrigation and land management.
 The dataset presented here is the LUCAS Copernicus module. It was set set up in 2018 to provide Earth Observation relevant data for the first time in LUCAS history. The dataset consist of 63,287 polygons of various sizes and shapes with consistent land cover, making the ideal tool for polygon-based extraction from remote sensing data. The harmonization process has improved the land cover legend to LUCAS Level-3, and has joined, wherever deemed appropriate, the attribute data from the 2018 LUCAS survey, augmenting the possibilities for data extraction to the fullest potential of the LUCAS collected variables.
 The text "C1 (Instructions)" in the table schema descriptions refers to [this document](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/LUCAS/LUCAS_harmonised/3_supporting/LUCAS2018-C1-Instructions.pdf).
 See also [the LUCAS points dataset](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_THLOC_V1).
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -463,15 +464,17 @@ lucas_core_intersect | STRING | Whether the LUCAS theoretical point location fal
 Source: Added by harmonization process  
 th_lat | DOUBLE | Theoretical point latitude.  
 th_lon | DOUBLE | Theoretical point latitude.  
+### Terms of Use
 **Terms of Use**
 Licensed under the Creative Commons Attribution 4.0 International License.
+### Citations
 Citations:
   * d'Andrimont, R., Verhegghen, A., Meroni, M., Lemoine, G., Strobl, P., Eiselt, B., Yordanov, M., Martinez-Sanchez, L. and van der Velde, M., 2020. LUCAS Copernicus 2018: Earth Observation relevant in-situ data on land cover throughout the European Union. Earth System Science Data Discussions, 2020, pp.1-19. [doi:10.5194/essd-13-1119-2021](https://doi.org/10.5194/essd-13-1119-2021)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection(
 'JRC/LUCAS_HARMO/COPERNICUS_POLYGONS/V1/2018');
@@ -493,7 +496,7 @@ Map.setCenter(19.514,51.82,8);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JRC_LUCAS_HARMO_COPERNICUS_POLYGONS_V1_2018#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('JRC/LUCAS_HARMO/COPERNICUS_POLYGONS/V1/2018_FeatureView');
 varvisParams={

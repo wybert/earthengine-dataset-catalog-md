@@ -1,10 +1,10 @@
  
 #  GEOS-CF rpl tavg1hr v1: Goddard Earth Observing System Composition Forecast 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GEOS-CF/v1/rpl/tavg1hr](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GEOS-CF_v1_rpl_tavg1hr_sample.png) 
 
 Dataset Availability
-    2018-01-01T00:00:00Z–2025-04-20T11:00:00Z 
+    2018-01-01T00:00:00Z–2025-04-23T11:00:00Z 
 
 Dataset Provider
      [ NASA / GMAO ](https://gmao.gsfc.nasa.gov/weather_prediction/GEOS-CF/) 
@@ -14,11 +14,12 @@ Earth Engine Snippet
 
 Tags
      [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [composition](https://developers.google.com/earth-engine/datasets/tags/composition) [forecast](https://developers.google.com/earth-engine/datasets/tags/forecast) [geos](https://developers.google.com/earth-engine/datasets/tags/geos) [gmao](https://developers.google.com/earth-engine/datasets/tags/gmao) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_tavg1hr#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_tavg1hr#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_tavg1hr#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_tavg1hr#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_tavg1hr#dois) More
+#### Description
 This dataset contains meteorological replay (rpl) of time-average one hour data (tavg1hr). It is built by merging the original GEOS-CF collections chm_tavg_1hr_g1440x721_v1, met_tavg_1hr_g1440x721_x1, and xgc_tavg_1hr_g1440x721_x1. The Goddard Earth Observing System Composition Forecast (GEOS-CF) system is a high-resolution (0.25°) global constituent prediction system from NASA's [Global Modeling and Assimilation Office(GMAO)](https://gmao.gsfc.nasa.gov/).
 GEOS-CF offers a new tool for atmospheric chemistry research, with the goal to supplement NASA's broad range of space-based and in-situ observations. GEOS-CF expands on the GEOS weather and aerosol modeling system by introducing the [GEOS-Chem](http://wiki.seas.harvard.edu/geos-chem/) chemistry module to provide hindcasts and 5-days forecasts of atmospheric constituents including ozone (O3), carbon monoxide (CO), nitrogen dioxide (NO2), sulfur dioxide (SO2), and fine particulate matter (PM2.5). The chemistry module integrated in GEOS-CF is identical to the offline GEOS-Chem model and readily benefits from the innovations provided by the GEOS-Chem community.
 Evaluation of GEOS-CF against satellite, ozonesonde, and surface observations for years 2018–2019 shows realistic simulated concentrations of O3, NO2, and CO, with normalized mean biases of −0.1 to 0.3, normalized root mean square errors between 0.1–0.4, and correlations between 0.3–0.8. Comparisons against surface observations highlight the successful representation of air pollutants in many regions of the world and during all seasons, yet also highlight current limitations, such as a global high bias in SO2 and an overprediction of summertime O3 over the Southeast United States.
 GEOS-CF v1.0 generally overestimates aerosols by 20%–50% due to known issues in GEOS-Chem v12.0.1 that have been addressed in later versions. The 5-days forecasts have skill scores comparable to the 1-day hindcast. Model skills can be improved significantly by applying a bias-correction to the surface model output using a machine-learning approach.
+### Bands
 **Pixel Size** 27750 meters 
 **Bands**
 Name | Units | Description  
@@ -26,27 +27,27 @@ Name | Units | Description
 `ACET` | Mol fraction | Acetone (CH3C(O)CH3, MW = 58.08 g mol-1) volume mixing ratio dry air  
 `ALD2` | Mol fraction | Acetaldehyde (CH3CHO, MW = 44.05 g mol-1) volume mixing ratio dry air  
 `ALK4` | Mol fraction | Lumped >= C4 Alkanes (MW = 58.12 g mol-1) volume mixing ratio dry air  
-`AOD550_BC` | Black carbon optical depth at 550nm  
-`AOD550_CLOUD` | Cloud optical depth  
-`AOD550_DST1` | Dust bin1 optical depth at 550nm  
-`AOD550_DST2` | Dust bin2 optical depth at 550nm  
-`AOD550_DST3` | Dust bin3 optical depth at 550nm  
-`AOD550_DST4` | Dust bin4 optical depth at 550nm  
-`AOD550_DST5` | Dust bin5 optical depth at 550nm  
-`AOD550_DST6` | Dust bin6 optical depth at 550nm  
-`AOD550_DST7` | Dust bin7 optical depth at 550nm  
-`AOD550_DUST` | Dust optical depth at 550nm  
-`AOD550_OC` | Organic carbon optical depth at 550nm  
-`AOD550_SALA` | Accumulation mode sea salt optical depth at 550nm  
-`AOD550_SALC` | Coarse mode sea salt optical depth at 550nm  
-`AOD550_SULFATE` | Sulfate optical depth at 550nm  
+`AOD550_BC` |  | Black carbon optical depth at 550nm  
+`AOD550_CLOUD` |  | Cloud optical depth  
+`AOD550_DST1` |  | Dust bin1 optical depth at 550nm  
+`AOD550_DST2` |  | Dust bin2 optical depth at 550nm  
+`AOD550_DST3` |  | Dust bin3 optical depth at 550nm  
+`AOD550_DST4` |  | Dust bin4 optical depth at 550nm  
+`AOD550_DST5` |  | Dust bin5 optical depth at 550nm  
+`AOD550_DST6` |  | Dust bin6 optical depth at 550nm  
+`AOD550_DST7` |  | Dust bin7 optical depth at 550nm  
+`AOD550_DUST` |  | Dust optical depth at 550nm  
+`AOD550_OC` |  | Organic carbon optical depth at 550nm  
+`AOD550_SALA` |  | Accumulation mode sea salt optical depth at 550nm  
+`AOD550_SALC` |  | Coarse mode sea salt optical depth at 550nm  
+`AOD550_SULFATE` |  | Sulfate optical depth at 550nm  
 `BCPI` | Mol fraction | Hydrophilic black carbon aerosol (MW = 12.01 g mol-1) volume mixing ratio dry air  
 `BCPO` | Mol fraction | Hydrophobic black carbon aerosol (MW = 12.01 g mol-1) volume mixing ratio dry air  
 `BENZ` | Mol fraction | Benzene (C6H6, MW = 78.11 g mol-1) volume mixing ratio dry air  
 `C2H6` | Mol fraction | Ethane (C2H6, MW = 30.07 g mol-1) volume mixing ratio dry air  
 `C3H8` | Mol fraction | Propane (C3H8, MW = 44.10 g mol-1) volume mixing ratio dry air  
 `CH4` | Mol fraction | Methane (CH4, MW = 16.00 g mol-1) volume mixing ratio dry air  
-`CLDTT` | Total cloud area fraction  
+`CLDTT` |  | Total cloud area fraction  
 `CO` | Mol fraction | Carbon monoxide (CO, MW = 28.00 g mol-1) volume mixing ratio dry air  
 `DRYDEPFLX_BCPI` | molec cm-2 s-1 | Hydrophilic black carbon aerosol (MW = 12.01 g mol-1) dry deposition flux  
 `DRYDEPFLX_BCPO` | molec cm-2 s-1 | Hydrophobic black carbon aerosol (MW = 12.01 g mol-1) dry deposition flux  
@@ -105,7 +106,7 @@ Name | Units | Description
 `Q10M` | Mass fraction | 10-meter specific humidity  
 `Q2M` | Mass fraction | 2-meter specific humidity  
 `RCHO` | Mol fraction | Lumped aldehyde >= C3 (CH3CH2CHO, MW = 58.00 g mol-1) volume mixing ratio dry air  
-`RH` | Relative humidity after moist  
+`RH` |  | Relative humidity after moist  
 `SALA` | Mol fraction | Fine (0.01-0.05 microns) sea salt aerosol (MW = 31.40 g mol-1) volume mixing ratio dry air  
 `SALC` | Mol fraction | Coarse (0.5-8 microns) sea salt aerosol (MW = 31.40 g mol-1) volume mixing ratio dry air  
 `SLP` | Pa | Sea level pressure  
@@ -159,18 +160,21 @@ Name | Units | Description
 `XYLE` | Mol fraction | Xylene (C8H10, MW = 106.16 g mol-1) volume mixing ratio dry air  
 `ZL` | m | Mid layer heights  
 `ZPBL` | m | Planetary boundary layer height  
+### Terms of Use
 **Terms of Use**
 Unless otherwise noted, all NASA-produced data may be used for any purpose without prior permission. For more information and exceptions visit the [NASA Data & Information Policy page](https://earthdata.nasa.gov/collaborate/open-data-services-and-software/data-information-policy).
+### Citations
 Citations:
   * Keller, C. A., Knowland, K. E., Duncan, B. N., Liu, J., Anderson, D. C., Das, S., ... & Pawson, S. (2021). Description of the NASA GEOS composition forecast modeling system GEOS-CF v1. 0. Journal of Advances in Modeling Earth Systems, 13(4), e2020MS002413. [doi:10.1029/2020MS002413](https://doi.org/10.1029/2020MS002413)
 
 
+### DOIs
   * [ https://doi.org/10.1029/2020MS002413 ](https://doi.org/10.1029/2020MS002413)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_tavg1hr#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varimageVisParamNO2={
 'bands':['NO2'],
@@ -195,7 +199,7 @@ Map.addLayer(NO2,imageVisParamNO2,'NO2',true,1);
 [ GEOS-CF rpl tavg1hr v1: Goddard Earth Observing System Composition Forecast ](https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_rpl_tavg1hr)
 This dataset contains meteorological replay (rpl) of time-average one hour data (tavg1hr). It is built by merging the original GEOS-CF collections chm_tavg_1hr_g1440x721_v1, met_tavg_1hr_g1440x721_x1, and xgc_tavg_1hr_g1440x721_x1. The Goddard Earth Observing System Composition Forecast (GEOS-CF) system is a high-resolution (0.25°) global constituent prediction system from NASA's Global Modeling and Assimilation Office(GMAO). GEOS-CF …
 NASA/GEOS-CF/v1/rpl/tavg1hr, atmosphere,composition,forecast,geos,gmao,nasa 
-2018-01-01T00:00:00Z/2025-04-20T11:00:00Z
+2018-01-01T00:00:00Z/2025-04-23T11:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

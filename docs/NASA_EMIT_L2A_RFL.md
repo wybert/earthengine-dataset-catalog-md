@@ -1,10 +1,10 @@
  
 #  EMIT L2A Estimated Surface Reflectance and Uncertainty and Masks 60 m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/EMIT/L2A/RFL](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_EMIT_L2A_RFL_sample.png) 
 
 Dataset Availability
-    2022-08-09T00:00:00Z–2025-04-20T10:48:03Z 
+    2022-08-09T00:00:00Z–2025-04-21T17:48:43Z 
 
 Dataset Provider
      [ NASA Jet Propulsion Laboratory ](https://earth.jpl.nasa.gov/emit/data/data-products/) 
@@ -17,10 +17,11 @@ Cadence
 
 Tags
      [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [emit](https://developers.google.com/earth-engine/datasets/tags/emit) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL#dois) More
+#### Description
 The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging spectrometer adapted for installation on the International Space Station (ISS). EMIT measures radiance between 380 and 2500 nanometers, with an approximate 7 nm bandpass. Data are collected in a swath that is approximately 75 km wide at the equator, with an approximate ground sampling distance of 60 m. See the provider's [NASA EMIT Overview](https://lpdaac.usgs.gov/documents/1695/EMIT_L2B_GHG_User_Guide_V1.pdf) for more details.
 EMIT was a particularly useful tool for mapping out greenhouse gases, including methane, carbon dioxide, and water vapor. This is consistent with previous findings from airborne data, but global nature, revisit frequency and wide swath of EMIT provided an unprecedented opportunity to investigate greenhouse gas retrievals.
 The Level 2A data product contains estimated surface reflectance, uncertainty, and mask data. In addition, the geolocation of all pixel centers is included as well as the calculation of observation geometry and illumination angles on a pixel-by-pixel basis.
+### Bands
 **Pixel Size** 60 meters 
 **Bands**
 Name | Units | Description  
@@ -596,14 +597,15 @@ Name | Units | Description
 `reflectance_uncertainity_283` | Standard deviation | Reflectance uncertainty observed for the corresponding reflectance_fwhm and reflectance_wavelengths settings at index 283  
 `reflectance_uncertainity_284` | Standard deviation | Reflectance uncertainty observed for the corresponding reflectance_fwhm and reflectance_wavelengths settings at index 284  
 `elev` | m | Total elevation  
-`cloud_flag` | Cloud Coverage  
-`cirrus_flag` | Dense Cirrus clouds  
-`water_flag` | Water bodies  
-`spacecraft_flag` | Spacecraft or space station components that intersect the EMIT field of view  
-`dilated_cloud_flag` | Cloud coverage + buffer  
-`AOD550` | Aerosol Optical Depth at 550nm estimates  
+`cloud_flag` |  | Cloud Coverage  
+`cirrus_flag` |  | Dense Cirrus clouds  
+`water_flag` |  | Water bodies  
+`spacecraft_flag` |  | Spacecraft or space station components that intersect the EMIT field of view  
+`dilated_cloud_flag` |  | Cloud coverage + buffer  
+`AOD550` |  | Aerosol Optical Depth at 550nm estimates  
 `H2O` | g/cm^2 | Water Vapor estimates  
-`aggregate_flag` | Aggregated binary flag of bands, included flags are cloud, cirrus, water, spacecraft, and dilated cloud  
+`aggregate_flag` |  | Aggregated binary flag of bands, included flags are cloud, cirrus, water, spacecraft, and dilated cloud  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -614,18 +616,21 @@ SOLAR_AZIMUTH | STRING | Solar Azimuth
 SOLAR_ZENITH | STRING | Solar Zenith  
 reflectance_fwhm | DOUBLE_LIST | An array of length 285, where the value at index i is the full width at half maximum setting for reflectance band i.  
 reflectance_wavelengths | DOUBLE_LIST | An array of length 285, where the value at index i is the wavelength center setting for reflectance band i.  
+### Terms of Use
 **Terms of Use**
 NASA EMIT data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Green, R. (2022). EMIT L2A Estimated Surface Reflectance and Uncertainty and Masks 60 m V001 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2024-06-14 from <https://doi.org/10.5067/EMIT/EMITL2ARFL.001>
 
 
+### DOIs
   * [ https://doi.org/10.5067/EMIT/EMITL2ARFL.001 ](https://doi.org/10.5067/EMIT/EMITL2ARFL.001)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/EMIT/L2A/RFL')
 .filter(ee.Filter.date('2022-01-01','2023-12-01'));
@@ -642,7 +647,7 @@ dataset,emitRadVis,
 [ EMIT L2A Estimated Surface Reflectance and Uncertainty and Masks 60 m ](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL)
 The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging spectrometer adapted for installation on the International Space Station (ISS). EMIT measures radiance between 380 and 2500 nanometers, …
 NASA/EMIT/L2A/RFL, daily,emit,nasa,reflectance,satellite-imagery 
-2022-08-09T00:00:00Z/2025-04-20T10:48:03Z
+2022-08-09T00:00:00Z/2025-04-21T17:48:43Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

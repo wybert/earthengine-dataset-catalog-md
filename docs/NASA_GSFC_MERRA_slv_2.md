@@ -1,10 +1,10 @@
  
 #  MERRA-2 M2T1NXSLV: Single-Level Diagnostics V5.12.4 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GSFC/MERRA/slv/2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GSFC_MERRA_slv_2_sample.png) 
 
 Dataset Availability
-    1980-01-01T00:00:00Z–2025-03-01T23:00:00Z 
+    1980-01-01T00:00:00Z–2025-04-01T23:00:00Z 
 
 Dataset Provider
      [ NASA/MERRA ](https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/) 
@@ -20,9 +20,10 @@ Tags
 condensation
 omega
 slv
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_slv_2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_slv_2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_slv_2#terms-of-use) More
+#### Description
 M2T1NXSLV (or tavg1_2d_slv_Nx) is an hourly time-averaged 2-dimensional data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of meteorology diagnostics at popularly used vertical levels, such as air temperature at 2-meter (or at 10-meter, 850hPa, 500 hPa, 250hPa), wind components at 50-meter (or at 2-meter, 10-meter, 850 hPa, 500hPa, 250 hPa), sea level pressure, surface pressure, and total precipitable water vapor (or ice water, liquid water). The data field is time-stamped with the central time of an hour starting from 00:30 UTC, e.g.: 00:30, 01:30, ... , 23:30 UTC.
 MERRA-2 is the latest version of global atmospheric reanalysis for the satellite era produced by NASA Global Modeling and Assimilation Office (GMAO) using the Goddard Earth Observing System Model (GEOS) version 5.12.4. The dataset covers the period of 1980-present with the latency of ~3 weeks after the end of a month.
+### Bands
 **Pixel Size** 69375 meters 
 **Y Pixel Size** 55000 meters 
 **Bands**
@@ -75,11 +76,12 @@ Name | Units | Description
 `V50M` | m/s | Northward wind at 50 meters  
 `V850` | m/s | Northward wind at 850 hPa  
 `ZLCL` | m | Lifting condensation level  
+### Terms of Use
 **Terms of Use**
 NASA promotes the full and open sharing of all data with research and applications communities, private industry, academia, and the general public.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_slv_2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/GSFC/MERRA/slv/2')
 .filter(ee.Filter.date('2022-02-01','2022-02-02'));
@@ -96,7 +98,7 @@ Map.addLayer(surface_pressure,surface_pressure_vis);
 [ MERRA-2 M2T1NXSLV: Single-Level Diagnostics V5.12.4 ](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_slv_2)
 M2T1NXSLV (or tavg1_2d_slv_Nx) is an hourly time-averaged 2-dimensional data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of meteorology diagnostics at popularly used vertical levels, such as air temperature at 2-meter (or at 10-meter, 850hPa, 500 hPa, 250hPa), wind components at 50-meter (or …
 NASA/GSFC/MERRA/slv/2, atmosphere,climate,humidity,merra,nasa,pressure,temperature,vapor,water,water-vapor,wind 
-1980-01-01T00:00:00Z/2025-03-01T23:00:00Z
+1980-01-01T00:00:00Z/2025-04-01T23:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

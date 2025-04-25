@@ -1,6 +1,6 @@
  
 #  OpenLandMap Long-term Land Surface Temperature Daytime Monthly Median 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/CLM/CLM_LST_MOD11A2-DAY_M/v01](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [envirometrix](https://developers.google.com/earth-engine/datasets/tags/envirometrix) [lst](https://developers.google.com/earth-engine/datasets/tags/lst) [mod11a2](https://developers.google.com/earth-engine/datasets/tags/mod11a2) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [opengeohub](https://developers.google.com/earth-engine/datasets/tags/opengeohub) [openlandmap](https://developers.google.com/earth-engine/datasets/tags/openlandmap)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01#dois) More
+#### Description
 Land Surface Temperature daytime monthly mean value 2000-2017.
 Derived using the [data.table package and quantile function in R](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/MOD11A2). For more info about the MODIS LST product see [this page](https://lpdaac.usgs.gov/products/mod11a2v006/). Antarctica is not included.
 To access and visualize maps outside of Earth Engine, use [this page](https://opengeohub.org/about-openlandmap).
@@ -23,6 +23,7 @@ If you discover a bug, artifact or inconsistency in the LandGIS maps or if you h
   * [General questions and comments](https://disqus.com/home/forums/landgis/)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
@@ -40,18 +41,21 @@ Name | Units | Min | Max | Scale | Description
 `nov` | K |  11989*  |  16700*  | 0.02 | Long-term Land Surface Temperature daytime monthly mean, November  
 `dec` | K |  11989*  |  16700*  | 0.02 | Long-term Land Surface Temperature daytime monthly mean, December  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html)
+### Citations
 Citations:
   * Long-term MODIS LST day-time and night-time temperatures, sd and differences at 1 km based on the 2000-2017 time series [10.5281/zenodo.1420114](https://doi.org/10.5281/zenodo.1420114)
 
 
+### DOIs
   * [ https://doi.org/10.5281/zenodo.1420114 ](https://doi.org/10.5281/zenodo.1420114)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_M_v01#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('OpenLandMap/CLM/CLM_LST_MOD11A2-DAY_M/v01');
 varvisualization={

@@ -1,6 +1,6 @@
  
 #  GCOM-C/SGLI L3 Land Surface Temperature (V2) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/GCOM-C/L3/LAND/LST/V2](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_GCOM-C_L3_LAND_LST_V2_sample.png) 
 
 Dataset Availability
@@ -17,16 +17,17 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [g-portal](https://developers.google.com/earth-engine/datasets/tags/g-portal) [gcom](https://developers.google.com/earth-engine/datasets/tags/gcom) [gcom-c](https://developers.google.com/earth-engine/datasets/tags/gcom-c) [jaxa](https://developers.google.com/earth-engine/datasets/tags/jaxa) [land](https://developers.google.com/earth-engine/datasets/tags/land) [land-surface-temperature](https://developers.google.com/earth-engine/datasets/tags/land-surface-temperature) [lst](https://developers.google.com/earth-engine/datasets/tags/lst)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V2#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V2#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V2#citations) More
+#### Description
 This product is the temperature of terrestrial land surface.
 For data after 2021-11-28, see [the V3 dataset](https://developers.google.com/earth-engine/datasets/catalog/JAXA/GCOM-C/L3/LAND/LST/V3).
 GCOM-C conducts long-term and continuous global observation and data collection to elucidate the mechanism behind fluctuations in radiation budget and carbon cycle needed to make accurate projections regarding future temperature rise. At the same time, cooperating with research institutions having a climate numerical model, it contributes to reduction of errors in temperature rise prediction derived from the climate numerical model and improvement of accuracy of prediction of various environmental changes. SGLI mounted on GCOM-C is the succession sensor of the Global Imager (GLI) mounted on ADEOS-II (MIDORI II) and is the Imaging Radiometer which measures the radiation from near-ultraviolet to thermal infrared region (380 nm-12 um) in 19 channels. Global observation of once for approximately every two days is possible at mid-latitude near Japan by observation width at ground greater than 1,000 km. In addition, SGLI realizes high resolution than the similar global sensor and has a polarized observation function and a multi-angle observation function.
+### Bands
 **Pixel Size** 4638.3 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `LST_AVE` | K |  0*  |  65531*  | Temperature of land surface.  
-`LST_QA_flag` | LST QA  
+`LST_QA_flag` |  |  |  | LST QA  
 Bitmask for LST_QA_flag
   * Bits 0-1: Terrain type 
     * 0: water (land fraction = 0%)
@@ -36,6 +37,7 @@ Bitmask for LST_QA_flag
 
   
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -55,16 +57,18 @@ SATELLITE_DIRECTION | STRING | Satellite orbit direction
   
 LST_AVE_OFFSET | STRING | Offset  
 LST_AVE_SLOPE | STRING | Slope  
+### Terms of Use
 **Terms of Use**
 This dataset is free to use without any restrictions (including commercial use). Anyone wishing to publish analyzed results or value added data products should properly credit the original G-Portal data, e.g., "PR data by Japan Aerospace Exploration Agency". For value added data products, please indicate the credit of the original G-Portal data, e.g., "Original data for this value added data product was provided by Japan Aerospace Exploration Agency."
 See [G-Portal's terms of service (Article 7)](https://gportal.jaxa.jp/gpr/index/eula?lang=en) for additional information.
+### Citations
 Citations:
   * Moriyama, M. (May. 2020). GCOM-C1/SGLI Land Surface Temperature Product Algorithm Theoretical Basis Document (Version 2). Retrieved from <https://suzaku.eorc.jaxa.jp/GCOM_C/data/ATBD/ver2/V2ATBD_T4A_LST_Moriyama_r1.pdf>
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('JAXA/GCOM-C/L3/LAND/LST/V2')
 .filterDate('2020-01-01','2020-02-01')

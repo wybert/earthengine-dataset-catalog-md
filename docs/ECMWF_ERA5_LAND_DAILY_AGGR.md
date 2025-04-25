@@ -1,10 +1,10 @@
  
 #  ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ECMWF/ERA5_LAND/DAILY_AGGR](https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_ERA5_LAND_DAILY_AGGR_sample.png) 
 
 Dataset Availability
-    1950-01-02T00:00:00Z–2025-04-15T00:00:00Z 
+    1950-01-02T00:00:00Z–2025-04-17T00:00:00Z 
 
 Dataset Provider
      [ Daily Aggregates: Google and Copernicus Climate Data Store ](https://cds.climate.copernicus.eu/cdsapp) 
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [cds](https://developers.google.com/earth-engine/datasets/tags/cds) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [ecmwf](https://developers.google.com/earth-engine/datasets/tags/ecmwf) [era5-land](https://developers.google.com/earth-engine/datasets/tags/era5-land) [evaporation](https://developers.google.com/earth-engine/datasets/tags/evaporation) [heat](https://developers.google.com/earth-engine/datasets/tags/heat) [lakes](https://developers.google.com/earth-engine/datasets/tags/lakes) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [pressure](https://developers.google.com/earth-engine/datasets/tags/pressure) [radiation](https://developers.google.com/earth-engine/datasets/tags/radiation) [reanalysis](https://developers.google.com/earth-engine/datasets/tags/reanalysis) [runoff](https://developers.google.com/earth-engine/datasets/tags/runoff) [snow](https://developers.google.com/earth-engine/datasets/tags/snow) [soil-water](https://developers.google.com/earth-engine/datasets/tags/soil-water) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [wind](https://developers.google.com/earth-engine/datasets/tags/wind)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR#citations) More
+#### Description
 ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables over several decades at an enhanced resolution compared to ERA5. ERA5-Land has been produced by replaying the land component of the ECMWF ERA5 climate reanalysis. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using the laws of physics. Reanalysis produces data that goes several decades back in time, providing an accurate description of the climate of the past. This dataset includes all 50 variables as available on CDS.
 ERA5-Land data is available from 1950 to three months from real-time.
 Please consult [the ERA5-Land "Known Issues" section](https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation). In particular, note that three components of the total evapotranspiration have values swapped as follows:
@@ -32,6 +32,7 @@ Precipitation and other flow (accumulated) bands might occasionally have negativ
 This problem is due to how the GRIB format saves data: it simplifies or "packs" the data into smaller, less precise numbers, which can introduce errors. These errors get worse when the data varies a lot.
 Because of this, when we look at the data for a whole day to compute daily totals, sometimes the highest amount of rainfall recorded at one time can seem larger than the total rainfall measured for the entire day.
 To learn more, Please see: ["Why are there sometimes small negative precipitation accumulations"](https://confluence.ecmwf.int/display/UDOC/Why+are+there+sometimes+small+negative+precipitation+accumulations+-+ecCodes+GRIB+FAQ)
+### Bands
 **Pixel Size** 11132 meters 
 **Bands**
 Name | Units | Description  
@@ -48,10 +49,10 @@ Name | Units | Description
 `lake_ice_temperature` | K | The temperature of the uppermost surface of ice on inland water bodies (lakes, reservoirs, rivers) and coastal waters. The ECMWF Integrated Forecasting System represents the formation and melting of ice on lakes. A single ice layer is represented.  
 `lake_mix_layer_depth` | m | The thickness of the upper most layer of an inland water body (lake, reservoirs, and rivers) or coastal waters that is well mixed and has a near constant temperature with depth (uniform distribution of temperature). The ECMWF Integrated Forecasting System represents inland water bodies with two layers in the vertical, the mixed layer above and the thermocline below. Thermoclines upper boundary is located at the mixed layer bottom, and the lower boundary at the lake bottom. Mixing within the mixed layer can occur when the density of the surface (and near-surface) water is greater than that of the water below. Mixing can also occur through the action of wind on the surface of the lake.  
 `lake_mix_layer_temperature` | K | The temperature of the upper most layer of inland water bodies (lakes, reservoirs and rivers) or coastal waters) that is well mixed. The ECMWF Integrated Forecasting System represents inland water bodies with two layers in the vertical, the mixed layer above and the thermocline below. Thermoclines upper boundary is located at the mixed layer bottom, and the lower boundary at the lake bottom. Mixing within the mixed layer can occur when the density of the surface (and near-surface) water is greater than that of the water below. Mixing can also occur through the action of wind on the surface of the lake.  
-`lake_shape_factor` | This parameter describes the way that temperature changes with depth in the thermocline layer of inland water bodies (lakes, reservoirs and rivers) and coastal waters. It is used to calculate the lake bottom temperature and other lake-related parameters. The ECMWF Integrated Forecasting System represents inland and coastal water bodies with two layers in the vertical, the mixed layer above and the thermocline below where temperature changes with depth.  
+`lake_shape_factor` |  | This parameter describes the way that temperature changes with depth in the thermocline layer of inland water bodies (lakes, reservoirs and rivers) and coastal waters. It is used to calculate the lake bottom temperature and other lake-related parameters. The ECMWF Integrated Forecasting System represents inland and coastal water bodies with two layers in the vertical, the mixed layer above and the thermocline below where temperature changes with depth.  
 `lake_total_layer_temperature` | K | The mean temperature of total water column in inland water bodies (lakes, reservoirs and rivers) and coastal waters. The ECMWF Integrated Forecasting System represents inland water bodies with two layers in the vertical, the mixed layer above and the thermocline below where temperature changes with depth. This parameter is the mean over the two layers.  
-`snow_albedo` | It is defined as the fraction of solar (shortwave) radiation reflected by the snow, across the solar spectrum, for both direct and diffuse radiation. It is a measure of the reflectivity of the snow covered grid cells. Values vary between 0 and 1. Typically, snow and ice have high reflectivity with albedo values of 0.8 and above.  
-`snow_cover` | It represents the fraction (0-1) of the cell / grid-box occupied by snow (similar to the cloud cover fields of ERA5).  
+`snow_albedo` |  | It is defined as the fraction of solar (shortwave) radiation reflected by the snow, across the solar spectrum, for both direct and diffuse radiation. It is a measure of the reflectivity of the snow covered grid cells. Values vary between 0 and 1. Typically, snow and ice have high reflectivity with albedo values of 0.8 and above.  
+`snow_cover` |  | It represents the fraction (0-1) of the cell / grid-box occupied by snow (similar to the cloud cover fields of ERA5).  
 `snow_density` | kg/m^3 | Mass of snow per cubic meter in the snow layer. The ECMWF Integrated Forecast System (IFS) model represents snow as a single additional layer over the uppermost soil level. The snow may cover all or part of the grid box.  
 `snow_depth` | m | Instantaneous grib-box average of the snow thickness on the ground (excluding snow on canopy).  
 `snow_depth_water_equivalent` | m of water equivalent | Depth of snow from the snow-covered area of a grid box. Its units are meters of water equivalent, so it is the depth the water would have if the snow melted and was spread evenly over the whole grid box. The ECMWF Integrated Forecast System represents snow as a single additional layer over the uppermost soil level. The snow may cover all or part of the grid box.  
@@ -63,7 +64,7 @@ Name | Units | Description
 `volumetric_soil_water_layer_2` | Volume fraction | Volume of water in soil layer 2 (7 -28 cm) of the ECMWF Integrated Forecasting System.  
 `volumetric_soil_water_layer_3` | Volume fraction | Volume of water in soil layer 3 (28-100 cm) of the ECMWF Integrated Forecasting System.  
 `volumetric_soil_water_layer_4` | Volume fraction | Volume of water in soil layer 4 (100-289 cm) of the ECMWF Integrated Forecasting System.  
-`forecast_albedo` | Is a measure of the reflectivity of the Earth's surface. It is the fraction of solar (shortwave) radiation reflected by Earth's surface, across the solar spectrum, for both direct and diffuse radiation. Values are between 0 and 1. Typically, snow and ice have high reflectivity with albedo values of 0.8 and above, land has intermediate values between about 0.1 and 0.4 and the ocean has low values of 0.1 or less. Radiation from the Sun (solar, or shortwave, radiation) is partly reflected back to space by clouds and particles in the atmosphere (aerosols) and some of it is absorbed. The rest is incident on the Earth's surface, where some of it is reflected. The portion that is reflected by the Earth's surface depends on the albedo. In the ECMWF Integrated Forecasting System (IFS), a climatological background albedo (observed values averaged over a period of several years) is used, modified by the model over water, ice and snow. Albedo is often shown as a percentage (%).  
+`forecast_albedo` |  | Is a measure of the reflectivity of the Earth's surface. It is the fraction of solar (shortwave) radiation reflected by Earth's surface, across the solar spectrum, for both direct and diffuse radiation. Values are between 0 and 1. Typically, snow and ice have high reflectivity with albedo values of 0.8 and above, land has intermediate values between about 0.1 and 0.4 and the ocean has low values of 0.1 or less. Radiation from the Sun (solar, or shortwave, radiation) is partly reflected back to space by clouds and particles in the atmosphere (aerosols) and some of it is absorbed. The rest is incident on the Earth's surface, where some of it is reflected. The portion that is reflected by the Earth's surface depends on the albedo. In the ECMWF Integrated Forecasting System (IFS), a climatological background albedo (observed values averaged over a period of several years) is used, modified by the model over water, ice and snow. Albedo is often shown as a percentage (%).  
 `surface_latent_heat_flux_sum` | J/m^2 | Exchange of latent heat with the surface through turbulent diffusion. This variables is accumulated from the beginning of the forecast time to the end of the forecast step. By model convention, downward fluxes are positive.  
 `surface_net_solar_radiation_sum` | J/m^2 | Amount of solar radiation (also known as shortwave radiation) reaching the surface of the Earth (both direct and diffuse) minus the amount reflected by the Earth's surface (which is governed by the albedo). Radiation from the Sun (solar, or shortwave, radiation) is partly reflected back to space by clouds and particles in the atmosphere (aerosols) and some of it is absorbed. The rest is incident on the Earth's surface, where some of it is reflected. The difference between downward and reflected solar radiation is the surface net solar radiation. This variable is accumulated from the beginning of the forecast time to the end of the forecast step. The units are joules per square meter (J m-2). To convert to watts per square meter (W m-2), the accumulated values should be divided by the accumulation period expressed in seconds. The ECMWF convention for vertical fluxes is positive downwards.  
 `surface_net_thermal_radiation_sum` | J/m^2 | Net thermal radiation at the surface. Accumulated field from the beginning of the forecast time to the end of the forecast step. By model convention downward fluxes are positive.  
@@ -110,14 +111,14 @@ Name | Units | Description
 `lake_mix_layer_depth_max` | m | daily maximum lake_mix_layer_depth value  
 `lake_mix_layer_temperature_min` | K | daily minimum lake_mix_layer_temperature value  
 `lake_mix_layer_temperature_max` | K | daily maximum lake_mix_layer_temperature value  
-`lake_shape_factor_min` | daily minimum lake_shape_factor value  
-`lake_shape_factor_max` | daily maximum lake_shape_factor value  
+`lake_shape_factor_min` |  | daily minimum lake_shape_factor value  
+`lake_shape_factor_max` |  | daily maximum lake_shape_factor value  
 `lake_total_layer_temperature_min` | K | daily minimum lake_total_layer_temperature value  
 `lake_total_layer_temperature_max` | K | daily maximum lake_total_layer_temperature value  
-`snow_albedo_min` | daily minimum snow_albedo value  
-`snow_albedo_max` | daily maximum snow_albedo value  
-`snow_cover_min` | daily minimum snow_cover value  
-`snow_cover_max` | daily maximum snow_cover value  
+`snow_albedo_min` |  | daily minimum snow_albedo value  
+`snow_albedo_max` |  | daily maximum snow_albedo value  
+`snow_cover_min` |  | daily minimum snow_cover value  
+`snow_cover_max` |  | daily maximum snow_cover value  
 `snow_density_min` | kg/m^3 | daily minimum snow_density value  
 `snow_density_max` | kg/m^3 | daily maximum snow_density value  
 `snow_depth_min` | m | daily minimum snow_depth value  
@@ -140,8 +141,8 @@ Name | Units | Description
 `volumetric_soil_water_layer_3_max` | Volume fraction | daily maximum volumetric_soil_water_layer_3 value  
 `volumetric_soil_water_layer_4_min` | Volume fraction | daily minimum volumetric_soil_water_layer_4 value  
 `volumetric_soil_water_layer_4_max` | Volume fraction | daily maximum volumetric_soil_water_layer_4 value  
-`forecast_albedo_min` | daily minimum forecast_albedo value  
-`forecast_albedo_max` | daily maximum forecast_albedo value  
+`forecast_albedo_min` |  | daily minimum forecast_albedo value  
+`forecast_albedo_max` |  | daily maximum forecast_albedo value  
 `surface_latent_heat_flux_min` | J/m^2 | daily minimum surface_latent_heat_flux value  
 `surface_latent_heat_flux_max` | J/m^2 | daily maximum surface_latent_heat_flux value  
 `surface_net_solar_radiation_min` | J/m^2 | daily minimum surface_net_solar_radiation value  
@@ -186,12 +187,14 @@ Name | Units | Description
 `leaf_area_index_high_vegetation_max` | Area fraction | daily maximum leaf_area_index_high_vegetation value  
 `leaf_area_index_low_vegetation_min` | Area fraction | daily minimum leaf_area_index_low_vegetation value  
 `leaf_area_index_low_vegetation_max` | Area fraction | daily maximum leaf_area_index_low_vegetation value  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 day | INT | Calendar day  
 month | INT | Calendar month  
 year | INT | Calendar year  
+### Terms of Use
 **Terms of Use**
 Please acknowledge the use of ERA5-Land as stated in the [Copernicus C3S/CAMS License agreement](https://apps.ecmwf.int/datasets/licences/copernicus/):
   * 5.1.1 Where the Licensee communicates or distributes Copernicus Products to the public, the Licensee shall inform the recipients of the source by using the following or any similar notice: 'Generated using Copernicus Climate Change Service Information [Year]'.
@@ -199,13 +202,14 @@ Please acknowledge the use of ERA5-Land as stated in the [Copernicus C3S/CAMS Li
 
 
 Any such publication or distribution covered by clauses 5.1.1 and 5.1.2 shall state that neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus Information or Data it contains.
+### Citations
 Citations:
   * Muñoz Sabater, J., (2019): ERA5-Land monthly averaged data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (<date of access>), [doi:10.24381/cds.68d2bb30](https://doi.org/10.24381/cds.68d2bb30)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('ECMWF/ERA5_LAND/DAILY_AGGR').first();
 varvisualization={
@@ -226,7 +230,7 @@ dataset,visualization,'Air temperature (K) at 2m height',true,0.8);
 [ ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis ](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR)
 ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables over several decades at an enhanced resolution compared to ERA5. ERA5-Land has been produced by replaying the land component of the ECMWF ERA5 climate reanalysis. Reanalysis combines model data with observations from across the world …
 ECMWF/ERA5_LAND/DAILY_AGGR, cds,climate,copernicus,ecmwf,era5-land,evaporation,heat,lakes,precipitation,pressure,radiation,reanalysis,runoff,snow,soil-water,temperature,vegetation,wind 
-1950-01-02T00:00:00Z/2025-04-15T00:00:00Z
+1950-01-02T00:00:00Z/2025-04-17T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

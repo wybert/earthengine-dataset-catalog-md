@@ -1,6 +1,6 @@
  
 #  USGS Landsat 4 TM Collection 2 Tier 1 TOA Reflectance 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LT04/C02/T1_TOA](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT04_C02_T1_TOA_sample.png) 
 
 Dataset Availability
@@ -17,8 +17,9 @@ Revisit Interval
 
 Tags
      [global](https://developers.google.com/earth-engine/datasets/tags/global) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [toa](https://developers.google.com/earth-engine/datasets/tags/toa) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA#terms-of-use) More
+#### Description
 Landsat 4 TM Collection 2 Tier 1 calibrated top-of-atmosphere (TOA) reflectance. Calibration coefficients are extracted from the image metadata. See [Chander et al. (2009)](https://www.sciencedirect.com/science/article/pii/S0034425709000169) for details on the TOA computation.
+### Bands
 **Bands**
 Name | Pixel Size | Wavelength | Description  
 ---|---|---|---  
@@ -29,7 +30,7 @@ Name | Pixel Size | Wavelength | Description
 `B5` |  30 meters  | 1.55 - 1.75 μm | Shortwave infrared 1  
 `B6` |  30 meters  | 10.40 - 12.50 μm | Thermal Infrared 1. Resampled from 60m to 30m.  
 `B7` |  30 meters  | 2.08 - 2.35 μm | Shortwave infrared 2  
-`QA_PIXEL` |  30 meters  | Landsat Collection 2 TM/ETM QA Bitmask  
+`QA_PIXEL` |  30 meters  |  | Landsat Collection 2 TM/ETM QA Bitmask  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
     * 0: Image data
@@ -71,7 +72,7 @@ Bitmask for QA_PIXEL
   * Bits 14-15: Unused 
 
   
-`QA_RADSAT` |  30 meters  | Radiometric saturation QA  
+`QA_RADSAT` |  30 meters  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 
@@ -87,10 +88,11 @@ Bitmask for QA_RADSAT
     * 1: Detector does not have a value
 
   
-`SAA` |  30 meters  | Solar Azimuth Angle  
-`SZA` |  30 meters  | Solar Zenith Angle  
-`VAA` |  30 meters  | View Azimuth Angle  
-`VZA` |  30 meters  | View Zenith Angle  
+`SAA` |  30 meters  |  | Solar Azimuth Angle  
+`SZA` |  30 meters  |  | Solar Zenith Angle  
+`VAA` |  30 meters  |  | View Azimuth Angle  
+`VZA` |  30 meters  |  | View Zenith Angle  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -230,6 +232,7 @@ UTM_ZONE | DOUBLE | UTM zone number used in product map projection.
 WRS_PATH | DOUBLE | The WRS orbital path number (001 - 251).  
 WRS_ROW | DOUBLE | Landsat satellite WRS row (001-248).  
 WRS_TYPE | STRING | World Reference System (WRS) type used for the collection of this scene.  
+### Terms of Use
 **Terms of Use**
 Landsat datasets are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.
 Acknowledgement or credit of the USGS as data source should be provided by including a line of text citation such as the example shown below.
@@ -238,7 +241,7 @@ Example: Landsat-7 image courtesy of the U.S. Geological Survey
 See the [USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system) for further details on proper citation and acknowledgement of USGS products.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDSAT/LT04/C02/T1_TOA')
 .filterDate('1989-01-01','1992-12-31');

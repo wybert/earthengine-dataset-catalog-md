@@ -1,6 +1,6 @@
  
 #  MODIS Net Primary Production CONUS 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![UMT/NTSG/v2/MODIS/NPP](https://developers.google.com/earth-engine/datasets/images/UMT/UMT_NTSG_v2_MODIS_NPP_sample.png) 
 
 Dataset Availability
@@ -17,23 +17,26 @@ Cadence
 
 Tags
      [conus](https://developers.google.com/earth-engine/datasets/tags/conus) [gridmet-derived](https://developers.google.com/earth-engine/datasets/tags/gridmet-derived) [mod09q1](https://developers.google.com/earth-engine/datasets/tags/mod09q1) [mod17](https://developers.google.com/earth-engine/datasets/tags/mod17) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nlcd-derived](https://developers.google.com/earth-engine/datasets/tags/nlcd-derived) [npp](https://developers.google.com/earth-engine/datasets/tags/npp) [photosynthesis](https://developers.google.com/earth-engine/datasets/tags/photosynthesis) [plant-productivity](https://developers.google.com/earth-engine/datasets/tags/plant-productivity) [production](https://developers.google.com/earth-engine/datasets/tags/production) [productivity](https://developers.google.com/earth-engine/datasets/tags/productivity) [yearly](https://developers.google.com/earth-engine/datasets/tags/yearly)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_MODIS_NPP#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_MODIS_NPP#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_MODIS_NPP#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_MODIS_NPP#citations) More
+#### Description
 The MODIS Net Primary Production (NPP) CONUS dataset estimates NPP using MODIS Surface Reflectance for CONUS. NPP is the amount of carbon captured by plants in an ecosystem, after accounting for losses due to respiration. NPP is calculated using the MOD17 algorithm (see [MOD17 User Guide](https://www.ntsg.umt.edu/files/modis/MOD17UsersGuide2015_v3.pdf)) with MODIS Surface Reflectance, gridMET, and the National Land Cover Database.
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
 ---|---|---|---|---|---  
 `annualNPP` | kg*C/m^2 |  0  |  65535  | 0.0001 | Annual net primary productivity  
-`QC` | % |  0  |  100  | Percentage of gap-filled NDVI values.  
+`QC` | % |  0  |  100  |  | Percentage of gap-filled NDVI values.  
+### Terms of Use
 **Terms of Use**
 This work is in the public domain and is free of known copyright restrictions. Users should properly cite the source used in the creation of any reports and publications resulting from the use of this dataset and note the date when the data was acquired.
+### Citations
 Citations:
   * Robinson, N.P., B.W. Allred, W.K. Smith, M.O. Jones, A. Moreno, T.A. Erickson, D.E. Naugle, and S.W. Running. 2018. Terrestrial primary production for the conterminous United States derived from Landsat 30 m and MODIS 250 m. Remote Sensing in Ecology and Conservation. [doi:10.1002/rse2.74](https://doi.org/10.1002/rse2.74)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_MODIS_NPP#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('UMT/NTSG/v2/MODIS/NPP')
 .filter(ee.Filter.date('2016-01-01','2016-12-31'));

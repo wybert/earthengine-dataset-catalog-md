@@ -1,6 +1,6 @@
  
 #  WWF HydroATLAS Basins Level 10 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WWF/HydroATLAS/v1/Basins/level10](https://developers.google.com/earth-engine/datasets/images/WWF/WWF_HydroATLAS_v1_Basins_level10_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [hydroatlas](https://developers.google.com/earth-engine/datasets/tags/hydroatlas) [hydrography](https://developers.google.com/earth-engine/datasets/tags/hydrography) [hydrology](https://developers.google.com/earth-engine/datasets/tags/hydrology) [hydrosheds](https://developers.google.com/earth-engine/datasets/tags/hydrosheds) [srtm](https://developers.google.com/earth-engine/datasets/tags/srtm) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water) [table](https://developers.google.com/earth-engine/datasets/tags/table) [water](https://developers.google.com/earth-engine/datasets/tags/water) [watershed](https://developers.google.com/earth-engine/datasets/tags/watershed) [wwf](https://developers.google.com/earth-engine/datasets/tags/wwf)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level10#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level10#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level10#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level10#citations) More
+#### Description
 BasinATLAS is a component of the [HydroATLAS database](https://www.hydrosheds.org/page/hydroatlas), which is a component of [HydroSHEDS](https://www.hydrosheds.org).
 BasinATLAS provides a standardized compendium of hydro-environmental attribute information for all watersheds of the world at high spatial resolution. This dataset includes data for 56 variables, partitioned into 281 attributes and organized in six categories: hydrology; physiography; climate; land cover & use; soils & geology; and anthropogenic influences (see Table 1 in the HydroATLAS documentation linked below).
 Watersheds range from level 1 (coarse) to level 12 (detailed), using Pfastetter codes. The underlying watershed deleniation uses the NASA SRTM Digital Elevatin Map (DEM) below 60oN latitude and the USGS HYDRO1k DEM above 60oN.
@@ -22,6 +22,7 @@ Technical documentation:
 <https://www.hydrosheds.org/images/inpages/HydroATLAS_TechDoc_v10.pdf>
 Note that the quality of HydroATLAS data is significantly lower for regions above 60 degrees northern latitude as there is no underlying SRTM elevation data available and thus a coarser-resolution DEM was used (HYDRO1k provided by USGS).
 HydroSHEDS was developed by the World Wildlife Fund (WWF) Conservation Science Program in partnership with the U.S. Geological Survey, the International Centre for Tropical Agriculture, The Nature Conservancy, and the Center for Environmental Systems Research of the University of Kassel, Germany.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -318,9 +319,11 @@ wet_pc_u08 | INT | Wetland Extent: Category = Landcover; Spatial Extent = {u} in
 wet_pc_u09 | INT | Wetland Extent: Category = Landcover; Spatial Extent = {u} in total watershed upstream of sub-basin pour point; Dimensions = {09} Wetland class #9: see https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database  
 wet_pc_ug1 | INT | Wetland Extent: Category = Landcover; Spatial Extent = {u} in total watershed upstream of sub-basin pour point; Dimensions = {g1} Wetland class grouping; see https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database  
 wet_pc_ug2 | INT | Wetland Extent: Category = Landcover; Spatial Extent = {u} in total watershed upstream of sub-basin pour point; Dimensions = {g2} Wetland class grouping; see https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database  
+### Terms of Use
 **Terms of Use**
 'The HydroATLAS database is licensed under a Creative Commons Attribution (CC-BY) 4.0 International License. Please also refer to the HydroATLAS [Technical Documentation](https://data.hydrosheds.org/file/technical-documentation/HydroATLAS_TechDoc_v10.pdf) for more details on the license and requested citations.
 By downloading and using the data the user agrees to the terms and conditions of this license.'
+### Citations
 Citations:
   * 'Linke, S., Lehner, B., Ouellet Dallaire, C., Ariwi, J., Grill, G., Anand, M., Beames, P., Burchard-Levine, V., Maxwell, S., Moidu, H., Tan, F., Thieme, M. (2019). Global hydro-environmental sub-basin and river reach characteristics at high spatial resolution. Scientific Data 6: 283. [DOI:10.1038/s41597-019-0300-6](https://doi.org/10.1038/s41597-019-0300-6).'
   * [doi:10.6084/m9.figshare.9890531](https://doi.org/10.6084/m9.figshare.9890531)
@@ -328,7 +331,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroATLAS_v1_Basins_level10#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Load the HydroATLAS dataset.
 varbasinATLAS=ee.FeatureCollection('WWF/HydroATLAS/v1/Basins/level10');

@@ -1,6 +1,6 @@
  
 #  OpenLandMap Long-term Land Surface Temperature Daytime Monthly Standard Deviation 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/CLM/CLM_LST_MOD11A2-DAY_SD/v01](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_SD_v01_sample.png) 
 
 Dataset Availability

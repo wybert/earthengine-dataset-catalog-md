@@ -1,6 +1,6 @@
  
 #  ESA WorldCereal Active Cropland 10 m v100 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ESA/WorldCereal/2021/MARKERS/v100](https://developers.google.com/earth-engine/datasets/images/ESA/ESA_WorldCereal_2021_MARKERS_v100_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [agriculture](https://developers.google.com/earth-engine/datasets/tags/agriculture) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [crop](https://developers.google.com/earth-engine/datasets/tags/crop) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [global](https://developers.google.com/earth-engine/datasets/tags/global) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [sentinel1-derived](https://developers.google.com/earth-engine/datasets/tags/sentinel1-derived) [sentinel2-derived](https://developers.google.com/earth-engine/datasets/tags/sentinel2-derived)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100#dois) More
+#### Description
 The European Space Agency (ESA) WorldCereal Active Cropland 10 m 2021 product suite contains global-scale seasonal active cropland markers. They were generated as part of the [ESA-WorldCereal project](https://esa-worldcereal.org/). The active cropland products indicate whether or not a pixel identified as temporary crops has been actively cultivated during a specific growing season. In order for a pixel to be labeled as “active” during a particular growing season, a full crop growth cycle (sowing, growing, senescence and harvesting) needs to take place within the designated time period. Note that this active marker is not crop-type specific. Any crop grown (slightly) outside the predefined growing seasons will not be flagged as active cropland in any of the seasons covered by the WorldCereal system. The active marker results from running a growing season detection algorithm [1] on the Sentinel-2 derived enhanced vegetation index (EVI). More information on the methodology used to generate these products is described in [2].
 This collection contains up to 106 agro-ecological zone (AEZ) images per crop season, where each AEZ has its own seasonality. The seasons for which the active cropland marker is available are described in the list below and were developed in [3] as part of the project.
 WorldCereal seasons description:
@@ -43,29 +43,34 @@ WorldCereal datasets:
     * [ESA/WorldCereal/2021/MARKERS/v100](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100)
 
 
+### Bands
 **Pixel Size** 10 meters 
 **Bands**
 Name | Min | Max | Description  
 ---|---|---|---  
 `classification` |  0  |  100  | Classification: 0 or 100  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 aez_id | INT | ID of the agro-ecological zone (AEZ) to which the product belongs.  
 product | STRING | WorldCereal product name.  
 season | STRING | Season for which the product is valid.  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Van Tricht, K., Degerickx, J., Gilliams, S., Zanaga, D., Battude, M., Grosu, A., Brombacher, J., Lesiv, M., Bayas, J. C. L., Karanam, S., Fritz, S., Becker-Reshef, I., Franch, B., Mollà-Bononad, B., Boogaard, H., Pratihast, A. K., and Szantoi, Z.: WorldCereal: a dynamic open-source system for global-scale, seasonal, and reproducible crop and irrigation mapping, Earth Syst. Sci. Data Discuss. [preprint], [doi:10.5194/essd-2023-184](https://doi.org/10.5194/essd-2023-184), in review, 2023.,
 
 
+### DOIs
   * [ https://doi.org/10.5194/essd-2023-184 ](https://doi.org/10.5194/essd-2023-184)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MARKERS_v100#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('ESA/WorldCereal/2021/MARKERS/v100')
 // Filter on AEZ

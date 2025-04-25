@@ -34,13 +34,13 @@ Name | Units | Min | Max | Scale | Description
 ---|---|---|---|---|---  
 `aet` | mm |  0*  |  3140*  | 0.1 | Actual evapotranspiration, derived using a one-dimensional soil water balance model  
 `def` | mm |  0*  |  4548*  | 0.1 | Climate water deficit, derived using a one-dimensional soil water balance model  
-`pdsi` |  -4317*  |  3418*  | 0.01 | Palmer Drought Severity Index  
+`pdsi` |  |  -4317*  |  3418*  | 0.01 | Palmer Drought Severity Index  
 `pet` | mm |  0*  |  4548*  | 0.1 | Reference evapotranspiration (ASCE Penman-Montieth)  
-`pr` | mm |  0*  |  7245*  | Precipitation accumulation  
-`ro` | mm |  0*  |  12560*  | Runoff, derived using a one-dimensional soil water balance model  
+`pr` | mm |  0*  |  7245*  |  | Precipitation accumulation  
+`ro` | mm |  0*  |  12560*  |  | Runoff, derived using a one-dimensional soil water balance model  
 `soil` | mm |  0*  |  8882*  | 0.1 | Soil moisture, derived using a one-dimensional soil water balance model  
 `srad` | W/m^2 |  0*  |  5477*  | 0.1 | Downward surface shortwave radiation  
-`swe` | mm |  0*  |  32767*  | Snow water equivalent, derived using a one-dimensional soil water balance model  
+`swe` | mm |  0*  |  32767*  |  | Snow water equivalent, derived using a one-dimensional soil water balance model  
 `tmmn` | °C |  -770*  |  387*  | 0.1 | Minimum temperature  
 `tmmx` | °C |  -670*  |  576*  | 0.1 | Maximum temperature  
 `vap` | kPa |  0*  |  14749*  | 0.001 | Vapor pressure  

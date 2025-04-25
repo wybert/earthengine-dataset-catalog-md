@@ -4,7 +4,7 @@ Stay organized with collections  Save and categorize content based on your prefe
 ![NASA/LANCE/NOAA20_VIIRS/C2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_LANCE_NOAA20_VIIRS_C2_sample.png) 
 
 Dataset Availability
-    2023-10-08T00:00:00Z–2025-04-21T00:00:00Z 
+    2023-10-08T00:00:00Z–2025-04-24T00:00:00Z 
 
 Dataset Provider
      [ NASA / LANCE / NOAA20_VIIRS ](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/firms/vj114imgtdlnrt) 
@@ -28,12 +28,12 @@ Name | Units | Min | Max | Description
 ---|---|---|---|---  
 `Bright_ti4` | K |  250*  |  400*  | VIIRS I-4 channel brightness temperature of the fire pixel.  
 `Bright_ti5` | K |  250*  |  400*  | VIIRS I-5 Channel brightness temperature of the fire pixel.  
-`confidence` |  0  |  2  | A detection confidence intended to help users gauge the quality of individual active fire pixels. The confidence estimate ranges between 'low': 0, 'nominal': 1 and 'high': 2 for all fire pixels within the fire mask. Low confidence daytime fire pixels are typically associated with areas of Sun glint and lower relative temperature anomaly (<15 K) in the mid-infrared channel I4. Nominal confidence pixels are those free of potential Sun glint contamination during the day and marked by strong (>15 K) temperature anomaly in either day or nighttime data. High confidence fire pixels are associated with day or nighttime saturated pixels. Please note: Low confidence nighttime pixels occur only over the geographic area extending from 11° E to 110° W and 7° N to 55° S. This area describes the region of influence of the South Atlantic Magnetic Anomaly which can cause spurious brightness temperatures in the mid-infrared channel I4 leading to potential false positive alarms. These have been removed from the NRT data distributed by FIRMS.  
-`line_number` |  1*  |  110000*  | Line number in the FIRMS CSV file that the pixel came from.  
-`frp` | MW | FRP depicts the pixel-integrated fire radiative power in megawatts (MW). Given the unique spatial and spectral resolution of the data, the VIIRS 375m fire detection algorithm was customized and tuned to optimize its response over small fires while balancing the occurrence of false alarms . Frequent saturation of the mid-infrared I4 channel (3.55-3.93 μm) driving the detection of active fires requires additional tests and procedures to avoid pixel classification errors. As a result, sub-pixel fire characterization (e.g., fire radiative power [FRP] retrieval) is only viable across small and/or low-intensity fires. Systematic FRP retrievals are based on a hybrid approach combining 375 and 750m data.  
-`acq_epoch` | seconds | Acquisation timestamp in seconds  
-`acq_time` | seconds | The time of day in seconds since midnight  
-`DayNight` | 1= Daytime fire, 0= Nighttime fire  
+`confidence` |  |  0  |  2  | A detection confidence intended to help users gauge the quality of individual active fire pixels. The confidence estimate ranges between 'low': 0, 'nominal': 1 and 'high': 2 for all fire pixels within the fire mask. Low confidence daytime fire pixels are typically associated with areas of Sun glint and lower relative temperature anomaly (<15 K) in the mid-infrared channel I4. Nominal confidence pixels are those free of potential Sun glint contamination during the day and marked by strong (>15 K) temperature anomaly in either day or nighttime data. High confidence fire pixels are associated with day or nighttime saturated pixels. Please note: Low confidence nighttime pixels occur only over the geographic area extending from 11° E to 110° W and 7° N to 55° S. This area describes the region of influence of the South Atlantic Magnetic Anomaly which can cause spurious brightness temperatures in the mid-infrared channel I4 leading to potential false positive alarms. These have been removed from the NRT data distributed by FIRMS.  
+`line_number` |  |  1*  |  110000*  | Line number in the FIRMS CSV file that the pixel came from.  
+`frp` | MW |  |  | FRP depicts the pixel-integrated fire radiative power in megawatts (MW). Given the unique spatial and spectral resolution of the data, the VIIRS 375m fire detection algorithm was customized and tuned to optimize its response over small fires while balancing the occurrence of false alarms . Frequent saturation of the mid-infrared I4 channel (3.55-3.93 μm) driving the detection of active fires requires additional tests and procedures to avoid pixel classification errors. As a result, sub-pixel fire characterization (e.g., fire radiative power [FRP] retrieval) is only viable across small and/or low-intensity fires. Systematic FRP retrievals are based on a hybrid approach combining 375 and 750m data.  
+`acq_epoch` | seconds |  |  | Acquisation timestamp in seconds  
+`acq_time` | seconds |  |  | The time of day in seconds since midnight  
+`DayNight` |  |  |  | 1= Daytime fire, 0= Nighttime fire  
 * estimated min or max value 
 ### Terms of Use
 **Terms of Use**
@@ -69,7 +69,7 @@ Map.addLayer(noaa_viirs,band_vis,'NOAA nrt firms')
 [ VJ114IMGTDL_NRT Daily Raster: VIIRS (NOAA-20) Band 375m Active Fire ](https://developers.google.com/earth-engine/datasets/catalog/NASA_LANCE_NOAA20_VIIRS_C2)
 NOAA-20 (JPSS-1) Visible Infrared Imaging Radiometer Suite (VIIRS) Active Fire detection product is based on the instrument's 375m nominal resolution data. Compared to other coarser resolution (≥ 1km) satellite fire detection products, the improved 375 m data provide greater response over fires of relatively small areas, as well as improved …
 NASA/LANCE/NOAA20_VIIRS/C2, eosdis,fire,firms,geophysical,hotspot,lance,modis,nasa,thermal,viirs 
-2023-10-08T00:00:00Z/2025-04-21T00:00:00Z
+2023-10-08T00:00:00Z/2025-04-24T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

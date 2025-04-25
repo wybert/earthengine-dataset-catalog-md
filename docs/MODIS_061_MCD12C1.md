@@ -1,6 +1,6 @@
  
 #  MCD12C1.061 MODIS Land Cover Type Yearly Global 0.05 Deg CMG 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MCD12C1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD12C1_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [yearly](https://developers.google.com/earth-engine/datasets/tags/yearly)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12C1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12C1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12C1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12C1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12C1#dois) More
+#### Description
 The Terra and Aqua combined Moderate Resolution Imaging Spectroradiometer (MODIS) Land Cover Climate Modeling Grid (CMG) (MCD12C1) Version 6.1 data product provides a spatially aggregated and reprojected version of the tiled MCD12Q1 Version 6.1 data product. Maps of the International Geosphere-Biosphere Programme (IGBP), University of Maryland (UMD), and Leaf Area Index (LAI) classification schemes are provided at yearly intervals at 0.05 degree (5,600 meter) spatial resolution for the entire globe from 2001 to 2022. Additionally, sub-pixel proportions of each land cover class in each 0.05 degree pixel is provided along with the aggregated quality assessment information for each of the three land classification schemes.
 Provided in each MCD12C1 Version 6.1 Hierarchical Data Format 4 (HDF4) file are layers for Majority Land Cover Type 1-3, Majority Land Cover Type 1-3 Assessment, and Land Cover Type 1-3 Percent for each class.
 Documentation:
@@ -25,11 +25,12 @@ Documentation:
   * [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/86/MCD12_ATBD.pdf)
 
 
+### Bands
 **Pixel Size** 5600 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`Majority_Land_Cover_Type_1` |  0  |  16  | Majority Land Cover Type 1: Most likely IGBP class for each 0.05 degree pixel  
+`Majority_Land_Cover_Type_1` |  |  0  |  16  | Majority Land Cover Type 1: Most likely IGBP class for each 0.05 degree pixel  
 `Majority_Land_Cover_Type_1_Assessment` | % |  0  |  100  | Majority Land Cover Type 1 Assessment: Majority IGBP class confidence  
 `Land_Cover_Type_1_Percent_Class_0` | % |  0  |  100  | Percent cover of IGBP class 0 (Water Bodies) at each pixel  
 `Land_Cover_Type_1_Percent_Class_1` | % |  0  |  100  | Percent cover of IGBP class 1 (Evergreen Needleleaf Forests) at each pixel  
@@ -48,7 +49,7 @@ Name | Units | Min | Max | Description
 `Land_Cover_Type_1_Percent_Class_14` | % |  0  |  100  | Percent cover of IGBP class 14 (Cropland/Natural Vegetation Mosaics) at each pixel  
 `Land_Cover_Type_1_Percent_Class_15` | % |  0  |  100  | Percent cover of IGBP class 15 (Permanent Snow and Ice) at each pixel  
 `Land_Cover_Type_1_Percent_Class_16` | % |  0  |  100  | Percent cover of IGBP class 16 (Barren) at each pixel  
-`Majority_Land_Cover_Type_2` |  0  |  15  | Majority Land Cover Type 2: Most likely UMD class for each 0.05 degree pixel  
+`Majority_Land_Cover_Type_2` |  |  0  |  15  | Majority Land Cover Type 2: Most likely UMD class for each 0.05 degree pixel  
 `Majority_Land_Cover_Type_2_Assessment` | % |  0  |  100  | Majority Land Cover Type 2 Assessment: Majority UMD class confidence  
 `Land_Cover_Type_2_Percent_Class_0` | % |  0  |  100  | Percent cover of UMD class 0 (Water Bodies) at each pixel  
 `Land_Cover_Type_2_Percent_Class_1` | % |  0  |  100  | Percent cover of UMD class 1 (Evergreen Needleleaf Forests) at each pixel  
@@ -64,7 +65,7 @@ Name | Units | Min | Max | Description
 `Land_Cover_Type_2_Percent_Class_11` | % |  0  |  100  | Percent cover of UMD class 11 (Croplands) at each pixel. (Note that "Croplands" has value 12 in Majority_Land_Cover_Type_2 to match IGBP.)  
 `Land_Cover_Type_2_Percent_Class_12` | % |  0  |  100  | Percent cover of UMD class 12 (Urban and Built-up Lands) at each pixel. (Note that "Urban and Built-up Lands" has value 13 in Majority_Land_Cover_Type_2 to match IGBP.)  
 `Land_Cover_Type_2_Percent_Class_13` | % |  0  |  100  | Percent cover of UMD class 13 (Barren) at each pixel. (Note that "Barren" has value 15 in Majority_Land_Cover_Type_2.)  
-`Majority_Land_Cover_Type_3` |  0  |  10  | Majority Land Cover Type 3: Most likely LAI class for each 0.05 degree pixel  
+`Majority_Land_Cover_Type_3` |  |  0  |  10  | Majority Land Cover Type 3: Most likely LAI class for each 0.05 degree pixel  
 `Majority_Land_Cover_Type_3_Assessment` | % |  0  |  100  | Majority Land Cover Type 3 Assessment: Majority LAI class confidence  
 `Land_Cover_Type_3_Percent_Class_0` | % |  0  |  100  | Percent cover of LAI class 0 (Water Bodies) at each pixel  
 `Land_Cover_Type_3_Percent_Class_1` | % |  0  |  100  | Percent cover of LAI class 1 (Grasslands) at each pixel  
@@ -128,18 +129,21 @@ Value | Color | Description
 8 | #54a708 | Deciduous Needleleaf Forests: dominated by deciduous needleleaf (larch) trees (canopy >2m). Tree cover >60%.   
 9 | #f9ffa4 | Unvegetated: at least 60% of area is non-vegetated barren (sand, rock, soil) or permanent snow and ice with less than 10% vegetation.   
 10 | #a5a5a5 | Urban and Built-up Lands: at least 30% impervious surface area including building materials, asphalt and vehicles.   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MCD12C1.061 ](https://doi.org/10.5067/MODIS/MCD12C1.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12C1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MCD12C1');
 varigbpLandCover=dataset.select('Majority_Land_Cover_Type_1');

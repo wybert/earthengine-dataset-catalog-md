@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S5P/NRTI/L3_NO2](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_NRTI_L3_NO2_sample.png) 
 
 Dataset Availability
-    2018-07-10T10:05:44Z–2025-04-21T08:26:30Z 
+    2018-07-10T10:05:44Z–2025-04-24T09:11:30Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -98,7 +98,7 @@ Map.setCenter(65.27,24.11,4);
 [ Sentinel-5P NRTI NO2: Near Real-Time Nitrogen Dioxide ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_NO2)
 NRTI/L3_NO2 This dataset provides near real-time high-resolution imagery of NO2 concentrations. Nitrogen oxides (NO2 and NO) are important trace gases in the Earth's atmosphere, present in both the troposphere and the stratosphere. They enter the atmosphere as a result of anthropogenic activities (notably fossil fuel combustion and biomass burning) and …
 COPERNICUS/S5P/NRTI/L3_NO2, air-quality,atmosphere,copernicus,esa,eu,knmi,nitrogen-dioxide,no2,pollution,s5p,sentinel,tropomi 
-2018-07-10T10:05:44Z/2025-04-21T08:26:30Z
+2018-07-10T10:05:44Z/2025-04-24T09:11:30Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

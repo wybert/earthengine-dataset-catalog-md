@@ -1,6 +1,6 @@
  
 #  OpenET eeMETRIC Monthly Evapotranspiration v2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenET/EEMETRIC/CONUS/GRIDMET/MONTHLY/v2_0](https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0_sample.png) 
 
 Dataset Availability
@@ -17,18 +17,20 @@ Cadence
 
 Tags
      [evapotranspiration](https://developers.google.com/earth-engine/datasets/tags/evapotranspiration) [gridmet-derived](https://developers.google.com/earth-engine/datasets/tags/gridmet-derived) [landsat-derived](https://developers.google.com/earth-engine/datasets/tags/landsat-derived) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [openet](https://developers.google.com/earth-engine/datasets/tags/openet) [water](https://developers.google.com/earth-engine/datasets/tags/water) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0#dois) More
+#### Description
 Google Earth Engine implementation of the Mapping Evapotranspiration at high Resolution with Internalized Calibration model (eeMETRIC)
 eeMETRIC applies the advanced METRIC algorithms and process of Allen et al. (2007; 2015) and Allen et al. (2013b), where a singular relationship between the near surface air temperature difference (dT) and delapsed land surface temperature (TsDEM) is used to estimate sensible heat flux (H) and is applied to each Landsat scene. Automated selection of the hot and cold pixels for an image generally follows a statistical isolation procedure described by Allen et al. (2013a) and ReVelle, Kilic and Allen (2019a,b). The calibration of H in eeMETRIC utilizes alfalfa reference ET calculated from the NLDAS gridded weather dataset using a fixed 15% reduction in computed reference ET to account for known biases in the gridded data set. The fixed reduction does not impact the calibration accuracy of eeMETRIC and mostly reduces impacts of boundary layer buoyancy correction.
 The identification of candidates for pools of hot and cold pixels has evolved in the eeMETRIC implementation of METRIC. The new automated calibration process incorporates the combination of methodologies and approaches that stem from two development branches of EEFlux (Allen et al., 2015). The first branch focused on improving the automated pixel selection process using standard lapse rates for land surface temperature (LST) without any further spatial delapsing (ReVelle et al., 2019b). The second branch incorporated a secondary spatial delapsing of LST as well as changes to the pixel selection process (ReVelle et al., 2019a). The final, combined approach is described by Kilic et al. (2021).
 eeMETRIC employs the aerodynamic-related functions in complex terrain (mountains) developed by Allen et al. (2013b) to improve estimates for aerodynamic roughness, wind speed and boundary layer stability as related to estimated terrain roughness, position on a slope and wind direction. These functions tend to increase estimates for H (and reduce ET) on windward slopes and may reduce H (and increase ET) on leeward slopes. Other METRIC functions employed in eeMETRIC that have been added since the descriptions provided in Allen et al. (2007 and 2011) include reduction in soil heat flux (G) in the presence of organic mulch on the ground surface, use of an excess aerodynamic resistance for shrublands, use of the Perrier function for trees identified as forest (Allen et al., 2018; Santos et al., 2012) and aerodynamic estimation of evaporation from open water rather than using energy balance (Jensen and Allen 2016; Allen et al., 2018). In 2022, the Perrier function was applied to tree (orchard) crops and a 3-source partitioning of bulk surface temperature into canopy temperature, shaded soil temperature and sunlit soil temperature was applied to both orchards and vineyards. These latter applications were made where orchards and vineyards are identified by CDL or, in California, by a state-sponsored land use system. These functions and other enhancements to the original METRIC model are described in the most current METRIC users manual (Allen et al., 2018). eeMETRIC uses the atmospherically corrected surface reflectance and LST from Landsat Collection 2 Level 2, with fallback to Collection 2 Level 1 when needed for near real-time estimates.
 [Additional information](https://openetdata.org/methodologies/)
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `et` | mm | eeMETRIC ET value  
 `count` | count | Number of cloud free values  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -49,8 +51,10 @@ model_version | STRING | OpenET model version
 scale_factor_count | DOUBLE | Scaling factor that should be applied to the count band  
 scale_factor_et | DOUBLE | Scaling factor that should be applied to the et band  
 start_date | STRING | Start date of month  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Kilic, A., Allen, R.G., Blankenau, P., ReVelle, P., Ozturk, D. and Huntington, J., 2021. Global production and free access to Landsat-scale Evapotranspiration with EEFlux and eeMETRIC. In 6th Decennial National Irrigation Symposium, 6-8, December 2021, San Diego, California (p. 1). American Society of Agricultural and Biological Engineers. [doi:10.13031/irrig.2020-038](https://doi.org/10.13031/irrig.2020-038)
   * Allen, R.G., Tasumi, M., Morse, A. and Trezza, R., 2005. A Landsat-based energy balance and evapotranspiration model in Western US water rights regulation and planning. Irrigation and Drainage systems, 19, pp.251-268. [doi:10.1007/s10795-005-5187-z](https://doi.org/10.1007/s10795-005-5187-z)
@@ -66,12 +70,13 @@ Citations:
   * Santos, C., Lorite, I.J., Allen, R.G. and Tasumi, M., 2012. Aerodynamic parameterization of the satellite-based energy balance (METRIC) model for ET estimation in rainfed olive orchards of Andalusia, Spain. Water Resources Management, 26, pp.3267-3283. [doi:10.1007/s11269-012-0071-8](https://doi.org/10.1007/s11269-012-0071-8)
 
 
+### DOIs
   * [ https://doi.org/10.13031/irrig.2020-038 ](https://doi.org/10.13031/irrig.2020-038)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('OpenET/EEMETRIC/CONUS/GRIDMET/MONTHLY/v2_0')
 .filterDate('2020-01-01','2021-01-01');

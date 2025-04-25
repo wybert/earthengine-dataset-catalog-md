@@ -1,6 +1,6 @@
  
 #  LANDFIRE SClass (Succession Classes) v1.4.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDFIRE/Fire/SClass/v1_4_0](https://developers.google.com/earth-engine/datasets/images/LANDFIRE/LANDFIRE_Fire_SClass_v1_4_0_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [doi](https://developers.google.com/earth-engine/datasets/tags/doi) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [landfire](https://developers.google.com/earth-engine/datasets/tags/landfire) [nature-conservancy](https://developers.google.com/earth-engine/datasets/tags/nature-conservancy) [usda](https://developers.google.com/earth-engine/datasets/tags/usda) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [wildfire](https://developers.google.com/earth-engine/datasets/tags/wildfire)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_SClass_v1_4_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_SClass_v1_4_0#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_SClass_v1_4_0#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_SClass_v1_4_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_SClass_v1_4_0#citations) More
+#### Description
 LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a shared program between the wildland fire management programs of the U.S. Department of Agriculture's Forest Service, U.S. Department of the Interior's Geological Survey, and The Nature Conservancy.
 Landfire (LF) Historical fire regimes, intervals, and vegetation conditions are mapped using the Vegetation Dynamics Development Tool (VDDT). These data support fire and landscape management planning goals in the National Cohesive Wildland Fire Management Strategy, the Federal Wildland Fire Management Policy, and the Healthy Forests Restoration Act.
 The Succession Classes (SClass) layer characterizes current vegetation conditions with respect to the vegetation species composition, cover, and height ranges of successional states that occur within each biophysical setting. SClass can also represent uncharacteristic vegetation components, such as exotic species, that are not found within the compositional or structural variability of successional states defined for a biophysical setting. Succession classes do not directly quantify fuel characteristics of the current vegetation, but rather represent vegetative states with unique succession or disturbance-related dynamics, such as structural development or fire frequency. To produce SClass, the historical reference conditions of these successional states were derived from the vegetation and disturbance dynamics model VDDT (Vegetation Dynamics Development Tool) (LF_1.0.0 CONUS only used the vegetation and disturbance dynamics model LANDSUM). The area contained in succession classes is compared to the simulated historical reference conditions to calculate measurements of vegetation departure, such as fire regime condition class. SClass is used in landscape assessments.
@@ -29,6 +29,7 @@ The LANDIFRE Fire datasets include:
   * Vegetation Departure (VDep) indicates how different current vegetation on a landscape is from estimated historical conditions. VDep is based on changes to species composition, structural stage, and canopy closure.
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Description  
@@ -52,13 +53,16 @@ Value | Color | Description
 132 | #b2b2b2 | Sparsely Vegetated  
 180 | #ffff00 | Non-burnable Agriculture  
 181 | #ffaa00 | Burnable Agriculture  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 SClass_classes | DOUBLE | Class values of the Succession Classes.  
 SClass_names | STRING | Descriptive names of Succession Classes.  
+### Terms of Use
 **Terms of Use**
 LANDFIRE data are public domain data with no use restrictions, though if modifications or derivatives of the product(s) are created, then please add some descriptive modifier to the data set to avoid confusion.
+### Citations
 Citations:
   * The suggested way to cite LANDFIRE products is specific to each product, so the model for citation is provided, with an example for a particular product. Producer. Year released. Product xxxxx:
     * Individual model name.
@@ -70,7 +74,7 @@ Example Citation: LANDFIRE Biophysical Settings. 2018. Biophysical setting 14420
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_SClass_v1_4_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDFIRE/Fire/SClass/v1_4_0');
 varvisualization={

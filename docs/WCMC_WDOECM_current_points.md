@@ -1,6 +1,6 @@
  
 #  WDOECM: Other Effective Area-based Conservation Measures (points) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WCMC/WDOECM/current/points](https://developers.google.com/earth-engine/datasets/images/WCMC/WCMC_WDOECM_current_points_sample.png) 
 
 Dataset Availability
@@ -14,12 +14,13 @@ Earth Engine Snippet
 
 Tags
      [boundaries](https://developers.google.com/earth-engine/datasets/tags/boundaries) [ecosystems](https://developers.google.com/earth-engine/datasets/tags/ecosystems) [iucn](https://developers.google.com/earth-engine/datasets/tags/iucn) [marine](https://developers.google.com/earth-engine/datasets/tags/marine) [mpa](https://developers.google.com/earth-engine/datasets/tags/mpa) [protected](https://developers.google.com/earth-engine/datasets/tags/protected) [table](https://developers.google.com/earth-engine/datasets/tags/table) [wcmc](https://developers.google.com/earth-engine/datasets/tags/wcmc) [wdpa](https://developers.google.com/earth-engine/datasets/tags/wdpa)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDOECM_current_points#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDOECM_current_points#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDOECM_current_points#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDOECM_current_points#citations) More
+#### Description
 A geographically defined area other than a Protected Area, which is governed and managed in ways that achieve positive and sustained long-term outcomes for the in situ conservation of biodiversity, with associated ecosystem functions and services and where applicable, cultural, spiritual, socio-economic, and other locally relevant values.
 The WDOECM has two feature classes with associated spatial and tabular data. The World Database on Other Effective Area-based Conservation Measures (WDOECM) is a global repository of information on Other Effective Area-based Conservation Measures (OECMs). It is managed by the United Nations Environment Programme's World Conservation Monitoring Centre (UNEP-WCMC) with support from the Convention on Biological Diversity (CBD).
 **WDOECM User Manual.** For details including methodologies,standards, data providers, metadata field definitions and descriptions, refer to the [WDOECM User Manual](https://wdpa.s3-eu-west-1.amazonaws.com/WDPA_Manual/English/WDPA_WDOECM_Manual_1_6.pdf).
 **Asset Naming Conventions.** WCMC updates the WDOECM on a monthly basis. The most recent version is always available as WCMC/WDOECM/current/polygons and WCMC/WDOECM/current/points. Historical versions, starting with May 2024, are available in the format WCMC/WDOECM/YYYYMM/polygons and WCMC/WDOECM/YYYYMM/points.
 Please see the [WDOECM User Manual](https://wdpa.s3-eu-west-1.amazonaws.com/WDPA_Manual/English/WDPA_WDOECM_Manual_1_6.pdf) for additional details on the field list.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -51,18 +52,20 @@ SUPP_INFO | STRING | Supplementary information supporting the categorization of 
 VERIF | STRING | Verification status of the data, indicating whether it has been verified by state authorities or other recognized entities. Values: State Verified, Expert Verified, or Not Reported.  
 WDPAID | DOUBLE | Unique identifier for a protected area (PA), assigned by UNEP-WCMC.  
 WDPA_PID | STRING | Unique identifier for parcels or zones within a PA, assigned by UNEP-WCMC.  
+### Terms of Use
 **Terms of Use**
 Please visit the [full terms and conditions page](https://www.protectedplanet.net/c/terms-and-conditions) of Protected Planet. Select highlights below:
 **No Commercial Use.** Neither (a) the WDOECM Materials nor (b) any work derived from or based upon the WDOECM Materials ("Derivative Works") may be put to Commercial Use without the prior written permission of UNEP-WCMC. "Commercial Use" means a) any use by, on behalf of, or to inform or assist the activities of, a commercial entity (an entity that operates 'for profit') or b) use by any individual or non-profit entity for the purposes of revenue generation.
 **Disclaimer.** The designations of geographical entities in any Data Set do not imply the expression of any view or opinion whatsoever on the part of UNEP or WCMC concerning the legal status of any country, territory, or area, or of its authorities, or concerning the delimitation of its frontiers or boundaries.
 **Attribution.** You must ensure that the citation is always clearly reproduced in any publication or analysis involving the WDOECM Materials in any derived form or format.
+### Citations
 Citations:
   * UNEP-WCMC and IUCN (year), Protected Planet: The World Database on OECM Database [On-line], [insert month/year of the version used], Cambridge, UK: UNEP-WCMC and IUCN Available at: www.protectedplanet.net.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDOECM_current_points#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('WCMC/WDOECM/current/points');
 dataset=dataset.style({
@@ -76,7 +79,7 @@ Map.addLayer(dataset,{},'OECMs points');
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDOECM_current_points#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('WCMC/WDOECM/current/points_FeatureView');
 varvisParams={

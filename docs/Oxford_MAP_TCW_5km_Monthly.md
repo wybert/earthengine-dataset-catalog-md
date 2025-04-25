@@ -1,6 +1,6 @@
  
 #  Oxford MAP TCW: Malaria Atlas Project Gap-Filled Tasseled Cap Wetness 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![Oxford/MAP/TCW_5km_Monthly](https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_TCW_5km_Monthly_sample.png) 
 
 Dataset Availability
@@ -18,18 +18,21 @@ Cadence
 Tags
      [map](https://developers.google.com/earth-engine/datasets/tags/map) [oxford](https://developers.google.com/earth-engine/datasets/tags/oxford) [tasseled-cap](https://developers.google.com/earth-engine/datasets/tags/tasseled-cap) [tcb](https://developers.google.com/earth-engine/datasets/tags/tcb) [vegetation-indices](https://developers.google.com/earth-engine/datasets/tags/vegetation-indices)
 wetness
-[Description](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCW_5km_Monthly#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCW_5km_Monthly#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCW_5km_Monthly#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCW_5km_Monthly#citations) More
+#### Description
 This gap-filled Tasseled Cap Wetness (TCW) dataset was created by applying the tasseled-cap equations defined in Lobser and Cohen (2007) to MODIS BRDF-corrected imagery (MCD43B4). The resulting data were gap-filled using the approach outlined in Weiss et al. (2014) to eliminate missing data caused by factors such as cloud cover, and then the data were aggregated temporally and spatially to produce the monthly ≈5km product.
 This dataset was produced by Harry Gibson and Daniel Weiss of the Malaria Atlas Project (Big Data Institute, University of Oxford, United Kingdom, <https://malariaatlas.org/>).
+### Bands
 **Pixel Size** 5000 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`Mean` |  -0.84*  |  0.96*  | The mean value of Tasseled Cap Wetness for each aggregated pixel.  
+`Mean` |  |  -0.84*  |  0.96*  | The mean value of Tasseled Cap Wetness for each aggregated pixel.  
 `FilledProportion` | % |  0*  |  100*  | A quality control band that indicates the percentage of each resulting pixel that was comprised of raw data (as opposed to gap-filled estimates).  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 [CC-BY-NC-SA-4.0](https://spdx.org/licenses/CC-BY-NC-SA-4.0.html)
+### Citations
 Citations:
   * Weiss, D.J., P.M. Atkinson, S. Bhatt, B. Mappin, S.I. Hay & P.W. Gething (2014) An effective approach for gap-filling continental scale remotely sensed time-series. ISPRS Journal of Photogrammetry and Remote Sensing, 98, 106-118.
   * Lobser, S.E. & Cohen, W.B. (2007) MODIS tasselled cap: land cover characteristics expressed through transformed MODIS data. International Journal of Remote Sensing, 28, 5079-5101.
@@ -37,7 +40,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCW_5km_Monthly#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('Oxford/MAP/TCW_5km_Monthly')
 .filter(ee.Filter.date('2013-01-01','2013-12-31'));

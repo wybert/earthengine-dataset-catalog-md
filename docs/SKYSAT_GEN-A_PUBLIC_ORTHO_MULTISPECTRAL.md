@@ -1,6 +1,6 @@
  
 #  Planet SkySat Public Ortho Imagery, Multispectral 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![SKYSAT/GEN-A/PUBLIC/ORTHO/MULTISPECTRAL](https://developers.google.com/earth-engine/datasets/images/SKYSAT/SKYSAT_GEN-A_PUBLIC_ORTHO_MULTISPECTRAL_sample.png) 
 
 Dataset Availability

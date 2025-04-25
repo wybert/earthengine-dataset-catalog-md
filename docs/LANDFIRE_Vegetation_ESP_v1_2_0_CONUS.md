@@ -1,6 +1,6 @@
  
 #  LANDFIRE ESP CONUS (Environmental Site Potential) v1.2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDFIRE/Vegetation/ESP/v1_2_0/CONUS](https://developers.google.com/earth-engine/datasets/images/LANDFIRE/LANDFIRE_Vegetation_ESP_v1_2_0_CONUS_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [doi](https://developers.google.com/earth-engine/datasets/tags/doi) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [landfire](https://developers.google.com/earth-engine/datasets/tags/landfire) [nature-conservancy](https://developers.google.com/earth-engine/datasets/tags/nature-conservancy) [usda](https://developers.google.com/earth-engine/datasets/tags/usda) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [wildfire](https://developers.google.com/earth-engine/datasets/tags/wildfire)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_CONUS#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_CONUS#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_CONUS#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_CONUS#citations) More
+#### Description
 LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a shared program between the wildland fire management programs of the U.S. Department of Agriculture's Forest Service, U.S. Department of the Interior's Geological Survey, and The Nature Conservancy.
 LANDFIRE (LF) layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.
 LANDFIRE's (LF) Environmental Site Potential (ESP) represents the vegetation that could be supported at a given site based on the biophysical environment. Map units are based on NatureServe's Ecological Systems classification and represent the natural plant communities that may have been present during the reference period. ESP map units represent the natural plant communities that would become established at late or climax stages of successional development in the absence of disturbance. They reflect the current climate and physical environment, as well as the competitive potential of native plant species. The ESP concept is similar to that used in classifications of potential vegetation, including habitat types and plant associations. In early versions of LF, ESP was used to inform the existing vegetation and fuel mapping processes.
@@ -26,6 +26,7 @@ The LANDIFRE Vegetation datasets include:
   * Existing Vegetation Type (EVT) These layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Description  
@@ -17872,8 +17873,10 @@ Value | Color | Description
 20314 | #ffeb00 | Coastal Gulf Plains; Gulf and Atlantic Coastal Plain Tidal Marsh Systems; Wetland Shrub  
 20315 | #ffeb00 | Coastal Gulf Plains; Gulf and Atlantic Coastal Plain Tidal Marsh Systems; Wetland Herb  
 20316 | #ab6138 | Coastal Gulf Plains; Gulf and Atlantic Coastal Plain Sparsely Vegetated Systems; Undetermined  
+### Terms of Use
 **Terms of Use**
 LANDFIRE data are public domain data with no use restrictions, though if modifications or derivatives of the product(s) are created, then please add some descriptive modifier to the data set to avoid confusion.
+### Citations
 Citations:
   * The suggested way to cite LANDFIRE products is specific to each product, so the model for citation is provided, with an example for a particular product. Producer. Year released. Product xxxxx:
     * Individual model name.
@@ -17885,7 +17888,7 @@ Example Citation: LANDFIRE, 2016, Existing Vegetation Type Layer, LANDFIRE 2.0.0
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_CONUS#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('LANDFIRE/Vegetation/ESP/v1_2_0/CONUS');
 varvisualization={

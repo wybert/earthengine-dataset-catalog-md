@@ -1,6 +1,6 @@
  
 #  DEM-H: Australian SRTM Hydrologically Enforced Digital Elevation Model 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![AU/GA/DEM_1SEC/v10/DEM-H](https://developers.google.com/earth-engine/datasets/images/AU/AU_GA_DEM_1SEC_v10_DEM-H_sample.png) 
 
 Dataset Availability
@@ -14,25 +14,28 @@ Earth Engine Snippet
 
 Tags
      [australia](https://developers.google.com/earth-engine/datasets/tags/australia) [dem](https://developers.google.com/earth-engine/datasets/tags/dem) [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [ga](https://developers.google.com/earth-engine/datasets/tags/ga) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [geoscience-australia](https://developers.google.com/earth-engine/datasets/tags/geoscience-australia) [smoothed](https://developers.google.com/earth-engine/datasets/tags/smoothed) [srtm](https://developers.google.com/earth-engine/datasets/tags/srtm)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/AU_GA_DEM_1SEC_v10_DEM-H#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/AU_GA_DEM_1SEC_v10_DEM-H#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/AU_GA_DEM_1SEC_v10_DEM-H#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/AU_GA_DEM_1SEC_v10_DEM-H#citations) More
+#### Description
 The Hydrologically Enforced Digital Elevation Model (DEM-H) was derived from the SRTM data acquired by NASA in February 2000. The model has been hydrologically conditioned and drainage enforced. The DEM-H captures flow paths based on SRTM elevations and mapped stream lines, and supports delineation of catchments and related hydrological attributes. The dataset was derived from the 1 second smoothed Digital Elevation Model (DEM-S; ANZCW0703014016) by enforcing hydrological connectivity with the ANUDEM software, using selected AusHydro V1.6 (February 2010) 1:250,000 scale watercourse lines (ANZCW0503900101) and lines derived from DEM-S to define the watercourses. The drainage enforcement has produced a consistent representation of hydrological connectivity with some elevation artifacts resulting from the drainage enforcement. A full description of the methods is in preparation (Dowling et al., in prep).
 This product provides a DEM suitable for use in hydrological analysis such as catchment definition and flow routing.
 There are several areas with unexpected negative values: close to Canberra around (150.443044, -35.355281) with values of -55 and in Western Australia around (124.84, -16.44) with -43.
+### Bands
 **Pixel Size** 30.92 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `elevation` | m |  -31.37*  |  2223.24*  | Elevation  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Geoscience Australia, 2015. Digital Elevation Model (DEM) of Australia derived from LiDAR 5 Metre Grid. Geoscience Australia, Canberra.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/AU_GA_DEM_1SEC_v10_DEM-H#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('AU/GA/DEM_1SEC/v10/DEM-H');
 varelevation=dataset.select('elevation');

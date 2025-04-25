@@ -1,6 +1,6 @@
  
 #  Daymet V4: Daily Surface Weather and Climatological Summaries 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/ORNL/DAYMET_V4](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_ORNL_DAYMET_V4_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ Cadence
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [daylight](https://developers.google.com/earth-engine/datasets/tags/daylight) [flux](https://developers.google.com/earth-engine/datasets/tags/flux) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [ornl](https://developers.google.com/earth-engine/datasets/tags/ornl) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [radiation](https://developers.google.com/earth-engine/datasets/tags/radiation) [snow](https://developers.google.com/earth-engine/datasets/tags/snow) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [vapor](https://developers.google.com/earth-engine/datasets/tags/vapor) [water](https://developers.google.com/earth-engine/datasets/tags/water) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
 daymet
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_DAYMET_V4#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_DAYMET_V4#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_DAYMET_V4#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_DAYMET_V4#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_DAYMET_V4#dois) More
+#### Description
 Daymet V4 provides gridded estimates of daily weather parameters for Continental North America, Hawaii, and Puerto Rico (Data for Puerto Rico is available starting in 1950). It is derived from selected meteorological station data and various supporting data sources.
 Compared to the previous version, Daymet V4 provides effective solutions to known issues and further considers improvements to what were believed to be input weather station biases. Improvements include:
   * Reductions in the timing bias of input reporting weather station measurements.
@@ -33,6 +33,7 @@ Documentation:
   * [The THREDDS location for this Collection](https://thredds.daac.ornl.gov/thredds/catalogs/ornldaac/Regional_and_Global_Data/DAYMET_COLLECTIONS/DAYMET_COLLECTIONS.html)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -45,20 +46,23 @@ Name | Units | Min | Max | Description
 `tmin` | °C |  -60*  |  42*  | Daily minimum 2-meter air temperature.  
 `vp` | Pa |  0*  |  8230*  | Daily average partial pressure of water vapor.  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * Thornton, M.M., R. Shrestha, Y. Wei, P.E. Thornton, S-C. Kao, and B.E. Wilson. 2022. Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 4 R1. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/2129
   * Other Citation Details - Thornton, M.M., R. Shrestha, Y. Wei, P.E. Thornton, S. Kao, and B.E. Wilson. 2020. Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 4. ORNL DAAC, Oak Ridge, Tennessee, USA. [doi:10.3334/ORNLDAAC/1840](https://doi.org/10.3334/ORNLDAAC/1840)
 
 
+### DOIs
   * [ https://doi.org/10.3334/ORNLDAAC/1840 ](https://doi.org/10.3334/ORNLDAAC/1840)
   * [ https://doi.org/10.3334/ORNLDAAC/2129 ](https://doi.org/10.3334/ORNLDAAC/2129)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_DAYMET_V4#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/ORNL/DAYMET_V4')
 .filter(ee.Filter.date('2017-04-01','2017-04-30'));

@@ -41,16 +41,16 @@ Name | Units | Min | Max | Scale | Offset | Description
 `irwin_3` | K |  -1624*  |  14240*  | 0.01 | 200 | Brightness temperature, third-best observation based on view zenith angle  
 `irwvp` | K |  -5907*  |  10219*  | 0.01 | 200 | Brightness temperature near 6.7µm, nadir-most observation  
 `irwvp_2` | K |  -5081*  |  10260*  | 0.01 | 200 | Brightness temperature near 6.7µm, second-best observation based on view zenith angle  
-`vschn` |  -25000*  |  4275*  | 4e-05 | 1 | Visible reflectance near 0.6µm, nadir-most observation  
-`vschn_2` |  -25000*  |  3800*  | 4e-05 | 1 | Visible reflectance near 0.6µm, second-best observation based on view zenith angle  
+`vschn` |  |  -25000*  |  4275*  | 4e-05 | 1 | Visible reflectance near 0.6µm, nadir-most observation  
+`vschn_2` |  |  -25000*  |  3800*  | 4e-05 | 1 | Visible reflectance near 0.6µm, second-best observation based on view zenith angle  
 `irwin_vza_adj` | K |  36*  |  171*  | 0.25 | -10 | Adjustment made to all IRWIN channels. Provided to allow users to reverse the view zenith correction for the irwin_cdr variable.  
-`satid_ir1` |  0*  |  5*  | satid values for irwin_cdr. For this and other satid bands, the mappings of satid to satellite name are given in the properties for each image  
-`satid_ir2` |  0*  |  5*  | satid values per pixel for irwin_2  
-`satid_ir3` |  0*  |  5*  | satid values per pixel for irwin_3  
-`satid_wv1` |  0*  |  5*  | satid values per pixel for irwvp  
-`satid_wv2` |  0*  |  5*  | satid values per pixel for irwvp2  
-`satid_vs1` |  0*  |  5*  | satid values per pixel for vischn  
-`satid_vs2` |  0*  |  5*  | satid values per pixel for vischn2  
+`satid_ir1` |  |  0*  |  5*  |  |  | satid values for irwin_cdr. For this and other satid bands, the mappings of satid to satellite name are given in the properties for each image  
+`satid_ir2` |  |  0*  |  5*  |  |  | satid values per pixel for irwin_2  
+`satid_ir3` |  |  0*  |  5*  |  |  | satid values per pixel for irwin_3  
+`satid_wv1` |  |  0*  |  5*  |  |  | satid values per pixel for irwvp  
+`satid_wv2` |  |  0*  |  5*  |  |  | satid values per pixel for irwvp2  
+`satid_vs1` |  |  0*  |  5*  |  |  | satid values per pixel for vischn  
+`satid_vs2` |  |  0*  |  5*  |  |  | satid values per pixel for vischn2  
 * estimated min or max value 
 **Image Properties**
 Name | Type | Description  

@@ -1,6 +1,6 @@
  
 #  MOD17A2HGF.061: Terra Gross Primary Productivity 8-Day Global 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD17A2HGF](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD17A2HGF_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [8-day](https://developers.google.com/earth-engine/datasets/tags/8-day) [global](https://developers.google.com/earth-engine/datasets/tags/global) [gpp](https://developers.google.com/earth-engine/datasets/tags/gpp) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [photosynthesis](https://developers.google.com/earth-engine/datasets/tags/photosynthesis) [plant-productivity](https://developers.google.com/earth-engine/datasets/tags/plant-productivity) [productivity](https://developers.google.com/earth-engine/datasets/tags/productivity) [psn](https://developers.google.com/earth-engine/datasets/tags/psn) [terra](https://developers.google.com/earth-engine/datasets/tags/terra) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2HGF#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2HGF#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2HGF#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2HGF#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2HGF#dois) More
+#### Description
 The MOD17A2HGF Version 6.1 Gross Primary Productivity (GPP) product is a cumulative 8-day composite of values with 500 meter (m) pixel size based on the radiation use efficiency concept that can be potentially used as inputs to data models to calculate terrestrial energy, carbon, water cycle processes, and biogeochemistry of vegetation.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/972/MOD17_User_Guide_V61.pdf)
@@ -25,13 +25,14 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MOD17A2HGF)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Description  
 ---|---|---|---|---|---  
 `Gpp` | kg*C/m^2 |  0  |  3000  | 0.0001 | Gross primary production  
 `PsnNet` | kg*C/m^2 |  -3000  |  3000  | 0.0001 | Net photosynthesis; GPP minus the maintenance respiration (MR)  
-`Psn_QC` | Quality control bits  
+`Psn_QC` |  |  |  |  | Quality control bits  
 Bitmask for Psn_QC
   * Bit 0: MODLAND QC bits 
     * 0: Good quality
@@ -56,18 +57,21 @@ Bitmask for Psn_QC
     * 7: Fill Value
 
   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MOD17A2HGF.061 ](https://doi.org/10.5067/MODIS/MOD17A2HGF.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2HGF#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MOD17A2HGF')
 .filter(ee.Filter.date('2021-01-01','2021-05-01'));

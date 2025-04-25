@@ -1,10 +1,10 @@
  
 #  Sentinel-5P OFFL O3 TCL: Offline Tropospheric Ozone 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S5P/OFFL/L3_O3_TCL](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_O3_TCL_sample.png) 
 
 Dataset Availability
-    2018-04-30T10:50:26Z–2025-04-06T10:54:15Z 
+    2018-04-30T10:50:26Z–2025-04-09T11:39:01Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -17,7 +17,7 @@ Revisit Interval
 
 Tags
      [air-quality](https://developers.google.com/earth-engine/datasets/tags/air-quality) [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [o3](https://developers.google.com/earth-engine/datasets/tags/o3) [ozone](https://developers.google.com/earth-engine/datasets/tags/ozone) [pollution](https://developers.google.com/earth-engine/datasets/tags/pollution) [s5p](https://developers.google.com/earth-engine/datasets/tags/s5p) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel) [tropomi](https://developers.google.com/earth-engine/datasets/tags/tropomi)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3_TCL#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3_TCL#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3_TCL#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3_TCL#terms-of-use) More
+#### Description
 ### OFFL/L3_O3_TCL
 This dataset provides offline tropospheric high-resolution imagery of ozone concentrations between 20N and 20S. See also `COPERNICUS/S5P/OFFL/L3_O3` and `COPERNICUS/S5P/NRTI/L3_O3` for the total column data.
 In the stratosphere, the ozone layer shields the biosphere from dangerous solar ultraviolet radiation. In the troposphere, it acts as an efficient cleansing agent, but at high concentration it also becomes harmful to the health of humans, animals, and vegetation. Ozone is also an important greenhouse-gas contributor to ongoing climate change. Since the discovery of the Antarctic ozone hole in the 1980s and the subsequent Montreal Protocol regulating the production of chlorine-containing ozone-depleting substances, ozone has been routinely monitored from the ground and from space.
@@ -36,6 +36,7 @@ The conversion to L3 is done by the [harpconvert](https://cdn.rawgit.com/stcorp/
 
 
 The O3_TCL product is ingested directly (without running harpconvert).
+### Bands
 **Pixel Size** 111320 meters 
 **Y Pixel Size** 55660 meters 
 **Bands**
@@ -46,6 +47,7 @@ Name | Units | Description
 `ozone_tropospheric_vertical_column` | mol/m^2 | Average tropospheric ozone column based on CCD algorithm.  
 `ozone_tropospheric_vertical_column_precision` | mol/m^2 | Standard deviation of tropospheric ozone column based on CCD algorithm.  
 `qa_value` | mol/m^2 | A continuous quality descriptor, varying between 0 (no data) and 100 (full quality data). Pixels with qa_value <= 70 are masked out.  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -69,11 +71,12 @@ SPATIAL_RESOLUTION | STRING | Spatial resolution at nadir. For most products thi
 TIME_REFERENCE_DAYS_SINCE_1950 | INT | Days from 1 Jan 1950 to when the data was acquired.  
 TIME_REFERENCE_JULIAN_DAY | DOUBLE | The Julian day number when the data was acquired.  
 TRACKING_ID | STRING | UUID for the L2 product file.  
+### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3_TCL#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('COPERNICUS/S5P/OFFL/L3_O3_TCL')
 .select('ozone_tropospheric_vertical_column')
@@ -90,7 +93,7 @@ Map.setCenter(0.0,0.0,2);
 [ Sentinel-5P OFFL O3 TCL: Offline Tropospheric Ozone ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3_TCL)
 OFFL/L3_O3_TCL This dataset provides offline tropospheric high-resolution imagery of ozone concentrations between 20N and 20S. See also COPERNICUS/S5P/OFFL/L3_O3 and COPERNICUS/S5P/NRTI/L3_O3 for the total column data. In the stratosphere, the ozone layer shields the biosphere from dangerous solar ultraviolet radiation. In the troposphere, it acts as an efficient cleansing agent, but …
 COPERNICUS/S5P/OFFL/L3_O3_TCL, air-quality,atmosphere,copernicus,esa,eu,o3,ozone,pollution,s5p,sentinel,tropomi 
-2018-04-30T10:50:26Z/2025-04-06T10:54:15Z
+2018-04-30T10:50:26Z/2025-04-09T11:39:01Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

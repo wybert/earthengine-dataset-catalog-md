@@ -1,6 +1,6 @@
  
 #  MCD18A1.062 Surface Radiation Daily/3-Hour 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/062/MCD18A1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_062_MCD18A1_sample.png) 
 
 Dataset Availability
@@ -17,8 +17,9 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [par](https://developers.google.com/earth-engine/datasets/tags/par) [radiation](https://developers.google.com/earth-engine/datasets/tags/radiation)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_062_MCD18A1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_062_MCD18A1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_062_MCD18A1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_062_MCD18A1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_062_MCD18A1#dois) More
+#### Description
 The MCD18A1 Version 6.2 is a Moderate Resolution Imaging Spectroradiometer (MODIS) Terra and Aqua combined Downward Shortwave Radiation (DSR) gridded Level 3 product produced daily at 1 kilometer pixel resolution with estimates of DSR every 3 hours. DSR is incident solar radiation over land surfaces in the shortwave spectrum (300-4,000 nanometers) and is an important variable in land-surface models that address a variety of scientific and application issues. The MCD18 products are based on a prototyping algorithm that uses multi-temporal signatures of MODIS data to derive surface reflectance and then calculate incident DSR using the look-up table (LUT) approach. The LUTs consider different types of loadings of aerosols and clouds at a variety of illumination/viewing geometry. Global DSR products are generated from MODIS and geostationary satellite data. Additional details regarding the methodology used to create the data are available in the [Algorithm Theoretical Basis Document](https://lpdaac.usgs.gov/documents/106/MCD18_ATBD.pdf).
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -34,7 +35,7 @@ Name | Units | Min | Max | Description
 `GMT_1500_DSR` | W/m^2 |  0  |  1400  | Total DSR at GMT 15:00  
 `GMT_1800_DSR` | W/m^2 |  0  |  1400  | Total DSR at GMT 18:00  
 `GMT_2100_DSR` | W/m^2 |  0  |  1400  | Total DSR at GMT 21:00  
-`DSR_Quality` | Quality flag  
+`DSR_Quality` |  |  |  | Quality flag  
 Bitmask for DSR_Quality
   * Bits 0-1: Input source of surface reflectance data 
     * 0: no valid surface reflectance data
@@ -42,18 +43,21 @@ Bitmask for DSR_Quality
     * 2: from the climatology data
 
   
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MCD18A1.062 ](https://doi.org/10.5067/MODIS/MCD18A1.062)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_062_MCD18A1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/062/MCD18A1')
 .filter(ee.Filter.date('2000-01-01','2001-01-01'));

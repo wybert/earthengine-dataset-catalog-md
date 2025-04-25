@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![NASA/SMAP/SPL3SMP_E/006](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_SMAP_SPL3SMP_E_006_sample.png) 
 
 Dataset Availability
-    2023-12-04T12:00:00Z–2025-04-17T00:00:00Z 
+    2023-12-04T12:00:00Z–2025-04-22T00:00:00Z 
 
 Dataset Provider
      [ Google and NSIDC ](https://nsidc.org/data/spl3smp_e/versions/6) 
@@ -30,22 +30,22 @@ See [basic](https://developers.google.com/earth-engine/tutorials/community/smap-
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`soil_moisture_am` | Volume fraction | Retrieved soil moisture estimate from the disaggregated/downscaled vertical polarization brightness temperature at 9-km grid cell; AM overpass  
+`soil_moisture_am` | Volume fraction |  |  | Retrieved soil moisture estimate from the disaggregated/downscaled vertical polarization brightness temperature at 9-km grid cell; AM overpass  
 `tb_h_corrected_am` | K |  0  |  330  | Weighted average of horizontally polarized brightness temperatures. This value represents the corrected land brightness temperature if the water fraction is lower than 0.9 (otherwise no correction is applied) or represents the corrected water brightness temperature if the water fraction is greater than 0.1 (otherwise no correction is applied); AM overpass  
 `tb_v_corrected_am` | K |  0  |  330  | Weighted average of vertically polarized brightness temperatures. This value represents the corrected land brightness temperature if the water fraction is lower than 0.9 (otherwise no correction is applied) or represents the corrected water brightness temperature if the water fraction is greater than 0.1 (otherwise no correction is applied); AM overpass  
 `vegetation_water_content_am` | kg/m^2 |  0  |  30  | Vegetation water content at 9-km spatial scale. This parameter is used as input ancillary data parameter to the SPL2SMAP processing software when the baseline algorithm is used. The valid minimum and maximum below are subject to further analysis. AM overpass  
-`retrieval_qual_flag_am` |  0  |  65536  | 0 = Pass: Soil moisture with acceptable quality; 1 = Fail: Soil moisture does with unacceptable quality; AM overpass  
-`tb_qual_flag_h_am` |  0  |  65536  | 0= brightness temperatures with unacceptable quality; 1= brightness temperatures with acceptable quality; AM overpass  
-`tb_qual_flag_v_am` |  0  |  65536  | 0= brightness temperatures with unacceptable quality; 1= brightness temperatures with acceptable quality; AM overpass  
-`soil_moisture_pm` | Volume fraction | Retrieved soil moisture estimate from the disaggregated/downscaled vertical polarization brightness temperature at 9-km grid cell; PM overpass  
+`retrieval_qual_flag_am` |  |  0  |  65536  | 0 = Pass: Soil moisture with acceptable quality; 1 = Fail: Soil moisture does with unacceptable quality; AM overpass  
+`tb_qual_flag_h_am` |  |  0  |  65536  | 0= brightness temperatures with unacceptable quality; 1= brightness temperatures with acceptable quality; AM overpass  
+`tb_qual_flag_v_am` |  |  0  |  65536  | 0= brightness temperatures with unacceptable quality; 1= brightness temperatures with acceptable quality; AM overpass  
+`soil_moisture_pm` | Volume fraction |  |  | Retrieved soil moisture estimate from the disaggregated/downscaled vertical polarization brightness temperature at 9-km grid cell; PM overpass  
 `tb_h_corrected_pm` | K |  0  |  330  | Weighted average of horizontally polarized brightness temperatures. This value represents the corrected land brightness temperature if the water fraction is lower than 0.9 (otherwise no correction is applied) or represents the corrected water brightness temperature if the water fraction is greater than 0.1 (otherwise no correction is applied); PM overpass  
 `tb_v_corrected_pm` | K |  0  |  330  | Weighted average of vertically polarized brightness temperatures. This value represents the corrected land brightness temperature if the water fraction is lower than 0.9 (otherwise no correction is applied) or represents the corrected water brightness temperature if the water fraction is greater than 0.1 (otherwise no correction is applied); PM overpass  
 `vegetation_water_content_pm` | kg/m^2 |  0  |  30  | Vegetation water content at 9-km spatial scale. This parameter is used as input ancillary data parameter to the SPL2SMAP processing software when the baseline algorithm is used. The valid minimum and maximum below are subject to further analysis. PM overpass  
-`retrieval_qual_flag_pm` |  0  |  65536  | 0 = Pass: Soil moisture with acceptable quality; 1 = Fail: Soil moisture does with unacceptable quality; PM overpass  
-`tb_qual_flag_h_pm` |  0  |  65536  | 0= brightness temperatures with unacceptable quality; 1= brightness temperatures with acceptable quality; PM overpass  
-`tb_qual_flag_v_pm` |  0  |  65536  | 0= brightness temperatures with unacceptable quality; 1= brightness temperatures with acceptable quality; PM overpass  
-`soil_moisture_am_anomaly` | Experimental. Difference of the 30-day average of 'soil_moisture_am', centered on asset date, relative to the same 30-day period averaged across years from 2015 to present, excluding asset year. See [this script](https://github.com/google/earthengine-community/blob/master/datasets/smap_anomaly_l3.py) for anomaly computations.  
-`soil_moisture_pm_anomaly` | Experimental. Difference of the 30-day average of 'soil_moisture_pm', centered on asset date, relative to the same 30-day period averaged across years from 2015 to present, excluding asset year. See [this script](https://github.com/google/earthengine-community/blob/master/datasets/smap_anomaly_l3.py) for anomaly computations.  
+`retrieval_qual_flag_pm` |  |  0  |  65536  | 0 = Pass: Soil moisture with acceptable quality; 1 = Fail: Soil moisture does with unacceptable quality; PM overpass  
+`tb_qual_flag_h_pm` |  |  0  |  65536  | 0= brightness temperatures with unacceptable quality; 1= brightness temperatures with acceptable quality; PM overpass  
+`tb_qual_flag_v_pm` |  |  0  |  65536  | 0= brightness temperatures with unacceptable quality; 1= brightness temperatures with acceptable quality; PM overpass  
+`soil_moisture_am_anomaly` |  |  |  | Experimental. Difference of the 30-day average of 'soil_moisture_am', centered on asset date, relative to the same 30-day period averaged across years from 2015 to present, excluding asset year. See [this script](https://github.com/google/earthengine-community/blob/master/datasets/smap_anomaly_l3.py) for anomaly computations.  
+`soil_moisture_pm_anomaly` |  |  |  | Experimental. Difference of the 30-day average of 'soil_moisture_pm', centered on asset date, relative to the same 30-day period averaged across years from 2015 to present, excluding asset year. See [this script](https://github.com/google/earthengine-community/blob/master/datasets/smap_anomaly_l3.py) for anomaly computations.  
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
 Citations:
@@ -80,7 +80,7 @@ Map.addLayer(soilMositureSurface,soilMositureSurfaceVis,'Soil Mositure');
 [ SPL3SMP_E.006 SMAP L3 Radiometer Global Daily 9 km Soil Moisture ](https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL3SMP_E_006)
 Data prior from 2023-12-04 are available in the older NASA/SMAP/SPL3SMP_E/005 collection. They will eventually be reprocessed and added to this collection. This Level-3 (L3) soil moisture product provides a daily composite of global land surface conditions retrieved by the Soil Moisture Active Passive (SMAP) L-Band radiometer. The daily data here …
 NASA/SMAP/SPL3SMP_E/006, drought,nasa,smap,soil,soil-moisture,surface,weather 
-2023-12-04T12:00:00Z/2025-04-17T00:00:00Z
+2023-12-04T12:00:00Z/2025-04-22T00:00:00Z
 -84 -180 84 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

@@ -1,6 +1,6 @@
  
 #  WWF HydroSHEDS Basins Level 2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WWF/HydroSHEDS/v1/Basins/hybas_2](https://developers.google.com/earth-engine/datasets/images/WWF/WWF_HydroSHEDS_v1_Basins_hybas_2_sample.png) 
 
 Dataset Availability
@@ -14,13 +14,14 @@ Earth Engine Snippet
 
 Tags
      [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [hydrography](https://developers.google.com/earth-engine/datasets/tags/hydrography) [hydrology](https://developers.google.com/earth-engine/datasets/tags/hydrology) [hydrosheds](https://developers.google.com/earth-engine/datasets/tags/hydrosheds) [srtm](https://developers.google.com/earth-engine/datasets/tags/srtm) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water) [table](https://developers.google.com/earth-engine/datasets/tags/table) [water](https://developers.google.com/earth-engine/datasets/tags/water) [watershed](https://developers.google.com/earth-engine/datasets/tags/watershed) [wwf](https://developers.google.com/earth-engine/datasets/tags/wwf)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_2#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_2#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_2#citations) More
+#### Description
 HydroSHEDS is a mapping product that provides hydrographic information for regional and global-scale applications in a consistent format. It offers a suite of geo-referenced datasets (vector and raster) at various scales, including river networks, watershed boundaries, drainage directions, and flow accumulations. HydroSHEDS is based on elevation data obtained in 2000 by NASA's Shuttle Radar Topography Mission (SRTM).
 This dataset provides polygons of nested, hierarchical watersheds, based on 15 arc-seconds (approx. 500 m at the equator) resolution raster data. The watersheds range from level 1 (coarse) to level 12 (detailed), using Pfastetter codes.
 Technical documentation:
 <https://hydrosheds.org/images/inpages/HydroBASINS_TechDoc_v1c.pdf>
 Note that the quality of the HydroSHEDS data is significantly lower for regions above 60 degrees northern latitude as there is no underlying SRTM elevation data available and thus a coarser-resolution DEM was (HYDRO1k provided by USGS).
 HydroSHEDS was developed by the World Wildlife Fund (WWF) Conservation Science Program in partnership with the U.S. Geological Survey, the International Centre for Tropical Agriculture, The Nature Conservancy, and the Center for Environmental Systems Research of the University of Kassel, Germany.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -37,8 +38,10 @@ ENDO | INT | Indicator for endorheic (inland) basins without surface flow connec
 COAST | INT | Indicator for lumped coastal basins: 0 = no; 1 = yes. Coastal basins represent conglomerates of small coastal watersheds that drain into the ocean between larger river basins.  
 ORDER | INT | Indicator of river order (classical ordering system): * Order 1 represents the main stem river from sink to source; * Order 2 represents all tributaries that flow into a 1st order river; * Order 3 represents all tributaries that flow into a 2nd order river; etc.; * Order 0 is used for conglomerates of small coastal watersheds.  
 SORT | INT | Indicator showing the record number (sequence) in which the original polygons are stored in the shapefile (i.e. counting upwards from 1 in the original shapefile). The original polygons are sorted from downstream to upstream. This field can be used to sort the polygons back to their original sequence or to perform topological searches.  
+### Terms of Use
 **Terms of Use**
 HydroSHEDS data are free for non-commercial and commercial use. For more information, please refer to the [License Agreement](https://www.hydrosheds.org/page/license).
+### Citations
 Citations:
   * Lehner, B., Verdin, K., Jarvis, A. (2008): New global hydrography derived from spaceborne elevation data. Eos, Transactions, AGU, 89(10): 93-94.
   * Lehner, B., Grill G. (2013): Global river hydrography and network routing: baseline data and new approaches to study the world's large river systems. Hydrological Processes, 27(15): 2171-2186. Data is available at www.hydrosheds.org
@@ -46,7 +49,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('WWF/HydroSHEDS/v1/Basins/hybas_2');
 varvisualization={
@@ -61,7 +64,7 @@ Map.addLayer(dataset,null,'Basins');
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer(
 'WWF/HydroSHEDS/v1/Basins/hybas_2_FeatureView');

@@ -1,6 +1,6 @@
  
 #  European Primary Forest Dataset - Points 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![HU_BERLIN/EPFD/V2/points](https://developers.google.com/earth-engine/datasets/images/HU_BERLIN/HU_BERLIN_EPFD_V2_points_sample.png) 
 
 Dataset Availability
@@ -14,9 +14,10 @@ Earth Engine Snippet
 
 Tags
      [europe](https://developers.google.com/earth-engine/datasets/tags/europe) [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [table](https://developers.google.com/earth-engine/datasets/tags/table)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_points#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_points#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_points#terms-of-use) More
+#### Description
 European primary forest data harmonizes 48 different, mostly field-based datasets of primary forests, and contains 18,411 individual patches (41.1 Mha) spread across 33 countries. It includes includes mainly old-growth, late-successional forests, but also some early seral stages and young forests that originated after natural disturbances and natural regeneration, without subsequent management.
 For more information, including a complete list of authors and their affiliations, please see the [dataset documentation](https://www.nature.com/articles/s41597-021-00988-7) This dataset is a point-based, where each point represents the approximate center of a primary forest.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -132,11 +133,12 @@ FOREST_E_1 | INT | The order of magnitude of the extent of a primary forest remn
 
   
 PUBLICATIO | STRING | Publication  
+### Terms of Use
 **Terms of Use**
 European primary forest datasets are provided under the CC BY 4.0 license, which allows for most commmercial, noncommercial, and academic uses. See [provider terms of use](https://www.nature.com/articles/s41597-021-00988-7#Tab3:%7E:text=Full%20size%20table-,Rights%20and%20permissions,-Open%20Access%20This).
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_points#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('HU_BERLIN/EPFD/V2/points');
 Map.setCenter(13.64,50.11,4);

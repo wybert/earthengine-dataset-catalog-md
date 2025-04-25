@@ -1,6 +1,6 @@
  
 #  GPWv411: Basic Demographic Characteristics (Gridded Population of the World Version 4.11) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![CIESIN/GPWv411/GPW_Basic_Demographic_Characteristics](https://developers.google.com/earth-engine/datasets/images/CIESIN/CIESIN_GPWv411_GPW_Basic_Demographic_Characteristics_sample.png) 
 
 Dataset Availability

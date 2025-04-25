@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S5P/OFFL/L3_CLOUD](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_CLOUD_sample.png) 
 
 Dataset Availability
-    2018-07-04T11:34:21Z–2025-04-19T16:57:43Z 
+    2018-07-04T11:34:21Z–2025-04-22T17:42:32Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -55,8 +55,8 @@ Name | Units | Min | Max | Description
 `cloud_top_height` | m |  9*  |  15455*  | Retrieved altitude of the cloud top  
 `cloud_base_pressure` | Pa |  14170*  |  101299*  | Cloud base pressure  
 `cloud_base_height` | m |  9*  |  14540*  | Cloud base height  
-`cloud_optical_depth` |  1*  |  250*  | Retrieved cloud optical depth  
-`surface_albedo` |  3.95845e-11*  |  1*  | Surface albedo  
+`cloud_optical_depth` |  |  1*  |  250*  | Retrieved cloud optical depth  
+`surface_albedo` |  |  3.95845e-11*  |  1*  | Surface albedo  
 `sensor_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the satellite at the ground pixel location (WGS84); angle measured East-of-North.  
 `sensor_zenith_angle` | deg |  0.09*  |  66.44*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 `solar_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North.  
@@ -108,7 +108,7 @@ Map.setCenter(-58.14,-10.47,2);
 [ Sentinel-5P OFFL CLOUD: Offline Cloud Properties ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD)
 OFFL/L3_CLOUD This dataset provides offline high-resolution imagery of cloud parameters. The TROPOMI/S5P cloud properties retrieval is based on the OCRA and ROCINN algorithms currently being used in the operational GOME and GOME-2 products. OCRA retrieves the cloud fraction using measurements in the UV/VIS spectral regions and ROCINN retrieves the cloud …
 COPERNICUS/S5P/OFFL/L3_CLOUD, atmosphere,cloud,copernicus,dlr,esa,eu,s5p,sentinel,tropomi 
-2018-07-04T11:34:21Z/2025-04-19T16:57:43Z
+2018-07-04T11:34:21Z/2025-04-22T17:42:32Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

@@ -1,6 +1,6 @@
  
 #  GFW (Global Fishing Watch) Daily Fishing Hours 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![GFW/GFF/V1/fishing_hours](https://developers.google.com/earth-engine/datasets/images/GFW/GFW_GFF_V1_fishing_hours_sample.png) 
 
 Dataset Availability
@@ -17,9 +17,10 @@ Cadence
 
 Tags
      [fishing](https://developers.google.com/earth-engine/datasets/tags/fishing) [gfw](https://developers.google.com/earth-engine/datasets/tags/gfw) [marine](https://developers.google.com/earth-engine/datasets/tags/marine) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [ocean](https://developers.google.com/earth-engine/datasets/tags/ocean) [oceans](https://developers.google.com/earth-engine/datasets/tags/oceans)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/GFW_GFF_V1_fishing_hours#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/GFW_GFF_V1_fishing_hours#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/GFW_GFF_V1_fishing_hours#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/GFW_GFF_V1_fishing_hours#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/GFW_GFF_V1_fishing_hours#citations) More
+#### Description
 Fishing effort, measured in hours of inferred fishing activity. Each asset is the effort for a given flag state and day, with one band for the fishing activity of each gear type.
 See [sample Earth Engine scripts](https://globalfishingwatch.org/research/global-footprint-of-fisheries/). Also see [the main GFW site](https://GlobalFishingWatch.org) for program information, fully interactive visualization maps, and impacts.
+### Bands
 **Pixel Size** 1113.2 meters 
 **Bands**
 Name | Units | Description  
@@ -30,19 +31,22 @@ Name | Units | Description
 `purse_seines` | h/km^2 | Hours per sq. km of fishing with purse seines.  
 `squid_jigger` | h/km^2 | Hours per sq. km of fishing with squid jiggers.  
 `trawlers` | h/km^2 | Hours per sq. km of fishing with trawlers.  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 country | STRING | ISO3 country code of the vessel flag state. For all countries, use "WLD".  
+### Terms of Use
 **Terms of Use**
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International license. (CC-BY-SA)
+### Citations
 Citations:
   * Global Fishing Watch, "Tracking the Global Footprint of Fisheries." Science 361.6378 (2018).
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/GFW_GFF_V1_fishing_hours#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('GFW/GFF/V1/fishing_hours')
 .filter(ee.Filter.date('2016-12-01','2017-01-01'));

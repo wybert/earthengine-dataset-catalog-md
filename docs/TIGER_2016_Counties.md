@@ -1,6 +1,6 @@
  
 #  TIGER: US Census Counties 2016 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![TIGER/2016/Counties](https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2016_Counties_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [census](https://developers.google.com/earth-engine/datasets/tags/census) [county](https://developers.google.com/earth-engine/datasets/tags/county) [infrastructure-boundaries](https://developers.google.com/earth-engine/datasets/tags/infrastructure-boundaries) [table](https://developers.google.com/earth-engine/datasets/tags/table) [tiger](https://developers.google.com/earth-engine/datasets/tags/tiger) [us](https://developers.google.com/earth-engine/datasets/tags/us)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties#citations) More
+#### Description
 The United States Census Bureau TIGER dataset contains the 2016 boundaries for primary legal divisions of US states. In most states, these entities are termed "counties". In Louisiana, these divisions are known as "parishes".
 Alaska has governmental entities called "boroughs" which fill a similar governmental role to counties, but in some areas those governmental responsibilities are handled directly by the state and sometimes by a city. For Alaska, county equivalent entities thus include
   1. organized boroughs,
@@ -27,6 +27,7 @@ The census areas are delineated cooperatively for statistical purposes by the St
 In four states (Maryland, Missouri, Nevada, and Virginia), there are one or more incorporated places that are independent of any county organization and thus constitute primary divisions of their states. These incorporated places are known as independent cities and are treated as county-equivalent entities for purposes of data presentation.
 The District of Columbia and Guam have no primary divisions and each area is considered a county-equivalent entity for purposes of data presentation. The Census Bureau treats the following entities as equivalents of counties for purposes of data presentation: municipios in Puerto Rico, districts and islands in America Samoa, municipalities in the Commonwealth of the Northern Mariana Islands, and islands in the U.S. Virgin Islands.
 For full technical details on all TIGER 2016 products, see the [TIGER technical documentation](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2016/TGRSHP2016_TechDoc.pdf).
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -47,15 +48,17 @@ MTFCC | STRING | MAF/TIGER feature class code (=G4020)
 NAME | STRING | County name  
 NAMELSAD | STRING | Name and the translated legal/statistical area description for the county  
 STATEFP | STRING | State FIPS code  
+### Terms of Use
 **Terms of Use**
 The U.S. Census Bureau offers some of its public data in machine-readable format via an Application Programming Interface (API). All of the content, documentation, code and related materials made available through the API are subject to [these terms and conditions](https://www.census.gov/data/developers/about/terms-of-service.html).
+### Citations
 Citations:
   * For the creation of any reports, publications, new data sets, derived products, or services resulting from the data set, users should [cite the US Census Bureau](https://www.census.gov/about/policies/citation.html).
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('TIGER/2016/Counties');
 varvisParams={
@@ -90,7 +93,7 @@ Map.addLayer(dataset,null,'for Inspector',false);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('TIGER/2016/Counties_FeatureView');
 varvisParams={

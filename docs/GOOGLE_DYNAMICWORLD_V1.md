@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![GOOGLE/DYNAMICWORLD/V1](https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_DYNAMICWORLD_V1_sample.png) 
 
 Dataset Availability
-    2015-06-27T00:00:00Z–2025-04-22T12:37:01.494000Z 
+    2015-06-27T00:00:00Z–2025-04-24T16:56:21.594000Z 
 
 Dataset Provider
      [ World Resources Institute ](https://www.wri.org/) [ Google ](https://research.google.com/) 
@@ -186,7 +186,7 @@ m
 [ Dynamic World V1 ](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1)
 Dynamic World is a 10m near-real-time (NRT) Land Use/Land Cover (LULC) dataset that includes class probabilities and label information for nine classes. Dynamic World predictions are available for the Sentinel-2 L1C collection from 2015-06-27 to present. The revisit frequency of Sentinel-2 is between 2-5 days depending on latitude. Dynamic World …
 GOOGLE/DYNAMICWORLD/V1, global,google,landcover,landuse,landuse-landcover,nrt,sentinel2-derived 
-2015-06-27T00:00:00Z/2025-04-22T12:37:01.494000Z
+2015-06-27T00:00:00Z/2025-04-24T16:56:21.594000Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

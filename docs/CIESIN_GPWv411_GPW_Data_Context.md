@@ -1,6 +1,6 @@
  
 #  GPWv411: Data Context (Gridded Population of the World Version 4.11) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![CIESIN/GPWv411/GPW_Data_Context](https://developers.google.com/earth-engine/datasets/images/CIESIN/CIESIN_GPWv411_GPW_Data_Context_sample.png) 
 
 Dataset Availability
@@ -14,10 +14,11 @@ Earth Engine Snippet
 
 Tags
      [ciesin](https://developers.google.com/earth-engine/datasets/tags/ciesin) [gpw](https://developers.google.com/earth-engine/datasets/tags/gpw) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [population](https://developers.google.com/earth-engine/datasets/tags/population)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Data_Context#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Data_Context#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Data_Context#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Data_Context#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Data_Context#dois) More
+#### Description
 This dataset categorizes pixels with estimated zero population based on information provided in the census documents.
 [General Documentation](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-admin-unit-center-points-population-estimates-rev11/docs)
 The Gridded Population of World Version 4 (GPWv4), Revision 11 models the distribution of global human population for the years 2000, 2005, 2010, 2015, and 2020 on 30 arc-second (approximately 1 km) grid cells. Population is distributed to cells using proportional allocation of population from census and administrative units. Population input data are collected at the most detailed spatial resolution available from the results of the 2010 round of censuses, which occurred between 2005 and 2014. The input data are extrapolated to produce population estimates for each modeled year.
+### Bands
 **Pixel Size** 927.67 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -35,18 +36,21 @@ Value | Color | Description
 205 | #a5a5a5 | Uninhabited  
 206 | #d4cc11 | Population not gridded  
 207 | #000000 | Missing age or sex data  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Center for International Earth Science Information Network - CIESIN - Columbia University. 2018. Gridded Population of the World, Version 4 (GPWv4): Data Context, Revision 11. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). [doi:10.7927/H42Z13KG](https://doi.org/10.7927/H42Z13KG). Accessed DAY MONTH YEAR.
 
 
+### DOIs
   * [ https://doi.org/10.7927/H42Z13KG ](https://doi.org/10.7927/H42Z13KG)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/CIESIN_GPWv411_GPW_Data_Context#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('CIESIN/GPWv411/GPW_Data_Context');
 varraster=dataset.select('data_context');

@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S5P/NRTI/L3_AER_LH](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_NRTI_L3_AER_LH_sample.png) 
 
 Dataset Availability
-    2018-07-10T11:17:44Z–2025-04-21T08:26:30Z 
+    2018-07-10T11:17:44Z–2025-04-24T09:11:30Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -93,7 +93,7 @@ Map.setCenter(44.09,24.27,4);
 [ Sentinel-5P NRTI AER LH: Near Real-Time UV Aerosol Layer Height ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_LH)
 NRTI/L3_AER_LH This dataset provides offline high-resolution imagery of the UV Aerosol Index (UVAI), also called the Absorbing Layer Height (ALH). The ALH is very sensitive to cloud contamination. However, aerosols and clouds can be difficult to distinguish, and ALH is computed for all FRESCO effective cloud fractions smaller than 0.05. …
 COPERNICUS/S5P/NRTI/L3_AER_LH, aerosol,air-quality,alh,atmosphere,copernicus,esa,eu,knmi,pollution,s5p,sentinel,tropomi,uvai 
-2018-07-10T11:17:44Z/2025-04-21T08:26:30Z
+2018-07-10T11:17:44Z/2025-04-24T09:11:30Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

@@ -1,6 +1,6 @@
  
 #  USFS Tree Canopy Cover v2021-4 (CONUS and OCONUS) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/NLCD_RELEASES/2021_REL/TCC/v2021-4](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [gtac](https://developers.google.com/earth-engine/datasets/tags/gtac) [landsat-derived](https://developers.google.com/earth-engine/datasets/tags/landsat-derived) [redcastle-resources](https://developers.google.com/earth-engine/datasets/tags/redcastle-resources) [sentinel2-derived](https://developers.google.com/earth-engine/datasets/tags/sentinel2-derived) [time-series](https://developers.google.com/earth-engine/datasets/tags/time-series) [usda](https://developers.google.com/earth-engine/datasets/tags/usda) [usfs](https://developers.google.com/earth-engine/datasets/tags/usfs) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4#citations) More
+#### Description
 This product is part of the Tree Canopy Cover (TCC) data suite. It includes modeled TCC, standard error (SE), and National Land Cover Database's (NLCD) TCC data for each year. TCC data produced by the the United States Department of Agriculture, Forest Service (USFS) are included in the Multi-Resolution Land Characteristics (MRLC) consortium that is part of the National Land Cover Database (NLCD) project managed by the United States (US) Geological Survey (USGS).
 The Science TCC product and NLCD TCC are remote sensing-based map output produced by the USFS. The objecive of TCC Science and NLCD TCC are to develop a consistent approach using the latest technology and advancements in TCC mapping to produce a "best available" map of TCC across the Conterminous United States (CONUS) and southeast Alaska, Hawaii and Puerto Rico-US Virgin Islands (OCONUS).
 Model outputs include Science TCC, Science SE and NLCD TCC. Science TCC and SE include data from 2008 through 2021. NLCD TCC include data from 2011 through 2021, with data fully masked in 2008, 2009 and 2010. 
@@ -42,6 +42,7 @@ Contact [sm.fs.tcc@usda.gov](https://developers.google.com/earth-engine/datasets
   * **Zhu, Z., and Woodcock, C. E., 2012.**. Object-based cloud and cloud shadow detection in Landsat imagery. In Remote Sensing of Environment. _Science Direct_ , 118: 83-94 [doi:10.1016/j.rse.2011.10.028](https://doi.org/10.1016/j.rse.2011.10.028)
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Description  
@@ -49,7 +50,7 @@ Name | Units | Description
 `Science_Percent_Tree_Canopy_Cover` | % | The raw direct model outputs. Each pixel has a mean predicted tree canopy cover value for each year.  
 `Science_Percent_Tree_Canopy_Cover_Standard_Error` | % | The standard deviation of the predicted values from all regression trees we refer to as standard error. Each pixel has a standard error for each year.  
 `NLCD_Percent_Tree_Canopy_Cover` | % | To produce NLCD tree canopy cover, a post-processing workflow is applied to the direct model output that identifies and sets non-treed pixel values to zero percent tree canopy cover. NLCD tree canopy cover data are fully masked in 2008, 2009 and 2010.   
-`data_mask` | Three values representing areas of no data, mapped tree canopy cover, and non-processing area. The non-processing area is where pixels within the study area have no cloud or cloud shadow-free data available to produce an output.  
+`data_mask` |  | Three values representing areas of no data, mapped tree canopy cover, and non-processing area. The non-processing area is where pixels within the study area have no cloud or cloud shadow-free data available to produce an output.  
 Bitmask for data_mask
   * Bits 0-1: Three values representing areas of no data, mapped tree canopy cover, and non-processing area. 
     * 0: No data
@@ -57,6 +58,7 @@ Bitmask for data_mask
     * 2: Non-processing area
 
   
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -65,17 +67,19 @@ version | STRING | This is the fourth version of the TCC product released in the
 startYear | INT | 'Start year of the product'  
 endYear | INT | 'End year of the product'  
 year | INT | 'Year of the product'  
+### Terms of Use
 **Terms of Use**
 The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Natural hazards may or may not be depicted on the data and maps, and land users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly.
 These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation:
 USDA Forest Service. 2023. USFS Tree Canopy Cover v2021.4 (Conterminous United States and Southeastern Alaska). Salt Lake City, Utah.
+### Citations
 Citations:
   * USDA Forest Service. 2023. USFS Tree Canopy Cover v2021.4 (Conterminous United States and Southeastern Alaska). Salt Lake City, Utah.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Import the tree canopy cover collection
 vardataset=ee.ImageCollection('USGS/NLCD_RELEASES/2021_REL/TCC/v2021-4');

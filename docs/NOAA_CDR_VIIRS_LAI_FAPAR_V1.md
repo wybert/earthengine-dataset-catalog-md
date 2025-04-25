@@ -1,10 +1,10 @@
  
 #  NOAA CDR VIIRS LAI FAPAR: Leaf Area Index and Fraction of Absorbed Photosynthetically Active Radiation, Version 1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/CDR/VIIRS/LAI_FAPAR/V1](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CDR_VIIRS_LAI_FAPAR_V1_sample.png) 
 
 Dataset Availability
-    2014-01-01T00:00:00Z–2025-04-18T00:00:00Z 
+    2014-01-01T00:00:00Z–2025-04-21T00:00:00Z 
 
 Dataset Provider
      [ NOAA ](https://www.ncei.noaa.gov/products/climate-data-records/leaf-area-index-and-fapar) 
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [cdr](https://developers.google.com/earth-engine/datasets/tags/cdr) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [fapar](https://developers.google.com/earth-engine/datasets/tags/fapar) [lai](https://developers.google.com/earth-engine/datasets/tags/lai) [land](https://developers.google.com/earth-engine/datasets/tags/land) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [plant-productivity](https://developers.google.com/earth-engine/datasets/tags/plant-productivity) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1#dois) More
+#### Description
 This Climate Data Record (CDR) combines datasets for Leaf Area Index (LAI) and Fraction of Absorbed Photosynthetically Active Radiation (FAPAR), two biophysical variables that can be used to evaluate vegetation stress, forecast agricultural yields, and other modeling and resource management applications. LAI tracks the one-sided green leaf area per unit of ground surface area, while FAPAR quantifies the solar radiation absorbed by plants within the photosynthetically active radiation (PAR) spectral region. The LAI/FAPAR CDR generates a daily product on a .05° by .05° grid. The data is generated from the Visible Infrared Imaging Radiometer Suite (VIIRS) sensors from 2014 onward.
 Known issues with this dataset include:
   * TIMEOFDAY variable contains values that are too large by 1 day
@@ -27,13 +27,14 @@ Known issues with this dataset include:
 
 See [technical note from the data provider](https://www.ncei.noaa.gov/pub/data/sds/cdr/CDRs/Leaf_Area_Index_and_FAPAR/VIIRS/AlgorithmDescriptionVIIRS_01B-20c.pdf).
 Provider's note: the orbital drift of N-19 (the last NOAA satellite carrying the AVHRR sensor) began to severely degrade the retrieved product quality. Therefore, VIIRS is now the primary sensor being used for these products from 2014-present.
+### Bands
 **Pixel Size** 5566 meters 
 **Bands**
 Name | Min | Max | Scale | Description  
 ---|---|---|---|---  
 `LAI` |  0*  |  6205*  | 0.001 | Leaf area index  
 `FAPAR` |  0*  |  896*  | 0.001 | Fraction of absorbed photosynthetic active radiation  
-`QA` | Quality control bit flags  
+`QA` |  |  |  | Quality control bit flags  
 Bitmask for QA
   * Bits 0-1: Quality control 
     * 0: Ok
@@ -56,22 +57,26 @@ Bitmask for QA
 
   
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 status | STRING | 'provisional' or 'permanent'  
+### Terms of Use
 **Terms of Use**
 The NOAA CDR Program's official distribution point for CDRs is NOAA's National Climatic Data Center which provides sustained, open access and active data management of the CDR packages and related information in keeping with the United States' open data policies and practices as described in the President's Memorandum on "Open Data Policy" and pursuant to the Executive Order of May 9, 2013, "Making Open and Machine Readable the New Default for Government Information". In line with these policies, the CDR data sets are nonproprietary, publicly available, and no restrictions are placed upon their use. For more information, see the [Fair Use of NOAA's CDR Data Sets, Algorithms and Documentation](https://www1.ncdc.noaa.gov/pub/data/sds/cdr/CDRs/Aerosol_Optical_Thickness/UseAgreement_01B-04.pdf) pdf.
+### Citations
 Citations:
   * Cite as: Claverie, Martin; Vermote, Eric; Justice, Chris; Csiszar, Ivan; Myneni, Ranga; Baret, Frederic; Masuoka, Ed; Wolfe, Robert; Ray, James P.; NOAA CDR Program. (2023): NOAA Climate Data Record (CDR) of VIIRS Leaf Area Index (LAI) and Fraction of Absorbed Photosynthetically Active Radiation (FAPAR), Version 1. [indicate subset used]. NOAA National Centers for Environmental Information. [https://doi.org/10.25921/9x3m-0e02](https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01706/html).
 
 
+### DOIs
   * [ https://doi.org/10.25921/9x3m-0e02 ](https://doi.org/10.25921/9x3m-0e02)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NOAA/CDR/VIIRS/LAI_FAPAR/V1')
 .filter(ee.Filter.date('2018-02-01','2018-03-01'));
@@ -88,7 +93,7 @@ Map.addLayer(leafAreaIndex,leafAreaIndexVis,'Leaf Area Index');
 [ NOAA CDR VIIRS LAI FAPAR: Leaf Area Index and Fraction of Absorbed Photosynthetically Active Radiation, Version 1 ](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_VIIRS_LAI_FAPAR_V1)
 This Climate Data Record (CDR) combines datasets for Leaf Area Index (LAI) and Fraction of Absorbed Photosynthetically Active Radiation (FAPAR), two biophysical variables that can be used to evaluate vegetation stress, forecast agricultural yields, and other modeling and resource management applications. LAI tracks the one-sided green leaf area per unit …
 NOAA/CDR/VIIRS/LAI_FAPAR/V1, cdr,daily,fapar,lai,land,noaa,plant-productivity,viirs 
-2014-01-01T00:00:00Z/2025-04-18T00:00:00Z
+2014-01-01T00:00:00Z/2025-04-21T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

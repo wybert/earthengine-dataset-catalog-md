@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![NOAA/NWS/RTMA](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_NWS_RTMA_sample.png) 
 
 Dataset Availability
-    2011-01-01T00:00:00Z–2025-04-21T18:00:00Z 
+    2011-01-01T00:00:00Z–2025-04-24T18:00:00Z 
 
 Dataset Provider
      [ NOAA/NWS ](https://www.nco.ncep.noaa.gov/pmb/products/rtma/) 
@@ -60,7 +60,7 @@ Map.addLayer(windSpeed,windSpeedVis,'Wind Speed');
 [ RTMA: Real-Time Mesoscale Analysis ](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NWS_RTMA)
 The Real-Time Mesoscale Analysis (RTMA) is a high-spatial and temporal resolution analysis for near-surface weather conditions. This dataset includes hourly analyses at 2.5 km for CONUS.
 NOAA/NWS/RTMA, atmosphere,climate,cloud,geophysical,humidity,noaa,nws,precipitation,pressure,surface,temperature,weather,wind 
-2011-01-01T00:00:00Z/2025-04-21T18:00:00Z
+2011-01-01T00:00:00Z/2025-04-24T18:00:00Z
 20.15 -130.17 52.91 -60.81 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

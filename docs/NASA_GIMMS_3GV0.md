@@ -1,6 +1,6 @@
  
 #  GIMMS NDVI From AVHRR Sensors (3rd Generation) 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GIMMS/3GV0](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GIMMS_3GV0_sample.png) 
 
 Dataset Availability
@@ -26,7 +26,7 @@ GIMMS NDVI is generated from several NOAA's AVHRR sensors for a global 1/12-degr
 Name | Min | Max | Description  
 ---|---|---|---  
 `ndvi` |  -1  |  1  | NDVI  
-`qa` | QA flag  
+`qa` |  |  | QA flag  
 Bitmask for qa
   * Bits 0-2: QA flag values 
     * 1: Good value

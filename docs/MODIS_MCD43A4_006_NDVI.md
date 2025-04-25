@@ -1,6 +1,6 @@
  
 #  MODIS Combined 16-Day NDVI 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/MCD43A4_006_NDVI](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MCD43A4_006_NDVI_sample.png) 
 
 Dataset Availability
@@ -28,18 +28,20 @@ ndvi
 reflectance
 usgs
 vegetation-indices
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_NDVI#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_NDVI#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_NDVI#terms-of-use) More
+#### Description
 The Normalized Difference Vegetation Index is generated from the Near-IR and Red bands of each scene as (NIR - Red) / (NIR + Red), and ranges in value from -1.0 to 1.0. This product is generated from the MODIS/006/MCD43A4 surface reflectance composites.
+### Bands
 **Bands**
 Name | Min | Max | Pixel Size | Description  
 ---|---|---|---|---  
 `NDVI` |  -1*  |  1*  |  463.313 meters  | Normalized Difference Vegetation Index  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4_006_NDVI#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/MCD43A4_006_NDVI')
 .filter(ee.Filter.date('2018-04-01','2018-06-01'));

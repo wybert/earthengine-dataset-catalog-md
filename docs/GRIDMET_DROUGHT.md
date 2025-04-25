@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![GRIDMET/DROUGHT](https://developers.google.com/earth-engine/datasets/images/GRIDMET/GRIDMET_DROUGHT_sample.png) 
 
 Dataset Availability
-    1980-01-05T00:00:00Z–2025-04-15T06:00:00Z 
+    1980-01-05T00:00:00Z–2025-04-20T06:00:00Z 
 
 Dataset Provider
      [ University of California Merced ](http://www.climatologylab.org/gridmet.html) 
@@ -149,7 +149,7 @@ Map.addLayer(ee.Image(EDDI2y.first()),colorbarOptions1,'EDDI-48months');
 [ GRIDMET DROUGHT: CONUS Drought Indices ](https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT)
 This dataset contains drought indices derived from the 4-km daily Gridded Surface Meteorological (GRIDMET) dataset. The drought indices provided include the standardized precipitation index (SPI), the evaporative drought demand index (EDDI), the standardized precipitation evapotranspiration index (SPEI), the Palmer Drought Severity Index (PDSI) and Palmer Z Index (Z). SPI, EDDI, …
 GRIDMET/DROUGHT, climate,conus,crop,drought,evapotranspiration,geophysical,gridmet,merced,metdata,palmer,pdsi,precipitation,surface-ground-water,water-vapor 
-1980-01-05T00:00:00Z/2025-04-15T06:00:00Z
+1980-01-05T00:00:00Z/2025-04-20T06:00:00Z
 24.9 -124.9 49.6 -66.8 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

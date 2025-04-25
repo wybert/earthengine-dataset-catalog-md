@@ -1,10 +1,10 @@
  
 #  GOES-19 FDCC Series ABI Level 2 Fire/Hot Spot Characterization CONUS 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/GOES/19/FDCC](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GOES_19_FDCC_sample.png) 
 
 Dataset Availability
-    2025-04-07T00:00:00Z–2025-04-22T15:56:17.700000Z 
+    2025-04-07T00:00:00Z–2025-04-24T23:56:19Z 
 
 Dataset Provider
      [ NOAA ](https://data.noaa.gov/onestop/collections/details/d9303237-8672-4917-a251-29c3f7640684) 
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [abi](https://developers.google.com/earth-engine/datasets/tags/abi) [fdc](https://developers.google.com/earth-engine/datasets/tags/fdc) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [goes](https://developers.google.com/earth-engine/datasets/tags/goes) [goes-19](https://developers.google.com/earth-engine/datasets/tags/goes-19) [goes-east](https://developers.google.com/earth-engine/datasets/tags/goes-east) [goes-u](https://developers.google.com/earth-engine/datasets/tags/goes-u) [hotspot](https://developers.google.com/earth-engine/datasets/tags/hotspot) [nesdis](https://developers.google.com/earth-engine/datasets/tags/nesdis) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [ospo](https://developers.google.com/earth-engine/datasets/tags/ospo) [wildfire](https://developers.google.com/earth-engine/datasets/tags/wildfire)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC#dois) More
+#### Description
 [GOES](https://www.goes.noaa.gov) satellites are geostationary weather satellites run by NOAA.
 The Fire (HSC) product contains four images: one in the form of a fire mask and the other three with pixel values identifying fire temperature, fire area, and fire radiative power.
 The ABI L2+ FHS metadata mask assigns a flag to every earth-navigated pixel that indicates its disposition with respect to the FHS algorithm. Operational users who have the lowest tolerance for false alarms should focus on the "processed" and "saturated" categories (mask codes 10, 11, 30, and 31), but within these categories there can still be false alarms.
@@ -29,15 +29,16 @@ NOAA provides the following scripts for suggested categories, color maps, and vi
 
 
 NOAA's Office of Satellite and Product Operations has a [General Satellite Messages](https://www.ospo.noaa.gov/Operations/messages.html) channel with status updates.
+### Bands
 **Pixel Size** 2000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Offset | Description  
 ---|---|---|---|---|---|---  
 `Area` | m^2 |  0*  |  16723*  | 60.98 | 4000 | Fire area  
 `Temp` | K |  0*  |  32642*  | 0.0549367 | 400 | Fire temperature  
-`Mask` | Fire mask categories. Pixel values in the fire mask image identify a fire category and diagnostic information associated with algorithm execution. The six fire categories include: Good quality or temporally filtered good quality fire pixel; Saturated fire pixel or temporally filtered saturated fire pixel; Cloud contaminated or temporally filtered cloud contaminated fire pixel; High probability or temporally filtered high probability fire pixel; Medium probability or temporally filtered high probability fire pixel; Low probability or temporally filtered high probability fire. Temporally filtered fire pixels are those resulting from fire pixels that are in close proximity in both space and time.  
-`Power` | MW |  0  |  200000  | Fire radiative power  
-`DQF` |  0  |  5  | Data quality flags  
+`Mask` |  |  |  |  |  | Fire mask categories. Pixel values in the fire mask image identify a fire category and diagnostic information associated with algorithm execution. The six fire categories include: Good quality or temporally filtered good quality fire pixel; Saturated fire pixel or temporally filtered saturated fire pixel; Cloud contaminated or temporally filtered cloud contaminated fire pixel; High probability or temporally filtered high probability fire pixel; Medium probability or temporally filtered high probability fire pixel; Low probability or temporally filtered high probability fire. Temporally filtered fire pixels are those resulting from fire pixels that are in close proximity in both space and time.  
+`Power` | MW |  0  |  200000  |  |  | Fire radiative power  
+`DQF` |  |  0  |  5  |  |  | Data quality flags  
 * estimated min or max value 
 **Mask Class Table**
 Value | Color | Description  
@@ -63,19 +64,22 @@ Value | Color | Description
 3 | #00ffff | Invalid due to surface type or sunglint or LZA threshold exceeded or off earth or missing input data  
 4 | #ffff00 | Invalid due to bad input data  
 5 | #ff0000 | Invalid due to algorithm failure  
+### Terms of Use
 **Terms of Use**
 NOAA data, information, and products, regardless of the method of delivery, are not subject to copyright and carry no restrictions on their subsequent use by the public. Once obtained, they may be put to any lawful use.
+### Citations
 Citations:
   * Early characterization of the active fire detection products derived from the next generation NPOESS/VIIRS and GOES-R/ABI instruments. Schroeder, W., Csiszar, I., et al, (2010), Early characterization of the active fire detection products derived from the next generation NPOESS/VIIRS and GOES-R/ABI instruments, paper presented at 2010 IEEE International Geoscience and Remote Sensing Symposium (IGARSS), Honolulu, HI. [doi:10.1109/IGARSS.2010.5650863](https://doi.org/10.1109/IGARSS.2010.5650863)
   * Schmit, T., Griffith, P., et al, (2016), A closer look at the ABI on the GOES-R series, Bull. Amer. Meteor. Soc., 98(4), 681-698. [doi:10.1175/BAMS-D-15-00230.1](https://doi.org/10.1175/BAMS-D-15-00230.1)
 
 
+### DOIs
   * [ https://doi.org/10.1175/BAMS-D-15-00230.1 ](https://doi.org/10.1175/BAMS-D-15-00230.1)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // NOAA GOES-19 conterminous fire product for a single time slice.
 varimage=ee.Image('NOAA/GOES/19/FDCC/2025097000117300000');
@@ -131,7 +135,7 @@ Map.addLayer(temp,{color:'red'},'temp');
 [ GOES-19 FDCC Series ABI Level 2 Fire/Hot Spot Characterization CONUS ](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC)
 GOES satellites are geostationary weather satellites run by NOAA. The Fire (HSC) product contains four images: one in the form of a fire mask and the other three with pixel values identifying fire temperature, fire area, and fire radiative power. The ABI L2+ FHS metadata mask assigns a flag to …
 NOAA/GOES/19/FDCC, abi,fdc,fire,goes,goes-19,goes-east,goes-u,hotspot,nesdis,noaa,ospo,wildfire 
-2025-04-07T00:00:00Z/2025-04-22T15:56:17.700000Z
+2025-04-07T00:00:00Z/2025-04-24T23:56:19Z
 14.57 -180 53.51 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

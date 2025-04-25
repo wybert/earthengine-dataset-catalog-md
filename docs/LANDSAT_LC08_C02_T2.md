@@ -1,10 +1,10 @@
  
 #  USGS Landsat 8 Collection 2 Tier 2 Raw Scenes 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LC08/C02/T2](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T2_sample.png) 
 
 Dataset Availability
-    2021-10-28T23:17:26Z–2025-04-13T15:57:46.366000Z 
+    2021-10-28T23:17:26Z–2025-04-21T15:22:33.103000Z 
 
 Dataset Provider
      [ USGS ](https://www.usgs.gov/land-resources/nli/landsat/landsat-8-data-users-handbook) 
@@ -17,8 +17,9 @@ Revisit Interval
 
 Tags
      [c2](https://developers.google.com/earth-engine/datasets/tags/c2) [global](https://developers.google.com/earth-engine/datasets/tags/global) [l8](https://developers.google.com/earth-engine/datasets/tags/l8) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [lc8](https://developers.google.com/earth-engine/datasets/tags/lc8) [oli-tirs](https://developers.google.com/earth-engine/datasets/tags/oli-tirs) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [t2](https://developers.google.com/earth-engine/datasets/tags/t2) [tier2](https://developers.google.com/earth-engine/datasets/tags/tier2) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2#terms-of-use) More
+#### Description
 Landsat 8 Collection 2 Tier 2 DN values, representing scaled, calibrated at-sensor radiance. Scenes not meeting Tier 1 criteria during processing are assigned to Tier 2. This includes Systematic terrain (L1GT) and Systematic (L1GS) processed scenes, as well as any L1TP scenes that do not meet the Tier 1 specifications due to significant cloud cover, insufficient ground control, and other factors. Users interested in Tier 2 scenes can analyze the RMSE and other properties to determine the suitability for use in individual applications and studies. See more information [in the USGS docs](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collections).
+### Bands
 **Bands**
 Name | Pixel Size | Wavelength | Description  
 ---|---|---|---  
@@ -33,7 +34,7 @@ Name | Pixel Size | Wavelength | Description
 `B9` |  30 meters  | 1.36 - 1.38 μm | Cirrus  
 `B10` |  30 meters  | 10.60 - 11.19 μm | Thermal infrared 1, resampled from 100m to 30m  
 `B11` |  30 meters  | 11.50 - 12.51 μm | Thermal infrared 2, resampled from 100m to 30m  
-`QA_PIXEL` |  30 meters  | Landsat Collection 2 OLI/TIRS QA Bitmask  
+`QA_PIXEL` |  30 meters  |  | Landsat Collection 2 OLI/TIRS QA Bitmask  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
     * 0: Image data
@@ -81,7 +82,7 @@ Bitmask for QA_PIXEL
     * 3: High confidence
 
   
-`QA_RADSAT` |  30 meters  | Radiometric saturation QA  
+`QA_RADSAT` |  30 meters  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 
@@ -98,10 +99,11 @@ Bitmask for QA_RADSAT
     * 1: Terrain occlusion
 
   
-`SAA` |  30 meters  | Solar Azimuth Angle  
-`SZA` |  30 meters  | Solar Zenith Angle  
-`VAA` |  30 meters  | View Azimuth Angle  
-`VZA` |  30 meters  | View Zenith Angle  
+`SAA` |  30 meters  |  | Solar Azimuth Angle  
+`SZA` |  30 meters  |  | Solar Zenith Angle  
+`VAA` |  30 meters  |  | View Azimuth Angle  
+`VZA` |  30 meters  |  | View Zenith Angle  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -246,6 +248,7 @@ UTM_ZONE | DOUBLE | UTM zone number used in product map projection.
 WRS_PATH | DOUBLE | The WRS orbital path number (001 - 251).  
 WRS_ROW | DOUBLE | Landsat satellite WRS row (001-248).  
 WRS_TYPE | DOUBLE | World Reference System (WRS) type used for the collection of this scene.  
+### Terms of Use
 **Terms of Use**
 Landsat datasets are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.
 Acknowledgement or credit of the USGS as data source should be provided by including a line of text citation such as the example shown below.
@@ -254,7 +257,7 @@ Example: Landsat-7 image courtesy of the U.S. Geological Survey
 See the [USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system) for further details on proper citation and acknowledgement of USGS products.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDSAT/LC08/C02/T2')
 .filterDate('2017-01-01','2017-12-31');
@@ -270,7 +273,7 @@ Map.addLayer(trueColor432,trueColor432Vis,'True Color (432)');
 [ USGS Landsat 8 Collection 2 Tier 2 Raw Scenes ](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2)
 Landsat 8 Collection 2 Tier 2 DN values, representing scaled, calibrated at-sensor radiance. Scenes not meeting Tier 1 criteria during processing are assigned to Tier 2. This includes Systematic terrain (L1GT) and Systematic (L1GS) processed scenes, as well as any L1TP scenes that do not meet the Tier 1 specifications …
 LANDSAT/LC08/C02/T2, c2,global,l8,landsat,lc8,oli-tirs,radiance,satellite-imagery,t2,tier2,usgs 
-2021-10-28T23:17:26Z/2025-04-13T15:57:46.366000Z
+2021-10-28T23:17:26Z/2025-04-21T15:22:33.103000Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

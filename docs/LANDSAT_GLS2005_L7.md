@@ -1,6 +1,6 @@
  
 #  Landsat Global Land Survey 2005, Landsat 7 scenes 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/GLS2005_L7](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_GLS2005_L7_sample.png) 
 
 Dataset Availability
@@ -14,9 +14,10 @@ Earth Engine Snippet
 
 Tags
      [etm](https://developers.google.com/earth-engine/datasets/tags/etm) [gls](https://developers.google.com/earth-engine/datasets/tags/gls) [l7](https://developers.google.com/earth-engine/datasets/tags/l7) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS2005_L7#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS2005_L7#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS2005_L7#terms-of-use) More
+#### Description
 The GLS2005 data set is a collection of 9500 orthorectified leaf-on medium-resolution satellite images collected between 2004 and 2007 and covering the Earth's land masses. GLS2005 uses mainly Landsat 5 and gap-filled Landsat 7 data with EO-1 ALI and Terra ASTER data filling in any data holes.
 This collection contains just the subset of the GLS2005 images from the L7 ETM+ sensor.
+### Bands
 **Bands**
 Name | Pixel Size | Wavelength | Description  
 ---|---|---|---  
@@ -27,6 +28,7 @@ Name | Pixel Size | Wavelength | Description
 `50` |  30 meters  | 1.55 - 1.75 μm | Shortwave infrared 1  
 `60` |  60 meters  | 10.40 - 12.50 μm | Thermal Infrared 1. Resampled from 60m to 30m.  
 `70` |  30 meters  | 2.08 - 2.35 μm | Shortwave infrared 2  
+### Terms of Use
 **Terms of Use**
 Landsat datasets are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.
 Acknowledgement or credit of the USGS as data source should be provided by including a line of text citation such as the example shown below.
@@ -35,7 +37,7 @@ Example: Landsat-7 image courtesy of the U.S. Geological Survey
 See the [USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system) for further details on proper citation and acknowledgement of USGS products.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_GLS2005_L7#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDSAT/GLS2005_L7');
 vartrueColor321=dataset.select(['30','20','10']);

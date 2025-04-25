@@ -1,6 +1,6 @@
  
 #  NEX-DCP30: Ensemble Stats for NASA Earth Exchange Downscaled Climate Projections 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/NEX-DCP30_ENSEMBLE_STATS](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_NEX-DCP30_ENSEMBLE_STATS_sample.png) 
 
 Dataset Availability
@@ -17,10 +17,11 @@ Cadence
 
 Tags
      [cag](https://developers.google.com/earth-engine/datasets/tags/cag) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [cmip5](https://developers.google.com/earth-engine/datasets/tags/cmip5) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [ipcc](https://developers.google.com/earth-engine/datasets/tags/ipcc) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [nex](https://developers.google.com/earth-engine/datasets/tags/nex) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-DCP30_ENSEMBLE_STATS#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-DCP30_ENSEMBLE_STATS#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-DCP30_ENSEMBLE_STATS#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-DCP30_ENSEMBLE_STATS#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-DCP30_ENSEMBLE_STATS#citations) More
+#### Description
 The NASA NEX-DCP30 dataset is comprised of downscaled climate scenarios for the conterminous United States that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 5 (CMIP5, see [Taylor et al. 2012](https://journals.ametsoc.org/doi/abs/10.1175/BAMS-D-11-00094.1)) and across the four greenhouse gas emissions scenarios known as Representative Concentration Pathways (RCPs, see [Meinshausen et al. 2011](https://rd.springer.com/article/10.1007%2Fs10584-011-0156-z#page-1)) developed for the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR5). The purpose of these datasets is to provide a set of high resolution, bias-corrected climate change projections that can be used to evaluate climate change impacts on processes that are sensitive to finer-scale climate gradients and the effects of local topography on climate conditions.
 The dataset contains monthly projections covering the periods from 1950 through 2005 (Retrospective Run) and from 2006 to 2099 (Prospective Run). It includes ensemble statistics calculated for each RCP from all model runs available for the pr, tasmin, and tasmax bands.
 NEX-DCP30 was prepared by the Climate Analytics Group and NASA Ames Research Center using the NASA Earth Exchange, and distributed by the NASA Center for Climate Simulation (NCCS).
+### Bands
 **Pixel Size** 927.67 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -38,20 +39,23 @@ Name | Units | Min | Max | Description
 `tasmax_median` | K |  257.89*  |  326.28*  | Median of the daily-maximum near-surface air temperature  
 `tasmax_quartile75` | K |  260.2*  |  328.2*  | 75th quartile of the daily-maximum near-surface air temperature  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 scenario | STRING | Name of the CMIP5 scenario. It is one of: 'historical', 'rcp26', 'rcp45', 'rcp60', 'rcp85', where 'historical' designates retrospective model runs (pre-2006).  
 month | DOUBLE | Calendar month  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * Thrasher, B., J. Xiong, W. Wang, F. Melton, A. Michaelis and R. Nemani (2013), Downscaled Climate Projections Suitable for Resource Management, Eos Trans. AGU, 94(37), 321. [doi:10.1002/2013EO370002](https://doi.org/10.1002/2013EO370002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-DCP30_ENSEMBLE_STATS#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/NEX-DCP30_ENSEMBLE_STATS')
 .filter(ee.Filter.date('2018-07-01','2018-07-30'));

@@ -1,10 +1,10 @@
  
 #  Sentinel-2: Cloud Probability 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/S2_CLOUD_PROBABILITY](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_CLOUD_PROBABILITY_sample.png) 
 
 Dataset Availability
-    2015-06-27T00:00:00Z–2025-04-22T14:17:39Z 
+    2015-06-27T00:00:00Z–2025-04-24T19:58:59Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus/SentinelHub ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/processing-levels/level-1) 
@@ -18,20 +18,22 @@ Revisit Interval
 Tags
      [cloud](https://developers.google.com/earth-engine/datasets/tags/cloud) [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [msi](https://developers.google.com/earth-engine/datasets/tags/msi) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sentinel](https://developers.google.com/earth-engine/datasets/tags/sentinel)
 sentinelhub
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY#terms-of-use) More
+#### Description
 The S2 cloud probability is created with the [sentinel2-cloud-detector](https://github.com/sentinel-hub/sentinel2-cloud-detector) library (using [LightGBM](https://github.com/microsoft/LightGBM)). All bands are upsampled using bilinear interpolation to 10m resolution before the gradient boost base algorithm is applied. The resulting `0..1` floating point probability is scaled to `0..100` and stored as an UINT8. Areas missing any or all of the bands are masked out. Higher values are more likely to be clouds or highly reflective surfaces (e.g. roof tops or snow).
 Sentinel-2 is a wide-swath, high-resolution, multi-spectral imaging mission supporting Copernicus Land Monitoring studies, including the monitoring of vegetation, soil and water cover, as well as observation of inland waterways and coastal areas.
 The Level-2 data can be found in the collection [COPERNICUS/S2_SR_HARMONIZED](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED). The Level-1B data can be found in the collection [COPERNICUS/S2_HARMONIZED](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED). Additional metadata is available on assets in those collections.
 See [this tutorial](https://developers.google.com/earth-engine/tutorials/community/sentinel-2-s2cloudless) explaining how to apply the cloud mask.
+### Bands
 **Bands**
 Name | Min | Max | Pixel Size | Description  
 ---|---|---|---|---  
 `probability` |  0  |  100  |  10 meters  | Probability that the pixel is cloudy.  
+### Terms of Use
 **Terms of Use**
 The use of Sentinel data is governed by the [Copernicus Sentinel Data Terms and Conditions.](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/Sentinel_Data_Terms_and_Conditions.pdf)
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vars2Sr=ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED');
 vars2Clouds=ee.ImageCollection('COPERNICUS/S2_CLOUD_PROBABILITY');
@@ -77,7 +79,7 @@ true);
 [ Sentinel-2: Cloud Probability ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY)
 The S2 cloud probability is created with the sentinel2-cloud-detector library (using LightGBM). All bands are upsampled using bilinear interpolation to 10m resolution before the gradient boost base algorithm is applied. The resulting 0..1 floating point probability is scaled to 0..100 and stored as an UINT8. Areas missing any or all …
 COPERNICUS/S2_CLOUD_PROBABILITY, cloud,copernicus,esa,eu,msi,radiance,satellite-imagery,sentinel 
-2015-06-27T00:00:00Z/2025-04-22T14:17:39Z
+2015-06-27T00:00:00Z/2025-04-24T19:58:59Z
 -56 -180 83 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

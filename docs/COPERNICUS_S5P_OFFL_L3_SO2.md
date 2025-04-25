@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S5P/OFFL/L3_SO2](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_OFFL_L3_SO2_sample.png) 
 
 Dataset Availability
-    2018-12-05T11:53:01Z–2025-04-19T10:11:41Z 
+    2018-12-05T11:53:01Z–2025-04-22T10:56:30Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -64,13 +64,13 @@ Name | Units | Min | Max | Description
 `SO2_column_number_density` | mol/m^2 |  -0.4051*  |  0.2079*  | SO2 vertical column density at ground level, calculated using the DOAS technique.  
 `SO2_column_number_density_amf` | mol/m^2 |  0.1*  |  3.387*  | Weighted mean of cloudy and clear air mass factor (amf) weighted by intensity-weighted cloud fraction.  
 `SO2_slant_column_number_density` | mol/m^2 |  -0.14746*  |  0.16159*  | SO2 ring corrected slant column number density  
-`absorbing_aerosol_index` |  -11.733*  |  18.657*  | A measure of the prevalence of aerosols in the atmosphere, calculated by [this equation](https://sentinel.esa.int/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ultraviolet-aerosol-index) using the 340/380 nm wavelength pair.  
+`absorbing_aerosol_index` |  |  -11.733*  |  18.657*  | A measure of the prevalence of aerosols in the atmosphere, calculated by [this equation](https://sentinel.esa.int/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ultraviolet-aerosol-index) using the 340/380 nm wavelength pair.  
 `cloud_fraction` | Fraction |  0*  |  1*  | Effective cloud fraction. See the [Sentinel 5P L2 Input/Output Data Definition Spec](https://sentinels.copernicus.eu/documents/247904/3119978/Sentinel-5P-Level-2-Input-Output-Data-Definition), p.220.  
 `sensor_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the satellite at the ground pixel location (WGS84); angle measured East-of-North.  
 `sensor_zenith_angle` | deg |  0.098*  |  67*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
 `solar_azimuth_angle` | deg |  -180*  |  180*  | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North.  
 `solar_zenith_angle` | deg |  8*  |  102*  | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  
-`SO2_column_number_density_15km` | mol/m^2 | SO2 vertical column density at 15km, calculated using the DOAS technique.  
+`SO2_column_number_density_15km` | mol/m^2 |  |  | SO2 vertical column density at 15km, calculated using the DOAS technique.  
 * estimated min or max value 
 **Image Properties**
 Name | Type | Description  
@@ -116,7 +116,7 @@ Map.setCenter(0.0,0.0,2);
 [ Sentinel-5P OFFL SO2: Offline Sulfur Dioxide ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_SO2)
 OFFL/L3_SO2 This dataset provides offline high-resolution imagery of atmospheric sulfur dioxide (SO2) concentrations. Sulfur dioxide (SO2) enters the Earth's atmosphere through both natural and anthropogenic processes. It plays a role in chemistry on a local and global scale and its impact ranges from short-term pollution to effects on climate. Only …
 COPERNICUS/S5P/OFFL/L3_SO2, air-quality,atmosphere,bira,copernicus,dlr,esa,eu,pollution,s5p,sentinel,so2,sulfur-dioxide,tropomi 
-2018-12-05T11:53:01Z/2025-04-19T10:11:41Z
+2018-12-05T11:53:01Z/2025-04-22T10:56:30Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

@@ -1,6 +1,6 @@
  
 #  RGE ALTI: IGN RGE ALTI Digital Elevation 1m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![IGN/RGE_ALTI/1M/2_0](https://developers.google.com/earth-engine/datasets/images/IGN/IGN_RGE_ALTI_1M_2_0_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [dem](https://developers.google.com/earth-engine/datasets/tags/dem) [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/IGN_RGE_ALTI_1M_2_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/IGN_RGE_ALTI_1M_2_0#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/IGN_RGE_ALTI_1M_2_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/IGN_RGE_ALTI_1M_2_0#citations) More
+#### Description
 The RGE ALTI dataset describes the digital elevation model (DEM) of France with the pixel size of 1m. It was created from surveys obtained by airborne lidar or by correlation of aerial images.
 Lidar was deployed for flood-prone, coastal, and large forest areas. The vertical accuracy of the DEM in these areas is between 0.2m and 0.5m. Radar was used in mountain areas (Alps, Pyrenees, Cevennes, Corsica). Caution: in areas with steep slopes, the average vertical accuracy is the order of 7m.
 The accuracy of these fields has been checked against various sources: the road and hydrographic networks of the [BD TOPO](https://geoservices.ign.fr/bdtopo), geodetic terminals and points calculated on the ground.
@@ -22,23 +22,26 @@ Aerial photo correlation techniques are used in the rest of the territory. On ce
 Currently the collection includes a single image IGN/RGE_ALTI/1M/2_0/FXX showing metropolitan France.
 This dataset was prepared and ingested with the support of Guillaume Attard and Julien Bardonnet ([AGEOCE](https://www.ageoce.com)). The preparation process is [described here](https://medium.com/@gui.attard/pre-processing-the-dem-of-france-rge-alti-5m-for-implementation-into-earth-engine-de9a0778e0d9).
 See also: [user's guide](https://geoservices.ign.fr/sites/default/files/2021-07/DC_RGEALTI_2-0.pdf).
+### Bands
 **Pixel Size** 1 meter 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `MNT` | m |  -40*  |  4810*  | Terrain elevation in meters.  
-`SRC` | The main source of the data used to calculate the altitude of the node. See Appendix B page 26 in the [user guide](https://geoservices.ign.fr/sites/default/files/2021-07/DC_RGEALTI_2-0.pdf).  
+`SRC` |  |  |  | The main source of the data used to calculate the altitude of the node. See Appendix B page 26 in the [user guide](https://geoservices.ign.fr/sites/default/files/2021-07/DC_RGEALTI_2-0.pdf).  
 `DST` | m |  0  |  255  | The distance in meters between the node and the nearest point used to calculate its altitude.  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 [etalab-2.0](https://spdx.org/licenses/etalab-2.0.html)
+### Citations
 Citations:
   * IGN (2021). RGE ALTI 1m [Data set]. Accessed 2022-07-01 from [IGN website](https://geoservices.ign.fr/rgealti#telechargement1m)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/IGN_RGE_ALTI_1M_2_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('IGN/RGE_ALTI/1M/2_0/FXX');
 varelevation=dataset.select('MNT');

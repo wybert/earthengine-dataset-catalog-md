@@ -1,6 +1,6 @@
  
 #  Copernicus Global Land Cover Layers: CGLS-LC100 Collection 3 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/Landcover/100m/Proba-V-C3/Global](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_Landcover_100m_Proba-V-C3_Global_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [eea](https://developers.google.com/earth-engine/datasets/tags/eea) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [proba](https://developers.google.com/earth-engine/datasets/tags/proba) [probav](https://developers.google.com/earth-engine/datasets/tags/probav) [vito](https://developers.google.com/earth-engine/datasets/tags/vito)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global#dois) More
+#### Description
 The Copernicus Global Land Service (CGLS) is earmarked as a component of the Land service to operate a multi-purpose service component that provides a series of bio-geophysical products on the status and evolution of land surface at global scale.
 The Dynamic Land Cover map at 100 m resolution (CGLS-LC100) is a new product in the portfolio of the CGLS and delivers a global land cover map at 100 m spatial resolution. The CGLS Land Cover product provides a primary land cover scheme. Next to these discrete classes, the product also includes continuous field layers for all basic land cover classes that provide proportional estimates for vegetation/ground cover for the land cover types. This continuous classification scheme may depict areas of heterogeneous land cover better than the standard classification scheme and, as such, can be tailored for application use (e.g. forest monitoring, crop monitoring, biodiversity and conservation, monitoring environment and security in Africa, climate modelling, etc.).
 These consistent Land Cover maps (v3.0.1) are provided for the period 2015-2019 over the entire Globe, derived from the PROBA-V 100 m time-series, a database of high quality land cover training sites and several ancillary datasets, reaching an accuracy of 80% at Level1 over all years. It is planned to provide yearly updates from 2020 through the use of a Sentinel time-series.
@@ -24,13 +24,14 @@ See also:
   * [Validation Report](https://doi.org/10.5281/zenodo.3938974)
 
 
+### Bands
 **Pixel Size** 100 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`discrete_classification` |  0  |  200  | Land cover classification  
+`discrete_classification` |  |  0  |  200  | Land cover classification  
 `discrete_classification-proba` | % |  0  |  100  | Quality indicator (classification probability) of the discrete classification  
-`forest_type` |  0  |  5  | Forest type for all pixels with tree percentage vegetation cover bigger than 1 %  
+`forest_type` |  |  0  |  5  | Forest type for all pixels with tree percentage vegetation cover bigger than 1 %  
 `bare-coverfraction` | % |  0  |  100  | Percent vegetation cover for bare-sparse-vegetation land cover class  
 `crops-coverfraction` | % |  0  |  100  | Percent vegetation cover for cropland land cover class  
 `grass-coverfraction` | % |  0  |  100  | Percent vegetation cover for herbaceous vegetation land cover class  
@@ -41,8 +42,8 @@ Name | Units | Min | Max | Description
 `urban-coverfraction` | % |  0  |  100  | Percent ground cover for built-up land cover class  
 `water-permanent-coverfraction` | % |  0  |  100  | Percent ground cover for permanent water land cover class  
 `water-seasonal-coverfraction` | % |  0  |  100  | Percent ground cover for seasonal water land cover class  
-`data-density-indicator` |  0  |  100  | Data density indicator for algorithm input data  
-`change-confidence` |  0  |  3  | This layer is only provided for years after the BaseYear 2015.
+`data-density-indicator` |  |  0  |  100  | Data density indicator for algorithm input data  
+`change-confidence` |  |  0  |  3  | This layer is only provided for years after the BaseYear 2015.
   * 0 - No change. No change in discrete class between year and previous year detected.
   * 1 - Potential change. BFASTmon detected break in second half of NRT year - potential change.
   * 2 - Medium confidence. Imprint of urban, permanent water, snow or wetland OR change detected by BFAST but HMM model didn't confirm this break in higher resolution OR change detected by BFASTmon in the first half of NRT year.
@@ -84,6 +85,7 @@ Value | Color | Description
 3 | #70663e | Deciduous needle leaf  
 4 | #a0dc00 | Deciduous broad leaf  
 5 | #929900 | Mix of forest types  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -93,8 +95,10 @@ discrete_classification_class_values | INT_LIST | Value of the land cover classi
 forest_type_class_names | STRING_LIST | forest cover class names  
 forest_type_class_palette | STRING_LIST | forest cover class palette  
 forest_type_class_values | INT_LIST | forest cover class values  
+### Terms of Use
 **Terms of Use**
 As official product of the global component of the Copernicus Land Service, access to this land cover dataset is fully free and open to all users.
+### Citations
 Citations:
   * Buchhorn, M. ; Lesiv, M. ; Tsendbazar, N. - E. ; Herold, M. ; Bertels, L. ; Smets, B. Copernicus Global Land Cover Layers-Collection 2. Remote Sensing 2020, 12Volume 108, 1044. [doi:10.3390/rs12061044](https://doi.org/10.3390/rs12061044)
   * Buchhorn, M., Smets, B., Bertels, L., Roo, B. D., Lesiv, M., Tsendbazar, N.-E., Herold, M., & Fritz, S. (2020). _Copernicus Global Land Service: Land Cover 100m: collection 3: epoch 2017: Globe_ (Version V3.0.1) [Data set]. Zenodo.
@@ -103,6 +107,7 @@ Citations:
   * Buchhorn, M., Smets, B., Bertels, L., Roo, B. D., Lesiv, M., Tsendbazar, N.-E., Herold, M., & Fritz, S. (2020). _Copernicus Global Land Service: Land Cover 100m: collection 3: epoch 2019: Globe_ (Version V3.0.1) [Data set]. Zenodo.
 
 
+### DOIs
   * [ https://doi.org/10.5281/ZENODO.3518036 ](https://doi.org/10.5281/ZENODO.3518036)
   * [ https://doi.org/10.5281/ZENODO.3518038 ](https://doi.org/10.5281/ZENODO.3518038)
   * [ https://doi.org/10.5281/ZENODO.3939038 ](https://doi.org/10.5281/ZENODO.3939038)
@@ -116,7 +121,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global#code-editor-javascript-sample)[Colab (Python)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global#colab-python-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('COPERNICUS/Landcover/100m/Proba-V-C3/Global/2019')
 .select('discrete_classification');
@@ -129,6 +134,8 @@ See the [ Python Environment](https://developers.google.com/earth-engine/guides/
 importee
 importgeemap.coreasgeemap
 ```
+
+### Colab (Python)
 ```
 dataset = ee.Image('COPERNICUS/Landcover/100m/Proba-V-C3/Global/2019').select(
   'discrete_classification'

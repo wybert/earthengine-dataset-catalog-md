@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S5P/NRTI/L3_CO](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S5P_NRTI_L3_CO_sample.png) 
 
 Dataset Availability
-    2018-11-22T12:00:13Z–2025-04-21T08:26:30Z 
+    2018-11-22T12:00:13Z–2025-04-24T09:11:30Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi) 
@@ -94,7 +94,7 @@ Map.setCenter(-25.01,-4.28,4);
 [ Sentinel-5P NRTI CO: Near Real-Time Carbon Monoxide ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO)
 NRTI/L3_CO This dataset provides near real-time high-resolution imagery of CO concentrations. Carbon monoxide (CO) is an important atmospheric trace gas for understanding tropospheric chemistry. In certain urban areas, it is a major atmospheric pollutant. Main sources of CO are combustion of fossil fuels, biomass burning, and atmospheric oxidation of methane …
 COPERNICUS/S5P/NRTI/L3_CO, air-quality,atmosphere,carbon-monoxide,copernicus,esa,eu,knmi,pollution,s5p,sentinel,sron,tropomi 
-2018-11-22T12:00:13Z/2025-04-21T08:26:30Z
+2018-11-22T12:00:13Z/2025-04-24T09:11:30Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

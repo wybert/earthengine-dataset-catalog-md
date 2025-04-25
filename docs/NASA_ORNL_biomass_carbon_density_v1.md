@@ -1,6 +1,6 @@
  
 #  Global Aboveground and Belowground Biomass Carbon Density Maps 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/ORNL/biomass_carbon_density/v1](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_ORNL_biomass_carbon_density_v1_sample.png) 
 
 Dataset Availability

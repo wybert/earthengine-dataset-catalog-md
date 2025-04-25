@@ -1,6 +1,6 @@
  
 #  WRI Aqueduct Baseline Monthly Version 4.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WRI/Aqueduct_Water_Risk/V4/baseline_monthly](https://developers.google.com/earth-engine/datasets/images/WRI/WRI_Aqueduct_Water_Risk_V4_baseline_monthly_sample.png) 
 
 Dataset Availability
@@ -14,11 +14,12 @@ Earth Engine Snippet
 
 Tags
      [aqueduct](https://developers.google.com/earth-engine/datasets/tags/aqueduct) [flood](https://developers.google.com/earth-engine/datasets/tags/flood) [monitoring](https://developers.google.com/earth-engine/datasets/tags/monitoring) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water) [table](https://developers.google.com/earth-engine/datasets/tags/table) [wri](https://developers.google.com/earth-engine/datasets/tags/wri)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Water_Risk_V4_baseline_monthly#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Water_Risk_V4_baseline_monthly#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Water_Risk_V4_baseline_monthly#terms-of-use) More
+#### Description
 Aqueduct 4.0 is the latest iteration of WRI's water risk framework designed to translate complex hydrological data into intuitive indicators of water related risk. This dataset has curated 13 water risk indicators for quantity, quality and reputational concerns into a comprehensive framework. For 5 of the 13 indicators, a global hydrological model called PCR-GLOBWB 2 has been used to generate novel datasets on sub-basic water supply. The PCR-GLOBWB 2 model is also used to project future sub-basin water conditions using CMIP6 climate forcings. The projections center around three periods (2030, 2050, and 2080) under three future scenarios (business-as-usual SSP 3 RCP 7.0, optimistic SSP 1 RCP 2.6, and pessimistic SSP 5 RCP 8.5).
 The water risk indicators have been aggregated by category (quantity, quality, reputational, and overall) into composite risk scores using sector-specific weighting schemes. In addition, select sub-basin scores have been aggregated into country and provincial administrative boundaries using a weighted average approach, where sub-basins with more demand have a higher influence over the final administrative score.
 The WRI Aqueduct baseline monthly dataset provides monthly data on key water risk indicators which includes indicators such as baseline water stress, baseline water depletion and interannual variability.This monthly data allows for a more detailed analysis of water risk dynamics throughout the year, which is crucial for understanding seasonal water scarcity, planning for water management interventions, and adapting to changing water availability patterns.
 This [technical note](https://www.wri.org/research/aqueduct-40-updated-decision-relevant-global-water-risk-indicators) explains in detail the framework, methodology, and data used in developing Aqueduct Floods.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -168,11 +169,12 @@ iav_12_cat | INT | Interannual variability category for December
 iav_12_label | STRING | Interannual variability label for December  
 iav_12_raw | DOUBLE | Interannual variability raw value for December  
 iav_12_score | DOUBLE | Interannual variability score for December  
+### Terms of Use
 **Terms of Use**
 The WRI datasets are available without restriction on use or distribution. WRI does request that the user give proper attribution and identify WRI, where applicable, as the source of the data. For more information check [WRI's open data commitment](https://www.wri.org/data/open-data-commitment),
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Water_Risk_V4_baseline_monthly#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=
 ee.FeatureCollection('WRI/Aqueduct_Water_Risk/V4/baseline_monthly');
@@ -205,7 +207,7 @@ Map.addLayer(polygons.style({styleProperty:'style',pointSize:3}));
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Water_Risk_V4_baseline_monthly#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer(
 'WRI/Aqueduct_Water_Risk/V4/baseline_monthly_FeatureView');

@@ -1,6 +1,6 @@
  
 #  HUC08: USGS Watershed Boundary Dataset of Subbasins 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/WBD/2017/HUC08](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_WBD_2017_HUC08_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [hydrology](https://developers.google.com/earth-engine/datasets/tags/hydrology) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water) [table](https://developers.google.com/earth-engine/datasets/tags/table) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [water](https://developers.google.com/earth-engine/datasets/tags/water) [watershed](https://developers.google.com/earth-engine/datasets/tags/watershed) [wbd](https://developers.google.com/earth-engine/datasets/tags/wbd)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC08#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC08#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC08#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC08#citations) More
+#### Description
 The Watershed Boundary Dataset (WBD) is a comprehensive aggregated collection of hydrologic unit (HU) data consistent with the national criteria for delineation and resolution. It defines the areal extent of surface water drainage to a point except in coastal or lake front areas where there could be multiple outlets as stated by the [Federal Standards and Procedures for the National Watershed Boundary Dataset](https://pubs.usgs.gov/tm/11/a3). Watershed boundaries are determined solely upon science-based hydrologic principles, not favoring any administrative boundaries or special projects, nor particular program or agency. The intent of defining HUs for the WBD is to establish a baseline drainage boundary framework, accounting for all land and surface areas.
 The HUs are delineated at 1:24,000-scale in the conterminous United States, 1:25,000-scale in Hawaii and the Caribbean, and 1:63,360-scale in Alaska, meeting the National Map Accuracy Standards (NMAS). WBDs are represented as polygons that define the boundary of the HUs. The HUs are given a Hydrologic Unit Code (HUC) that ranges from 2 digits to 12 digits. These codes describe where the unit is in the country and the level of the unit. The number of digits in a HUC is related to 6 levels of detail for the WBD: the lower level polygons cover larger areas than higher level ones. The higher the level, the more digits to the HUC, since previous levels are nested in it.
 The WBD polygons attributes include HUCs, size (in the form of acres and square kilometers), name, downstream HUC, type of watershed, non-contributing areas, and flow modifications. WBD line attributes contain the highest level of hydrologic unit for each boundary, line source information and flow modifications.
@@ -27,6 +27,7 @@ Subbasin | 4 | 8 | 8
 Watershed | 5 | 10 | 10  
 Subwatershed | 6 | 12 | 12  
 *Calculated by the data provider.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -44,15 +45,17 @@ sourceorig | STRING | Description of the agency that created the base data used 
 states | STRING | Identifies the State(s) or outlying areas that the hydrologic unit falls within or touches  
 tnmid | STRING | A unique 40-character field that identifies each element in the database exclusively  
 huc8 | STRING | Unique hydrologic unit code  
+### Terms of Use
 **Terms of Use**
 Most U.S. Geological Survey (USGS) information resides in the public domain and may be used without restriction. Additional information on [Acknowledging or Crediting USGS as Information Source](https://www.usgs.gov/information-policies-and-instructions/crediting-usgs) is available.
+### Citations
 Citations:
   * Coordinated effort between the United States Department of Agriculture-Natural Resources Conservation Service (USDA-NRCS), the United States Geological Survey (USGS), and the Environmental Protection Agency (EPA). The Watershed Boundary Dataset (WBD) was created from a variety of sources from each state and aggregated into a standard national layer for use in strategic planning and accountability. Watershed Boundary Dataset for HUC# [Online WWW]. Available URL: (https://datagateway.nrcs.usda.gov) [Accessed 22/04/2017].
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC08#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('USGS/WBD/2017/HUC08');
 varvisualization={
@@ -67,7 +70,7 @@ Map.addLayer(dataset,null,'Basins');
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_WBD_2017_HUC08#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('USGS/WBD/2017/HUC08_FeatureView');
 varvisParams={

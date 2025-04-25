@@ -1,6 +1,6 @@
  
 #  NOAA CDR: Ocean Near-Surface Atmospheric Properties, Version 2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/CDR/ATMOS_NEAR_SURFACE/V2](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CDR_ATMOS_NEAR_SURFACE_V2_sample.png) 
 
 Dataset Availability
@@ -18,9 +18,10 @@ Cadence
 Tags
      [atmospheric](https://developers.google.com/earth-engine/datasets/tags/atmospheric) [cdr](https://developers.google.com/earth-engine/datasets/tags/cdr) [hourly](https://developers.google.com/earth-engine/datasets/tags/hourly) [humidity](https://developers.google.com/earth-engine/datasets/tags/humidity) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [ocean](https://developers.google.com/earth-engine/datasets/tags/ocean) [oceans](https://developers.google.com/earth-engine/datasets/tags/oceans) [osb](https://developers.google.com/earth-engine/datasets/tags/osb) [wind](https://developers.google.com/earth-engine/datasets/tags/wind)
 air-temperature
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_ATMOS_NEAR_SURFACE_V2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_ATMOS_NEAR_SURFACE_V2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_ATMOS_NEAR_SURFACE_V2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_ATMOS_NEAR_SURFACE_V2#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_ATMOS_NEAR_SURFACE_V2#dois) More
+#### Description
 The Ocean Near-Surface Atmospheric Properties dataset is part of the NOAA Ocean Surface Bundle (OSB) and provides a high quality Climate Data Record (CDR) of air temperature, wind speed, and specific humidity over ice-free ocean surfaces.
 These atmospheric properties are calculated based on brightness temperature data from the Special Sensor Microwave/Imager (SSM/I) and the Special Sensor Microwave/Imager Sounder (SSMIS) on the Defense Meteorological Satellite Program (DMSP) spacecraft, using a neural network.
+### Bands
 **Pixel Size** 27830 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -28,7 +29,7 @@ Name | Units | Min | Max | Description
 `air_temperature` | °C |  -42.16*  |  42.77*  | Air temperature at 10m  
 `specific_humidity` | g/kg |  0.07*  |  37.06*  | Specific humidity at 10m  
 `wind_speed` | m/s |  0.13*  |  71.45*  | Wind speed at 10m  
-`fill_missing_qc` | Quality control flags  
+`fill_missing_qc` |  |  |  | Quality control flags  
 Bitmask for fill_missing_qc
   * Bits 0-2: Quality control flags 
     * 0: Pixel values from neural network
@@ -40,18 +41,21 @@ Bitmask for fill_missing_qc
 
   
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 The NOAA CDR Program's official distribution point for CDRs is NOAA's National Climatic Data Center which provides sustained, open access and active data management of the CDR packages and related information in keeping with the United States' open data policies and practices as described in the President's Memorandum on "Open Data Policy" and pursuant to the Executive Order of May 9, 2013, "Making Open and Machine Readable the New Default for Government Information". In line with these policies, the CDR data sets are nonproprietary, publicly available, and no restrictions are placed upon their use. For more information, see the [Fair Use of NOAA's CDR Data Sets, Algorithms and Documentation](https://www1.ncdc.noaa.gov/pub/data/sds/cdr/CDRs/Aerosol_Optical_Thickness/UseAgreement_01B-04.pdf) pdf.
+### Citations
 Citations:
   * Clayson, Carol Anne, Brown, Jeremiah, and NOAA CDR Program (2016). NOAA Climate Data Record Ocean Surface Bundle (OSB) Climate Data Record (CDR) of Near-surface Atmospheric Properties, Version 2. [indicate subset used]. NOAA National ClimaticData Center. [doi:10.7289/V55T3HH0](https://doi.org/10.7289/V55T3HH0).
 
 
+### DOIs
   * [ https://doi.org/10.7289/V55T3HH0 ](https://doi.org/10.7289/V55T3HH0)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_ATMOS_NEAR_SURFACE_V2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NOAA/CDR/ATMOS_NEAR_SURFACE/V2')
 .filter(ee.Filter.date('2017-05-01','2017-05-02'));

@@ -1,6 +1,6 @@
  
 #  MethaneSAT L3 Concentration Public Preview V1.0.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/edf-methanesat-ee/assets/public-preview/L3concentration](https://developers.google.com/earth-engine/datasets/images/edf-methanesat-ee/projects_edf-methanesat-ee_assets_public-preview_L3concentration_sample.png)
 info
 This dataset is part of a Publisher Catalog, and not managed by Google Earth Engine. Contact [EDF-MethaneSAT](https://www.methanesat.org/contact) for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/publisher/edf-methanesat-ee) from the Environmental Defense Fund - MethaneSAT Catalog. [Learn more about Publisher datasets](https://developers.google.com/earth-engine/datasets/publisher). 
@@ -26,19 +26,21 @@ Cadence
 
 Tags
      [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [edf](https://developers.google.com/earth-engine/datasets/tags/edf) [edf-methanesat-ee](https://developers.google.com/earth-engine/datasets/tags/edf-methanesat-ee) [emissions](https://developers.google.com/earth-engine/datasets/tags/emissions) [ghg](https://developers.google.com/earth-engine/datasets/tags/ghg) [methane](https://developers.google.com/earth-engine/datasets/tags/methane) [methanesat](https://developers.google.com/earth-engine/datasets/tags/methanesat) [publisher-dataset](https://developers.google.com/earth-engine/datasets/tags/publisher-dataset)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L3concentration#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L3concentration#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L3concentration#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L3concentration#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L3concentration#citations) More
+#### Description
 This early "Public Preview" dataset provides geospatial data for the column-averaged dry-air mole fraction of methane in the atmosphere, "XCH4", retrieved from measurements by the MethaneSAT imaging spectrometer. XCH4 is defined as the total column amount (number of molecules above a unit surface area) of methane ("CH4") divided by the total amount of air (number of molecules above a unit surface area, water vapor amount removed) along the line of sight from the satellite’s spectrometer to the Earth's surface and back up to the Sun. Additional data layers are provided for reference: observed albedo at 1622 nm, surface pressure, and terrain height.
 The spatial footprint of individual MethaneSAT soundings is 110 m x 400 m when viewing at nadir, with the long side in the satellite’s flight direction, and with the short side that can be stretched wider at higher viewing zenith angles (which is why some targets appear more rectangular than others). At nadir, the swath width is ~220 km. The data on these native soundings is Level 2 (L2) data. The precision of the L2 XCH4 is 22-35 ppb (corresponding to 0.7-0.2 surface albedo). L2 concentrations (XCH4) are retrieved from the measured high resolution (0.08 nm sampling, 0.24 nm resolution) spectra from the 1.6 micron band using the CO2-Proxy method ([Chan Miller et al. (2024)](https://doi.org/10.5194/amt-17-5429-2024)). The Level 3 (L3) dataset is created by regridding the L2 data from the native sounding locations to a regular 45 m x 45 m grid using the approach detailed in [Sun et al. (2018)](https://doi.org/10.5194/amt-11-6679-2018).
 Contact the data provider for more information about the project at this link: <https://www.methanesat.org/contact/>.
+### Bands
 **Pixel Size** 10.2 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `XCH4` | ppb |  1894*  |  2114.65*  | Retrieved column-averaged dry-air CH4 mole fraction.  
-`albedo` |  0  |  1  | Ratio of solar radiance at the ground to observed radiance at the sensor.  
+`albedo` |  |  0  |  1  | Ratio of solar radiance at the ground to observed radiance at the sensor.  
 `surface_pressure` | hPa |  725.95*  |  1011.33*  | Air pressure at the surface.  
 `terrain_height` | km |  0.026*  |  2.915*  | Elevation with respect to WGS84 reference ellipsoid.  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -51,6 +53,7 @@ processing_id | STRING | (internal) Processing run identifier that represents th
 target_id | INT | Satellite Target ID.  
 time_coverage_end | STRING | Data collection end time in YYYY-MM-DDThh:mm:ssZ format STRING (ISO 8601).  
 time_coverage_start | STRING | Data collection start time in YYYY-MM-DDThh:mm:ssZ format STRING (ISO 8601).  
+### Terms of Use
 **Terms of Use**
 Use of this data is subject to [MethaneSAT's Content License Terms of Use](https://www.methanesat.org/sites/default/files/2025-02/MethaneSAT%20-%20Content%20License%20Terms%20of%20Use%20%28Revised%202-12-2025%29%5B25%5D.pdf).
 YOUR LICENSE TO ACCESS THE DATA
@@ -79,13 +82,14 @@ If you share or use the Data in any manner with any third parties, you must:
   * Explicitly state to these third parties that, if such third party creates a further project containing the Data, any such users of that project must also agree to be bound by these Terms of Use.
 
 
+### Citations
 Citations:
   * Chulakadabba, A., Sargent, M., Lauvaux, T., Benmergui, J. S., Franklin, J. E., Chan Miller, C., Wilzewski, J. S., Roche, S., Conway, E., Souri, A. H., Sun, K., Luo, B., Hawthrone, J., Samra, J., Daube, B. C., Liu, X., Chance, K., Li, Y., Gautam, R., Omara, M., Rutherford, J. S., Sherwin, E. D., Brandt, A., and Wofsy, S. C. 2023. Methane point source quantification using MethaneAIR: a new airborne imaging spectrometer, Atmos. Meas. Tech., 16, 5771-5785. [doi:10.5194/amt-16-5771-2023](https://doi.org/10.5194/amt-16-5771-2023),
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_public-preview_L3concentration#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Request access to this data by filling out the form at: https://forms.gle/jqw4Mvr63dsV1fUF8
 vardataset=ee.ImageCollection("projects/edf-methanesat-ee/assets/public-preview/L3concentration")

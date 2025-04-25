@@ -1,6 +1,6 @@
  
 #  MOD08_M3.061 Terra Atmosphere Monthly Global Product 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD08_M3](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD08_M3_sample.png) 
 
 Dataset Availability
@@ -19,7 +19,7 @@ Tags
      [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [global](https://developers.google.com/earth-engine/datasets/tags/global) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [terra](https://developers.google.com/earth-engine/datasets/tags/terra) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 mod08
 mod08-m3
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD08_M3#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD08_M3#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD08_M3#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD08_M3#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD08_M3#dois) More
+#### Description
 MOD08_M3 V6.1 is an atmosphere global product that contains monthly 1 x 1 degree grid average values of atmospheric parameters. These parameters are related to atmospheric aerosol particle properties, total ozone burden, atmospheric water vapor, cloud optical and physical properties, and atmospheric stability indices. The product also provides means, standard deviations, QA weighted statistics, log-normal distributions, uncertainty estimates, and statistics for fractions of pixels that satisfy some condition. Below is a subset of the bands, for a complete list see the [MOD08 Band List](https://developers.google.com/earth-engine/MOD08_bands.html).
 Documentation:
   * [User's Guide](https://modis-atmos.gsfc.nasa.gov/sites/default/files/ModAtmo/L3_ATBD_C6_C61_2019_02_20.pdf)
@@ -28,6 +28,7 @@ Documentation:
   * [File specification document](https://modis-atmos.gsfc.nasa.gov/sites/default/files/ModAtmo/MOD08_M3_fs_3045.txt)
 
 
+### Bands
 **Pixel Size** 111320 meters 
 **Bands**
 Name | Min | Max | Scale | Description  
@@ -42,18 +43,21 @@ Name | Min | Max | Scale | Description
 `Cloud_Optical_Thickness_Liquid_Log_Std_Deviation_Mean` |  0  |  4176  | 0.001 | Liquid water cloud optical thickness: mean of daily log standard deviation  
 `Cloud_Optical_Thickness_Liquid_Mean_Uncertainty` |  0  |  2000  | 0.01 | Liquid water cloud optical thickness: multi-day absolute uncertainty estimate derived from the daily absolute uncertainty estimate  
 `Cloud_Optical_Thickness_Liquid_Log_Mean_Uncertainty` |  0  |  4477  | 0.001 | Liquid water cloud optical thickness: multi-day absolute log uncertainty estimate derived from the daily absolute log uncertainty estimate  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA\'s Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * Platnick, S., M. King, P. Hubanks, 2015. MODIS Atmosphere L3 Monthly Product. NASA MODIS Adaptive Processing System, Goddard Space Flight Center, [doi:10.5067/MODIS/MOD08_M3.061](https://doi.org/10.5067/MODIS/MOD08_M3.061)
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MOD08_M3.061 ](https://doi.org/10.5067/MODIS/MOD08_M3.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD08_M3#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MOD08_M3')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

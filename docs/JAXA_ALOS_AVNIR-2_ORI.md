@@ -1,6 +1,6 @@
  
 #  ALOS/AVNIR-2 ORI 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/ALOS/AVNIR-2/ORI](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_AVNIR-2_ORI_sample.png) 
 
 Dataset Availability
@@ -16,9 +16,10 @@ Tags
      [alos](https://developers.google.com/earth-engine/datasets/tags/alos) [jaxa](https://developers.google.com/earth-engine/datasets/tags/jaxa) [orthophoto](https://developers.google.com/earth-engine/datasets/tags/orthophoto) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [visible](https://developers.google.com/earth-engine/datasets/tags/visible)
 avnir-2
 eorc
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AVNIR-2_ORI#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AVNIR-2_ORI#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AVNIR-2_ORI#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AVNIR-2_ORI#terms-of-use) More
+#### Description
 This dataset is contains orthorectified imagery from the Advanced Visible and Near Infrared Radiometer type 2 (AVNIR-2) sensor on-board the Advanced Land Observing Satellite (ALOS) "DAICHI".
 The AVNIR-2 ORI product was created from AVNIR-2 1B1 data after stereo matching with reference to ALOS's Panchromatic Remote-sensing Instrument for Stereo Mapping (PRISM)-derived DSM AW3D30. The orthorectification process used AW3D30 DSM data when available and SRTM (The Shuttle Radar Topography Mission) DSM data otherwise.
+### Bands
 **Pixel Size** 10 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -28,6 +29,7 @@ Name | Min | Max | Description
 `B3` |  1*  |  255*  | Red (0.61 - 0.69 μm)  
 `B4` |  1*  |  255*  | Near-Infrared (0.76 - 0.89 μm)  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -76,6 +78,7 @@ SCENE_ID | STRING | Scene ID e.g. "AABBBCDDDDDEEEE"
 SENSOR_CODE | STRING | Sensor code ("PSM": PRISM, "AV2": AVNIR-2)  
 SENSOR_TYPE | STRING | Sensor type ("N": nadir 35km, "F": forward 35km, "B": backward 35km "W": nadir 70km, "A": AVNIR-2)  
 TOTAL_ORBIT_NUMBER | DOUBLE | Total orbit number of scene center.  
+### Terms of Use
 **Terms of Use**
 The Japan Aerospace Exploration Agency (JAXA) releases the ALOS Orthorectified Image Product (ALOS-ORI) free of charge and open to the public with the following conditions:
   * When you provide or publish any products or services to a third party using this dataset, you are kindly requested to display that the original data is provided by JAXA.
@@ -85,7 +88,7 @@ The Japan Aerospace Exploration Agency (JAXA) releases the ALOS Orthorectified I
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AVNIR-2_ORI#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('JAXA/ALOS/AVNIR-2/ORI')
 .filter(ee.Filter.date('2011-01-01','2011-04-01'));

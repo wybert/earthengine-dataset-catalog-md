@@ -1,6 +1,6 @@
  
 #  Reprocessed GLDAS-2.0: Global Land Data Assimilation System 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GLDAS/V20/NOAH/G025/T3H](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GLDAS_V20_NOAH_G025_T3H_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [3-hourly](https://developers.google.com/earth-engine/datasets/tags/3-hourly) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [cryosphere](https://developers.google.com/earth-engine/datasets/tags/cryosphere) [evaporation](https://developers.google.com/earth-engine/datasets/tags/evaporation) [forcing](https://developers.google.com/earth-engine/datasets/tags/forcing) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [gldas](https://developers.google.com/earth-engine/datasets/tags/gldas) [humidity](https://developers.google.com/earth-engine/datasets/tags/humidity) [ldas](https://developers.google.com/earth-engine/datasets/tags/ldas) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [pressure](https://developers.google.com/earth-engine/datasets/tags/pressure) [radiation](https://developers.google.com/earth-engine/datasets/tags/radiation) [soil](https://developers.google.com/earth-engine/datasets/tags/soil) [soil-moisture](https://developers.google.com/earth-engine/datasets/tags/soil-moisture) [surface](https://developers.google.com/earth-engine/datasets/tags/surface) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor) [wind](https://developers.google.com/earth-engine/datasets/tags/wind)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V20_NOAH_G025_T3H#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V20_NOAH_G025_T3H#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V20_NOAH_G025_T3H#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V20_NOAH_G025_T3H#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V20_NOAH_G025_T3H#citations) More
+#### Description
 NASA Global Land Data Assimilation System Version 2 (GLDAS-2) has three components: GLDAS-2.0, GLDAS-2.1, and GLDAS-2.2. GLDAS-2.0 is forced entirely with the Princeton meteorological forcing input data and provides a temporally consistent series from 1948 through 2014. GLDAS-2.1 is forced with a combination of model and observation data from 2000 to present. GLDAS-2.2 product suites use data assimilation (DA), whereas the GLDAS-2.0 and GLDAS-2.1 products are "open-loop" (i.e., no data assimilation). The choice of forcing data, as well as DA observation source, variable, and scheme, vary for different GLDAS-2.2 products.GLDAS-2.0 is one of two components of the GLDAS Version 2 (GLDAS-2) dataset, the second being GLDAS-2.1. GLDAS-2.0 is reprocessed with the updated Princeton Global Meteorological Forcing Dataset (Sheffield et al., 2006) and upgraded Land Information System Version 7 (LIS-7). It covers the period 1948-2010, and will be extended to more recent years as corresponding forcing data become available.
 The model simulation was initialized on January 1, 1948, using soil moisture and other state fields from the LSM climatology for that day of the year. The simulation used the common GLDAS datasets for land cover (MCD12Q1: Friedl et al., 2010), land water mask (MOD44W: Carroll et al., 2009), soil texture (Reynolds, 1999), and elevation (GTOPO30). The MODIS based land surface parameters are used in the current GLDAS-2.x products while the AVHRR base parameters were used in GLDAS-1 and previous GLDAS-2 products (prior to October 2012).
 Documentation:
@@ -27,6 +27,7 @@ Documentation:
 
 
 Provider's Note: the names with extension _tavg are variables averaged over the past 3-hours, the names with extension '_acc' are variables accumulated over the past 3-hours, the names with extension '_inst' are instantaneous variables, and the names with '_f' are forcing variables.
+### Bands
 **Pixel Size** 27830 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -68,13 +69,16 @@ Name | Units | Min | Max | Description
 `Tveg_tavg` | W/m^2 |  0*  |  611.89*  | Transpiration  
 `Wind_f_inst` | m/s |  0.06*  |  30.31*  | Wind speed  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 end_hour | DOUBLE | End hour  
 start_hour | DOUBLE | Start hour  
+### Terms of Use
 **Terms of Use**
 Distribution of data from the Goddard Earth Sciences Data and Information Services Center (GES DISC) is funded by NASA's Science Mission Directorate (SMD). Consistent with NASA [Earth Science Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/), data from the GES DISC archive are available free to the user community. For more information visit the GES DISC [Data Policy](https://disc.sci.gsfc.nasa.gov/citing) page.
+### Citations
 Citations:
   * Rodell, M., P.R. Houser, U. Jambor, J. Gottschalck, K. Mitchell, C.-J. Meng, K. Arsenault, B. Cosgrove, J. Radakovich, M. Bosilovich, J.K. Entin, J.P. Walker, D. Lohmann, and D. Toll, The Global Land Data Assimilation System, Bull. Amer. Meteor. Soc., 85(3), 381-394, 2004.
   * [Additional references](https://ldas.gsfc.nasa.gov/gldas/GLDASpublications.php)
@@ -82,7 +86,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V20_NOAH_G025_T3H#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/GLDAS/V20/NOAH/G025/T3H')
 .filter(ee.Filter.date('2010-06-01','2010-06-02'));

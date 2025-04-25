@@ -1,6 +1,6 @@
  
 #  MOD09A1.061 Terra Surface Reflectance 8-Day Global 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MOD09A1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD09A1_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ Cadence
 Tags
      [8-day](https://developers.google.com/earth-engine/datasets/tags/8-day) [global](https://developers.google.com/earth-engine/datasets/tags/global) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr) [surface-reflectance](https://developers.google.com/earth-engine/datasets/tags/surface-reflectance) [terra](https://developers.google.com/earth-engine/datasets/tags/terra) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 mod09a1
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09A1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09A1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09A1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09A1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09A1#dois) More
+#### Description
 The MOD09A1 V6.1 product provides an estimate of the surface spectral reflectance of Terra MODIS bands 1-7 at 500m resolution and corrected for atmospheric conditions such as gasses, aerosols, and Rayleigh scattering. Along with the seven reflectance bands is a quality layer and four observation bands. For each pixel, a value is selected from all the acquisitions within the 8-day composite on the basis of high observation coverage, low view angle, the absence of clouds or cloud shadow, and aerosol loading.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/306/MOD09_User_Guide_V6.pdf)
@@ -26,18 +26,19 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MOD09A1)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Wavelength | Description  
 ---|---|---|---|---|---|---  
-`sur_refl_b01` |  -100  |  16000  | 0.0001 | 620-670nm | Surface reflectance for band 1  
-`sur_refl_b02` |  -100  |  16000  | 0.0001 | 841-876nm | Surface reflectance for band 2  
-`sur_refl_b03` |  -100  |  16000  | 0.0001 | 459-479nm | Surface reflectance for band 3  
-`sur_refl_b04` |  -100  |  16000  | 0.0001 | 545-565nm | Surface reflectance for band 4  
-`sur_refl_b05` |  -100  |  16000  | 0.0001 | 1230-1250nm | Surface reflectance for band 5  
-`sur_refl_b06` |  -100  |  16000  | 0.0001 | 1628-1652nm | Surface reflectance for band 6  
-`sur_refl_b07` |  -100  |  16000  | 0.0001 | 2105-2155nm | Surface reflectance for band 7  
-`QA` | Surface reflectance 500m band quality control flags  
+`sur_refl_b01` |  |  -100  |  16000  | 0.0001 | 620-670nm | Surface reflectance for band 1  
+`sur_refl_b02` |  |  -100  |  16000  | 0.0001 | 841-876nm | Surface reflectance for band 2  
+`sur_refl_b03` |  |  -100  |  16000  | 0.0001 | 459-479nm | Surface reflectance for band 3  
+`sur_refl_b04` |  |  -100  |  16000  | 0.0001 | 545-565nm | Surface reflectance for band 4  
+`sur_refl_b05` |  |  -100  |  16000  | 0.0001 | 1230-1250nm | Surface reflectance for band 5  
+`sur_refl_b06` |  |  -100  |  16000  | 0.0001 | 1628-1652nm | Surface reflectance for band 6  
+`sur_refl_b07` |  |  -100  |  16000  | 0.0001 | 2105-2155nm | Surface reflectance for band 7  
+`QA` |  |  |  |  |  | Surface reflectance 500m band quality control flags  
 Bitmask for QA
   * Bits 0-1: MODLAND QA bits 
     * 0: Corrected product produced at ideal quality - all bands
@@ -129,10 +130,10 @@ Bitmask for QA
     * 1: Yes
 
   
-`SolarZenith` | deg |  0  |  18000  | 0.01 | MODIS Solar zenith angle  
-`ViewZenith` | deg |  0  |  18000  | 0.01 | MODIS view zenith angle  
-`RelativeAzimuth` | deg |  -18000  |  18000  | 0.01 | MODIS relative azimuth angle  
-`StateQA` | Surface reflectance 500m state flags  
+`SolarZenith` | deg |  0  |  18000  | 0.01 |  | MODIS Solar zenith angle  
+`ViewZenith` | deg |  0  |  18000  | 0.01 |  | MODIS view zenith angle  
+`RelativeAzimuth` | deg |  -18000  |  18000  | 0.01 |  | MODIS relative azimuth angle  
+`StateQA` |  |  |  |  |  | Surface reflectance 500m state flags  
 Bitmask for StateQA
   * Bits 0-1: Cloud state 
     * 0: Clear
@@ -181,19 +182,22 @@ Bitmask for StateQA
     * 1: Snow
 
   
-`DayOfYear` |  1  |  366  | Julian day of the year for the pixel  
+`DayOfYear` |  |  1  |  366  |  |  | Julian day of the year for the pixel  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MOD09A1.061 ](https://doi.org/10.5067/MODIS/MOD09A1.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09A1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MOD09A1')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

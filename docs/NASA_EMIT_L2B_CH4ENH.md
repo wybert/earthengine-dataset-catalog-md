@@ -1,6 +1,6 @@
  
 #  Earth Surface Mineral Dust Source Investigation- Methane Enhancement 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/EMIT/L2B/CH4ENH](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_EMIT_L2B_CH4ENH_sample.png) 
 
 Dataset Availability
@@ -17,32 +17,37 @@ Cadence
 
 Tags
      [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [emit](https://developers.google.com/earth-engine/datasets/tags/emit) [methane](https://developers.google.com/earth-engine/datasets/tags/methane) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4ENH#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4ENH#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4ENH#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4ENH#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4ENH#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4ENH#dois) More
+#### Description
 The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging spectrometer adapted for installation on the International Space Station (ISS). EMIT measures radiance between 380 and 2500 nanometers, with an approximate 7 nm bandpass. Data are collected in a swath that is approximately 75 km wide at the equator, with an approximate ground sampling distance of 60 m. See the provider's [NASA EMIT Overview](https://lpdaac.usgs.gov/documents/1695/EMIT_L2B_GHG_User_Guide_V1.pdf) for more details.
 EMIT was a particularly useful tool for mapping out greenhouse gases, including methane, carbon dioxide, and water vapor. This is consistent with previous findings from airborne data, but global nature, revisit frequency and wide swath of EMIT provided an unprecedented opportunity to investigate greenhouse gas retrievals.
 The EMIT Level 2B Methane Enhancement Data (EMITL2BCH4ENH) Version 1 data product is a total vertical column enhancement estimate of methane in parts per million meter (ppm m) based on an adaptive matched filter approach. EMITL2BCH4ENH provides per-pixel methane enhancement data used to identify methane plume complexes. The initial release of the EMITL2BCH4ENH data product will only include granules where methane plume complexes have been identified.
+### Bands
 **Pixel Size** 72000 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `vertical_column_enhancement` | ppm m | Total vertical column enhancement estimate of methane  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 orbit_identification_number | STRING | Unique Orbit Identification Number  
 scene_identification_number | STRING | Unique scene identification nuber  
+### Terms of Use
 **Terms of Use**
 NASA EMIT data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Green, R., Thorpe, A., Brodrick, P., Chadwick, D., Elder, C., Villanueva-Weeks, C., Fahlen, J., Coleman, R., Jensen, D., Olsen-Duvall, W., Lundeen, S., Lopez, A., Thompson, D. (2023). EMIT L2B Methane Enhancement Data 60 m V001 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2024-02-26 from <https://doi.org/10.5067/EMIT/EMITL2BCH4ENH.001>
 
 
+### DOIs
   * [ https://doi.org/10.5067/EMIT/EMITL2BCH4ENH.001 ](https://doi.org/10.5067/EMIT/EMITL2BCH4ENH.001)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2B_CH4ENH#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/EMIT/L2B/CH4ENH');
 varemitEnhancement=dataset.select('vertical_column_enhancement');

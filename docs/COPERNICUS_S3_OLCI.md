@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S3/OLCI](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S3_OLCI_sample.png) 
 
 Dataset Availability
-    2016-10-18T19:25:42Z–2025-04-21T08:33:49Z 
+    2016-10-18T19:25:42Z–2025-04-24T08:17:23Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-olci) 
@@ -48,7 +48,7 @@ Name | Units | Scale | Wavelength | Description
 `Oa19_radiance` | W m^-2 sr^-1 µm^-1 | 0.00502847 | 900nm/10nm | Water vapor absorption/vegetation monitoring (max. reflectance)  
 `Oa20_radiance` | W m^-2 sr^-1 µm^-1 | 0.00326378 | 940nm/20nm | Water vapor absorption, atmospheric/aerosol correction  
 `Oa21_radiance` | W m^-2 sr^-1 µm^-1 | 0.00324118 | 1029nm/40nm | Atmospheric/aerosol correction  
-`quality_flags` | Quality flags  
+`quality_flags` |  |  |  | Quality flags  
 Bitmask for quality_flags
   * Bit 0: Saturated at Oa21 
     * 0: The sample of Oa21 is not saturated
@@ -206,7 +206,7 @@ Map.addLayer(rgb,visParams,'RGB');
 [ Sentinel-3 OLCI EFR: Ocean and Land Color Instrument Earth Observation Full Resolution ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI)
 The Ocean and Land Color Instrument (OLCI) Earth Observation Full Resolution (EFR) dataset contains top of atmosphere radiances at 21 spectral bands with center wavelengths ranging between 0.4µm and 1.02µm at spatial resolution of 300m with worldwide coverage every ~2 days. OLCI is one of the instruments in the ESA/EUMETSAT …
 COPERNICUS/S3/OLCI, copernicus,esa,eu,radiance,satellite-imagery,sentinel,toa 
-2016-10-18T19:25:42Z/2025-04-21T08:33:49Z
+2016-10-18T19:25:42Z/2025-04-24T08:17:23Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

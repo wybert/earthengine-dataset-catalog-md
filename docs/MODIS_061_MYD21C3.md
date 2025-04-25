@@ -29,9 +29,9 @@ Documentation:
 **Bands**
 Name | Units | Min | Max | Scale | Offset | Description  
 ---|---|---|---|---|---|---  
-`Count_Day` |  1  |  65535  | Count of Daytime Input Values  
-`Count_Night` |  1  |  65535  | Count of Nighttime Input Values  
-`QC_Day` | Quality Control for Daytime LST and Emissivity  
+`Count_Day` |  |  1  |  65535  |  |  | Count of Daytime Input Values  
+`Count_Night` |  |  1  |  65535  |  |  | Count of Nighttime Input Values  
+`QC_Day` |  |  |  |  |  | Quality Control for Daytime LST and Emissivity  
 Bitmask for QC_Day
   * Bits 0-1: Mandatory QA flags 
     * 0: Pixel produced, good quality, no further QA info necessary
@@ -57,7 +57,7 @@ Bitmask for QC_Day
     * 3: <1K (Excellent performance)
 
   
-`QC_Night` | Quality Control for Nighttime LST and Emissivity  
+`QC_Night` |  |  |  |  |  | Quality Control for Nighttime LST and Emissivity  
 Bitmask for QC_Night
   * Bits 0-1: Mandatory QA flags 
     * 0: Pixel produced, good quality, no further QA info necessary
@@ -83,30 +83,30 @@ Bitmask for QC_Night
     * 3: <1K (Excellent performance)
 
   
-`LST_Day` | K |  7500  |  65535  | 0.02 | Average Daytime Land Surface Temperature  
-`LST_Night` | K |  7500  |  65535  | 0.02 | Average Nighttime Land Surface Temperature  
-`LST_Day_err` | K |  1  |  255  | 0.04 | Root-mean-square-error Daytime Land Surface Temperature  
-`LST_Night_err` | K |  1  |  255  | 0.04 | Average Nighttime Land Surface Temperature  
-`Day_view_angle` | deg |  0  |  130  | -65 | Average Daytime View Zenith Angle  
-`Night_view_angle` | deg |  0  |  130  | -65 | Average Nighttime View Zenith Angle  
-`Day_view_time` | h |  0  |  120  | 0.2 | Average Daytime View Time (UTC)  
-`Night_view_time` | h |  0  |  120  | 0.2 | Average Nighttime View Time (UTC)  
-`Emis_29_Day` |  1  |  255  | 0.002 | 0.49 | Average Daytime Band 29 Emissivity  
-`Emis_29_Night` |  1  |  255  | 0.002 | 0.49 | Average Nighttime Band 29 Emissivity  
-`Emis_29_Day_err` |  1  |  65535  | 0.0001 | Root-mean-square-error Daytime Band 29 Emissivity  
-`Emis_29_Night_err` |  1  |  65535  | 0.0001 | Root-mean-square-error Nighttime Band 29 Emissivity  
-`Emis_31_Day` |  1  |  255  | 0.002 | 0.49 | Average Daytime Band 31 Emissivity  
-`Emis_31_Night` |  1  |  255  | 0.002 | 0.49 | Average Nighttime Band 31 Emissivity  
-`Emis_31_Day_err` |  1  |  65535  | 0.0001 | Root-mean-square-error Daytime Band 31 Emissivity  
-`Emis_31_Night_err` |  1  |  65535  | 0.0001 | Root-mean-square-error Nighttime Band 31 Emissivity  
-`Emis_32_Day` |  1  |  255  | 0.002 | 0.49 | Average Daytime Band 32 Emissivity  
-`Emis_32_Night` |  1  |  255  | 0.002 | 0.49 | Average Nighttime Band 32 Emissivity  
-`Emis_32_Day_err` |  1  |  65535  | 0.0001 | Root-mean-square-error Daytime Band 32 Emissivity  
-`Emis_32_Night_err` |  1  |  65535  | 0.0001 | Root-mean-square-error Nighttime Band 32 Emissivity  
-`View_Angle` | deg | -65 | MODIS view zenith angle  
-`Percent_land_in_grid` | % |  1  |  100  | Percent of Land Detections in Grid Cell  
-`Clear_sky_days` |  0  |  2.14748e+09  | Bitmap of Clear Sky Days (1 = clear, LSB = 1st day)  
-`Clear_sky_nights` |  0  |  2.14748e+09  | Bitmap of Clear Sky Nights (1 = clear, LSB = 1st day)  
+`LST_Day` | K |  7500  |  65535  | 0.02 |  | Average Daytime Land Surface Temperature  
+`LST_Night` | K |  7500  |  65535  | 0.02 |  | Average Nighttime Land Surface Temperature  
+`LST_Day_err` | K |  1  |  255  | 0.04 |  | Root-mean-square-error Daytime Land Surface Temperature  
+`LST_Night_err` | K |  1  |  255  | 0.04 |  | Average Nighttime Land Surface Temperature  
+`Day_view_angle` | deg |  0  |  130  |  | -65 | Average Daytime View Zenith Angle  
+`Night_view_angle` | deg |  0  |  130  |  | -65 | Average Nighttime View Zenith Angle  
+`Day_view_time` | h |  0  |  120  | 0.2 |  | Average Daytime View Time (UTC)  
+`Night_view_time` | h |  0  |  120  | 0.2 |  | Average Nighttime View Time (UTC)  
+`Emis_29_Day` |  |  1  |  255  | 0.002 | 0.49 | Average Daytime Band 29 Emissivity  
+`Emis_29_Night` |  |  1  |  255  | 0.002 | 0.49 | Average Nighttime Band 29 Emissivity  
+`Emis_29_Day_err` |  |  1  |  65535  | 0.0001 |  | Root-mean-square-error Daytime Band 29 Emissivity  
+`Emis_29_Night_err` |  |  1  |  65535  | 0.0001 |  | Root-mean-square-error Nighttime Band 29 Emissivity  
+`Emis_31_Day` |  |  1  |  255  | 0.002 | 0.49 | Average Daytime Band 31 Emissivity  
+`Emis_31_Night` |  |  1  |  255  | 0.002 | 0.49 | Average Nighttime Band 31 Emissivity  
+`Emis_31_Day_err` |  |  1  |  65535  | 0.0001 |  | Root-mean-square-error Daytime Band 31 Emissivity  
+`Emis_31_Night_err` |  |  1  |  65535  | 0.0001 |  | Root-mean-square-error Nighttime Band 31 Emissivity  
+`Emis_32_Day` |  |  1  |  255  | 0.002 | 0.49 | Average Daytime Band 32 Emissivity  
+`Emis_32_Night` |  |  1  |  255  | 0.002 | 0.49 | Average Nighttime Band 32 Emissivity  
+`Emis_32_Day_err` |  |  1  |  65535  | 0.0001 |  | Root-mean-square-error Daytime Band 32 Emissivity  
+`Emis_32_Night_err` |  |  1  |  65535  | 0.0001 |  | Root-mean-square-error Nighttime Band 32 Emissivity  
+`View_Angle` | deg |  |  |  | -65 | MODIS view zenith angle  
+`Percent_land_in_grid` | % |  1  |  100  |  |  | Percent of Land Detections in Grid Cell  
+`Clear_sky_days` |  |  0  |  2.14748e+09  |  |  | Bitmap of Clear Sky Days (1 = clear, LSB = 1st day)  
+`Clear_sky_nights` |  |  0  |  2.14748e+09  |  |  | Bitmap of Clear Sky Nights (1 = clear, LSB = 1st day)  
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
 Citations:

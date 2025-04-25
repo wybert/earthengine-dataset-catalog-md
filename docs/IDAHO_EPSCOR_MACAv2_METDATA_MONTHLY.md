@@ -1,6 +1,6 @@
  
 #  MACAv2-METDATA Monthly Summaries: University of Idaho, Multivariate Adaptive Constructed Analogs Applied to Global Climate Models 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![IDAHO_EPSCOR/MACAv2_METDATA_MONTHLY](https://developers.google.com/earth-engine/datasets/images/IDAHO_EPSCOR/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY_sample.png) 
 
 Dataset Availability
@@ -17,11 +17,12 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [conus](https://developers.google.com/earth-engine/datasets/tags/conus) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [idaho](https://developers.google.com/earth-engine/datasets/tags/idaho) [maca](https://developers.google.com/earth-engine/datasets/tags/maca) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY#citations) More
+#### Description
 The MACAv2-METDATA dataset is a collection of 20 global climate models covering the conterminous USA. The Multivariate Adaptive Constructed Analogs (MACA) method is a statistical downscaling method which utilizes a training dataset (i.e. a meteorological observation dataset) to remove historical biases and match spatial patterns in climate model output.
 The MACA method was used to downscale the model output from 20 global climate models (GCMs) of the Coupled Model Inter-Comparison Project 5 (CMIP5) for the historical GCM forcings (1950-2005) and the future Representative Concentration Pathways (RCPs) RCP 4.5 and RCP 8.5 scenarios (2006-2100) from the native resolution of the GCMS to 4km.
 This version contains monthly summaries.
 The full list of models can be found at: <https://climate.northwestknowledge.net/MACA/GCMs.php>
+### Bands
 **Pixel Size** 4638.3 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -33,6 +34,7 @@ Name | Units | Min | Max | Description
 `rsds` | W/m^2 |  15.84*  |  419*  | Monthly average of mean daily downward shortwave radiation at surface  
 `was` | m/s |  0.23*  |  14.16*  | Monthly average of mean daily near surface wind speed  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -40,15 +42,17 @@ scenario | STRING | Name of the CMIP5 scenario, one of 'rcp85', 'rcp45', or 'his
 model | STRING | Name of the CMIP5 model, eg 'inmcm4'  
 ensemble | STRING | Either 'r1i1p1' or 'r6i1p1'  
 month | DOUBLE | The index of the month in the year, ie 1-12  
+### Terms of Use
 **Terms of Use**
 The MACA datasets were created with funding from the US government and are in the public domain in the United States. For further clarity, unless otherwise noted, the MACA datasets are made available with a Creative Commons CC0 1.0 Universal dedication. In short, John Abatzoglou waives all rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission. John Abatzoglou makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law. Users should properly cite the source used in the creation of any reports and publications resulting from the use of this dataset and note the date when the data was acquired. For more information refer to the [MACA References and License](https://climate.northwestknowledge.net/MACA/MACAreferences.php) page.
+### Citations
 Citations:
   * Abatzoglou J.T. and Brown T.J., A comparison of statistical downscaling methods suited for wildfire applications, International Journal of Climatology(2012) [doi:10.1002/joc.2312](https://doi.org/10.1002/joc.2312).
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_MACAv2_METDATA_MONTHLY#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('IDAHO_EPSCOR/MACAv2_METDATA_MONTHLY')
 .filter(ee.Filter.date('2018-07-01','2018-08-01'));

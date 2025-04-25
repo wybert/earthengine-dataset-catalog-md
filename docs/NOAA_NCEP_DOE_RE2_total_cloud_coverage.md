@@ -1,6 +1,6 @@
  
 #  NCEP-DOE Reanalysis 2 (Gaussian Grid), Total Cloud Coverage 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/NCEP_DOE_RE2/total_cloud_coverage](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_NCEP_DOE_RE2_total_cloud_coverage_sample.png) 
 
 Dataset Availability
@@ -17,23 +17,26 @@ Cadence
 
 Tags
      [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [cloud](https://developers.google.com/earth-engine/datasets/tags/cloud) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [ncep](https://developers.google.com/earth-engine/datasets/tags/ncep) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [reanalysis](https://developers.google.com/earth-engine/datasets/tags/reanalysis)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NCEP_DOE_RE2_total_cloud_coverage#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NCEP_DOE_RE2_total_cloud_coverage#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NCEP_DOE_RE2_total_cloud_coverage#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NCEP_DOE_RE2_total_cloud_coverage#citations) More
+#### Description
 NCEP-DOE Reanalysis 2 project is using a state-of-the-art analysis/forecast system to perform data assimilation using past data from 1979 through the previous year.
+### Bands
 **Pixel Size** 278300 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `tcdc` | % |  0*  |  100*  | Total cloud cover  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 There are no restrictions on the use of these datasets.
+### Citations
 Citations:
   * [NCEP-DOE AMIP-II Reanalysis (R-2): M. Kanamitsu, W. Ebisuzaki, J. Woollen, S-K Yang, J.J. Hnilo, M. Fiorino, and G. L. Potter. 1631-1643, Nov 2002, Bulletin of the American Meteorological Society.](https://journals.ametsoc.org/view/journals/bams/83/11/bams-83-11-1631.xml).
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_NCEP_DOE_RE2_total_cloud_coverage#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Import the dataset, filter the first five months of 2020.
 vardataset=ee.ImageCollection('NOAA/NCEP_DOE_RE2/total_cloud_coverage')

@@ -1,6 +1,6 @@
  
 #  WHRC Pantropical National Level Carbon Stock Dataset 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WHRC/biomass/tropical](https://developers.google.com/earth-engine/datasets/images/WHRC/WHRC_biomass_tropical_sample.png) 
 
 Dataset Availability
@@ -17,27 +17,30 @@ Tags
 pantropical
 tropical
 whrc
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WHRC_biomass_tropical#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/WHRC_biomass_tropical#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WHRC_biomass_tropical#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/WHRC_biomass_tropical#citations) More
+#### Description
 A national-level map of above-ground live woody biomass density for tropical countries at 500m. This dataset was assembled from a combination of co-located field measurements, LiDAR observations, and imagery recorded from the Moderate Resolution Imaging Spectroradiometer (MODIS).
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `Mg` | Mg/ha |  0*  |  503*  | Megagrams of aboveground live woody biomass per Hectare  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
   * The national level dataset is freely available for use for scientific, conservation, and educational purposes.
   * Users acknowledge that they themselves are responsible for determining whether the dataset is of sufficient quality and appropriateness for their objectives.
   * Users agree that they will make reasonable efforts to provide appropriate feedbacks and notification of any significant errors that they identify in the dataset.
 
 
+### Citations
 Citations:
   * A. Baccini, S J. Goetz, W.S. Walker, N. T. Laporte, M. Sun, D. Sulla-Menashe, J. Hackler, P.S.A. Beck, R. Dubayah, M.A. Friedl, S. Samanta and R. A. Houghton. Estimated carbon dioxide emissions from tropical deforestation improved by carbon-density maps. 2012 Nature Climate Change, [doi:10.1038/NCLIMATE1354](https://doi.org/10.1038/NCLIMATE1354)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WHRC_biomass_tropical#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('WHRC/biomass/tropical');
 // Show results only over land.

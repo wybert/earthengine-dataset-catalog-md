@@ -1,6 +1,6 @@
  
 #  GMTED2010: Global Multi-resolution Terrain Elevation Data 2010 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/GMTED2010_FULL](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_GMTED2010_FULL_sample.png) 
 
 Dataset Availability

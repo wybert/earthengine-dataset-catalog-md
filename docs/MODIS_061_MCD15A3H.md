@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![MODIS/061/MCD15A3H](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD15A3H_sample.png) 
 
 Dataset Availability
-    2002-07-04T00:00:00Z–2025-04-11T00:00:00Z 
+    2002-07-04T00:00:00Z–2025-04-15T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MCD15A3H.061) 
@@ -32,8 +32,8 @@ Documentation:
 Name | Min | Max | Scale | Wavelength | Description  
 ---|---|---|---|---|---  
 `Fpar` |  0  |  100  | 0.01 | 400-700nm | FPAR absorbed by the green elements of a vegetation canopy  
-`Lai` |  0  |  100  | 0.1 | One-sided green leaf area per unit ground area in broadleaf canopies; one-half the total needle surface area per unit ground area in coniferous canopies  
-`FparLai_QC` | Quality for Lai and Fpar  
+`Lai` |  0  |  100  | 0.1 |  | One-sided green leaf area per unit ground area in broadleaf canopies; one-half the total needle surface area per unit ground area in coniferous canopies  
+`FparLai_QC` |  |  |  |  | Quality for Lai and Fpar  
 Bitmask for FparLai_QC
   * Bit 0: MODLAND_QC bits 
     * 0: Good quality (main algorithm with or without saturation)
@@ -57,7 +57,7 @@ Bitmask for FparLai_QC
     * 4: Pixel not produced at all, value couldn''t be retrieved (possible reasons: bad L1B data, unusable MOD09GA data)
 
   
-`FparExtra_QC` | Extra detail quality for LAI and FPAR  
+`FparExtra_QC` |  |  |  |  | Extra detail quality for LAI and FPAR  
 Bitmask for FparExtra_QC
   * Bits 0-1: Land-sea pass-thru 
     * 0: LAND
@@ -84,8 +84,8 @@ Bitmask for FparExtra_QC
     * 1: Biome in interval <1,4>
 
   
-`FparStdDev` |  0  |  100  | 0.01 | Standard deviation of Fpar  
-`LaiStdDev` |  0  |  100  | 0.1 | Standard deviation for Lai  
+`FparStdDev` |  0  |  100  | 0.01 |  | Standard deviation of Fpar  
+`LaiStdDev` |  0  |  100  | 0.1 |  | Standard deviation for Lai  
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
 Citations:
@@ -114,7 +114,7 @@ defaultVisualization,defaultVisualizationVis,'Default visualization');
 [ MCD15A3H.061 MODIS Leaf Area Index/FPAR 4-Day Global 500m ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD15A3H)
 The MCD15A3H Version 6.1 Moderate Resolution Imaging Spectroradiometer (MODIS) Level 4, Combined Fraction of Photosynthetically Active Radiation (FPAR), and Leaf Area Index (LAI) product is a 4-day composite data set with 500 meter pixel size. The algorithm chooses the best pixel available from all the acquisitions of both MODIS sensors …
 MODIS/061/MCD15A3H, fpar,global,lai,modis,nasa,plant-productivity,usgs,vegetation 
-2002-07-04T00:00:00Z/2025-04-11T00:00:00Z
+2002-07-04T00:00:00Z/2025-04-15T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

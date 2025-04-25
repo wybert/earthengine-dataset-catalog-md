@@ -1,6 +1,6 @@
  
 #  VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/VIIRS/002/VNP46A2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP46A2_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [brdf](https://developers.google.com/earth-engine/datasets/tags/brdf) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [nighttime](https://developers.google.com/earth-engine/datasets/tags/nighttime) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [population](https://developers.google.com/earth-engine/datasets/tags/population) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2#dois) More
+#### Description
 The Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS) supports a Day-Night Band (DNB) sensor that provides global daily measurements of nocturnal visible and near-infrared(NIR) light that are suitable for Earth system science and applications. The VIIRS DNB's ultra-sensitivity in lowlight conditions enable us to generate a new set of science-quality nighttime products that manifest substantial improvements in sensor resolution and calibration when compared to the previous era of Defense Meteorological Satellite Program/Operational Linescan System's (DMSP/OLS) nighttime lights image products. Such improvements allow the VIIRS DNB products to better monitor both the magnitude and signature of nighttime phenomena, and anthropogenic sources of light emissions.
 VNP46A2 is the short-name for the daily moonlight- and atmosphere-corrected Nighttime Lights (NTL) product called VIIRS/NPP Gap-Filled Lunar BRDF-Adjusted Nighttime Lights Daily L3 Global 500m Linear Lat Lon Grid.
 Documentation:
@@ -26,6 +26,7 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/VNP46A2/)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Min | Max | Description  
@@ -33,10 +34,10 @@ Name | Min | Max | Description
 `DNB_BRDF_Corrected_NTL` |  0  |  6553.4  | BRDF corrected DNB NTL  
 `Gap_Filled_DNB_BRDF_Corrected_NTL` |  0  |  6553.4  | Gap Filled BRDF corrected DNB NTL  
 `DNB_Lunar_Irradiance` |  0  |  6553.4  | DNB Lunar Irradiance  
-`Latest_High_Quality_Retrieval` | Latest high quality BRDF corrected DNB radiance retrieval  
+`Latest_High_Quality_Retrieval` |  |  | Latest high quality BRDF corrected DNB radiance retrieval  
 `Mandatory_Quality_Flag` |  0  |  3  | Mandatory quality flag  
 `Snow_Flag` |  0  |  1  | Flag for snow cover  
-`QF_Cloud_Mask` | Quality flag for cloud mask  
+`QF_Cloud_Mask` |  |  | Quality flag for cloud mask  
 Bitmask for QF_Cloud_Mask
   * Bit 0: Day/Night 
     * 0: Night
@@ -71,27 +72,30 @@ Bitmask for QF_Cloud_Mask
 **Mandatory_Quality_Flag Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | High-quality, Persistent nighttime lights  
-1 | High-quality, Ephemeral nighttime Lights  
-2 | Poor-quality, Outlier, potential cloud contamination, or other issues   
-255 | No retrieval, Fill value (masked out on ingestion)  
+0 |  | High-quality, Persistent nighttime lights  
+1 |  | High-quality, Ephemeral nighttime Lights  
+2 |  | Poor-quality, Outlier, potential cloud contamination, or other issues   
+255 |  | No retrieval, Fill value (masked out on ingestion)  
 **Snow_Flag Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | No Snow/Ice  
-1 | Snow/Ice  
+0 |  | No Snow/Ice  
+1 |  | Snow/Ice  
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Román, M.O., Wang, Z., Sun, Q., Kalb, V., Miller, S.D., Molthan, A., Schultz, L., Bell, J., Stokes, E.C., Pandey, B. and Seto, K.C., et al. (2018). NASA's Black Marble nighttime lights product suite. Remote Sensing of Environment 210, 113-143. [10.1016/j.rse.2018.03.017](https://doi.org/10.1016/j.rse.2018.03.017)
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP46A2.002 ](https://doi.org/10.5067/VIIRS/VNP46A2.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/VIIRS/002/VNP46A2')
 .filter(ee.Filter.date('2013-01-01','2013-03-01'));

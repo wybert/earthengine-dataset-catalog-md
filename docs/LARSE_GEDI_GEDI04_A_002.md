@@ -1,6 +1,6 @@
  
 #  GEDI L4A Aboveground Biomass Density, Version 2.1 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI04_A_002](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI04_A_002_sample.png) 
 
 Dataset Availability
@@ -11,7 +11,7 @@ Dataset Provider
 
 Tags
      [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [gedi](https://developers.google.com/earth-engine/datasets/tags/gedi) [larse](https://developers.google.com/earth-engine/datasets/tags/larse) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [tree-cover](https://developers.google.com/earth-engine/datasets/tags/tree-cover) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002#dois) More
+#### Description
 This dataset contains Global Ecosystem Dynamics Investigation (GEDI) Level 4A (L4A) Version 2 predictions of the aboveground biomass density (AGBD; in Mg/ha) and estimates of the prediction standard error within each sampled geolocated laser footprint. In this version, the granules are in sub-orbits. Height metrics from simulated waveforms associated with field estimates of AGBD from multiple regions and plant functional types (PFTs) were compiled to generate a calibration dataset for models representing the combinations of world regions and PFTs (i.e., deciduous broadleaf trees, evergreen broadleaf trees, evergreen needleleaf trees, deciduous needleleaf trees, and the combination of grasslands, shrubs, and woodlands).The algorithm setting group selection used for GEDI02_A Version 2 has been modified for evergreen broadleaf trees in South America to reduce false positive errors resulting from the selection of waveform modes above ground elevation as the lowest mode.
 Please see [User Guide](https://daac.ornl.gov/GEDI/guides/GEDI_L4A_AGB_Density_V2_1.html) for more information.
 The Global Ecosystem Dynamics Investigation [GEDI](https://gedi.umd.edu/) mission aims to characterize ecosystem structure and dynamics to enable radically improved quantification and understanding of the Earth's carbon cycle and biodiversity. The GEDI instrument, attached to the International Space Station (ISS), collects data globally between 51.6° N and 51.6° S latitudes at the highest resolution and densest sampling of the 3-dimensional structure of the Earth. The GEDI instrument consists of three lasers producing a total of eight beam ground transects, which instantaneously sample eight ~25 m footprints spaced approximately every 60 m along-track.
@@ -27,6 +27,7 @@ L4A Biomass Vector | [LARSE/GEDI/GEDI04_A_002](https://developers.google.com/ear
 L4A Monthly raster | [LARSE/GEDI/GEDI04_A_002_MONTHLY](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_MONTHLY)  
 L4A table index | [LARSE/GEDI/GEDI04_A_002_INDEX](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX)  
 L4B Biomass | [LARSE/GEDI/GEDI04_B_002](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_B_002)  
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -96,18 +97,21 @@ pft_class | INT | GEDI 1 km EASE 2.0 grid Plant Functional Type (PFT) derived fr
 region_class | INT | GEDI 1 km EASE 2.0 grid world continental regions (0=Water, 1=Europe, 2=North Asia, 3=Australasia, 4=Africa, 5=South Asia, 6=South America, 7=North America).  
 urban_focal_window_size | INT | The focal window size used to calculate urban_proportion. Values are 3 (3x3 pixel window size) or 5 (5x5 pixel window size).  
 urban_proportion | INT | The percentage proportion of land area within a focal area surrounding each shot that is urban land cover. Urban land cover was derived from the DLR 12 m resolution TanDEM-X Global Urban Footprint Product.  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * GEDI L4A Footprint Level Aboveground Biomass Density, Version 2.1. Dubayah, R.O., J. Armston, J.R. Kellner, L. Duncanson, S.P. Healey, P.L. Patterson, S. Hancock, H. Tang, J. Bruening, M.A. Hofton, J.B. Blair, and S.B. Luthcke. 2022. ORNL DAAC, Oak Ridge, Tennessee, USA. [doi:10.3334/ORNLDAAC/2056](https://doi.org/10.3334/ORNLDAAC/2056)
 
 
+### DOIs
   * [ https://doi.org/10.5067/GEDI/GEDI04_A.002 ](https://doi.org/10.5067/GEDI/GEDI04_A.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection(
 'LARSE/GEDI/GEDI04_A_002/GEDI04_A_2022157233128_O19728_03_T11129_02_003_01_V002');

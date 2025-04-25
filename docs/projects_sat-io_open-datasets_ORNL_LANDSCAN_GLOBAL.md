@@ -1,6 +1,6 @@
  
 #  LandScan Population Data Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL](https://developers.google.com/earth-engine/datasets/images/sat-io/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL_sample.png)
 info
 This dataset is part of a Community Catalog, and not managed by Google Earth Engine. Contact gee-community-catalog@googlegroups.com for bugs or [view more datasets](https://developers.google.com/earth-engine/datasets/community/sat-io) from the Awesome GEE Community Catalog Catalog. [Learn more about Community datasets](https://developers.google.com/earth-engine/datasets/community). 
@@ -20,26 +20,30 @@ Earth Engine Snippet
 
 Tags
      [community-dataset](https://developers.google.com/earth-engine/datasets/tags/community-dataset) [demography](https://developers.google.com/earth-engine/datasets/tags/demography) [landscan](https://developers.google.com/earth-engine/datasets/tags/landscan) [population](https://developers.google.com/earth-engine/datasets/tags/population) [sat-io](https://developers.google.com/earth-engine/datasets/tags/sat-io)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL#dois) More
+#### Description
 The LandScan dataset, provided by the Oak Ridge National Laboratory (ORNL), offers a comprehensive and high-resolution global population distribution dataset that serves as a valuable resource for a wide range of applications. Leveraging state-of-the-art spatial modeling techniques and advanced geospatial data sources, LandScan provides detailed information on population counts and density at a 30 arc-second resolution, enabling precise and up-to-date insights into human settlement patterns across the globe. With its accuracy and granularity, LandScan supports diverse fields such as urban planning, disaster response, epidemiology, and environmental research, making it an essential tool for decision-makers and researchers seeking to understand and address various societal and environmental challenges on a global scale.
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Min | Max | Description  
 ---|---|---|---  
 `b1` |  0*  |  21171*  | Estimated Population count  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 Landscan datasets are licensed under the Creative Commons Attribution 4.0 International License. Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.
+### Citations
 Citations:
   * Sims, K., Reith, A., Bright, E., Kaufman, J., Pyle, J., Epting, J., Gonzales, J., Adams, D., Powell, E., Urban, M., & Rose, A. (2023). LandScan Global 2022 [Data set]. Oak Ridge National Laboratory. https://doi.org/10.48690/1529167
 
 
+### DOIs
   * [ https://doi.org/10.48690/1529167 ](https://doi.org/10.48690/1529167)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/projects_sat-io_open-datasets_ORNL_LANDSCAN_GLOBAL#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varlandscan_global=
 ee.ImageCollection('projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL');

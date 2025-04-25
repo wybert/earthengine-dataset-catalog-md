@@ -23,50 +23,50 @@ Earth Engine asset has been ingested from the DGED files.
 **Bands**
 Name | Min | Max | Description  
 ---|---|---|---  
-`DEM` | Digital Surface Model  
+`DEM` |  |  | Digital Surface Model  
 `EDM` |  0  |  13  | The Edit Data Mask indicates all DEM pixels that were modified during the terrain and hydro editing process.  
 `FLM` |  0  |  101  | The Filling Mask is created primarily during the terrain editing process.  
-`HEM` | The Height Error Mask represents the corresponding height error for each DEM pixel in the form of the standard deviation derived from the interferometric coherence and geometrical considerations.  
+`HEM` |  |  | The Height Error Mask represents the corresponding height error for each DEM pixel in the form of the standard deviation derived from the interferometric coherence and geometrical considerations.  
 `WBM` |  0  |  3  | The Water Body Mask shows all DEM pixels which are classified as water and edited according to the categories Ocean, Lake or River.  
 **EDM Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | Void (no data)  
-1 | Not edited  
-2 | Infill of external elevation data  
-3 | Interpolated pixels  
-4 | Smoothed pixels  
-5 | Airport editing  
-6 | Raised negative elevation pixels  
-7 | Flattened pixels  
-8 | Ocean pixels  
-9 | Lake pixels  
-10 | River pixels  
-11 | Shoreline pixels  
-12 | Morphed pixels (series of pixels manually set)  
-13 | Shifted pixels  
+0 |  | Void (no data)  
+1 |  | Not edited  
+2 |  | Infill of external elevation data  
+3 |  | Interpolated pixels  
+4 |  | Smoothed pixels  
+5 |  | Airport editing  
+6 |  | Raised negative elevation pixels  
+7 |  | Flattened pixels  
+8 |  | Ocean pixels  
+9 |  | Lake pixels  
+10 |  | River pixels  
+11 |  | Shoreline pixels  
+12 |  | Morphed pixels (series of pixels manually set)  
+13 |  | Shifted pixels  
 **FLM Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | Void (no data)  
-1 | Edited (except filled pixels)  
-2 | Not edited / not filled  
-3 | ASTER  
-4 | SRTM90  
-5 | SRTM30  
-6 | GMTED2010  
-7 | SRTM30plus  
-8 | TerraSAR-X Radargrammetric DEM  
-9 | AW3D30  
-100 | Norway DEM  
-101 | DSM05 Spain  
+0 |  | Void (no data)  
+1 |  | Edited (except filled pixels)  
+2 |  | Not edited / not filled  
+3 |  | ASTER  
+4 |  | SRTM90  
+5 |  | SRTM30  
+6 |  | GMTED2010  
+7 |  | SRTM30plus  
+8 |  | TerraSAR-X Radargrammetric DEM  
+9 |  | AW3D30  
+100 |  | Norway DEM  
+101 |  | DSM05 Spain  
 **WBM Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | No water  
-1 | Ocean  
-2 | Lake  
-3 | River  
+0 |  | No water  
+1 |  | Ocean  
+2 |  | Lake  
+3 |  | River  
 **Terms of Use**
 The GLO-30 dataset is available worldwide with a free license with the exception of two countries (Armenia and Azerbaijan). [License for Copernicus DEM](https://docs.sentinel-hub.com/api/latest/static/files/data/dem/resources/license/License-COPDEM-30.pdf).
 ### Explore with Earth Engine

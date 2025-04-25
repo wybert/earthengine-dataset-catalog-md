@@ -1,10 +1,10 @@
  
 #  SPL4SMGP.007 SMAP L4 Global 3-hourly 9-km Surface and Root Zone Soil Moisture 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/SMAP/SPL4SMGP/007](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_SMAP_SPL4SMGP_007_sample.png) 
 
 Dataset Availability
-    2015-03-31T12:00:00Z–2025-04-19T22:30:00Z 
+    2015-03-31T12:00:00Z–2025-04-21T22:30:00Z 
 
 Dataset Provider
      [ Google and NSIDC ](https://nsidc.org/data/spl4smgp/versions/7) 
@@ -17,13 +17,14 @@ Cadence
 
 Tags
      [drought](https://developers.google.com/earth-engine/datasets/tags/drought) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [smap](https://developers.google.com/earth-engine/datasets/tags/smap) [soil](https://developers.google.com/earth-engine/datasets/tags/soil) [soil-moisture](https://developers.google.com/earth-engine/datasets/tags/soil-moisture) [surface](https://developers.google.com/earth-engine/datasets/tags/surface) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_007#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_007#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_007#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_007#citations) More
+#### Description
 The SMAP Level-4 (L4) Soil Moisture product includes surface soil moisture (0-5 cm vertical average), root-zone soil moisture (0-100 cm vertical average), and additional research products (not validated), including surface meteorological forcing variables, soil temperature, evapotranspiration, and net radiation.
 SMAP L4 provides uninterrupted soil moisture data. During outages of the SMAP instrument, SMAP L4 soil moisture is based on land model simulations alone, without the concomitant assimilation of SMAP brightness temperature observations. Significant SMAP instrument outages occurred between 19 June and 23 July 2019 and between 6 August and 20 September 2022.
 SMAP L-band brightness temperature data from descending and ascending half-orbit satellite passes (approximately 6:00 a.m. and 6:00 p.m. local solar time, respectively) are assimilated into a land surface model that is gridded using an Earth-fixed, global cylindrical 9 km Equal-Area Scalable Earth Grid, Version 2.0 (EASE-Grid 2.0) projection.
 The SPL4SMGP product includes a series of 3-hourly time-averaged geophysical data fields from the assimilation system. SPL4SMGP data are transformed to [geographic coordinates using GDAL libraries](https://github.com/google/earthengine-catalog/blob/main/pipelines/smap_convert_l4.py) before the data are ingested into Google Earth Engine.
 See the [SMAP L4 Soil Moisture User Guide](https://nsidc.org/sites/default/files/documents/user-guide/multi_spl4smau-v007-userguide.pdf) and references therein for additional documentation and algorithm details.
 See [basic](https://developers.google.com/earth-engine/tutorials/community/smap-soil-moisture) and [advanced](https://developers.google.com/earth-engine/tutorials/community/anomalies-analysis-smo-and-pre) tutorials to learn how to use SMAP data in Earth Engine.
+### Bands
 **Pixel Size** 11000 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -31,9 +32,9 @@ Name | Units | Min | Max | Description
 `sm_surface` | Volume fraction |  0  |  0.9  | Top layer soil moisture (0-5 cm)  
 `sm_rootzone` | Volume fraction |  0  |  0.9  | Root zone soil moisture (0-100 cm)  
 `sm_profile` | Volume fraction |  0  |  0.9  | Total profile soil moisture (0 cm to model bedrock depth).  
-`sm_surface_wetness` |  0  |  1  | Top layer soil wetness (0-5 cm;wetness units). Soil wetness units (dimensionless) vary between 0 and 1, indicating relative saturation between completely dry conditions and completely saturated conditions, respectively.  
-`sm_rootzone_wetness` |  0  |  1  | Root zone soil wetness (0-100 cm;wetness units). Soil wetness units (dimensionless) vary between 0 and 1, indicating relative saturation between completely dry conditions and completely saturated conditions, respectively.  
-`sm_profile_wetness` |  0  |  1  | Total profile soil wetness (0 cm to model bedrock depth; wetness units). Soil wetness units (dimensionless) vary between 0 and 1, indicating relative saturation between completely dry conditions and completely saturated conditions, respectively.  
+`sm_surface_wetness` |  |  0  |  1  | Top layer soil wetness (0-5 cm;wetness units). Soil wetness units (dimensionless) vary between 0 and 1, indicating relative saturation between completely dry conditions and completely saturated conditions, respectively.  
+`sm_rootzone_wetness` |  |  0  |  1  | Root zone soil wetness (0-100 cm;wetness units). Soil wetness units (dimensionless) vary between 0 and 1, indicating relative saturation between completely dry conditions and completely saturated conditions, respectively.  
+`sm_profile_wetness` |  |  0  |  1  | Total profile soil wetness (0 cm to model bedrock depth; wetness units). Soil wetness units (dimensionless) vary between 0 and 1, indicating relative saturation between completely dry conditions and completely saturated conditions, respectively.  
 `surface_temp` | K |  180  |  350  | Mean land surface temperature (including snow-covered land area). Excluding areas of open water and permanent ice  
 `soil_temp_layer1` | K |  210  |  350  | Soil temperature in layer 1 of soil heat diffusion model  
 `soil_temp_layer2` | K |  210  |  330  | Soil temperature in layer 2 of soil heat diffusion model  
@@ -48,10 +49,10 @@ Name | Units | Min | Max | Description
 `baseflow_flux` | kg/m^2/s |  0  |  0.01  | Baseflow  
 `snow_melt_flux` | kg/m^2/s |  0  |  0.05  | Snowmelt  
 `soil_water_infiltration_flux` | kg/m^2/s |  0  |  0.05  | Soil water infiltration rate  
-`land_fraction_saturated` |  0  |  1  | Fractional land area that is saturated and snow-free  
-`land_fraction_unsaturated` |  0  |  1  | Fractional land area that is unsaturated (but non-wilting) and snow-free  
-`land_fraction_wilting` |  0  |  1  | Fractional land area that is wilting and snow-free  
-`land_fraction_snow_covered` |  0  |  1  | Fractional land area that is snowcovered  
+`land_fraction_saturated` |  |  0  |  1  | Fractional land area that is saturated and snow-free  
+`land_fraction_unsaturated` |  |  0  |  1  | Fractional land area that is unsaturated (but non-wilting) and snow-free  
+`land_fraction_wilting` |  |  0  |  1  | Fractional land area that is wilting and snow-free  
+`land_fraction_snow_covered` |  |  0  |  1  | Fractional land area that is snowcovered  
 `heat_flux_sensible` | W/m^2 |  -2500  |  3000  | Sensible heat flux from land  
 `heat_flux_latent` | W/m^2 |  -2500  |  3000  | Latent heat flux from land  
 `heat_flux_ground` | W/m^2 |  -1000  |  1000  | Downward ground heat flux into layer 1 of soil heat diffusion model  
@@ -66,16 +67,18 @@ Name | Units | Min | Max | Description
 `temp_lowatmmodlay` | K |  180  |  350  | Air temperature at center height of lowest atmospheric model layer  
 `specific_humidity_lowatmmodlay` | Mass fraction |  0  |  0.4  | Air specific humidity at center height of lowest atmospheric model layer  
 `windspeed_lowatmmodlay` | m/s |  -60  |  60  | Surface wind speed at center height of lowest atmospheric model layer  
-`vegetation_greenness_fraction` |  0  |  1  | Vegetation "greenness" or fraction of transpiring leaves averaged over the land area* of the grid cell.  
+`vegetation_greenness_fraction` |  |  0  |  1  | Vegetation "greenness" or fraction of transpiring leaves averaged over the land area* of the grid cell.  
 `leaf_area_index` | Area fraction |  0  |  10  | Vegetation leaf area index  
 `sm_rootzone_pctl` | % |  0  |  100  | Root zone soil moisture (0-100 cm; percentile units)  
 `sm_profile_pctl` | % |  0  |  100  | Total profile soil moisture (0 cm to model bedrock depth; percentile units)  
 `depth_to_water_table_from_surface_in_peat` | m |  -5  |  0.15  | Depth to water table from mean surface elevation in peatlands (positive above ground)  
 `free_surface_water_on_peat_flux` | kg/m^2/s |  -0.001  |  0.001  | Change in free surface water storage on peatlands  
-`mwrtm_vegopacity` |  0  |  2.5  | Microwave radiative transfer model: Vegetation opacity.  
-`sm_surface_anomaly` | Experimental. Difference of the 30-day average of 'sm_surface', centered on asset date, relative to the same 30-day period averaged across years from 2015 to present, excluding asset year. See [this script](https://github.com/google/earthengine-community/blob/master/datasets/smap_anomaly_l4.py) for anomaly computations.  
+`mwrtm_vegopacity` |  |  0  |  2.5  | Microwave radiative transfer model: Vegetation opacity.  
+`sm_surface_anomaly` |  |  |  | Experimental. Difference of the 30-day average of 'sm_surface', centered on asset date, relative to the same 30-day period averaged across years from 2015 to present, excluding asset year. See [this script](https://github.com/google/earthengine-community/blob/master/datasets/smap_anomaly_l4.py) for anomaly computations.  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * **Reichle, R.H., G. De Lannoy, R.D. Koster, W.T. Crow, J.S. Kimball, Q. Liu, and M. Bechtold. 2022.** SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Analysis Update, Version 7. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. [doi:10.5067/LWJ6TF5SZRG3](https://doi.org/10.5067/LWJ6TF5SZRG3)
 **Reichle, R.H., G. De Lannoy, R.D. Koster, W.T. Crow, J.S. Kimball, Q. Liu, and M. Bechtold. 2022.** SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Analysis Update, Version 7. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. [doi:10.5067/EVKPQZ4AFC4D](https://doi.org/10.5067/EVKPQZ4AFC4D)
@@ -84,7 +87,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_007#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/SMAP/SPL4SMGP/007')
 .filter(ee.Filter.date('2017-04-01','2017-04-30'));
@@ -101,7 +104,7 @@ Map.addLayer(smSurface,smSurfaceVis,'SM Surface');
 [ SPL4SMGP.007 SMAP L4 Global 3-hourly 9-km Surface and Root Zone Soil Moisture ](https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_007)
 The SMAP Level-4 (L4) Soil Moisture product includes surface soil moisture (0-5 cm vertical average), root-zone soil moisture (0-100 cm vertical average), and additional research products (not validated), including surface meteorological forcing variables, soil temperature, evapotranspiration, and net radiation. SMAP L4 provides uninterrupted soil moisture data. During outages of the …
 NASA/SMAP/SPL4SMGP/007, drought,nasa,smap,soil,soil-moisture,surface,weather 
-2015-03-31T12:00:00Z/2025-04-19T22:30:00Z
+2015-03-31T12:00:00Z/2025-04-21T22:30:00Z
 -84 -180 84 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

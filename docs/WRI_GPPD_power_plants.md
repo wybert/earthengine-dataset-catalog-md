@@ -1,6 +1,6 @@
  
 #  Global Power Plant Database 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WRI/GPPD/power_plants](https://developers.google.com/earth-engine/datasets/images/WRI/WRI_GPPD_power_plants_sample.png) 
 
 Dataset Availability
@@ -18,11 +18,12 @@ energy
 infrastructure
 power
 power-plants
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WRI_GPPD_power_plants#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/WRI_GPPD_power_plants#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WRI_GPPD_power_plants#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/WRI_GPPD_power_plants#citations) More
+#### Description
 The Global Power Plant Database is a comprehensive, open source database of power plants around the world. It centralizes power plant data to make it easier to navigate, compare and draw insights. Each power plant is geolocated and entries contain information on plant capacity, generation, ownership, and fuel type. As of June 2018, the database includes around 28,500 power plants from 164 countries. It will be continuously updated as data becomes available.
 The methodology for the dataset creation is given in the World Resources Institute publication ["A Global Database of Power Plants"](https://www.wri.org/publication/global-power-plant-database).
 Associated code for the creation of the dataset can be found on [GitHub](https://github.com/wri/global-power-plant-database). The bleeding-edge version of the database (which may contain substantial differences from the release in Earth Engine) is available on GitHub as well.
 If you use this dataset, the provider (WRI) has requested that you [register your use](https://goo.gl/ivTvkd) and (optionally) sign up to receive update notifications.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -48,15 +49,17 @@ gwh_2014 | DOUBLE | Electricity generation in gigawatt-hours reported for the ye
 gwh_2015 | DOUBLE | Electricity generation in gigawatt-hours reported for the year 2015  
 gwh_2016 | DOUBLE | Electricity generation in gigawatt-hours reported for the year 2016  
 gwh_estimt | DOUBLE | Estimated annual electricity generation in gigawatt-hours for the year 2015  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Global Energy Observatory, Google, KTH Royal Institute of Technology in Stockholm, University of Groningen, World Resources Institute. 2018. Global Power Plant Database. Published on Resource Watch and Google Earth Engine; <https://resourcewatch.org/> <https://earthengine.google.com/>
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WRI_GPPD_power_plants#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Visualization for WRI/GPPD/power_plants
 vartable=ee.FeatureCollection('WRI/GPPD/power_plants');
@@ -113,7 +116,7 @@ fuelsList.map(addLayer);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WRI_GPPD_power_plants#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('WRI/GPPD/power_plants_FeatureView');
 varvisParams={

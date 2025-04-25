@@ -1,6 +1,6 @@
  
 #  Finland NRG NLS orthophotos 50 cm by Mavi 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![Finland/MAVI/VV/50cm](https://developers.google.com/earth-engine/datasets/images/Finland/Finland_MAVI_VV_50cm_sample.png) 
 
 Dataset Availability

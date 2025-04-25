@@ -1,6 +1,6 @@
  
 #  GEDI L2A Vector Canopy Top Height (Version 2) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LARSE/GEDI/GEDI02_A_002](https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_A_002_sample.png) 
 
 Dataset Availability
@@ -11,7 +11,7 @@ Dataset Provider
 
 Tags
      [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [gedi](https://developers.google.com/earth-engine/datasets/tags/gedi) [larse](https://developers.google.com/earth-engine/datasets/tags/larse) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [tree-cover](https://developers.google.com/earth-engine/datasets/tags/tree-cover) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002#dois) More
+#### Description
 GEDI's Level 2A Geolocated Elevation and Height Metrics Product (GEDI02_A) is primarily composed of 100 Relative Height (RH) metrics, which collectively describe the waveform collected by GEDI.
 The original GEDI02_A product is a table of point with a spatial resolution (average footprint) of 25 meters.
 Please see [User Guide](https://lpdaac.usgs.gov/documents/986/GEDI02_UserGuide_V2.pdf) for more information.
@@ -28,6 +28,7 @@ L4A Biomass Vector | [LARSE/GEDI/GEDI04_A_002](https://developers.google.com/ear
 L4A Monthly raster | [LARSE/GEDI/GEDI04_A_002_MONTHLY](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_MONTHLY)  
 L4A table index | [LARSE/GEDI/GEDI04_A_002_INDEX](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX)  
 L4B Biomass | [LARSE/GEDI/GEDI04_B_002](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_B_002)  
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -197,18 +198,21 @@ rh97 | DOUBLE | Relative height metrics at 97%
 rh98 | DOUBLE | Relative height metrics at 98%  
 rh99 | DOUBLE | Relative height metrics at 99%  
 rh100 | DOUBLE | Relative height metrics at 100%  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * GEDI L2A Elevation and Height Metrics Data Global Footprint Level - GEDI02_A Dubayah, R., M. Hofton, J. Blair, J. Armston, H. Tang, S. Luthcke. GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002. 2021, distributed by NASA EOSDIS Land Processes DAAC. Accessed YYYY-MM-DD.
 
 
+### DOIs
   * [ https://doi.org/10.5067/GEDI/GEDI02_A.002 ](https://doi.org/10.5067/GEDI/GEDI02_A.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('LARSE/GEDI/GEDI02_A_002/GEDI02_A_2021244154857_O15413_04_T05622_02_003_02_V002');
 dataset=dataset.style({color:'black',pointSize:1});

@@ -1,10 +1,10 @@
  
 #  MYD11A1.061 Aqua Land Surface Temperature and Emissivity Daily Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD11A1](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD11A1_sample.png) 
 
 Dataset Availability
-    2002-07-04T00:00:00Z–2025-04-19T00:00:00Z 
+    2002-07-04T00:00:00Z–2025-04-21T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/MODIS/MOD11A1.061) 
@@ -18,7 +18,7 @@ Cadence
 Tags
      [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [emissivity](https://developers.google.com/earth-engine/datasets/tags/emissivity) [global](https://developers.google.com/earth-engine/datasets/tags/global) [lst](https://developers.google.com/earth-engine/datasets/tags/lst) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [surface-temperature](https://developers.google.com/earth-engine/datasets/tags/surface-temperature) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 myd11a1
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1#dois) More
+#### Description
 The MYD11A1 V6.1 product provides daily land surface temperature (LST) and emissivity values in a 1200 x 1200 kilometer grid. The temperature value is derived from the MYD11_L2 swath product. Above 30 degrees latitude, some pixels may have multiple observations where the criteria for clear-sky are met. When this occurs, the pixel value is the average of all qualifying observations. Provided along with both the day-time and night-time surface temperature bands and their quality indicator layers are MODIS bands 31 and 32 and six observation layers.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/118/MOD11_User_Guide_V6.pdf)
@@ -26,12 +26,13 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MYD11A1)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Offset | Description  
 ---|---|---|---|---|---|---  
-`LST_Day_1km` | K |  7500  |  65535  | 0.02 | Daytime Land Surface Temperature  
-`QC_Day` | Daytime LST Quality Indicators  
+`LST_Day_1km` | K |  7500  |  65535  | 0.02 |  | Daytime Land Surface Temperature  
+`QC_Day` |  |  |  |  |  | Daytime LST Quality Indicators  
 Bitmask for QC_Day
   * Bits 0-1: Mandatory QA flags 
     * 0: LST produced, good quality, not necessary to examine more detailed QA
@@ -55,10 +56,10 @@ Bitmask for QC_Day
     * 3: Average LST error > 3K
 
   
-`Day_view_time` | h |  0  |  240  | 0.1 | Local time of day observation  
-`Day_view_angle` | deg |  0  |  130  | -65 | View zenith angle of day observation  
-`LST_Night_1km` | K |  7500  |  65535  | 0.02 | Nighttime Land Surface Temperature  
-`QC_Night` | Nighttime LST Quality indicators  
+`Day_view_time` | h |  0  |  240  | 0.1 |  | Local time of day observation  
+`Day_view_angle` | deg |  0  |  130  |  | -65 | View zenith angle of day observation  
+`LST_Night_1km` | K |  7500  |  65535  | 0.02 |  | Nighttime Land Surface Temperature  
+`QC_Night` |  |  |  |  |  | Nighttime LST Quality indicators  
 Bitmask for QC_Night
   * Bits 0-1: Mandatory QA flags 
     * 0: LST produced, good quality, not necessary to examine more detailed QA
@@ -82,24 +83,27 @@ Bitmask for QC_Night
     * 3: Average LST error > 3K
 
   
-`Night_view_time` | h |  0  |  240  | 0.1 | Local time of night observation  
-`Night_view_angle` | deg |  0  |  130  | -65 | View zenith angle of night observation  
-`Emis_31` |  1  |  255  | 0.002 | 0.49 | Band 31 emissivity  
-`Emis_32` |  1  |  255  | 0.002 | 0.49 | Band 32 emissivity  
-`Clear_day_cov` |  1  |  65535  | 0.0005 | Day clear-sky coverage  
-`Clear_night_cov` |  1  |  65535  | 0.0005 | Night clear-sky coverage  
+`Night_view_time` | h |  0  |  240  | 0.1 |  | Local time of night observation  
+`Night_view_angle` | deg |  0  |  130  |  | -65 | View zenith angle of night observation  
+`Emis_31` |  |  1  |  255  | 0.002 | 0.49 | Band 31 emissivity  
+`Emis_32` |  |  1  |  255  | 0.002 | 0.49 | Band 32 emissivity  
+`Clear_day_cov` |  |  1  |  65535  | 0.0005 |  | Day clear-sky coverage  
+`Clear_night_cov` |  |  1  |  65535  | 0.0005 |  | Night clear-sky coverage  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD11A1.061 ](https://doi.org/10.5067/MODIS/MYD11A1.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD11A1')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));
@@ -124,7 +128,7 @@ landSurfaceTemperature,landSurfaceTemperatureVis,
 [ MYD11A1.061 Aqua Land Surface Temperature and Emissivity Daily Global 1km ](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1)
 The MYD11A1 V6.1 product provides daily land surface temperature (LST) and emissivity values in a 1200 x 1200 kilometer grid. The temperature value is derived from the MYD11_L2 swath product. Above 30 degrees latitude, some pixels may have multiple observations where the criteria for clear-sky are met. When this occurs, …
 MODIS/061/MYD11A1, aqua,climate,daily,emissivity,global,lst,modis,nasa,surface-temperature,usgs 
-2002-07-04T00:00:00Z/2025-04-19T00:00:00Z
+2002-07-04T00:00:00Z/2025-04-21T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

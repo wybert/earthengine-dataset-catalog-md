@@ -1,6 +1,6 @@
  
 #  NEX-GDDP: NASA Earth Exchange Global Daily Downscaled Climate Projections 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/NEX-GDDP](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_NEX-GDDP_sample.png) 
 
 Dataset Availability
@@ -17,9 +17,10 @@ Cadence
 
 Tags
      [cag](https://developers.google.com/earth-engine/datasets/tags/cag) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [cmip5](https://developers.google.com/earth-engine/datasets/tags/cmip5) [gddp](https://developers.google.com/earth-engine/datasets/tags/gddp) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [ipcc](https://developers.google.com/earth-engine/datasets/tags/ipcc) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [nex](https://developers.google.com/earth-engine/datasets/tags/nex) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP#citations) More
+#### Description
 The NASA NEX-GDDP dataset is comprised of downscaled climate scenarios for the globe that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 5 (CMIP5, see [Taylor et al. 2012](https://journals.ametsoc.org/doi/abs/10.1175/BAMS-D-11-00094.1)) and across two of the four greenhouse gas emissions scenarios known as Representative Concentration Pathways (RCPs, see [Meinshausen et al. 2011](https://rd.springer.com/article/10.1007%2Fs10584-011-0156-z#page-1)). The CMIP5 GCM runs were developed in support of the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR5).
 This dataset was prepared by the Climate Analytics Group and NASA Ames Research Center using the NASA Earth Exchange, and distributed by the NASA Center for Climate Simulation (NCCS).
+### Bands
 **Pixel Size** 27830 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -28,6 +29,7 @@ Name | Units | Min | Max | Description
 `tasmin` | K |  165.31*  |  318.89*  | Daily mean of the daily-minimum near-surface air temperature  
 `tasmax` | K |  188.38*  |  335.13*  | Daily mean of the daily-maximum near-surface air temperature  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -36,15 +38,17 @@ scenario | STRING | Name of the CMIP5 scenario. It is one of: 'historical', 'rcp
 year | DOUBLE | Calendar year  
 month | DOUBLE | Calendar month  
 day | DOUBLE | Calendar day  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * Thrasher, B., Maurer, E. P., McKellar, C., & Duffy, P. B., 2012: Technical Note: Bias correcting climate model simulated daily temperature extremes with quantile mapping. Hydrology and Earth System Sciences, 16(9), 3309-3314. [doi:10.5194/hess-16-3309-2012](https://doi.org/10.5194/hess-16-3309-2012)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/NEX-GDDP')
 .filter(ee.Filter.date('2018-07-01','2018-07-02'));

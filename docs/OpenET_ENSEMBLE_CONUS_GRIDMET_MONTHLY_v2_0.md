@@ -1,6 +1,6 @@
  
 #  OpenET Ensemble Monthly Evapotranspiration v2.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenET/ENSEMBLE/CONUS/GRIDMET/MONTHLY/v2_0](https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0_sample.png) 
 
 Dataset Availability
@@ -17,9 +17,10 @@ Cadence
 
 Tags
      [evapotranspiration](https://developers.google.com/earth-engine/datasets/tags/evapotranspiration) [gridmet-derived](https://developers.google.com/earth-engine/datasets/tags/gridmet-derived) [landsat-derived](https://developers.google.com/earth-engine/datasets/tags/landsat-derived) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [openet](https://developers.google.com/earth-engine/datasets/tags/openet) [water](https://developers.google.com/earth-engine/datasets/tags/water) [water-vapor](https://developers.google.com/earth-engine/datasets/tags/water-vapor)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0#dois) More
+#### Description
 The OpenET dataset includes satellite-based data on the total amount of water that is transferred from the land surface to the atmosphere through the process of evapotranspiration (ET). OpenET provides ET data from multiple satellite-driven models, and also calculates a single "ensemble value" from the model ensemble. The models currently included in the OpenET model ensemble are ALEXI/DisALEXI, eeMETRIC, geeSEBAL, PT-JPL, SIMS, and SSEBop. The OpenET ensemble ET value is calculated as the mean of the ensemble after filtering and removing outliers using the median absolute deviation approach. All models currently use Landsat satellite data to produce ET data at a pixel size of 30 meters by 30 meters (0.22 acres per pixel). The monthly ET dataset provides data on total ET by month as an equivalent depth of water in millimeters.
 [Additional information](https://openetdata.org/methodologies/)
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Description  
@@ -27,8 +28,8 @@ Name | Units | Description
 `et_ensemble_mad` | mm | Ensemble ET value, computed as the mean of the ensemble after filtering outliers using the median absolute deviation (mad)  
 `et_ensemble_mad_min` | mm | The minimum value in the ensemble range, after filtering for outliers using the median absolute deviation (mad)  
 `et_ensemble_mad_max` | mm | The maximum value in the ensemble range, after filtering for outliers using the median absolute deviation (mad)  
-`et_ensemble_mad_count` | The number of models used to compute the ensemble ET value, after filtering for outliers using the median absolute deviation (mad)  
-`et_ensemble_mad_index` | Bitmask indicating which models were included in the ensemble ET value, after filtering for outliers using the median absolute deviation (mad)  
+`et_ensemble_mad_count` |  | The number of models used to compute the ensemble ET value, after filtering for outliers using the median absolute deviation (mad)  
+`et_ensemble_mad_index` |  | Bitmask indicating which models were included in the ensemble ET value, after filtering for outliers using the median absolute deviation (mad)  
 Bitmask for et_ensemble_mad_index
   * Bit 0: DisALEXI included in ensemble 
     * 0: No
@@ -51,6 +52,7 @@ Bitmask for et_ensemble_mad_index
 
   
 `et_ensemble_sam` | mm | The simple arithmetic mean (sam) of all six models in the OpenETmodel ensemble  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -59,18 +61,21 @@ core_version | STRING | OpenET core library version
 end_date | STRING | End date of month  
 mgrs_tile | STRING | MGRS grid zone ID  
 start_date | STRING | Start date of month  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Melton, F., Huntington, J., Grimm, R., Herring, J., Hall, M., Rollison, D., Erickson, T., Allen, R., Anderson, M., Fisher, J., Kilic, A., Senay, G., volk, J., Hain, C., Johnson, L., Ruhoff, A., Blankenau, P., Bromley, M., Carrara, W., Daudert, B., Doherty, C., Dunkerly, C., Friedrichs, M., Guzman, A., Halverson, G., Hansen, J., Harding, J., Kang, Y., Ketchum, D., Minor, B., Morton, C., Revelle, P., Ortega-Salazar, S., Ott, T., Ozdogon, M., Schull, M., Wang, T., Yang, Y., Anderson, R., 2021. OpenET: Filling a Critical Data Gap in Water Management for the Western United States. Journal of the American Water Resources Association, 2021 Nov 2. [doi:10.1111/1752-1688.12956](https://doi.org/10.1111/1752-1688.12956)
 
 
+### DOIs
   * [ https://doi.org/10.1111/1752-1688.12956 ](https://doi.org/10.1111/1752-1688.12956)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('OpenET/ENSEMBLE/CONUS/GRIDMET/MONTHLY/v2_0')
 .filterDate('2020-01-01','2021-01-01');

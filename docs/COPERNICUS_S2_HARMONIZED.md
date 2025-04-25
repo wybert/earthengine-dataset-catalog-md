@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S2_HARMONIZED](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_HARMONIZED_sample.png) 
 
 Dataset Availability
-    2015-06-27T00:00:00Z–2025-04-22T14:21:06.986000Z 
+    2015-06-27T00:00:00Z–2025-04-24T21:43:01.585000Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/processing-levels/level-1) 
@@ -41,9 +41,9 @@ Name | Scale | Pixel Size | Wavelength | Description
 `B10` | 0.0001 |  60 meters  | 1373.5nm (S2A) / 1376.9nm (S2B) | Cirrus  
 `B11` | 0.0001 |  20 meters  | 1613.7nm (S2A) / 1610.4nm (S2B) | SWIR 1  
 `B12` | 0.0001 |  20 meters  | 2202.4nm (S2A) / 2185.7nm (S2B) | SWIR 2  
-`QA10` |  10 meters  | Always empty  
-`QA20` |  20 meters  | Always empty  
-`QA60` |  60 meters  | Cloud mask. Masked out between February 2022 and February 2024.  
+`QA10` |  |  10 meters  |  | Always empty  
+`QA20` |  |  20 meters  |  | Always empty  
+`QA60` |  |  60 meters  |  | Cloud mask. Masked out between February 2022 and February 2024.  
 Bitmask for QA60
   * Bits 0-9: Unused 
   * Bit 10: Opaque clouds 
@@ -54,9 +54,9 @@ Bitmask for QA60
     * 1: Cirrus clouds present
 
   
-`MSK_CLASSI_OPAQUE` |  60 meters  | Opaque clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
-`MSK_CLASSI_CIRRUS` |  60 meters  | Cirrus clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
-`MSK_CLASSI_SNOW_ICE` |  60 meters  | Snow/ice classification band (0=no snow/ice, 1=snow/ice). Masked out before February 2024.  
+`MSK_CLASSI_OPAQUE` |  |  60 meters  |  | Opaque clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
+`MSK_CLASSI_CIRRUS` |  |  60 meters  |  | Cirrus clouds classification band (0=no clouds, 1=clouds). Masked out before February 2024.  
+`MSK_CLASSI_SNOW_ICE` |  |  60 meters  |  | Snow/ice classification band (0=no snow/ice, 1=snow/ice). Masked out before February 2024.  
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -205,7 +205,7 @@ m
 [ Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-1C (TOA) ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED)
 After 2022-01-25, Sentinel-2 scenes with PROCESSING_BASELINE '04.00' or above have their DN (value) range shifted by 1000. The HARMONIZED collection shifts data in newer scenes to be in the same range as in older scenes. Sentinel-2 is a wide-swath, high-resolution, multi-spectral imaging mission supporting Copernicus Land Monitoring studies, including the …
 COPERNICUS/S2_HARMONIZED, copernicus,esa,eu,msi,radiance,satellite-imagery,sentinel 
-2015-06-27T00:00:00Z/2025-04-22T14:21:06.986000Z
+2015-06-27T00:00:00Z/2025-04-24T21:43:01.585000Z
 -56 -180 83 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

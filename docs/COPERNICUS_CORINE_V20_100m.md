@@ -1,6 +1,6 @@
  
 #  Copernicus CORINE Land Cover 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![COPERNICUS/CORINE/V20/100m](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_CORINE_V20_100m_sample.png) 
 
 Dataset Availability
@@ -16,7 +16,7 @@ Tags
      [copernicus](https://developers.google.com/earth-engine/datasets/tags/copernicus) [eea](https://developers.google.com/earth-engine/datasets/tags/eea) [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [eu](https://developers.google.com/earth-engine/datasets/tags/eu) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover)
 clc
 corine
-[Description](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_CORINE_V20_100m#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_CORINE_V20_100m#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_CORINE_V20_100m#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_CORINE_V20_100m#terms-of-use) More
+#### Description
 The CORINE (coordination of information on the environment) Land Cover (CLC) inventory was initiated in 1985 to standardize data collection on land in Europe to support environmental policy development. The project is coordinated by the European Environment Agency (EEA) in the frame of the EU Copernicus programme and implemented by national teams. The number of participating countries has increased over time currently including 33 (EEA) member countries and six cooperating countries (EEA39) with a total area of over 5.8M km2.
 CLC2018 is one of the datasets produced within the frame the Corine Land Cover programme referring to land cover / land use status of year 2018. The reference year of the first CLC inventory was 1990 and the first update created in 2000. Later, the update cycle has become 6 years. Satellite imagery provides the geometrical and thematic basis for mapping with in-situ data as essential ancillary information. The basic technical parameters of CLC (i.e. 44 classes in nomenclature, 25 hectares minimum mapping unit (MMU), and 100 meters minimum mapping width) have not changed since the beginning, therefore the results of the different inventories are comparable.
 The time period covered by each asset is:
@@ -27,6 +27,7 @@ The time period covered by each asset is:
   * 2018 asset: 2017 to 2018
 
 
+### Bands
 **Pixel Size** 100 meters 
 **Bands**
 Name | Description  
@@ -79,17 +80,19 @@ Value | Color | Description
 521 | #00ffa6 | Water bodies > Marine waters > Coastal lagoons  
 522 | #a6ffe6 | Water bodies > Marine waters > Estuaries  
 523 | #e6f2ff | Water bodies > Marine waters > Sea and ocean  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 landcover_class_names | STRING_LIST | Land cover class names  
 landcover_class_palette | STRING_LIST | Land cover class palette  
 landcover_class_values | INT_LIST | Value of the land cover classification.  
+### Terms of Use
 **Terms of Use**
 Access to data is based on a principle of full, open, and free access as established by the Copernicus data and information policy Regulation (EU) No 1159/2013 of 12 July 2013. For more information visit: <https://land.copernicus.eu/pan-european/corine-land-cover/clc2018?tab=metadata>.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_CORINE_V20_100m#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('COPERNICUS/CORINE/V20/100m/2012');
 varlandCover=dataset.select('landcover');

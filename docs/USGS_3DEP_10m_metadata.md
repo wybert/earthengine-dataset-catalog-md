@@ -1,6 +1,6 @@
  
 #  USGS 3DEP National Map Spatial Metadata 1/3 Arc-Second (10m) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![USGS/3DEP/10m_metadata](https://developers.google.com/earth-engine/datasets/images/USGS/USGS_3DEP_10m_metadata_sample.png) 
 
 Dataset Availability
@@ -14,11 +14,12 @@ Earth Engine Snippet
 
 Tags
      [3dep](https://developers.google.com/earth-engine/datasets/tags/3dep) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [table](https://developers.google.com/earth-engine/datasets/tags/table) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_metadata#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_metadata#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_metadata#terms-of-use) More
+#### Description
 This is a table with metadata [for the 3DEP 10m DEM asset](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m).
 The Work unit Extent Spatial Metadata (WESM) contains current lidar data availability and basic information about lidar projects, including lidar quality level, data acquisition dates, and links to project-level metadata.
 See more details [in this document](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/3DEP_Spatial_Metadata_Glossary_0.pdf) (taken from [this page](https://www.usgs.gov/media/files/3dep-spatial-metadata-glossary)).
 Dataset uploaded by [Farmers Business Network](https://fbn.com).
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -100,11 +101,12 @@ zunit | INT | Elevation Unit This code represents the unit of elevation values i
   * 99: Other
 
   
+### Terms of Use
 **Terms of Use**
 Most U.S. Geological Survey (USGS) information resides in the public domain and may be used without restriction. Additional information on [Acknowledging or Crediting USGS as Information Source](https://www.usgs.gov/information-policies-and-instructions/crediting-usgs) is available.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_metadata#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfc=ee.FeatureCollection('USGS/3DEP/10m_metadata');
 varempty=ee.Image().byte();
@@ -119,7 +121,7 @@ Map.addLayer(outlines,{palette:palette,max:2000});
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_metadata#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('USGS/3DEP/10m_metadata_FeatureView');
 varvisParams={

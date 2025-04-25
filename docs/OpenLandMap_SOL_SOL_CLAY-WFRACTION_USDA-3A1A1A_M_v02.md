@@ -1,6 +1,6 @@
  
 #  OpenLandMap Clay Content 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OpenLandMap/SOL/SOL_CLAY-WFRACTION_USDA-3A1A1A_M/v02](https://developers.google.com/earth-engine/datasets/images/OpenLandMap/OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [clay](https://developers.google.com/earth-engine/datasets/tags/clay) [envirometrix](https://developers.google.com/earth-engine/datasets/tags/envirometrix) [opengeohub](https://developers.google.com/earth-engine/datasets/tags/opengeohub) [openlandmap](https://developers.google.com/earth-engine/datasets/tags/openlandmap) [soil](https://developers.google.com/earth-engine/datasets/tags/soil) [usda](https://developers.google.com/earth-engine/datasets/tags/usda)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02#dois) More
+#### Description
 Clay content in % (kg / kg) at 6 standard depths (0, 10, 30, 60, 100 and 200 cm) at 250 m resolution
 Based on machine learning predictions from global compilation of soil profiles and samples. Processing steps are described in detail [here](https://gitlab.com/openlandmap/global-layers/tree/master/soil). Antarctica is not included.
 To access and visualize maps outside of Earth Engine, use [this page](https://opengeohub.org/about-openlandmap).
@@ -23,6 +23,7 @@ If you discover a bug, artifact or inconsistency in the LandGIS maps or if you h
   * [General questions and comments](https://disqus.com/home/forums/landgis/)
 
 
+### Bands
 **Pixel Size** 250 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -34,18 +35,21 @@ Name | Units | Min | Max | Description
 `b100` | % (kg / kg) |  2*  |  100*  | Clay content at 100 cm depth  
 `b200` | % (kg / kg) |  2*  |  100*  | Clay content at 200 cm depth  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html)
+### Citations
 Citations:
   * Tomislav Hengl. (2018). Clay content in % (kg / kg) at 6 standard depths (0, 10, 30, 60, 100 and 200 cm) at 250 m resolution (Version v02) [Data set]. [10.5281/zenodo.1476854](https://doi.org/10.5281/zenodo.1476854)
 
 
+### DOIs
   * [ https://doi.org/10.5281/zenodo.1476854 ](https://doi.org/10.5281/zenodo.1476854)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_CLAY-WFRACTION_USDA-3A1A1A_M_v02#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('OpenLandMap/SOL/SOL_CLAY-WFRACTION_USDA-3A1A1A_M/v02');
 varvisualization={

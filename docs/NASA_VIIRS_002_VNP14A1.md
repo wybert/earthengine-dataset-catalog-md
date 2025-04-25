@@ -1,10 +1,10 @@
  
 #  VNP14A1.002: Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/VIIRS/002/VNP14A1](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP14A1_sample.png) 
 
 Dataset Availability
-    2012-01-19T00:00:00Z–2025-04-18T00:00:00Z 
+    2012-01-19T00:00:00Z–2025-04-20T00:00:00Z 
 
 Dataset Provider
      [ NASA LP DAAC at the USGS EROS Center ](https://doi.org/10.5067/VIIRS/VNP14A1.002) 
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [land](https://developers.google.com/earth-engine/datasets/tags/land) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [surface](https://developers.google.com/earth-engine/datasets/tags/surface) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP14A1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP14A1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP14A1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP14A1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP14A1#dois) More
+#### Description
 The daily Suomi National Polar-Orbiting Partnership NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Thermal Anomalies/Fire (VNP14A1) Version 1 data product provides daily information about active fires and other thermal anomalies. The VNP14A1 data product is a global, 1km gridded composite of fire pixels detected from VIIRS 750m bands over a daily (24-hour) period. The VNP14 data products are designed after the Moderate Resolution Imaging Spectroradiometer (MODIS) Thermal Anomalies/Fire product suite.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/427/VNP14_User_Guide_V1.pdf)
@@ -26,13 +26,14 @@ Documentation:
   * [Land Product Quality Assessment website](https://landweb.modaps.eosdis.nasa.gov/browse?sensor=VIIRS&sat=SNPP)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
-`FireMask` | Confidence of fire.  
+`FireMask` |  | Confidence of fire.  
 `MaxFRP` | MW | Maximum Fire Radiative Power  
-`QA` | Global Land Surface Phenology Quality Control  
+`QA` |  | Global Land Surface Phenology Quality Control  
 Bitmask for QA
   * Bits 0-1: land/water state 
     * 0: water
@@ -77,32 +78,35 @@ Bitmask for QA
     * 0: Unused value
 
   
-`sample` | Sample number within a swath  
+`sample` |  | Sample number within a swath  
 **FireMask Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | Not processed (no data or poor quality data)  
-1 | Not processed (bowtie deletion)  
-2 | Unused  
-3 | Water  
-4 | Cloud  
-5 | Land  
-6 | Unclassified  
-7 | Low confidence fire pixel  
-8 | Nominal confidence fire pixel  
-9 | High confidence fire pixel  
+0 |  | Not processed (no data or poor quality data)  
+1 |  | Not processed (bowtie deletion)  
+2 |  | Unused  
+3 |  | Water  
+4 |  | Cloud  
+5 |  | Land  
+6 |  | Unclassified  
+7 |  | Low confidence fire pixel  
+8 |  | Nominal confidence fire pixel  
+9 |  | High confidence fire pixel  
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP14A1.002 ](https://doi.org/10.5067/VIIRS/VNP14A1.002)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP14A1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/VIIRS/002/VNP14A1')
 .filter(ee.Filter.date('2017-05-01','2017-12-30'));
@@ -121,7 +125,7 @@ Map.addLayer(dataset,visualization,'MaxFRP');
 [ VNP14A1.002: Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid ](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP14A1)
 The daily Suomi National Polar-Orbiting Partnership NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Thermal Anomalies/Fire (VNP14A1) Version 1 data product provides daily information about active fires and other thermal anomalies. The VNP14A1 data product is a global, 1km gridded composite of fire pixels detected from VIIRS 750m bands over a …
 NASA/VIIRS/002/VNP14A1, fire,land,nasa,noaa,surface,viirs 
-2012-01-19T00:00:00Z/2025-04-18T00:00:00Z
+2012-01-19T00:00:00Z/2025-04-20T00:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

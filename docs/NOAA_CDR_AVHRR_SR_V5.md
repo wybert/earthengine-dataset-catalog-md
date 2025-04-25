@@ -1,6 +1,6 @@
  
 #  NOAA CDR AVHRR: Surface Reflectance, Version 5 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/CDR/AVHRR/SR/V5](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CDR_AVHRR_SR_V5_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [avhrr](https://developers.google.com/earth-engine/datasets/tags/avhrr) [cdr](https://developers.google.com/earth-engine/datasets/tags/cdr) [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [land](https://developers.google.com/earth-engine/datasets/tags/land) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_SR_V5#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_SR_V5#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_SR_V5#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_SR_V5#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_SR_V5#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_SR_V5#dois) More
+#### Description
 The NOAA Climate Data Record (CDR) of AVHRR Surface Reflectance contains gridded daily surface reflectance and brightness temperatures derived from the Advanced Very High Resolution Radiometer (AVHRR) sensors onboard seven NOAA polar orbiting satellites. The data are gridded at a resolution of 0.05° and computed globally over land surfaces.
 Known issues with this dataset include:
   * TIMEOFDAY variable contains values that are too large by 1 day
@@ -27,21 +27,22 @@ Known issues with this dataset include:
 
 See [technical note from the data provider](https://www.ncei.noaa.gov/pub/data/sds/cdr/CDRs/Surface_Reflectance/AVHRR/AlgorithmDescriptionAVHRR_01B-20a.pdf).
 Provider's note: the orbital drift of N-19 (the last NOAA satellite carrying the AVHRR sensor) began to severely degrade the retrieved product quality. Therefore, VIIRS is now the primary sensor being used for these products from 2014-present.
+### Bands
 **Pixel Size** 5566 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Wavelength | Description  
 ---|---|---|---|---|---|---  
-`SREFL_CH1` |  1*  |  10000*  | 0.0001 | 640nm | Bidirectional surface reflectance  
-`SREFL_CH2` |  1*  |  10000*  | 0.0001 | 860nm | Bidirectional surface reflectance  
-`SREFL_CH3` |  -32768*  |  32767*  | 0.0001 | 3.75µm | Bidirectional surface reflectance  
+`SREFL_CH1` |  |  1*  |  10000*  | 0.0001 | 640nm | Bidirectional surface reflectance  
+`SREFL_CH2` |  |  1*  |  10000*  | 0.0001 | 860nm | Bidirectional surface reflectance  
+`SREFL_CH3` |  |  -32768*  |  32767*  | 0.0001 | 3.75µm | Bidirectional surface reflectance  
 `BT_CH3` | K |  -32519*  |  30136*  | 0.1 | 3.75µm | Brightness temperature  
 `BT_CH4` | K |  -32519*  |  31450*  | 0.1 | 11.0µm | Brightness temperature  
 `BT_CH5` | K |  -7623*  |  18788*  | 0.1 | 12.0µm | Brightness temperature  
-`TIMEOFDAY` | h |  0*  |  2399*  | 0.01 | Hours since start of day  
-`RELAZ` | deg |  -32768*  |  32767*  | 0.01 | Relative sensor azimuth angle  
-`SZEN` | deg |  219*  |  8546*  | 0.01 | Solar zenith angle  
-`VZEN` | deg |  0*  |  6936*  | 0.01 | View zenith angle, scale 0.01  
-`QA` | Quality control bit flags  
+`TIMEOFDAY` | h |  0*  |  2399*  | 0.01 |  | Hours since start of day  
+`RELAZ` | deg |  -32768*  |  32767*  | 0.01 |  | Relative sensor azimuth angle  
+`SZEN` | deg |  219*  |  8546*  | 0.01 |  | Solar zenith angle  
+`VZEN` | deg |  0*  |  6936*  | 0.01 |  | View zenith angle, scale 0.01  
+`QA` |  |  |  |  |  | Quality control bit flags  
 Bitmask for QA
   * Bit 0: Unused 
     * 0: No
@@ -94,22 +95,26 @@ Bitmask for QA
 
   
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 status | STRING | 'provisional' or 'permanent'  
+### Terms of Use
 **Terms of Use**
 The NOAA CDR Program's official distribution point for CDRs is NOAA's National Climatic Data Center which provides sustained, open access and active data management of the CDR packages and related information in keeping with the United States' open data policies and practices as described in the President's Memorandum on "Open Data Policy" and pursuant to the Executive Order of May 9, 2013, "Making Open and Machine Readable the New Default for Government Information". In line with these policies, the CDR data sets are nonproprietary, publicly available, and no restrictions are placed upon their use. For more information, see the [Fair Use of NOAA's CDR Data Sets, Algorithms and Documentation](https://www1.ncdc.noaa.gov/pub/data/sds/cdr/CDRs/Aerosol_Optical_Thickness/UseAgreement_01B-04.pdf) pdf.
+### Citations
 Citations:
   * Eric Vermote, Chris Justice, Ivan Csiszar, Jeff Eidenshink, Ranga Myneni, Frederic Baret, Ed Masuoka, Robert Wolfe, Martin Claverie and NOAA CDR Program (2014): NOAA Climate Data Record (CDR) of AVHRR Surface Reflectance, Version 4. [indicate subset used]. NOAA National Climatic Data Center.
 
 
+### DOIs
   * [ https://doi.org/10.7289/V53776Z4 ](https://doi.org/10.7289/V53776Z4)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_SR_V5#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NOAA/CDR/AVHRR/SR/V5')
 .filter(ee.Filter.date('2018-05-01','2018-06-01'));

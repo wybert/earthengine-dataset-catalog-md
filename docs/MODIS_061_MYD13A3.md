@@ -1,6 +1,6 @@
  
 #  MYD13A3.061 Aqua Vegetation Indices Monthly L3 Global 1 km SIN Grid 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/061/MYD13A3](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD13A3_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [aqua](https://developers.google.com/earth-engine/datasets/tags/aqua) [evi](https://developers.google.com/earth-engine/datasets/tags/evi) [global](https://developers.google.com/earth-engine/datasets/tags/global) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [ndvi](https://developers.google.com/earth-engine/datasets/tags/ndvi) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [vegetation-indices](https://developers.google.com/earth-engine/datasets/tags/vegetation-indices)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A3#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A3#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A3#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A3#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A3#dois) More
+#### Description
 The Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Vegetation Indices (MYD13A3) Version 6.1 data are provided monthly at 1 kilometer (km) spatial resolution as a gridded Level 3 product in the sinusoidal projection. In generating this monthly product, the algorithm ingests all the MYD13A2 products that overlap the month and employs a weighted temporal average.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/621/MOD13_User_Guide_V61.pdf)
@@ -25,13 +25,14 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MYD13A3)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Wavelength | Description  
 ---|---|---|---|---|---|---  
-`NDVI` |  -2000  |  10000  | 0.0001 | Monthly NDVI average  
-`EVI` |  -2000  |  10000  | 0.0001 | Monthly EVI average  
-`DetailedQA` | VI Quality indicators  
+`NDVI` |  |  -2000  |  10000  | 0.0001 |  | Monthly NDVI average  
+`EVI` |  |  -2000  |  10000  | 0.0001 |  | Monthly EVI average  
+`DetailedQA` |  |  |  |  |  | VI Quality indicators  
 Bitmask for DetailedQA
   * Bits 0-1: VI quality (MODLAND QA Bits) 
     * 0: VI produced with good quality
@@ -81,33 +82,36 @@ Bitmask for DetailedQA
     * 1: Yes
 
   
-`sur_refl_b01` |  0  |  10000  | 0.0001 | 620-670nm | Surface reflectance band 1 (red)  
-`sur_refl_b02` |  0  |  10000  | 0.0001 | 841-876nm | Surface reflectance band 2 (near-infrared)  
-`sur_refl_b03` |  0  |  10000  | 0.0001 | 459-479nm | Surface reflectance band 3 (blue)  
-`sur_refl_b07` |  0  |  10000  | 0.0001 | 2105-2155nm | Surface reflectance band 7 (mid-infrared)  
-`ViewZenith` | deg |  0  |  18000  | 0.01 | View zenith angle of VI Pixel  
-`SolarZenith` | deg |  0  |  18000  | 0.01 | Sun zenith angle of VI pixel  
-`RelativeAzimuth` | deg |  -18000  |  18000  | 0.01 | Relative azimuth angle of VI pixel  
-`SummaryQA` | Quality reliability of VI pixel  
+`sur_refl_b01` |  |  0  |  10000  | 0.0001 | 620-670nm | Surface reflectance band 1 (red)  
+`sur_refl_b02` |  |  0  |  10000  | 0.0001 | 841-876nm | Surface reflectance band 2 (near-infrared)  
+`sur_refl_b03` |  |  0  |  10000  | 0.0001 | 459-479nm | Surface reflectance band 3 (blue)  
+`sur_refl_b07` |  |  0  |  10000  | 0.0001 | 2105-2155nm | Surface reflectance band 7 (mid-infrared)  
+`ViewZenith` | deg |  0  |  18000  | 0.01 |  | View zenith angle of VI Pixel  
+`SolarZenith` | deg |  0  |  18000  | 0.01 |  | Sun zenith angle of VI pixel  
+`RelativeAzimuth` | deg |  -18000  |  18000  | 0.01 |  | Relative azimuth angle of VI pixel  
+`SummaryQA` |  |  |  |  |  | Quality reliability of VI pixel  
 **SummaryQA Class Table**
 Value | Color | Description  
 ---|---|---  
-0 | Good Data: use with confidence  
-1 | Marginal Data: useful, but look at other QA information  
-2 | Snow/Ice: target covered with snow/ice  
-3 | Cloudy: target not visible, covered with cloud  
+0 |  | Good Data: use with confidence  
+1 |  | Marginal Data: useful, but look at other QA information  
+2 |  | Snow/Ice: target covered with snow/ice  
+3 |  | Cloudy: target not visible, covered with cloud  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MYD13A3.061 ](https://doi.org/10.5067/MODIS/MYD13A3.061)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD13A3#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/061/MYD13A3')
 .filter(ee.Filter.date('2020-01-01','2023-05-01'));

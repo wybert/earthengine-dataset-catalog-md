@@ -1,10 +1,10 @@
  
 #  MERRA-2 M2T1NXRAD: Radiation Diagnostics V5.12.4 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/GSFC/MERRA/rad/2](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GSFC_MERRA_rad_2_sample.png) 
 
 Dataset Availability
-    1980-01-01T00:00:00Z–2025-03-01T23:00:00Z 
+    1980-01-01T00:00:00Z–2025-04-01T23:00:00Z 
 
 Dataset Provider
      [ NASA/MERRA ](https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/) 
@@ -17,24 +17,25 @@ Cadence
 
 Tags
      [albedo](https://developers.google.com/earth-engine/datasets/tags/albedo) [atmosphere](https://developers.google.com/earth-engine/datasets/tags/atmosphere) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [emissivity](https://developers.google.com/earth-engine/datasets/tags/emissivity) [merra](https://developers.google.com/earth-engine/datasets/tags/merra) [shortwave](https://developers.google.com/earth-engine/datasets/tags/shortwave) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_rad_2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_rad_2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_rad_2#terms-of-use) More
+#### Description
 M2T1NXRAD (or tavg1_2d_rad_Nx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of radiation diagnostics, such as surface albedo, cloud area fraction, in cloud optical thickness, surface incoming shortwave flux (i.e. solar radiation), surface net downward shortwave flux, and upwelling longwave flux at TOA (top of atmosphere) (i.e. outgoing longwave radiation (OLR) at TOA). The data field is time-stamped with the central time of an hour starting from 00:30 UTC, e.g.: 00:30, 01:30, ... , 23:30 UTC.
 MERRA-2 is the latest version of global atmospheric reanalysis for the satellite era produced by NASA Global Modeling and Assimilation Office (GMAO) using the Goddard Earth Observing System Model (GEOS) version 5.12.4. The dataset covers the period of 1980-present with the latency of ~3 weeks after the end of a month.
+### Bands
 **Pixel Size** 69375 meters 
 **Y Pixel Size** 55000 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
-`ALBEDO` |  0.01*  |  0.898471*  | Surface albedo  
-`ALBNIRDF` |  0.017455*  |  0.820016*  | Surface albedo for near infrared diffuse  
-`ALBNIRDR` |  0.018709*  |  0.82001*  | Surface albedo for near infrared beam  
-`ALBVISDF` |  0.016788*  |  0.959771*  | Surface albedo for visible diffuse  
-`ALBVISDR` |  0.01853*  |  0.959762*  | Surface albedo for visible beam  
-`CLDHGH` |  0*  |  0.999236*  | Cloud area fraction for high clouds  
-`CLDLOW` |  0*  |  0.999997*  | Cloud area fraction for low clouds  
-`CLDMID` |  0*  |  0.998779*  | Cloud area fraction for middle clouds  
-`CLDTOT` |  0*  |  1*  | Total cloud area fraction  
-`EMIS` |  0.943074*  |  0.999993*  | Surface emissivity  
+`ALBEDO` |  |  0.01*  |  0.898471*  | Surface albedo  
+`ALBNIRDF` |  |  0.017455*  |  0.820016*  | Surface albedo for near infrared diffuse  
+`ALBNIRDR` |  |  0.018709*  |  0.82001*  | Surface albedo for near infrared beam  
+`ALBVISDF` |  |  0.016788*  |  0.959771*  | Surface albedo for visible diffuse  
+`ALBVISDR` |  |  0.01853*  |  0.959762*  | Surface albedo for visible beam  
+`CLDHGH` |  |  0*  |  0.999236*  | Cloud area fraction for high clouds  
+`CLDLOW` |  |  0*  |  0.999997*  | Cloud area fraction for low clouds  
+`CLDMID` |  |  0*  |  0.998779*  | Cloud area fraction for middle clouds  
+`CLDTOT` |  |  0*  |  1*  | Total cloud area fraction  
+`EMIS` |  |  0.943074*  |  0.999993*  | Surface emissivity  
 `LWGABCLRCLN` | W/m^2 |  41.1408*  |  458.523*  | Surface absorbed longwave radiation assuming clear sky and no aerosol  
 `LWGABCLR` | W/m^2 |  41.1414*  |  465.929*  | Surface absorbed longwave radiation assuming clear sky  
 `LWGAB` | W/m^2 |  41.1446*  |  482.398*  | Surface absorbed longwave radiation  
@@ -56,17 +57,18 @@ Name | Units | Min | Max | Description
 `SWTNTCLRCLN` | W/m^2 |  0*  |  1317.5*  | TOA net downward shortwave flux assuming clear sky and no aerosol  
 `SWTNTCLR` | W/m^2 |  0*  |  1316.5*  | TOA net downward shortwave flux assuming clear sky  
 `SWTNT` | W/m^2 |  0*  |  1313.33*  | TOA net downward shortwave flux  
-`TAUHGH` |  0*  |  142.188*  | In cloud optical thickness of high clouds(export)  
-`TAULOW` |  0*  |  318.218*  | In cloud optical thickness of low clouds  
-`TAUMID` |  0*  |  252.995*  | In cloud optical thickness of middle clouds  
-`TAUTOT` |  0*  |  348.125*  | In cloud optical thickness of all clouds  
+`TAUHGH` |  |  0*  |  142.188*  | In cloud optical thickness of high clouds(export)  
+`TAULOW` |  |  0*  |  318.218*  | In cloud optical thickness of low clouds  
+`TAUMID` |  |  0*  |  252.995*  | In cloud optical thickness of middle clouds  
+`TAUTOT` |  |  0*  |  348.125*  | In cloud optical thickness of all clouds  
 `TS` | K |  185.73*  |  328.864*  | Surface skin temperature  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 NASA promotes the full and open sharing of all data with research and applications communities, private industry, academia, and the general public.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_rad_2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/GSFC/MERRA/rad/2')
 .filter(ee.Filter.date('2022-02-01','2022-02-02')).first();
@@ -83,7 +85,7 @@ Map.addLayer(surface_albedo,saVis,'Surface albedo');
 [ MERRA-2 M2T1NXRAD: Radiation Diagnostics V5.12.4 ](https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_rad_2)
 M2T1NXRAD (or tavg1_2d_rad_Nx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of radiation diagnostics, such as surface albedo, cloud area fraction, in cloud optical thickness, surface incoming shortwave flux (i.e. solar radiation), surface net downward shortwave flux, and …
 NASA/GSFC/MERRA/rad/2, albedo,atmosphere,climate,emissivity,merra,shortwave,temperature 
-1980-01-01T00:00:00Z/2025-03-01T23:00:00Z
+1980-01-01T00:00:00Z/2025-04-01T23:00:00Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

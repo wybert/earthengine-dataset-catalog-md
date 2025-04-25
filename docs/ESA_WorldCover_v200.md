@@ -1,6 +1,6 @@
  
 #  ESA WorldCover 10m v200 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![ESA/WorldCover/v200](https://developers.google.com/earth-engine/datasets/images/ESA/ESA_WorldCover_v200_sample.png) 
 
 Dataset Availability
@@ -14,13 +14,14 @@ Earth Engine Snippet
 
 Tags
      [esa](https://developers.google.com/earth-engine/datasets/tags/esa) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landuse](https://developers.google.com/earth-engine/datasets/tags/landuse) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover) [sentinel1-derived](https://developers.google.com/earth-engine/datasets/tags/sentinel1-derived) [sentinel2-derived](https://developers.google.com/earth-engine/datasets/tags/sentinel2-derived)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v200#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v200#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v200#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v200#citations) More
+#### Description
 The European Space Agency (ESA) WorldCover 10 m 2021 product provides a global land cover map for 2021 at 10 m resolution based on Sentinel-1 and Sentinel-2 data. The WorldCover product comes with 11 land cover classes and has been generated in the framework of the ESA WorldCover project, part of the 5th Earth Observation Envelope Programme (EOEP-5) of the European Space Agency.
 See also:
   * [ESA WorldCover website](https://esa-worldcover.org)
   * [User Manual and Validation Report](https://esa-worldcover.org/en/data-access)
 
 
+### Bands
 **Pixel Size** 10 meters 
 **Bands**
 Name | Description  
@@ -40,15 +41,17 @@ Value | Color | Description
 90 | #0096a0 | Herbaceous wetland  
 95 | #00cf75 | Mangroves  
 100 | #fae6a0 | Moss and lichen  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Zanaga, D., Van De Kerchove, R., Daems, D., De Keersmaecker, W., Brockmann, C., Kirches, G., Wevers, J., Cartus, O., Santoro, M., Fritz, S., Lesiv, M., Herold, M., Tsendbazar, N.E., Xu, P., Ramoino, F., Arino, O., 2022. ESA WorldCover 10 m 2021 v200. ([doi:10.5281/zenodo.7254221](https://doi.org/10.5281/zenodo.7254221))
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v200#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('ESA/WorldCover/v200').first();
 varvisualization={

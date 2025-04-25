@@ -1,6 +1,6 @@
  
 #  Planet SkySat Public Ortho Imagery, RGB 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![SKYSAT/GEN-A/PUBLIC/ORTHO/RGB](https://developers.google.com/earth-engine/datasets/images/SKYSAT/SKYSAT_GEN-A_PUBLIC_ORTHO_RGB_sample.png) 
 
 Dataset Availability
@@ -14,10 +14,11 @@ Earth Engine Snippet
 
 Tags
      [highres](https://developers.google.com/earth-engine/datasets/tags/highres) [pansharpened](https://developers.google.com/earth-engine/datasets/tags/pansharpened) [planet](https://developers.google.com/earth-engine/datasets/tags/planet) [rgb](https://developers.google.com/earth-engine/datasets/tags/rgb) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [skysat](https://developers.google.com/earth-engine/datasets/tags/skysat)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_RGB#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_RGB#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_RGB#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_RGB#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_RGB#citations) More
+#### Description
 This data from Planet labs Inc. SkySat satellites was collected for the experimental "Skybox for Good Beta" program in 2015, as well as for various crisis response events and a few other projects. The data is available in both a 5-band Multispectral/Pan collection, and a Pansharpened RGB collection.
 Each image's asset ID contains the acquisition date and time, for example, image s01_20150304T080608Z was acquired on March 4, 2015 at 08:06 Zulu (UTC). For more information, please see the [Planet Imagery Product Specifications](https://assets.planet.com/docs/Planet_Combined_Imagery_Product_Specs_letter_screen.pdf) and visit the [Planet Imagery and Archive](https://www.planet.com/products/planet-imagery/) site.
 This RGB collection contains images with three pansharpened, 8-bit bands. The resolution is approximately 0.8m per pixel (closer to 1m for off-nadir images).
+### Bands
 **Pixel Size** 0.8 meters 
 **Bands**
 Name | Min | Max | Wavelength | Description  
@@ -26,6 +27,7 @@ Name | Min | Max | Wavelength | Description
 `G` |  1*  |  255*  | 515-595nm | Green  
 `B` |  1*  |  255*  | 450-515nm | Blue  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -49,15 +51,17 @@ snaptoReferenceAssets | STRING | N/A
 solarAzimuthAngle | DOUBLE | Solar azimuth angle at the time of collection.  
 solarElevationAngle | DOUBLE | Solar elevation angle at the time of collection.  
 terrainBlendEpoch | DOUBLE | N/A  
+### Terms of Use
 **Terms of Use**
 This dataset is made available publicly under the Creative Commons by Attribution license(CC-BY-4.0).
+### Citations
 Citations:
   * © <year> Planet Labs Inc.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_RGB#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('SKYSAT/GEN-A/PUBLIC/ORTHO/RGB');
 varrgb=dataset.select(['R','G','B']);

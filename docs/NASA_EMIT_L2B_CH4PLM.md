@@ -1,6 +1,6 @@
  
 #  Earth Surface Mineral Dust Source Investigation- Methane Plume Complexes 
-Stay organized with collections  Save and categorize content based on your preferences. 
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/EMIT/L2B/CH4PLM](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_EMIT_L2B_CH4PLM_sample.png) 
 
 Dataset Availability
@@ -10,7 +10,7 @@ Dataset Provider
      [ NASA Jet Propulsion Laboratory ](https://earth.jpl.nasa.gov/emit/data/data-products/) 
 
 Earth Engine Snippet
-     `       ee.ImageCollection("NASA/EMIT/L2B/CH4PLM")     ` [ open_in_new ](https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/NASA_EMIT_L2B_CH4PLM) 
+     `    ee.ImageCollection("NASA/EMIT/L2B/CH4PLM")   ` [ open_in_new ](https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/NASA_EMIT_L2B_CH4PLM) 
 
 Cadence
     1 Day 
@@ -22,8 +22,7 @@ The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed
 EMIT was a particularly useful tool for mapping out greenhouse gases, including methane, carbon dioxide, and water vapor. This is consistent with previous findings from airborne data, but global nature, revisit frequency and wide swath of EMIT provided an unprecedented opportunity to investigate greenhouse gas retrievals.
 The EMIT Level 2B Estimated Methane Plume Complexes (EMITL2BCH4PLM) Version 1 data product provides estimated methane plume complexes in parts per million meter (ppm m) along with uncertainty data. The EMITL2BCH4PLM data product will only be generated where methane plume complexes have been identified.
 ### Bands
-**Pixel Size**   
-72000 meters 
+**Pixel Size** 72000 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  

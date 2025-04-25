@@ -1,6 +1,6 @@
  
 #  LANDFIRE EVC (Existing Vegetation Cover) v1.4.0 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDFIRE/Vegetation/EVC/v1_4_0](https://developers.google.com/earth-engine/datasets/images/LANDFIRE/LANDFIRE_Vegetation_EVC_v1_4_0_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [doi](https://developers.google.com/earth-engine/datasets/tags/doi) [fire](https://developers.google.com/earth-engine/datasets/tags/fire) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [landfire](https://developers.google.com/earth-engine/datasets/tags/landfire) [nature-conservancy](https://developers.google.com/earth-engine/datasets/tags/nature-conservancy) [usda](https://developers.google.com/earth-engine/datasets/tags/usda) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs) [vegetation](https://developers.google.com/earth-engine/datasets/tags/vegetation) [wildfire](https://developers.google.com/earth-engine/datasets/tags/wildfire)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVC_v1_4_0#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVC_v1_4_0#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVC_v1_4_0#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVC_v1_4_0#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVC_v1_4_0#citations) More
+#### Description
 LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a shared program between the wildland fire management programs of the U.S. Department of Agriculture's Forest Service, U.S. Department of the Interior's Geological Survey, and The Nature Conservancy.
 LANDFIRE (LF) layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.
 LANDFIRE's (LF) Existing Vegetation Cover (EVC) represents the vertically projected percent cover of the live canopy layer for a 30-m cell. EVC is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Percentage tree, shrub, and herbaceous canopy cover training data are generated using plot-level ground-based visual assessments and lidar observations. * Once the training data are developed, relationships are then established separately for each lifeform between the training data and combination of Landsat and ancillary data. Each of the derived data layers (tree, shrub, herbaceous) has a potential range from 0-100 percent which are merged into a single composite EVC layer. * Disturbance data were used to develop LF Remap products for LFRDB plot filtering and to ensure 2015 and 2016 disturbances were included that were not visible in the source imagery. * The EVC product is then reconciled through QA/QC measures to ensure life-form is synchronized with both Existing Vegetation Height and Existing Vegetation Type products. LF uses EVC in several subsequent layers, including the development of the fuel layers.
@@ -26,6 +26,7 @@ The LANDIFRE Vegetation datasets include:
   * Existing Vegetation Type (EVT) These layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Description  
@@ -108,13 +109,16 @@ Value | Color | Description
 163 | #9e0020 | Shrub Canopy >= 60 and <= 100%  
 171 | #ffa94d | Herb Canopy >= 10 and < 60%  
 172 | #ff752b | Herb Canopy >= 60 and <= 100%  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
 EVC_classes | DOUBLE | Class values of the Existing Vegetation Cover.  
 EVC_names | STRING | Descriptive names of the Existing Vegetation Cover.  
+### Terms of Use
 **Terms of Use**
 LANDFIRE data are public domain data with no use restrictions, though if modifications or derivatives of the product(s) are created, then please add some descriptive modifier to the data set to avoid confusion.
+### Citations
 Citations:
   * The suggested way to cite LANDFIRE products is specific to each product, so the model for citation is provided, with an example for a particular product. Producer. Year released. Product xxxxx:
     * Individual model name.
@@ -126,7 +130,7 @@ Example Citation: LANDFIRE Biophysical Settings. 2018. Biophysical setting 14420
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_EVC_v1_4_0#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDFIRE/Vegetation/EVC/v1_4_0');
 varvisualization={

@@ -1,6 +1,6 @@
  
 #  TRMM 3B42: 3-Hourly Precipitation Estimates 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![TRMM/3B42](https://developers.google.com/earth-engine/datasets/images/TRMM/TRMM_3B42_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [3-hourly](https://developers.google.com/earth-engine/datasets/tags/3-hourly) [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [jaxa](https://developers.google.com/earth-engine/datasets/tags/jaxa) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [rainfall](https://developers.google.com/earth-engine/datasets/tags/rainfall) [trmm](https://developers.google.com/earth-engine/datasets/tags/trmm) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B42#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B42#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B42#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B42#citations) More
+#### Description
 The Tropical Rainfall Measuring Mission (TRMM) is a joint mission between NASA and the Japan Aerospace Exploration Agency (JAXA) designed to monitor and study tropical rainfall. The 34B2 product contains a gridded, TRMM-adjusted, merged infrared precipitation (mm/hr) and RMS precipitation-error estimate, with a 3-hour temporal resolution and a 0.25 degree spatial resolution.
 See the [algorithm description](https://trmm.gsfc.nasa.gov/3b42.html) and the [file specification](https://storm.pps.eosdis.nasa.gov/storm/data/docs/filespec.TRMM.V7.3B42.pdf) for details.
 Documentation:
@@ -30,13 +30,14 @@ Documentation:
   * [Transition from TMPA to IMERG](https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/TMPA-to-IMERG_transition.pdf)
 
 
+### Bands
 **Pixel Size** 27830 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `precipitation` | mm/hr |  0  |  100  | Merged microwave/IR precipitation estimate  
 `relativeError` | mm/hr |  0  |  100  | Merged microwave/IR precipitation random error estimate  
-`satPrecipitationSource` | Flag to show source of data  
+`satPrecipitationSource` |  |  |  | Flag to show source of data  
 Bitmask for satPrecipitationSource
   * Bits 0-5: Source 
     * 0: No observation
@@ -55,8 +56,10 @@ Bitmask for satPrecipitationSource
 `HQprecipitation` | mm/hr |  0  |  100  | Pre-gauge-adjusted microwave precipitation estimate  
 `IRprecipitation` | mm/hr |  0  |  100  | Pre-gauge-adjusted infrared precipitation estimate  
 `satObservationTime` | min |  -90  |  90  | Satellite observation time minus the time of the granule. In case of overlapping satellite observations, the two or more observation times are equal-weighting averaged.  
+### Terms of Use
 **Terms of Use**
 This dataset is in the public domain and is available without restriction on use and distribution. See [NASA's Earth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy) for additional information.
+### Citations
 Citations:
   * Adler, R.F., G.J. Huffman, A. Chang, R. Ferraro, P. Xie, J. Janowiak, B. Rudolf, U. Schneider, S. Curtis, D. Bolvin, A. Gruber, J. Susskind, P. Arkin, E.J. Nelkin, 2003: The Version 2 Global Precipitation Climatology Project (GPCP) Monthly Precipitation Analysis (1979-Present). J. Hydrometeor., 4(6), 1147-1167.
   * Huffman, G.J., 1997: Estimates of Root-Mean-Square Random Error for Finite Samples of Estimated Precipitation, J. Appl. Meteor., 1191-1201.
@@ -69,7 +72,7 @@ Citations:
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B42#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('TRMM/3B42')
 .filter(ee.Filter.date('2018-04-01','2018-04-10'));

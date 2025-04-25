@@ -1,6 +1,6 @@
  
 #  PRISM Monthly Spatial Climate Dataset AN81m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![OREGONSTATE/PRISM/AN81m](https://developers.google.com/earth-engine/datasets/images/OREGONSTATE/OREGONSTATE_PRISM_AN81m_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [climate](https://developers.google.com/earth-engine/datasets/tags/climate) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [monthly](https://developers.google.com/earth-engine/datasets/tags/monthly) [oregonstate](https://developers.google.com/earth-engine/datasets/tags/oregonstate) [precipitation](https://developers.google.com/earth-engine/datasets/tags/precipitation) [pressure](https://developers.google.com/earth-engine/datasets/tags/pressure) [prism](https://developers.google.com/earth-engine/datasets/tags/prism) [temperature](https://developers.google.com/earth-engine/datasets/tags/temperature) [vapor](https://developers.google.com/earth-engine/datasets/tags/vapor) [weather](https://developers.google.com/earth-engine/datasets/tags/weather)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m#dois) More
+#### Description
 The PRISM daily and monthly datasets are gridded climate datasets for the conterminous United States, produced by the PRISM Climate Group at Oregon State University.
 Grids are developed using PRISM (Parameter-elevation Regressions on Independent Slopes Model). PRISM interpolation routines simulate how weather and climate vary with elevation, and account for coastal effects, temperature inversions, and terrain barriers that can cause rain shadows. Station data are assimilated from many networks across the country. For more information, see the [Descriptions of PRISM Spatial Climate Datasets](https://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf).
 **Note**
@@ -26,6 +26,7 @@ Grids are developed using PRISM (Parameter-elevation Regressions on Independent 
   * For use of the 30 arc-second (~800 m) version of this dataset please contact the provider at prism-questions@nacse.org.
 
 
+### Bands
 **Pixel Size** 4638.3 meters 
 **Bands**
 Name | Units | Min | Max | Description  
@@ -38,6 +39,7 @@ Name | Units | Min | Max | Description
 `vpdmin` | hPa |  0*  |  44.79*  | Monthly average of daily minimum vapor pressure deficit  
 `vpdmax` | hPa |  0.009*  |  110.06*  | Monthly average of daily maximum vapor pressure deficit  
 * estimated min or max value 
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -47,19 +49,22 @@ PRISM_DATASET_FILENAME | STRING_LIST | List of original filenames for each band
 PRISM_DATASET_TYPE | STRING_LIST | List of dataset types per-band  
 PRISM_DATASET_VERSION | STRING_LIST | List of dataset versions per-band e.g: D1 or D2 for daily products; M1, M2 or M3 for monthly products.  
 status | STRING | Data generated within 30 days of observation have the status "early". Data generated within 1-6 months of observation may have the status "provisional" and data older than 6 months are marked as "permanent".  
+### Terms of Use
 **Terms of Use**
 These PRISM datasets are available without restriction on use or distribution. PRISM Climate Group does request that the user give proper attribution and identify PRISM, where applicable, as the source of the data.
+### Citations
 Citations:
   * [Daly, C., Halbleib, M., Smith, J.I., Gibson, W.P., Doggett, M.K., Taylor, G.H., Curtis, J., and Pasteris, P.A. 2008. Physiographically-sensitive mapping of temperature and precipitation across the conterminous United States. International Journal of Climatology, 28: 2031-2064](https://www.prism.oregonstate.edu/documents/pubs/2008intjclim_physiographicMapping_daly.pdf)
   * [Daly, C., J.I. Smith, and K.V. Olson. 2015. Mapping atmospheric moisture climatologies across the conterminous United States. PloS ONE 10(10):e0141140. [doi:10.1371/journal.pone.0141140](https://doi.org/10.1371/journal.pone.0141140).
 
 
+### DOIs
   * [ https://doi.org/10.1371/journal.pone.0141140 ](https://doi.org/10.1371/journal.pone.0141140)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('OREGONSTATE/PRISM/AN81m')
 .filter(ee.Filter.date('2018-07-01','2018-07-31'));

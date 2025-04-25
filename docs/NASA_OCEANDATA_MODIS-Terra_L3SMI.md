@@ -1,6 +1,6 @@
  
 #  Ocean Color SMI: Standard Mapped Image MODIS Terra Data 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/OCEANDATA/MODIS-Terra/L3SMI](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_OCEANDATA_MODIS-Terra_L3SMI_sample.png) 
 
 Dataset Availability
@@ -36,9 +36,9 @@ Documentation:
 **Bands**
 Name | Units | Min | Max | Wavelength | Description  
 ---|---|---|---|---|---  
-`chlor_a` | mg/m^3 |  0*  |  99.99*  | Chlorophyll a concentration  
-`nflh` | mW cm-2 μm-1 sr-1 |  -0.5*  |  5.03*  | Normalized fluorescence line height  
-`poc` | mg/m^3 |  4*  |  12953.4*  | Particulate organic carbon  
+`chlor_a` | mg/m^3 |  0*  |  99.99*  |  | Chlorophyll a concentration  
+`nflh` | mW cm-2 μm-1 sr-1 |  -0.5*  |  5.03*  |  | Normalized fluorescence line height  
+`poc` | mg/m^3 |  4*  |  12953.4*  |  | Particulate organic carbon  
 `Rrs_412` | sr-1 |  0*  |  0.11*  | 412nm | Remote sensing reflectance at band 412nm  
 `Rrs_443` | sr-1 |  0*  |  0.11*  | 443nm | Remote sensing reflectance at band 443nm  
 `Rrs_469` | sr-1 |  0*  |  0.11*  | 469nm | Remote sensing reflectance at band 469nm  
@@ -49,7 +49,7 @@ Name | Units | Min | Max | Wavelength | Description
 `Rrs_645` | sr-1 |  0*  |  0.04*  | 645nm | Remote sensing reflectance at band 645nm  
 `Rrs_667` | sr-1 |  0*  |  0.04*  | 667nm | Remote sensing reflectance at band 667nm  
 `Rrs_678` | sr-1 |  0*  |  0.04*  | 678nm | Remote sensing reflectance at band 678nm  
-`sst` | °C |  -2*  |  45*  | Sea surface temperature  
+`sst` | °C |  -2*  |  45*  |  | Sea surface temperature  
 * estimated min or max value 
 **Image Properties**
 Name | Type | Description  

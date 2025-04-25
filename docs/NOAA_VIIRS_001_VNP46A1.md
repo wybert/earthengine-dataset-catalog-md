@@ -1,6 +1,6 @@
  
 #  VNP46A1: VIIRS Daily Gridded Day Night Band 500m Linear Lat Lon Grid Night 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NOAA/VIIRS/001/VNP46A1](https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP46A1_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [dnb](https://developers.google.com/earth-engine/datasets/tags/dnb) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [noaa](https://developers.google.com/earth-engine/datasets/tags/noaa) [population](https://developers.google.com/earth-engine/datasets/tags/population) [viirs](https://developers.google.com/earth-engine/datasets/tags/viirs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP46A1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP46A1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP46A1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP46A1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP46A1#dois) More
+#### Description
 The Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS) supports a Day-Night Band (DNB) sensor that provides global daily measurements of nocturnal visible and near-infrared (NIR) light that are suitable for Earth system science and applications. The VIIRS DNB's ultra-sensitivity in lowlight conditions enables us to generate a new set of science-quality nighttime products that manifest substantial improvements in sensor resolution and calibration when compared to the previous era of Defense Meteorological Satellite Program/Operational Linescan System's (DMSP/OLS) nighttime lights image products.
 VNP46A1 is a daily, top-of-atmosphere, at-sensor nighttime radiance product called VIIRS/NPP Daily Gridded Day Night Band 15 arc-second Linear Lat Lon Grid Night. The product contains 26 Science Data Sets (SDS) that include sensor radiance, zenith and azimuth angles (at-sensor, solar, and lunar), cloud-mask flags, time, shortwave IR radiance, brightness temperatures, VIIRS quality flags, moon phase angle, and moon illumination fraction. It also provides Quality Flag (QF) information specific to the cloud-mask, VIIRS moderate-resolution bands M10, M11, M12, M13, M15, M16, and DNB.
 Documentation:
@@ -26,6 +26,7 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/VNP46A1/)
 
 
+### Bands
 **Pixel Size** 500 meters 
 **Bands**
 Name | Units | Min | Max | Offset | Description  
@@ -34,14 +35,14 @@ Name | Units | Min | Max | Offset | Description
 `BrightnessTemperature_M13` | K |  0  |  163.835  | 203 | Brightness temperature of band M13  
 `BrightnessTemperature_M15` | K |  0  |  163.835  | 111 | Brightness temperature of band M15  
 `BrightnessTemperature_M16` | K |  0  |  163.835  | 103 | Brightness temperature of band M16  
-`DNB_At_Sensor_Radiance_500m` |  0  |  6553.4  | At-sensor DNB radiance  
-`Glint_Angle` | deg |  -180  |  180  | Moon glint angle  
-`Granule` |  0  |  254  | Number of selected Granule  
-`Lunar_Zenith` | deg |  0  |  180  | Lunar zenith angle  
-`Lunar_Azimuth` | deg |  -180  |  180  | Lunar azimuth angle  
-`Moon_Illumination_Fraction` | % |  0  |  100  | Moon illumination fraction  
-`Moon_Phase_Angle` | deg |  0  |  180  | Moon phase angle  
-`QF_Cloud_Mask` | Quality flag for cloud mask  
+`DNB_At_Sensor_Radiance_500m` |  |  0  |  6553.4  |  | At-sensor DNB radiance  
+`Glint_Angle` | deg |  -180  |  180  |  | Moon glint angle  
+`Granule` |  |  0  |  254  |  | Number of selected Granule  
+`Lunar_Zenith` | deg |  0  |  180  |  | Lunar zenith angle  
+`Lunar_Azimuth` | deg |  -180  |  180  |  | Lunar azimuth angle  
+`Moon_Illumination_Fraction` | % |  0  |  100  |  | Moon illumination fraction  
+`Moon_Phase_Angle` | deg |  0  |  180  |  | Moon phase angle  
+`QF_Cloud_Mask` |  |  |  |  | Quality flag for cloud mask  
 Bitmask for QF_Cloud_Mask
   * Bit 0: Day/Night 
     * 0: Night
@@ -73,110 +74,113 @@ Bitmask for QF_Cloud_Mask
     * 1: Snow/Ice
 
   
-`QF_DNB` |  0  |  65534  | DNB quality flag  
-`QF_VIIRS_M10` |  0  |  65534  | Quality flag of band M10  
-`QF_VIIRS_M11` |  0  |  65534  | Quality flag of band M11  
-`QF_VIIRS_M12` |  0  |  65534  | Quality flag of band M12  
-`QF_VIIRS_M13` |  0  |  65534  | Quality flag of band M13  
-`QF_VIIRS_M15` |  0  |  65534  | Quality flag of band M15  
-`QF_VIIRS_M16` |  0  |  65534  | Quality flag of band M16  
-`Radiance_M10` |  0  |  85.1942  | -0.04 | Radiance in band M10  
-`Radiance_M11` |  0  |  38.0097  | -0.02 | Radiance in band M11  
-`Sensor_Azimuth` | deg |  -180  |  180  | Sensor azimuth angle  
-`Sensor_Zenith` | deg |  0  |  90  | Sensor zenith angle  
-`Solar_Azimuth` | deg |  -180  |  180  | Solar azimuth angle  
-`Solar_Zenith` | deg |  0  |  180  | Solar zenith angle  
-`UTC_Time` | h |  0  |  24  | UTC time  
+`QF_DNB` |  |  0  |  65534  |  | DNB quality flag  
+`QF_VIIRS_M10` |  |  0  |  65534  |  | Quality flag of band M10  
+`QF_VIIRS_M11` |  |  0  |  65534  |  | Quality flag of band M11  
+`QF_VIIRS_M12` |  |  0  |  65534  |  | Quality flag of band M12  
+`QF_VIIRS_M13` |  |  0  |  65534  |  | Quality flag of band M13  
+`QF_VIIRS_M15` |  |  0  |  65534  |  | Quality flag of band M15  
+`QF_VIIRS_M16` |  |  0  |  65534  |  | Quality flag of band M16  
+`Radiance_M10` |  |  0  |  85.1942  | -0.04 | Radiance in band M10  
+`Radiance_M11` |  |  0  |  38.0097  | -0.02 | Radiance in band M11  
+`Sensor_Azimuth` | deg |  -180  |  180  |  | Sensor azimuth angle  
+`Sensor_Zenith` | deg |  0  |  90  |  | Sensor zenith angle  
+`Solar_Azimuth` | deg |  -180  |  180  |  | Solar azimuth angle  
+`Solar_Zenith` | deg |  0  |  180  |  | Solar zenith angle  
+`UTC_Time` | h |  0  |  24  |  | UTC time  
 **QF_DNB Class Table**
 Value | Color | Description  
 ---|---|---  
-1 | Substitute_Cal  
-2 | Out_of_Range  
-4 | Saturation  
-8 | Temp_not_Nominal  
-16 | Stray_light  
-256 | Bowtie_Deleted  
-512 | Missing_EV  
-1024 | Cal_Fail  
-2048 | Dead_Detector  
+1 |  | Substitute_Cal  
+2 |  | Out_of_Range  
+4 |  | Saturation  
+8 |  | Temp_not_Nominal  
+16 |  | Stray_light  
+256 |  | Bowtie_Deleted  
+512 |  | Missing_EV  
+1024 |  | Cal_Fail  
+2048 |  | Dead_Detector  
 **QF_VIIRS_M10 Class Table**
 Value | Color | Description  
 ---|---|---  
-1 | Substitute_Cal  
-2 | Out_of_Range  
-4 | Saturation  
-8 | Temp_not_Nominal  
-256 | Bowtie_Deleted  
-512 | Missing_EV  
-1024 | Cal_Fail  
-2048 | Dead_Detector  
+1 |  | Substitute_Cal  
+2 |  | Out_of_Range  
+4 |  | Saturation  
+8 |  | Temp_not_Nominal  
+256 |  | Bowtie_Deleted  
+512 |  | Missing_EV  
+1024 |  | Cal_Fail  
+2048 |  | Dead_Detector  
 **QF_VIIRS_M11 Class Table**
 Value | Color | Description  
 ---|---|---  
-1 | Substitute_Cal  
-2 | Out_of_Range  
-4 | Saturation  
-8 | Temp_not_Nominal  
-256 | Bowtie_Deleted  
-512 | Missing_EV  
-1024 | Cal_Fail  
-2048 | Dead_Detector  
+1 |  | Substitute_Cal  
+2 |  | Out_of_Range  
+4 |  | Saturation  
+8 |  | Temp_not_Nominal  
+256 |  | Bowtie_Deleted  
+512 |  | Missing_EV  
+1024 |  | Cal_Fail  
+2048 |  | Dead_Detector  
 **QF_VIIRS_M12 Class Table**
 Value | Color | Description  
 ---|---|---  
-1 | Substitute_Cal  
-2 | Out_of_Range  
-4 | Saturation  
-8 | Temp_not_Nominal  
-256 | Bowtie_Deleted  
-512 | Missing_EV  
-1024 | Cal_Fail  
-2048 | Dead_Detector  
+1 |  | Substitute_Cal  
+2 |  | Out_of_Range  
+4 |  | Saturation  
+8 |  | Temp_not_Nominal  
+256 |  | Bowtie_Deleted  
+512 |  | Missing_EV  
+1024 |  | Cal_Fail  
+2048 |  | Dead_Detector  
 **QF_VIIRS_M13 Class Table**
 Value | Color | Description  
 ---|---|---  
-1 | Substitute_Cal  
-2 | Out_of_Range  
-4 | Saturation  
-8 | Temp_not_Nominal  
-256 | Bowtie_Deleted  
-512 | Missing_EV  
-1024 | Cal_Fail  
-2048 | Dead_Detector  
+1 |  | Substitute_Cal  
+2 |  | Out_of_Range  
+4 |  | Saturation  
+8 |  | Temp_not_Nominal  
+256 |  | Bowtie_Deleted  
+512 |  | Missing_EV  
+1024 |  | Cal_Fail  
+2048 |  | Dead_Detector  
 **QF_VIIRS_M15 Class Table**
 Value | Color | Description  
 ---|---|---  
-1 | Substitute_Cal  
-2 | Out_of_Range  
-4 | Saturation  
-8 | Temp_not_Nominal  
-256 | Bowtie_Deleted  
-512 | Missing_EV  
-1024 | Cal_Fail  
-2048 | Dead_Detector  
+1 |  | Substitute_Cal  
+2 |  | Out_of_Range  
+4 |  | Saturation  
+8 |  | Temp_not_Nominal  
+256 |  | Bowtie_Deleted  
+512 |  | Missing_EV  
+1024 |  | Cal_Fail  
+2048 |  | Dead_Detector  
 **QF_VIIRS_M16 Class Table**
 Value | Color | Description  
 ---|---|---  
-1 | Substitute_Cal  
-2 | Out_of_Range  
-4 | Saturation  
-8 | Temp_not_Nominal  
-256 | Bowtie_Deleted  
-512 | Missing_EV  
-1024 | Cal_Fail  
-2048 | Dead_Detector  
+1 |  | Substitute_Cal  
+2 |  | Out_of_Range  
+4 |  | Saturation  
+8 |  | Temp_not_Nominal  
+256 |  | Bowtie_Deleted  
+512 |  | Missing_EV  
+1024 |  | Cal_Fail  
+2048 |  | Dead_Detector  
+### Terms of Use
 **Terms of Use**
 LP DAAC NASA data are freely accessible; however, when an author publishes these data or works based on the data, it is requested that the author cite the datasets within the text of the publication and include a reference to them in the reference list.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data)
 
 
+### DOIs
   * [ https://doi.org/10.5067/VIIRS/VNP46A1.001 ](https://doi.org/10.5067/VIIRS/VNP46A1.001)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP46A1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NOAA/VIIRS/001/VNP46A1').filter(
 ee.Filter.date('2013-01-01','2013-07-01'));

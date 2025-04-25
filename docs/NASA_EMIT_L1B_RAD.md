@@ -1,10 +1,10 @@
  
 #  EMIT L1B At-Sensor Calibrated Radiance and Geolocation Data 60 m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/EMIT/L1B/RAD](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_EMIT_L1B_RAD_sample.png) 
 
 Dataset Availability
-    2022-08-09T00:00:00Z–2025-04-20T10:48:03Z 
+    2022-08-09T00:00:00Z–2025-04-21T17:48:43Z 
 
 Dataset Provider
      [ NASA Jet Propulsion Laboratory ](https://earth.jpl.nasa.gov/emit/data/data-products/) 
@@ -17,10 +17,11 @@ Cadence
 
 Tags
      [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [emit](https://developers.google.com/earth-engine/datasets/tags/emit) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [radiance](https://developers.google.com/earth-engine/datasets/tags/radiance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD#dois) More
+#### Description
 The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging spectrometer adapted for installation on the International Space Station (ISS). EMIT measures radiance between 380 and 2500 nanometers, with an approximate 7 nm bandpass. Data are collected in a swath that is approximately 75 km wide at the equator, with an approximate ground sampling distance of 60 m. See the provider's [NASA EMIT Overview](https://lpdaac.usgs.gov/documents/1695/EMIT_L2B_GHG_User_Guide_V1.pdf) for more details.
 EMIT was a particularly useful tool for mapping out greenhouse gases, including methane, carbon dioxide, and water vapor. This is consistent with previous findings from airborne data, but global nature, revisit frequency and wide swath of EMIT provided an unprecedented opportunity to investigate greenhouse gas retrievals.
 The EMIT Level 1B At-Sensor Calibrated Radiance and Geolocation (EMITL1BRAD) Version 1 data product provides at-sensor calibrated radiance values along with observation data in a spatially raw, non-orthocorrected format.
+### Bands
 **Pixel Size** 60 meters 
 **Bands**
 Name | Units | Description  
@@ -319,9 +320,10 @@ Name | Units | Description
 `solar_phase` | deg | Degrees between to-sensor and to-sun vectors in principal plane  
 `slope` | deg | Local surface slope as derived from Digital Elevation Model (DEM) in degrees  
 `aspect` | deg | Local surface aspect 0 to 360 degrees clockwise from N  
-`cosine_i` | Apparent local illumination factor based on DEM slope and aspect and to sun vector, 0 to 1  
+`cosine_i` |  | Apparent local illumination factor based on DEM slope and aspect and to sun vector, 0 to 1  
 `utc_time` | h | Fractional hours since UTC midnight  
 `earth_sun_distance` | AU | Distance between the Earth and the Sun  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -332,18 +334,21 @@ SOLAR_AZIMUTH | STRING | Solar Azimuth
 SOLAR_ZENITH | STRING | Solar Zenith  
 radiance_fwhm | DOUBLE_LIST | An array of length 285, where the value at index i is the full width at half maximum setting for radiance band i.  
 radiance_wavelengths | DOUBLE_LIST | An array of length 285, where the value at index i is the wavelength center setting for radiance band i.  
+### Terms of Use
 **Terms of Use**
 NASA EMIT data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Green, R. (2022). EMIT L1B At-Sensor Calibrated Radiance and Geolocation Data 60 m V001 dataset. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2024-05-20 from <https://doi.org/10.5067/EMIT/EMITL1BRAD.001>
 
 
+### DOIs
   * [ https://doi.org/10.5067/EMIT/EMITL1BRAD.001 ](https://doi.org/10.5067/EMIT/EMITL1BRAD.001)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/EMIT/L1B/RAD');
 varemitRadVis={
@@ -359,7 +364,7 @@ dataset,emitRadVis,
 [ EMIT L1B At-Sensor Calibrated Radiance and Geolocation Data 60 m ](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD)
 The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging spectrometer adapted for installation on the International Space Station (ISS). EMIT measures radiance between 380 and 2500 nanometers, …
 NASA/EMIT/L1B/RAD, daily,emit,nasa,radiance,satellite-imagery 
-2022-08-09T00:00:00Z/2025-04-20T10:48:03Z
+2022-08-09T00:00:00Z/2025-04-21T17:48:43Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

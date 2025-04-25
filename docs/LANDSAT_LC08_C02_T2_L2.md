@@ -1,6 +1,6 @@
  
 #  USGS Landsat 8 Level 2, Collection 2, Tier 2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![LANDSAT/LC08/C02/T2_L2](https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T2_L2_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Revisit Interval
 
 Tags
      [cfmask](https://developers.google.com/earth-engine/datasets/tags/cfmask) [cloud](https://developers.google.com/earth-engine/datasets/tags/cloud) [fmask](https://developers.google.com/earth-engine/datasets/tags/fmask) [global](https://developers.google.com/earth-engine/datasets/tags/global) [l8sr](https://developers.google.com/earth-engine/datasets/tags/l8sr) [landsat](https://developers.google.com/earth-engine/datasets/tags/landsat) [lasrc](https://developers.google.com/earth-engine/datasets/tags/lasrc) [lc08](https://developers.google.com/earth-engine/datasets/tags/lc08) [lst](https://developers.google.com/earth-engine/datasets/tags/lst) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2_L2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2_L2#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2_L2#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2_L2#terms-of-use) More
+#### Description
 This dataset contains atmospherically corrected surface reflectance and land surface temperature derived from the data produced by the Landsat 8 OLI/TIRS sensors. These images contain 5 visible and near-infrared (VNIR) bands and 2 short-wave infrared (SWIR) bands processed to orthorectified surface reflectance, and one thermal infrared (TIR) band processed to orthorectified surface temperature. They also contain intermediate bands used in calculation of the ST products, as well as QA bands.
 Landsat 8 SR products are created with the Land Surface Reflectance Code (LaSRC). All Collection 2 ST products are created with a single-channel algorithm jointly created by the Rochester Institute of Technology (RIT) and National Aeronautics and Space Administration (NASA) Jet Propulsion Laboratory (JPL).
 Strips of collected data are packaged into overlapping "scenes" covering approximately 170km x 183km using a [standardized reference grid](https://landsat.gsfc.nasa.gov/about/worldwide-reference-system).
@@ -31,18 +31,19 @@ Data provider notes:
   * The USGS further screens unphysical values (emissivity < 0.6) in ASTER GED to remove any emissivity underestimation due to undetected clouds. For any given pixel with no ASTER GED input or unphysical emissivity value, the resulting Landsat ST products have missing pixels. The missing Landsat ST pixels will be consistent through time (1982-present) given the static nature of ASTER GED mean climatology data. For more information refer to [landsat-collection-2-surface-temperature-data-gaps-due-missing](https://www.usgs.gov/landsat-missions/landsat-collection-2-surface-temperature-data-gaps-due-missing-aster-ged)
 
 
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Min | Max | Scale | Offset | Wavelength | Description  
 ---|---|---|---|---|---|---|---  
-`SR_B1` |  1  |  65455  | 2.75e-05 | -0.2 | 0.435-0.451 μm | Band 1 (ultra blue, coastal aerosol) surface reflectance  
-`SR_B2` |  1  |  65455  | 2.75e-05 | -0.2 | 0.452-0.512 μm | Band 2 (blue) surface reflectance  
-`SR_B3` |  1  |  65455  | 2.75e-05 | -0.2 | 0.533-0.590 μm | Band 3 (green) surface reflectance  
-`SR_B4` |  1  |  65455  | 2.75e-05 | -0.2 | 0.636-0.673 μm | Band 4 (red) surface reflectance  
-`SR_B5` |  1  |  65455  | 2.75e-05 | -0.2 | 0.851-0.879 μm | Band 5 (near infrared) surface reflectance  
-`SR_B6` |  1  |  65455  | 2.75e-05 | -0.2 | 1.566-1.651 μm | Band 6 (shortwave infrared 1) surface reflectance  
-`SR_B7` |  1  |  65455  | 2.75e-05 | -0.2 | 2.107-2.294 μm | Band 7 (shortwave infrared 2) surface reflectance  
-`SR_QA_AEROSOL` | Aerosol attributes  
+`SR_B1` |  |  1  |  65455  | 2.75e-05 | -0.2 | 0.435-0.451 μm | Band 1 (ultra blue, coastal aerosol) surface reflectance  
+`SR_B2` |  |  1  |  65455  | 2.75e-05 | -0.2 | 0.452-0.512 μm | Band 2 (blue) surface reflectance  
+`SR_B3` |  |  1  |  65455  | 2.75e-05 | -0.2 | 0.533-0.590 μm | Band 3 (green) surface reflectance  
+`SR_B4` |  |  1  |  65455  | 2.75e-05 | -0.2 | 0.636-0.673 μm | Band 4 (red) surface reflectance  
+`SR_B5` |  |  1  |  65455  | 2.75e-05 | -0.2 | 0.851-0.879 μm | Band 5 (near infrared) surface reflectance  
+`SR_B6` |  |  1  |  65455  | 2.75e-05 | -0.2 | 1.566-1.651 μm | Band 6 (shortwave infrared 1) surface reflectance  
+`SR_B7` |  |  1  |  65455  | 2.75e-05 | -0.2 | 2.107-2.294 μm | Band 7 (shortwave infrared 2) surface reflectance  
+`SR_QA_AEROSOL` |  |  |  |  |  |  | Aerosol attributes  
 Bitmask for SR_QA_AEROSOL
   * Bit 0: Fill 
   * Bit 1: Aerosol retrieval - valid 
@@ -58,15 +59,15 @@ Bitmask for SR_QA_AEROSOL
 
   
 `ST_B10` | K |  0  |  65535  | 0.00341802 | 149 | 10.60-11.19 μm | Band 10 surface temperature. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`ST_ATRAN` |  0  |  10000  | 0.0001 | Atmospheric Transmittance. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`ST_CDIST` | km |  0  |  24000  | 0.01 | Pixel distance to cloud. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`ST_DRAD` | W/(m^2*sr*um)/ DN |  0  |  28000  | 0.001 | Downwelled Radiance. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`ST_EMIS` |  0  |  10000  | 0.0001 | Emissivity of Band 10 estimated from ASTER GED. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`ST_EMSD` |  0  |  10000  | 0.0001 | Emissivity standard deviation. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`ST_QA` | K |  0  |  32767  | 0.01 | Uncertainty of the Surface Temperature band. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`ST_TRAD` | W/(m^2*sr*um)/ DN |  0  |  22000  | 0.001 | Thermal band converted to radiance. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`ST_URAD` | W/(m^2*sr*um)/ DN |  0  |  28000  | 0.001 | Upwelled Radiance. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
-`QA_PIXEL` | Pixel quality attributes generated from the CFMASK algorithm.  
+`ST_ATRAN` |  |  0  |  10000  | 0.0001 |  |  | Atmospheric Transmittance. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
+`ST_CDIST` | km |  0  |  24000  | 0.01 |  |  | Pixel distance to cloud. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
+`ST_DRAD` | W/(m^2*sr*um)/ DN |  0  |  28000  | 0.001 |  |  | Downwelled Radiance. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
+`ST_EMIS` |  |  0  |  10000  | 0.0001 |  |  | Emissivity of Band 10 estimated from ASTER GED. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
+`ST_EMSD` |  |  0  |  10000  | 0.0001 |  |  | Emissivity standard deviation. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
+`ST_QA` | K |  0  |  32767  | 0.01 |  |  | Uncertainty of the Surface Temperature band. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
+`ST_TRAD` | W/(m^2*sr*um)/ DN |  0  |  22000  | 0.001 |  |  | Thermal band converted to radiance. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
+`ST_URAD` | W/(m^2*sr*um)/ DN |  0  |  28000  | 0.001 |  |  | Upwelled Radiance. If 'PROCESSING_LEVEL' is set to 'L2SR', this band is fully masked out.  
+`QA_PIXEL` |  |  |  |  |  |  | Pixel quality attributes generated from the CFMASK algorithm.  
 Bitmask for QA_PIXEL
   * Bit 0: Fill 
   * Bit 1: Dilated Cloud 
@@ -100,7 +101,7 @@ Bitmask for QA_PIXEL
     * 3: High
 
   
-`QA_RADSAT` | Radiometric saturation QA  
+`QA_RADSAT` |  |  |  |  |  |  | Radiometric saturation QA  
 Bitmask for QA_RADSAT
   * Bit 0: Band 1 data saturated 
   * Bit 1: Band 2 data saturated 
@@ -116,6 +117,7 @@ Bitmask for QA_RADSAT
   * Bit 11: Terrain occlusion 
 
   
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -179,6 +181,7 @@ TRUNCATION_OLI | STRING |
 The normal truncation mode is "UPPER".  
 WRS_PATH | INT | WRS path number of scene.  
 WRS_ROW | INT | WRS row number of scene.  
+### Terms of Use
 **Terms of Use**
 Landsat datasets are federally created data and therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.
 Acknowledgement or credit of the USGS as data source should be provided by including a line of text citation such as the example shown below.
@@ -187,7 +190,7 @@ Example: Landsat-7 image courtesy of the U.S. Geological Survey
 See the [USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system) for further details on proper citation and acknowledgement of USGS products.
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T2_L2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('LANDSAT/LC08/C02/T2_L2')
 .filterDate('2021-05-01','2021-06-01');

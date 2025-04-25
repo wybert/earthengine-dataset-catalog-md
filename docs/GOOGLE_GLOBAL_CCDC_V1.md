@@ -1,6 +1,6 @@
  
 #  Google Global Landsat-based CCDC Segments (1999-2019) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![GOOGLE/GLOBAL_CCDC/V1](https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_GLOBAL_CCDC_V1_sample.png) 
 
 Dataset Availability
@@ -14,7 +14,7 @@ Earth Engine Snippet
 
 Tags
      [change-detection](https://developers.google.com/earth-engine/datasets/tags/change-detection) [google](https://developers.google.com/earth-engine/datasets/tags/google) [landcover](https://developers.google.com/earth-engine/datasets/tags/landcover) [landsat-derived](https://developers.google.com/earth-engine/datasets/tags/landsat-derived) [landuse](https://developers.google.com/earth-engine/datasets/tags/landuse) [landuse-landcover](https://developers.google.com/earth-engine/datasets/tags/landuse-landcover)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_GLOBAL_CCDC_V1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_GLOBAL_CCDC_V1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_GLOBAL_CCDC_V1#terms-of-use) More
+#### Description
 This collection contains precomputed results from running the Continuous Change Detection and Classification (CCDC) algorithm on 20 years of Landsat surface reflectance data. CCDC is a break-point finding algorithm that uses harmonic fitting with a dynamic RMSE threshold to detect breakpoints in time-series data.
 The dataset was created from the Landsat 5, 7, and 8 Collection-1, Tier-1, surface reflectance time series, using all daytime images between 1999-01-01 and 2019-12-31. Each image was preprocessed to mask pixels identified as cloud, shadow, or snow (according to the 'pixel_qa' band), saturated pixels, and pixels with an atmospheric opacity > 300 (as identified by the 'sr_atmos_opacity' and 'sr_aerosol' bands). Pixels repeated in north/south scene overlap were deduplicated. The results were output in 2-degree tiles for all landmasses between -60° and +85° latitude. The images are suitable to simply mosaic() into one global image.
 The CCDC algorithm was run with the default algorithm parameters except for the dateFormat:
@@ -30,6 +30,7 @@ The CCDC algorithm was run with the default algorithm parameters except for the 
 Each pixel in the output is encoded using variable length arrays. The outer length of each array (axis 0) corresponds to the number of breakpoints found at that location. The coefs bands contain 2-D arrays, where each inner array contains the scaling factors for the 8 terms in the linear harmonic model, in the order: [offset, t, cos(ωt), sin(ωt), cos(2ωt), sin(2ωt), cos(3ωt), sin(3ωt)], where ω = 2Π. The models are scale to produce refelectance units (0.0 - 1.0) for the optical bands and degrees (K) / 100.0 for the thermal band.
 Note that since the output bands are arrays and can only be downsampled using a SAMPLE pyramiding policy. At lower zoom levels, the results are usually no longer representative of the full-resolution data, and, for instance, tile boundaries can be seen due to the downsampled masks. It's therefore not recommended to use this dataset at resolutions less than 240m/pixel.
 There are no current plans to add post-2019 assets to this dataset.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Description  
@@ -60,6 +61,7 @@ Name | Description
 `SWIR1_magnitude` | 1-D array containing the magnitude of the detected breakpoint for the shortwave-infrared-1 (1.55μm-1.75μm) band, for each segment.  
 `SWIR2_magnitude` | 1-D array containing the magnitude of the detected breakpoint for the shortwave-infrared-2 (2.09μm-2.35μm) band, for each segment.  
 `TEMP_magnitude` | 1-D array containing the magnitude of the detected breakpoint for the thermal band, for each segment.  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)

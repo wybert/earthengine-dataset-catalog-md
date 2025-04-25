@@ -4,7 +4,7 @@ bookmark_borderbookmark Stay organized with collections  Save and categorize con
 ![COPERNICUS/S1_GRD](https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S1_GRD_sample.png) 
 
 Dataset Availability
-    2014-10-03T00:00:00Z–2025-04-22T12:16:02Z 
+    2014-10-03T00:00:00Z–2025-04-24T21:22:52Z 
 
 Dataset Provider
      [ European Union/ESA/Copernicus ](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/) 
@@ -175,7 +175,7 @@ m
 [ Sentinel-1 SAR GRD: C-band Synthetic Aperture Radar Ground Range Detected, log scaling ](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD)
 The Sentinel-1 mission provides data from a dual-polarization C-band Synthetic Aperture Radar (SAR) instrument at 5.405GHz (C band). This collection includes the S1 Ground Range Detected (GRD) scenes, processed using the Sentinel-1 Toolbox to generate a calibrated, ortho-corrected product. The collection is updated daily. New assets are ingested within two …
 COPERNICUS/S1_GRD, copernicus,esa,eu,radar,sar,satellite-imagery,sentinel 
-2014-10-03T00:00:00Z/2025-04-22T12:16:02Z
+2014-10-03T00:00:00Z/2025-04-24T21:22:52Z
 -90 -180 90 180 
 Google Earth Engine
 https://developers.google.com/earth-engine/datasets

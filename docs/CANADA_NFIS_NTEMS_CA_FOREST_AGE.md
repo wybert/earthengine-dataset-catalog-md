@@ -1,6 +1,6 @@
  
 #  Landsat-derived forest age for Canada 2019 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![CANADA/NFIS/NTEMS/CA_FOREST_AGE](https://developers.google.com/earth-engine/datasets/images/CANADA/CANADA_NFIS_NTEMS_CA_FOREST_AGE_sample.png) 
 
 Dataset Availability
@@ -14,20 +14,22 @@ Earth Engine Snippet
 
 Tags
      [canada](https://developers.google.com/earth-engine/datasets/tags/canada) [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/CANADA_NFIS_NTEMS_CA_FOREST_AGE#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/CANADA_NFIS_NTEMS_CA_FOREST_AGE#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/CANADA_NFIS_NTEMS_CA_FOREST_AGE#terms-of-use) More
+#### Description
 Canadian primary forest dataset is a satellite-based forest age map for 2019 across Canada's forested ecozones at a 30-m spatial resolution. Remotely-sensed data from Landsat (disturbances, surface reflectance composites, forest structure) and MODIS (Gross Primary Production) are utilized to determine age.
 Forest age can be determined where disturbance can be identified directly (disturbance approach) or inferred using spectral information (recovery approach) or using inverted allometric equations to model age where there is no evidence of disturbance (allometric approach). The disturbance approach is based upon satellite data and mapped changes and is the most accurate. The recovery approach also relies upon satellite data plus logic regarding forest succession, with an accuracy that is greater than pure modeling.
 Given the lack of widespread recent disturbance over Canada's forests, the allometric approach is required over the greatest area (86.6%). Using information regarding realized heights and growth and yield modeling, ages are estimated where none are otherwise possible. Trees of all ages are mapped, with trees >150 years old combined in an "old tree" category.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `forest` | y | Forest age  
+### Terms of Use
 **Terms of Use**
 The forest age map described herein for Canada's forested ecosystems is declared open source and supported by the Government of Canada. The dataset is licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/CANADA_NFIS_NTEMS_CA_FOREST_AGE#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('CANADA/NFIS/NTEMS/CA_FOREST_AGE');
 Map.setCenter(-107.94,58.18,3);

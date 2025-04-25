@@ -1,6 +1,6 @@
  
 #  CryoSat-2 Antarctica 1km DEM 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![CPOM/CryoSat2/ANTARCTICA_DEM](https://developers.google.com/earth-engine/datasets/images/CPOM/CPOM_CryoSat2_ANTARCTICA_DEM_sample.png) 
 
 Dataset Availability
@@ -16,16 +16,17 @@ Tags
      [antarctica](https://developers.google.com/earth-engine/datasets/tags/antarctica) [dem](https://developers.google.com/earth-engine/datasets/tags/dem) [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [polar](https://developers.google.com/earth-engine/datasets/tags/polar)
 cpom
 cryosat-2
-[Description](https://developers.google.com/earth-engine/datasets/catalog/CPOM_CryoSat2_ANTARCTICA_DEM#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/CPOM_CryoSat2_ANTARCTICA_DEM#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/CPOM_CryoSat2_ANTARCTICA_DEM#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/CPOM_CryoSat2_ANTARCTICA_DEM#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/CPOM_CryoSat2_ANTARCTICA_DEM#dois) More
+#### Description
 This dataset is a digital elevation model (DEM) of the Antarctic ice sheet and ice shelves based on observations recorded by the CryoSat-2 satellite radar altimeter between July 2010 and July 2016.
 The DEM is formed from spatio-temporal fits to elevation measurements accumulated within 1, 2, and 5 km grid cells, and is posted at the modal resolution of 1 km. The median and root mean square difference between the DEM and 2.3*107; airborne laser altimeter measurements acquired during NASA Operation IceBridge campaigns are -0.30 and 13.50 m, respectively.
 The DEM uncertainty rises in regions of high slope, especially where elevation measurements were acquired in low-resolution mode; taking this into account, we estimate the average accuracy to be 9.5 m.
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Units | Description  
 ---|---|---  
 `elevation` | m | Antarctic ice sheet and ice shelf elevation.  
-`data_composition` | Data processing method of elevation per grid cell.  
+`data_composition` |  | Data processing method of elevation per grid cell.  
 `slope` | deg | Slope derived from elevation gradient.  
 `z_smoothed` | m | Smoothed version of elevation model using a median filter.  
 `z_uncertainty` | m | Certainty of elevation model derived from RMS of elevation residuals in observed grid cells and the kriging variance error in interpolated grid cells.  
@@ -36,18 +37,21 @@ Value | Color | Description
 1 | #cbcbcb | 1 km fit  
 2 | #377eb7 | resampled 2 km fit  
 3 | #e2191b | resampled 5 km fit  
+### Terms of Use
 **Terms of Use**
 [proprietary](https://developers.google.com/earth-engine/datasets/catalog/Use%20a%20custom%20URL%20for%20the%20non-standard%20license)
+### Citations
 Citations:
   * Slater, T., Shepherd, A., McMillan, M., Muir, A., Gilbert, L., Hogg, A. E., Konrad, H. and Parrinello, T.: A new Digital Elevation Model of Antarctica derived from CryoSat-2 altimetry, The Cryosphere, [doi:10.5194/tc-2017-223](https://doi.org/10.5194/tc-2017-223), 2018
 
 
+### DOIs
   * [ https://doi.org/10.5194/tc-2017-223 ](https://doi.org/10.5194/tc-2017-223)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/CPOM_CryoSat2_ANTARCTICA_DEM#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('CPOM/CryoSat2/ANTARCTICA_DEM');
 varvisualization={

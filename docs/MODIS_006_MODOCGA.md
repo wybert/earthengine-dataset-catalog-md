@@ -1,6 +1,6 @@
  
 #  MODOCGA.006 Terra Ocean Reflectance Daily Global 1km 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![MODIS/006/MODOCGA](https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_006_MODOCGA_sample.png) 
 
 Dataset Availability
@@ -18,7 +18,7 @@ Cadence
 Tags
      [daily](https://developers.google.com/earth-engine/datasets/tags/daily) [global](https://developers.google.com/earth-engine/datasets/tags/global) [modis](https://developers.google.com/earth-engine/datasets/tags/modis) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [ocean](https://developers.google.com/earth-engine/datasets/tags/ocean) [reflectance](https://developers.google.com/earth-engine/datasets/tags/reflectance) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery) [sr](https://developers.google.com/earth-engine/datasets/tags/sr) [terra](https://developers.google.com/earth-engine/datasets/tags/terra) [usgs](https://developers.google.com/earth-engine/datasets/tags/usgs)
 modocga
-[Description](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MODOCGA#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MODOCGA#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MODOCGA#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MODOCGA#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MODOCGA#dois) More
+#### Description
 The MODOCGA V6 ocean reflectance product consists of 1 kilometer reflectance data from Terra MODIS bands 8-16. The product is referred to as ocean reflectance, because bands 8-16 are used primarily to produce ocean products, but this is not an ocean product as the tiles produced are land tiles.
 Documentation:
   * [User's Guide](https://lpdaac.usgs.gov/documents/306/MOD09_User_Guide_V6.pdf)
@@ -26,11 +26,12 @@ Documentation:
   * [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MODOCGA)
 
 
+### Bands
 **Pixel Size** 1000 meters 
 **Bands**
 Name | Min | Max | Scale | Wavelength | Description  
 ---|---|---|---|---|---  
-`num_observations` |  0  |  127  | Number of observations per pixel  
+`num_observations` |  0  |  127  |  |  | Number of observations per pixel  
 `sur_refl_b08` |  -100  |  16000  | 0.0001 | 405-420nm | MODIS band 8 surface reflectance  
 `sur_refl_b09` |  -100  |  16000  | 0.0001 | 438-448nm | MODIS band 9 surface reflectance  
 `sur_refl_b10` |  -100  |  16000  | 0.0001 | 483-493nm | MODIS band 10 surface reflectance  
@@ -40,7 +41,7 @@ Name | Min | Max | Scale | Wavelength | Description
 `sur_refl_b14` |  -100  |  16000  | 0.0001 | 673-683nm | MODIS band 14 surface reflectance  
 `sur_refl_b15` |  -100  |  16000  | 0.0001 | 743-753nm | MODIS band 15 surface reflectance  
 `sur_refl_b16` |  -100  |  16000  | 0.0001 | 862-877nm | MODIS band 16 surface reflectance  
-`QC_b8_15_1km` | Band quality for MODIS bands 8-15  
+`QC_b8_15_1km` |  |  |  |  | Band quality for MODIS bands 8-15  
 Bitmask for QC_b8_15_1km
   * Bits 0-3: Band 8 data quality 
     * 0: Highest quality
@@ -132,7 +133,7 @@ Bitmask for QC_b8_15_1km
     * 15: Not processed due to deep ocean or clouds
 
   
-`QC_b16_15_1km` | Band quality for MODIS band 16  
+`QC_b16_15_1km` |  |  |  |  | Band quality for MODIS band 16  
 Bitmask for QC_b16_15_1km
   * Bits 0-3: Unused 
     * 0: N/A
@@ -149,20 +150,23 @@ Bitmask for QC_b16_15_1km
     * 15: Not processed due to deep ocean or clouds
 
   
-`orbit_pnt` |  0  |  15  | Pointer to the orbit of each observation  
-`granule_pnt` |  0  |  254  | Pointer to the granule of each observation  
+`orbit_pnt` |  0  |  15  |  |  | Pointer to the orbit of each observation  
+`granule_pnt` |  0  |  254  |  |  | Pointer to the granule of each observation  
+### Terms of Use
 **Terms of Use**
 MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.
+### Citations
 Citations:
   * Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
 
 
+### DOIs
   * [ https://doi.org/10.5067/MODIS/MODOCGA.006 ](https://doi.org/10.5067/MODIS/MODOCGA.006)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MODOCGA#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('MODIS/006/MODOCGA')
 .filter(ee.Filter.date('2018-01-01','2018-05-01'));

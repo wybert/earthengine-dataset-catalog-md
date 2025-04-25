@@ -1,6 +1,6 @@
  
 #  PALSAR-2 ScanSAR Level 2.2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR_sample.png) 
 
 Dataset Availability
@@ -14,21 +14,22 @@ Earth Engine Snippet
 
 Tags
      [alos2](https://developers.google.com/earth-engine/datasets/tags/alos2) [eroc](https://developers.google.com/earth-engine/datasets/tags/eroc) [jaxa](https://developers.google.com/earth-engine/datasets/tags/jaxa) [palsar2](https://developers.google.com/earth-engine/datasets/tags/palsar2) [radar](https://developers.google.com/earth-engine/datasets/tags/radar) [sar](https://developers.google.com/earth-engine/datasets/tags/sar) [satellite-imagery](https://developers.google.com/earth-engine/datasets/tags/satellite-imagery)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR#citations) More
+#### Description
 The 25 m PALSAR-2 ScanSAR is normalized backscatter data of PALSAR-2 broad area observation mode with observation width of 350 km. The SAR imagery was ortho-rectificatied and slope corrected using the ALOS World 3D - 30 m (AW3D30) Digital Surface Model. Polarization data are stored as 16-bit digital numbers (DN). The DN values can be converted to gamma naught values in decibel unit (dB) using the following equation:
   * γ0 = 10*log10(DN2) - 83.0 dB
 
 
 Level 2.2 data are ortho-rectified and radiometrically terrain-corrected.
 This dataset is compatible with the [Committee on Earth Observation (CEOS)](https://ceos.org/) [Analysis Ready Data for LAND (CARD4L)](https://ceos.org/ard/files/PFS/NRB/v5.5/CARD4L-PFS_NRB_v5.5.pdf) standard.
+### Bands
 **Pixel Size** 25 meters 
 **Bands**
 Name | Units | Scale | Description  
 ---|---|---|---  
-`HH` | HH polarization Terrain-flattened Gamma-Nought backscatter coefficient.  
-`HV` | HV polarization Terrain-flattened Gamma-Nought backscatter coefficient.  
+`HH` |  |  | HH polarization Terrain-flattened Gamma-Nought backscatter coefficient.  
+`HV` |  |  | HV polarization Terrain-flattened Gamma-Nought backscatter coefficient.  
 `LIN` | deg | 0.01 | Local incidence angle. The angle formed by the radar irradiation direction and the normal of the slope.  
-`MSK` | Data quality bitmask.  
+`MSK` |  |  | Data quality bitmask.  
 Bitmask for MSK
   * Bits 0-2: Data quality 
     * 1: Valid data
@@ -38,6 +39,7 @@ Bitmask for MSK
     * 5: Invalid data
 
   
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -85,15 +87,17 @@ SourceProcParam_ProcessingDate | STRING | Processing date of the source product 
 SourceProcParam_ProcessingFacility | STRING | Processing facility of the source product.  
 SourceProcParam_ProductID | STRING | Product ID of the source product.  
 SourceProcParam_SoftwareVersion | DOUBLE | Software version of the source product.  
+### Terms of Use
 **Terms of Use**
 Anyone can use this data free of charge subject to the to the attribution requirements. For detailed terms of use see JAXA [G-Portal Terms of service](https://gportal.jaxa.jp/gpr/index/eula?lang=en) (Section 7. Condition concerning of G-Portal data).
+### Citations
 Citations:
   * The data used for this paper have been provided by Earth Observation Research Center (EORC) of Japan Aerospace Exploration Agency (JAXA).
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varcollection=ee.ImageCollection('JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR')
 .filterBounds(ee.Geometry.Point(143,-5));

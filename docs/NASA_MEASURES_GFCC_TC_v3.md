@@ -1,6 +1,6 @@
  
 #  Global Forest Cover Change (GFCC) Tree Cover Multi-Year Global 30m 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![NASA/MEASURES/GFCC/TC/v3](https://developers.google.com/earth-engine/datasets/images/NASA/NASA_MEASURES_GFCC_TC_v3_sample.png) 
 
 Dataset Availability
@@ -17,7 +17,7 @@ Cadence
 
 Tags
      [forest](https://developers.google.com/earth-engine/datasets/tags/forest) [forest-biomass](https://developers.google.com/earth-engine/datasets/tags/forest-biomass) [glcf](https://developers.google.com/earth-engine/datasets/tags/glcf) [landsat-derived](https://developers.google.com/earth-engine/datasets/tags/landsat-derived) [nasa](https://developers.google.com/earth-engine/datasets/tags/nasa) [umd](https://developers.google.com/earth-engine/datasets/tags/umd)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/NASA_MEASURES_GFCC_TC_v3#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/NASA_MEASURES_GFCC_TC_v3#bands)[Image Properties](https://developers.google.com/earth-engine/datasets/catalog/NASA_MEASURES_GFCC_TC_v3#image-properties)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/NASA_MEASURES_GFCC_TC_v3#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/NASA_MEASURES_GFCC_TC_v3#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/NASA_MEASURES_GFCC_TC_v3#dois) More
+#### Description
 The Landsat Vegetation Continuous Fields (VCF) tree cover layers contain estimates of the percentage of horizontal ground in each 30-m pixel covered by woody vegetation greater than 5 meters in height. The dataset is available for four epochs centered on the years 2000, 2005, 2010 and 2015. The dataset is derived from the GFCC Surface Reflectance product (GFCC30SR), which is based on enhanced Global Land Survey (GLS) datasets. The GLS datasets are composed of high-resolution Landsat 5 Thematic Mapper (TM) and Landsat 7 Enhanced Thematic Mapper Plus (ETM+) images at 30 meter resolution.
 Tree cover, the proportional, vertically projected area of vegetation (including leaves, stems, branches, etc.) of woody plants above a given height, affects terrestrial energy and water exchanges, photosynthesis and transpiration, net primary production, and carbon and nutrient fluxes. Tree cover also affects habitat quality and movements of wildlife, residential property value for humans, and other ecosystem services. The continuous classification scheme of the VCF product enables better depiction of land cover gradients than traditional discrete classification schemes. Importantly for detection and monitoring of forest changes (e.g., deforestation and degradation), tree cover provides a measurable attribute upon which to define forest cover and its changes. Changes in tree cover over time can be used to monitor and retrieve site-specific histories of forest change.
 The dataset has been produced for four year epochs: 2000, 2005, 2010, and 2015 with an image in the collection for each available WRS2 path/row.
@@ -27,13 +27,15 @@ Documentation:
 
 
 Provider's Note: Due to the end of NASA MEaSUREs funding, free versions of this dataset are no longer being produced. Interested parties can obtain updated and expanded versions at www.terraPulse.com.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Units | Min | Max | Description  
 ---|---|---|---|---  
 `tree_canopy_cover` | % |  0  |  100  | The percentage of pixel area covered by trees.  
-`uncertainty` | RMSE for tree-canopy_cover  
-`source_index` | Identity of source image used for the particular pixel. This is an index into the per image metadata array 'sources'. Only available for 2000, 2005, and 2010.  
+`uncertainty` |  |  |  | RMSE for tree-canopy_cover  
+`source_index` |  |  |  | Identity of source image used for the particular pixel. This is an index into the per image metadata array 'sources'. Only available for 2000, 2005, and 2010.  
+### Image Properties
 **Image Properties**
 Name | Type | Description  
 ---|---|---  
@@ -44,18 +46,21 @@ sources | DOUBLE | Sources. Only available for 2000, 2005, and 2010.
 tree_canopy_cover_class_palette | DOUBLE | Tree canopy cover class palette  
 tree_canopy_cover_class_values | DOUBLE | Tree canopy cover class values  
 year | DOUBLE | Year  
+### Terms of Use
 **Terms of Use**
 Intellectual property rights to this dataset belong to University of Maryland, Department of Geographical Sciences and NASA. Usage is free if acklowedgement is made.
+### Citations
 Citations:
   * Paper/Methods Citation: Sexton, J. O., Song, X.-P., Feng, M., Noojipady, P., Anand, A., Huang, C., Kim, D.-H., Collins, K.M., Channan, S., DiMiceli, C., Townshend, J.R.G. (2013). Global, 30-m resolution continuous fields of tree cover: Landsat-based rescaling of MODIS Vegetation Continuous Fields with lidar-based estimates of error. International Journal of Digital Earth, 130321031236007. [doi:10.1080/17538947.2013.786146](https://doi.org/10.1080/17538947.2013.786146).
 
 
+### DOIs
   * [ https://doi.org/10.5067/MEaSUREs/GFCC/GFCC30TC.003 ](https://doi.org/10.5067/MEaSUREs/GFCC/GFCC30TC.003)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/NASA_MEASURES_GFCC_TC_v3#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('NASA/MEASURES/GFCC/TC/v3')
 .filter(ee.Filter.date('2015-01-01','2015-12-31'));

@@ -1,6 +1,6 @@
  
 #  WWF HydroSHEDS Drainage Direction, 15 Arc-Seconds 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WWF/HydroSHEDS/15DIR](https://developers.google.com/earth-engine/datasets/images/WWF/WWF_HydroSHEDS_15DIR_sample.png) 
 
 Dataset Availability
@@ -14,27 +14,30 @@ Earth Engine Snippet
 
 Tags
      [direction](https://developers.google.com/earth-engine/datasets/tags/direction) [drainage](https://developers.google.com/earth-engine/datasets/tags/drainage) [flow](https://developers.google.com/earth-engine/datasets/tags/flow) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [hydrography](https://developers.google.com/earth-engine/datasets/tags/hydrography) [hydrology](https://developers.google.com/earth-engine/datasets/tags/hydrology) [hydrosheds](https://developers.google.com/earth-engine/datasets/tags/hydrosheds) [srtm](https://developers.google.com/earth-engine/datasets/tags/srtm) [surface-ground-water](https://developers.google.com/earth-engine/datasets/tags/surface-ground-water) [water](https://developers.google.com/earth-engine/datasets/tags/water) [wwf](https://developers.google.com/earth-engine/datasets/tags/wwf)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_15DIR#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_15DIR#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_15DIR#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_15DIR#citations) More
+#### Description
 HydroSHEDS is a mapping product that provides hydrographic information for regional and global-scale applications in a consistent format. It offers a suite of geo-referenced datasets (vector and raster) at various scales, including river networks, watershed boundaries, drainage directions, and flow accumulations. HydroSHEDS is based on elevation data obtained in 2000 by NASA's Shuttle Radar Topography Mission (SRTM).
 This drainage direction dataset defines the direction of flow from each cell in the conditioned DEM to its steepest down-slope neighbor. Values of drainage direction vary from 1 to 128. All final outlet cells to the ocean are flagged with a value of 0. All cells that mark the lowest point of an endorheic basin (inland sink) are flagged with a value of -1. The drainage direction values follow the convention adopted by ESRI's flow direction implementation: 1=E, 2=SE, 4=S, 8=SW, 16=W, 32=NW, 64=N, 128=NE.
 This dataset is at 15 arc-second resolution. The datasets available at 15 arc-seconds are the Hydrologically Conditioned DEM, Drainage (Flow) Direction, and Flow Accumulation.
 Note that the quality of the HydroSHEDS data is significantly lower for regions above 60 degrees northern latitude as there is no underlying SRTM elevation data available and thus a coarser-resolution DEM was (HYDRO1k provided by USGS).
 HydroSHEDS was developed by the World Wildlife Fund (WWF) Conservation Science Program in partnership with the U.S. Geological Survey, the International Centre for Tropical Agriculture, The Nature Conservancy, and the Center for Environmental Systems Research of the University of Kassel, Germany.
+### Bands
 **Pixel Size** 463.83 meters 
 **Bands**
 Name | Min | Max | Description  
 ---|---|---|---  
 `b1` |  0*  |  255*  | Drainage direction possible values: 1=E, 2=SE, 4=S, 8=SW, 16=W, 32=NW, 64=N, 128=NE; final outlet cells to the ocean are flagged with a value of 0 and cells that mark the lowest point of an endorheic basin (inland sink) are flagged with a value of 255 (original value of -1)  
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 HydroSHEDS data are free for non-commercial and commercial use. For more information, please refer to the [License Agreement](https://www.hydrosheds.org/page/license).
+### Citations
 Citations:
   * Lehner, B., Verdin, K., Jarvis, A. (2008): New global hydrography derived from spaceborne elevation data. Eos, Transactions, AGU, 89(10): 93-94.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_15DIR#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.Image('WWF/HydroSHEDS/15DIR');
 vardrainageDirection=dataset.select('b1');

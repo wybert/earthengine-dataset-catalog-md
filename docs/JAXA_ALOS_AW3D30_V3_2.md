@@ -1,6 +1,6 @@
  
 #  ALOS DSM: Global 30m v3.2 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![JAXA/ALOS/AW3D30/V3_2](https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_AW3D30_V3_2_sample.png) 
 
 Dataset Availability
@@ -14,19 +14,20 @@ Earth Engine Snippet
 
 Tags
      [alos](https://developers.google.com/earth-engine/datasets/tags/alos) [dem](https://developers.google.com/earth-engine/datasets/tags/dem) [elevation](https://developers.google.com/earth-engine/datasets/tags/elevation) [elevation-topography](https://developers.google.com/earth-engine/datasets/tags/elevation-topography) [geophysical](https://developers.google.com/earth-engine/datasets/tags/geophysical) [jaxa](https://developers.google.com/earth-engine/datasets/tags/jaxa) [topography](https://developers.google.com/earth-engine/datasets/tags/topography)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2#citations) More
+#### Description
 ALOS World 3D - 30m (AW3D30) is a global digital surface model (DSM) dataset with a horizontal resolution of approximately 30 meters (1 arcsec mesh). The dataset is based on the DSM dataset (5-meter mesh version) of the [World 3D Topographic Data](https://www.aw3d.jp/en/). More details are available in the dataset [documentation](https://www.eorc.jaxa.jp/ALOS/en/aw3d30/aw3d30v11_format_e.pdf).
 Version 3.2, released in January 2021, is an improved version created by reconsidering the format in the high latitude area, auxiliary data, and processing method. Different pixel spacing for each latitude zone was adopted at high latitude area. Coastline data, which is one of the auxiliary datasets, was changed, and new supplementary data was used. In addition, as a source data for Japan, AW3D version 3 was also used. Furthermore, the method of detecting anomalous values in the process was improved.
 **Note:** See the code example for the recommended way of computing slope. Unlike most DEMs in Earth Engine, this is an image collection due to multiple resolutions of source files that make it impossible to mosaic them into a single asset, so the slope computations need a reprojection.
 The AW3D DSM elevation is calculated by an image matching process that uses a stereo pair of optical images. Clouds, snow, and ice are automatically identified during processing and applied the mask information. However, mismatched points sometimes remain especially surrounding (or at the edges of) clouds, snow, and ice areas, which cause some height errors in the final DSM.
 Here are some example areas with data values outside of valid elevation range. Impossibly low negative values are concentrated in Antarctica around (-63.77, -61.660), (-77.22, -150.27), and (-73.29, 168.14); in Indonesia around (-5.36, 134.55); in Brazil around (-1.667113844, -50.6269684); and in Peru around (-10.45048137, -75.39459876) with approximate values of -1013, -998, -635, and -610 respectively. Impossibly high positive values are found in several locations in the Arctic around (79.83, -77.67) and (69.54, -75.42); in Fiji around (-16.58, 179.44) and (-18.96, 178.39); and in Nepal around (28.50, 84.56) with approximate values of 15369, 15213, and 10900 respectively.
+### Bands
 **Pixel Size** 30 meters 
 **Bands**
 Name | Min | Max | Description  
 ---|---|---|---  
 `DSM` |  -433*  |  8768*  | Height above sea level. Signed 16 bits. Elevation (in meter) converted from the ellipsoidal height based on ITRF97 and GRS80, using EGM96†1 geoid model.  
 `STK` |  1*  |  54*  | Stacking number of the scene unit DSM used in producing DSM. The band is derived by resampling the stacking number for 5m resolution DSM to 30m resolution.  
-`MSK` | 8-bit mask for the band.  
+`MSK` |  |  | 8-bit mask for the band.  
 Bitmask for MSK
   * Bits 0-7: Generated from resampled DSM. 
     * 0: Valid
@@ -47,8 +48,10 @@ Bitmask for MSK
 
   
 * estimated min or max value 
+### Terms of Use
 **Terms of Use**
 This dataset is available to use with no charge under the conditions specified in the [Terms of use for ALOS Global Digital Surface Model](https://earth.jaxa.jp/en/data/policy/).
+### Citations
 Citations:
   * 
 
@@ -61,7 +64,7 @@ T. Tadono, H. Ishida, F. Oda, S. Naito, K. Minakawa, H. Iwamoto
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.ImageCollection('JAXA/ALOS/AW3D30/V3_2');
 varelevation=dataset.select('DSM');

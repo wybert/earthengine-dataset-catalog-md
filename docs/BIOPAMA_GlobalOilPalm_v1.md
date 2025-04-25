@@ -1,6 +1,6 @@
  
 #  Global Map of Oil Palm Plantations 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences. 
 ![BIOPAMA/GlobalOilPalm/v1](https://developers.google.com/earth-engine/datasets/images/BIOPAMA/BIOPAMA_GlobalOilPalm_v1_sample.png) 
 
 Dataset Availability
@@ -15,9 +15,10 @@ Earth Engine Snippet
 Tags
      [agriculture](https://developers.google.com/earth-engine/datasets/tags/agriculture) [biodiversity](https://developers.google.com/earth-engine/datasets/tags/biodiversity) [conservation](https://developers.google.com/earth-engine/datasets/tags/conservation) [crop](https://developers.google.com/earth-engine/datasets/tags/crop) [global](https://developers.google.com/earth-engine/datasets/tags/global) [landuse](https://developers.google.com/earth-engine/datasets/tags/landuse) [palm](https://developers.google.com/earth-engine/datasets/tags/palm) [plantation](https://developers.google.com/earth-engine/datasets/tags/plantation)
 biopama
-[Description](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1#description)[Bands](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1#bands)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1#citations)[DOIs](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1#dois) More
+#### Description
 The dataset is a 10m global industrial and smallholder oil palm map for 2019. It covers areas where oil palm plantations were detected. The classified images are the output of a convolutional neural network based on Sentinel-1 and Sentinel-2 half-year composites.
 See [article](https://essd.copernicus.org/articles/13/1211/2021/) for additional information.
+### Bands
 **Bands**
 Name | Pixel Size | Description  
 ---|---|---  
@@ -28,18 +29,21 @@ Value | Color | Description
 1 | #ff0000 | Industrial closed-canopy oil palm plantations  
 2 | #ef00ff | Smallholder closed-canopy oil palm plantations  
 3 | #696969 | Other land covers and/or uses that are not closed-canopy oil palm.  
+### Terms of Use
 **Terms of Use**
 [CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
+### Citations
 Citations:
   * Adrià, D., Serge, W., Erik, M., David, G., Stephen, P., & Zoltan, S. (2021). High resolution global industrial and smallholder oil palm map for 2019 (Version v1) [Data set]. Zenodo. [doi:10.5281/zenodo.4473715](https://doi.org/10.5281/zenodo.4473715)
 
 
+### DOIs
   * [ https://doi.org/10.5281/zenodo.4473715 ](https://doi.org/10.5281/zenodo.4473715)
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 // Import the dataset; a collection of composite granules from 2019.
 vardataset=ee.ImageCollection('BIOPAMA/GlobalOilPalm/v1');

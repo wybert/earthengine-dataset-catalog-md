@@ -1,6 +1,6 @@
  
 #  WDPA: World Database on Protected Areas (polygons) 
-bookmark_borderbookmark Stay organized with collections  Save and categorize content based on your preferences.
+Stay organized with collections  Save and categorize content based on your preferences. 
 ![WCMC/WDPA/current/polygons](https://developers.google.com/earth-engine/datasets/images/WCMC/WCMC_WDPA_current_polygons_sample.png) 
 
 Dataset Availability
@@ -14,12 +14,13 @@ Earth Engine Snippet
 
 Tags
      [boundaries](https://developers.google.com/earth-engine/datasets/tags/boundaries) [ecosystems](https://developers.google.com/earth-engine/datasets/tags/ecosystems) [iucn](https://developers.google.com/earth-engine/datasets/tags/iucn) [marine](https://developers.google.com/earth-engine/datasets/tags/marine) [mpa](https://developers.google.com/earth-engine/datasets/tags/mpa) [protected](https://developers.google.com/earth-engine/datasets/tags/protected) [table](https://developers.google.com/earth-engine/datasets/tags/table) [wcmc](https://developers.google.com/earth-engine/datasets/tags/wcmc) [wdpa](https://developers.google.com/earth-engine/datasets/tags/wdpa)
-[Description](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDPA_current_polygons#description)[Table Schema](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDPA_current_polygons#table-schema)[Terms of Use](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDPA_current_polygons#terms-of-use)[Citations](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDPA_current_polygons#citations) More
+#### Description
 The World Database on Protected Areas (WDPA) is the most up-to-date and complete source of information on protected areas, updated monthly with submissions from governments, non-governmental organizations, landowners, and communities. It is managed by the United Nations Environment Programme's World Conservation Monitoring Centre (UNEP-WCMC) with support from IUCN and its World Commission on Protected Areas (WCPA).
 **WDPA User Manual.** For details including methodologies,standards, data providers, metadata field definitions and descriptions, refer to the [WDPA User Manual](https://pp-import-production.s3.amazonaws.com/WDPA_Manual_1_5.pdf).
 The WDPA has two feature classes with associated spatial and tabular data on more than 200k protected areas. About 91% contain polygon boundaries, with the remaining only as points, representing the center of the protected area as much as possible.
 **Asset Naming Conventions.** WCMC updates the WDPA on a monthly basis. The most recent version is always available as WCMC/WDPA/current/polygons and WCMC/WDPA/current/points. Historical versions, starting with July 2017, are available in the format WCMC/WDPA/YYYYMM/polygons and WCMC/WDPA/YYYYMM/points.
 Please see the [WDPA User Manual](https://pp-import-production.s3.amazonaws.com/WDPA_Manual_1_5.pdf) for additional details on the field list.
+### Table Schema
 **Table Schema**
 Name | Type | Description  
 ---|---|---  
@@ -51,18 +52,20 @@ PARENT_ISO | STRING | Parent ISO3 code. [ISO 3166-3 character code](https://en.w
 ISO3 | STRING | ISO3 Code. [ISO 3166-3 character code](https://en.wikipedia.org/wiki/ISO_3166-3) of the country or territory where the PA is located.  
 GIS_AREA | DOUBLE | Protected area total extent, including both marine (if applicable) and terrestrial areas, in square kilometers calculated by UNEP-WCMC projecting the protected area polygon in the standard Mollweide projection and using GIS software tools.  
 GIS_M_AREA | DOUBLE | Protected area marine extent in square kilometers calculated by UNEP-WCMC projecting the protected area polygon in the standard Mollweide projection and using GIS software tools.  
+### Terms of Use
 **Terms of Use**
 Please visit the [full terms and conditions page](https://www.protectedplanet.net/c/terms-and-conditions) of Protected Planet. Select highlights below:
 **No Commercial Use.** Neither (a) the WDPA Materials nor (b) any work derived from or based upon the WDPA Materials ("Derivative Works") may be put to Commercial Use without the prior written permission of UNEP-WCMC. "Commercial Use" means a) any use by, on behalf of, or to inform or assist the activities of, a commercial entity (an entity that operates 'for profit') or b) use by any individual or non-profit entity for the purposes of revenue generation.
 **Disclaimer.** The designations of geographical entities in any Data Set do not imply the expression of any view or opinion whatsoever on the part of UNEP or WCMC concerning the legal status of any country, territory, or area, or of its authorities, or concerning the delimitation of its frontiers or boundaries.
 **Attribution.** You must ensure that the citation is always clearly reproduced in any publication or analysis involving the WDPA Materials in any derived form or format.
+### Citations
 Citations:
   * UNEP-WCMC and IUCN (year), Protected Planet: The World Database on Protected Areas (WDPA) [On-line], [insert month/year of the version used], Cambridge, UK: UNEP-WCMC and IUCN Available at: www.protectedplanet.net.
 
 
 ### Explore with Earth Engine
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDPA_current_polygons#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 vardataset=ee.FeatureCollection('WCMC/WDPA/current/polygons');
 varvisParams={
@@ -80,7 +83,7 @@ Map.addLayer(dataset,null,'for Inspector',false);
 ### Visualize as a FeatureView
 A `FeatureView` is a view-only, accelerated representation of a `FeatureCollection`. For more details, visit the [ `FeatureView` documentation. ](https://developers.google.com/earth-engine/guides/featureview_overview)
 **Important:** Earth Engine is a platform for petabyte-scale scientific analysis and visualization of geospatial datasets, both for public benefit and for business and government users. Earth Engine is free to use for research, education, and nonprofit use. To get started, please [register for Earth Engine access.](https://console.cloud.google.com/earth-engine)
-[Code Editor (JavaScript)](https://developers.google.com/earth-engine/datasets/catalog/WCMC_WDPA_current_polygons#code-editor-javascript-sample) More
+### Code Editor (JavaScript)
 ```
 varfvLayer=ui.Map.FeatureViewLayer('WCMC/WDPA/current/polygons_FeatureView');
 varvisParams={
